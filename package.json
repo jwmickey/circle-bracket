@@ -4,8 +4,27 @@
   "description": "Circular bracket for tournaments ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch \"webpack.*.js\" --exec \"webpack-dev-server --env development\"",
+    "build": "webpack --env production"
   },
   "author": "Jody Mickey <jody.mickey@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "fast-sass-loader": "^1.4.7",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "svg-inline-loader": "^0.8.0",
+    "svg-url-loader": "^2.3.2",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  }
 }

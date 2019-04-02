@@ -1,0 +1,349 @@
+{
+  "bc": {
+    "name": "Boston College",
+    "abbr": "BC",
+    "mascot": "Golden Eagles",
+    "primaryColor": "#98002E",
+    "secondaryColor": "#BC9B6A",
+    "logo": {
+      "url": "img/teams/bc.svg",
+      "attribution": "By Source, Fair use, https://en.wikipedia.org/w/index.php?curid=25076178"
+    },
+    "conference": "ACC"
+  },
+  "clemson": {
+    "name": "Clemson",
+    "abbr": "CLEM",
+    "mascot": "Tigers",
+    "primaryColor": "#F56600",
+    "secondaryColor": "#522D80",
+    "logo": {
+      "url": "img/teams/clemson.svg",
+      "attribution": "By Clemson University - https://www.clemson.edu/brand/guide/logo.html, Public Domain, https://commons.wikimedia.org/w/index.php?curid=17836784"
+    }
+  },
+  "duke": {
+    "name": "Duke",
+    "abbr": "DUKE",
+    "mascot": "Blue Devils",
+    "primaryColor": "#003087",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/teams/duke.svg",
+      "attribution": "By Duke University - Extracted from here, and converted to svg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=8406733"
+    },
+    "conference": "ACC"
+  },
+  "fsu": {
+    "name": "Florida State",
+    "abbr": "FSU",
+    "mascot": "Seminoles",
+    "primaryColor": "#782F40",
+    "secondaryColor": "#CEB888",
+    "logo": {
+      "url": "img/teams/fsu.svg",
+      "attribution": "By Source, Fair use, https://en.wikipedia.org/w/index.php?curid=52372268"
+    },
+    "conference": "ACC"
+  },
+  "gt": {
+    "name": "Georgia Tech",
+    "abbr": "GT",
+    "mascot": "Yellow Jackets",
+    "primaryColor": "#B3A369",
+    "secondaryColor": "#003057",
+    "logo": {
+      "url": "img/teams/gt.svg",
+      "attribution": "By Georgia Institute of Technology - http://www.licensing.gatech.edu/assets/LicensedToStingFall2008.pdf, Public Domain, https://commons.wikimedia.org/w/index.php?curid=9571643"
+    },
+    "conference": "ACC"
+  },
+  "louisville": {
+    "name": "Louisvile",
+    "abbr": "U of L",
+    "mascot": "Cardinals",
+    "primaryColor": "#AD0000",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/teams/louisville.svg",
+      "attribution": "By Source, Fair use, https://en.wikipedia.org/w/index.php?curid=52372348"
+    },
+    "conference": "ACC"
+  },
+  "miami": {
+    "name": "Miami",
+    "abbr": "MIAMI",
+    "mascot": "Hurricanes",
+    "primaryColor": "#F47321",
+    "secondaryColor": "#005030",
+    "logo": {
+      "url": "img/teams/miami.svg",
+      "attribution": "By University of Miami. - http://www7.miami.edu/ftp/umidentity/downloads/UMiami_IDguide_070909.pdf, Public Domain, https://commons.wikimedia.org/w/index.php?curid=36630981"
+    },
+    "conference": "ACC"
+  },
+  "unc": {
+    "name": "North Carolina",
+    "abbr": "UNC",
+    "mascot": "Tar Heels",
+    "primaryColor": "#7BAFD4",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/teams/unc.svg",
+      "attribution": "By original author unknown; University of North Carolina at Chapel Hill - Brand guide. fill: 00 #4B9CD3, border: 00 #13294Bold link: http://www.licensing.unc.edu/New/General/UNC%20Logo%20Sheet.pdf (archived), Public Domain, https://commons.wikimedia.org/w/index.php?curid=9571635"
+    },
+    "conference": "ACC"
+  },
+  "ncst": {
+    "name": "NC State",
+    "abbr": "NCST",
+    "mascot": "Wolfpack",
+    "primaryColor": "#CC0000",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/teams/ncst.svg",
+      "attribution": "By North Carolina State University - NCSU University brand book - Visual identityTransferred to Commons by User:NativeForeigner using Commons Helper, Public Domain, https://commons.wikimedia.org/w/index.php?curid=9571649"
+    },
+    "conference": "ACC"
+  },
+  "notredame": {
+    "name": "Notre Dame",
+    "abbr": "ND",
+    "mascot": "Fighting Irish",
+    "primaryColor": "#0C2340",
+    "secondaryColor": "#C99700",
+    "logo": {
+      "url": "img/teams/notredame.svg",
+      "attribution": "By University of Notre Dame - svg rendering of w:Image:NotreDameFightingIrish.png, Public Domain, https://commons.wikimedia.org/w/index.php?curid=4278095"
+    },
+    "conference": "ACC"
+  },
+  "pitt": {
+    "name": "Pittsburgh",
+    "abbr": "PITT",
+    "mascot": "Panthers",
+    "primaryColor": "#1C2957",
+    "secondaryColor": "#CDB87D",
+    "logo": {
+      "url": "img/teams/pitt.svg",
+      "attribution": "By Pittsburgh Panthers - www.pittsburghpanthers.com, Public Domain, https://commons.wikimedia.org/w/index.php?curid=49807785"
+    },
+    "conference": "ACC"
+  },
+  "syracuse": {
+    "name": "Syracuse",
+    "abbr": "CUSE",
+    "mascot": "Orange",
+    "primaryColor": "#D44500",
+    "secondaryColor": "#3E3D3C",
+    "logo": {
+      "url": "img/teams/syracuse.svg",
+      "attribution": "By Syracuse University - http://www.syracuse.edu and, Public Domain, https://commons.wikimedia.org/w/index.php?curid=12034414"
+    },
+    "conference": "ACC"
+  },
+  "uva": {
+    "name": "Virginia",
+    "abbr": "UVA",
+    "mascot": "Cavaliers",
+    "primaryColor": "#232D4B",
+    "secondaryColor": "#F84C1E",
+    "logo": {
+      "url": "img/teams/uva.svg",
+      "attribution": "By Source, Fair use, https://en.wikipedia.org/w/index.php?curid=18256182"
+    },
+    "conference": "ACC"
+  },
+  "vt": {
+    "name": "Virginia Tech",
+    "abbr": "VT",
+    "mascot": "Hokies",
+    "primaryColor": "#630031",
+    "secondaryColor": "#CF4420",
+    "logo": {
+      "url": "img/teams/vt.svg",
+      "attribution": "By Virginia Polytechnic Institute and State University - Cropped in Photoshop, and converted to SVG in Adobe Illustrator, colors updated in accordance with http://www.branding.unirel.vt.edu/style-guide.pdf  Transferred from en.wikipedia to Commons.(Original text: Virginia Polytechnic Institute and State University)1 June 2007 (original upload date), Public Domain, https://commons.wikimedia.org/w/index.php?curid=12034507"
+    },
+    "conference": "ACC"
+  },
+  "wake": {
+    "name": "Wake Forest",
+    "abbr": "WF",
+    "mascot": "Demon Deacons",
+    "primaryColor": "#A67F31",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/teams/wake.svg",
+      "attribution": "By Wake Forest University - http://www.wfbrandstandards.com/logos.html#logo, colors from http://www.wfu.edu/identity/guide/wfu_identity.colors_and_paper_stock.pdf, Public Domain, https://commons.wikimedia.org/w/index.php?curid=9571628"
+    },
+    "conference": "ACC"
+  },
+  "illinois": {
+    "name": "Illinois",
+    "abbr": "IL",
+    "mascot": "Fighting Illini",
+    "primaryColor": "#E84A27",
+    "secondaryColor": "#13294B",
+    "logo": {
+      "url": "img/teams/illinois.svg",
+      "attribution": "By Illinois Athletics - Illinois Athletics Unveils Updated Brand Identity press release, Public Domain, https://commons.wikimedia.org/w/index.php?curid=53483117"
+    },
+    "conference": "BIG10"
+  },
+  "indiana": {
+    "name": "Indiana",
+    "abbr": "IU",
+    "mascot": "Hoosiers",
+    "primaryColor": "#990000",
+    "secondaryColor": "#EEEDEB",
+    "logo": {
+      "url": "img/teams/indiana.svg",
+      "attribution": "By Unknown - http://visualidentity.iu.edu/doc/manual072208.pdf, Public Domain, https://commons.wikimedia.org/w/index.php?curid=16892718"
+    },
+    "conference": "BIG10"
+  },
+  "iowa": {
+    "name": "Iowa",
+    "abbr": "IOWA",
+    "mascot": "Hawkeyes",
+    "primaryColor": "#FFCD00",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/teams/iowa.svg",
+      "attribution": "By Source, Fair use, https://en.wikipedia.org/w/index.php?curid=52498807"
+    },
+    "conference": "BIG10"
+  },
+  "maryland": {
+    "name": "Maryland",
+    "abbr": "MD",
+    "mascot": "Terrapins",
+    "primaryColor": "#E03A3E",
+    "secondaryColor": "#FFD520",
+    "logo": {
+      "url": "img/teams/maryland.svg",
+      "attribution": "By Maryland Terps - http://www.trademarks.umd.edu/Athletics/Athletic_Logos_2012/EPSs/MBar_White_3c_186.eps, Public Domain, https://commons.wikimedia.org/w/index.php?curid=53481873"
+    },
+    "conference": "BIG10"
+  },
+  "michigan": {
+    "name": "Michigan",
+    "abbr": "MICH",
+    "mascot": "Wolverines",
+    "primaryColor": "#00274C",
+    "secondaryColor": "#FFCB05",
+    "logo": {
+      "url": "img/teams/michigan.svg",
+      "attribution": "By University of Michigan - Official website, Public Domain, https://commons.wikimedia.org/w/index.php?curid=51968076"
+    },
+    "conference": "BIG10"
+  },
+  "msu": {
+    "name": "Michigan State",
+    "abbr": "MSU",
+    "mascot": "Spartans",
+    "primaryColor": "#18453B",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/teams/msu.svg",
+      "attribution": "By Source, Fair use, https://en.wikipedia.org/w/index.php?curid=27527424"
+    },
+    "conference": "BIG10"
+  },
+  "minnesota": {
+    "name": "Minnesota",
+    "abbr": "MINN",
+    "mascot": "Golden Gophers",
+    "primaryColor": "#7A0019",
+    "secondaryColor": "#FFCC33",
+    "logo": {
+      "url": "img/teams/minnesota.svg",
+      "attribution": "By University of Minnesota - Official website, Public Domain, https://commons.wikimedia.org/w/index.php?curid=51969059"
+    },
+    "conference": "BIG10"
+  },
+  "nebraska": {
+    "name": "Nebraska",
+    "abbr": "NBRK",
+    "mascot": "Cornhuskers",
+    "primaryColor": "#E41C38",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/teams/nebraska.svg",
+      "attribution": "By University of Nebraska Cornhuskers - w:File:University-of-Nebraska-Lincoln-logo.png, Public Domain, https://commons.wikimedia.org/w/index.php?curid=22870702"
+    },
+    "conference": "BIG10"
+  },
+  "northwestern": {
+    "name": "Northwestern",
+    "abbr": "NW",
+    "mascot": "Wildcats",
+    "primaryColor": "#4E2A84",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/teams/northwestern.svg",
+      "attribution": "By Northwestern University Athletics - http://www.northwestern.edu/auxiliary-services/docs/trademark/trademark-guide.pdf, Public Domain, https://commons.wikimedia.org/w/index.php?curid=53485009"
+    },
+    "conference": "BIG10"
+  },
+  "osu": {
+    "name": "Ohio State",
+    "abbr": "OSU",
+    "mascot": "Buckeyes",
+    "primaryColor": "#BB0000",
+    "secondaryColor": "#666666",
+    "logo": {
+      "url": "img/teams/osu.svg",
+      "attribution": "By The original uploader was Buckeyes1186 at English Wikipedia. - Transferred from en.wikipedia to Commons., Public Domain, https://commons.wikimedia.org/w/index.php?curid=32332465"
+    },
+    "conference": "BIG10"
+  },
+  "psu": {
+    "name": "Penn State",
+    "abbr": "PSU",
+    "mascot": "Nittany Lions",
+    "primaryColor": "#093162",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/teams/psu.svg",
+      "attribution": "By Source, Fair use, https://en.wikipedia.org/w/index.php?curid=22667422"
+    },
+    "conference": "BIG10"
+  },
+  "purdue": {
+    "name": "Purdue",
+    "abbr": "PUR",
+    "mascot": "Boilermakers",
+    "primaryColor": "#CEB888",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/teams/purdue.svg",
+      "attribution": "By Unknown - http://www.ces.purdue.edu/ktgmarketing/StandardsManual_screen.pdf, Public Domain, https://commons.wikimedia.org/w/index.php?curid=11184317"
+    },
+    "conference": "BIG10"
+  },
+  "rutgers": {
+    "name": "Rutgers",
+    "abbr": "RUTG",
+    "mascot": "Scarlet Knights",
+    "primaryColor": "#CC0033",
+    "secondaryColor": "#5F6A72",
+    "logo": {
+      "url": "img/teams/rutgers.svg",
+      "attribution": "By Mr. Matté (if there is an issue with this image, contact me using this image's Commons talk page or my English Wikipedia talk page; I'll know about it a lot faster) - Traced from File:Rutgers athletics logo.png and other personal photos, Public Domain, https://commons.wikimedia.org/w/index.php?curid=14632164"
+    },
+    "conference": "BIG10"
+  },
+  "wisconsin": {
+    "name": "Wisconsin",
+    "abbr": "WIS",
+    "mascot": "Badgers",
+    "primaryColor": "#C5050C",
+    "secondaryColor": "#9B0000",
+    "logo": {
+      "url": "img/teams/wisconsin.svg",
+      "attribution": "By Board of Regents of the University of Wisconsin System - https://licensing.wiscweb.wisc.edu/wp-content/uploads/sites/88/2017/10/Wisconsin_StyleGuide_7_17.pdf, Public Domain, https://commons.wikimedia.org/w/index.php?curid=17843668"
+    },
+    "conference": "BIG10"
+  }
+}
