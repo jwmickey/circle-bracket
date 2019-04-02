@@ -17,6 +17,6 @@ const cvs = document.body.appendChild(canvas(width, height));
 
 let slot = 0;
 for (let key of Object.keys(teams)) {
-  fillSlot(cvs, numEntries, margin, 1, slot++, teams[key]);
+  fillSlot(cvs, numEntries, margin, 0, slot++, teams[key]);
 }
 drawGrid(cvs, numEntries, margin);

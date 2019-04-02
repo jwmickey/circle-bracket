@@ -85,7 +85,7 @@ export const fillSlot = (cvs, numEntries, margin, round, slot, team) => {
     ctx,
     logoX,
     logoY,
-    50,
+    30,
     0, //-90 + degrees * slot,
     require("../" + team.logo.url),
     team.name
@@ -110,7 +110,7 @@ export const drawLogo = (ctx, x, y, size, angle, logo, alt) => {
   });
   img.addEventListener("error", e => {
     console.log(alt, logo);
-    console.error("Error displaying image for " + alt, e);
+    console.error("Error displaying image for " + alt, e.message);
   });
   img.src = url;
 };
