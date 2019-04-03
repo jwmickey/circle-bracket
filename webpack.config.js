@@ -4,34 +4,39 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const parts = require("./webpack.parts");
 
 const commonConfig = merge([
-    {
-        plugins: [
-            new HtmlWebpackPlugin({
-                title: "Webpack demo",
-            }),
-        ],
-    },
-    parts.loadCSS()
+  {
+    plugins: [
+      new HtmlWebpackPlugin({
+        title: "Circular Tournament Bracket"
+      })
+    ]
+  },
+  parts.loadCSS()
 ]);
 
 const productionConfig = merge([
-    parts.loadImages({
-        options: {
-            limit: 15000,
-            name: "[name].[ext]",
-        }
-    }),
+  parts.loadSVG({ loader: "file" }),
+  parts.loadImages({
+    options: {
+      limit: 15000,
+      name: "[name].[ext]"
+    }
+  }),
+  {
+    devtool: "source-map"
+  }
 ]);
 
 const developmentConfig = merge([
-    parts.devServer(),
-    parts.loadImages(),
+  parts.devServer(),
+  parts.loadSVG({ loader: "file" }),
+  parts.loadImages()
 ]);
 
 module.exports = mode => {
-    if (mode === "production") {
-        return merge(commonConfig, productionConfig, { mode });
-    }
+  if (mode === "production") {
+    return merge(commonConfig, productionConfig, { mode });
+  }
 
-    return merge(commonConfig, developmentConfig, { mode });
-}
+  return merge(commonConfig, developmentConfig, { mode });
+};

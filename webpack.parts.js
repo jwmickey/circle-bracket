@@ -19,20 +19,36 @@ exports.loadImages = ({ include, exclude, options } = {}) => ({
           loader: "url-loader",
           options
         }
-      },
-      {
-        test: /\.svg$/,
-        use: {
-          loader: "svg-inline-loader",
-          options: {
-            removeTags: true,
-            removeSVGTagAttrs: false
-          }
-        }
       }
     ]
   }
 });
+
+exports.loadSVG = (options = {}) => {
+  let use;
+  if (options.loader === "file") {
+    use = "file-loader";
+  } else {
+    use = {
+      loader: "svg-inline-loader",
+      options: {
+        removeTags: true,
+        removeSVGTagAttrs: false
+      }
+    };
+  }
+
+  return {
+    module: {
+      rules: [
+        {
+          test: /\.svg$/,
+          use
+        }
+      ]
+    }
+  };
+};
 
 exports.loadCSS = ({ include, exclude } = {}) => ({
   module: {

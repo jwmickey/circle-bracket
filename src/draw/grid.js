@@ -8,6 +8,7 @@ export const drawGrid = (cvs, numEntries, margin) => {
 
   // draw grid lines
   ctx.lineWidth = 1;
+  ctx.strokeStyle = "#000000";
   ctx.setTransform(1, 0, 0, 1, 0, 0);
 
   for (let i = 0; i < numRounds; i++) {
@@ -39,17 +40,16 @@ export const fillSlot = (cvs, numEntries, margin, round, slot, team) => {
   const ctx = cvs.getContext("2d");
   const center = cvs.width / 2;
   const roundWidth = cvs.width * 0.065;
-
-  ctx.setTransform(1, 0, 0, 1, 0, 0);
-  ctx.translate(center, center);
-
   const radius = cvs.width / 2 - roundWidth * round - margin;
+  const innerRadius = cvs.width / 2 - roundWidth * (round + 1) - margin;
   const slots = numEntries / Math.pow(2, round);
   const degrees = 360 / slots;
 
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  ctx.translate(center, center);
   ctx.rotate(degrees * (slot - 1) * TO_RADIANS);
-  let innerRadius = cvs.width / 2 - roundWidth * (round + 1) - margin;
 
+  // create path for slot, used for background color and as the image clipping path
   const path = new Path2D();
   path.arc(
     0,
@@ -68,49 +68,118 @@ export const fillSlot = (cvs, numEntries, margin, round, slot, team) => {
     true
   );
 
-  ctx.fillStyle = team.secondaryColor;
+  ctx.fillStyle = team.logo.background || team.primaryColor || "#FFFFFF";
   ctx.fill(path);
 
-  // find center point for logo position
-  let t1 = ((Math.PI * 2) / slots) * slot;
-  let t2 = ((Math.PI * 2) / slots) * (slot + 1);
-  let x1 = Math.floor(radius * Math.cos(t1) + center);
-  let y1 = Math.floor(radius * Math.sin(t1) + center);
-  let x2 = Math.floor((radius - roundWidth) * Math.cos(t2) + center);
-  let y2 = Math.floor((radius - roundWidth) * Math.sin(t2) + center);
-  let logoX = Math.max(x1, x2) - Math.abs(x2 - x1) / 2;
-  let logoY = Math.max(y2, y2) - Math.abs(y2 - y1) / 2;
+  // find logo position and dims
+  const quadrant = slot / slots;
+  const t1 = ((Math.PI * 2) / slots) * slot;
+  const t2 = ((Math.PI * 2) / slots) * (slot + 1);
+  let x1Radius, y1Radius, x2Radius, y2Radius;
 
-  drawLogo(
-    ctx,
-    logoX,
-    logoY,
-    30,
-    0, //-90 + degrees * slot,
-    require("../" + team.logo.url),
-    team.name
+  if (quadrant <= 0.25) {
+    x1Radius = innerRadius;
+    y1Radius = innerRadius;
+    x2Radius = radius;
+    y2Radius = radius;
+  } else if (quadrant < 0.5) {
+    x1Radius = radius;
+    y1Radius = innerRadius;
+    x2Radius = innerRadius;
+    y2Radius = radius;
+  } else if (quadrant < 0.75) {
+    x1Radius = radius;
+    y1Radius = radius;
+    x2Radius = innerRadius;
+    y2Radius = innerRadius;
+  } else {
+    x1Radius = innerRadius;
+    y1Radius = radius;
+    x2Radius = radius;
+    y2Radius = innerRadius;
+  }
+
+  // these values give us oversized areas to display the logo in
+  const x1 = Math.floor(
+    Math.min(x1Radius * Math.cos(t1), x1Radius * Math.cos(t2)) + center
   );
-};
+  const y1 = Math.floor(
+    Math.min(y1Radius * Math.sin(t1), y1Radius * Math.sin(t2)) + center
+  );
+  const x2 = Math.floor(
+    Math.max(x2Radius * Math.cos(t1), x2Radius * Math.cos(t2)) + center
+  );
+  const y2 = Math.floor(
+    Math.max(y2Radius * Math.sin(t1), y2Radius * Math.sin(t2)) + center
+  );
 
-export const drawLogo = (ctx, x, y, size, angle, logo, alt) => {
-  const DOMURL = window.URL || window.webkitURL || window;
+  // TODO: don't let the image get more than some percentage greater than the width/height of the slot
+  const imgMaxWidth = Math.abs(x2 - x1);
+  const imgMaxHeight = Math.abs(y2 - y1);
+  const logo = require("../" + team.logo.url);
   const img = new Image();
-  const svg = new Blob([logo], { type: "image/svg+xml" });
-  const url = DOMURL.createObjectURL(svg);
-  img.addEventListener("load", () => {
-    let width, height;
-    width = size;
-    height = Math.floor((size / img.width) * img.height);
+  const DOMURL = window.URL || window.webkitURL || window;
+  let url;
+  let isSVGXML = false;
 
-    ctx.translate(x, y);
-    ctx.rotate(angle * (Math.PI / 180));
-    ctx.drawImage(img, -width / 2, -height / 2, width, height);
-    ctx.resetTransform();
-    DOMURL.revokeObjectURL(url);
+  // logo might be a path to a file or it could be a SVG XML code
+  if (logo.substring(0, 4) === "<svg") {
+    const svg = new Blob([logo], { type: "image/svg+xml" });
+    url = DOMURL.createObjectURL(svg);
+    isSVGXML = true;
+  } else {
+    url = logo;
+  }
+
+  img.addEventListener("load", () => {
+    if (isSVGXML) {
+      DOMURL.revokeObjectURL(url);
+    }
+
+    const [width, height] = scaleDims(
+      img.width,
+      img.height,
+      imgMaxWidth,
+      imgMaxHeight
+    );
+    const xOffset = (imgMaxWidth - width) / 2;
+    const yOffset = (imgMaxHeight - height) / 2;
+
+    ctx.save();
+    // TODO: this works fine for slots that don't arc more than 1/4 of a circle.  need more points of reference for larger slots (champ teams and winner)
+    ctx.beginPath();
+    ctx.arc(
+      center,
+      center,
+      radius,
+      TO_RADIANS * degrees * slot,
+      TO_RADIANS * (degrees + degrees * slot)
+    );
+    ctx.arc(
+      center,
+      center,
+      innerRadius,
+      TO_RADIANS * (degrees + degrees * slot),
+      TO_RADIANS * degrees * slot,
+      true
+    );
+    ctx.closePath();
+    if (round > 4) {
+      ctx.strokeStyle = "yellow";
+      ctx.stroke();
+    } else {
+      ctx.clip();
+    }
+    ctx.drawImage(img, x1 + xOffset, y1 + yOffset, width, height);
+    ctx.restore();
   });
   img.addEventListener("error", e => {
-    console.log(alt, logo);
-    console.error("Error displaying image for " + alt, e.message);
+    console.error("Error displaying image for " + team.name, e.message);
   });
   img.src = url;
+};
+
+const scaleDims = (w, h, mW, mH) => {
+  let scale = Math.min(mW, mH) / Math.max(w, h);
+  return [w * scale, h * scale];
 };
