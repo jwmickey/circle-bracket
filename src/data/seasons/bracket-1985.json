@@ -1,0 +1,1348 @@
+{
+	"format": "ncaa",
+	"updated": "2019-04-05T16:54:40.213Z",
+	"year": 1985,
+	"regions": [
+		{
+			"name": "",
+			"placement": "TL"
+		},
+		{
+			"name": "",
+			"placement": "BL"
+		},
+		{
+			"name": "",
+			"placement": "TR"
+		},
+		{
+			"name": "",
+			"placement": "BR"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Lehigh",
+				"code": "lehigh",
+				"seed": 16,
+				"score": 43,
+				"winner": false
+			},
+			"date": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 8,
+				"score": 60,
+				"winner": true
+			},
+			"away": {
+				"name": "Virginia Tech",
+				"code": "virginia-tech",
+				"seed": 9,
+				"score": 57,
+				"winner": false
+			},
+			"date": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": 5,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "Old Dominion",
+				"code": "old-dominion",
+				"seed": 12,
+				"score": 68,
+				"winner": false
+			},
+			"date": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Loyola–Chicago",
+				"code": "loyola-il",
+				"seed": 4,
+				"score": 59,
+				"winner": true
+			},
+			"away": {
+				"name": "Iona",
+				"code": "iona",
+				"seed": 13,
+				"score": 58,
+				"winner": false
+			},
+			"date": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Georgia",
+				"code": "georgia",
+				"seed": 6,
+				"score": 67,
+				"winner": true
+			},
+			"away": {
+				"name": "Wichita State",
+				"code": "wichita-st",
+				"seed": 11,
+				"score": 59,
+				"winner": false
+			},
+			"date": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 3,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Northeastern",
+				"code": "northeastern",
+				"seed": 14,
+				"score": 57,
+				"winner": false
+			},
+			"date": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 7,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "DePaul",
+				"code": "depaul",
+				"seed": 10,
+				"score": 65,
+				"winner": false
+			},
+			"date": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Georgia Tech",
+				"code": "georgia-tech",
+				"seed": 2,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "Mercer",
+				"code": "mercer",
+				"seed": 15,
+				"score": 58,
+				"winner": false
+			},
+			"date": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 63,
+				"winner": true
+			},
+			"away": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 8,
+				"score": 46,
+				"winner": false
+			},
+			"date": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": 5,
+				"score": 57,
+				"winner": false
+			},
+			"away": {
+				"name": "Loyola–Chicago",
+				"code": "loyola-il",
+				"seed": 4,
+				"score": 70,
+				"winner": true
+			},
+			"date": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Georgia",
+				"code": "georgia",
+				"seed": 6,
+				"score": 58,
+				"winner": false
+			},
+			"away": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 3,
+				"score": 74,
+				"winner": true
+			},
+			"date": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 7,
+				"score": 53,
+				"winner": false
+			},
+			"away": {
+				"name": "Georgia Tech",
+				"code": "georgia-tech",
+				"seed": 2,
+				"score": 70,
+				"winner": true
+			},
+			"date": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "Loyola–Chicago",
+				"code": "loyola-il",
+				"seed": 4,
+				"score": 53,
+				"winner": false
+			},
+			"date": "",
+			"region": "TL",
+			"round": 3,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 3,
+				"score": 53,
+				"winner": false
+			},
+			"away": {
+				"name": "Georgia Tech",
+				"code": "georgia-tech",
+				"seed": 2,
+				"score": 61,
+				"winner": true
+			},
+			"date": "",
+			"region": "TL",
+			"round": 3,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 60,
+				"winner": true
+			},
+			"away": {
+				"name": "Georgia Tech",
+				"code": "georgia-tech",
+				"seed": 2,
+				"score": 54,
+				"winner": false
+			},
+			"date": "",
+			"region": "TL",
+			"round": 4,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "St John's",
+				"code": "st-johns-ny",
+				"seed": 1,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Southern",
+				"code": "southern-u",
+				"seed": 16,
+				"score": 59,
+				"winner": false
+			},
+			"date": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 8,
+				"score": 54,
+				"winner": false
+			},
+			"away": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 9,
+				"score": 63,
+				"winner": true
+			},
+			"date": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Washington",
+				"code": "washington",
+				"seed": 5,
+				"score": 58,
+				"winner": false
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 12,
+				"score": 66,
+				"winner": true
+			},
+			"date": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 4,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "San Diego State",
+				"code": "san-diego-st",
+				"seed": 13,
+				"score": 80,
+				"winner": false
+			},
+			"date": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Tulsa",
+				"code": "tulsa",
+				"seed": 6,
+				"score": 75,
+				"winner": false
+			},
+			"away": {
+				"name": "UTEP",
+				"code": "utep",
+				"seed": 11,
+				"score": 79,
+				"winner": true
+			},
+			"date": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 3,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "Nevada",
+				"code": "nevada",
+				"seed": 14,
+				"score": 56,
+				"winner": false
+			},
+			"date": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 7,
+				"score": 50,
+				"winner": true
+			},
+			"away": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 10,
+				"score": 41,
+				"winner": false
+			},
+			"date": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 2,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Marshall",
+				"code": "marshall",
+				"seed": 15,
+				"score": 65,
+				"winner": false
+			},
+			"date": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "St John's",
+				"code": "st-johns-ny",
+				"seed": 1,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 9,
+				"score": 65,
+				"winner": false
+			},
+			"date": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 12,
+				"score": 64,
+				"winner": true
+			},
+			"away": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 4,
+				"score": 61,
+				"winner": false
+			},
+			"date": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "UTEP",
+				"code": "utep",
+				"seed": 11,
+				"score": 73,
+				"winner": false
+			},
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 3,
+				"score": 86,
+				"winner": true
+			},
+			"date": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 7,
+				"score": 63,
+				"winner": true
+			},
+			"away": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 2,
+				"score": 59,
+				"winner": false
+			},
+			"date": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "St John's",
+				"code": "st-johns-ny",
+				"seed": 1,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 12,
+				"score": 70,
+				"winner": false
+			},
+			"date": "",
+			"region": "BL",
+			"round": 3,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 3,
+				"score": 61,
+				"winner": true
+			},
+			"away": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 7,
+				"score": 55,
+				"winner": false
+			},
+			"date": "",
+			"region": "BL",
+			"round": 3,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "St John's",
+				"code": "st-johns-ny",
+				"seed": 1,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 3,
+				"score": 60,
+				"winner": false
+			},
+			"date": "",
+			"region": "BL",
+			"round": 4,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 59,
+				"winner": true
+			},
+			"away": {
+				"name": "Fairleigh Dickinson",
+				"code": "fairleigh-dickinson",
+				"seed": 16,
+				"score": 55,
+				"winner": false
+			},
+			"date": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 8,
+				"score": 51,
+				"winner": true
+			},
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 9,
+				"score": 49,
+				"winner": false
+			},
+			"date": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 5,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Miami (OH)",
+				"code": "miami-oh",
+				"seed": 12,
+				"score": 68,
+				"winner": false
+			},
+			"date": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "LSU",
+				"code": "lsu",
+				"seed": 4,
+				"score": 55,
+				"winner": false
+			},
+			"away": {
+				"name": "Navy",
+				"code": "navy",
+				"seed": 13,
+				"score": 78,
+				"winner": true
+			},
+			"date": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 6,
+				"score": 58,
+				"winner": false
+			},
+			"away": {
+				"name": "Auburn",
+				"code": "auburn",
+				"seed": 11,
+				"score": 59,
+				"winner": true
+			},
+			"date": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 3,
+				"score": 49,
+				"winner": true
+			},
+			"away": {
+				"name": "Ohio",
+				"code": "ohio",
+				"seed": 14,
+				"score": 38,
+				"winner": false
+			},
+			"date": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 7,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Oregon State",
+				"code": "oregon-st",
+				"seed": 10,
+				"score": 70,
+				"winner": false
+			},
+			"date": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "North Carolina",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Middle Tennessee State",
+				"code": "middle-tenn",
+				"seed": 15,
+				"score": 57,
+				"winner": false
+			},
+			"date": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 55,
+				"winner": false
+			},
+			"away": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 8,
+				"score": 59,
+				"winner": true
+			},
+			"date": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 5,
+				"score": 64,
+				"winner": true
+			},
+			"away": {
+				"name": "Navy",
+				"code": "navy",
+				"seed": 13,
+				"score": 59,
+				"winner": false
+			},
+			"date": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Auburn",
+				"code": "auburn",
+				"seed": 11,
+				"score": 66,
+				"winner": true
+			},
+			"away": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 3,
+				"score": 64,
+				"winner": false
+			},
+			"date": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 7,
+				"score": 58,
+				"winner": false
+			},
+			"away": {
+				"name": "North Carolina",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 60,
+				"winner": true
+			},
+			"date": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 8,
+				"score": 46,
+				"winner": true
+			},
+			"away": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 5,
+				"score": 43,
+				"winner": false
+			},
+			"date": "",
+			"region": "TR",
+			"round": 3,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Auburn",
+				"code": "auburn",
+				"seed": 11,
+				"score": 56,
+				"winner": false
+			},
+			"away": {
+				"name": "North Carolina",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 62,
+				"winner": true
+			},
+			"date": "",
+			"region": "TR",
+			"round": 3,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 8,
+				"score": 56,
+				"winner": true
+			},
+			"away": {
+				"name": "North Carolina",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 44,
+				"winner": false
+			},
+			"date": "",
+			"region": "TR",
+			"round": 4,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 1,
+				"score": 96,
+				"winner": true
+			},
+			"away": {
+				"name": "North Carolina A&T",
+				"code": "nc-at",
+				"seed": 16,
+				"score": 83,
+				"winner": false
+			},
+			"date": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Southern California",
+				"code": "southern-california",
+				"seed": 8,
+				"score": 55,
+				"winner": false
+			},
+			"away": {
+				"name": "Illinois State",
+				"code": "illinois-st",
+				"seed": 9,
+				"score": 58,
+				"winner": true
+			},
+			"date": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Louisiana Tech",
+				"code": "louisiana-tech",
+				"seed": 5,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Pittsburgh",
+				"code": "pittsburgh",
+				"seed": 12,
+				"score": 54,
+				"winner": false
+			},
+			"date": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": 4,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Iowa State",
+				"code": "iowa-st",
+				"seed": 13,
+				"score": 64,
+				"winner": false
+			},
+			"date": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Texas Tech",
+				"code": "texas-tech",
+				"seed": 6,
+				"score": 53,
+				"winner": false
+			},
+			"away": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 11,
+				"score": 55,
+				"winner": true
+			},
+			"date": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 3,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Pepperdine",
+				"code": "pepperdine",
+				"seed": 14,
+				"score": 62,
+				"winner": false
+			},
+			"date": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "UAB",
+				"code": "uab",
+				"seed": 7,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 10,
+				"score": 68,
+				"winner": false
+			},
+			"date": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Memphis State",
+				"code": "memphis",
+				"seed": 2,
+				"score": 67,
+				"winner": true
+			},
+			"away": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 15,
+				"score": 55,
+				"winner": false
+			},
+			"date": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 1,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Illinois State",
+				"code": "illinois-st",
+				"seed": 9,
+				"score": 69,
+				"winner": false
+			},
+			"date": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Louisiana Tech",
+				"code": "louisiana-tech",
+				"seed": 5,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": 4,
+				"score": 67,
+				"winner": false
+			},
+			"date": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 11,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 3,
+				"score": 73,
+				"winner": false
+			},
+			"date": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "UAB",
+				"code": "uab",
+				"seed": 7,
+				"score": 66,
+				"winner": false
+			},
+			"away": {
+				"name": "Memphis State",
+				"code": "memphis",
+				"seed": 2,
+				"score": 67,
+				"winner": true
+			},
+			"date": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 1,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "Louisiana Tech",
+				"code": "louisiana-tech",
+				"seed": 5,
+				"score": 84,
+				"winner": false
+			},
+			"date": "",
+			"region": "BR",
+			"round": 3,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 11,
+				"score": 57,
+				"winner": false
+			},
+			"away": {
+				"name": "Memphis State",
+				"code": "memphis",
+				"seed": 2,
+				"score": 59,
+				"winner": true
+			},
+			"date": "",
+			"region": "BR",
+			"round": 3,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 1,
+				"score": 61,
+				"winner": false
+			},
+			"away": {
+				"name": "Memphis State",
+				"code": "memphis",
+				"seed": 2,
+				"score": 63,
+				"winner": true
+			},
+			"date": "",
+			"region": "BR",
+			"round": 4,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "St John's",
+				"code": "st-johns-ny",
+				"seed": 1,
+				"score": 59,
+				"winner": false
+			},
+			"date": "",
+			"region": "",
+			"round": 5,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 8,
+				"score": 52,
+				"winner": true
+			},
+			"away": {
+				"name": "Memphis State",
+				"code": "memphis",
+				"seed": 2,
+				"score": 45,
+				"winner": false
+			},
+			"date": "",
+			"region": "",
+			"round": 5,
+			"isComplete": true,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 64,
+				"winner": false
+			},
+			"away": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 8,
+				"score": 66,
+				"winner": true
+			},
+			"date": "",
+			"region": "",
+			"round": 6,
+			"isComplete": true,
+			"link": ""
+		}
+	]
+}
