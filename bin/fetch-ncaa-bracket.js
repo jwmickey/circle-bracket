@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const cacheDir = path.join(__dirname, "../cache/");
-const dataDir = path.join(__dirname, "../src/data/seasons");
+const dataDir = path.join(__dirname, "../seasons/");
 const linkPrefix = "https://www.ncaa.com";
 
 // CLI INPUTS

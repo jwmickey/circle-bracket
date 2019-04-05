@@ -4,7 +4,7 @@ const path = require("path");
 const teams = require("../src/data/teams.json");
 
 const cacheDir = path.join(__dirname, "../cache/");
-const dataDir = path.join(__dirname, "../src/data/seasons");
+const dataDir = path.join(__dirname, "../seasons/");
 
 const year = parseInt(process.argv[2]) || new Date().getFullYear();
 const useCache = process.argv[3] !== "false";

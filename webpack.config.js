@@ -12,8 +12,9 @@ const commonConfig = merge([
       }),
       new CopyWebpackPlugin([
         {
-          from: "src/data/seasons",
-          to: "seasons"
+          from: "seasons",
+          to: "seasons",
+          force: true
         }
       ])
     ],
