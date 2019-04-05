@@ -13,8 +13,13 @@
   "author": "Jody Mickey <jody.mickey@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
     "axios": "^0.18.0",
+    "babel-loader": "^8.0.5",
     "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-preset-stage-2": "^6.24.1",
     "cheerio": "^1.0.0-rc.2",
     "css-loader": "^2.1.1",
     "fast-sass-loader": "^1.4.7",

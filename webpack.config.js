@@ -11,11 +11,12 @@ const commonConfig = merge([
       })
     ]
   },
+  parts.loadJS(),
   parts.loadCSS()
 ]);
 
 const productionConfig = merge([
-  parts.loadSVG({ loader: "file" }),
+  parts.loadSVG({ loader: "inline" }),
   parts.loadImages({
     options: {
       limit: 15000,

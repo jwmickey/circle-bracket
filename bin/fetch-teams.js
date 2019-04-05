@@ -23,6 +23,11 @@ const TEAM_TEMPLATE = {
   conference: ""
 };
 
+if (fs.existsSync(TEAMS_JSON_FILE)) {
+  console.warn("TEAMS FILE ALREADY EXISTS, EXITING");
+  process.exit(0);
+}
+
 axios
   .get(CONF_PAGE_URL)
   .then(res => {
