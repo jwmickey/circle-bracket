@@ -1,12 +1,14 @@
 const merge = require("webpack-merge");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const CleanWebpackPlugin = require("clean-webpack-plugin");
 
 const parts = require("./webpack.parts");
 
 const commonConfig = merge([
   {
     plugins: [
+      new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
         title: "Circular Tournament Bracket"
       }),
@@ -14,7 +16,10 @@ const commonConfig = merge([
         {
           from: "seasons",
           to: "seasons",
-          force: true
+          force: true,
+          transform(content, path) {
+            return Promise.resolve(content.toString().replace(/\s+/g, ""));
+          }
         }
       ])
     ],
@@ -30,7 +35,7 @@ const commonConfig = merge([
 ]);
 
 const productionConfig = merge([
-  parts.loadSVG({ loader: "file" }),
+  parts.loadSVG({ minify: true }),
   parts.loadImages({
     options: {
       limit: 15000,
@@ -44,7 +49,7 @@ const productionConfig = merge([
 
 const developmentConfig = merge([
   parts.devServer(),
-  parts.loadSVG({ loader: "file" }),
+  parts.loadSVG({ minify: false }),
   parts.loadImages()
 ]);
 

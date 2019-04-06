@@ -41,26 +41,27 @@ exports.loadImages = ({ include, exclude, options } = {}) => ({
   }
 });
 
-exports.loadSVG = (options = {}) => {
-  let use;
-  if (options.loader === "file") {
-    use = "file-loader";
-  } else {
-    use = {
-      loader: "svg-inline-loader",
-      options: {
-        removeTags: true,
-        removeSVGTagAttrs: false
-      }
-    };
-  }
-
+exports.loadSVG = (options = { minify: false }) => {
   return {
     module: {
       rules: [
         {
           test: /\.svg$/,
-          use
+          use: [
+            {
+              loader: "file-loader",
+              options: {
+                outputPath: "svg"
+              }
+            },
+            {
+              loader: "image-webpack-loader",
+              options: {
+                disable: !options.minify,
+                svgo: {}
+              }
+            }
+          ]
         }
       ]
     }
