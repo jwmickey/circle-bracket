@@ -1,6 +1,6 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-07T00:40:53.992Z",
+	"updated": "2019-04-07T03:21:58.932Z",
 	"year": 2019,
 	"regions": [
 		{
@@ -1391,6 +1391,27 @@
 				"name": "Mich. St. ",
 				"code": "michigan-st",
 				"seed": 2,
+				"score": 51,
+				"winner": false
+			},
+			"away": {
+				"name": "Texas Tech",
+				"code": "texas-tech",
+				"seed": 3,
+				"score": 61,
+				"winner": true
+			},
+			"date": "04-06-2019",
+			"region": "",
+			"round": 5,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/04/06/texas-tech-michigan-st"
+		},
+		{
+			"home": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 1,
 				"score": null,
 				"winner": false
 			},
@@ -1401,31 +1422,11 @@
 				"score": null,
 				"winner": false
 			},
-			"date": "04-06-2019",
-			"region": "",
-			"round": 5,
-			"isComplete": false,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/04/06/texas-tech-michigan-st"
-		},
-		{
-			"home": {
-				"name": "",
-				"code": "",
-				"seed": null,
-				"score": null,
-				"winner": false
-			},
-			"away": {
-				"name": "Virginia",
-				"code": "virginia",
-				"seed": 1,
-				"score": null,
-				"winner": false
-			},
 			"date": "04-08-2019",
 			"region": "",
 			"round": 6,
-			"isComplete": false
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/04/08/texas-tech-virginia"
 		}
 	]
 }

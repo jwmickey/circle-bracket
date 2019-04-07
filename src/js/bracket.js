@@ -3,7 +3,7 @@ import teams from "../data/teams";
 const DOMURL = window.URL || window.webkitURL || window;
 const TO_RADIANS = Math.PI / 180;
 
-const DEFAULTS = {
+export const DEFAULTS = {
   numEntries: 64,
   gridStrokeWidth: 2,
   gridStrokeStyle: "#fff",
@@ -26,7 +26,7 @@ export default class Bracket {
   }
 
   getRoundWidth = (round = 1) => {
-    return this.cvs.width * this.settings.roundWidthPct;
+    return this.cvs.width * this.settings.roundWidthPct * round;
   };
 
   getCenter = () => {
@@ -79,8 +79,7 @@ export default class Bracket {
       }
     }
 
-    // draw the grid
-    this.drawGrid();
+    setTimeout(this.drawGrid, 500);
 
     // check to see if we have a champ game
     const champGame = dataset.find(game => game.round === 6 && game.isComplete);
@@ -147,7 +146,7 @@ export default class Bracket {
 
   fillSlot = (round, slot, team) => {
     if (round === 5) {
-      return this.fillChampSlot(slot, team);
+      return this.fillChampGameSlot(slot, team);
     }
 
     const roundWidth = this.getRoundWidth();
@@ -158,38 +157,8 @@ export default class Bracket {
     const slots = this.numEntries / Math.pow(2, round);
     const degrees = 360 / slots;
 
-    // reset and rotate the context to draw this slot in the right place
-    this.ctx.save();
-    this.ctx.setTransform(1, 0, 0, 1, 0, 0);
-    this.ctx.translate(center, center);
-    const rotateAmount = degrees * (slot - 1) * TO_RADIANS;
-    this.ctx.rotate(rotateAmount);
-
-    // create path for slot, used for background color and as the image clipping path
-    const path = new Path2D();
-    path.arc(
-      0,
-      0,
-      radius,
-      TO_RADIANS * degrees,
-      TO_RADIANS * (degrees * 2),
-      false
-    );
-    path.arc(
-      0,
-      0,
-      innerRadius,
-      TO_RADIANS * (degrees * 2),
-      TO_RADIANS * degrees,
-      true
-    );
-
-    this.ctx.fillStyle = team.logo.background || team.primaryColor || "#FFFFFF";
-    this.ctx.fill(path);
-    this.ctx.restore();
-
     // find logo position and dims
-    const { x1, y1, x2, y2 } = calcImageBox(
+    const { x, y, maxWidth, maxHeight } = calcImageBox(
       radius,
       innerRadius,
       center,
@@ -197,60 +166,52 @@ export default class Bracket {
       slot
     );
 
-    // TODO: don't let the image get more than some percentage greater than the width/height of the slot
-    let imgMaxWidth = Math.abs(x2 - x1);
-    let imgMaxHeight = Math.abs(y2 - y1);
-
     const img = new Image();
     const url = createImageUrlFromLogo(team.logo.url);
 
     img.addEventListener("load", () => {
       DOMURL.revokeObjectURL(img.url);
 
-      let xOffset = 0,
-        yOffset = 0;
-
       let [width, height] = this.scaleDims(
         img.width,
         img.height,
-        imgMaxWidth,
-        imgMaxHeight
+        maxWidth,
+        maxHeight
       );
-      xOffset += (imgMaxWidth - width) / 2;
-      yOffset += (imgMaxHeight - height) / 2;
+      const xOffset = (maxWidth - width) / 2;
+      const yOffset = (maxHeight - height) / 2;
+      const angle1 = degrees * slot;
+      const angle2 = angle1 + degrees;
 
-      // create clipping path for logo
+      // create path for background and logo clip area
       this.ctx.save();
       this.ctx.beginPath();
       this.ctx.arc(
         center,
         center,
         radius,
-        TO_RADIANS * degrees * slot,
-        TO_RADIANS * (degrees + degrees * slot)
+        TO_RADIANS * angle1,
+        TO_RADIANS * angle2
       );
       this.ctx.arc(
         center,
         center,
         innerRadius,
-        TO_RADIANS * (degrees + degrees * slot),
-        TO_RADIANS * degrees * slot,
+        TO_RADIANS * angle2,
+        TO_RADIANS * angle1,
         true
       );
       this.ctx.closePath();
+      this.ctx.fillStyle =
+        team.logo.background || team.primaryColor || "#FFFFFF";
+      this.ctx.fill();
       this.ctx.clip();
 
-      if (round === 5) {
-        width = innerRadius * 2;
-        height = innerRadius * 2;
-      }
-
       // draw logo in clipping path
-      this.ctx.drawImage(img, x1 + xOffset, y1 + yOffset, width, height);
+      this.ctx.drawImage(img, x + xOffset, y + yOffset, width, height);
 
       // reset the context
       this.ctx.restore();
-      this.ctx.setTransform(1, 0, 0, 1, 0, 0);
     });
     img.addEventListener("error", e => {
       console.error("Error displaying image for " + team.name, e.message);
@@ -258,10 +219,10 @@ export default class Bracket {
     img.src = url;
   };
 
-  fillChampSlot = (slot, team) => {
+  fillChampGameSlot = (slot, team) => {
     // reset and rotate the context to draw this slot in the right place
     const center = this.getCenter()[0];
-    const radius = center - this.getRoundWidth() * 5 - this.settings.margin;
+    const radius = center - this.getRoundWidth(5) - this.settings.margin;
 
     const img = new Image();
     const url = createImageUrlFromLogo(team.logo.url);
@@ -309,7 +270,7 @@ export default class Bracket {
 
   fillChamp = team => {
     const center = this.getCenter()[0];
-    const radius = center - this.getRoundWidth() * 6 - this.settings.margin;
+    const radius = center - this.getRoundWidth(6) - this.settings.margin;
 
     const img = new Image();
     const url = createImageUrlFromLogo(team.logo.url);
@@ -387,7 +348,10 @@ function calcImageBox(radius, innerRadius, center, slots, slot) {
     Math.max(y2Radius * Math.sin(t1), y2Radius * Math.sin(t2)) + center
   );
 
-  return { x1, y1, x2, y2 };
+  const maxWidth = Math.abs(x2 - x1);
+  const maxHeight = Math.abs(y2 - y1);
+
+  return { x: x1, y: y1, maxWidth, maxHeight };
 }
 
 function createImageUrlFromLogo(logo) {
