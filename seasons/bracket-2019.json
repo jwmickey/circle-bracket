@@ -1,6 +1,6 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T04:35:31.829Z",
+	"updated": "2019-04-07T00:40:53.992Z",
 	"year": 2019,
 	"regions": [
 		{
@@ -1370,20 +1370,20 @@
 				"name": "Virginia",
 				"code": "virginia",
 				"seed": 1,
-				"score": null,
-				"winner": false
+				"score": 63,
+				"winner": true
 			},
 			"away": {
 				"name": "Auburn",
 				"code": "auburn",
 				"seed": 5,
-				"score": null,
+				"score": 62,
 				"winner": false
 			},
 			"date": "04-06-2019",
 			"region": "",
 			"round": 5,
-			"isComplete": false,
+			"isComplete": true,
 			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/04/06/auburn-virginia"
 		},
 		{
@@ -1416,9 +1416,9 @@
 				"winner": false
 			},
 			"away": {
-				"name": "",
-				"code": "",
-				"seed": null,
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 1,
 				"score": null,
 				"winner": false
 			},

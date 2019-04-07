@@ -48,33 +48,35 @@ export default class Bracket {
 
     this.reset();
 
-    const dataset = this.bracketData.games.filter(
-      game => game.round > 0 && game.home.code !== ""
-    );
+    const dataset = this.bracketData.games.filter(game => game.round > 0);
     for (let i = 0; i < dataset.length; i++) {
       const game = dataset[i];
 
-      let homeRegionCode = game.region;
-      let awayRegionCode = game.region;
-
-      if (game.round >= 5) {
-        homeRegionCode = findTeamRegion(dataset, game.home.code);
-        awayRegionCode = findTeamRegion(dataset, game.away.code);
+      if (game.home.code) {
+        let homeRegionCode = game.region;
+        if (game.round >= 5) {
+          homeRegionCode = findTeamRegion(dataset, game.home.code);
+        }
+        const homeTeamSlot = translateToSlot(
+          homeRegionCode,
+          game.round,
+          game.home
+        );
+        this.fillSlot(game.round - 1, homeTeamSlot, teams[game.home.code]);
       }
 
-      const homeTeamSlot = translateToSlot(
-        homeRegionCode,
-        game.round,
-        game.home
-      );
-      const awayTeamSlot = translateToSlot(
-        awayRegionCode,
-        game.round,
-        game.away
-      );
-
-      this.fillSlot(game.round - 1, homeTeamSlot, teams[game.home.code]);
-      this.fillSlot(game.round - 1, awayTeamSlot, teams[game.away.code]);
+      if (game.away.code) {
+        let awayRegionCode = game.region;
+        if (game.round >= 5) {
+          awayRegionCode = findTeamRegion(dataset, game.away.code);
+        }
+        const awayTeamSlot = translateToSlot(
+          awayRegionCode,
+          game.round,
+          game.away
+        );
+        this.fillSlot(game.round - 1, awayTeamSlot, teams[game.away.code]);
+      }
     }
 
     // draw the grid
@@ -261,10 +263,6 @@ export default class Bracket {
     const center = this.getCenter()[0];
     const radius = center - this.getRoundWidth() * 5 - this.settings.margin;
 
-    // background color
-
-    //    this.ctx.restore();
-
     const img = new Image();
     const url = createImageUrlFromLogo(team.logo.url);
 
@@ -300,7 +298,6 @@ export default class Bracket {
 
       // half circle is rotated 90 degrees left or right for background.  rotate back for logo
       this.ctx.rotate((slot ? -90 : 90) * TO_RADIANS);
-      this.ctx.strokeRect(0, 0, 5, 5);
       this.ctx.drawImage(img, x, y, size, size);
       this.ctx.restore();
     });
