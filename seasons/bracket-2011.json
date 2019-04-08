@@ -30,8 +30,8 @@
 				"winner": true
 			},
 			"away": {
-				"name": "",
-				"code": "american",
+				"name": "UTSA",
+				"code": "utsa",
 				"seed": 16,
 				"score": 46,
 				"winner": false
@@ -345,8 +345,8 @@
 				"winner": true
 			},
 			"away": {
-				"name": "",
-				"code": "american",
+				"name": "Hampton",
+				"code": "hampton",
 				"seed": 16,
 				"score": 45,
 				"winner": false
@@ -450,8 +450,8 @@
 				"winner": true
 			},
 			"away": {
-				"name": "",
-				"code": "american",
+				"name": "Bucknell",
+				"code": "bucknell",
 				"seed": 14,
 				"score": 52,
 				"winner": false
@@ -660,8 +660,8 @@
 				"winner": true
 			},
 			"away": {
-				"name": "",
-				"code": "american",
+				"name": "Boston University",
+				"code": "boston-u",
 				"seed": 16,
 				"score": 53,
 				"winner": false

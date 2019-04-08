@@ -25,7 +25,10 @@ function drawBracket(bracketYear) {
   });
 }
 
-const years = Array.from(new Array(maxYear - minYear + 1), (x, i) => i + 1985);
+const years = Array.from(
+  new Array(maxYear - minYear + 1),
+  (x, i) => i + 1985
+).reverse();
 document.body.appendChild(
   yearPicker(years, year, e => {
     const nextYear = e.target.value;

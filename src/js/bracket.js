@@ -8,19 +8,41 @@ export const DEFAULTS = {
   gridStrokeWidth: 2,
   gridStrokeStyle: "#fff",
   roundWidthPct: 0.065,
-  margin: 10
+  margin: 30
 };
 
 export default class Bracket {
   constructor(cvs, settings = {}) {
     this.cvs = cvs;
-    this.ctx = cvs.getContext("2d");
+    this.ctx = cvs.getContext("2d", { alpha: false });
 
     this.settings = { ...DEFAULTS, ...settings };
     this.numEntries = this.settings.numEntries;
     this.numRounds = Math.sqrt(this.numEntries) - 1;
-
     this.bracketData = undefined;
+    this.fontSize = 12;
+    this.teamPaths = [];
+
+    this.cvs.addEventListener("click", event => {
+      const rect = event.target.getBoundingClientRect();
+      const x = event.clientX - rect.left; //x position within the element.
+      const y = event.clientY - rect.top; //y position within the element.
+
+      for (let i = 0; i < this.teamPaths.length; i++) {
+        if (this.ctx.isPointInPath(this.teamPaths[i].path, x, y)) {
+          const { teamCode, team, round } = this.teamPaths[i];
+          const game = this.bracketData.games.find(
+            g =>
+              g.round === round + 1 &&
+              (g.home.code === teamCode || g.away.code === teamCode)
+          );
+          console.log(
+            teams[game.home.code].name + " vs " + teams[game.away.code].name
+          );
+          break;
+        }
+      }
+    });
 
     this.reset();
   }
@@ -38,6 +60,8 @@ export default class Bracket {
   };
 
   reset = () => {
+    this.fontSize = this.cvs.width * 0.0125;
+    this.teamPaths = [];
     this.ctx.clearRect(0, 0, this.cvs.width, this.cvs.height);
   };
 
@@ -62,7 +86,7 @@ export default class Bracket {
           game.round,
           game.home
         );
-        this.fillSlot(game.round - 1, homeTeamSlot, teams[game.home.code]);
+        this.fillSlot(game.round - 1, homeTeamSlot, game.home.code);
       }
 
       if (game.away.code) {
@@ -75,20 +99,23 @@ export default class Bracket {
           game.round,
           game.away
         );
-        this.fillSlot(game.round - 1, awayTeamSlot, teams[game.away.code]);
+        this.fillSlot(game.round - 1, awayTeamSlot, game.away.code);
       }
     }
 
-    setTimeout(this.drawGrid, 500);
+    setTimeout(() => {
+      this.drawSeeds();
+      this.drawGrid();
+    }, 500);
 
     // check to see if we have a champ game
     const champGame = dataset.find(game => game.round === 6 && game.isComplete);
     if (champGame) {
       let winner;
       if (champGame.home.winner) {
-        winner = teams[champGame.home.code];
+        winner = champGame.home.code;
       } else if (champGame.away.winner) {
-        winner = teams[champGame.away.code];
+        winner = champGame.away.code;
       } else {
         winner = {
           name: "Vacated",
@@ -119,8 +146,7 @@ export default class Bracket {
 
     for (let i = 0; i < this.numRounds - 1; i++) {
       const path = new Path2D();
-      const radius =
-        this.getCenter()[0] - roundWidth * i - this.settings.margin;
+      const radius = center - roundWidth * i - this.settings.margin;
       const slots = this.numEntries / Math.pow(2, i);
 
       // outer arc
@@ -141,14 +167,48 @@ export default class Bracket {
 
       this.ctx.stroke(path);
     }
+
+    // draw a line up and down the center for the champ game divider
+    const radius =
+      center - roundWidth * (this.numRounds - 2) - this.settings.margin;
+    this.ctx.setTransform(1, 0, 0, 1, 0, 0);
+    this.ctx.moveTo(center, center + radius);
+    this.ctx.lineTo(center, center - radius);
+    this.ctx.stroke();
+
     this.ctx.restore();
   };
 
-  fillSlot = (round, slot, team) => {
-    if (round === 5) {
-      return this.fillChampGameSlot(slot, team);
+  drawSeeds = () => {
+    const seeds = [1, 16, 8, 9, 5, 12, 4, 13, 6, 11, 3, 14, 7, 10, 2, 15];
+    const center = this.getCenter()[0];
+    const radius = center - this.settings.margin + this.fontSize;
+
+    this.ctx.save();
+    this.ctx.setTransform(1, 0, 0, 1, 0, 0);
+    this.ctx.translate(center, center);
+    this.ctx.textAlign = "center";
+    this.ctx.fillStyle = "#999";
+    this.ctx.font = `${this.fontSize}px Arial`;
+
+    for (let i = 0; i < this.numEntries; i++) {
+      let t1 = ((Math.PI * 2) / this.numEntries) * i;
+      let t2 = ((Math.PI * 2) / this.numEntries) * (i + 1);
+      let t = t1 + (t2 - t1) / 2;
+      let x = Math.floor(radius * Math.cos(t));
+      let y = Math.floor(radius * Math.sin(t) + this.fontSize / 2);
+      this.ctx.fillText(seeds[i % 16].toString(), x, y);
     }
 
+    this.ctx.restore();
+  };
+
+  fillSlot = (round, slot, teamCode) => {
+    if (round === 5) {
+      return this.fillChampGameSlot(slot, teamCode);
+    }
+
+    const team = teams[teamCode];
     const roundWidth = this.getRoundWidth();
     const center = this.getCenter()[0];
     const margin = this.settings.margin;
@@ -185,15 +245,15 @@ export default class Bracket {
 
       // create path for background and logo clip area
       this.ctx.save();
-      this.ctx.beginPath();
-      this.ctx.arc(
+      const path = new Path2D();
+      path.arc(
         center,
         center,
         radius,
         TO_RADIANS * angle1,
         TO_RADIANS * angle2
       );
-      this.ctx.arc(
+      path.arc(
         center,
         center,
         innerRadius,
@@ -201,11 +261,12 @@ export default class Bracket {
         TO_RADIANS * angle1,
         true
       );
-      this.ctx.closePath();
+      path.closePath();
       this.ctx.fillStyle =
         team.logo.background || team.primaryColor || "#FFFFFF";
-      this.ctx.fill();
-      this.ctx.clip();
+      this.ctx.fill(path);
+      this.ctx.clip(path);
+      this.teamPaths.push({ path, teamCode, team, round });
 
       // draw logo in clipping path
       this.ctx.drawImage(img, x + xOffset, y + yOffset, width, height);
@@ -219,7 +280,8 @@ export default class Bracket {
     img.src = url;
   };
 
-  fillChampGameSlot = (slot, team) => {
+  fillChampGameSlot = (slot, teamCode) => {
+    const team = teams[teamCode];
     // reset and rotate the context to draw this slot in the right place
     const center = this.getCenter()[0];
     const radius = center - this.getRoundWidth(5) - this.settings.margin;
@@ -230,35 +292,27 @@ export default class Bracket {
     img.addEventListener("load", () => {
       DOMURL.revokeObjectURL(url);
       this.ctx.save();
-      this.ctx.setTransform(1, 0, 0, 1, 0, 0);
-      this.ctx.translate(center, center);
-      this.ctx.rotate((slot ? 90 : -90) * TO_RADIANS);
       const path = new Path2D();
-      path.arc(0, 0, radius, 0, TO_RADIANS * 180, false);
+      const startAngle = 90 * TO_RADIANS;
+      const endAngle = 270 * TO_RADIANS;
+      const antiClockwise = slot === 0;
+      path.arc(center, center, radius, startAngle, endAngle, antiClockwise);
+      path.closePath();
+      this.teamPaths.push({ path, teamCode, team, round: 5 });
       this.ctx.fillStyle =
         team.logo.background || team.primaryColor || "#FFFFFF";
       this.ctx.fill(path);
+      this.ctx.clip(path);
 
-      // logo
-      this.ctx.beginPath();
-      this.ctx.arc(0, 0, radius, 0, TO_RADIANS * 180);
-      this.ctx.closePath();
-      this.ctx.lineWidth = this.settings.gridStrokeWidth;
-      this.ctx.strokeStyle = this.settings.gridStrokeStyle;
-      this.ctx.stroke();
-      this.ctx.clip();
-
-      let size = radius * 1.5;
-      let x = size / 4;
-      let y = -size / 2;
+      let size = Math.floor(radius * 1.5);
+      let x = center + size / 4;
+      let y = center - size / 2;
       if (slot === 1) {
         x -= size;
       } else {
         x -= size / 2;
       }
 
-      // half circle is rotated 90 degrees left or right for background.  rotate back for logo
-      this.ctx.rotate((slot ? -90 : 90) * TO_RADIANS);
       this.ctx.drawImage(img, x, y, size, size);
       this.ctx.restore();
     });
@@ -268,7 +322,8 @@ export default class Bracket {
     img.src = url;
   };
 
-  fillChamp = team => {
+  fillChamp = teamCode => {
+    const team = teams[teamCode];
     const center = this.getCenter()[0];
     const radius = center - this.getRoundWidth(6) - this.settings.margin;
 
@@ -277,7 +332,7 @@ export default class Bracket {
 
     img.addEventListener("load", () => {
       DOMURL.revokeObjectURL(url);
-      let size = radius * 2.75;
+      let size = Math.floor(radius * 2.75);
       let pos = center - size / 2;
       this.ctx.save();
       this.ctx.beginPath();
@@ -302,7 +357,7 @@ export default class Bracket {
 
   scaleDims = (w, h, mW, mH) => {
     let scale = Math.min(mW, mH) / Math.max(w, h);
-    return [w * scale, h * scale];
+    return [Math.floor(w * scale), Math.floor(h * scale)];
   };
 }
 

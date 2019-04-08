@@ -4,19 +4,19 @@
 	"year": 2010,
 	"regions": [
 		{
-			"name": "",
+			"name": "Midwest",
 			"placement": "BL"
 		},
 		{
-			"name": "",
+			"name": "West",
 			"placement": "TL"
 		},
 		{
-			"name": "",
+			"name": "East",
 			"placement": "BR"
 		},
 		{
-			"name": "",
+			"name": "South",
 			"placement": "TR"
 		}
 	],
@@ -30,8 +30,8 @@
 				"winner": true
 			},
 			"away": {
-				"name": "",
-				"code": "american",
+				"name": "Lehigh",
+				"code": "lehigh",
 				"seed": 16,
 				"score": 74,
 				"winner": false
@@ -345,8 +345,8 @@
 				"winner": true
 			},
 			"away": {
-				"name": "",
-				"code": "american",
+				"name": "Vermont",
+				"code": "vermont",
 				"seed": 16,
 				"score": 56,
 				"winner": false
@@ -492,8 +492,8 @@
 				"winner": true
 			},
 			"away": {
-				"name": "",
-				"code": "american",
+				"name": "North Texas",
+				"code": "north-texas",
 				"seed": 15,
 				"score": 62,
 				"winner": false
@@ -660,8 +660,8 @@
 				"winner": true
 			},
 			"away": {
-				"name": "",
-				"code": "american",
+				"name": "East Tennessee State",
+				"code": "east-tenn-st",
 				"seed": 16,
 				"score": 71,
 				"winner": false
@@ -765,8 +765,8 @@
 				"winner": true
 			},
 			"away": {
-				"name": "",
-				"code": "american",
+				"name": "Montana",
+				"code": "montana",
 				"seed": 14,
 				"score": 57,
 				"winner": false
@@ -975,8 +975,8 @@
 				"winner": true
 			},
 			"away": {
-				"name": "",
-				"code": "american",
+				"name": "Arkansas-Pine Bluff",
+				"code": "ark-pine-bluff",
 				"seed": 16,
 				"score": 44,
 				"winner": false

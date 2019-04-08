@@ -4,19 +4,19 @@
 	"year": 1987,
 	"regions": [
 		{
-			"name": "",
+			"name": "East",
 			"placement": "TL"
 		},
 		{
-			"name": "",
+			"name": "Southeast",
 			"placement": "BL"
 		},
 		{
-			"name": "",
+			"name": "Midwest",
 			"placement": "TR"
 		},
 		{
-			"name": "",
+			"name": "West",
 			"placement": "BR"
 		}
 	],
