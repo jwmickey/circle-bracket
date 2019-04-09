@@ -5,19 +5,19 @@
 	"regions": [
 		{
 			"name": "",
-			"placement": "TL"
+			"position": "TL"
 		},
 		{
 			"name": "",
-			"placement": "BL"
+			"position": "BL"
 		},
 		{
 			"name": "",
-			"placement": "TR"
+			"position": "TR"
 		},
 		{
 			"name": "",
-			"placement": "BR"
+			"position": "BR"
 		}
 	],
 	"games": [
