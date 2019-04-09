@@ -8,7 +8,8 @@ export const DEFAULTS = {
   gridStrokeWidth: 2,
   gridStrokeStyle: "#fff",
   roundWidthPct: 0.065,
-  margin: 30
+  margin: 20,
+  titleHeight: 20
 };
 
 export default class Bracket {
@@ -52,7 +53,10 @@ export default class Bracket {
   };
 
   getCenter = () => {
-    return [this.cvs.width / 2, this.cvs.height / 2];
+    return [
+      this.cvs.width / 2,
+      this.cvs.height / 2 + this.settings.titleHeight
+    ];
   };
 
   setBracket = data => {
@@ -60,7 +64,7 @@ export default class Bracket {
   };
 
   reset = () => {
-    this.fontSize = this.cvs.width * 0.0125;
+    this.fontSize = this.cvs.width * 0.015;
     this.teamPaths = [];
     this.ctx.clearRect(0, 0, this.cvs.width, this.cvs.height);
   };
@@ -71,6 +75,10 @@ export default class Bracket {
     }
 
     this.reset();
+
+    this.drawTitle();
+    this.drawRegionNames();
+    this.drawSeeds();
 
     const dataset = this.bracketData.games.filter(game => game.round > 0);
     for (let i = 0; i < dataset.length; i++) {
@@ -104,7 +112,6 @@ export default class Bracket {
     }
 
     setTimeout(() => {
-      this.drawSeeds();
       this.drawGrid();
     }, 500);
 
@@ -117,13 +124,7 @@ export default class Bracket {
       } else if (champGame.away.winner) {
         winner = champGame.away.code;
       } else {
-        winner = {
-          name: "Vacated",
-          logo: {
-            url: "img/logos/vacated.svg",
-            background: "brown"
-          }
-        };
+        winner = false;
       }
 
       setTimeout(() => {
@@ -133,7 +134,7 @@ export default class Bracket {
   };
 
   drawGrid = () => {
-    const center = this.getCenter()[0];
+    const [centerX, centerY] = this.getCenter();
     const roundWidth = this.getRoundWidth();
 
     // draw grid lines
@@ -141,12 +142,16 @@ export default class Bracket {
     this.ctx.lineWidth = this.settings.gridStrokeWidth;
     this.ctx.strokeStyle = this.settings.gridStrokeStyle;
     this.ctx.setTransform(1, 0, 0, 1, 0, 0);
-    this.ctx.translate(center, center);
+    this.ctx.translate(centerX, centerY);
     this.ctx.rotate(TO_RADIANS * 90);
 
     for (let i = 0; i < this.numRounds - 1; i++) {
       const path = new Path2D();
-      const radius = center - roundWidth * i - this.settings.margin;
+      const radius =
+        centerX -
+        roundWidth * i -
+        this.settings.margin -
+        this.settings.titleHeight;
       const slots = this.numEntries / Math.pow(2, i);
 
       // outer arc
@@ -170,10 +175,10 @@ export default class Bracket {
 
     // draw a line up and down the center for the champ game divider
     const radius =
-      center - roundWidth * (this.numRounds - 2) - this.settings.margin;
+      centerX - roundWidth * (this.numRounds - 2) - this.settings.margin;
     this.ctx.setTransform(1, 0, 0, 1, 0, 0);
-    this.ctx.moveTo(center, center + radius);
-    this.ctx.lineTo(center, center - radius);
+    this.ctx.moveTo(centerX, centerY + radius);
+    this.ctx.lineTo(centerX, centerY - radius);
     this.ctx.stroke();
 
     this.ctx.restore();
@@ -181,14 +186,18 @@ export default class Bracket {
 
   drawSeeds = () => {
     const seeds = [1, 16, 8, 9, 5, 12, 4, 13, 6, 11, 3, 14, 7, 10, 2, 15];
-    const center = this.getCenter()[0];
-    const radius = center - this.settings.margin + this.fontSize;
+    const [centerX, centerY] = this.getCenter();
+    const radius =
+      centerX -
+      this.settings.margin -
+      this.settings.titleHeight +
+      this.fontSize;
 
     this.ctx.save();
     this.ctx.setTransform(1, 0, 0, 1, 0, 0);
-    this.ctx.translate(center, center);
+    this.ctx.translate(centerX, centerY);
     this.ctx.textAlign = "center";
-    this.ctx.fillStyle = "#999";
+    this.ctx.fillStyle = "#555";
     this.ctx.font = `${this.fontSize}px Arial`;
 
     for (let i = 0; i < this.numEntries; i++) {
@@ -203,6 +212,70 @@ export default class Bracket {
     this.ctx.restore();
   };
 
+  drawTitle = () => {
+    this.ctx.save();
+    this.ctx.fillStyle = "#000";
+    this.ctx.font = `${this.settings.titleHeight}px Arial`;
+    this.ctx.textAlign = "center";
+    this.ctx.fillText(
+      `${this.bracketData.year} NCAA Men's Basketball Tournament`,
+      this.getCenter()[0],
+      this.settings.titleHeight,
+      this.cvs.width - this.settings.margin
+    );
+  };
+
+  drawRegionNames = () => {
+    // only draw regions if names are present for all of them
+    const regions = this.bracketData.regions.filter(
+      region => region.name.length > 0
+    );
+
+    if (regions.length !== this.bracketData.regions.length) {
+      return;
+    }
+
+    const [centerX, centerY] = this.getCenter();
+    const radius =
+      centerX * 0.95 - this.settings.margin - this.settings.titleHeight;
+    let x, y, textAlign;
+
+    this.ctx.save();
+    this.ctx.translate(centerX, centerY);
+    this.ctx.font = "16px Arial";
+    this.ctx.fillStyle = "#555";
+    for (let i = 0; i < regions.length; i++) {
+      switch (regions[i].position) {
+        case "TL":
+          x = -radius;
+          y = -radius;
+          textAlign = "left";
+          break;
+        case "TR":
+          x = radius;
+          y = -radius;
+          textAlign = "right";
+          break;
+        case "BL":
+          x = -radius;
+          y = radius;
+          textAlign = "left";
+          break;
+        case "BR":
+          x = radius;
+          y = radius;
+          textAlign = "right";
+          break;
+        default:
+          console.log("invalid region position", regions[i].position);
+          return;
+      }
+      this.ctx.textAlign = textAlign;
+      this.ctx.fillText(regions[i].name, x, y);
+    }
+    this.ctx.restore();
+  };
+
   fillSlot = (round, slot, teamCode) => {
     if (round === 5) {
       return this.fillChampGameSlot(slot, teamCode);
@@ -210,10 +283,11 @@ export default class Bracket {
 
     const team = teams[teamCode];
     const roundWidth = this.getRoundWidth();
-    const center = this.getCenter()[0];
-    const margin = this.settings.margin;
-    const radius = center - roundWidth * round - margin;
-    const innerRadius = center - roundWidth * (round + 1) - margin;
+    const [centerX, centerY] = this.getCenter();
+    const { margin, titleHeight } = this.settings;
+    const radius = centerX - roundWidth * round - margin - titleHeight;
+    const innerRadius =
+      centerX - roundWidth * (round + 1) - margin - titleHeight;
     const slots = this.numEntries / Math.pow(2, round);
     const degrees = 360 / slots;
 
@@ -221,7 +295,8 @@ export default class Bracket {
     const { x, y, maxWidth, maxHeight } = calcImageBox(
       radius,
       innerRadius,
-      center,
+      centerX,
+      centerY,
       slots,
       slot
     );
@@ -247,15 +322,15 @@ export default class Bracket {
       this.ctx.save();
       const path = new Path2D();
       path.arc(
-        center,
-        center,
+        centerX,
+        centerY,
         radius,
         TO_RADIANS * angle1,
         TO_RADIANS * angle2
       );
       path.arc(
-        center,
-        center,
+        centerX,
+        centerY,
         innerRadius,
         TO_RADIANS * angle2,
         TO_RADIANS * angle1,
@@ -283,8 +358,12 @@ export default class Bracket {
   fillChampGameSlot = (slot, teamCode) => {
     const team = teams[teamCode];
     // reset and rotate the context to draw this slot in the right place
-    const center = this.getCenter()[0];
-    const radius = center - this.getRoundWidth(5) - this.settings.margin;
+    const [centerX, centerY] = this.getCenter();
+    const radius =
+      centerX -
+      this.getRoundWidth(5) -
+      this.settings.margin -
+      this.settings.titleHeight;
 
     const img = new Image();
     const url = createImageUrlFromLogo(team.logo.url);
@@ -296,7 +375,7 @@ export default class Bracket {
       const startAngle = 90 * TO_RADIANS;
       const endAngle = 270 * TO_RADIANS;
       const antiClockwise = slot === 0;
-      path.arc(center, center, radius, startAngle, endAngle, antiClockwise);
+      path.arc(centerX, centerY, radius, startAngle, endAngle, antiClockwise);
       path.closePath();
       this.teamPaths.push({ path, teamCode, team, round: 5 });
       this.ctx.fillStyle =
@@ -305,8 +384,8 @@ export default class Bracket {
       this.ctx.clip(path);
 
       let size = Math.floor(radius * 1.5);
-      let x = center + size / 4;
-      let y = center - size / 2;
+      let x = centerX + size / 4;
+      let y = centerY - size / 2;
       if (slot === 1) {
         x -= size;
       } else {
@@ -323,30 +402,42 @@ export default class Bracket {
   };
 
   fillChamp = teamCode => {
-    const team = teams[teamCode];
-    const center = this.getCenter()[0];
-    const radius = center - this.getRoundWidth(6) - this.settings.margin;
+    let team;
+    if (teamCode === false) {
+      team = {
+        name: "Vacated",
+        logo: {
+          url: "img/logos/vacated.svg",
+          background: "brown"
+        }
+      };
+    } else {
+      team = teams[teamCode];
+    }
+    const [centerX, centerY] = this.getCenter();
+    const radius = centerX - this.getRoundWidth(6) - this.settings.margin;
 
     const img = new Image();
     const url = createImageUrlFromLogo(team.logo.url);
 
     img.addEventListener("load", () => {
       DOMURL.revokeObjectURL(url);
-      let size = Math.floor(radius * 2.75);
-      let pos = center - size / 2;
+      let size = Math.floor(radius * 1.5);
+      let posX = centerX - size / 2;
+      let posY = centerY - size / 2;
       this.ctx.save();
       this.ctx.beginPath();
-      this.ctx.moveTo(center + radius, center);
+      this.ctx.moveTo(centerX + radius, centerY);
       this.ctx.strokeStyle = this.settings.gridStrokeStyle;
       this.ctx.lineWidth = this.settings.gridStrokeWidth;
       this.ctx.fillStyle = team.logo.background || team.primaryColor || "#FFF";
-      this.ctx.arc(center, center, radius, 0, 2 * Math.PI);
+      this.ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI);
       this.ctx.fill();
       this.ctx.stroke();
       this.ctx.shadowOffsetY = 5;
       this.ctx.shadowColor = "#000";
       this.ctx.shadowBlur = 20;
-      this.ctx.drawImage(img, pos, pos, size, size);
+      this.ctx.drawImage(img, posX, posY, size, size);
       this.ctx.restore();
     });
     img.addEventListener("error", e => {
@@ -361,7 +452,7 @@ export default class Bracket {
   };
 }
 
-function calcImageBox(radius, innerRadius, center, slots, slot) {
+function calcImageBox(radius, innerRadius, centerX, centerY, slots, slot) {
   const quadrant = slot / slots;
   const t1 = ((Math.PI * 2) / slots) * slot;
   const t2 = ((Math.PI * 2) / slots) * (slot + 1);
@@ -391,16 +482,16 @@ function calcImageBox(radius, innerRadius, center, slots, slot) {
 
   // these values give us oversized areas to display the logo in
   const x1 = Math.floor(
-    Math.min(x1Radius * Math.cos(t1), x1Radius * Math.cos(t2)) + center
+    Math.min(x1Radius * Math.cos(t1), x1Radius * Math.cos(t2)) + centerX
   );
   const y1 = Math.floor(
-    Math.min(y1Radius * Math.sin(t1), y1Radius * Math.sin(t2)) + center
+    Math.min(y1Radius * Math.sin(t1), y1Radius * Math.sin(t2)) + centerY
   );
   const x2 = Math.floor(
-    Math.max(x2Radius * Math.cos(t1), x2Radius * Math.cos(t2)) + center
+    Math.max(x2Radius * Math.cos(t1), x2Radius * Math.cos(t2)) + centerX
   );
   const y2 = Math.floor(
-    Math.max(y2Radius * Math.sin(t1), y2Radius * Math.sin(t2)) + center
+    Math.max(y2Radius * Math.sin(t1), y2Radius * Math.sin(t2)) + centerY
   );
 
   const maxWidth = Math.abs(x2 - x1);
