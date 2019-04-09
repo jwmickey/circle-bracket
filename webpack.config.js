@@ -10,7 +10,8 @@ const commonConfig = merge([
     plugins: [
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
-        title: "Circular Tournament Bracket"
+        title: "Circular Tournament Bracket",
+        template: "index.html"
       }),
       new CopyWebpackPlugin([
         {

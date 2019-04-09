@@ -5,19 +5,19 @@
 	"regions": [
 		{
 			"name": "East",
-			"placement": "TL"
+			"position": "TL"
 		},
 		{
 			"name": "Southeast",
-			"placement": "BL"
+			"position": "BL"
 		},
 		{
 			"name": "Midwest",
-			"placement": "TR"
+			"position": "TR"
 		},
 		{
 			"name": "West",
-			"placement": "BR"
+			"position": "BR"
 		}
 	],
 	"games": [

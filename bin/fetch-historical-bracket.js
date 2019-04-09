@@ -231,7 +231,7 @@ getDataFile()
 
     const regions = regionPlacements.slice(1).map(placement => ({
       name: "", // sorry, don't know this
-      placement
+      position: placement
     }));
 
     return {

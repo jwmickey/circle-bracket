@@ -4,20 +4,20 @@
 	"year": 2010,
 	"regions": [
 		{
-			"name": "Midwest",
-			"placement": "BL"
-		},
-		{
 			"name": "West",
-			"placement": "TL"
-		},
-		{
-			"name": "East",
-			"placement": "BR"
+			"position": "TL"
 		},
 		{
 			"name": "South",
-			"placement": "TR"
+			"position": "TR"
+		},
+		{
+			"name": "Midwest",
+			"position": "BL"
+		},
+		{
+			"name": "East",
+			"position": "BR"
 		}
 	],
 	"games": [
