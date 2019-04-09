@@ -11,49 +11,50 @@ const seedSlotMap = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] // 4 teams
 ];
 
-const roundWidths = [0, 0.075, 0.09, 0.125, 0.15, 0.19, 0.21, 0.125];
+const roundWidths = [0, 0.075, 0.09, 0.125, 0.15, 0.18, 0.22, 0.12];
 
 export const DEFAULTS = {
   numEntries: 64,
   gridStrokeWidth: 2,
   gridStrokeStyle: "#fff",
-  roundWidthPct: 0.065,
-  margin: 50,
-  titleHeight: 30
+  showGameDetails: game => console.log(game.home.name, "vs.", game.away.name)
 };
 
 export default class Bracket {
   constructor(cvs, settings = {}) {
     this.cvs = cvs;
     this.ctx = cvs.getContext("2d", { alpha: false });
-    this.ctx.fontFamily = "Open Sans";
+    this.ctx.font = "14pt Open Sans";
 
     this.settings = { ...DEFAULTS, ...settings };
     this.numEntries = this.settings.numEntries;
     this.numRounds = Math.sqrt(this.numEntries) - 1;
     this.bracketData = undefined;
-    this.fontSize = 18;
     this.teamPaths = [];
+    this.fontSize = 14;
+    this.titleHeight = 24;
+    this.margin = 50;
 
     this.cvs.addEventListener("click", event => {
       const rect = event.target.getBoundingClientRect();
       const x = event.clientX - rect.left; //x position within the element.
       const y = event.clientY - rect.top; //y position within the element.
 
-      for (let i = 0; i < this.teamPaths.length; i++) {
-        if (this.ctx.isPointInPath(this.teamPaths[i].path, x, y)) {
-          const { teamCode, team, round } = this.teamPaths[i];
+      for (let entry of this.teamPaths) {
+        if (this.ctx.isPointInPath(entry.path, x, y)) {
+          const { teamCode, round } = entry;
           const game = this.bracketData.games.find(
             g =>
               g.round === round + 1 &&
               (g.home.code === teamCode || g.away.code === teamCode)
           );
-          console.log(
-            teams[game.home.code].name + " vs " + teams[game.away.code].name
-          );
-          break;
+          if (game) {
+            return this.settings.showGameDetails(game);
+          }
         }
       }
+
+      return this.settings.showGameDetails(null);
     });
 
     this.reset();
@@ -61,7 +62,7 @@ export default class Bracket {
 
   getRadiiForRound = round => {
     let center = Math.min(...this.getCenter());
-    let radius = center - this.settings.margin - this.settings.titleHeight;
+    let radius = center - this.margin - this.titleHeight;
     let innerRadius = 0;
 
     for (let i = 1; i < round; i++) {
@@ -77,22 +78,31 @@ export default class Bracket {
   };
 
   getCenter = () => {
-    return [
-      this.cvs.width / 2,
-      this.cvs.height / 2 + this.settings.titleHeight
-    ];
+    return [this.cvs.width / 2, this.cvs.height / 2 + this.titleHeight];
   };
 
   setBracket = data => {
     this.bracketData = data;
   };
 
+  setSize = (width, height) => {
+    this.cvs.width = width;
+    this.cvs.height = height;
+
+    this.render();
+  };
+
   reset = () => {
-    this.fontSize = this.cvs.width * 0.015;
+    this.settings.showGameDetails(null);
+    // this.fontSize = this.cvs.width * 0.015;
     this.teamPaths = [];
     this.ctx.clearRect(0, 0, this.cvs.width, this.cvs.height);
     this.ctx.setTransform(1, 0, 0, 1, 0, 0);
     this.ctx.translate(0, 0);
+
+    this.fontSize = Math.floor(this.cvs.width * 0.01);
+    this.titleHeight = Math.floor(this.fontSize * 2.5);
+    this.margin = Math.floor(this.cvs.width * 0.04);
   };
 
   render = () => {
@@ -207,21 +217,21 @@ export default class Bracket {
   drawSeeds = () => {
     const seeds = [1, 16, 8, 9, 5, 12, 4, 13, 6, 11, 3, 14, 7, 10, 2, 15];
     const [centerX, centerY] = this.getCenter();
-    const radius = this.getRadiiForRound(1)[0] + this.settings.titleHeight / 2;
+    const radius = this.getRadiiForRound(1)[0] * 1.05;
 
     this.ctx.save();
+    this.ctx.font = `${this.fontSize}pt "Open Sans"`;
     this.ctx.setTransform(1, 0, 0, 1, 0, 0);
     this.ctx.translate(centerX, centerY);
     this.ctx.textAlign = "center";
     this.ctx.fillStyle = "#555";
-    this.ctx.font = '14px "Open Sans"';
 
     for (let i = 0; i < this.numEntries; i++) {
       let t1 = ((Math.PI * 2) / this.numEntries) * i;
       let t2 = ((Math.PI * 2) / this.numEntries) * (i + 1);
       let t = t1 + (t2 - t1) / 2;
       let x = Math.floor(radius * Math.cos(t));
-      let y = Math.floor(radius * Math.sin(t) + this.fontSize / 2);
+      let y = Math.floor(radius * Math.sin(t) + 5);
       this.ctx.fillText(seeds[i % 16].toString(), x, y);
     }
 
@@ -231,14 +241,15 @@ export default class Bracket {
   drawTitle = () => {
     this.ctx.save();
     this.ctx.fillStyle = "#000";
-    this.ctx.font = '26px "Open Sans"';
     this.ctx.textAlign = "center";
+    this.ctx.font = `${this.fontSize * 1.75}pt "Open Sans"`;
     this.ctx.fillText(
       `${this.bracketData.year} NCAA Men's Basketball Tournament`,
       this.getCenter()[0],
-      this.settings.titleHeight + 5,
-      this.cvs.width - this.settings.margin
+      this.titleHeight + 5,
+      this.cvs.width - this.margin
     );
+    this.ctx.restore();
   };
 
   drawRegionNames = () => {
@@ -252,13 +263,12 @@ export default class Bracket {
     }
 
     const [centerX, centerY] = this.getCenter();
-    const radius =
-      centerX * 0.95 - this.settings.margin - this.settings.titleHeight;
+    const radius = centerX * 0.95 - this.margin - this.titleHeight;
     let x, y, textAlign;
 
     this.ctx.save();
     this.ctx.translate(centerX, centerY);
-    this.ctx.fontSize = "24px";
+    this.ctx.font = `${this.fontSize}pt "Open Sans"`;
     this.ctx.fillStyle = "#999";
     for (let i = 0; i < regions.length; i++) {
       switch (regions[i].position) {
@@ -435,7 +445,7 @@ export default class Bracket {
 
     img.addEventListener("load", () => {
       DOMURL.revokeObjectURL(url);
-      let size = Math.floor(radius * 3);
+      let size = Math.floor(radius * 3.5);
       let posX = centerX - size / 2;
       let posY = centerY - size / 2;
       this.ctx.save();

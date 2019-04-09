@@ -1,6 +1,7 @@
 import axios from "axios";
 import canvas from "./js/components/canvas";
 import yearPicker from "./js/components/yearPicker";
+import gameInfo from "./js/components/gameInfo";
 import { initAnalytics, runAnalytics } from "./js/components/analytics";
 import Bracket from "./js/bracket";
 import "./styles/style.sass";
@@ -16,7 +17,27 @@ let height = window.innerHeight;
 width = Math.min(width, height);
 height = Math.min(width, height);
 const cvs = document.body.appendChild(canvas(width, height));
-const bracket = new Bracket(cvs);
+const bracket = new Bracket(cvs, { showGameDetails });
+
+let gameInfoElem;
+
+window.addEventListener("beforeprint", () => {
+  bracket.setSize(3000, 3000);
+});
+
+function showGameDetails(game) {
+  if (gameInfoElem) {
+    gameInfoElem.remove();
+  }
+
+  if (game) {
+    let info = gameInfo(game);
+    info.querySelector(".close").addEventListener("click", () => {
+      showGameDetails(null);
+    });
+    gameInfoElem = document.body.appendChild(info);
+  }
+}
 
 function drawBracket(bracketYear) {
   axios.get(`/seasons/bracket-${bracketYear}.json`).then(res => {

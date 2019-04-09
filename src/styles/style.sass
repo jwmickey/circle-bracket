@@ -23,3 +23,73 @@ body
   left: 5px
   width: 150px
   font-size: 1.25em
+
+.game-info
+  position: absolute
+  top: 50px
+  left: 50px
+  width: 580px
+  max-width: 80vw
+  height: 280px
+  border: 2px solid #777
+  background-color: rgba(255,255,255,0.95)
+  z-index: 1000
+  display: flex
+  flex-flow: row wrap
+  font-size: 14px
+  padding: 10px 20px
+  justify-content: space-between
+  animation: fadein 500ms
+
+  .close
+    position: absolute
+    top: 0
+    right: 6px
+    color: #777
+    font-size: 1.5em
+    cursor: pointer
+
+  .score
+    flex: 1 0 auto
+    text-align: right
+    font-size: 4em
+    color: #777
+
+    &.winner
+      color: #000
+
+  .meta
+    flex: 1
+    text-align: center
+    font-weight: bold
+
+    p
+      margin: 0 5px
+
+  .team
+    flex: 1 0 100%
+    display: flex
+    flex-flow: row wrap
+    align-items: center
+
+    h1, h2
+      margin: 0
+
+    img
+      height: 100px
+      width: auto
+      margin-right: 20px
+
+@keyframes fadein
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+
+@media print
+  #year-picker, .game-info
+    display: none
+
+  @page
+    size: 36in 36in
