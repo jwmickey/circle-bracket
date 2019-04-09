@@ -1,6 +1,6 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:22:13.065Z",
+	"updated": "2019-04-09T03:34:38.356Z",
 	"year": 2015,
 	"regions": [
 		{
@@ -212,19 +212,19 @@
 		},
 		{
 			"home": {
-				"name": "West Virginia",
-				"code": "west-virginia",
-				"seed": 5,
-				"score": 69,
-				"winner": true
-			},
-			"away": {
 				"name": "Maryland",
 				"code": "maryland",
 				"seed": 4,
 				"score": 59,
 				"winner": false
 			},
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 5,
+				"score": 69,
+				"winner": true
+			},
 			"date": "",
 			"region": "BL",
 			"round": 2,
@@ -233,19 +233,19 @@
 		},
 		{
 			"home": {
-				"name": "Butler",
-				"code": "butler",
-				"seed": 6,
-				"score": 64,
-				"winner": false
-			},
-			"away": {
 				"name": "Notre Dame",
 				"code": "notre-dame",
 				"seed": 3,
 				"score": 67,
 				"winner": true
 			},
+			"away": {
+				"name": "Butler",
+				"code": "butler",
+				"seed": 6,
+				"score": 64,
+				"winner": false
+			},
 			"date": "",
 			"region": "BL",
 			"round": 2,
@@ -254,18 +254,18 @@
 		},
 		{
 			"home": {
-				"name": "Wichita State",
-				"code": "wichita-st",
-				"seed": 7,
-				"score": 78,
-				"winner": true
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 2,
 				"score": 65,
 				"winner": false
+			},
+			"away": {
+				"name": "Wichita State",
+				"code": "wichita-st",
+				"seed": 7,
+				"score": 78,
+				"winner": true
 			},
 			"date": "",
 			"region": "BL",
@@ -527,18 +527,18 @@
 		},
 		{
 			"home": {
-				"name": "Arkansas",
-				"code": "arkansas",
-				"seed": 5,
-				"score": 78,
-				"winner": false
-			},
-			"away": {
 				"name": "North Carolina",
 				"code": "north-carolina",
 				"seed": 4,
 				"score": 87,
 				"winner": true
+			},
+			"away": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 5,
+				"score": 78,
+				"winner": false
 			},
 			"date": "",
 			"region": "TL",
@@ -569,18 +569,18 @@
 		},
 		{
 			"home": {
-				"name": "Ohio State",
-				"code": "ohio-st",
-				"seed": 10,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
 				"name": "Arizona",
 				"code": "arizona",
 				"seed": 2,
 				"score": 73,
 				"winner": true
+			},
+			"away": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": 10,
+				"score": 58,
+				"winner": false
 			},
 			"date": "",
 			"region": "TL",
@@ -611,18 +611,18 @@
 		},
 		{
 			"home": {
-				"name": "Xavier",
-				"code": "xavier",
-				"seed": 6,
-				"score": 60,
-				"winner": false
-			},
-			"away": {
 				"name": "Arizona",
 				"code": "arizona",
 				"seed": 2,
 				"score": 68,
 				"winner": true
+			},
+			"away": {
+				"name": "Xavier",
+				"code": "xavier",
+				"seed": 6,
+				"score": 60,
+				"winner": false
 			},
 			"date": "",
 			"region": "TL",
@@ -842,19 +842,19 @@
 		},
 		{
 			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 4,
+				"score": 66,
+				"winner": true
+			},
+			"away": {
 				"name": "Northern Iowa",
 				"code": "uni",
 				"seed": 5,
 				"score": 53,
 				"winner": false
 			},
-			"away": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 4,
-				"score": 66,
-				"winner": true
-			},
 			"date": "",
 			"region": "BR",
 			"round": 2,
@@ -863,19 +863,19 @@
 		},
 		{
 			"home": {
-				"name": "Dayton",
-				"code": "dayton",
-				"seed": 11,
-				"score": 66,
-				"winner": false
-			},
-			"away": {
 				"name": "Oklahoma",
 				"code": "oklahoma",
 				"seed": 3,
 				"score": 72,
 				"winner": true
 			},
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 11,
+				"score": 66,
+				"winner": false
+			},
 			"date": "",
 			"region": "BR",
 			"round": 2,
@@ -884,19 +884,19 @@
 		},
 		{
 			"home": {
-				"name": "Michigan State",
-				"code": "michigan-st",
-				"seed": 7,
-				"score": 60,
-				"winner": true
-			},
-			"away": {
 				"name": "Virginia",
 				"code": "virginia",
 				"seed": 2,
 				"score": 54,
 				"winner": false
 			},
+			"away": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 7,
+				"score": 60,
+				"winner": true
+			},
 			"date": "",
 			"region": "BR",
 			"round": 2,
@@ -905,18 +905,18 @@
 		},
 		{
 			"home": {
-				"name": "NC State",
-				"code": "north-carolina-st",
-				"seed": 8,
-				"score": 65,
-				"winner": false
-			},
-			"away": {
 				"name": "Louisville",
 				"code": "louisville",
 				"seed": 4,
 				"score": 75,
 				"winner": true
+			},
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 8,
+				"score": 65,
+				"winner": false
 			},
 			"date": "",
 			"region": "BR",
@@ -1157,18 +1157,18 @@
 		},
 		{
 			"home": {
-				"name": "Utah",
-				"code": "utah",
-				"seed": 5,
-				"score": 75,
-				"winner": true
-			},
-			"away": {
 				"name": "Georgetown",
 				"code": "georgetown",
 				"seed": 4,
 				"score": 64,
 				"winner": false
+			},
+			"away": {
+				"name": "Utah",
+				"code": "utah",
+				"seed": 5,
+				"score": 75,
+				"winner": true
 			},
 			"date": "",
 			"region": "TR",
@@ -1199,18 +1199,18 @@
 		},
 		{
 			"home": {
-				"name": "Iowa",
-				"code": "iowa",
-				"seed": 7,
-				"score": 68,
-				"winner": false
-			},
-			"away": {
 				"name": "Gonzaga",
 				"code": "gonzaga",
 				"seed": 2,
 				"score": 87,
 				"winner": true
+			},
+			"away": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 7,
+				"score": 68,
+				"winner": false
 			},
 			"date": "",
 			"region": "TR",
@@ -1241,18 +1241,18 @@
 		},
 		{
 			"home": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 11,
-				"score": 62,
-				"winner": false
-			},
-			"away": {
 				"name": "Gonzaga",
 				"code": "gonzaga",
 				"seed": 2,
 				"score": 74,
 				"winner": true
+			},
+			"away": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 11,
+				"score": 62,
+				"winner": false
 			},
 			"date": "",
 			"region": "TR",
@@ -1304,18 +1304,18 @@
 		},
 		{
 			"home": {
-				"name": "Michigan State",
-				"code": "michigan-st",
-				"seed": 7,
-				"score": 61,
-				"winner": false
-			},
-			"away": {
 				"name": "Duke",
 				"code": "duke",
 				"seed": 1,
 				"score": 81,
 				"winner": true
+			},
+			"away": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 7,
+				"score": 61,
+				"winner": false
 			},
 			"date": "",
 			"region": "",

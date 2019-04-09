@@ -103,26 +103,35 @@ getDataFile()
         for (let k = 0; k < rounds.length; k++) {
           const game = rounds[k];
 
+          // home team has the higher seed
+          let homeIndex, awayIndex;
+          if (game[0].seed > game[1].seed) {
+            homeIndex = 1;
+            awayIndex = 0;
+          } else {
+            homeIndex = 0;
+            awayIndex = 1;
+          }
+
           // finally we are looking at games
           games.push({
             home: {
-              // note that we don't know which was home or away, but this is our common format
-              name: game[0].team,
-              code: lookupTeamCode(game[0].team), // don't know this yet
-              seed: game[0].seed,
-              score: game[0].score,
-              winner: game[0].score > game[1].score
+              name: game[homeIndex].team,
+              code: lookupTeamCode(game[homeIndex].team), // don't know this yet
+              seed: game[homeIndex].seed,
+              score: game[homeIndex].score,
+              winner: game[homeIndex].score > game[awayIndex].score
             },
             away: {
-              name: game[1].team,
-              code: lookupTeamCode(game[1].team), // don't know this yet
-              seed: game[1].seed,
-              score: game[1].score,
-              winner: game[1].score > game[0].score
+              name: game[awayIndex].team,
+              code: lookupTeamCode(game[awayIndex].team), // don't know this yet
+              seed: game[awayIndex].seed,
+              score: game[awayIndex].score,
+              winner: game[awayIndex].score > game[homeIndex].score
             },
             date: "",
             region: regionNumber,
-            round: roundMap[game[0].round_of],
+            round: roundMap[game[homeIndex].round_of],
             isComplete: true,
             link: ""
           });
@@ -135,25 +144,34 @@ getDataFile()
       for (let j = 0; j < data.finalfour[i].length; j++) {
         const game = data.finalfour[i][j];
 
+        // home team has the higher seed, or if the seeds are equal home is the first team listed
+        let homeIndex, awayIndex;
+        if (game[0].seed > game[1].seed) {
+          homeIndex = 1;
+          awayIndex = 0;
+        } else {
+          homeIndex = 0;
+          awayIndex = 1;
+        }
+
         games.push({
           home: {
-            // note that we don't know which was home or away, but this is our common format
-            name: game[0].team,
-            code: lookupTeamCode(game[0].team), // don't know this yet
-            seed: game[0].seed,
-            score: game[0].score,
-            winner: game[0].score > game[1].score
+            name: game[homeIndex].team,
+            code: lookupTeamCode(game[homeIndex].team), // don't know this yet
+            seed: game[homeIndex].seed,
+            score: game[homeIndex].score,
+            winner: game[homeIndex].score > game[awayIndex].score
           },
           away: {
-            name: game[1].team,
-            code: lookupTeamCode(game[1].team), // don't know this yet
-            seed: game[1].seed,
-            score: game[1].score,
-            winner: game[1].score > game[0].score
+            name: game[awayIndex].team,
+            code: lookupTeamCode(game[awayIndex].team), // don't know this yet
+            seed: game[awayIndex].seed,
+            score: game[awayIndex].score,
+            winner: game[awayIndex].score > game[homeIndex].score
           },
           date: "",
           region: "",
-          round: roundMap[game[0].round_of],
+          round: roundMap[game[homeIndex].round_of],
           isComplete: true,
           link: ""
         });
