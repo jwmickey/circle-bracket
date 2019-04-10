@@ -1,6 +1,7 @@
 @font-face
   font-family: "Open Sans", sans-serif
   font-weight: 400
+  font-size: 14px
   src: url(https://fonts.googleapis.com/css?family=Open+Sans:400,800)
 
 body
@@ -17,12 +18,35 @@ body
   margin: 0 auto
   display: block
 
-#year-picker
+.options
   position: absolute
-  top: 5px
-  left: 5px
-  width: 150px
-  font-size: 1.25em
+  top: 0
+  left: 0
+  width: 220px
+  height: 100vh
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-between
+
+  select
+    flex: 0 0 auto
+    align-self: flex-start
+    margin: 10px
+
+
+  .links
+    font-size: 12px
+    line-height: 24px
+    margin: 10px
+    flex: 1
+    display: flex
+    flex-flow: row nowrap
+    justify-content: space-between
+    align-self: flex-end
+
+    img
+      max-height: 16px
+
 
 .game-info
   position: absolute
@@ -88,8 +112,5 @@ body
 
 
 @media print
-  #year-picker, .game-info
+  .options, .game-info
     display: none
-
-  @page
-    size: 36in 36in

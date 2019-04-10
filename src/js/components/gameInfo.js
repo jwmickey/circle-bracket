@@ -27,7 +27,7 @@ export default (game, id = "info") => {
   const t1Title = document.createElement("div");
   t1Title.className = "title";
   const t1Name = document.createElement("h1");
-  t1Name.innerText = teams[game.home.code].name;
+  t1Name.innerText = `${teams[game.home.code].name} (${game.home.seed})`;
   const t1Mascot = document.createElement("h2");
   t1Mascot.innerText = teams[game.home.code].mascot;
   t1Title.appendChild(t1Name);
@@ -47,7 +47,7 @@ export default (game, id = "info") => {
   const t2Title = document.createElement("div");
   t2Title.className = "title";
   const t2Name = document.createElement("h1");
-  t2Name.innerText = teams[game.away.code].name;
+  t2Name.innerText = `${teams[game.away.code].name} (${game.away.seed})`;
   const t2Mascot = document.createElement("h2");
   t2Mascot.innerText = teams[game.away.code].mascot;
   t2Title.appendChild(t2Name);
