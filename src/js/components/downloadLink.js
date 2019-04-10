@@ -20,17 +20,19 @@ export default (size, text, bracket) => {
     dlCanvas.height = size;
     const dlBracket = new Bracket(dlCanvas);
     dlBracket.setBracket(sourceData);
-    dlBracket.render();
-
-    setTimeout(() => {
-      const image = dlBracket.getDataUrl("jpg");
-      downloadjs(
-        image,
-        `circle-bracket-${sourceData.year}-${text.toLowerCase()}.jpg`,
-        "image/jpg"
-      );
-      this.innerText = prevText;
-    }, 1000);
+    dlBracket
+      .render()
+      .then(() => {
+        const image = dlBracket.getDataUrl("jpg");
+        downloadjs(
+          image,
+          `circle-bracket-${sourceData.year}-${text.toLowerCase()}.jpg`,
+          "image/jpg"
+        );
+      })
+      .finally(() => {
+        this.innerText = prevText;
+      });
   });
 
   return link;

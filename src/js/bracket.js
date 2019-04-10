@@ -97,10 +97,11 @@ export default class Bracket {
     this.settings.showGameDetails(null);
     // this.fontSize = this.cvs.width * 0.015;
     this.teamPaths = [];
+    this.ctx.clearRect(0, 0, this.cvs.width, this.cvs.height);
+    this.ctx.fillStyle = "#fff";
+    this.ctx.fillRect(0, 0, this.cvs.width, this.cvs.height);
     this.ctx.setTransform(1, 0, 0, 1, 0, 0);
     this.ctx.translate(0, 0);
-    this.ctx.fillRect(0, 0, this.cvs.width, this.cvs.height);
-    this.ctx.clearRect(0, 0, this.cvs.width, this.cvs.height);
 
     this.fontSize = Math.floor(this.cvs.width * 0.0125);
     this.titleHeight = Math.floor(this.fontSize * 2.25);
