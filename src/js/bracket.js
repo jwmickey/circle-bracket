@@ -17,13 +17,13 @@ export const DEFAULTS = {
   numEntries: 64,
   gridStrokeWidth: 2,
   gridStrokeStyle: "#fff",
-  showGameDetails: game => console.log(game.home.name, "vs.", game.away.name)
+  showGameDetails: () => {}
 };
 
 export default class Bracket {
   constructor(cvs, settings = {}) {
     this.cvs = cvs;
-    this.ctx = cvs.getContext("2d", { alpha: false });
+    this.ctx = cvs.getContext("2d");
     this.ctx.font = "14pt Open Sans";
 
     this.settings = { ...DEFAULTS, ...settings };
@@ -31,7 +31,7 @@ export default class Bracket {
     this.numRounds = Math.sqrt(this.numEntries) - 1;
     this.bracketData = undefined;
     this.teamPaths = [];
-    this.fontSize = 14;
+    this.fontSize = 16;
     this.titleHeight = 24;
     this.margin = 50;
 
@@ -59,6 +59,14 @@ export default class Bracket {
 
     this.reset();
   }
+
+  getBracketData = () => {
+    return this.bracketData;
+  };
+
+  getDataUrl = (type = "png") => {
+    return this.cvs.toDataURL("image/" + type);
+  };
 
   getRadiiForRound = round => {
     let center = Math.min(...this.getCenter());
@@ -100,9 +108,9 @@ export default class Bracket {
     this.ctx.setTransform(1, 0, 0, 1, 0, 0);
     this.ctx.translate(0, 0);
 
-    this.fontSize = Math.floor(this.cvs.width * 0.01);
-    this.titleHeight = Math.floor(this.fontSize * 2.5);
-    this.margin = Math.floor(this.cvs.width * 0.04);
+    this.fontSize = Math.floor(this.cvs.width * 0.0125);
+    this.titleHeight = Math.floor(this.fontSize * 2.25);
+    this.margin = Math.floor(this.cvs.width * 0.05);
   };
 
   render = () => {
