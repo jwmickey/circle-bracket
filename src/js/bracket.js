@@ -24,7 +24,7 @@ export default class Bracket {
   constructor(cvs, settings = {}) {
     this.cvs = cvs;
     this.ctx = cvs.getContext("2d");
-    this.ctx.font = "14pt Open Sans";
+    this.ctx.font = '14pt "Open Sans", sans-serif';
 
     this.settings = { ...DEFAULTS, ...settings };
     this.numEntries = this.settings.numEntries;
@@ -233,7 +233,7 @@ export default class Bracket {
     const radius = this.getRadiiForRound(1)[0] * 1.05;
 
     this.ctx.save();
-    this.ctx.font = `${this.fontSize}pt "Open Sans"`;
+    this.ctx.font = `${this.fontSize}px "Open Sans"`;
     this.ctx.setTransform(1, 0, 0, 1, 0, 0);
     this.ctx.translate(centerX, centerY);
     this.ctx.textAlign = "center";
@@ -244,7 +244,7 @@ export default class Bracket {
       let t2 = ((Math.PI * 2) / this.numEntries) * (i + 1);
       let t = t1 + (t2 - t1) / 2;
       let x = Math.floor(radius * Math.cos(t));
-      let y = Math.floor(radius * Math.sin(t) + 5);
+      let y = Math.floor(radius * Math.sin(t) + 3);
       this.ctx.fillText(seeds[i % 16].toString(), x, y);
     }
 
@@ -255,7 +255,7 @@ export default class Bracket {
     this.ctx.save();
     this.ctx.fillStyle = "#000";
     this.ctx.textAlign = "center";
-    this.ctx.font = `${this.fontSize * 1.75}pt "Open Sans"`;
+    this.ctx.font = `${this.fontSize * 1.75}px "Open Sans"`;
     this.ctx.fillText(
       `${this.bracketData.year} NCAA Men's Basketball Tournament`,
       this.getCenter()[0],
@@ -281,7 +281,7 @@ export default class Bracket {
 
     this.ctx.save();
     this.ctx.translate(centerX, centerY);
-    this.ctx.font = `${this.fontSize}pt "Open Sans"`;
+    this.ctx.font = `${this.fontSize * 1.5}px "Open Sans"`;
     this.ctx.fillStyle = "#999";
     for (let i = 0; i < regions.length; i++) {
       switch (regions[i].position) {

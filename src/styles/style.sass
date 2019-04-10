@@ -13,25 +13,41 @@ body
   overflow: auto
   font-family: "Open Sans", sans-serif
 
+.canvas-wrap
+  &.loading:after
+    content: "Loading..."
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    padding-top: 80px
+    background: rgba(255, 255, 255, 0.9) url(../img/loading.gif) no-repeat 50% 50%
+    display: flex
+    justify-content: center
+    align-items: center
+
 #canvas
   align-self: center
   margin: 0 auto
   display: block
+  position: relative
 
-.options
+#year-picker
   position: absolute
   top: 0
   left: 0
+  margin: 10px
+  font-size: 1.25em
+
+.options
+  position: absolute
+  bottom: 0
+  left: 0
   width: 220px
-  height: 100vh
   display: flex
   flex-flow: row wrap
   justify-content: space-between
-
-  select
-    flex: 0 0 auto
-    align-self: flex-start
-    margin: 10px
 
 
   .links
@@ -50,17 +66,19 @@ body
 
 .game-info
   position: absolute
-  top: 50px
-  left: 50px
-  width: 580px
+  bottom: 50px
+  left: 0
+  right: 0
+  margin: 0 auto
+  width: 500px
+  min-width: 40vw
   max-width: 80vw
-  height: 280px
   border: 2px solid #777
   background-color: rgba(255,255,255,0.95)
   z-index: 1000
   display: flex
   flex-flow: row wrap
-  font-size: 14px
+  font-size: 12px
   padding: 10px 20px
   justify-content: space-between
   animation: fadein 500ms
@@ -114,3 +132,19 @@ body
 @media print
   .options, .game-info
     display: none
+
+@media (max-width: 800px)
+  .game-info
+    padding: 5px 10px
+
+    .score
+      font-size: 3em
+
+    .team
+      margin-bottom: 10px
+      img
+        height: 50px
+      h1
+        font-size: 1.5em
+      h2
+        font-size: 1em

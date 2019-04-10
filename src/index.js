@@ -27,8 +27,8 @@ if (options[1] && options[1].length) {
 width = Math.min(width, height);
 height = Math.min(width, height);
 
-const cvs = document.body.appendChild(canvas(width, height));
-const bracket = new Bracket(cvs, { showGameDetails });
+const wrap = document.body.appendChild(canvas(width, height));
+const bracket = new Bracket(wrap.childNodes[0], { showGameDetails });
 
 let gameInfoElem;
 function showGameDetails(game) {
@@ -48,16 +48,18 @@ function showGameDetails(game) {
 let bracketInfo;
 
 function drawBracket(bracketYear) {
+  wrap.classList.add("loading");
   axios.get(`/seasons/bracket-${bracketYear}.json`).then(res => {
     bracketInfo = res.data;
     bracket.setBracket(bracketInfo);
     bracket
       .render()
       .then(() => {
-        console.log("Done!");
+        wrap.classList.remove("loading");
       })
       .catch(err => {
         console.error("ERROR!", err);
+        wrap.classList.remove("loading");
       });
   });
 }
@@ -67,10 +69,7 @@ const years = Array.from(
   (x, i) => i + 1985
 ).reverse();
 
-const optionsDiv = document.createElement("div");
-optionsDiv.className = "options";
-
-optionsDiv.appendChild(
+document.body.appendChild(
   yearPicker(years, year, e => {
     const nextYear = e.target.value;
     history.replaceState(null, nextYear.toString(), `#${nextYear}`);
@@ -78,6 +77,8 @@ optionsDiv.appendChild(
   })
 );
 
+const optionsDiv = document.createElement("div");
+optionsDiv.className = "options";
 const links = document.createElement("div");
 links.className = "links";
 links.innerText = "Download: ";
