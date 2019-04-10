@@ -51,7 +51,14 @@ function drawBracket(bracketYear) {
   axios.get(`/seasons/bracket-${bracketYear}.json`).then(res => {
     bracketInfo = res.data;
     bracket.setBracket(bracketInfo);
-    bracket.render();
+    bracket
+      .render()
+      .then(() => {
+        console.log("Done!");
+      })
+      .catch(err => {
+        console.error("ERROR!", err);
+      });
   });
 }
 

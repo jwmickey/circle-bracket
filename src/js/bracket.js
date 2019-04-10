@@ -93,13 +93,6 @@ export default class Bracket {
     this.bracketData = data;
   };
 
-  setSize = (width, height) => {
-    this.cvs.width = width;
-    this.cvs.height = height;
-
-    this.render();
-  };
-
   reset = () => {
     this.settings.showGameDetails(null);
     // this.fontSize = this.cvs.width * 0.015;
@@ -126,6 +119,8 @@ export default class Bracket {
     this.drawSeeds();
 
     const dataset = this.bracketData.games.filter(game => game.round > 0);
+
+    let slotPromises = [];
     for (let i = 0; i < dataset.length; i++) {
       const game = dataset[i];
 
@@ -139,7 +134,9 @@ export default class Bracket {
           game.round,
           game.home
         );
-        this.fillSlot(game.round - 1, homeTeamSlot, game.home.code);
+        slotPromises.push(
+          this.fillSlot(game.round - 1, homeTeamSlot, game.home.code)
+        );
       }
 
       if (game.away.code) {
@@ -152,30 +149,36 @@ export default class Bracket {
           game.round,
           game.away
         );
-        this.fillSlot(game.round - 1, awayTeamSlot, game.away.code);
+        slotPromises.push(
+          this.fillSlot(game.round - 1, awayTeamSlot, game.away.code)
+        );
       }
     }
 
-    setTimeout(() => {
-      this.drawGrid();
-    }, 500);
+    return Promise.all(slotPromises)
+      .then(() => {
+        return this.drawGrid();
+      })
+      .then(() => {
+        // check to see if we have a champ game
+        const champGame = dataset.find(
+          game => game.round === 6 && game.isComplete
+        );
+        if (champGame) {
+          let winner;
+          if (champGame.home.winner) {
+            winner = champGame.home.code;
+          } else if (champGame.away.winner) {
+            winner = champGame.away.code;
+          } else {
+            winner = false;
+          }
 
-    // check to see if we have a champ game
-    const champGame = dataset.find(game => game.round === 6 && game.isComplete);
-    if (champGame) {
-      let winner;
-      if (champGame.home.winner) {
-        winner = champGame.home.code;
-      } else if (champGame.away.winner) {
-        winner = champGame.away.code;
-      } else {
-        winner = false;
-      }
-
-      setTimeout(() => {
-        this.fillChamp(winner);
-      }, 500);
-    }
+          return this.fillChamp(winner);
+        } else {
+          return Promise.resolve;
+        }
+      });
   };
 
   drawGrid = () => {
@@ -316,165 +319,178 @@ export default class Bracket {
       return this.fillChampGameSlot(slot, teamCode);
     }
 
-    const team = teams[teamCode];
-    const [centerX, centerY] = this.getCenter();
-    const [radius, innerRadius] = this.getRadiiForRound(round + 1);
-    const slots = this.numEntries / Math.pow(2, round);
-    const degrees = 360 / slots;
+    return new Promise((resolve, reject) => {
+      const team = teams[teamCode];
+      const [centerX, centerY] = this.getCenter();
+      const [radius, innerRadius] = this.getRadiiForRound(round + 1);
+      const slots = this.numEntries / Math.pow(2, round);
+      const degrees = 360 / slots;
 
-    // find logo position and dims
-    const { x, y, maxWidth, maxHeight } = calcImageBox(
-      radius,
-      innerRadius,
-      centerX,
-      centerY,
-      slots,
-      slot
-    );
-
-    const img = new Image();
-    const url = createImageUrlFromLogo(team.logo.url);
-
-    img.addEventListener("load", () => {
-      DOMURL.revokeObjectURL(img.url);
-
-      let [width, height] = this.scaleDims(
-        img.width,
-        img.height,
-        maxWidth,
-        maxHeight
-      );
-      const xOffset = (maxWidth - width) / 2;
-      const yOffset = (maxHeight - height) / 2;
-      const angle1 = degrees * slot;
-      const angle2 = angle1 + degrees;
-
-      let imgX = x + xOffset;
-      let imgY = y + yOffset;
-
-      // TODO: for final four, offset images to fit in slice better, and oversize them a little more maybe?
-
-      // create path for background and logo clip area
-      this.ctx.save();
-      const path = new Path2D();
-      path.arc(
-        centerX,
-        centerY,
+      // find logo position and dims
+      const { x, y, maxWidth, maxHeight } = calcImageBox(
         radius,
-        TO_RADIANS * angle1,
-        TO_RADIANS * angle2
-      );
-      path.arc(
+        innerRadius,
         centerX,
         centerY,
-        innerRadius,
-        TO_RADIANS * angle2,
-        TO_RADIANS * angle1,
-        true
+        slots,
+        slot
       );
-      path.closePath();
-      this.ctx.fillStyle =
-        team.logo.background || team.primaryColor || "#FFFFFF";
-      this.ctx.fill(path);
-      this.ctx.clip(path);
-      this.teamPaths.push({ path, teamCode, team, round });
 
-      // draw logo in clipping path
-      this.ctx.drawImage(img, imgX, imgY, width, height);
+      const img = new Image();
+      const url = createImageUrlFromLogo(team.logo.url);
 
-      // reset the context
-      this.ctx.restore();
+      img.addEventListener("load", () => {
+        DOMURL.revokeObjectURL(img.url);
+
+        let [width, height] = this.scaleDims(
+          img.width,
+          img.height,
+          maxWidth,
+          maxHeight
+        );
+        const xOffset = (maxWidth - width) / 2;
+        const yOffset = (maxHeight - height) / 2;
+        const angle1 = degrees * slot;
+        const angle2 = angle1 + degrees;
+
+        let imgX = x + xOffset;
+        let imgY = y + yOffset;
+
+        // TODO: for final four, offset images to fit in slice better, and oversize them a little more maybe?
+
+        // create path for background and logo clip area
+        this.ctx.save();
+        const path = new Path2D();
+        path.arc(
+          centerX,
+          centerY,
+          radius,
+          TO_RADIANS * angle1,
+          TO_RADIANS * angle2
+        );
+        path.arc(
+          centerX,
+          centerY,
+          innerRadius,
+          TO_RADIANS * angle2,
+          TO_RADIANS * angle1,
+          true
+        );
+        path.closePath();
+        this.ctx.fillStyle =
+          team.logo.background || team.primaryColor || "#FFFFFF";
+        this.ctx.fill(path);
+        this.ctx.clip(path);
+        this.teamPaths.push({ path, teamCode, team, round });
+
+        // draw logo in clipping path
+        this.ctx.drawImage(img, imgX, imgY, width, height);
+
+        // reset the context
+        this.ctx.restore();
+        resolve();
+      });
+      img.addEventListener("error", e => {
+        console.error("Error displaying image for " + team.name, e.message);
+        resolve(); // we could reject, but don't want to stop the rest of the grid from being drawn
+      });
+      img.src = url;
     });
-    img.addEventListener("error", e => {
-      console.error("Error displaying image for " + team.name, e.message);
-    });
-    img.src = url;
   };
 
   fillChampGameSlot = (slot, teamCode) => {
-    const team = teams[teamCode];
-    const [centerX, centerY] = this.getCenter();
-    const radius = this.getRadiiForRound(this.numRounds - 1)[0];
+    return new Promise((resolve, reject) => {
+      const team = teams[teamCode];
+      const [centerX, centerY] = this.getCenter();
+      const radius = this.getRadiiForRound(this.numRounds - 1)[0];
 
-    const img = new Image();
-    const url = createImageUrlFromLogo(team.logo.url);
+      const img = new Image();
+      const url = createImageUrlFromLogo(team.logo.url);
 
-    img.addEventListener("load", () => {
-      DOMURL.revokeObjectURL(url);
-      this.ctx.save();
-      const path = new Path2D();
-      const startAngle = 90 * TO_RADIANS;
-      const endAngle = 270 * TO_RADIANS;
-      const antiClockwise = slot === 0;
-      path.arc(centerX, centerY, radius, startAngle, endAngle, antiClockwise);
-      path.closePath();
-      this.teamPaths.push({ path, teamCode, team, round: 5 });
-      this.ctx.fillStyle =
-        team.logo.background || team.primaryColor || "#FFFFFF";
-      this.ctx.stroke(path);
-      this.ctx.fill(path);
-      this.ctx.clip(path);
+      img.addEventListener("load", () => {
+        DOMURL.revokeObjectURL(url);
+        this.ctx.save();
+        const path = new Path2D();
+        const startAngle = 90 * TO_RADIANS;
+        const endAngle = 270 * TO_RADIANS;
+        const antiClockwise = slot === 0;
+        path.arc(centerX, centerY, radius, startAngle, endAngle, antiClockwise);
+        path.closePath();
+        this.teamPaths.push({ path, teamCode, team, round: 5 });
+        this.ctx.fillStyle =
+          team.logo.background || team.primaryColor || "#FFFFFF";
+        this.ctx.stroke(path);
+        this.ctx.fill(path);
+        this.ctx.clip(path);
 
-      let size = Math.floor(radius * 1.5);
-      let x = centerX + size / 4;
-      let y = centerY - size / 2;
-      if (slot === 1) {
-        x -= size;
-      } else {
-        x -= size / 2;
-      }
+        let size = Math.floor(radius * 1.5);
+        let x = centerX + size / 4;
+        let y = centerY - size / 2;
+        if (slot === 1) {
+          x -= size;
+        } else {
+          x -= size / 2;
+        }
 
-      this.ctx.drawImage(img, x, y, size, size);
-      this.ctx.restore();
+        this.ctx.drawImage(img, x, y, size, size);
+        this.ctx.restore();
+        resolve();
+      });
+      img.addEventListener("error", e => {
+        console.error("Error displaying image for " + team.name, e.message);
+        resolve();
+      });
+      img.src = url;
     });
-    img.addEventListener("error", e => {
-      console.error("Error displaying image for " + team.name, e.message);
-    });
-    img.src = url;
   };
 
   fillChamp = teamCode => {
-    let team;
-    if (teamCode === false) {
-      team = {
-        name: "Vacated",
-        logo: {
-          url: "img/logos/vacated.svg",
-          background: "brown"
-        }
-      };
-    } else {
-      team = teams[teamCode];
-    }
-    const [centerX, centerY] = this.getCenter();
-    const radius = centerX * roundWidths[roundWidths.length - 1];
+    return new Promise((resolve, reject) => {
+      let team;
+      if (teamCode === false) {
+        team = {
+          name: "Vacated",
+          logo: {
+            url: "img/logos/vacated.svg",
+            background: "brown"
+          }
+        };
+      } else {
+        team = teams[teamCode];
+      }
+      const [centerX, centerY] = this.getCenter();
+      const radius = centerX * roundWidths[roundWidths.length - 1];
 
-    const img = new Image();
-    const url = createImageUrlFromLogo(team.logo.url);
+      const img = new Image();
+      const url = createImageUrlFromLogo(team.logo.url);
 
-    img.addEventListener("load", () => {
-      DOMURL.revokeObjectURL(url);
-      let size = Math.floor(radius * 3.5);
-      let posX = centerX - size / 2;
-      let posY = centerY - size / 2;
-      this.ctx.save();
-      this.ctx.beginPath();
-      this.ctx.moveTo(centerX + radius, centerY);
-      this.ctx.strokeStyle = this.settings.gridStrokeStyle;
-      this.ctx.lineWidth = this.settings.gridStrokeWidth;
-      this.ctx.fillStyle = team.logo.background || team.primaryColor || "#FFF";
-      this.ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI);
-      this.ctx.fill();
-      this.ctx.stroke();
-      this.ctx.shadowColor = "#000000";
-      this.ctx.shadowBlur = 25;
-      this.ctx.drawImage(img, posX, posY, size, size);
-      this.ctx.restore();
+      img.addEventListener("load", () => {
+        DOMURL.revokeObjectURL(url);
+        let size = Math.floor(radius * 3.5);
+        let posX = centerX - size / 2;
+        let posY = centerY - size / 2;
+        this.ctx.save();
+        this.ctx.beginPath();
+        this.ctx.moveTo(centerX + radius, centerY);
+        this.ctx.strokeStyle = this.settings.gridStrokeStyle;
+        this.ctx.lineWidth = this.settings.gridStrokeWidth;
+        this.ctx.fillStyle =
+          team.logo.background || team.primaryColor || "#FFF";
+        this.ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI);
+        this.ctx.fill();
+        this.ctx.stroke();
+        this.ctx.shadowColor = "#000000";
+        this.ctx.shadowBlur = 25;
+        this.ctx.drawImage(img, posX, posY, size, size);
+        this.ctx.restore();
+        resolve();
+      });
+      img.addEventListener("error", e => {
+        console.error("Error displaying image for " + team.name, e.message);
+        resolve();
+      });
+      img.src = url;
     });
-    img.addEventListener("error", e => {
-      console.error("Error displaying image for " + team.name, e.message);
-    });
-    img.src = url;
   };
 
   scaleDims = (w, h, mW, mH) => {
