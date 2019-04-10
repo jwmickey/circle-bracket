@@ -32,11 +32,11 @@ const commonConfig = merge([
     }
   },
   parts.loadJS(),
-  parts.loadCSS()
+  parts.loadCSS(),
+  parts.loadSVG()
 ]);
 
 const productionConfig = merge([
-  parts.loadSVG({ minify: true }),
   parts.loadImages({
     options: {
       limit: 15000,
@@ -48,11 +48,7 @@ const productionConfig = merge([
   }
 ]);
 
-const developmentConfig = merge([
-  parts.devServer(),
-  parts.loadSVG({ minify: false }),
-  parts.loadImages()
-]);
+const developmentConfig = merge([parts.devServer(), parts.loadImages()]);
 
 module.exports = mode => {
   if (mode === "production") {

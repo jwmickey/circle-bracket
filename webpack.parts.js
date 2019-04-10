@@ -40,7 +40,7 @@ exports.loadImages = ({ include, exclude, options } = {}) => ({
   }
 });
 
-exports.loadSVG = (options = { minify: false }) => {
+exports.loadSVG = (options = {}) => {
   return {
     module: {
       rules: [
@@ -51,13 +51,6 @@ exports.loadSVG = (options = { minify: false }) => {
               loader: "file-loader",
               options: {
                 outputPath: "svg"
-              }
-            },
-            {
-              loader: "image-webpack-loader",
-              options: {
-                disable: !options.minify,
-                svgo: {}
               }
             }
           ]
