@@ -68,6 +68,8 @@ const years = Array.from(
   new Array(maxYear - minYear + 1),
   (x, i) => i + 1985
 ).reverse();
+// add 1983 manually temporarily
+years.push(1983);
 
 document.body.appendChild(
   yearPicker(years, year, e => {

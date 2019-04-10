@@ -119,6 +119,17 @@ export default class Bracket {
     this.drawRegionNames();
     this.drawSeeds();
 
+    // draw gray bg on radius
+    const [x, y] = this.getCenter();
+    const radius = this.getRadiiForRound(0)[0];
+    this.ctx.save();
+    this.ctx.translate(x, y);
+    this.ctx.beginPath();
+    this.ctx.arc(0, 0, radius, 0, TO_RADIANS * 360);
+    this.ctx.fillStyle = "#F7F7F7";
+    this.ctx.fill();
+    this.ctx.restore();
+
     const dataset = this.bracketData.games.filter(game => game.round > 0);
 
     let slotPromises = [];
@@ -239,13 +250,32 @@ export default class Bracket {
     this.ctx.textAlign = "center";
     this.ctx.fillStyle = "#555";
 
+    // this allows for older seasons that have fewer than 16 seeds
+    const seedsInBracket = this.bracketData.games.reduce((accu, curr) => {
+      const homeSeed = curr.home.seed;
+      const awaySeed = curr.away.seed;
+      if (accu.indexOf(homeSeed) < 0) {
+        accu.push(homeSeed);
+      }
+      if (accu.indexOf(awaySeed) < 0) {
+        accu.push(awaySeed);
+      }
+      return accu;
+    }, []);
+
     for (let i = 0; i < this.numEntries; i++) {
+      const seed = seeds[i % 16];
+      // skip seeds that don't exist for this tournament
+      if (seedsInBracket.indexOf(seed) < 0) {
+        continue;
+      }
+
       let t1 = ((Math.PI * 2) / this.numEntries) * i;
       let t2 = ((Math.PI * 2) / this.numEntries) * (i + 1);
       let t = t1 + (t2 - t1) / 2;
       let x = Math.floor(radius * Math.cos(t));
       let y = Math.floor(radius * Math.sin(t) + 3);
-      this.ctx.fillText(seeds[i % 16].toString(), x, y);
+      this.ctx.fillText(seed.toString(), x, y);
     }
 
     this.ctx.restore();
@@ -316,6 +346,9 @@ export default class Bracket {
   };
 
   fillSlot = (round, slot, teamCode) => {
+    if (!teams[teamCode]) {
+      console.log(teamCode);
+    }
     if (round === 5) {
       return this.fillChampGameSlot(slot, teamCode);
     }
