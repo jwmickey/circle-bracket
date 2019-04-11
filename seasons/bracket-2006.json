@@ -1,656 +1,27 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:35:02.296Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:14:27.883Z",
 	"year": 2006,
 	"regions": [
 		{
-			"name": "",
-			"position": "BL"
-		},
-		{
-			"name": "",
-			"position": "TL"
-		},
-		{
-			"name": "",
+			"name": "Minneapolis",
 			"position": "TR"
 		},
 		{
-			"name": "",
+			"name": "Atlanta",
+			"position": "BL"
+		},
+		{
+			"name": "Oakland",
+			"position": "TL"
+		},
+		{
+			"name": "Washington",
 			"position": "BR"
 		}
 	],
 	"games": [
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 70,
-				"winner": true
-			},
-			"away": {
-				"name": "Southern",
-				"code": "southern-u",
-				"seed": 16,
-				"score": 54,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "George Washington",
-				"code": "george-washington",
-				"seed": 8,
-				"score": 88,
-				"winner": true
-			},
-			"away": {
-				"name": "UNC-Wilmington",
-				"code": "unc-wilmington",
-				"seed": 9,
-				"score": 85,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 5,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
-				"name": "Texas A&M",
-				"code": "texas-am",
-				"seed": 12,
-				"score": 66,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "LSU",
-				"code": "lsu",
-				"seed": 4,
-				"score": 80,
-				"winner": true
-			},
-			"away": {
-				"name": "Iona",
-				"code": "iona",
-				"seed": 13,
-				"score": 64,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "West Virginia",
-				"code": "west-virginia",
-				"seed": 6,
-				"score": 64,
-				"winner": true
-			},
-			"away": {
-				"name": "Southern Illinois",
-				"code": "southern-ill",
-				"seed": 11,
-				"score": 46,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Iowa",
-				"code": "iowa",
-				"seed": 3,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
-				"name": "Northwestern State",
-				"code": "northwestern-st",
-				"seed": 14,
-				"score": 64,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "California",
-				"code": "california",
-				"seed": 7,
-				"score": 52,
-				"winner": false
-			},
-			"away": {
-				"name": "North Carolina State",
-				"code": "north-carolina-st",
-				"seed": 10,
-				"score": 58,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Texas",
-				"code": "texas",
-				"seed": 2,
-				"score": 60,
-				"winner": true
-			},
-			"away": {
-				"name": "Pennsylvania",
-				"code": "penn",
-				"seed": 15,
-				"score": 52,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 74,
-				"winner": true
-			},
-			"away": {
-				"name": "George Washington",
-				"code": "george-washington",
-				"seed": 8,
-				"score": 61,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Texas A&M",
-				"code": "texas-am",
-				"seed": 12,
-				"score": 57,
-				"winner": false
-			},
-			"away": {
-				"name": "LSU",
-				"code": "lsu",
-				"seed": 4,
-				"score": 58,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "West Virginia",
-				"code": "west-virginia",
-				"seed": 6,
-				"score": 67,
-				"winner": true
-			},
-			"away": {
-				"name": "Northwestern State",
-				"code": "northwestern-st",
-				"seed": 14,
-				"score": 54,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "North Carolina State",
-				"code": "north-carolina-st",
-				"seed": 10,
-				"score": 54,
-				"winner": false
-			},
-			"away": {
-				"name": "Texas",
-				"code": "texas",
-				"seed": 2,
-				"score": 75,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 54,
-				"winner": false
-			},
-			"away": {
-				"name": "LSU",
-				"code": "lsu",
-				"seed": 4,
-				"score": 62,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "West Virginia",
-				"code": "west-virginia",
-				"seed": 6,
-				"score": 71,
-				"winner": false
-			},
-			"away": {
-				"name": "Texas",
-				"code": "texas",
-				"seed": 2,
-				"score": 74,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "LSU",
-				"code": "lsu",
-				"seed": 4,
-				"score": 70,
-				"winner": true
-			},
-			"away": {
-				"name": "Texas",
-				"code": "texas",
-				"seed": 2,
-				"score": 60,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Memphis",
-				"code": "memphis",
-				"seed": 1,
-				"score": 94,
-				"winner": true
-			},
-			"away": {
-				"name": "Oral Roberts",
-				"code": "oral-roberts",
-				"seed": 16,
-				"score": 78,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arkansas",
-				"code": "arkansas",
-				"seed": 8,
-				"score": 55,
-				"winner": false
-			},
-			"away": {
-				"name": "Bucknell",
-				"code": "bucknell",
-				"seed": 9,
-				"score": 59,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Pittsburgh",
-				"code": "pittsburgh",
-				"seed": 5,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
-				"name": "Kent State",
-				"code": "kent-st",
-				"seed": 12,
-				"score": 64,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 4,
-				"score": 73,
-				"winner": false
-			},
-			"away": {
-				"name": "Bradley",
-				"code": "bradley",
-				"seed": 13,
-				"score": 77,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Indiana",
-				"code": "indiana",
-				"seed": 6,
-				"score": 87,
-				"winner": true
-			},
-			"away": {
-				"name": "San Diego State",
-				"code": "san-diego-st",
-				"seed": 11,
-				"score": 83,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Gonzaga",
-				"code": "gonzaga",
-				"seed": 3,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
-				"name": "Xavier",
-				"code": "xavier",
-				"seed": 14,
-				"score": 75,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Marquette",
-				"code": "marquette",
-				"seed": 7,
-				"score": 85,
-				"winner": false
-			},
-			"away": {
-				"name": "Alabama",
-				"code": "alabama",
-				"seed": 10,
-				"score": 90,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 2,
-				"score": 78,
-				"winner": true
-			},
-			"away": {
-				"name": "Belmont",
-				"code": "belmont",
-				"seed": 15,
-				"score": 44,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Memphis",
-				"code": "memphis",
-				"seed": 1,
-				"score": 72,
-				"winner": true
-			},
-			"away": {
-				"name": "Bucknell",
-				"code": "bucknell",
-				"seed": 9,
-				"score": 56,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Pittsburgh",
-				"code": "pittsburgh",
-				"seed": 5,
-				"score": 66,
-				"winner": false
-			},
-			"away": {
-				"name": "Bradley",
-				"code": "bradley",
-				"seed": 13,
-				"score": 72,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Indiana",
-				"code": "indiana",
-				"seed": 6,
-				"score": 80,
-				"winner": false
-			},
-			"away": {
-				"name": "Gonzaga",
-				"code": "gonzaga",
-				"seed": 3,
-				"score": 90,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Alabama",
-				"code": "alabama",
-				"seed": 10,
-				"score": 59,
-				"winner": false
-			},
-			"away": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 2,
-				"score": 62,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Memphis",
-				"code": "memphis",
-				"seed": 1,
-				"score": 80,
-				"winner": true
-			},
-			"away": {
-				"name": "Bradley",
-				"code": "bradley",
-				"seed": 13,
-				"score": 64,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Gonzaga",
-				"code": "gonzaga",
-				"seed": 3,
-				"score": 71,
-				"winner": false
-			},
-			"away": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 2,
-				"score": 73,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Memphis",
-				"code": "memphis",
-				"seed": 1,
-				"score": 45,
-				"winner": false
-			},
-			"away": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 2,
-				"score": 50,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
 		{
 			"home": {
 				"name": "Villanova",
@@ -666,11 +37,12 @@
 				"score": 45,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-17",
+			"location": "Philadelphia, PA",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-monmouth.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -687,11 +59,12 @@
 				"score": 75,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-17",
+			"location": "Philadelphia, PA",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -708,11 +81,12 @@
 				"score": 87,
 				"winner": true
 			},
-			"date": "",
+			"date": "2006-03-16",
+			"location": "Salt Lake City, UT",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-montana.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -729,11 +103,12 @@
 				"score": 76,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-16",
+			"location": "Salt Lake City, UT",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -744,17 +119,18 @@
 				"winner": false
 			},
 			"away": {
-				"name": "UW–Milwaukee",
+				"name": "Milwaukee",
 				"code": "milwaukee",
 				"seed": 11,
 				"score": 82,
 				"winner": true
 			},
-			"date": "",
+			"date": "2006-03-16",
+			"location": "Jacksonville, FL",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-milwaukee.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -771,11 +147,12 @@
 				"score": 50,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-16",
+			"location": "Jacksonville, FL",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -792,11 +169,12 @@
 				"score": 49,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-17",
+			"location": "Dayton, OH",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -813,11 +191,12 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-17",
+			"location": "Dayton, OH",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-davidson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -834,74 +213,78 @@
 				"score": 78,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-19",
+			"location": "Philadelphia, PA",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-19-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Montana",
-				"code": "montana",
-				"seed": 12,
-				"score": 56,
-				"winner": false
-			},
-			"away": {
 				"name": "Boston College",
 				"code": "boston-college",
 				"seed": 4,
 				"score": 69,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Montana",
+				"code": "montana",
+				"seed": 12,
+				"score": 56,
+				"winner": false
+			},
+			"date": "2006-03-18",
+			"location": "Salt Lake City, UT",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-18-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "UW–Milwaukee",
-				"code": "milwaukee",
-				"seed": 11,
-				"score": 60,
-				"winner": false
-			},
-			"away": {
 				"name": "Florida",
 				"code": "florida",
 				"seed": 3,
 				"score": 82,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Milwaukee",
+				"code": "milwaukee",
+				"seed": 11,
+				"score": 60,
+				"winner": false
+			},
+			"date": "2006-03-18",
+			"location": "Jacksonville, FL",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-18-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Georgetown",
-				"code": "georgetown",
-				"seed": 7,
-				"score": 70,
-				"winner": true
-			},
-			"away": {
 				"name": "Ohio State",
 				"code": "ohio-st",
 				"seed": 2,
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 7,
+				"score": 70,
+				"winner": true
+			},
+			"date": "2006-03-19",
+			"location": "Dayton, OH",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-19-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -918,11 +301,12 @@
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-24",
+			"location": "Minneapolis, MN",
 			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-24-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -939,11 +323,12 @@
 				"score": 53,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-24",
+			"location": "Minneapolis, MN",
 			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-24-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -960,32 +345,694 @@
 				"score": 75,
 				"winner": true
 			},
-			"date": "",
+			"date": "2006-03-26",
+			"location": "Minneapolis, MN",
 			"region": "TR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-26-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Southern",
+				"code": "southern-u",
+				"seed": 16,
+				"score": 54,
+				"winner": false
+			},
+			"date": "2006-03-16",
+			"location": "Greensboro, NC",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "George Washington",
+				"code": "george-washington",
+				"seed": 8,
+				"score": 88,
+				"winner": true
+			},
+			"away": {
+				"name": "UNC Wilmington",
+				"code": "unc-wilmington",
+				"seed": 9,
+				"score": 85,
+				"winner": false
+			},
+			"date": "2006-03-16",
+			"location": "Greensboro, NC",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-george-washington.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 5,
+				"score": 58,
+				"winner": false
+			},
+			"away": {
+				"name": "Texas A&M",
+				"code": "texas-am",
+				"seed": 12,
+				"score": 66,
+				"winner": true
+			},
+			"date": "2006-03-16",
+			"location": "Jacksonville, FL",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-syracuse.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "LSU",
+				"code": "lsu",
+				"seed": 4,
+				"score": 80,
+				"winner": true
+			},
+			"away": {
+				"name": "Iona",
+				"code": "iona",
+				"seed": 13,
+				"score": 64,
+				"winner": false
+			},
+			"date": "2006-03-16",
+			"location": "Jacksonville, FL",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-iona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 6,
+				"score": 64,
+				"winner": true
+			},
+			"away": {
+				"name": "Southern Illinois",
+				"code": "southern-ill",
+				"seed": 11,
+				"score": 46,
+				"winner": false
+			},
+			"date": "2006-03-17",
+			"location": "Auburn Hills, MI",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-southern-illinois.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 3,
+				"score": 63,
+				"winner": false
+			},
+			"away": {
+				"name": "Northwestern State",
+				"code": "northwestern-st",
+				"seed": 14,
+				"score": 64,
+				"winner": true
+			},
+			"date": "2006-03-17",
+			"location": "Auburn Hills, MI",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-iowa.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "California",
+				"code": "california",
+				"seed": 7,
+				"score": 52,
+				"winner": false
+			},
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 10,
+				"score": 58,
+				"winner": true
+			},
+			"date": "2006-03-17",
+			"location": "Dallas, TX",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-california.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 2,
+				"score": 60,
+				"winner": true
+			},
+			"away": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 15,
+				"score": 52,
+				"winner": false
+			},
+			"date": "2006-03-17",
+			"location": "Dallas, TX",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-pennsylvania.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "George Washington",
+				"code": "george-washington",
+				"seed": 8,
+				"score": 61,
+				"winner": false
+			},
+			"date": "2006-03-18",
+			"location": "Greensboro, NC",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-18-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "LSU",
+				"code": "lsu",
+				"seed": 4,
+				"score": 58,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas A&M",
+				"code": "texas-am",
+				"seed": 12,
+				"score": 57,
+				"winner": false
+			},
+			"date": "2006-03-18",
+			"location": "Jacksonville, FL",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-18-louisiana-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 6,
+				"score": 67,
+				"winner": true
+			},
+			"away": {
+				"name": "Northwestern State",
+				"code": "northwestern-st",
+				"seed": 14,
+				"score": 54,
+				"winner": false
+			},
+			"date": "2006-03-19",
+			"location": "Auburn Hills, MI",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-19-northwestern-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 2,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 10,
+				"score": 54,
+				"winner": false
+			},
+			"date": "2006-03-19",
+			"location": "Dallas, TX",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-19-north-carolina-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 54,
+				"winner": false
+			},
+			"away": {
+				"name": "LSU",
+				"code": "lsu",
+				"seed": 4,
+				"score": 62,
+				"winner": true
+			},
+			"date": "2006-03-23",
+			"location": "Atlanta, GA",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-23-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 2,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 6,
+				"score": 71,
+				"winner": false
+			},
+			"date": "2006-03-23",
+			"location": "Atlanta, GA",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-23-texas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 2,
+				"score": 60,
+				"winner": false
+			},
+			"away": {
+				"name": "LSU",
+				"code": "lsu",
+				"seed": 4,
+				"score": 70,
+				"winner": true
+			},
+			"date": "2006-03-25",
+			"location": "Atlanta, GA",
+			"region": "BL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-25-louisiana-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 1,
+				"score": 94,
+				"winner": true
+			},
+			"away": {
+				"name": "Oral Roberts",
+				"code": "oral-roberts",
+				"seed": 16,
+				"score": 78,
+				"winner": false
+			},
+			"date": "2006-03-17",
+			"location": "Dallas, TX",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-memphis.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 8,
+				"score": 55,
+				"winner": false
+			},
+			"away": {
+				"name": "Bucknell",
+				"code": "bucknell",
+				"seed": 9,
+				"score": 59,
+				"winner": true
+			},
+			"date": "2006-03-17",
+			"location": "Dallas, TX",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-arkansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 5,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Kent State",
+				"code": "kent-st",
+				"seed": 12,
+				"score": 64,
+				"winner": false
+			},
+			"date": "2006-03-17",
+			"location": "Auburn Hills, MI",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-kent-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 4,
+				"score": 73,
+				"winner": false
+			},
+			"away": {
+				"name": "Bradley",
+				"code": "bradley",
+				"seed": 13,
+				"score": 77,
+				"winner": true
+			},
+			"date": "2006-03-17",
+			"location": "Auburn Hills, MI",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-bradley.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 6,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "San Diego State",
+				"code": "san-diego-st",
+				"seed": 11,
+				"score": 83,
+				"winner": false
+			},
+			"date": "2006-03-16",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 3,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Xavier",
+				"code": "xavier",
+				"seed": 14,
+				"score": 75,
+				"winner": false
+			},
+			"date": "2006-03-16",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-gonzaga.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 7,
+				"score": 85,
+				"winner": false
+			},
+			"away": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 10,
+				"score": 90,
+				"winner": true
+			},
+			"date": "2006-03-16",
+			"location": "San Diego, CA",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-alabama.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 2,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Belmont",
+				"code": "belmont",
+				"seed": 15,
+				"score": 44,
+				"winner": false
+			},
+			"date": "2006-03-16",
+			"location": "San Diego, CA",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-belmont.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 1,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Bucknell",
+				"code": "bucknell",
+				"seed": 9,
+				"score": 56,
+				"winner": false
+			},
+			"date": "2006-03-19",
+			"location": "Auburn Hills, MI",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-19-bucknell.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 5,
+				"score": 66,
+				"winner": false
+			},
+			"away": {
+				"name": "Bradley",
+				"code": "bradley",
+				"seed": 13,
+				"score": 72,
+				"winner": true
+			},
+			"date": "2006-03-19",
+			"location": "Dallas, TX",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-19-bradley.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 3,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 6,
+				"score": 80,
+				"winner": false
+			},
+			"date": "2006-03-18",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-18-gonzaga.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 2,
+				"score": 62,
+				"winner": true
+			},
+			"away": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 10,
+				"score": 59,
+				"winner": false
+			},
+			"date": "2006-03-18",
+			"location": "San Diego, CA",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-18-alabama.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 1,
+				"score": 80,
+				"winner": true
+			},
+			"away": {
+				"name": "Bradley",
+				"code": "bradley",
+				"seed": 13,
+				"score": 64,
+				"winner": false
+			},
+			"date": "2006-03-23",
+			"location": "Oakland, CA",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-23-bradley.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 2,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 3,
+				"score": 71,
+				"winner": false
+			},
+			"date": "2006-03-23",
+			"location": "Oakland, CA",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-23-gonzaga.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 1,
+				"score": 45,
+				"winner": false
+			},
+			"away": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 2,
+				"score": 50,
+				"winner": true
+			},
+			"date": "2006-03-25",
+			"location": "Oakland, CA",
+			"region": "TL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-25-memphis.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 1,
 				"score": 72,
 				"winner": true
 			},
 			"away": {
-				"name": "Albany",
+				"name": "Albany (NY)",
 				"code": "albany-ny",
 				"seed": 16,
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-17",
+			"location": "Philadelphia, PA",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-albany-ny.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -996,17 +1043,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "UAB",
+				"name": "Alabama-Birmingham",
 				"code": "uab",
 				"seed": 9,
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-17",
+			"location": "Philadelphia, PA",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-alabama-birmingham.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +1071,12 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-16",
+			"location": "San Diego, CA",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-utah-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1044,11 +1093,12 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-16",
+			"location": "San Diego, CA",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-air-force.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,15 +1115,16 @@
 				"score": 75,
 				"winner": true
 			},
-			"date": "",
+			"date": "2006-03-17",
+			"location": "Dayton, OH",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-george-mason.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 3,
 				"score": 69,
@@ -1086,11 +1137,12 @@
 				"score": 65,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-17",
+			"location": "Dayton, OH",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-17-murray-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +1159,12 @@
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-16",
+			"location": "Greensboro, NC",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-seton-hall.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,15 +1181,16 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-16",
+			"location": "Greensboro, NC",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-16-tennessee.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 1,
 				"score": 87,
@@ -1149,78 +1203,82 @@
 				"score": 83,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-19",
+			"location": "Philadelphia, PA",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-19-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Washington",
-				"code": "washington",
-				"seed": 5,
-				"score": 67,
-				"winner": true
-			},
-			"away": {
 				"name": "Illinois",
 				"code": "illinois",
 				"seed": 4,
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Washington",
+				"code": "washington",
+				"seed": 5,
+				"score": 67,
+				"winner": true
+			},
+			"date": "2006-03-18",
+			"location": "San Diego, CA",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-18-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 3,
+				"score": 60,
+				"winner": false
+			},
+			"away": {
 				"name": "George Mason",
 				"code": "george-mason",
 				"seed": 11,
 				"score": 65,
 				"winner": true
 			},
-			"away": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 3,
-				"score": 60,
-				"winner": false
-			},
-			"date": "",
+			"date": "2006-03-19",
+			"location": "Dayton, OH",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-19-george-mason.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Wichita State",
-				"code": "wichita-st",
-				"seed": 7,
-				"score": 80,
-				"winner": true
-			},
-			"away": {
 				"name": "Tennessee",
 				"code": "tennessee",
 				"seed": 2,
 				"score": 73,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Wichita State",
+				"code": "wichita-st",
+				"seed": 7,
+				"score": 80,
+				"winner": true
+			},
+			"date": "2006-03-18",
+			"location": "Greensboro, NC",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-18-tennessee.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 1,
 				"score": 98,
@@ -1233,36 +1291,38 @@
 				"score": 92,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-03-24",
+			"location": "Washington, DC",
 			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-24-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "George Mason",
-				"code": "george-mason",
-				"seed": 11,
-				"score": 63,
-				"winner": true
-			},
-			"away": {
 				"name": "Wichita State",
 				"code": "wichita-st",
 				"seed": 7,
 				"score": 55,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "George Mason",
+				"code": "george-mason",
+				"seed": 11,
+				"score": 63,
+				"winner": true
+			},
+			"date": "2006-03-24",
+			"location": "Washington, DC",
 			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-24-george-mason.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 1,
 				"score": 84,
@@ -1275,32 +1335,12 @@
 				"score": 86,
 				"winner": true
 			},
-			"date": "",
+			"date": "2006-03-26",
+			"location": "Washington, DC",
 			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "LSU",
-				"code": "lsu",
-				"seed": 4,
-				"score": 45,
-				"winner": false
-			},
-			"away": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 2,
-				"score": 59,
-				"winner": true
-			},
-			"date": "",
-			"region": "",
-			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-03-26-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1317,11 +1357,34 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
+			"date": "2006-04-01",
+			"location": "Indianapolis, IN",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-04-01-florida.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 2,
+				"score": 59,
+				"winner": true
+			},
+			"away": {
+				"name": "LSU",
+				"code": "lsu",
+				"seed": 4,
+				"score": 45,
+				"winner": false
+			},
+			"date": "2006-04-01",
+			"location": "Indianapolis, IN",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-04-01-louisiana-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1338,11 +1401,12 @@
 				"score": 73,
 				"winner": true
 			},
-			"date": "",
+			"date": "2006-04-03",
+			"location": "Indianapolis, IN",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2006-04-03-florida.html",
+			"isComplete": true
 		}
 	]
 }

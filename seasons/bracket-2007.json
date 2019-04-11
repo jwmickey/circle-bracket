@@ -1,341 +1,27 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:34:26.173Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:14:59.733Z",
 	"year": 2007,
 	"regions": [
 		{
-			"name": "",
-			"position": "TL"
-		},
-		{
-			"name": "",
-			"position": "BL"
-		},
-		{
-			"name": "",
+			"name": "West",
 			"position": "BR"
 		},
 		{
-			"name": "",
+			"name": "East",
+			"position": "BL"
+		},
+		{
+			"name": "Midwest",
 			"position": "TR"
+		},
+		{
+			"name": "South",
+			"position": "TL"
 		}
 	],
 	"games": [
-		{
-			"home": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 1,
-				"score": 112,
-				"winner": true
-			},
-			"away": {
-				"name": "Jackson State",
-				"code": "jackson-st",
-				"seed": 16,
-				"score": 69,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 8,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 9,
-				"score": 72,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Butler",
-				"code": "butler",
-				"seed": 5,
-				"score": 57,
-				"winner": true
-			},
-			"away": {
-				"name": "Old Dominion",
-				"code": "old-dominion",
-				"seed": 12,
-				"score": 46,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 4,
-				"score": 82,
-				"winner": true
-			},
-			"away": {
-				"name": "Davidson",
-				"code": "davidson",
-				"seed": 13,
-				"score": 70,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Notre Dame",
-				"code": "notre-dame",
-				"seed": 6,
-				"score": 64,
-				"winner": false
-			},
-			"away": {
-				"name": "Winthrop",
-				"code": "winthrop",
-				"seed": 11,
-				"score": 74,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oregon",
-				"code": "oregon",
-				"seed": 3,
-				"score": 58,
-				"winner": true
-			},
-			"away": {
-				"name": "Miami (Ohio)",
-				"code": "miami-oh",
-				"seed": 14,
-				"score": 56,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UNLV",
-				"code": "unlv",
-				"seed": 7,
-				"score": 67,
-				"winner": true
-			},
-			"away": {
-				"name": "Georgia Tech",
-				"code": "georgia-tech",
-				"seed": 10,
-				"score": 63,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Wisconsin",
-				"code": "wisconsin",
-				"seed": 2,
-				"score": 76,
-				"winner": true
-			},
-			"away": {
-				"name": "Texas A&M-CC",
-				"code": "am-corpus-chris",
-				"seed": 15,
-				"score": 63,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 1,
-				"score": 74,
-				"winner": true
-			},
-			"away": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 9,
-				"score": 67,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Butler",
-				"code": "butler",
-				"seed": 5,
-				"score": 62,
-				"winner": true
-			},
-			"away": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 4,
-				"score": 59,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Winthrop",
-				"code": "winthrop",
-				"seed": 11,
-				"score": 61,
-				"winner": false
-			},
-			"away": {
-				"name": "Oregon",
-				"code": "oregon",
-				"seed": 3,
-				"score": 75,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UNLV",
-				"code": "unlv",
-				"seed": 7,
-				"score": 74,
-				"winner": true
-			},
-			"away": {
-				"name": "Wisconsin",
-				"code": "wisconsin",
-				"seed": 2,
-				"score": 68,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 1,
-				"score": 65,
-				"winner": true
-			},
-			"away": {
-				"name": "Butler",
-				"code": "butler",
-				"seed": 5,
-				"score": 57,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oregon",
-				"code": "oregon",
-				"seed": 3,
-				"score": 76,
-				"winner": true
-			},
-			"away": {
-				"name": "UNLV",
-				"code": "unlv",
-				"seed": 7,
-				"score": 72,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 1,
-				"score": 85,
-				"winner": true
-			},
-			"away": {
-				"name": "Oregon",
-				"code": "oregon",
-				"seed": 3,
-				"score": 77,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
 		{
 			"home": {
 				"name": "Kansas",
@@ -351,11 +37,12 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2007-03-16",
+			"location": "Chicago, IL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -372,11 +59,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2007-03-16",
+			"location": "Chicago, IL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -393,11 +81,12 @@
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2007-03-16",
+			"location": "Columbus, OH",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -414,11 +103,12 @@
 				"score": 51,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2007-03-16",
+			"location": "Columbus, OH",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-holy-cross.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -435,15 +125,16 @@
 				"score": 79,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2007-03-15",
+			"location": "Buffalo, NY",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 3,
 				"score": 79,
@@ -456,11 +147,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2007-03-15",
+			"location": "Buffalo, NY",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-pittsburgh.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -477,11 +169,12 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2007-03-15",
+			"location": "Sacramento, CA",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-gonzaga.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -498,11 +191,12 @@
 				"score": 42,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2007-03-15",
+			"location": "Sacramento, CA",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-ucla.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -519,74 +213,78 @@
 				"score": 76,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2007-03-18",
+			"location": "Chicago, IL",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-18-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Virginia Tech",
-				"code": "virginia-tech",
-				"seed": 5,
-				"score": 48,
-				"winner": false
-			},
-			"away": {
 				"name": "Southern Illinois",
 				"code": "southern-ill",
 				"seed": 4,
 				"score": 63,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Virginia Tech",
+				"code": "virginia-tech",
+				"seed": 5,
+				"score": 48,
+				"winner": false
+			},
+			"date": "2007-03-18",
+			"location": "Columbus, OH",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-18-southern-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 3,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
 				"name": "VCU",
 				"code": "vcu",
 				"seed": 11,
 				"score": 79,
 				"winner": false
 			},
-			"away": {
-				"name": "Pittsburgh",
-				"code": "pittsburgh",
-				"seed": 3,
-				"score": 84,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
+			"date": "2007-03-17",
+			"location": "Buffalo, NY",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-17-pittsburgh.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Indiana",
-				"code": "indiana",
-				"seed": 7,
-				"score": 49,
-				"winner": false
-			},
-			"away": {
 				"name": "UCLA",
 				"code": "ucla",
 				"seed": 2,
 				"score": 54,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 7,
+				"score": 49,
+				"winner": false
+			},
+			"date": "2007-03-17",
+			"location": "Sacramento, CA",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-17-indiana.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -603,32 +301,34 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2007-03-22",
+			"location": "San Jose, CA",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-22-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Pittsburgh",
-				"code": "pittsburgh",
-				"seed": 3,
-				"score": 55,
-				"winner": false
-			},
-			"away": {
 				"name": "UCLA",
 				"code": "ucla",
 				"seed": 2,
 				"score": 64,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 3,
+				"score": 55,
+				"winner": false
+			},
+			"date": "2007-03-22",
+			"location": "San Jose, CA",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-22-pittsburgh.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -645,15 +345,16 @@
 				"score": 68,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2007-03-24",
+			"location": "San Jose, CA",
+			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-24-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 86,
@@ -666,11 +367,12 @@
 				"score": 65,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2007-03-15",
+			"location": "Winston-Salem, NC",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-eastern-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -687,11 +389,12 @@
 				"score": 61,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2007-03-15",
+			"location": "Winston-Salem, NC",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-marquette.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -708,11 +411,12 @@
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2007-03-16",
+			"location": "Spokane, WA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -729,11 +433,12 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2007-03-16",
+			"location": "Spokane, WA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-new-mexico-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -750,11 +455,12 @@
 				"score": 44,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2007-03-15",
+			"location": "Sacramento, CA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-george-washington.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -771,11 +477,12 @@
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2007-03-15",
+			"location": "Sacramento, CA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-oral-roberts.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -792,11 +499,12 @@
 				"score": 75,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2007-03-15",
+			"location": "Winston-Salem, NC",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -813,15 +521,16 @@
 				"score": 55,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2007-03-15",
+			"location": "Winston-Salem, NC",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-belmont.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 81,
@@ -834,78 +543,82 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2007-03-17",
+			"location": "Winston-Salem, NC",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-17-michigan-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "USC",
-				"code": "southern-california",
-				"seed": 5,
-				"score": 87,
-				"winner": true
-			},
-			"away": {
 				"name": "Texas",
 				"code": "texas",
 				"seed": 4,
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "USC",
+				"code": "southern-california",
+				"seed": 5,
+				"score": 87,
+				"winner": true
+			},
+			"date": "2007-03-18",
+			"location": "Spokane, WA",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-18-southern-california.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Vanderbilt",
-				"code": "vanderbilt",
-				"seed": 6,
-				"score": 78,
-				"winner": true
-			},
-			"away": {
 				"name": "Washington State",
 				"code": "washington-st",
 				"seed": 3,
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Vanderbilt",
+				"code": "vanderbilt",
+				"seed": 6,
+				"score": 78,
+				"winner": true
+			},
+			"date": "2007-03-17",
+			"location": "Sacramento, CA",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-17-vanderbilt.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Boston College",
-				"code": "boston-college",
-				"seed": 7,
-				"score": 55,
-				"winner": false
-			},
-			"away": {
 				"name": "Georgetown",
 				"code": "georgetown",
 				"seed": 2,
 				"score": 62,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 7,
+				"score": 55,
+				"winner": false
+			},
+			"date": "2007-03-17",
+			"location": "Winston-Salem, NC",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-17-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 74,
@@ -918,36 +631,38 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2007-03-23",
+			"location": "East Rutherford, NJ",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-23-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Vanderbilt",
-				"code": "vanderbilt",
-				"seed": 6,
-				"score": 65,
-				"winner": false
-			},
-			"away": {
 				"name": "Georgetown",
 				"code": "georgetown",
 				"seed": 2,
 				"score": 66,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Vanderbilt",
+				"code": "vanderbilt",
+				"seed": 6,
+				"score": 65,
+				"winner": false
+			},
+			"date": "2007-03-23",
+			"location": "East Rutherford, NJ",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-23-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 84,
@@ -960,11 +675,342 @@
 				"score": 96,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2007-03-25",
+			"location": "East Rutherford, NJ",
+			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-25-georgetown.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 1,
+				"score": 112,
+				"winner": true
+			},
+			"away": {
+				"name": "Jackson State",
+				"code": "jackson-st",
+				"seed": 16,
+				"score": 69,
+				"winner": false
+			},
+			"date": "2007-03-16",
+			"location": "New Orleans, LA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-florida.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 8,
+				"score": 63,
+				"winner": false
+			},
+			"away": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 9,
+				"score": 72,
+				"winner": true
+			},
+			"date": "2007-03-16",
+			"location": "New Orleans, LA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Butler",
+				"code": "butler",
+				"seed": 5,
+				"score": 57,
+				"winner": true
+			},
+			"away": {
+				"name": "Old Dominion",
+				"code": "old-dominion",
+				"seed": 12,
+				"score": 46,
+				"winner": false
+			},
+			"date": "2007-03-15",
+			"location": "Buffalo, NY",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-butler.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 4,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Davidson",
+				"code": "davidson",
+				"seed": 13,
+				"score": 70,
+				"winner": false
+			},
+			"date": "2007-03-15",
+			"location": "Buffalo, NY",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-davidson.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 6,
+				"score": 64,
+				"winner": false
+			},
+			"away": {
+				"name": "Winthrop",
+				"code": "winthrop",
+				"seed": 11,
+				"score": 74,
+				"winner": true
+			},
+			"date": "2007-03-16",
+			"location": "Spokane, WA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-notre-dame.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oregon",
+				"code": "oregon",
+				"seed": 3,
+				"score": 58,
+				"winner": true
+			},
+			"away": {
+				"name": "Miami (OH)",
+				"code": "miami-oh",
+				"seed": 14,
+				"score": 56,
+				"winner": false
+			},
+			"date": "2007-03-16",
+			"location": "Spokane, WA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-miami-oh.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 7,
+				"score": 67,
+				"winner": true
+			},
+			"away": {
+				"name": "Georgia Tech",
+				"code": "georgia-tech",
+				"seed": 10,
+				"score": 63,
+				"winner": false
+			},
+			"date": "2007-03-16",
+			"location": "Chicago, IL",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-georgia-tech.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wisconsin",
+				"code": "wisconsin",
+				"seed": 2,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas A&M-Corpus Christi",
+				"code": "texas-am",
+				"seed": 15,
+				"score": 63,
+				"winner": false
+			},
+			"date": "2007-03-16",
+			"location": "Chicago, IL",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-texas-am-corpus-christi.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 1,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 9,
+				"score": 67,
+				"winner": false
+			},
+			"date": "2007-03-18",
+			"location": "New Orleans, LA",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-18-florida.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 4,
+				"score": 59,
+				"winner": false
+			},
+			"away": {
+				"name": "Butler",
+				"code": "butler",
+				"seed": 5,
+				"score": 62,
+				"winner": true
+			},
+			"date": "2007-03-17",
+			"location": "Buffalo, NY",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-17-butler.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oregon",
+				"code": "oregon",
+				"seed": 3,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Winthrop",
+				"code": "winthrop",
+				"seed": 11,
+				"score": 61,
+				"winner": false
+			},
+			"date": "2007-03-18",
+			"location": "Spokane, WA",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-18-oregon.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wisconsin",
+				"code": "wisconsin",
+				"seed": 2,
+				"score": 68,
+				"winner": false
+			},
+			"away": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 7,
+				"score": 74,
+				"winner": true
+			},
+			"date": "2007-03-18",
+			"location": "Chicago, IL",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-18-nevada-las-vegas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 1,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "Butler",
+				"code": "butler",
+				"seed": 5,
+				"score": 57,
+				"winner": false
+			},
+			"date": "2007-03-23",
+			"location": "St. Louis, MO",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-23-butler.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oregon",
+				"code": "oregon",
+				"seed": 3,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 7,
+				"score": 72,
+				"winner": false
+			},
+			"date": "2007-03-23",
+			"location": "St. Louis, MO",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-23-nevada-las-vegas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 1,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "Oregon",
+				"code": "oregon",
+				"seed": 3,
+				"score": 77,
+				"winner": false
+			},
+			"date": "2007-03-25",
+			"location": "St. Louis, MO",
+			"region": "TR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-25-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -975,17 +1021,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Central Connecticut State",
+				"name": "Central Connecticut",
 				"code": "central-conn-st",
 				"seed": 16,
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2007-03-15",
+			"location": "Lexington, KY",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-central-connecticut-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +1049,12 @@
 				"score": 79,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2007-03-15",
+			"location": "Lexington, KY",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-brigham-young.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +1071,12 @@
 				"score": 86,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2007-03-16",
+			"location": "Columbus, OH",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-long-beach-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1038,17 +1087,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Albany",
+				"name": "Albany (NY)",
 				"code": "albany-ny",
 				"seed": 13,
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2007-03-16",
+			"location": "Columbus, OH",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-albany-ny.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,11 +1115,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2007-03-15",
+			"location": "Lexington, KY",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +1137,12 @@
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2007-03-15",
+			"location": "Lexington, KY",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-15-pennsylvania.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +1159,12 @@
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2007-03-16",
+			"location": "New Orleans, LA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-creighton.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,11 +1181,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2007-03-16",
+			"location": "New Orleans, LA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-16-memphis.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1149,74 +1203,78 @@
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2007-03-17",
+			"location": "Lexington, KY",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-17-ohio-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Tennessee",
-				"code": "tennessee",
-				"seed": 5,
-				"score": 77,
-				"winner": true
-			},
-			"away": {
 				"name": "Virginia",
 				"code": "virginia",
 				"seed": 4,
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 5,
+				"score": 77,
+				"winner": true
+			},
+			"date": "2007-03-18",
+			"location": "Columbus, OH",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-18-tennessee.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 6,
-				"score": 69,
-				"winner": false
-			},
-			"away": {
 				"name": "Texas A&M",
 				"code": "texas-am",
 				"seed": 3,
 				"score": 72,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 6,
+				"score": 69,
+				"winner": false
+			},
+			"date": "2007-03-17",
+			"location": "Lexington, KY",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-17-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Nevada",
-				"code": "nevada",
-				"seed": 7,
-				"score": 62,
-				"winner": false
-			},
-			"away": {
 				"name": "Memphis",
 				"code": "memphis",
 				"seed": 2,
 				"score": 78,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Nevada",
+				"code": "nevada",
+				"seed": 7,
+				"score": 62,
+				"winner": false
+			},
+			"date": "2007-03-18",
+			"location": "New Orleans, LA",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-18-memphis.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1233,32 +1291,34 @@
 				"score": 84,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2007-03-22",
+			"location": "San Antonio, TX",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-22-ohio-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Texas A&M",
-				"code": "texas-am",
-				"seed": 3,
-				"score": 64,
-				"winner": false
-			},
-			"away": {
 				"name": "Memphis",
 				"code": "memphis",
 				"seed": 2,
 				"score": 65,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Texas A&M",
+				"code": "texas-am",
+				"seed": 3,
+				"score": 64,
+				"winner": false
+			},
+			"date": "2007-03-22",
+			"location": "San Antonio, TX",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-22-memphis.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1275,11 +1335,12 @@
 				"score": 76,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2007-03-24",
+			"location": "San Antonio, TX",
+			"region": "TL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-24-memphis.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1296,53 +1357,56 @@
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
+			"date": "2007-03-31",
+			"location": "Atlanta, GA",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-31-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Georgetown",
-				"code": "georgetown",
-				"seed": 2,
-				"score": 60,
-				"winner": false
-			},
-			"away": {
 				"name": "Ohio State",
 				"code": "ohio-st",
 				"seed": 1,
 				"score": 67,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 2,
+				"score": 60,
+				"winner": false
+			},
+			"date": "2007-03-31",
+			"location": "Atlanta, GA",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-03-31-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 1,
-				"score": 84,
-				"winner": true
-			},
-			"away": {
 				"name": "Ohio State",
 				"code": "ohio-st",
 				"seed": 1,
 				"score": 75,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 1,
+				"score": 84,
+				"winner": true
+			},
+			"date": "2007-04-02",
+			"location": "Atlanta, GA",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2007-04-02-florida.html",
+			"isComplete": true
 		}
 	]
 }

@@ -1,29 +1,30 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:47:20.460Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:12:23.985Z",
 	"year": 1997,
 	"regions": [
 		{
-			"name": "",
-			"position": "BL"
-		},
-		{
-			"name": "",
-			"position": "TL"
-		},
-		{
-			"name": "",
+			"name": "East",
 			"position": "BR"
 		},
 		{
-			"name": "",
+			"name": "Midwest",
+			"position": "BL"
+		},
+		{
+			"name": "Southeast",
 			"position": "TR"
+		},
+		{
+			"name": "West",
+			"position": "TL"
 		}
 	],
 	"games": [
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 82,
@@ -36,11 +37,12 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1997-03-13",
+			"location": "Winston-Salem, NC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-fairfield.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -57,11 +59,12 @@
 				"score": 80,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1997-03-13",
+			"location": "Winston-Salem, NC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-colorado.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -78,11 +81,12 @@
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1997-03-13",
+			"location": "Winston-Salem, NC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-california.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -93,17 +97,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Long Island",
+				"name": "LIU-Brooklyn",
 				"code": "long-island",
 				"seed": 13,
 				"score": 91,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1997-03-13",
+			"location": "Winston-Salem, NC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-long-island-university.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -114,17 +119,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Massachusetts",
+				"name": "UMass",
 				"code": "massachusetts",
 				"seed": 11,
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1997-03-14",
+			"location": "Pittsburgh, PA",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -141,11 +147,12 @@
 				"score": 55,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1997-03-14",
+			"location": "Pittsburgh, PA",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-new-mexico.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -162,11 +169,12 @@
 				"score": 71,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1997-03-14",
+			"location": "Pittsburgh, PA",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-texas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -183,15 +191,16 @@
 				"score": 78,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1997-03-14",
+			"location": "Pittsburgh, PA",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-coppin-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 73,
@@ -204,53 +213,56 @@
 				"score": 56,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1997-03-15",
+			"location": "Winston-Salem, NC",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-15-colorado.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "California",
-				"code": "california",
-				"seed": 5,
-				"score": 75,
-				"winner": true
-			},
-			"away": {
 				"name": "Villanova",
 				"code": "villanova",
 				"seed": 4,
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "California",
+				"code": "california",
+				"seed": 5,
+				"score": 75,
+				"winner": true
+			},
+			"date": "1997-03-15",
+			"location": "Winston-Salem, NC",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-15-california.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 6,
-				"score": 64,
-				"winner": true
-			},
-			"away": {
 				"name": "New Mexico",
 				"code": "new-mexico",
 				"seed": 3,
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 6,
+				"score": 64,
+				"winner": true
+			},
+			"date": "1997-03-16",
+			"location": "Pittsburgh, PA",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-16-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -267,15 +279,16 @@
 				"score": 81,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1997-03-16",
+			"location": "Pittsburgh, PA",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-16-coppin-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 63,
@@ -288,11 +301,12 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1997-03-21",
+			"location": "Syracuse, NY",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-21-california.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -309,15 +323,16 @@
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1997-03-21",
+			"location": "Syracuse, NY",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-21-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 97,
@@ -330,326 +345,12 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1997-03-23",
+			"location": "Syracuse, NY",
+			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 1,
-				"score": 78,
-				"winner": true
-			},
-			"away": {
-				"name": "Jackson State",
-				"code": "jackson-st",
-				"seed": 16,
-				"score": 64,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 8,
-				"score": 83,
-				"winner": true
-			},
-			"away": {
-				"name": "Rhode Island",
-				"code": "rhode-island",
-				"seed": 9,
-				"score": 76,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 5,
-				"score": 66,
-				"winner": false
-			},
-			"away": {
-				"name": "College of Charleston",
-				"code": "col-of-charleston",
-				"seed": 12,
-				"score": 75,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 4,
-				"score": 65,
-				"winner": true
-			},
-			"away": {
-				"name": "South Alabama",
-				"code": "south-ala",
-				"seed": 13,
-				"score": 57,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Illinois",
-				"code": "illinois",
-				"seed": 6,
-				"score": 90,
-				"winner": true
-			},
-			"away": {
-				"name": "Southern California",
-				"code": "southern-california",
-				"seed": 11,
-				"score": 77,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Georgia",
-				"code": "georgia",
-				"seed": 3,
-				"score": 70,
-				"winner": false
-			},
-			"away": {
-				"name": "Chattanooga",
-				"code": "chattanooga",
-				"seed": 14,
-				"score": 73,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Marquette",
-				"code": "marquette",
-				"seed": 7,
-				"score": 59,
-				"winner": false
-			},
-			"away": {
-				"name": "Providence",
-				"code": "providence",
-				"seed": 10,
-				"score": 81,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 2,
-				"score": 71,
-				"winner": true
-			},
-			"away": {
-				"name": "Murray State",
-				"code": "murray-st",
-				"seed": 15,
-				"score": 68,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 1,
-				"score": 75,
-				"winner": true
-			},
-			"away": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 8,
-				"score": 61,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "College of Charleston",
-				"code": "col-of-charleston",
-				"seed": 12,
-				"score": 69,
-				"winner": false
-			},
-			"away": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 4,
-				"score": 73,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Illinois",
-				"code": "illinois",
-				"seed": 6,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
-				"name": "Chattanooga",
-				"code": "chattanooga",
-				"seed": 14,
-				"score": 75,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Providence",
-				"code": "providence",
-				"seed": 10,
-				"score": 98,
-				"winner": true
-			},
-			"away": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 2,
-				"score": 87,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 1,
-				"score": 82,
-				"winner": false
-			},
-			"away": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 4,
-				"score": 85,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Chattanooga",
-				"code": "chattanooga",
-				"seed": 14,
-				"score": 65,
-				"winner": false
-			},
-			"away": {
-				"name": "Providence",
-				"code": "providence",
-				"seed": 10,
-				"score": 71,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 4,
-				"score": 96,
-				"winner": true
-			},
-			"away": {
-				"name": "Providence",
-				"code": "providence",
-				"seed": 10,
-				"score": 92,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-23-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -660,17 +361,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Southwest Texas State",
+				"name": "Texas State",
 				"code": "texas-st",
 				"seed": 16,
 				"score": 46,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1997-03-14",
+			"location": "Kansas City, MO",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-minnesota.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -687,11 +389,12 @@
 				"score": 62,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1997-03-14",
+			"location": "Kansas City, MO",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-mississippi.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -708,11 +411,12 @@
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1997-03-14",
+			"location": "Kansas City, MO",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-boston-university.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -729,11 +433,12 @@
 				"score": 56,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1997-03-14",
+			"location": "Kansas City, MO",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-clemson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -750,11 +455,12 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1997-03-13",
+			"location": "Auburn Hills, MI",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-illinois-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -771,11 +477,12 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1997-03-13",
+			"location": "Auburn Hills, MI",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-butler.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -792,11 +499,12 @@
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1997-03-13",
+			"location": "Auburn Hills, MI",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-vanderbilt.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -813,11 +521,12 @@
 				"score": 75,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1997-03-13",
+			"location": "Auburn Hills, MI",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-charleston-southern.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -834,74 +543,78 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1997-03-16",
+			"location": "Kansas City, MO",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-16-minnesota.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Tulsa",
-				"code": "tulsa",
-				"seed": 5,
-				"score": 59,
-				"winner": false
-			},
-			"away": {
 				"name": "Clemson",
 				"code": "clemson",
 				"seed": 4,
 				"score": 65,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Tulsa",
+				"code": "tulsa",
+				"seed": 5,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1997-03-16",
+			"location": "Kansas City, MO",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-16-clemson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Iowa State",
-				"code": "iowa-st",
-				"seed": 6,
-				"score": 67,
-				"winner": true
-			},
-			"away": {
 				"name": "Cincinnati",
 				"code": "cincinnati",
 				"seed": 3,
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Iowa State",
+				"code": "iowa-st",
+				"seed": 6,
+				"score": 67,
+				"winner": true
+			},
+			"date": "1997-03-15",
+			"location": "Auburn Hills, MI",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-15-cincinnati.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Xavier",
-				"code": "xavier",
-				"seed": 7,
-				"score": 83,
-				"winner": false
-			},
-			"away": {
 				"name": "UCLA",
 				"code": "ucla",
 				"seed": 2,
 				"score": 96,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Xavier",
+				"code": "xavier",
+				"seed": 7,
+				"score": 83,
+				"winner": false
+			},
+			"date": "1997-03-15",
+			"location": "Auburn Hills, MI",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-15-ucla.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -918,32 +631,34 @@
 				"score": 84,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1997-03-20",
+			"location": "San Antonio, TX",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-20-clemson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Iowa State",
-				"code": "iowa-st",
-				"seed": 6,
-				"score": 73,
-				"winner": false
-			},
-			"away": {
 				"name": "UCLA",
 				"code": "ucla",
 				"seed": 2,
 				"score": 74,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Iowa State",
+				"code": "iowa-st",
+				"seed": 6,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1997-03-20",
+			"location": "San Antonio, TX",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-20-iowa-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -960,11 +675,342 @@
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1997-03-22",
+			"location": "San Antonio, TX",
+			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-22-minnesota.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 1,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Jackson State",
+				"code": "jackson-st",
+				"seed": 16,
+				"score": 64,
+				"winner": false
+			},
+			"date": "1997-03-13",
+			"location": "Memphis, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-jackson-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 8,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Rhode Island",
+				"code": "rhode-island",
+				"seed": 9,
+				"score": 76,
+				"winner": false
+			},
+			"date": "1997-03-13",
+			"location": "Memphis, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-purdue.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 5,
+				"score": 66,
+				"winner": false
+			},
+			"away": {
+				"name": "College of Charleston",
+				"code": "col-of-charleston",
+				"seed": 12,
+				"score": 75,
+				"winner": true
+			},
+			"date": "1997-03-13",
+			"location": "Memphis, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-college-of-charleston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 4,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "South Alabama",
+				"code": "south-ala",
+				"seed": 13,
+				"score": 57,
+				"winner": false
+			},
+			"date": "1997-03-13",
+			"location": "Memphis, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 6,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "USC",
+				"code": "southern-california",
+				"seed": 11,
+				"score": 77,
+				"winner": false
+			},
+			"date": "1997-03-14",
+			"location": "Charlotte, NC",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-illinois.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgia",
+				"code": "georgia",
+				"seed": 3,
+				"score": 70,
+				"winner": false
+			},
+			"away": {
+				"name": "Chattanooga",
+				"code": "chattanooga",
+				"seed": 14,
+				"score": 73,
+				"winner": true
+			},
+			"date": "1997-03-14",
+			"location": "Charlotte, NC",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-chattanooga.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 7,
+				"score": 59,
+				"winner": false
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 10,
+				"score": 81,
+				"winner": true
+			},
+			"date": "1997-03-14",
+			"location": "Charlotte, NC",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-marquette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 2,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Murray State",
+				"code": "murray-st",
+				"seed": 15,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1997-03-14",
+			"location": "Charlotte, NC",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 1,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 8,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1997-03-15",
+			"location": "Memphis, TN",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-15-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 4,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "College of Charleston",
+				"code": "col-of-charleston",
+				"seed": 12,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1997-03-15",
+			"location": "Memphis, TN",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-15-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 6,
+				"score": 63,
+				"winner": false
+			},
+			"away": {
+				"name": "Chattanooga",
+				"code": "chattanooga",
+				"seed": 14,
+				"score": 75,
+				"winner": true
+			},
+			"date": "1997-03-16",
+			"location": "Charlotte, NC",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-16-chattanooga.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 2,
+				"score": 87,
+				"winner": false
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 10,
+				"score": 98,
+				"winner": true
+			},
+			"date": "1997-03-16",
+			"location": "Charlotte, NC",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-16-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 1,
+				"score": 82,
+				"winner": false
+			},
+			"away": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 4,
+				"score": 85,
+				"winner": true
+			},
+			"date": "1997-03-21",
+			"location": "Birmingham, AL",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-21-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 10,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Chattanooga",
+				"code": "chattanooga",
+				"seed": 14,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1997-03-21",
+			"location": "Birmingham, AL",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-21-chattanooga.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 4,
+				"score": 96,
+				"winner": true
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 10,
+				"score": 92,
+				"winner": false
+			},
+			"date": "1997-03-23",
+			"location": "Birmingham, AL",
+			"region": "TR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-23-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -981,11 +1027,12 @@
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1997-03-13",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +1049,12 @@
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1997-03-13",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-iowa.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,15 +1071,16 @@
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1997-03-13",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Saint Joseph's",
+				"name": "St. Joseph's",
 				"code": "saint-josephs",
 				"seed": 4,
 				"score": 75,
@@ -1044,11 +1093,12 @@
 				"score": 65,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1997-03-13",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-13-pacific.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,11 +1115,12 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1997-03-14",
+			"location": "Tucson, AZ",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-oklahoma.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +1137,12 @@
 				"score": 46,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1997-03-14",
+			"location": "Tucson, AZ",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-saint-marys-ca.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +1159,12 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1997-03-14",
+			"location": "Tucson, AZ",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-charlotte.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,11 +1181,12 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1997-03-14",
+			"location": "Tucson, AZ",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-14-navy.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1149,74 +1203,78 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1997-03-15",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-15-iowa.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 4,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
 				"name": "Boston College",
 				"code": "boston-college",
 				"seed": 5,
 				"score": 77,
 				"winner": false
 			},
-			"away": {
-				"name": "Saint Joseph's",
-				"code": "saint-josephs",
-				"seed": 4,
-				"score": 81,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
+			"date": "1997-03-15",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-15-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Stanford",
-				"code": "stanford",
-				"seed": 6,
-				"score": 72,
-				"winner": true
-			},
-			"away": {
 				"name": "Wake Forest",
 				"code": "wake-forest",
 				"seed": 3,
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Stanford",
+				"code": "stanford",
+				"seed": 6,
+				"score": 72,
+				"winner": true
+			},
+			"date": "1997-03-16",
+			"location": "Tucson, AZ",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-16-stanford.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Charlotte",
-				"code": "charlotte",
-				"seed": 7,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
 				"name": "Utah",
 				"code": "utah",
 				"seed": 2,
 				"score": 77,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Charlotte",
+				"code": "charlotte",
+				"seed": 7,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1997-03-16",
+			"location": "Tucson, AZ",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-16-charlotte.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1227,38 +1285,40 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Saint Joseph's",
+				"name": "St. Joseph's",
 				"code": "saint-josephs",
 				"seed": 4,
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1997-03-20",
+			"location": "San Jose, CA",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-20-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Stanford",
-				"code": "stanford",
-				"seed": 6,
-				"score": 77,
-				"winner": false
-			},
-			"away": {
 				"name": "Utah",
 				"code": "utah",
 				"seed": 2,
 				"score": 82,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Stanford",
+				"code": "stanford",
+				"seed": 6,
+				"score": 77,
+				"winner": false
+			},
+			"date": "1997-03-20",
+			"location": "San Jose, CA",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-20-stanford.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1275,15 +1335,16 @@
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1997-03-22",
+			"location": "San Jose, CA",
+			"region": "TL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-22-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 58,
@@ -1296,53 +1357,56 @@
 				"score": 66,
 				"winner": true
 			},
-			"date": "",
+			"date": "1997-03-29",
+			"location": "Indianapolis, IN",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-29-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Minnesota*",
-				"code": "minnesota",
-				"seed": 1,
-				"score": 69,
-				"winner": false
-			},
-			"away": {
 				"name": "Kentucky",
 				"code": "kentucky",
 				"seed": 1,
 				"score": 78,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Minnesota",
+				"code": "minnesota",
+				"seed": 1,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1997-03-29",
+			"location": "Indianapolis, IN",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-29-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 4,
-				"score": 84,
-				"winner": true
-			},
-			"away": {
 				"name": "Kentucky",
 				"code": "kentucky",
 				"seed": 1,
 				"score": 79,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 4,
+				"score": 84,
+				"winner": true
+			},
+			"date": "1997-03-31",
+			"location": "Indianapolis, IN",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1997-03-31-arizona.html",
+			"isComplete": true
 		}
 	]
 }

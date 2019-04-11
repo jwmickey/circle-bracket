@@ -1,0 +1,554 @@
+{
+	"format": "ncaa",
+	"displaySeeds": false,
+	"updated": "2019-04-11T14:54:28.132Z",
+	"year": 1963,
+	"regions": [
+		{
+			"name": "East",
+			"position": "BL"
+		},
+		{
+			"name": "Mideast",
+			"position": "TL"
+		},
+		{
+			"name": "Midwest",
+			"position": "TR"
+		},
+		{
+			"name": "West",
+			"position": "BR"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "NYU",
+				"code": "nyu",
+				"seed": 4,
+				"score": 93,
+				"winner": true
+			},
+			"away": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 5,
+				"score": 83,
+				"winner": false
+			},
+			"date": "1963-03-11",
+			"location": "Philadelphia, PA",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-11-new-york-university.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 2,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 7,
+				"score": 71,
+				"winner": false
+			},
+			"date": "1963-03-11",
+			"location": "Philadelphia, PA",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-11-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 3,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 6,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1963-03-11",
+			"location": "Philadelphia, PA",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-11-princeton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "NYU",
+				"code": "nyu",
+				"seed": 4,
+				"score": 76,
+				"winner": false
+			},
+			"date": "1963-03-15",
+			"location": "College Park, MD",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-15-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 2,
+				"score": 88,
+				"winner": false
+			},
+			"away": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 3,
+				"score": 97,
+				"winner": true
+			},
+			"date": "1963-03-15",
+			"location": "College Park, MD",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-15-saint-josephs.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 3,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1963-03-16",
+			"location": "College Park, MD",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-16-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Loyola (IL)",
+				"code": "loyola-il",
+				"seed": 4,
+				"score": 111,
+				"winner": true
+			},
+			"away": {
+				"name": "Tennessee Tech",
+				"code": "tennessee-tech",
+				"seed": 5,
+				"score": 42,
+				"winner": false
+			},
+			"date": "1963-03-11",
+			"location": "Evanston, IL",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-11-loyola-il.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Bowling Green State",
+				"code": "bowling-green",
+				"seed": 3,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 6,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1963-03-11",
+			"location": "Evanston, IL",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-11-bowling-green-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Loyola (IL)",
+				"code": "loyola-il",
+				"seed": 4,
+				"score": 61,
+				"winner": true
+			},
+			"away": {
+				"name": "Mississippi State",
+				"code": "mississippi-st",
+				"seed": 1,
+				"score": 51,
+				"winner": false
+			},
+			"date": "1963-03-15",
+			"location": "East Lansing, MI",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-15-loyola-il.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Bowling Green State",
+				"code": "bowling-green",
+				"seed": 3,
+				"score": 67,
+				"winner": false
+			},
+			"away": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 2,
+				"score": 70,
+				"winner": true
+			},
+			"date": "1963-03-15",
+			"location": "East Lansing, MI",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-15-bowling-green-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Loyola (IL)",
+				"code": "loyola-il",
+				"seed": 4,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 2,
+				"score": 64,
+				"winner": false
+			},
+			"date": "1963-03-16",
+			"location": "East Lansing, MI",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-16-illinois.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 4,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "UTEP",
+				"code": "utep",
+				"seed": 5,
+				"score": 47,
+				"winner": false
+			},
+			"date": "1963-03-09",
+			"location": "Lubbock, TX",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-09-texas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma City",
+				"code": "oklahoma-city",
+				"seed": 3,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Colorado State",
+				"code": "colorado-st",
+				"seed": 6,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1963-03-09",
+			"location": "Lubbock, TX",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-09-colorado-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 1,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 4,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1963-03-15",
+			"location": "Lawrence, KS",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-15-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma City",
+				"code": "oklahoma-city",
+				"seed": 3,
+				"score": 72,
+				"winner": false
+			},
+			"away": {
+				"name": "Colorado",
+				"code": "colorado",
+				"seed": 2,
+				"score": 78,
+				"winner": true
+			},
+			"date": "1963-03-15",
+			"location": "Lawrence, KS",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-15-colorado.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 1,
+				"score": 67,
+				"winner": true
+			},
+			"away": {
+				"name": "Colorado",
+				"code": "colorado",
+				"seed": 2,
+				"score": 60,
+				"winner": false
+			},
+			"date": "1963-03-16",
+			"location": "Lawrence, KS",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-16-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oregon State",
+				"code": "oregon-st",
+				"seed": 4,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Seattle",
+				"code": "seattle",
+				"seed": 5,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1963-03-11",
+			"location": "Eugene, OR",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-11-oregon-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona State",
+				"code": "arizona-st",
+				"seed": 3,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Utah State",
+				"code": "utah-st",
+				"seed": 6,
+				"score": 75,
+				"winner": false
+			},
+			"date": "1963-03-11",
+			"location": "Eugene, OR",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-11-arizona-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oregon State",
+				"code": "oregon-st",
+				"seed": 4,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 1,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1963-03-15",
+			"location": "Provo, UT",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-15-oregon-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 2,
+				"score": 79,
+				"winner": false
+			},
+			"away": {
+				"name": "Arizona State",
+				"code": "arizona-st",
+				"seed": 3,
+				"score": 93,
+				"winner": true
+			},
+			"date": "1963-03-15",
+			"location": "Provo, UT",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-15-arizona-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oregon State",
+				"code": "oregon-st",
+				"seed": 4,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Arizona State",
+				"code": "arizona-st",
+				"seed": 3,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1963-03-16",
+			"location": "Provo, UT",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-16-arizona-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Loyola (IL)",
+				"code": "loyola-il",
+				"seed": null,
+				"score": 94,
+				"winner": true
+			},
+			"away": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": null,
+				"score": 75,
+				"winner": false
+			},
+			"date": "1963-03-22",
+			"location": "Louisville, KY",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-22-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oregon State",
+				"code": "oregon-st",
+				"seed": null,
+				"score": 46,
+				"winner": false
+			},
+			"away": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": null,
+				"score": 80,
+				"winner": true
+			},
+			"date": "1963-03-22",
+			"location": "Louisville, KY",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-22-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Loyola (IL)",
+				"code": "loyola-il",
+				"seed": null,
+				"score": 60,
+				"winner": true
+			},
+			"away": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": null,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1963-03-23",
+			"location": "Louisville, KY",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1963-03-23-cincinnati.html",
+			"isComplete": true
+		}
+	]
+}

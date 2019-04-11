@@ -1,341 +1,27 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:41:13.103Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:14:03.459Z",
 	"year": 2003,
 	"regions": [
 		{
-			"name": "",
-			"position": "TL"
-		},
-		{
-			"name": "",
-			"position": "BL"
-		},
-		{
-			"name": "",
+			"name": "South",
 			"position": "BR"
 		},
 		{
-			"name": "",
+			"name": "East",
 			"position": "TR"
+		},
+		{
+			"name": "Midwest",
+			"position": "BL"
+		},
+		{
+			"name": "West",
+			"position": "TL"
 		}
 	],
 	"games": [
-		{
-			"home": {
-				"name": "Oklahoma",
-				"code": "oklahoma",
-				"seed": 1,
-				"score": 71,
-				"winner": true
-			},
-			"away": {
-				"name": "South Carolina St",
-				"code": "south-carolina-st",
-				"seed": 16,
-				"score": 54,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "California",
-				"code": "california",
-				"seed": 8,
-				"score": 76,
-				"winner": true
-			},
-			"away": {
-				"name": "North Carolina State",
-				"code": "north-carolina-st",
-				"seed": 9,
-				"score": 74,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Mississippi St",
-				"code": "mississippi-st",
-				"seed": 5,
-				"score": 46,
-				"winner": false
-			},
-			"away": {
-				"name": "Butler",
-				"code": "butler",
-				"seed": 12,
-				"score": 47,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 4,
-				"score": 86,
-				"winner": true
-			},
-			"away": {
-				"name": "Austin Peay",
-				"code": "austin-peay",
-				"seed": 13,
-				"score": 64,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oklahoma St",
-				"code": "oklahoma-st",
-				"seed": 6,
-				"score": 77,
-				"winner": true
-			},
-			"away": {
-				"name": "Pennsylvania",
-				"code": "penn",
-				"seed": 11,
-				"score": 63,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 3,
-				"score": 76,
-				"winner": true
-			},
-			"away": {
-				"name": "Manhattan",
-				"code": "manhattan",
-				"seed": 14,
-				"score": 65,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Saint Joseph's",
-				"code": "saint-josephs",
-				"seed": 7,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
-				"name": "Auburn",
-				"code": "auburn",
-				"seed": 10,
-				"score": 65,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Wake Forest",
-				"code": "wake-forest",
-				"seed": 2,
-				"score": 76,
-				"winner": true
-			},
-			"away": {
-				"name": "East Tennessee State",
-				"code": "east-tenn-st",
-				"seed": 15,
-				"score": 73,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oklahoma",
-				"code": "oklahoma",
-				"seed": 1,
-				"score": 74,
-				"winner": true
-			},
-			"away": {
-				"name": "California",
-				"code": "california",
-				"seed": 8,
-				"score": 65,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Butler",
-				"code": "butler",
-				"seed": 12,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 4,
-				"score": 71,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oklahoma St",
-				"code": "oklahoma-st",
-				"seed": 6,
-				"score": 56,
-				"winner": false
-			},
-			"away": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 3,
-				"score": 68,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Auburn",
-				"code": "auburn",
-				"seed": 10,
-				"score": 68,
-				"winner": true
-			},
-			"away": {
-				"name": "Wake Forest",
-				"code": "wake-forest",
-				"seed": 2,
-				"score": 62,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oklahoma",
-				"code": "oklahoma",
-				"seed": 1,
-				"score": 65,
-				"winner": true
-			},
-			"away": {
-				"name": "Butler",
-				"code": "butler",
-				"seed": 12,
-				"score": 54,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 3,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
-				"name": "Auburn",
-				"code": "auburn",
-				"seed": 10,
-				"score": 78,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oklahoma",
-				"code": "oklahoma",
-				"seed": 1,
-				"score": 47,
-				"winner": false
-			},
-			"away": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 3,
-				"score": 63,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
 		{
 			"home": {
 				"name": "Texas",
@@ -345,17 +31,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "UNC-Asheville",
+				"name": "UNC Asheville",
 				"code": "unc-asheville",
 				"seed": 16,
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2003-03-21",
+			"location": "Birmingham, AL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-north-carolina-asheville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -372,15 +59,16 @@
 				"score": 80,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2003-03-21",
+			"location": "Birmingham, AL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-louisiana-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 5,
 				"score": 58,
@@ -393,11 +81,12 @@
 				"score": 53,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2003-03-20",
+			"location": "Spokane, WA",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-brigham-young.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -414,11 +103,12 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2003-03-20",
+			"location": "Spokane, WA",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-san-diego.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -429,17 +119,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "UNC-Wilmington",
+				"name": "UNC Wilmington",
 				"code": "unc-wilmington",
 				"seed": 11,
 				"score": 73,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2003-03-21",
+			"location": "Nashville, TN",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-maryland.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -450,21 +141,22 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Troy St",
+				"name": "Troy",
 				"code": "troy",
 				"seed": 14,
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2003-03-21",
+			"location": "Nashville, TN",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-troy.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Michigan St",
+				"name": "Michigan State",
 				"code": "michigan-st",
 				"seed": 7,
 				"score": 79,
@@ -477,11 +169,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2003-03-21",
+			"location": "Tampa, FL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-colorado.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -492,17 +185,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Sam Houston St",
+				"name": "Sam Houston State",
 				"code": "sam-houston-st",
 				"seed": 15,
 				"score": 55,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2003-03-21",
+			"location": "Tampa, FL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -519,74 +213,78 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2003-03-23",
+			"location": "Birmingham, AL",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-23-purdue.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 5,
-				"score": 85,
-				"winner": true
-			},
-			"away": {
 				"name": "Stanford",
 				"code": "stanford",
 				"seed": 4,
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 5,
+				"score": 85,
+				"winner": true
+			},
+			"date": "2003-03-22",
+			"location": "Spokane, WA",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-22-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 6,
-				"score": 77,
-				"winner": true
-			},
-			"away": {
 				"name": "Xavier",
 				"code": "xavier",
 				"seed": 3,
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 6,
+				"score": 77,
+				"winner": true
+			},
+			"date": "2003-03-23",
+			"location": "Nashville, TN",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-23-maryland.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Michigan St",
-				"code": "michigan-st",
-				"seed": 7,
-				"score": 68,
-				"winner": true
-			},
-			"away": {
 				"name": "Florida",
 				"code": "florida",
 				"seed": 2,
 				"score": 46,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 7,
+				"score": 68,
+				"winner": true
+			},
+			"date": "2003-03-23",
+			"location": "Tampa, FL",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-23-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -597,17 +295,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 5,
 				"score": 78,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2003-03-28",
+			"location": "San Antonio, TX",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-28-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -618,17 +317,18 @@
 				"winner": false
 			},
 			"away": {
-				"name": "Michigan St",
+				"name": "Michigan State",
 				"code": "michigan-st",
 				"seed": 7,
 				"score": 60,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2003-03-28",
+			"location": "San Antonio, TX",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-28-maryland.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -639,17 +339,348 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Michigan St",
+				"name": "Michigan State",
 				"code": "michigan-st",
 				"seed": 7,
 				"score": 76,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2003-03-30",
+			"location": "San Antonio, TX",
+			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-30-michigan-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 1,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "South Carolina State",
+				"code": "south-carolina-st",
+				"seed": 16,
+				"score": 54,
+				"winner": false
+			},
+			"date": "2003-03-20",
+			"location": "Oklahoma City, OK",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-oklahoma.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "California",
+				"code": "california",
+				"seed": 8,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 9,
+				"score": 74,
+				"winner": false
+			},
+			"date": "2003-03-20",
+			"location": "Oklahoma City, OK",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-california.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Mississippi State",
+				"code": "mississippi-st",
+				"seed": 5,
+				"score": 46,
+				"winner": false
+			},
+			"away": {
+				"name": "Butler",
+				"code": "butler",
+				"seed": 12,
+				"score": 47,
+				"winner": true
+			},
+			"date": "2003-03-21",
+			"location": "Birmingham, AL",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-butler.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 4,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "Austin Peay",
+				"code": "austin-peay",
+				"seed": 13,
+				"score": 64,
+				"winner": false
+			},
+			"date": "2003-03-21",
+			"location": "Birmingham, AL",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-austin-peay.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 6,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 11,
+				"score": 63,
+				"winner": false
+			},
+			"date": "2003-03-21",
+			"location": "Boston, MA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-oklahoma-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 3,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Manhattan",
+				"code": "manhattan",
+				"seed": 14,
+				"score": 65,
+				"winner": false
+			},
+			"date": "2003-03-21",
+			"location": "Boston, MA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-manhattan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 7,
+				"score": 63,
+				"winner": false
+			},
+			"away": {
+				"name": "Auburn",
+				"code": "auburn",
+				"seed": 10,
+				"score": 65,
+				"winner": true
+			},
+			"date": "2003-03-21",
+			"location": "Tampa, FL",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-auburn.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 2,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "ETSU",
+				"code": "east-tenn-st",
+				"seed": 15,
+				"score": 73,
+				"winner": false
+			},
+			"date": "2003-03-21",
+			"location": "Tampa, FL",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-east-tennessee-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 1,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "California",
+				"code": "california",
+				"seed": 8,
+				"score": 65,
+				"winner": false
+			},
+			"date": "2003-03-22",
+			"location": "Oklahoma City, OK",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-22-california.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 4,
+				"score": 71,
+				"winner": false
+			},
+			"away": {
+				"name": "Butler",
+				"code": "butler",
+				"seed": 12,
+				"score": 79,
+				"winner": true
+			},
+			"date": "2003-03-23",
+			"location": "Birmingham, AL",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-23-butler.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 3,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 6,
+				"score": 56,
+				"winner": false
+			},
+			"date": "2003-03-23",
+			"location": "Boston, MA",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-23-oklahoma-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 2,
+				"score": 62,
+				"winner": false
+			},
+			"away": {
+				"name": "Auburn",
+				"code": "auburn",
+				"seed": 10,
+				"score": 68,
+				"winner": true
+			},
+			"date": "2003-03-23",
+			"location": "Tampa, FL",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-23-auburn.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 1,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "Butler",
+				"code": "butler",
+				"seed": 12,
+				"score": 54,
+				"winner": false
+			},
+			"date": "2003-03-28",
+			"location": "Albany, NY",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-28-butler.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 3,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Auburn",
+				"code": "auburn",
+				"seed": 10,
+				"score": 78,
+				"winner": false
+			},
+			"date": "2003-03-28",
+			"location": "Albany, NY",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-28-auburn.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 1,
+				"score": 47,
+				"winner": false
+			},
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 3,
+				"score": 63,
+				"winner": true
+			},
+			"date": "2003-03-30",
+			"location": "Albany, NY",
+			"region": "TR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-30-oklahoma.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -666,11 +697,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-21",
+			"location": "Nashville, TN",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-iupui.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -687,11 +719,12 @@
 				"score": 60,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-21",
+			"location": "Nashville, TN",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-oregon.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -708,11 +741,12 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-20",
+			"location": "Spokane, WA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-weber-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -729,11 +763,12 @@
 				"score": 84,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-20",
+			"location": "Spokane, WA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-dayton.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -750,11 +785,12 @@
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-20",
+			"location": "Indianapolis, IN",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-missouri.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -771,11 +807,12 @@
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-20",
+			"location": "Indianapolis, IN",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-holy-cross.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -792,15 +829,16 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-21",
+			"location": "Boston, MA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-alabama.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 2,
 				"score": 87,
@@ -813,11 +851,12 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-21",
+			"location": "Boston, MA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-21-pittsburgh.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -834,11 +873,12 @@
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-23",
+			"location": "Nashville, TN",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-23-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -855,53 +895,56 @@
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-22",
+			"location": "Spokane, WA",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-22-tulsa.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Missouri",
-				"code": "missouri",
-				"seed": 6,
-				"score": 92,
-				"winner": false
-			},
-			"away": {
 				"name": "Marquette",
 				"code": "marquette",
 				"seed": 3,
 				"score": 101,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Missouri",
+				"code": "missouri",
+				"seed": 6,
+				"score": 92,
+				"winner": false
+			},
+			"date": "2003-03-22",
+			"location": "Indianapolis, IN",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-22-marquette.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 2,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
 				"name": "Indiana",
 				"code": "indiana",
 				"seed": 7,
 				"score": 52,
 				"winner": false
 			},
-			"away": {
-				"name": "Pittsburgh",
-				"code": "pittsburgh",
-				"seed": 2,
-				"score": 74,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-23",
+			"location": "Boston, MA",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-23-indiana.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -918,32 +961,34 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-27",
+			"location": "Minneapolis, MN",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-27-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 2,
+				"score": 74,
+				"winner": false
+			},
+			"away": {
 				"name": "Marquette",
 				"code": "marquette",
 				"seed": 3,
 				"score": 77,
 				"winner": true
 			},
-			"away": {
-				"name": "Pittsburgh",
-				"code": "pittsburgh",
-				"seed": 2,
-				"score": 74,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-27",
+			"location": "Minneapolis, MN",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-27-marquette.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -960,11 +1005,12 @@
 				"score": 83,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2003-03-29",
+			"location": "Minneapolis, MN",
+			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-29-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -981,11 +1027,12 @@
 				"score": 51,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2003-03-20",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +1049,12 @@
 				"score": 74,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2003-03-20",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-cincinnati.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1017,17 +1065,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "UW–Milwaukee",
+				"name": "Milwaukee",
 				"code": "milwaukee",
 				"seed": 12,
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2003-03-20",
+			"location": "Indianapolis, IN",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-milwaukee.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1044,11 +1093,12 @@
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2003-03-20",
+			"location": "Indianapolis, IN",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,11 +1115,12 @@
 				"score": 79,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2003-03-20",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-central-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +1137,12 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2003-03-20",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-colorado-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +1159,12 @@
 				"score": 84,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2003-03-20",
+			"location": "Oklahoma City, OK",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-arizona-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1122,17 +1175,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Utah St",
+				"name": "Utah State",
 				"code": "utah-st",
 				"seed": 15,
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2003-03-20",
+			"location": "Oklahoma City, OK",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-20-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1149,74 +1203,78 @@
 				"score": 95,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2003-03-22",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-22-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Notre Dame",
-				"code": "notre-dame",
-				"seed": 5,
-				"score": 68,
-				"winner": true
-			},
-			"away": {
 				"name": "Illinois",
 				"code": "illinois",
 				"seed": 4,
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 5,
+				"score": 68,
+				"winner": true
+			},
+			"date": "2003-03-22",
+			"location": "Indianapolis, IN",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-22-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Central Michigan",
-				"code": "central-mich",
-				"seed": 11,
-				"score": 60,
-				"winner": false
-			},
-			"away": {
 				"name": "Duke",
 				"code": "duke",
 				"seed": 3,
 				"score": 86,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Central Michigan",
+				"code": "central-mich",
+				"seed": 11,
+				"score": 60,
+				"winner": false
+			},
+			"date": "2003-03-22",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-22-central-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Arizona St",
-				"code": "arizona-st",
-				"seed": 10,
-				"score": 76,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 2,
 				"score": 108,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Arizona State",
+				"code": "arizona-st",
+				"seed": 10,
+				"score": 76,
+				"winner": false
+			},
+			"date": "2003-03-22",
+			"location": "Oklahoma City, OK",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-22-arizona-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1233,32 +1291,34 @@
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2003-03-27",
+			"location": "Anaheim, CA",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-27-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 3,
-				"score": 65,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 2,
 				"score": 69,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 3,
+				"score": 65,
+				"winner": false
+			},
+			"date": "2003-03-27",
+			"location": "Anaheim, CA",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-27-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1275,74 +1335,78 @@
 				"score": 78,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2003-03-29",
+			"location": "Anaheim, CA",
+			"region": "TL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-03-29-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 3,
-				"score": 95,
-				"winner": true
-			},
-			"away": {
 				"name": "Texas",
 				"code": "texas",
 				"seed": 1,
 				"score": 84,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 3,
+				"score": 95,
+				"winner": true
+			},
+			"date": "2003-04-05",
+			"location": "New Orleans, LA",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-04-05-syracuse.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Marquette",
-				"code": "marquette",
-				"seed": 3,
-				"score": 61,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 2,
 				"score": 94,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 3,
+				"score": 61,
+				"winner": false
+			},
+			"date": "2003-04-05",
+			"location": "New Orleans, LA",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-04-05-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 3,
-				"score": 81,
-				"winner": true
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 2,
 				"score": 78,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 3,
+				"score": 81,
+				"winner": true
+			},
+			"date": "2003-04-07",
+			"location": "New Orleans, LA",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2003-04-07-kansas.html",
+			"isComplete": true
 		}
 	]
 }

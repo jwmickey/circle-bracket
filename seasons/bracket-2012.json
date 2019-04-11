@@ -1,974 +1,30 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:29:22.156Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:15:13.227Z",
 	"year": 2012,
 	"regions": [
 		{
-			"name": "",
+			"name": "Midwest",
+			"position": "TR"
+		},
+		{
+			"name": "South",
 			"position": "TL"
 		},
 		{
-			"name": "",
+			"name": "West",
 			"position": "BL"
 		},
 		{
-			"name": "",
+			"name": "East",
 			"position": "BR"
-		},
-		{
-			"name": "",
-			"position": "TR"
 		}
 	],
 	"games": [
 		{
 			"home": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 1,
-				"score": 81,
-				"winner": true
-			},
-			"away": {
-				"name": "Western Kentucky",
-				"code": "western-ky",
-				"seed": 16,
-				"score": 66,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Iowa State",
-				"code": "iowa-st",
-				"seed": 8,
-				"score": 77,
-				"winner": true
-			},
-			"away": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 9,
-				"score": 64,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Wichita State",
-				"code": "wichita-st",
-				"seed": 5,
-				"score": 59,
-				"winner": false
-			},
-			"away": {
-				"name": "VCU",
-				"code": "vcu",
-				"seed": 12,
-				"score": 62,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Indiana",
-				"code": "indiana",
-				"seed": 4,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
-				"name": "New Mexico State",
-				"code": "new-mexico-st",
-				"seed": 13,
-				"score": 66,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UNLV",
-				"code": "unlv",
-				"seed": 6,
-				"score": 64,
-				"winner": false
-			},
-			"away": {
-				"name": "Colorado",
-				"code": "colorado",
-				"seed": 11,
-				"score": 68,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Baylor",
-				"code": "baylor",
-				"seed": 3,
-				"score": 68,
-				"winner": true
-			},
-			"away": {
-				"name": "South Dakota State",
-				"code": "south-dakota-st",
-				"seed": 14,
-				"score": 60,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Notre Dame",
-				"code": "notre-dame",
-				"seed": 7,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
-				"name": "Xavier",
-				"code": "xavier",
-				"seed": 10,
-				"score": 67,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 2,
-				"score": 70,
-				"winner": false
-			},
-			"away": {
-				"name": "Lehigh",
-				"code": "lehigh",
-				"seed": 15,
-				"score": 75,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 1,
-				"score": 87,
-				"winner": true
-			},
-			"away": {
-				"name": "Iowa State",
-				"code": "iowa-st",
-				"seed": 8,
-				"score": 71,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "VCU",
-				"code": "vcu",
-				"seed": 12,
-				"score": 61,
-				"winner": false
-			},
-			"away": {
-				"name": "Indiana",
-				"code": "indiana",
-				"seed": 4,
-				"score": 63,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Colorado",
-				"code": "colorado",
-				"seed": 11,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
-				"name": "Baylor",
-				"code": "baylor",
-				"seed": 3,
-				"score": 80,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Xavier",
-				"code": "xavier",
-				"seed": 10,
-				"score": 70,
-				"winner": true
-			},
-			"away": {
-				"name": "Lehigh",
-				"code": "lehigh",
-				"seed": 15,
-				"score": 58,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 1,
-				"score": 102,
-				"winner": true
-			},
-			"away": {
-				"name": "Indiana",
-				"code": "indiana",
-				"seed": 4,
-				"score": 90,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Baylor",
-				"code": "baylor",
-				"seed": 3,
-				"score": 75,
-				"winner": true
-			},
-			"away": {
-				"name": "Xavier",
-				"code": "xavier",
-				"seed": 10,
-				"score": 70,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 1,
-				"score": 82,
-				"winner": true
-			},
-			"away": {
-				"name": "Baylor",
-				"code": "baylor",
-				"seed": 3,
-				"score": 70,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan State",
-				"code": "michigan-st",
-				"seed": 1,
-				"score": 89,
-				"winner": true
-			},
-			"away": {
-				"name": "Long Island",
-				"code": "long-island",
-				"seed": 16,
-				"score": 67,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Memphis",
-				"code": "memphis",
-				"seed": 8,
-				"score": 54,
-				"winner": false
-			},
-			"away": {
-				"name": "Saint Louis",
-				"code": "saint-louis",
-				"seed": 9,
-				"score": 61,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "New Mexico",
-				"code": "new-mexico",
-				"seed": 5,
-				"score": 75,
-				"winner": true
-			},
-			"away": {
-				"name": "Long Beach State",
-				"code": "long-beach-st",
-				"seed": 12,
-				"score": 68,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 4,
-				"score": 69,
-				"winner": true
-			},
-			"away": {
-				"name": "Davidson",
-				"code": "davidson",
-				"seed": 13,
-				"score": 62,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Murray State",
-				"code": "murray-st",
-				"seed": 6,
-				"score": 58,
-				"winner": true
-			},
-			"away": {
-				"name": "Colorado State",
-				"code": "colorado-st",
-				"seed": 11,
-				"score": 41,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Marquette",
-				"code": "marquette",
-				"seed": 3,
-				"score": 88,
-				"winner": true
-			},
-			"away": {
-				"name": "BYU",
-				"code": "byu",
-				"seed": 14,
-				"score": 68,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 7,
-				"score": 71,
-				"winner": true
-			},
-			"away": {
-				"name": "Virginia",
-				"code": "virginia",
-				"seed": 10,
-				"score": 45,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Missouri",
-				"code": "missouri",
-				"seed": 2,
-				"score": 84,
-				"winner": false
-			},
-			"away": {
-				"name": "Norfolk State",
-				"code": "norfolk-st",
-				"seed": 15,
-				"score": 86,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan State",
-				"code": "michigan-st",
-				"seed": 1,
-				"score": 65,
-				"winner": true
-			},
-			"away": {
-				"name": "Saint Louis",
-				"code": "saint-louis",
-				"seed": 9,
-				"score": 61,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "New Mexico",
-				"code": "new-mexico",
-				"seed": 5,
-				"score": 56,
-				"winner": false
-			},
-			"away": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 4,
-				"score": 59,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Murray State",
-				"code": "murray-st",
-				"seed": 6,
-				"score": 53,
-				"winner": false
-			},
-			"away": {
-				"name": "Marquette",
-				"code": "marquette",
-				"seed": 3,
-				"score": 62,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 7,
-				"score": 84,
-				"winner": true
-			},
-			"away": {
-				"name": "Norfolk State",
-				"code": "norfolk-st",
-				"seed": 15,
-				"score": 50,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan State",
-				"code": "michigan-st",
-				"seed": 1,
-				"score": 44,
-				"winner": false
-			},
-			"away": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 4,
-				"score": 57,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Marquette",
-				"code": "marquette",
-				"seed": 3,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 7,
-				"score": 68,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 4,
-				"score": 72,
-				"winner": true
-			},
-			"away": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 7,
-				"score": 68,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 1,
-				"score": 72,
-				"winner": true
-			},
-			"away": {
-				"name": "UNC Asheville",
-				"code": "unc-asheville",
-				"seed": 16,
-				"score": 65,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kansas State",
-				"code": "kansas-st",
-				"seed": 8,
-				"score": 70,
-				"winner": true
-			},
-			"away": {
-				"name": "Southern Miss",
-				"code": "southern-miss",
-				"seed": 9,
-				"score": 64,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Vanderbilt",
-				"code": "vanderbilt",
-				"seed": 5,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
-				"name": "Harvard",
-				"code": "harvard",
-				"seed": 12,
-				"score": 70,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Wisconsin",
-				"code": "wisconsin",
-				"seed": 4,
-				"score": 73,
-				"winner": true
-			},
-			"away": {
-				"name": "Montana",
-				"code": "montana",
-				"seed": 13,
-				"score": 49,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Cincinnati",
-				"code": "cincinnati",
-				"seed": 6,
-				"score": 65,
-				"winner": true
-			},
-			"away": {
-				"name": "Texas",
-				"code": "texas",
-				"seed": 11,
-				"score": 59,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Florida State",
-				"code": "florida-st",
-				"seed": 3,
-				"score": 66,
-				"winner": true
-			},
-			"away": {
-				"name": "St. Bonaventure",
-				"code": "st-bonaventure",
-				"seed": 14,
-				"score": 63,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Gonzaga",
-				"code": "gonzaga",
-				"seed": 7,
-				"score": 77,
-				"winner": true
-			},
-			"away": {
-				"name": "West Virginia",
-				"code": "west-virginia",
-				"seed": 10,
-				"score": 54,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Ohio State",
-				"code": "ohio-st",
-				"seed": 2,
-				"score": 78,
-				"winner": true
-			},
-			"away": {
-				"name": "Loyola (MD)",
-				"code": "loyola-maryland",
-				"seed": 15,
-				"score": 59,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 1,
-				"score": 75,
-				"winner": true
-			},
-			"away": {
-				"name": "Kansas State",
-				"code": "kansas-st",
-				"seed": 8,
-				"score": 59,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Vanderbilt",
-				"code": "vanderbilt",
-				"seed": 5,
-				"score": 57,
-				"winner": false
-			},
-			"away": {
-				"name": "Wisconsin",
-				"code": "wisconsin",
-				"seed": 4,
-				"score": 60,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Cincinnati",
-				"code": "cincinnati",
-				"seed": 6,
-				"score": 62,
-				"winner": true
-			},
-			"away": {
-				"name": "Florida State",
-				"code": "florida-st",
-				"seed": 3,
-				"score": 56,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Gonzaga",
-				"code": "gonzaga",
-				"seed": 7,
-				"score": 66,
-				"winner": false
-			},
-			"away": {
-				"name": "Ohio State",
-				"code": "ohio-st",
-				"seed": 2,
-				"score": 73,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 1,
-				"score": 64,
-				"winner": true
-			},
-			"away": {
-				"name": "Wisconsin",
-				"code": "wisconsin",
-				"seed": 4,
-				"score": 63,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Cincinnati",
-				"code": "cincinnati",
-				"seed": 6,
-				"score": 66,
-				"winner": false
-			},
-			"away": {
-				"name": "Ohio State",
-				"code": "ohio-st",
-				"seed": 2,
-				"score": 81,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 1,
-				"score": 70,
-				"winner": false
-			},
-			"away": {
-				"name": "Ohio State",
-				"code": "ohio-st",
-				"seed": 2,
-				"score": 77,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 77,
@@ -981,11 +37,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
+			"date": "2012-03-16",
+			"location": "Greensboro, NC",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +59,12 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
+			"date": "2012-03-16",
+			"location": "Greensboro, NC",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-alabama.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +81,12 @@
 				"score": 58,
 				"winner": true
 			},
-			"date": "",
+			"date": "2012-03-16",
+			"location": "Nashville, TN",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-south-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1044,11 +103,12 @@
 				"score": 65,
 				"winner": true
 			},
-			"date": "",
+			"date": "2012-03-16",
+			"location": "Nashville, TN",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1059,17 +119,18 @@
 				"winner": false
 			},
 			"away": {
-				"name": "North Carolina State",
+				"name": "NC State",
 				"code": "north-carolina-st",
 				"seed": 11,
 				"score": 79,
 				"winner": true
 			},
-			"date": "",
+			"date": "2012-03-16",
+			"location": "Columbus, OH",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-north-carolina-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +147,12 @@
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
+			"date": "2012-03-16",
+			"location": "Columbus, OH",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-belmont.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +169,12 @@
 				"score": 72,
 				"winner": true
 			},
-			"date": "",
+			"date": "2012-03-16",
+			"location": "Omaha, NE",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-purdue.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,15 +191,16 @@
 				"score": 50,
 				"winner": false
 			},
-			"date": "",
+			"date": "2012-03-16",
+			"location": "Omaha, NE",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-detroit-mercy.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 87,
@@ -1149,11 +213,12 @@
 				"score": 73,
 				"winner": false
 			},
-			"date": "",
+			"date": "2012-03-18",
+			"location": "Greensboro, NC",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-18-creighton.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1170,57 +235,60 @@
 				"score": 62,
 				"winner": true
 			},
-			"date": "",
+			"date": "2012-03-18",
+			"location": "Nashville, TN",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-18-ohio.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina State",
-				"code": "north-carolina-st",
-				"seed": 11,
-				"score": 66,
-				"winner": true
-			},
-			"away": {
 				"name": "Georgetown",
 				"code": "georgetown",
 				"seed": 3,
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 11,
+				"score": 66,
+				"winner": true
+			},
+			"date": "2012-03-18",
+			"location": "Columbus, OH",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-18-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 10,
-				"score": 60,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 2,
 				"score": 63,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 10,
+				"score": 60,
+				"winner": false
+			},
+			"date": "2012-03-18",
+			"location": "Omaha, NE",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-18-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 73,
@@ -1233,36 +301,38 @@
 				"score": 65,
 				"winner": false
 			},
-			"date": "",
+			"date": "2012-03-23",
+			"location": "St. Louis, MO",
 			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-23-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina State",
-				"code": "north-carolina-st",
-				"seed": 11,
-				"score": 57,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 2,
 				"score": 60,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 11,
+				"score": 57,
+				"winner": false
+			},
+			"date": "2012-03-23",
+			"location": "St. Louis, MO",
 			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-23-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 67,
@@ -1275,11 +345,1002 @@
 				"score": 80,
 				"winner": true
 			},
-			"date": "",
+			"date": "2012-03-25",
+			"location": "St. Louis, MO",
 			"region": "TR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-25-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 1,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Western Kentucky",
+				"code": "western-ky",
+				"seed": 16,
+				"score": 66,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Louisville, KY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Iowa State",
+				"code": "iowa-st",
+				"seed": 8,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 9,
+				"score": 64,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Louisville, KY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wichita State",
+				"code": "wichita-st",
+				"seed": 5,
+				"score": 59,
+				"winner": false
+			},
+			"away": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 12,
+				"score": 62,
+				"winner": true
+			},
+			"date": "2012-03-15",
+			"location": "Portland, OR",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-virginia-commonwealth.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 4,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "New Mexico State",
+				"code": "new-mexico-st",
+				"seed": 13,
+				"score": 66,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Portland, OR",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 6,
+				"score": 64,
+				"winner": false
+			},
+			"away": {
+				"name": "Colorado",
+				"code": "colorado",
+				"seed": 11,
+				"score": 68,
+				"winner": true
+			},
+			"date": "2012-03-15",
+			"location": "Albuquerque, NM",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-colorado.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Baylor",
+				"code": "baylor",
+				"seed": 3,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "South Dakota State",
+				"code": "south-dakota-st",
+				"seed": 14,
+				"score": 60,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Albuquerque, NM",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-baylor.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 7,
+				"score": 63,
+				"winner": false
+			},
+			"away": {
+				"name": "Xavier",
+				"code": "xavier",
+				"seed": 10,
+				"score": 67,
+				"winner": true
+			},
+			"date": "2012-03-16",
+			"location": "Greensboro, NC",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-notre-dame.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 2,
+				"score": 70,
+				"winner": false
+			},
+			"away": {
+				"name": "Lehigh",
+				"code": "lehigh",
+				"seed": 15,
+				"score": 75,
+				"winner": true
+			},
+			"date": "2012-03-16",
+			"location": "Greensboro, NC",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 1,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Iowa State",
+				"code": "iowa-st",
+				"seed": 8,
+				"score": 71,
+				"winner": false
+			},
+			"date": "2012-03-17",
+			"location": "Louisville, KY",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-17-iowa-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 4,
+				"score": 63,
+				"winner": true
+			},
+			"away": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 12,
+				"score": 61,
+				"winner": false
+			},
+			"date": "2012-03-17",
+			"location": "Portland, OR",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-17-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Baylor",
+				"code": "baylor",
+				"seed": 3,
+				"score": 80,
+				"winner": true
+			},
+			"away": {
+				"name": "Colorado",
+				"code": "colorado",
+				"seed": 11,
+				"score": 63,
+				"winner": false
+			},
+			"date": "2012-03-17",
+			"location": "The Pit, Al",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-17-baylor.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Xavier",
+				"code": "xavier",
+				"seed": 10,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Lehigh",
+				"code": "lehigh",
+				"seed": 15,
+				"score": 58,
+				"winner": false
+			},
+			"date": "2012-03-18",
+			"location": "Greensboro, NC",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-18-lehigh.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 1,
+				"score": 102,
+				"winner": true
+			},
+			"away": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 4,
+				"score": 90,
+				"winner": false
+			},
+			"date": "2012-03-23",
+			"location": "Atlanta, GA",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-23-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Baylor",
+				"code": "baylor",
+				"seed": 3,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Xavier",
+				"code": "xavier",
+				"seed": 10,
+				"score": 70,
+				"winner": false
+			},
+			"date": "2012-03-23",
+			"location": "Atlanta, GA",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-23-baylor.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 1,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Baylor",
+				"code": "baylor",
+				"seed": 3,
+				"score": 70,
+				"winner": false
+			},
+			"date": "2012-03-25",
+			"location": "Atlanta, GA",
+			"region": "TL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-25-baylor.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 1,
+				"score": 89,
+				"winner": true
+			},
+			"away": {
+				"name": "LIU-Brooklyn",
+				"code": "long-island",
+				"seed": 16,
+				"score": 67,
+				"winner": false
+			},
+			"date": "2012-03-16",
+			"location": "Columbus, OH",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-long-island-university.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 8,
+				"score": 54,
+				"winner": false
+			},
+			"away": {
+				"name": "Saint Louis",
+				"code": "saint-louis",
+				"seed": 9,
+				"score": 61,
+				"winner": true
+			},
+			"date": "2012-03-16",
+			"location": "Columbus, OH",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-memphis.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "New Mexico",
+				"code": "new-mexico",
+				"seed": 5,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Long Beach State",
+				"code": "long-beach-st",
+				"seed": 12,
+				"score": 68,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Portland, OR",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-long-beach-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 4,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Davidson",
+				"code": "davidson",
+				"seed": 13,
+				"score": 62,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Portland, OR",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-davidson.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Murray State",
+				"code": "murray-st",
+				"seed": 6,
+				"score": 58,
+				"winner": true
+			},
+			"away": {
+				"name": "Colorado State",
+				"code": "colorado-st",
+				"seed": 11,
+				"score": 41,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Louisville, KY",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-colorado-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 3,
+				"score": 88,
+				"winner": true
+			},
+			"away": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 14,
+				"score": 68,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Louisville, KY",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-brigham-young.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 7,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 10,
+				"score": 45,
+				"winner": false
+			},
+			"date": "2012-03-16",
+			"location": "Omaha, NE",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-florida.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Missouri",
+				"code": "missouri",
+				"seed": 2,
+				"score": 84,
+				"winner": false
+			},
+			"away": {
+				"name": "Norfolk State",
+				"code": "norfolk-st",
+				"seed": 15,
+				"score": 86,
+				"winner": true
+			},
+			"date": "2012-03-16",
+			"location": "Omaha, NE",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-missouri.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 1,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "Saint Louis",
+				"code": "saint-louis",
+				"seed": 9,
+				"score": 61,
+				"winner": false
+			},
+			"date": "2012-03-18",
+			"location": "Columbus, OH",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-18-michigan-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 4,
+				"score": 59,
+				"winner": true
+			},
+			"away": {
+				"name": "New Mexico",
+				"code": "new-mexico",
+				"seed": 5,
+				"score": 56,
+				"winner": false
+			},
+			"date": "2012-03-17",
+			"location": "Portland, OR",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-17-louisville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 3,
+				"score": 62,
+				"winner": true
+			},
+			"away": {
+				"name": "Murray State",
+				"code": "murray-st",
+				"seed": 6,
+				"score": 53,
+				"winner": false
+			},
+			"date": "2012-03-17",
+			"location": "Louisville, KY",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-17-marquette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 7,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Norfolk State",
+				"code": "norfolk-st",
+				"seed": 15,
+				"score": 50,
+				"winner": false
+			},
+			"date": "2012-03-18",
+			"location": "Omaha, NE",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-18-florida.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 1,
+				"score": 44,
+				"winner": false
+			},
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 4,
+				"score": 57,
+				"winner": true
+			},
+			"date": "2012-03-22",
+			"location": "Phoenix, AZ",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-22-louisville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 3,
+				"score": 58,
+				"winner": false
+			},
+			"away": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 7,
+				"score": 68,
+				"winner": true
+			},
+			"date": "2012-03-22",
+			"location": "Phoenix, AZ",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-22-florida.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 4,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 7,
+				"score": 68,
+				"winner": false
+			},
+			"date": "2012-03-24",
+			"location": "Phoenix, AZ",
+			"region": "BL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-24-florida.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 1,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "UNC Asheville",
+				"code": "unc-asheville",
+				"seed": 16,
+				"score": 65,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Pittsburgh, PA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-north-carolina-asheville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 8,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Southern Miss",
+				"code": "southern-miss",
+				"seed": 9,
+				"score": 64,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Pittsburgh, PA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Vanderbilt",
+				"code": "vanderbilt",
+				"seed": 5,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Harvard",
+				"code": "harvard",
+				"seed": 12,
+				"score": 70,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Albuquerque, NM",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-harvard.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wisconsin",
+				"code": "wisconsin",
+				"seed": 4,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Montana",
+				"code": "montana",
+				"seed": 13,
+				"score": 49,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Albuquerque, NM",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-montana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 6,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 11,
+				"score": 59,
+				"winner": false
+			},
+			"date": "2012-03-16",
+			"location": "Nashville, TN",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida State",
+				"code": "florida-st",
+				"seed": 3,
+				"score": 66,
+				"winner": true
+			},
+			"away": {
+				"name": "St. Bonaventure",
+				"code": "st-bonaventure",
+				"seed": 14,
+				"score": 63,
+				"winner": false
+			},
+			"date": "2012-03-16",
+			"location": "Nashville, TN",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-16-florida-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 7,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 10,
+				"score": 54,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Pittsburgh, PA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-gonzaga.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": 2,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Loyola (MD)",
+				"code": "loyola-maryland",
+				"seed": 15,
+				"score": 59,
+				"winner": false
+			},
+			"date": "2012-03-15",
+			"location": "Pittsburgh, PA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-15-loyola-md.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 1,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 8,
+				"score": 59,
+				"winner": false
+			},
+			"date": "2012-03-17",
+			"location": "Pittsburgh, PA",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-17-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wisconsin",
+				"code": "wisconsin",
+				"seed": 4,
+				"score": 60,
+				"winner": true
+			},
+			"away": {
+				"name": "Vanderbilt",
+				"code": "vanderbilt",
+				"seed": 5,
+				"score": 57,
+				"winner": false
+			},
+			"date": "2012-03-17",
+			"location": "Albuquerque, NM",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-17-vanderbilt.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida State",
+				"code": "florida-st",
+				"seed": 3,
+				"score": 56,
+				"winner": false
+			},
+			"away": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 6,
+				"score": 62,
+				"winner": true
+			},
+			"date": "2012-03-18",
+			"location": "Nashville, TN",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-18-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": 2,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 7,
+				"score": 66,
+				"winner": false
+			},
+			"date": "2012-03-17",
+			"location": "Pittsburgh, PA",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-17-gonzaga.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 1,
+				"score": 64,
+				"winner": true
+			},
+			"away": {
+				"name": "Wisconsin",
+				"code": "wisconsin",
+				"seed": 4,
+				"score": 63,
+				"winner": false
+			},
+			"date": "2012-03-22",
+			"location": "Boston, MA",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-22-syracuse.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": 2,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 6,
+				"score": 66,
+				"winner": false
+			},
+			"date": "2012-03-22",
+			"location": "Boston, MA",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-22-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 1,
+				"score": 70,
+				"winner": false
+			},
+			"away": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": 2,
+				"score": 77,
+				"winner": true
+			},
+			"date": "2012-03-24",
+			"location": "Boston, MA",
+			"region": "BR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-24-ohio-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1296,32 +1357,34 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
+			"date": "2012-03-31",
+			"location": "New Orleans, LA",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-31-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Ohio State",
-				"code": "ohio-st",
-				"seed": 2,
-				"score": 62,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 2,
 				"score": 64,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": 2,
+				"score": 62,
+				"winner": false
+			},
+			"date": "2012-03-31",
+			"location": "New Orleans, LA",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-03-31-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1338,11 +1401,12 @@
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
+			"date": "2012-04-02",
+			"location": "New Orleans, LA",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2012-04-02-kansas.html",
+			"isComplete": true
 		}
 	]
 }

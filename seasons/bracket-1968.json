@@ -1,0 +1,510 @@
+{
+	"format": "ncaa",
+	"displaySeeds": false,
+	"updated": "2019-04-11T14:01:36.120Z",
+	"year": 1968,
+	"regions": [
+		{
+			"name": "East",
+			"position": "TR"
+		},
+		{
+			"name": "Mideast",
+			"position": "BR"
+		},
+		{
+			"name": "Midwest",
+			"position": "BL"
+		},
+		{
+			"name": "West",
+			"position": "TL"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "St. Bonaventure",
+				"code": "st-bonaventure",
+				"seed": 4,
+				"score": 102,
+				"winner": true
+			},
+			"away": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 5,
+				"score": 93,
+				"winner": false
+			},
+			"date": "1968-03-09",
+			"location": "Kingston, RI",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-09-boston-college.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Columbia",
+				"code": "columbia",
+				"seed": 2,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "La Salle",
+				"code": "la-salle",
+				"seed": 7,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1968-03-08",
+			"location": "College Park, MD",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-08-columbia.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Davidson",
+				"code": "davidson",
+				"seed": 3,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 6,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1968-03-08",
+			"location": "College Park, MD",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-08-davidson.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 91,
+				"winner": true
+			},
+			"away": {
+				"name": "St. Bonaventure",
+				"code": "st-bonaventure",
+				"seed": 4,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1968-03-15",
+			"location": "Raleigh, NC",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-15-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Columbia",
+				"code": "columbia",
+				"seed": 2,
+				"score": 59,
+				"winner": false
+			},
+			"away": {
+				"name": "Davidson",
+				"code": "davidson",
+				"seed": 3,
+				"score": 61,
+				"winner": true
+			},
+			"date": "1968-03-15",
+			"location": "Raleigh, NC",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-15-columbia.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Davidson",
+				"code": "davidson",
+				"seed": 3,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1968-03-16",
+			"location": "Raleigh, NC",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-16-davidson.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "ETSU",
+				"code": "east-tenn-st",
+				"seed": 4,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Florida State",
+				"code": "florida-st",
+				"seed": 5,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1968-03-09",
+			"location": "Kent, OH",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-09-east-tennessee-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 3,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Bowling Green State",
+				"code": "bowling-green",
+				"seed": 6,
+				"score": 71,
+				"winner": false
+			},
+			"date": "1968-03-09",
+			"location": "Kent, OH",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-09-bowling-green-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": 1,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "ETSU",
+				"code": "east-tenn-st",
+				"seed": 4,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1968-03-15",
+			"location": "Lexington, KY",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-15-east-tennessee-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 3,
+				"score": 89,
+				"winner": false
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 107,
+				"winner": true
+			},
+			"date": "1968-03-15",
+			"location": "Lexington, KY",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-15-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": 1,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1968-03-16",
+			"location": "Lexington, KY",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-16-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 4,
+				"score": 94,
+				"winner": true
+			},
+			"away": {
+				"name": "Loyola (IL)",
+				"code": "loyola-il",
+				"seed": 5,
+				"score": 76,
+				"winner": false
+			},
+			"date": "1968-03-09",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-09-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 4,
+				"score": 91,
+				"winner": true
+			},
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 1,
+				"score": 75,
+				"winner": false
+			},
+			"date": "1968-03-15",
+			"location": "Wichita, KS",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-15-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 2,
+				"score": 72,
+				"winner": false
+			},
+			"away": {
+				"name": "TCU",
+				"code": "tcu",
+				"seed": 3,
+				"score": 77,
+				"winner": true
+			},
+			"date": "1968-03-15",
+			"location": "Wichita, KS",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-15-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 4,
+				"score": 103,
+				"winner": true
+			},
+			"away": {
+				"name": "TCU",
+				"code": "tcu",
+				"seed": 3,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1968-03-16",
+			"location": "Wichita, KS",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-16-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "New Mexico State",
+				"code": "new-mexico-st",
+				"seed": 4,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Weber State",
+				"code": "weber-st",
+				"seed": 5,
+				"score": 57,
+				"winner": false
+			},
+			"date": "1968-03-09",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-09-new-mexico-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 58,
+				"winner": true
+			},
+			"away": {
+				"name": "New Mexico State",
+				"code": "new-mexico-st",
+				"seed": 4,
+				"score": 49,
+				"winner": false
+			},
+			"date": "1968-03-15",
+			"location": "Albuquerque, NM",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-15-new-mexico-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "New Mexico",
+				"code": "new-mexico",
+				"seed": 2,
+				"score": 73,
+				"winner": false
+			},
+			"away": {
+				"name": "Santa Clara",
+				"code": "santa-clara",
+				"seed": 3,
+				"score": 86,
+				"winner": true
+			},
+			"date": "1968-03-15",
+			"location": "Albuquerque, NM",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-15-new-mexico.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Santa Clara",
+				"code": "santa-clara",
+				"seed": 3,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1968-03-16",
+			"location": "Albuquerque, NM",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-16-santa-clara.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 101,
+				"winner": true
+			},
+			"away": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": null,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1968-03-22",
+			"location": "Los Angeles, CA",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-22-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": null,
+				"score": 66,
+				"winner": false
+			},
+			"away": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": null,
+				"score": 80,
+				"winner": true
+			},
+			"date": "1968-03-22",
+			"location": "Los Angeles, CA",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-22-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": null,
+				"score": 55,
+				"winner": false
+			},
+			"date": "1968-03-23",
+			"location": "Los Angeles, CA",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1968-03-23-north-carolina.html",
+			"isComplete": true
+		}
+	]
+}

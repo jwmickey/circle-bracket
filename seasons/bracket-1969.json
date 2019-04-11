@@ -1,0 +1,554 @@
+{
+	"format": "ncaa",
+	"displaySeeds": false,
+	"updated": "2019-04-11T14:21:54.233Z",
+	"year": 1969,
+	"regions": [
+		{
+			"name": "East",
+			"position": "BR"
+		},
+		{
+			"name": "Mideast",
+			"position": "TR"
+		},
+		{
+			"name": "Midwest",
+			"position": "BL"
+		},
+		{
+			"name": "West",
+			"position": "TL"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Duquesne",
+				"code": "duquesne",
+				"seed": 4,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 5,
+				"score": 52,
+				"winner": false
+			},
+			"date": "1969-03-08",
+			"location": "Kingston, RI",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-08-duquesne.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 2,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 7,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1969-03-08",
+			"location": "Raleigh, NC",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-08-princeton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Davidson",
+				"code": "davidson",
+				"seed": 3,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 6,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1969-03-08",
+			"location": "Raleigh, NC",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-08-davidson.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Duquesne",
+				"code": "duquesne",
+				"seed": 4,
+				"score": 78,
+				"winner": false
+			},
+			"date": "1969-03-13",
+			"location": "College Park, MD",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-13-duquesne.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 2,
+				"score": 69,
+				"winner": false
+			},
+			"away": {
+				"name": "Davidson",
+				"code": "davidson",
+				"seed": 3,
+				"score": 79,
+				"winner": true
+			},
+			"date": "1969-03-13",
+			"location": "College Park, MD",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-13-davidson.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Davidson",
+				"code": "davidson",
+				"seed": 3,
+				"score": 85,
+				"winner": false
+			},
+			"date": "1969-03-15",
+			"location": "College Park, MD",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-15-davidson.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Miami (OH)",
+				"code": "miami-oh",
+				"seed": 4,
+				"score": 63,
+				"winner": true
+			},
+			"away": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 5,
+				"score": 60,
+				"winner": false
+			},
+			"date": "1969-03-08",
+			"location": "Carbondale, IL",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-08-miami-oh.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 3,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Murray State",
+				"code": "murray-st",
+				"seed": 6,
+				"score": 62,
+				"winner": false
+			},
+			"date": "1969-03-08",
+			"location": "Carbondale, IL",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-08-marquette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 1,
+				"score": 91,
+				"winner": true
+			},
+			"away": {
+				"name": "Miami (OH)",
+				"code": "miami-oh",
+				"seed": 4,
+				"score": 71,
+				"winner": false
+			},
+			"date": "1969-03-13",
+			"location": "Madison, WI",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-13-miami-oh.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 74,
+				"winner": false
+			},
+			"away": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 3,
+				"score": 81,
+				"winner": true
+			},
+			"date": "1969-03-13",
+			"location": "Madison, WI",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-13-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 1,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 3,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1969-03-15",
+			"location": "Madison, WI",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-15-marquette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas A&M",
+				"code": "texas-am",
+				"seed": 4,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Trinity (TX)",
+				"code": "trinity",
+				"seed": 5,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1969-03-08",
+			"location": "Fort Worth, TX",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-08-texas-am.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Colorado State",
+				"code": "colorado-st",
+				"seed": 3,
+				"score": 52,
+				"winner": true
+			},
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 6,
+				"score": 50,
+				"winner": false
+			},
+			"date": "1969-03-08",
+			"location": "Fort Worth, TX",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-08-colorado-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Drake",
+				"code": "drake",
+				"seed": 1,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas A&M",
+				"code": "texas-am",
+				"seed": 4,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1969-03-13",
+			"location": "Manhattan, KS",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-13-drake.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Colorado",
+				"code": "colorado",
+				"seed": 2,
+				"score": 56,
+				"winner": false
+			},
+			"away": {
+				"name": "Colorado State",
+				"code": "colorado-st",
+				"seed": 3,
+				"score": 64,
+				"winner": true
+			},
+			"date": "1969-03-13",
+			"location": "Manhattan, KS",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-13-colorado.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Drake",
+				"code": "drake",
+				"seed": 1,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Colorado State",
+				"code": "colorado-st",
+				"seed": 3,
+				"score": 77,
+				"winner": false
+			},
+			"date": "1969-03-15",
+			"location": "Manhattan, KS",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-15-colorado-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "New Mexico State",
+				"code": "new-mexico-st",
+				"seed": 4,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 5,
+				"score": 62,
+				"winner": false
+			},
+			"date": "1969-03-08",
+			"location": "Las Cruces, NM",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-08-brigham-young.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Weber State",
+				"code": "weber-st",
+				"seed": 3,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Seattle",
+				"code": "seattle",
+				"seed": 6,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1969-03-08",
+			"location": "Las Cruces, NM",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-08-seattle.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 53,
+				"winner": true
+			},
+			"away": {
+				"name": "New Mexico State",
+				"code": "new-mexico-st",
+				"seed": 4,
+				"score": 38,
+				"winner": false
+			},
+			"date": "1969-03-13",
+			"location": "Los Angeles, CA",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-13-new-mexico-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Weber State",
+				"code": "weber-st",
+				"seed": 3,
+				"score": 59,
+				"winner": false
+			},
+			"away": {
+				"name": "Santa Clara",
+				"code": "santa-clara",
+				"seed": 2,
+				"score": 63,
+				"winner": true
+			},
+			"date": "1969-03-13",
+			"location": "Los Angeles, CA",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-13-santa-clara.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "Santa Clara",
+				"code": "santa-clara",
+				"seed": 2,
+				"score": 52,
+				"winner": false
+			},
+			"date": "1969-03-15",
+			"location": "Los Angeles, CA",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-15-santa-clara.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "Drake",
+				"code": "drake",
+				"seed": null,
+				"score": 82,
+				"winner": false
+			},
+			"date": "1969-03-20",
+			"location": "Louisville, KY",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-20-drake.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": null,
+				"score": 65,
+				"winner": false
+			},
+			"away": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": null,
+				"score": 92,
+				"winner": true
+			},
+			"date": "1969-03-20",
+			"location": "Louisville, KY",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-20-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": null,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1969-03-22",
+			"location": "Louisville, KY",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1969-03-22-purdue.html",
+			"isComplete": true
+		}
+	]
+}

@@ -1,0 +1,510 @@
+{
+	"format": "ncaa",
+	"displaySeeds": false,
+	"updated": "2019-04-11T14:19:31.736Z",
+	"year": 1965,
+	"regions": [
+		{
+			"name": "East",
+			"position": "BR"
+		},
+		{
+			"name": "Mideast",
+			"position": "TR"
+		},
+		{
+			"name": "Midwest",
+			"position": "BL"
+		},
+		{
+			"name": "West",
+			"position": "TL"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 4,
+				"score": 60,
+				"winner": true
+			},
+			"away": {
+				"name": "Penn State",
+				"code": "penn-st",
+				"seed": 5,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1965-03-08",
+			"location": "Philadelphia, PA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-08-penn-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 2,
+				"score": 67,
+				"winner": true
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 7,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1965-03-08",
+			"location": "Philadelphia, PA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-08-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 3,
+				"score": 91,
+				"winner": true
+			},
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 6,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1965-03-08",
+			"location": "Philadelphia, PA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-08-providence.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 4,
+				"score": 66,
+				"winner": true
+			},
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 1,
+				"score": 48,
+				"winner": false
+			},
+			"date": "1965-03-12",
+			"location": "College Park, MD",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-12-north-carolina-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 2,
+				"score": 73,
+				"winner": false
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 3,
+				"score": 81,
+				"winner": true
+			},
+			"date": "1965-03-12",
+			"location": "College Park, MD",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-12-providence.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 4,
+				"score": 109,
+				"winner": true
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 3,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1965-03-13",
+			"location": "College Park, MD",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-13-princeton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 4,
+				"score": 66,
+				"winner": true
+			},
+			"away": {
+				"name": "Ohio",
+				"code": "ohio",
+				"seed": 5,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1965-03-09",
+			"location": "Bowling Green State, KY",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-09-dayton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "DePaul",
+				"code": "depaul",
+				"seed": 3,
+				"score": 99,
+				"winner": true
+			},
+			"away": {
+				"name": "Eastern Kentucky",
+				"code": "eastern-ky",
+				"seed": 6,
+				"score": 52,
+				"winner": false
+			},
+			"date": "1965-03-09",
+			"location": "Bowling Green State, KY",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-09-depaul.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 98,
+				"winner": true
+			},
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 4,
+				"score": 71,
+				"winner": false
+			},
+			"date": "1965-03-12",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-12-dayton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "DePaul",
+				"code": "depaul",
+				"seed": 3,
+				"score": 78,
+				"winner": false
+			},
+			"away": {
+				"name": "Vanderbilt",
+				"code": "vanderbilt",
+				"seed": 2,
+				"score": 83,
+				"winner": true
+			},
+			"date": "1965-03-12",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-12-depaul.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Vanderbilt",
+				"code": "vanderbilt",
+				"seed": 2,
+				"score": 85,
+				"winner": false
+			},
+			"date": "1965-03-13",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-13-michigan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 4,
+				"score": 99,
+				"winner": true
+			},
+			"away": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 5,
+				"score": 98,
+				"winner": false
+			},
+			"date": "1965-03-08",
+			"location": "Lubbock, TX",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-08-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wichita State",
+				"code": "wichita-st",
+				"seed": 1,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": 2,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1965-03-12",
+			"location": "Manhattan, KS",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-12-southern-methodist.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 4,
+				"score": 60,
+				"winner": false
+			},
+			"away": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 3,
+				"score": 75,
+				"winner": true
+			},
+			"date": "1965-03-12",
+			"location": "Manhattan, KS",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-12-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wichita State",
+				"code": "wichita-st",
+				"seed": 1,
+				"score": 54,
+				"winner": true
+			},
+			"away": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 3,
+				"score": 46,
+				"winner": false
+			},
+			"date": "1965-03-13",
+			"location": "Manhattan, KS",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-13-oklahoma-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma City",
+				"code": "oklahoma-city",
+				"seed": 4,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Colorado State",
+				"code": "colorado-st",
+				"seed": 5,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1965-03-08",
+			"location": "Lubbock, TX",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-08-colorado-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 100,
+				"winner": true
+			},
+			"away": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 2,
+				"score": 76,
+				"winner": false
+			},
+			"date": "1965-03-12",
+			"location": "Provo, UT",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-12-brigham-young.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma City",
+				"code": "oklahoma-city",
+				"seed": 4,
+				"score": 67,
+				"winner": false
+			},
+			"away": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 3,
+				"score": 91,
+				"winner": true
+			},
+			"date": "1965-03-12",
+			"location": "Provo, UT",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-12-oklahoma-city.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 101,
+				"winner": true
+			},
+			"away": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 3,
+				"score": 93,
+				"winner": false
+			},
+			"date": "1965-03-13",
+			"location": "Provo, UT",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-13-san-francisco.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 108,
+				"winner": true
+			},
+			"away": {
+				"name": "Wichita State",
+				"code": "wichita-st",
+				"seed": null,
+				"score": 89,
+				"winner": false
+			},
+			"date": "1965-03-19",
+			"location": "Portland, OR",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-19-ucla.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": null,
+				"score": 76,
+				"winner": false
+			},
+			"away": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": null,
+				"score": 93,
+				"winner": true
+			},
+			"date": "1965-03-19",
+			"location": "Portland, OR",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-19-michigan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 91,
+				"winner": true
+			},
+			"away": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": null,
+				"score": 80,
+				"winner": false
+			},
+			"date": "1965-03-20",
+			"location": "Portland, OR",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1965-03-20-michigan.html",
+			"isComplete": true
+		}
+	]
+}

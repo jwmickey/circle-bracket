@@ -1,0 +1,1059 @@
+{
+	"format": "ncaa",
+	"updated": "2019-04-11T02:21:21.002Z",
+	"year": 1984,
+	"regions": [
+		{
+			"name": "East",
+			"position": "BR"
+		},
+		{
+			"name": "Mideast",
+			"position": "BL"
+		},
+		{
+			"name": "Midwest",
+			"position": "TR"
+		},
+		{
+			"name": "West",
+			"position": "TL"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 8,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 9,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1984-03-15",
+			"location": "Charlotte, NC",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-15-st-johns-ny.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Auburn",
+				"code": "auburn",
+				"seed": 5,
+				"score": 71,
+				"winner": false
+			},
+			"away": {
+				"name": "Richmond",
+				"code": "richmond",
+				"seed": 12,
+				"score": 72,
+				"winner": true
+			},
+			"date": "1984-03-15",
+			"location": "Charlotte, NC",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-15-auburn.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 6,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Northeastern",
+				"code": "northeastern",
+				"seed": 11,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1984-03-16",
+			"location": "East Rutherford, NJ",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-16-northeastern.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 7,
+				"score": 58,
+				"winner": true
+			},
+			"away": {
+				"name": "Iona",
+				"code": "iona",
+				"seed": 10,
+				"score": 57,
+				"winner": false
+			},
+			"date": "1984-03-16",
+			"location": "East Rutherford, NJ",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-16-iona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 8,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1984-03-17",
+			"location": "Charlotte, NC",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-17-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 4,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Richmond",
+				"code": "richmond",
+				"seed": 12,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1984-03-17",
+			"location": "Charlotte, NC",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-17-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 3,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 6,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1984-03-18",
+			"location": "East Rutherford, NJ",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-18-syracuse.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 2,
+				"score": 51,
+				"winner": false
+			},
+			"away": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 7,
+				"score": 53,
+				"winner": true
+			},
+			"date": "1984-03-18",
+			"location": "East Rutherford, NJ",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-18-arkansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 68,
+				"winner": false
+			},
+			"away": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 4,
+				"score": 72,
+				"winner": true
+			},
+			"date": "1984-03-22",
+			"location": "Atlanta, GA",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-22-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 3,
+				"score": 55,
+				"winner": false
+			},
+			"away": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 7,
+				"score": 63,
+				"winner": true
+			},
+			"date": "1984-03-22",
+			"location": "Atlanta, GA",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-22-syracuse.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 4,
+				"score": 48,
+				"winner": false
+			},
+			"away": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 7,
+				"score": 50,
+				"winner": true
+			},
+			"date": "1984-03-24",
+			"location": "Atlanta, GA",
+			"region": "BR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-24-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 8,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Alabama-Birmingham",
+				"code": "uab",
+				"seed": 9,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1984-03-15",
+			"location": "Birmingham, AL",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-15-alabama-birmingham.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 5,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Morehead State",
+				"code": "morehead-st",
+				"seed": 12,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1984-03-16",
+			"location": "Milwaukee, WI",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-16-louisville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oregon State",
+				"code": "oregon-st",
+				"seed": 6,
+				"score": 62,
+				"winner": false
+			},
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 11,
+				"score": 64,
+				"winner": true
+			},
+			"date": "1984-03-15",
+			"location": "Birmingham, AL",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-15-oregon-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 7,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Marshall",
+				"code": "marshall",
+				"seed": 10,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1984-03-16",
+			"location": "Milwaukee, WI",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-16-marshall.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 1,
+				"score": 93,
+				"winner": true
+			},
+			"away": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 8,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1984-03-17",
+			"location": "Birmingham, AL",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-17-brigham-young.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Tulsa",
+				"code": "tulsa",
+				"seed": 4,
+				"score": 67,
+				"winner": false
+			},
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 5,
+				"score": 69,
+				"winner": true
+			},
+			"date": "1984-03-17",
+			"location": "Milwaukee, WI",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-17-louisville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 3,
+				"score": 102,
+				"winner": true
+			},
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 11,
+				"score": 77,
+				"winner": false
+			},
+			"date": "1984-03-18",
+			"location": "Birmingham, AL",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-18-maryland.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 2,
+				"score": 64,
+				"winner": true
+			},
+			"away": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 7,
+				"score": 56,
+				"winner": false
+			},
+			"date": "1984-03-18",
+			"location": "Milwaukee, WI",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-18-illinois.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 1,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 5,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1984-03-22",
+			"location": "Lexington, KY",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-22-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 2,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 3,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1984-03-22",
+			"location": "Lexington, KY",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-22-illinois.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 1,
+				"score": 54,
+				"winner": true
+			},
+			"away": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 2,
+				"score": 51,
+				"winner": false
+			},
+			"date": "1984-03-24",
+			"location": "Lexington, KY",
+			"region": "BL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-24-illinois.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Illinois State",
+				"code": "illinois-st",
+				"seed": 8,
+				"score": 49,
+				"winner": true
+			},
+			"away": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 9,
+				"score": 48,
+				"winner": false
+			},
+			"date": "1984-03-16",
+			"location": "Lincoln, NE",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-16-alabama.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 5,
+				"score": 57,
+				"winner": true
+			},
+			"away": {
+				"name": "Alcorn State",
+				"code": "alcorn",
+				"seed": 12,
+				"score": 56,
+				"winner": false
+			},
+			"date": "1984-03-16",
+			"location": "Lincoln, NE",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-16-alcorn-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 6,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "Oral Roberts",
+				"code": "oral-roberts",
+				"seed": 11,
+				"score": 83,
+				"winner": false
+			},
+			"date": "1984-03-15",
+			"location": "Memphis, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-15-memphis.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Fresno State",
+				"code": "fresno-st",
+				"seed": 7,
+				"score": 56,
+				"winner": false
+			},
+			"away": {
+				"name": "Louisiana Tech",
+				"code": "louisiana-tech",
+				"seed": 10,
+				"score": 66,
+				"winner": true
+			},
+			"date": "1984-03-15",
+			"location": "Memphis, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-15-fresno-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "DePaul",
+				"code": "depaul",
+				"seed": 1,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Illinois State",
+				"code": "illinois-st",
+				"seed": 8,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1984-03-18",
+			"location": "Lincoln, NE",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-18-depaul.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 4,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 5,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1984-03-18",
+			"location": "Lincoln, NE",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-18-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 3,
+				"score": 48,
+				"winner": false
+			},
+			"away": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 6,
+				"score": 66,
+				"winner": true
+			},
+			"date": "1984-03-17",
+			"location": "Memphis, TN",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-17-memphis.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 2,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "Louisiana Tech",
+				"code": "louisiana-tech",
+				"seed": 10,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1984-03-17",
+			"location": "Memphis, TN",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-17-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "DePaul",
+				"code": "depaul",
+				"seed": 1,
+				"score": 71,
+				"winner": false
+			},
+			"away": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 4,
+				"score": 73,
+				"winner": true
+			},
+			"date": "1984-03-23",
+			"location": "St. Louis, MO",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-23-depaul.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 2,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 6,
+				"score": 71,
+				"winner": false
+			},
+			"date": "1984-03-23",
+			"location": "St. Louis, MO",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-23-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 2,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 4,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1984-03-25",
+			"location": "St. Louis, MO",
+			"region": "TR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-25-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Miami (OH)",
+				"code": "miami-oh",
+				"seed": 8,
+				"score": 69,
+				"winner": false
+			},
+			"away": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": 9,
+				"score": 83,
+				"winner": true
+			},
+			"date": "1984-03-16",
+			"location": "Pullman, WA",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-16-miami-oh.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 5,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 12,
+				"score": 56,
+				"winner": false
+			},
+			"date": "1984-03-15",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-15-nevada-las-vegas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Washington",
+				"code": "washington",
+				"seed": 6,
+				"score": 64,
+				"winner": true
+			},
+			"away": {
+				"name": "Nevada",
+				"code": "nevada",
+				"seed": 11,
+				"score": 54,
+				"winner": false
+			},
+			"date": "1984-03-16",
+			"location": "Pullman, WA",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-16-nevada.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "LSU",
+				"code": "lsu",
+				"seed": 7,
+				"score": 66,
+				"winner": false
+			},
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 10,
+				"score": 74,
+				"winner": true
+			},
+			"date": "1984-03-15",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-15-dayton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 37,
+				"winner": true
+			},
+			"away": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": 9,
+				"score": 36,
+				"winner": false
+			},
+			"date": "1984-03-18",
+			"location": "Pullman, WA",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-18-georgetown.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UTEP",
+				"code": "utep",
+				"seed": 4,
+				"score": 60,
+				"winner": false
+			},
+			"away": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 5,
+				"score": 73,
+				"winner": true
+			},
+			"date": "1984-03-17",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-17-nevada-las-vegas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 3,
+				"score": 78,
+				"winner": false
+			},
+			"away": {
+				"name": "Washington",
+				"code": "washington",
+				"seed": 6,
+				"score": 80,
+				"winner": true
+			},
+			"date": "1984-03-18",
+			"location": "Pullman, WA",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-18-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 2,
+				"score": 85,
+				"winner": false
+			},
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 10,
+				"score": 89,
+				"winner": true
+			},
+			"date": "1984-03-17",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-17-dayton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 62,
+				"winner": true
+			},
+			"away": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 5,
+				"score": 48,
+				"winner": false
+			},
+			"date": "1984-03-23",
+			"location": "Los Angeles, CA",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-23-georgetown.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Washington",
+				"code": "washington",
+				"seed": 6,
+				"score": 58,
+				"winner": false
+			},
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 10,
+				"score": 64,
+				"winner": true
+			},
+			"date": "1984-03-23",
+			"location": "Los Angeles, CA",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-23-dayton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 61,
+				"winner": true
+			},
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 10,
+				"score": 49,
+				"winner": false
+			},
+			"date": "1984-03-25",
+			"location": "Los Angeles, CA",
+			"region": "TL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-25-dayton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 1,
+				"score": 40,
+				"winner": false
+			},
+			"away": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 53,
+				"winner": true
+			},
+			"date": "1984-03-31",
+			"location": "Seattle, WA",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-31-georgetown.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 2,
+				"score": 49,
+				"winner": true
+			},
+			"away": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 7,
+				"score": 47,
+				"winner": false
+			},
+			"date": "1984-03-31",
+			"location": "Seattle, WA",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-03-31-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 2,
+				"score": 75,
+				"winner": false
+			},
+			"date": "1984-04-02",
+			"location": "Seattle, WA",
+			"region": "",
+			"round": 6,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1984-04-02-georgetown.html",
+			"isComplete": true
+		}
+	]
+}

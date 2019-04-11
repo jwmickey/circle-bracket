@@ -11,10 +11,11 @@ const seedSlotMap = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] // 4 teams
 ];
 
-const roundWidths = [0, 0.075, 0.09, 0.125, 0.15, 0.18, 0.22, 0.12];
+const roundWidths = [0, 0.075, 0.09, 0.125, 0.15, 0.18, 0.22, 0.1];
+// TODO: this is a temp hack to play around with widths for 32 teams (6 rounds)
+const roundWidths32 = [0, 0.1, 0.15, 0.175, 0.2, 0.25, 0.1];
 
 export const DEFAULTS = {
-  numEntries: 64,
   gridStrokeWidth: 2,
   gridStrokeStyle: "#fff",
   showGameDetails: () => {}
@@ -24,16 +25,18 @@ export default class Bracket {
   constructor(cvs, settings = {}) {
     this.cvs = cvs;
     this.ctx = cvs.getContext("2d");
-    this.ctx.font = '14pt "Open Sans", sans-serif';
+    this.ctx.font = '14px "Open Sans", sans-serif';
 
-    this.settings = { ...DEFAULTS, ...settings };
-    this.numEntries = this.settings.numEntries;
-    this.numRounds = Math.sqrt(this.numEntries) - 1;
-    this.bracketData = undefined;
-    this.teamPaths = [];
-    this.fontSize = 16;
+    this.fontSize = 14;
     this.titleHeight = 24;
     this.margin = 50;
+
+    this.settings = { ...DEFAULTS, ...settings };
+
+    this.numRounds = 0;
+    this.numEntries = 0;
+    this.bracketData = undefined;
+    this.teamPaths = [];
 
     this.cvs.addEventListener("click", event => {
       const rect = event.target.getBoundingClientRect();
@@ -45,11 +48,15 @@ export default class Bracket {
           const { teamCode, round } = entry;
           const game = this.bracketData.games.find(
             g =>
-              g.round === round + 1 &&
+              g.round === round &&
               (g.home.code === teamCode || g.away.code === teamCode)
           );
           if (game) {
-            return this.settings.showGameDetails(game);
+            return this.settings.showGameDetails(
+              game,
+              !this.bracketData.hasOwnProperty("displaySeeds") ||
+                this.bracketData.displaySeeds === true
+            );
           }
         }
       }
@@ -72,14 +79,15 @@ export default class Bracket {
     let center = Math.min(...this.getCenter());
     let radius = center - this.margin - this.titleHeight;
     let innerRadius = 0;
+    let source = this.numRounds === 7 ? roundWidths : roundWidths32;
 
     for (let i = 1; i < round; i++) {
-      radius -= center * roundWidths[i];
+      radius -= center * source[i];
     }
     radius = Math.floor(radius);
 
     if (round < this.numRounds) {
-      innerRadius = Math.floor(radius - center * roundWidths[round]);
+      innerRadius = Math.floor(radius - center * source[round]);
     }
 
     return [radius, innerRadius];
@@ -94,6 +102,15 @@ export default class Bracket {
   };
 
   reset = () => {
+    if (this.bracketData) {
+      this.numRounds =
+        this.bracketData.games.reduce(
+          (max, curr) => Math.max(max, curr.round),
+          0
+        ) + 1; // add a round for the champ game "round" which is just the final team by itself
+      this.numEntries = Math.pow(2, this.numRounds - 1); // num entries is really the number of slots.  should rename this!
+    }
+
     this.settings.showGameDetails(null);
     // this.fontSize = this.cvs.width * 0.015;
     this.teamPaths = [];
@@ -117,7 +134,13 @@ export default class Bracket {
 
     this.drawTitle();
     this.drawRegionNames();
-    this.drawSeeds();
+
+    if (
+      !this.bracketData.hasOwnProperty("displaySeeds") ||
+      this.bracketData.displaySeeds
+    ) {
+      this.drawSeeds();
+    }
 
     // draw gray bg on radius
     const [x, y] = this.getCenter();
@@ -138,31 +161,31 @@ export default class Bracket {
 
       if (game.home.code) {
         let homeRegionCode = game.region;
-        if (game.round >= 5) {
+        if (game.round >= this.numRounds - 2) {
           homeRegionCode = findTeamRegion(dataset, game.home.code);
         }
-        const homeTeamSlot = translateToSlot(
+        const homeTeamSlot = this.translateToSlot(
           homeRegionCode,
           game.round,
           game.home
         );
         slotPromises.push(
-          this.fillSlot(game.round - 1, homeTeamSlot, game.home.code)
+          this.fillSlot(game.round, homeTeamSlot, game.home.code)
         );
       }
 
       if (game.away.code) {
         let awayRegionCode = game.region;
-        if (game.round >= 5) {
+        if (game.round >= this.numRounds - 2) {
           awayRegionCode = findTeamRegion(dataset, game.away.code);
         }
-        const awayTeamSlot = translateToSlot(
+        const awayTeamSlot = this.translateToSlot(
           awayRegionCode,
           game.round,
           game.away
         );
         slotPromises.push(
-          this.fillSlot(game.round - 1, awayTeamSlot, game.away.code)
+          this.fillSlot(game.round, awayTeamSlot, game.away.code)
         );
       }
     }
@@ -174,7 +197,7 @@ export default class Bracket {
       .then(() => {
         // check to see if we have a champ game
         const champGame = dataset.find(
-          game => game.round === 6 && game.isComplete
+          game => game.round === this.numRounds - 1 && game.isComplete
         );
         if (champGame) {
           let winner;
@@ -229,7 +252,7 @@ export default class Bracket {
     }
 
     // draw a line up and down the center for the champ game divider
-    const radius = this.getRadiiForRound(this.numRounds - 2)[0];
+    const radius = this.getRadiiForRound(this.numRounds - 1)[0];
     this.ctx.setTransform(1, 0, 0, 1, 0, 0);
     this.ctx.moveTo(centerX, centerY + radius);
     this.ctx.lineTo(centerX, centerY - radius);
@@ -336,7 +359,7 @@ export default class Bracket {
           textAlign = "right";
           break;
         default:
-          console.log("invalid region position", regions[i].position);
+          console.error("invalid region position", regions[i].position);
           return;
       }
       this.ctx.textAlign = textAlign;
@@ -346,18 +369,15 @@ export default class Bracket {
   };
 
   fillSlot = (round, slot, teamCode) => {
-    if (!teams[teamCode]) {
-      console.log(teamCode);
-    }
-    if (round === 5) {
+    if (round === this.numRounds - 1) {
       return this.fillChampGameSlot(slot, teamCode);
     }
 
     return new Promise((resolve, reject) => {
       const team = teams[teamCode];
       const [centerX, centerY] = this.getCenter();
-      const [radius, innerRadius] = this.getRadiiForRound(round + 1);
-      const slots = this.numEntries / Math.pow(2, round);
+      const [radius, innerRadius] = this.getRadiiForRound(round);
+      const slots = this.numEntries / Math.pow(2, round - 1);
       const degrees = 360 / slots;
 
       // find logo position and dims
@@ -450,7 +470,12 @@ export default class Bracket {
         const antiClockwise = slot === 0;
         path.arc(centerX, centerY, radius, startAngle, endAngle, antiClockwise);
         path.closePath();
-        this.teamPaths.push({ path, teamCode, team, round: 5 });
+        this.teamPaths.push({
+          path,
+          teamCode,
+          team,
+          round: this.numRounds - 1
+        });
         this.ctx.fillStyle =
           team.logo.background || team.primaryColor || "#FFFFFF";
         this.ctx.stroke(path);
@@ -500,7 +525,7 @@ export default class Bracket {
 
       img.addEventListener("load", () => {
         DOMURL.revokeObjectURL(url);
-        let size = Math.floor(radius * 3.5);
+        let size = Math.floor(radius * 4);
         let posX = centerX - size / 2;
         let posY = centerY - size / 2;
         this.ctx.save();
@@ -530,6 +555,44 @@ export default class Bracket {
   scaleDims = (w, h, mW, mH) => {
     let scale = Math.min(mW, mH) / Math.max(w, h);
     return [Math.floor(w * scale), Math.floor(h * scale)];
+  };
+
+  translateToSlot = (regionCode, round, team) => {
+    let quadrant;
+
+    switch (regionCode) {
+      case "TL":
+        quadrant = 2;
+        break;
+      case "TR":
+        quadrant = 3;
+        break;
+      case "BL":
+        quadrant = 1;
+        break;
+      case "BR":
+        quadrant = 0;
+        break;
+    }
+
+    if (round === this.numRounds - 1) {
+      // champ game
+      return quadrant === 2 || quadrant === 1 ? 1 : 0;
+    } else if (round === this.numRounds - 2) {
+      // final four
+      return quadrant;
+    } else {
+      // regional round
+      const slots = Math.pow(2, this.numRounds - round);
+      const offset = (slots / 4) * quadrant;
+      let roundIndex = round - 1;
+
+      // TODO: fix this hard-coded round check that shifts our seedSlotMap down when the bracket is 32 teams or fewer
+      if (this.numRounds < 7) {
+        roundIndex++;
+      }
+      return offset + seedSlotMap[roundIndex][team.seed - 1];
+    }
   };
 }
 
@@ -583,6 +646,12 @@ function calcImageBox(radius, innerRadius, centerX, centerY, slots, slot) {
 
 function createImageUrlFromLogo(logo) {
   const file = require("../" + logo);
+
+  // this is an image object
+  if (typeof file !== "string") {
+    return file;
+  }
+
   let url;
 
   // logo might be a path to a file or it could be a SVG XML code
@@ -594,35 +663,6 @@ function createImageUrlFromLogo(logo) {
   }
 
   return url;
-}
-
-function translateToSlot(regionCode, round, team) {
-  let quadrant;
-
-  switch (regionCode) {
-    case "TL":
-      quadrant = 2;
-      break;
-    case "TR":
-      quadrant = 3;
-      break;
-    case "BL":
-      quadrant = 1;
-      break;
-    case "BR":
-      quadrant = 0;
-      break;
-  }
-
-  if (round === 5) {
-    return quadrant;
-  } else if (round === 6) {
-    return quadrant === 2 || quadrant === 1 ? 1 : 0;
-  } else {
-    const slots = 64 / Math.pow(2, round - 1);
-    const offset = (slots / 4) * quadrant;
-    return offset + seedSlotMap[round - 1][team.seed - 1];
-  }
 }
 
 function findTeamRegion(allGames, teamCode) {

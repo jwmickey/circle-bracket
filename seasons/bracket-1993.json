@@ -1,29 +1,30 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:50:22.139Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:12:14.755Z",
 	"year": 1993,
 	"regions": [
 		{
-			"name": "",
-			"position": "TL"
+			"name": "East",
+			"position": "TR"
 		},
 		{
-			"name": "",
-			"position": "BL"
-		},
-		{
-			"name": "",
+			"name": "Midwest",
 			"position": "BR"
 		},
 		{
-			"name": "",
-			"position": "TR"
+			"name": "Southeast",
+			"position": "BL"
+		},
+		{
+			"name": "West",
+			"position": "TL"
 		}
 	],
 	"games": [
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 85,
@@ -36,11 +37,12 @@
 				"score": 65,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1993-03-18",
+			"location": "Winston-Salem, NC",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-east-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -57,15 +59,16 @@
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1993-03-18",
+			"location": "Winston-Salem, NC",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-purdue.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "St. John's",
+				"name": "St. John's (NY)",
 				"code": "st-johns-ny",
 				"seed": 5,
 				"score": 85,
@@ -78,11 +81,12 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1993-03-18",
+			"location": "Winston-Salem, NC",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-st-johns-ny.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -99,11 +103,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1993-03-18",
+			"location": "Winston-Salem, NC",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -120,32 +125,34 @@
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1993-03-19",
+			"location": "Syracuse, NY",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-manhattan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Massachusetts",
+				"name": "UMass",
 				"code": "massachusetts",
 				"seed": 3,
 				"score": 54,
 				"winner": true
 			},
 			"away": {
-				"name": "Pennsylvania",
+				"name": "Penn",
 				"code": "penn",
 				"seed": 14,
 				"score": 50,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1993-03-19",
+			"location": "Syracuse, NY",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-massachusetts.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -162,11 +169,12 @@
 				"score": 79,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1993-03-19",
+			"location": "Syracuse, NY",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-nebraska.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -183,15 +191,16 @@
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1993-03-19",
+			"location": "Syracuse, NY",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-cincinnati.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 112,
@@ -204,78 +213,82 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1993-03-20",
+			"location": "Winston-Salem, NC",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-20-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "St. John's",
-				"code": "st-johns-ny",
-				"seed": 5,
-				"score": 74,
-				"winner": false
-			},
-			"away": {
 				"name": "Arkansas",
 				"code": "arkansas",
 				"seed": 4,
 				"score": 80,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 5,
+				"score": 74,
+				"winner": false
+			},
+			"date": "1993-03-20",
+			"location": "Winston-Salem, NC",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-20-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UMass",
+				"code": "massachusetts",
+				"seed": 3,
+				"score": 56,
+				"winner": false
+			},
+			"away": {
 				"name": "Virginia",
 				"code": "virginia",
 				"seed": 6,
 				"score": 71,
 				"winner": true
 			},
-			"away": {
-				"name": "Massachusetts",
-				"code": "massachusetts",
-				"seed": 3,
-				"score": 56,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
+			"date": "1993-03-21",
+			"location": "Syracuse, NY",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-21-massachusetts.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "New Mexico State",
-				"code": "new-mexico-st",
-				"seed": 7,
-				"score": 55,
-				"winner": false
-			},
-			"away": {
 				"name": "Cincinnati",
 				"code": "cincinnati",
 				"seed": 2,
 				"score": 92,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "New Mexico State",
+				"code": "new-mexico-st",
+				"seed": 7,
+				"score": 55,
+				"winner": false
+			},
+			"date": "1993-03-21",
+			"location": "Syracuse, NY",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-21-cincinnati.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 80,
@@ -288,36 +301,38 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1993-03-26",
+			"location": "East Rutherford, NJ",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-26-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Virginia",
-				"code": "virginia",
-				"seed": 6,
-				"score": 54,
-				"winner": false
-			},
-			"away": {
 				"name": "Cincinnati",
 				"code": "cincinnati",
 				"seed": 2,
 				"score": 71,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 6,
+				"score": 54,
+				"winner": false
+			},
+			"date": "1993-03-26",
+			"location": "East Rutherford, NJ",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-26-cincinnati.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 75,
@@ -330,11 +345,12 @@
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1993-03-28",
+			"location": "East Rutherford, NJ",
+			"region": "TR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-28-cincinnati.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -351,11 +367,12 @@
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1993-03-19",
+			"location": "Indianapolis, IN",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-indiana.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -372,11 +389,12 @@
 				"score": 73,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1993-03-19",
+			"location": "Indianapolis, IN",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-new-orleans.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -393,11 +411,12 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1993-03-19",
+			"location": "Indianapolis, IN",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-marquette.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -414,11 +433,12 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1993-03-19",
+			"location": "Indianapolis, IN",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-delaware.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -435,11 +455,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1993-03-18",
+			"location": "Rosemont, IL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-california.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -456,11 +477,12 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1993-03-18",
+			"location": "Rosemont, IL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -477,11 +499,12 @@
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1993-03-18",
+			"location": "Rosemont, IL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-brigham-young.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -498,11 +521,12 @@
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1993-03-18",
+			"location": "Rosemont, IL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-ball-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -519,74 +543,78 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1993-03-21",
+			"location": "Indianapolis, IN",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-21-indiana.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Oklahoma State",
-				"code": "oklahoma-st",
-				"seed": 5,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
 				"name": "Louisville",
 				"code": "louisville",
 				"seed": 4,
 				"score": 78,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 5,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1993-03-21",
+			"location": "Indianapolis, IN",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-21-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "California",
-				"code": "california",
-				"seed": 6,
-				"score": 82,
-				"winner": true
-			},
-			"away": {
 				"name": "Duke",
 				"code": "duke",
 				"seed": 3,
 				"score": 77,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "California",
+				"code": "california",
+				"seed": 6,
+				"score": 82,
+				"winner": true
+			},
+			"date": "1993-03-20",
+			"location": "Rosemont, IL",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-20-california.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "BYU",
-				"code": "byu",
-				"seed": 7,
-				"score": 76,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 2,
 				"score": 90,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 7,
+				"score": 76,
+				"winner": false
+			},
+			"date": "1993-03-20",
+			"location": "Rosemont, IL",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-20-brigham-young.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -603,32 +631,34 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1993-03-25",
+			"location": "St. Louis, MO",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-25-indiana.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "California",
-				"code": "california",
-				"seed": 6,
-				"score": 76,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 2,
 				"score": 93,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "California",
+				"code": "california",
+				"seed": 6,
+				"score": 76,
+				"winner": false
+			},
+			"date": "1993-03-25",
+			"location": "St. Louis, MO",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-25-california.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -645,11 +675,12 @@
 				"score": 83,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1993-03-27",
+			"location": "St. Louis, MO",
+			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-27-indiana.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -666,11 +697,12 @@
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1993-03-19",
+			"location": "Nashville, TN",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -681,17 +713,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 9,
 				"score": 65,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1993-03-19",
+			"location": "Nashville, TN",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-pittsburgh.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -708,11 +741,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1993-03-19",
+			"location": "Nashville, TN",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-chattanooga.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -723,17 +757,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Northeast Louisiana",
+				"name": "Louisiana-Monroe",
 				"code": "la-monroe",
 				"seed": 13,
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1993-03-19",
+			"location": "Nashville, TN",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-iowa.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -750,11 +785,12 @@
 				"score": 55,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1993-03-18",
+			"location": "Orlando, FL",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-kansas-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -771,11 +807,12 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1993-03-18",
+			"location": "Orlando, FL",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-evansville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -786,17 +823,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Memphis State",
+				"name": "Memphis",
 				"code": "memphis",
 				"seed": 10,
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1993-03-18",
+			"location": "Orlando, FL",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-memphis.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -813,11 +851,12 @@
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1993-03-18",
+			"location": "Orlando, FL",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-seton-hall.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -834,74 +873,78 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1993-03-21",
+			"location": "Nashville, TN",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-21-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Wake Forest",
-				"code": "wake-forest",
-				"seed": 5,
-				"score": 84,
-				"winner": true
-			},
-			"away": {
 				"name": "Iowa",
 				"code": "iowa",
 				"seed": 4,
 				"score": 78,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 5,
+				"score": 84,
+				"winner": true
+			},
+			"date": "1993-03-21",
+			"location": "Nashville, TN",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-21-iowa.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Tulane",
-				"code": "tulane",
-				"seed": 11,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
 				"name": "Florida State",
 				"code": "florida-st",
 				"seed": 3,
 				"score": 94,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Tulane",
+				"code": "tulane",
+				"seed": 11,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1993-03-20",
+			"location": "Orlando, FL",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-20-florida-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Western Kentucky",
-				"code": "western-ky",
-				"seed": 7,
-				"score": 72,
-				"winner": true
-			},
-			"away": {
 				"name": "Seton Hall",
 				"code": "seton-hall",
 				"seed": 2,
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Western Kentucky",
+				"code": "western-ky",
+				"seed": 7,
+				"score": 72,
+				"winner": true
+			},
+			"date": "1993-03-20",
+			"location": "Orlando, FL",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-20-seton-hall.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -918,11 +961,12 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1993-03-25",
+			"location": "Charlotte, NC",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-25-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -939,11 +983,12 @@
 				"score": 78,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1993-03-25",
+			"location": "Charlotte, NC",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-25-florida-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -960,15 +1005,16 @@
 				"score": 81,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1993-03-27",
+			"location": "Charlotte, NC",
+			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-27-florida-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Michigan*",
+				"name": "Michigan",
 				"code": "michigan",
 				"seed": 1,
 				"score": 84,
@@ -978,14 +1024,15 @@
 				"name": "Coastal Carolina",
 				"code": "coastal-caro",
 				"seed": 16,
-				"score": 53,
+				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-19",
+			"location": "Tucson, AZ",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-coastal-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +1049,12 @@
 				"score": 81,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-19",
+			"location": "Tucson, AZ",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-iowa-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +1071,12 @@
 				"score": 82,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-19",
+			"location": "Tucson, AZ",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-george-washington.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1044,11 +1093,12 @@
 				"score": 93,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-19",
+			"location": "Tucson, AZ",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-19-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,11 +1115,12 @@
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-18",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +1137,12 @@
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-18",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-boise-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1102,16 +1154,17 @@
 			},
 			"away": {
 				"name": "Missouri",
-				"code": "missouri-st",
+				"code": "missouri",
 				"seed": 10,
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-18",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-missouri.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,15 +1181,16 @@
 				"score": 64,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-18",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-18-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Michigan*",
+				"name": "Michigan",
 				"code": "michigan",
 				"seed": 1,
 				"score": 86,
@@ -1149,11 +1203,12 @@
 				"score": 84,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-21",
+			"location": "Tucson, AZ",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-21-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1170,32 +1225,34 @@
 				"score": 80,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-21",
+			"location": "Tucson, AZ",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-21-george-washington.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Illinois",
-				"code": "illinois",
-				"seed": 6,
-				"score": 68,
-				"winner": false
-			},
-			"away": {
 				"name": "Vanderbilt",
 				"code": "vanderbilt",
 				"seed": 3,
 				"score": 85,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 6,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1993-03-20",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-20-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1212,15 +1269,16 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-20",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-20-santa-clara.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Michigan*",
+				"name": "Michigan",
 				"code": "michigan",
 				"seed": 1,
 				"score": 72,
@@ -1233,11 +1291,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-26",
+			"location": "Seattle, WA",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-26-george-washington.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1254,15 +1313,16 @@
 				"score": 67,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-26",
+			"location": "Seattle, WA",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-26-temple.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Michigan*",
+				"name": "Michigan",
 				"code": "michigan",
 				"seed": 1,
 				"score": 77,
@@ -1275,15 +1335,16 @@
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1993-03-28",
+			"location": "Seattle, WA",
+			"region": "TL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-03-28-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 78,
@@ -1296,53 +1357,56 @@
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
+			"date": "1993-04-03",
+			"location": "New Orleans, LA",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-04-03-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
 				"name": "Kentucky",
 				"code": "kentucky",
 				"seed": 1,
 				"score": 78,
 				"winner": false
 			},
-			"away": {
-				"name": "Michigan *",
-				"code": "michigan",
-				"seed": 1,
-				"score": 81,
-				"winner": true
-			},
-			"date": "",
+			"date": "1993-04-03",
+			"location": "New Orleans, LA",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-04-03-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 1,
-				"score": 77,
-				"winner": true
-			},
-			"away": {
-				"name": "Michigan *",
+				"name": "Michigan",
 				"code": "michigan",
 				"seed": 1,
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 77,
+				"winner": true
+			},
+			"date": "1993-04-05",
+			"location": "New Orleans, LA",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1993-04-05-michigan.html",
+			"isComplete": true
 		}
 	]
 }

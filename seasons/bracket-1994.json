@@ -1,29 +1,30 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:49:41.720Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:12:16.606Z",
 	"year": 1994,
 	"regions": [
 		{
-			"name": "",
-			"position": "BL"
+			"name": "East",
+			"position": "BR"
 		},
 		{
-			"name": "",
+			"name": "Midwest",
 			"position": "TL"
 		},
 		{
-			"name": "",
+			"name": "Southeast",
 			"position": "TR"
 		},
 		{
-			"name": "",
-			"position": "BR"
+			"name": "West",
+			"position": "BL"
 		}
 	],
 	"games": [
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 71,
@@ -36,11 +37,12 @@
 				"score": 51,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1994-03-18",
+			"location": "Landover, MD",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-liberty.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -57,11 +59,12 @@
 				"score": 67,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1994-03-18",
+			"location": "Landover, MD",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -78,11 +81,12 @@
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1994-03-18",
+			"location": "Landover, MD",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-indiana.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -99,11 +103,12 @@
 				"score": 39,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1994-03-18",
+			"location": "Landover, MD",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-drexel.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -120,11 +125,12 @@
 				"score": 90,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1994-03-17",
+			"location": "Uniondale, NY",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-nebraska.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -141,15 +147,16 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1994-03-17",
+			"location": "Uniondale, NY",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "UAB",
+				"name": "Alabama-Birmingham",
 				"code": "uab",
 				"seed": 7,
 				"score": 46,
@@ -162,15 +169,16 @@
 				"score": 51,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1994-03-17",
+			"location": "Uniondale, NY",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-alabama-birmingham.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 2,
 				"score": 64,
@@ -183,15 +191,16 @@
 				"score": 46,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1994-03-17",
+			"location": "Uniondale, NY",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 72,
@@ -204,452 +213,144 @@
 				"score": 75,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1994-03-20",
+			"location": "Landover, MD",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-20-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Indiana",
-				"code": "indiana",
-				"seed": 5,
-				"score": 67,
-				"winner": true
-			},
-			"away": {
 				"name": "Temple",
 				"code": "temple",
 				"seed": 4,
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 5,
+				"score": 67,
+				"winner": true
+			},
+			"date": "1994-03-20",
+			"location": "Landover, MD",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-20-indiana.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 3,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
 				"name": "Penn",
 				"code": "penn",
 				"seed": 11,
 				"score": 58,
 				"winner": false
 			},
-			"away": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 3,
-				"score": 70,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
+			"date": "1994-03-19",
+			"location": "Uniondale, NY",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-19-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 2,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
 				"name": "George Washington",
 				"code": "george-washington",
 				"seed": 10,
 				"score": 63,
 				"winner": false
 			},
-			"away": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 2,
-				"score": 75,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
+			"date": "1994-03-19",
+			"location": "Uniondale, NY",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-19-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Boston College",
-				"code": "boston-college",
-				"seed": 9,
-				"score": 77,
-				"winner": true
-			},
-			"away": {
 				"name": "Indiana",
 				"code": "indiana",
 				"seed": 5,
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 9,
+				"score": 77,
+				"winner": true
+			},
+			"date": "1994-03-25",
+			"location": "Miami, FL",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-25-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 2,
+				"score": 60,
+				"winner": false
+			},
+			"away": {
 				"name": "Florida",
 				"code": "florida",
 				"seed": 3,
 				"score": 69,
 				"winner": true
 			},
-			"away": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 2,
-				"score": 60,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
+			"date": "1994-03-25",
+			"location": "Miami, FL",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-25-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 3,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
 				"name": "Boston College",
 				"code": "boston-college",
 				"seed": 9,
 				"score": 66,
 				"winner": false
 			},
-			"away": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 3,
-				"score": 74,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
+			"date": "1994-03-27",
+			"location": "Miami, FL",
+			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 1,
-				"score": 98,
-				"winner": true
-			},
-			"away": {
-				"name": "UCF",
-				"code": "ucf",
-				"seed": 16,
-				"score": 67,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Providence",
-				"code": "providence",
-				"seed": 8,
-				"score": 70,
-				"winner": false
-			},
-			"away": {
-				"name": "Alabama",
-				"code": "alabama",
-				"seed": 9,
-				"score": 76,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Wake Forest",
-				"code": "wake-forest",
-				"seed": 5,
-				"score": 68,
-				"winner": true
-			},
-			"away": {
-				"name": "College of Charleston",
-				"code": "col-of-charleston",
-				"seed": 12,
-				"score": 58,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 4,
-				"score": 102,
-				"winner": true
-			},
-			"away": {
-				"name": "Chattanooga",
-				"code": "chattanooga",
-				"seed": 13,
-				"score": 73,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Marquette",
-				"code": "marquette",
-				"seed": 6,
-				"score": 81,
-				"winner": true
-			},
-			"away": {
-				"name": "Southwest Louisiana",
-				"code": "la-lafayette",
-				"seed": 11,
-				"score": 59,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 3,
-				"score": 83,
-				"winner": true
-			},
-			"away": {
-				"name": "Tennessee State",
-				"code": "tennessee-st",
-				"seed": 14,
-				"score": 70,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan State",
-				"code": "michigan-st",
-				"seed": 7,
-				"score": 84,
-				"winner": true
-			},
-			"away": {
-				"name": "Seton Hall",
-				"code": "seton-hall",
-				"seed": 10,
-				"score": 73,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 2,
-				"score": 82,
-				"winner": true
-			},
-			"away": {
-				"name": "Texas Southern",
-				"code": "texas-southern",
-				"seed": 15,
-				"score": 70,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 1,
-				"score": 83,
-				"winner": true
-			},
-			"away": {
-				"name": "Alabama",
-				"code": "alabama",
-				"seed": 9,
-				"score": 73,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Wake Forest",
-				"code": "wake-forest",
-				"seed": 5,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 4,
-				"score": 69,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Marquette",
-				"code": "marquette",
-				"seed": 6,
-				"score": 75,
-				"winner": true
-			},
-			"away": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 3,
-				"score": 63,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan State",
-				"code": "michigan-st",
-				"seed": 7,
-				"score": 74,
-				"winner": false
-			},
-			"away": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 2,
-				"score": 85,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 1,
-				"score": 83,
-				"winner": true
-			},
-			"away": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 4,
-				"score": 78,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Marquette",
-				"code": "marquette",
-				"seed": 6,
-				"score": 49,
-				"winner": false
-			},
-			"away": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 2,
-				"score": 59,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 1,
-				"score": 60,
-				"winner": false
-			},
-			"away": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 2,
-				"score": 69,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-27-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -666,11 +367,12 @@
 				"score": 79,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1994-03-18",
+			"location": "Oklahoma City, OK",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -687,11 +389,12 @@
 				"score": 84,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1994-03-18",
+			"location": "Oklahoma City, OK",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -708,11 +411,12 @@
 				"score": 112,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1994-03-18",
+			"location": "Oklahoma City, OK",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-tulsa.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -729,11 +433,12 @@
 				"score": 55,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1994-03-18",
+			"location": "Oklahoma City, OK",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-new-mexico-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -750,11 +455,12 @@
 				"score": 77,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1994-03-17",
+			"location": "Wichita, KS",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-texas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -771,11 +477,12 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1994-03-17",
+			"location": "Wichita, KS",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -792,32 +499,34 @@
 				"score": 74,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1994-03-17",
+			"location": "Wichita, KS",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-maryland.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Massachusetts",
+				"name": "UMass",
 				"code": "massachusetts",
 				"seed": 2,
 				"score": 78,
 				"winner": true
 			},
 			"away": {
-				"name": "Southwest Texas State",
+				"name": "Texas State",
 				"code": "texas-st",
 				"seed": 15,
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1994-03-17",
+			"location": "Wichita, KS",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-massachusetts.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -834,74 +543,78 @@
 				"score": 73,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1994-03-20",
+			"location": "Oklahoma City, OK",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-20-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Tulsa",
-				"code": "tulsa",
-				"seed": 12,
-				"score": 82,
-				"winner": true
-			},
-			"away": {
 				"name": "Oklahoma State",
 				"code": "oklahoma-st",
 				"seed": 4,
 				"score": 80,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Tulsa",
+				"code": "tulsa",
+				"seed": 12,
+				"score": 82,
+				"winner": true
+			},
+			"date": "1994-03-20",
+			"location": "Oklahoma City, OK",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-20-oklahoma-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Texas",
-				"code": "texas",
-				"seed": 6,
-				"score": 79,
-				"winner": false
-			},
-			"away": {
 				"name": "Michigan",
 				"code": "michigan",
 				"seed": 3,
 				"score": 84,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 6,
+				"score": 79,
+				"winner": false
+			},
+			"date": "1994-03-19",
+			"location": "Wichita, KS",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-19-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UMass",
+				"code": "massachusetts",
+				"seed": 2,
+				"score": 87,
+				"winner": false
+			},
+			"away": {
 				"name": "Maryland",
 				"code": "maryland",
 				"seed": 10,
 				"score": 95,
 				"winner": true
 			},
-			"away": {
-				"name": "Massachusetts",
-				"code": "massachusetts",
-				"seed": 2,
-				"score": 87,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
+			"date": "1994-03-19",
+			"location": "Wichita, KS",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-19-maryland.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -918,11 +631,12 @@
 				"score": 84,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1994-03-25",
+			"location": "Dallas, TX",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-25-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -939,11 +653,12 @@
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1994-03-25",
+			"location": "Dallas, TX",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-25-maryland.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -960,16 +675,347 @@
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
+			"date": "1994-03-27",
+			"location": "Dallas, TX",
+			"region": "TL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-27-arkansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 1,
+				"score": 98,
+				"winner": true
+			},
+			"away": {
+				"name": "UCF",
+				"code": "ucf",
+				"seed": 16,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1994-03-17",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-central-florida.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 8,
+				"score": 70,
+				"winner": false
+			},
+			"away": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 9,
+				"score": 76,
+				"winner": true
+			},
+			"date": "1994-03-17",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-alabama.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 5,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "College of Charleston",
+				"code": "col-of-charleston",
+				"seed": 12,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1994-03-17",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-college-of-charleston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 4,
+				"score": 102,
+				"winner": true
+			},
+			"away": {
+				"name": "Chattanooga",
+				"code": "chattanooga",
+				"seed": 13,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1994-03-17",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-chattanooga.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 6,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Louisiana",
+				"code": "la-lafayette",
+				"seed": 11,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1994-03-18",
+			"location": "St. Petersburg, FL",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-louisiana-lafayette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 3,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Tennessee State",
+				"code": "tennessee-st",
+				"seed": 14,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1994-03-18",
+			"location": "St. Petersburg, FL",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 7,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Seton Hall",
+				"code": "seton-hall",
+				"seed": 10,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1994-03-18",
+			"location": "St. Petersburg, FL",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-michigan-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 2,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas Southern",
+				"code": "texas-southern",
+				"seed": 15,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1994-03-18",
+			"location": "St. Petersburg, FL",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 1,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 9,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1994-03-19",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-19-alabama.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 4,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 5,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1994-03-19",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-19-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 3,
+				"score": 63,
+				"winner": false
+			},
+			"away": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 6,
+				"score": 75,
+				"winner": true
+			},
+			"date": "1994-03-20",
+			"location": "St. Petersburg, FL",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-20-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 2,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 7,
+				"score": 74,
+				"winner": false
+			},
+			"date": "1994-03-20",
+			"location": "St. Petersburg, FL",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-20-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 1,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 4,
+				"score": 78,
+				"winner": false
+			},
+			"date": "1994-03-24",
+			"location": "Knoxville, TN",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-24-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 2,
+				"score": 59,
+				"winner": true
+			},
+			"away": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 6,
+				"score": 49,
+				"winner": false
+			},
+			"date": "1994-03-24",
+			"location": "Knoxville, TN",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-24-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 1,
+				"score": 60,
+				"winner": false
+			},
+			"away": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 2,
+				"score": 69,
+				"winner": true
+			},
+			"date": "1994-03-26",
+			"location": "Knoxville, TN",
 			"region": "TR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-26-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
 				"name": "Missouri",
-				"code": "missouri-st",
+				"code": "missouri",
 				"seed": 1,
 				"score": 76,
 				"winner": true
@@ -981,11 +1027,12 @@
 				"score": 53,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1994-03-17",
+			"location": "Ogden, UT",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-missouri.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +1049,12 @@
 				"score": 80,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1994-03-17",
+			"location": "Ogden, UT",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-cincinnati.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1017,17 +1065,18 @@
 				"winner": false
 			},
 			"away": {
-				"name": "UW–Green Bay",
+				"name": "Green Bay",
 				"code": "green-bay",
 				"seed": 12,
 				"score": 61,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1994-03-17",
+			"location": "Ogden, UT",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-california.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1044,11 +1093,12 @@
 				"score": 78,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1994-03-17",
+			"location": "Ogden, UT",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-17-hawaii.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,11 +1115,12 @@
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1994-03-18",
+			"location": "Sacramento, CA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-minnesota.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +1137,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1994-03-18",
+			"location": "Sacramento, CA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-boise-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +1159,12 @@
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1994-03-18",
+			"location": "Sacramento, CA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-new-mexico.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,16 +1181,17 @@
 				"score": 55,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1994-03-18",
+			"location": "Sacramento, CA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-18-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
 				"name": "Missouri",
-				"code": "missouri-st",
+				"code": "missouri",
 				"seed": 1,
 				"score": 109,
 				"winner": true
@@ -1149,79 +1203,83 @@
 				"score": 96,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1994-03-19",
+			"location": "Ogden, UT",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-19-missouri.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "UW–Green Bay",
-				"code": "green-bay",
-				"seed": 12,
-				"score": 59,
-				"winner": false
-			},
-			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 4,
 				"score": 64,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Green Bay",
+				"code": "green-bay",
+				"seed": 12,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1994-03-19",
+			"location": "Ogden, UT",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-19-green-bay.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Minnesota",
-				"code": "minnesota",
-				"seed": 6,
-				"score": 55,
-				"winner": false
-			},
-			"away": {
 				"name": "Louisville",
 				"code": "louisville",
 				"seed": 3,
 				"score": 60,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Minnesota",
+				"code": "minnesota",
+				"seed": 6,
+				"score": 55,
+				"winner": false
+			},
+			"date": "1994-03-20",
+			"location": "Sacramento, CA",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-20-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Virginia",
-				"code": "virginia",
-				"seed": 7,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
 				"name": "Arizona",
 				"code": "arizona",
 				"seed": 2,
 				"score": 71,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 7,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1994-03-20",
+			"location": "Sacramento, CA",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-20-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
 				"name": "Missouri",
-				"code": "missouri-st",
+				"code": "missouri",
 				"seed": 1,
 				"score": 98,
 				"winner": true
@@ -1233,37 +1291,39 @@
 				"score": 88,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1994-03-24",
+			"location": "Los Angeles, CA",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-24-missouri.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 3,
-				"score": 70,
-				"winner": false
-			},
-			"away": {
 				"name": "Arizona",
 				"code": "arizona",
 				"seed": 2,
 				"score": 82,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 3,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1994-03-24",
+			"location": "Los Angeles, CA",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-24-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
 				"name": "Missouri",
-				"code": "missouri-st",
+				"code": "missouri",
 				"seed": 1,
 				"score": 72,
 				"winner": false
@@ -1275,32 +1335,12 @@
 				"score": 92,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1994-03-26",
+			"location": "Los Angeles, CA",
+			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 3,
-				"score": 65,
-				"winner": false
-			},
-			"away": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 2,
-				"score": 70,
-				"winner": true
-			},
-			"date": "",
-			"region": "",
-			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-03-26-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1317,32 +1357,56 @@
 				"score": 82,
 				"winner": false
 			},
-			"date": "",
+			"date": "1994-04-02",
+			"location": "Charlotte, NC",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-04-02-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
 				"name": "Duke",
 				"code": "duke",
 				"seed": 2,
-				"score": 72,
-				"winner": false
+				"score": 70,
+				"winner": true
 			},
 			"away": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 3,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1994-04-02",
+			"location": "Charlotte, NC",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-04-02-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
 				"name": "Arkansas",
 				"code": "arkansas",
 				"seed": 1,
 				"score": 76,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 2,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1994-04-04",
+			"location": "Charlotte, NC",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1994-04-04-arkansas.html",
+			"isComplete": true
 		}
 	]
 }

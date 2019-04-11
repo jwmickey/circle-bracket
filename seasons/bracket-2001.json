@@ -1,971 +1,27 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:41:22.848Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:13:57.765Z",
 	"year": 2001,
 	"regions": [
 		{
-			"name": "",
+			"name": "Midwest",
+			"position": "TR"
+		},
+		{
+			"name": "East",
 			"position": "TL"
 		},
 		{
-			"name": "",
-			"position": "BL"
-		},
-		{
-			"name": "",
+			"name": "South",
 			"position": "BR"
 		},
 		{
-			"name": "",
-			"position": "TR"
+			"name": "West",
+			"position": "BL"
 		}
 	],
 	"games": [
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 95,
-				"winner": true
-			},
-			"away": {
-				"name": "Monmouth",
-				"code": "monmouth",
-				"seed": 16,
-				"score": 57,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Georgia",
-				"code": "georgia",
-				"seed": 8,
-				"score": 68,
-				"winner": false
-			},
-			"away": {
-				"name": "Missouri",
-				"code": "missouri",
-				"seed": 9,
-				"score": 70,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Ohio State",
-				"code": "ohio-st",
-				"seed": 5,
-				"score": 68,
-				"winner": false
-			},
-			"away": {
-				"name": "Utah State",
-				"code": "utah-st",
-				"seed": 12,
-				"score": 77,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 4,
-				"score": 61,
-				"winner": true
-			},
-			"away": {
-				"name": "Hofstra",
-				"code": "hofstra",
-				"seed": 13,
-				"score": 48,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "USC",
-				"code": "southern-california",
-				"seed": 6,
-				"score": 69,
-				"winner": true
-			},
-			"away": {
-				"name": "Oklahoma State",
-				"code": "oklahoma-st",
-				"seed": 11,
-				"score": 54,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Boston College",
-				"code": "boston-college",
-				"seed": 3,
-				"score": 68,
-				"winner": true
-			},
-			"away": {
-				"name": "Southern Utah",
-				"code": "southern-utah",
-				"seed": 14,
-				"score": 65,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Iowa",
-				"code": "iowa",
-				"seed": 7,
-				"score": 69,
-				"winner": true
-			},
-			"away": {
-				"name": "Creighton",
-				"code": "creighton",
-				"seed": 10,
-				"score": 56,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 2,
-				"score": 72,
-				"winner": true
-			},
-			"away": {
-				"name": "Holy Cross",
-				"code": "holy-cross",
-				"seed": 15,
-				"score": 68,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 94,
-				"winner": true
-			},
-			"away": {
-				"name": "Missouri",
-				"code": "missouri",
-				"seed": 9,
-				"score": 81,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Utah State",
-				"code": "utah-st",
-				"seed": 12,
-				"score": 50,
-				"winner": false
-			},
-			"away": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 4,
-				"score": 75,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "USC",
-				"code": "southern-california",
-				"seed": 6,
-				"score": 74,
-				"winner": true
-			},
-			"away": {
-				"name": "Boston College",
-				"code": "boston-college",
-				"seed": 3,
-				"score": 71,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Iowa",
-				"code": "iowa",
-				"seed": 7,
-				"score": 79,
-				"winner": false
-			},
-			"away": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 2,
-				"score": 92,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 76,
-				"winner": true
-			},
-			"away": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 4,
-				"score": 63,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "USC",
-				"code": "southern-california",
-				"seed": 6,
-				"score": 80,
-				"winner": true
-			},
-			"away": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 2,
-				"score": 76,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
-				"name": "USC",
-				"code": "southern-california",
-				"seed": 6,
-				"score": 69,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Stanford",
-				"code": "stanford",
-				"seed": 1,
-				"score": 88,
-				"winner": true
-			},
-			"away": {
-				"name": "UNC-Greensboro",
-				"code": "unc-greensboro",
-				"seed": 16,
-				"score": 60,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Georgia Tech",
-				"code": "georgia-tech",
-				"seed": 8,
-				"score": 62,
-				"winner": false
-			},
-			"away": {
-				"name": "Saint Joseph's",
-				"code": "saint-josephs",
-				"seed": 9,
-				"score": 66,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Cincinnati",
-				"code": "cincinnati",
-				"seed": 5,
-				"score": 84,
-				"winner": true
-			},
-			"away": {
-				"name": "BYU",
-				"code": "byu",
-				"seed": 12,
-				"score": 59,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Indiana",
-				"code": "indiana",
-				"seed": 4,
-				"score": 73,
-				"winner": false
-			},
-			"away": {
-				"name": "Kent State",
-				"code": "kent-st",
-				"seed": 13,
-				"score": 77,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Wisconsin",
-				"code": "wisconsin",
-				"seed": 6,
-				"score": 49,
-				"winner": false
-			},
-			"away": {
-				"name": "Georgia State",
-				"code": "georgia-st",
-				"seed": 11,
-				"score": 50,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 3,
-				"score": 83,
-				"winner": true
-			},
-			"away": {
-				"name": "George Mason",
-				"code": "george-mason",
-				"seed": 14,
-				"score": 80,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arkansas",
-				"code": "arkansas",
-				"seed": 7,
-				"score": 61,
-				"winner": false
-			},
-			"away": {
-				"name": "Georgetown",
-				"code": "georgetown",
-				"seed": 10,
-				"score": 63,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Iowa State",
-				"code": "iowa-st",
-				"seed": 2,
-				"score": 57,
-				"winner": false
-			},
-			"away": {
-				"name": "Hampton",
-				"code": "hampton",
-				"seed": 15,
-				"score": 58,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Stanford",
-				"code": "stanford",
-				"seed": 1,
-				"score": 90,
-				"winner": true
-			},
-			"away": {
-				"name": "Saint Joseph's",
-				"code": "saint-josephs",
-				"seed": 9,
-				"score": 83,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Cincinnati",
-				"code": "cincinnati",
-				"seed": 5,
-				"score": 66,
-				"winner": true
-			},
-			"away": {
-				"name": "Kent State",
-				"code": "kent-st",
-				"seed": 13,
-				"score": 43,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Georgia State",
-				"code": "georgia-st",
-				"seed": 11,
-				"score": 60,
-				"winner": false
-			},
-			"away": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 3,
-				"score": 79,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Georgetown",
-				"code": "georgetown",
-				"seed": 10,
-				"score": 76,
-				"winner": true
-			},
-			"away": {
-				"name": "Hampton",
-				"code": "hampton",
-				"seed": 15,
-				"score": 57,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Stanford",
-				"code": "stanford",
-				"seed": 1,
-				"score": 78,
-				"winner": true
-			},
-			"away": {
-				"name": "Cincinnati",
-				"code": "cincinnati",
-				"seed": 5,
-				"score": 65,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 3,
-				"score": 76,
-				"winner": true
-			},
-			"away": {
-				"name": "Georgetown",
-				"code": "georgetown",
-				"seed": 10,
-				"score": 66,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Stanford",
-				"code": "stanford",
-				"seed": 1,
-				"score": 73,
-				"winner": false
-			},
-			"away": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 3,
-				"score": 87,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan State",
-				"code": "michigan-st",
-				"seed": 1,
-				"score": 69,
-				"winner": true
-			},
-			"away": {
-				"name": "Alabama State",
-				"code": "alabama-st",
-				"seed": 16,
-				"score": 35,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "California",
-				"code": "california",
-				"seed": 8,
-				"score": 70,
-				"winner": false
-			},
-			"away": {
-				"name": "Fresno State",
-				"code": "fresno-st",
-				"seed": 9,
-				"score": 82,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Virginia",
-				"code": "virginia",
-				"seed": 5,
-				"score": 85,
-				"winner": false
-			},
-			"away": {
-				"name": "Gonzaga",
-				"code": "gonzaga",
-				"seed": 12,
-				"score": 86,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oklahoma",
-				"code": "oklahoma",
-				"seed": 4,
-				"score": 68,
-				"winner": false
-			},
-			"away": {
-				"name": "Indiana State",
-				"code": "indiana-st",
-				"seed": 13,
-				"score": 70,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Texas",
-				"code": "texas",
-				"seed": 6,
-				"score": 65,
-				"winner": false
-			},
-			"away": {
-				"name": "Temple",
-				"code": "temple",
-				"seed": 11,
-				"score": 79,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 3,
-				"score": 69,
-				"winner": true
-			},
-			"away": {
-				"name": "Western Kentucky",
-				"code": "western-ky",
-				"seed": 14,
-				"score": 56,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Penn State",
-				"code": "penn-st",
-				"seed": 7,
-				"score": 69,
-				"winner": true
-			},
-			"away": {
-				"name": "Providence",
-				"code": "providence",
-				"seed": 10,
-				"score": 59,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 70,
-				"winner": true
-			},
-			"away": {
-				"name": "Princeton",
-				"code": "princeton",
-				"seed": 15,
-				"score": 48,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan State",
-				"code": "michigan-st",
-				"seed": 1,
-				"score": 81,
-				"winner": true
-			},
-			"away": {
-				"name": "Fresno State",
-				"code": "fresno-st",
-				"seed": 9,
-				"score": 65,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Gonzaga",
-				"code": "gonzaga",
-				"seed": 12,
-				"score": 85,
-				"winner": true
-			},
-			"away": {
-				"name": "Indiana State",
-				"code": "indiana-st",
-				"seed": 13,
-				"score": 68,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Temple",
-				"code": "temple",
-				"seed": 11,
-				"score": 75,
-				"winner": true
-			},
-			"away": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 3,
-				"score": 54,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Penn State",
-				"code": "penn-st",
-				"seed": 7,
-				"score": 82,
-				"winner": true
-			},
-			"away": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 74,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan State",
-				"code": "michigan-st",
-				"seed": 1,
-				"score": 77,
-				"winner": true
-			},
-			"away": {
-				"name": "Gonzaga",
-				"code": "gonzaga",
-				"seed": 12,
-				"score": 62,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Temple",
-				"code": "temple",
-				"seed": 11,
-				"score": 84,
-				"winner": true
-			},
-			"away": {
-				"name": "Penn State",
-				"code": "penn-st",
-				"seed": 7,
-				"score": 72,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan State",
-				"code": "michigan-st",
-				"seed": 1,
-				"score": 69,
-				"winner": true
-			},
-			"away": {
-				"name": "Temple",
-				"code": "temple",
-				"seed": 11,
-				"score": 62,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
 		{
 			"home": {
 				"name": "Illinois",
@@ -981,11 +37,12 @@
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
+			"date": "2001-03-16",
+			"location": "Dayton, OH",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +59,12 @@
 				"score": 70,
 				"winner": true
 			},
-			"date": "",
+			"date": "2001-03-16",
+			"location": "Dayton, OH",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-charlotte.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +81,12 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
+			"date": "2001-03-16",
+			"location": "Dayton, OH",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-hawaii.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1044,11 +103,12 @@
 				"score": 75,
 				"winner": false
 			},
-			"date": "",
+			"date": "2001-03-16",
+			"location": "Dayton, OH",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-cal-state-northridge.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,11 +125,12 @@
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
+			"date": "2001-03-16",
+			"location": "Kansas City, MO",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-notre-dame.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +147,12 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
+			"date": "2001-03-16",
+			"location": "Kansas City, MO",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-iona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +169,12 @@
 				"score": 79,
 				"winner": true
 			},
-			"date": "",
+			"date": "2001-03-16",
+			"location": "Kansas City, MO",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-butler.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,11 +191,12 @@
 				"score": 76,
 				"winner": false
 			},
-			"date": "",
+			"date": "2001-03-16",
+			"location": "Kansas City, MO",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1149,74 +213,78 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
+			"date": "2001-03-18",
+			"location": "Dayton, OH",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-18-charlotte.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 5,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 4,
 				"score": 87,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 5,
+				"score": 58,
+				"winner": false
+			},
+			"date": "2001-03-18",
+			"location": "Dayton, OH",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-18-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Notre Dame",
-				"code": "notre-dame",
-				"seed": 6,
-				"score": 56,
-				"winner": false
-			},
-			"away": {
 				"name": "Ole Miss",
 				"code": "ole-miss",
 				"seed": 3,
 				"score": 59,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 6,
+				"score": 56,
+				"winner": false
+			},
+			"date": "2001-03-18",
+			"location": "Kansas City, MO",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-18-mississippi.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Butler",
-				"code": "butler",
-				"seed": 10,
-				"score": 52,
-				"winner": false
-			},
-			"away": {
 				"name": "Arizona",
 				"code": "arizona",
 				"seed": 2,
 				"score": 73,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Butler",
+				"code": "butler",
+				"seed": 10,
+				"score": 52,
+				"winner": false
+			},
+			"date": "2001-03-18",
+			"location": "Kansas City, MO",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-18-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1233,32 +301,34 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
+			"date": "2001-03-23",
+			"location": "San Antonio, TX",
 			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-23-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Ole Miss",
-				"code": "ole-miss",
-				"seed": 3,
-				"score": 56,
-				"winner": false
-			},
-			"away": {
 				"name": "Arizona",
 				"code": "arizona",
 				"seed": 2,
 				"score": 66,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Ole Miss",
+				"code": "ole-miss",
+				"seed": 3,
+				"score": 56,
+				"winner": false
+			},
+			"date": "2001-03-23",
+			"location": "San Antonio, TX",
 			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-23-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1275,11 +345,1002 @@
 				"score": 87,
 				"winner": true
 			},
-			"date": "",
+			"date": "2001-03-25",
+			"location": "San Antonio, TX",
 			"region": "TR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-25-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 95,
+				"winner": true
+			},
+			"away": {
+				"name": "Monmouth",
+				"code": "monmouth",
+				"seed": 16,
+				"score": 52,
+				"winner": false
+			},
+			"date": "2001-03-15",
+			"location": "Greensboro, NC",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgia",
+				"code": "georgia",
+				"seed": 8,
+				"score": 68,
+				"winner": false
+			},
+			"away": {
+				"name": "Missouri",
+				"code": "missouri",
+				"seed": 9,
+				"score": 70,
+				"winner": true
+			},
+			"date": "2001-03-15",
+			"location": "Greensboro, NC",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-georgia.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": 5,
+				"score": 68,
+				"winner": false
+			},
+			"away": {
+				"name": "Utah State",
+				"code": "utah-st",
+				"seed": 12,
+				"score": 77,
+				"winner": true
+			},
+			"date": "2001-03-15",
+			"location": "Greensboro, NC",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-ohio-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 4,
+				"score": 61,
+				"winner": true
+			},
+			"away": {
+				"name": "Hofstra",
+				"code": "hofstra",
+				"seed": 13,
+				"score": 48,
+				"winner": false
+			},
+			"date": "2001-03-15",
+			"location": "Greensboro, NC",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-hofstra.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "USC",
+				"code": "southern-california",
+				"seed": 6,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 11,
+				"score": 54,
+				"winner": false
+			},
+			"date": "2001-03-15",
+			"location": "Uniondale, NY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-oklahoma-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 3,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Southern Utah",
+				"code": "southern-utah",
+				"seed": 14,
+				"score": 65,
+				"winner": false
+			},
+			"date": "2001-03-15",
+			"location": "Uniondale, NY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-boston-college.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 7,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Creighton",
+				"code": "creighton",
+				"seed": 10,
+				"score": 56,
+				"winner": false
+			},
+			"date": "2001-03-15",
+			"location": "Uniondale, NY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-creighton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Holy Cross",
+				"code": "holy-cross",
+				"seed": 15,
+				"score": 68,
+				"winner": false
+			},
+			"date": "2001-03-15",
+			"location": "Uniondale, NY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-holy-cross.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 94,
+				"winner": true
+			},
+			"away": {
+				"name": "Missouri",
+				"code": "missouri",
+				"seed": 9,
+				"score": 81,
+				"winner": false
+			},
+			"date": "2001-03-17",
+			"location": "Greensboro, NC",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-17-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 4,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Utah State",
+				"code": "utah-st",
+				"seed": 12,
+				"score": 50,
+				"winner": false
+			},
+			"date": "2001-03-17",
+			"location": "Greensboro, NC",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-17-ucla.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 3,
+				"score": 71,
+				"winner": false
+			},
+			"away": {
+				"name": "USC",
+				"code": "southern-california",
+				"seed": 6,
+				"score": 74,
+				"winner": true
+			},
+			"date": "2001-03-17",
+			"location": "Uniondale, NY",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-17-boston-college.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 7,
+				"score": 79,
+				"winner": false
+			},
+			"date": "2001-03-17",
+			"location": "Uniondale, NY",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-17-iowa.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 4,
+				"score": 63,
+				"winner": false
+			},
+			"date": "2001-03-22",
+			"location": "Philadelphia, PA",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-22-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 76,
+				"winner": false
+			},
+			"away": {
+				"name": "USC",
+				"code": "southern-california",
+				"seed": 6,
+				"score": 80,
+				"winner": true
+			},
+			"date": "2001-03-22",
+			"location": "Philadelphia, PA",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-22-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "USC",
+				"code": "southern-california",
+				"seed": 6,
+				"score": 69,
+				"winner": false
+			},
+			"date": "2001-03-24",
+			"location": "Philadelphia, PA",
+			"region": "TL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-24-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 1,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Alabama State",
+				"code": "alabama-st",
+				"seed": 16,
+				"score": 35,
+				"winner": false
+			},
+			"date": "2001-03-16",
+			"location": "Memphis, TN",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-alabama-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "California",
+				"code": "california",
+				"seed": 8,
+				"score": 70,
+				"winner": false
+			},
+			"away": {
+				"name": "Fresno State",
+				"code": "fresno-st",
+				"seed": 9,
+				"score": 82,
+				"winner": true
+			},
+			"date": "2001-03-16",
+			"location": "Memphis, TN",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-california.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 5,
+				"score": 85,
+				"winner": false
+			},
+			"away": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 12,
+				"score": 86,
+				"winner": true
+			},
+			"date": "2001-03-16",
+			"location": "Memphis, TN",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-gonzaga.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 4,
+				"score": 68,
+				"winner": false
+			},
+			"away": {
+				"name": "Indiana State",
+				"code": "indiana-st",
+				"seed": 13,
+				"score": 70,
+				"winner": true
+			},
+			"date": "2001-03-16",
+			"location": "Memphis, TN",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-indiana-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 6,
+				"score": 65,
+				"winner": false
+			},
+			"away": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 11,
+				"score": 79,
+				"winner": true
+			},
+			"date": "2001-03-16",
+			"location": "New Orleans, LA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-temple.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 3,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Western Kentucky",
+				"code": "western-ky",
+				"seed": 14,
+				"score": 56,
+				"winner": false
+			},
+			"date": "2001-03-16",
+			"location": "New Orleans, LA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-florida.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Penn State",
+				"code": "penn-st",
+				"seed": 7,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 10,
+				"score": 59,
+				"winner": false
+			},
+			"date": "2001-03-16",
+			"location": "New Orleans, LA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-penn-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 15,
+				"score": 48,
+				"winner": false
+			},
+			"date": "2001-03-16",
+			"location": "New Orleans, LA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-16-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 1,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Fresno State",
+				"code": "fresno-st",
+				"seed": 9,
+				"score": 65,
+				"winner": false
+			},
+			"date": "2001-03-18",
+			"location": "Memphis, TN",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-18-fresno-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 12,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "Indiana State",
+				"code": "indiana-st",
+				"seed": 13,
+				"score": 68,
+				"winner": false
+			},
+			"date": "2001-03-18",
+			"location": "Memphis, TN",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-18-gonzaga.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 3,
+				"score": 54,
+				"winner": false
+			},
+			"away": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 11,
+				"score": 75,
+				"winner": true
+			},
+			"date": "2001-03-18",
+			"location": "New Orleans, LA",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-18-florida.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 74,
+				"winner": false
+			},
+			"away": {
+				"name": "Penn State",
+				"code": "penn-st",
+				"seed": 7,
+				"score": 82,
+				"winner": true
+			},
+			"date": "2001-03-18",
+			"location": "New Orleans, LA",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-18-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 1,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 12,
+				"score": 62,
+				"winner": false
+			},
+			"date": "2001-03-23",
+			"location": "Atlanta, GA",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-23-gonzaga.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Penn State",
+				"code": "penn-st",
+				"seed": 7,
+				"score": 72,
+				"winner": false
+			},
+			"away": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 11,
+				"score": 84,
+				"winner": true
+			},
+			"date": "2001-03-23",
+			"location": "Atlanta, GA",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-23-penn-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 1,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 11,
+				"score": 62,
+				"winner": false
+			},
+			"date": "2001-03-25",
+			"location": "Atlanta, GA",
+			"region": "BR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-25-michigan-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Stanford",
+				"code": "stanford",
+				"seed": 1,
+				"score": 89,
+				"winner": true
+			},
+			"away": {
+				"name": "UNC Greensboro",
+				"code": "unc-greensboro",
+				"seed": 16,
+				"score": 60,
+				"winner": false
+			},
+			"date": "2001-03-15",
+			"location": "San Diego, CA",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-north-carolina-greensboro.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgia Tech",
+				"code": "georgia-tech",
+				"seed": 8,
+				"score": 62,
+				"winner": false
+			},
+			"away": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 9,
+				"score": 66,
+				"winner": true
+			},
+			"date": "2001-03-15",
+			"location": "San Diego, CA",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-georgia-tech.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 5,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 12,
+				"score": 59,
+				"winner": false
+			},
+			"date": "2001-03-15",
+			"location": "San Diego, CA",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-brigham-young.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 4,
+				"score": 73,
+				"winner": false
+			},
+			"away": {
+				"name": "Kent State",
+				"code": "kent-st",
+				"seed": 13,
+				"score": 77,
+				"winner": true
+			},
+			"date": "2001-03-15",
+			"location": "San Diego, CA",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wisconsin",
+				"code": "wisconsin",
+				"seed": 6,
+				"score": 49,
+				"winner": false
+			},
+			"away": {
+				"name": "Georgia State",
+				"code": "georgia-st",
+				"seed": 11,
+				"score": 50,
+				"winner": true
+			},
+			"date": "2001-03-15",
+			"location": "Boise, ID",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-georgia-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 3,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "George Mason",
+				"code": "george-mason",
+				"seed": 14,
+				"score": 80,
+				"winner": false
+			},
+			"date": "2001-03-15",
+			"location": "Boise, ID",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-george-mason.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 7,
+				"score": 61,
+				"winner": false
+			},
+			"away": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 10,
+				"score": 63,
+				"winner": true
+			},
+			"date": "2001-03-15",
+			"location": "Boise, ID",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-arkansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Iowa State",
+				"code": "iowa-st",
+				"seed": 2,
+				"score": 57,
+				"winner": false
+			},
+			"away": {
+				"name": "Hampton",
+				"code": "hampton",
+				"seed": 15,
+				"score": 58,
+				"winner": true
+			},
+			"date": "2001-03-15",
+			"location": "Boise, ID",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-15-hampton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Stanford",
+				"code": "stanford",
+				"seed": 1,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 9,
+				"score": 83,
+				"winner": false
+			},
+			"date": "2001-03-17",
+			"location": "San Diego, CA",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-17-saint-josephs.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 5,
+				"score": 66,
+				"winner": true
+			},
+			"away": {
+				"name": "Kent State",
+				"code": "kent-st",
+				"seed": 13,
+				"score": 43,
+				"winner": false
+			},
+			"date": "2001-03-17",
+			"location": "San Diego, CA",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-17-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 3,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Georgia State",
+				"code": "georgia-st",
+				"seed": 11,
+				"score": 60,
+				"winner": false
+			},
+			"date": "2001-03-17",
+			"location": "Boise, ID",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-17-georgia-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 10,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Hampton",
+				"code": "hampton",
+				"seed": 15,
+				"score": 57,
+				"winner": false
+			},
+			"date": "2001-03-17",
+			"location": "Boise, ID",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-17-georgetown.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Stanford",
+				"code": "stanford",
+				"seed": 1,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 5,
+				"score": 65,
+				"winner": false
+			},
+			"date": "2001-03-22",
+			"location": "Anaheim, CA",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-22-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 3,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 10,
+				"score": 66,
+				"winner": false
+			},
+			"date": "2001-03-22",
+			"location": "Anaheim, CA",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-22-georgetown.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Stanford",
+				"code": "stanford",
+				"seed": 1,
+				"score": 73,
+				"winner": false
+			},
+			"away": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 3,
+				"score": 87,
+				"winner": true
+			},
+			"date": "2001-03-24",
+			"location": "Anaheim, CA",
+			"region": "BL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-24-maryland.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1296,11 +1357,12 @@
 				"score": 84,
 				"winner": false
 			},
-			"date": "",
+			"date": "2001-03-31",
+			"location": "Minneapolis, MN",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-31-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1317,11 +1379,12 @@
 				"score": 80,
 				"winner": true
 			},
-			"date": "",
+			"date": "2001-03-31",
+			"location": "Minneapolis, MN",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-03-31-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1338,11 +1401,12 @@
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
+			"date": "2001-04-02",
+			"location": "Minneapolis, MN",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2001-04-02-arizona.html",
+			"isComplete": true
 		}
 	]
 }

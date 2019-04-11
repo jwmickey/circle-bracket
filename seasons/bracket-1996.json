@@ -1,29 +1,30 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:48:14.459Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:12:21.133Z",
 	"year": 1996,
 	"regions": [
 		{
-			"name": "",
+			"name": "East",
 			"position": "BL"
 		},
 		{
-			"name": "",
+			"name": "Midwest",
 			"position": "TL"
 		},
 		{
-			"name": "",
+			"name": "Southeast",
 			"position": "BR"
 		},
 		{
-			"name": "",
+			"name": "West",
 			"position": "TR"
 		}
 	],
 	"games": [
 		{
 			"home": {
-				"name": "Massachusetts",
+				"name": "UMass",
 				"code": "massachusetts",
 				"seed": 1,
 				"score": 92,
@@ -36,11 +37,12 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Providence, RI",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-central-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -57,11 +59,12 @@
 				"score": 66,
 				"winner": true
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Providence, RI",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-bradley.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -78,11 +81,12 @@
 				"score": 86,
 				"winner": true
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Providence, RI",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -99,15 +103,16 @@
 				"score": 44,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Providence, RI",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-marquette.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 6,
 				"score": 83,
@@ -120,11 +125,12 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Richmond, VA",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-new-orleans.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -141,11 +147,12 @@
 				"score": 73,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Richmond, VA",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-northern-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -162,11 +169,12 @@
 				"score": 48,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Richmond, VA",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-kansas-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -183,15 +191,16 @@
 				"score": 56,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Richmond, VA",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Massachusetts",
+				"name": "UMass",
 				"code": "massachusetts",
 				"seed": 1,
 				"score": 79,
@@ -204,78 +213,82 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-16",
+			"location": "Providence, RI",
 			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-16-massachusetts.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Arkansas",
-				"code": "arkansas",
-				"seed": 12,
-				"score": 65,
-				"winner": true
-			},
-			"away": {
 				"name": "Marquette",
 				"code": "marquette",
 				"seed": 4,
 				"score": 56,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 12,
+				"score": 65,
+				"winner": true
+			},
+			"date": "1996-03-16",
+			"location": "Providence, RI",
 			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-16-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 6,
-				"score": 73,
-				"winner": false
-			},
-			"away": {
 				"name": "Texas Tech",
 				"code": "texas-tech",
 				"seed": 3,
 				"score": 92,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 6,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1996-03-17",
+			"location": "Richmond, VA",
 			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-17-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "New Mexico",
-				"code": "new-mexico",
-				"seed": 7,
-				"score": 65,
-				"winner": false
-			},
-			"away": {
 				"name": "Georgetown",
 				"code": "georgetown",
 				"seed": 2,
-				"score": 75,
+				"score": 73,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "New Mexico",
+				"code": "new-mexico",
+				"seed": 7,
+				"score": 62,
+				"winner": false
+			},
+			"date": "1996-03-17",
+			"location": "Richmond, VA",
 			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-17-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Massachusetts",
+				"name": "UMass",
 				"code": "massachusetts",
 				"seed": 1,
 				"score": 79,
@@ -288,36 +301,38 @@
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-21",
+			"location": "Atlanta, GA",
 			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-21-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Texas Tech",
-				"code": "texas-tech",
-				"seed": 3,
-				"score": 90,
-				"winner": false
-			},
-			"away": {
 				"name": "Georgetown",
 				"code": "georgetown",
 				"seed": 2,
 				"score": 98,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Texas Tech",
+				"code": "texas-tech",
+				"seed": 3,
+				"score": 90,
+				"winner": false
+			},
+			"date": "1996-03-21",
+			"location": "Atlanta, GA",
 			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-21-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Massachusetts",
+				"name": "UMass",
 				"code": "massachusetts",
 				"seed": 1,
 				"score": 86,
@@ -330,11 +345,12 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-23",
+			"location": "Atlanta, GA",
 			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-23-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -351,18 +367,19 @@
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Dallas, TX",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "UW–Green Bay",
+				"name": "Green Bay",
 				"code": "green-bay",
 				"seed": 8,
-				"score": 49,
+				"score": 48,
 				"winner": false
 			},
 			"away": {
@@ -372,11 +389,12 @@
 				"score": 61,
 				"winner": true
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Dallas, TX",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-green-bay.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -393,11 +411,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Dallas, TX",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-california.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -414,11 +433,12 @@
 				"score": 43,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Dallas, TX",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-canisius.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -435,11 +455,12 @@
 				"score": 80,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Milwaukee, WI",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -456,11 +477,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Milwaukee, WI",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-portland.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -477,11 +499,12 @@
 				"score": 80,
 				"winner": true
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Milwaukee, WI",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -492,17 +515,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Northeast Louisiana",
+				"name": "Louisiana-Monroe",
 				"code": "la-monroe",
 				"seed": 15,
 				"score": 50,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Milwaukee, WI",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-louisiana-monroe.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -519,74 +543,78 @@
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-16",
+			"location": "Dallas, TX",
 			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-16-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Iowa State",
-				"code": "iowa-st",
-				"seed": 5,
-				"score": 67,
-				"winner": false
-			},
-			"away": {
 				"name": "Utah",
 				"code": "utah",
 				"seed": 4,
 				"score": 73,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Iowa State",
+				"code": "iowa-st",
+				"seed": 5,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1996-03-16",
+			"location": "Dallas, TX",
 			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-16-iowa-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 6,
-				"score": 68,
-				"winner": true
-			},
-			"away": {
 				"name": "Villanova",
 				"code": "villanova",
 				"seed": 3,
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 6,
+				"score": 68,
+				"winner": true
+			},
+			"date": "1996-03-17",
+			"location": "Milwaukee, WI",
 			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-17-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Texas",
-				"code": "texas",
-				"seed": 10,
-				"score": 62,
-				"winner": false
-			},
-			"away": {
 				"name": "Wake Forest",
 				"code": "wake-forest",
 				"seed": 2,
 				"score": 65,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 10,
+				"score": 62,
+				"winner": false
+			},
+			"date": "1996-03-17",
+			"location": "Milwaukee, WI",
 			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-17-texas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -603,32 +631,34 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-21",
+			"location": "Minneapolis, MN",
 			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-21-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 6,
-				"score": 59,
-				"winner": false
-			},
-			"away": {
 				"name": "Wake Forest",
 				"code": "wake-forest",
 				"seed": 2,
 				"score": 60,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 6,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1996-03-21",
+			"location": "Minneapolis, MN",
 			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-21-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -642,18 +672,19 @@
 				"name": "Wake Forest",
 				"code": "wake-forest",
 				"seed": 2,
-				"score": 64,
+				"score": 63,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-23",
+			"location": "Minneapolis, MN",
 			"region": "TL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-23-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 1,
 				"score": 68,
@@ -666,11 +697,12 @@
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Indianapolis, IN",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-colgate.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -687,11 +719,12 @@
 				"score": 75,
 				"winner": true
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Indianapolis, IN",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -708,11 +741,12 @@
 				"score": 51,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Indianapolis, IN",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-mississippi-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -729,11 +763,12 @@
 				"score": 43,
 				"winner": true
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Indianapolis, IN",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-princeton.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -750,11 +785,12 @@
 				"score": 64,
 				"winner": true
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Orlando, FL",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -771,11 +807,12 @@
 				"score": 79,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Orlando, FL",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-austin-peay.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -792,11 +829,12 @@
 				"score": 43,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Orlando, FL",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-oklahoma.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -813,15 +851,16 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Orlando, FL",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-cincinnati.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 1,
 				"score": 95,
@@ -834,11 +873,12 @@
 				"score": 81,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-16",
+			"location": "Indianapolis, IN",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-16-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -855,57 +895,60 @@
 				"score": 41,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-16",
+			"location": "Indianapolis, IN",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-16-mississippi-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Boston College",
-				"code": "boston-college",
-				"seed": 11,
-				"score": 89,
-				"winner": false
-			},
-			"away": {
 				"name": "Georgia Tech",
 				"code": "georgia-tech",
 				"seed": 3,
 				"score": 103,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 11,
+				"score": 89,
+				"winner": false
+			},
+			"date": "1996-03-17",
+			"location": "Orlando, FL",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-17-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Temple",
-				"code": "temple",
-				"seed": 7,
-				"score": 65,
-				"winner": false
-			},
-			"away": {
 				"name": "Cincinnati",
 				"code": "cincinnati",
 				"seed": 2,
 				"score": 78,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 7,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1996-03-17",
+			"location": "Orlando, FL",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-17-cincinnati.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 1,
 				"score": 55,
@@ -918,53 +961,56 @@
 				"score": 60,
 				"winner": true
 			},
-			"date": "",
+			"date": "1996-03-22",
+			"location": "Lexington, KY",
 			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-22-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Georgia Tech",
-				"code": "georgia-tech",
-				"seed": 3,
-				"score": 70,
-				"winner": false
-			},
-			"away": {
 				"name": "Cincinnati",
 				"code": "cincinnati",
 				"seed": 2,
 				"score": 87,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Georgia Tech",
+				"code": "georgia-tech",
+				"seed": 3,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1996-03-22",
+			"location": "Lexington, KY",
 			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-22-cincinnati.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Mississippi State",
-				"code": "mississippi-st",
-				"seed": 5,
-				"score": 73,
-				"winner": true
-			},
-			"away": {
 				"name": "Cincinnati",
 				"code": "cincinnati",
 				"seed": 2,
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Mississippi State",
+				"code": "mississippi-st",
+				"seed": 5,
+				"score": 73,
+				"winner": true
+			},
+			"date": "1996-03-24",
+			"location": "Lexington, KY",
 			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-24-cincinnati.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -981,11 +1027,12 @@
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Albuquerque, NM",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-purdue.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +1049,12 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Albuquerque, NM",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-clemson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +1071,12 @@
 				"score": 75,
 				"winner": true
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Albuquerque, NM",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-drexel.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1044,11 +1093,12 @@
 				"score": 55,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-14",
+			"location": "Albuquerque, NM",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-14-montana-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,11 +1115,12 @@
 				"score": 79,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Tempe, AZ",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-george-washington.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +1137,12 @@
 				"score": 51,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Tempe, AZ",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +1159,12 @@
 				"score": 91,
 				"winner": true
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Tempe, AZ",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-maryland.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,11 +1181,12 @@
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-03-15",
+			"location": "Tempe, AZ",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-15-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1149,141 +1203,148 @@
 				"score": 76,
 				"winner": true
 			},
-			"date": "",
+			"date": "1996-03-16",
+			"location": "Albuquerque, NM",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-16-georgia.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Drexel",
-				"code": "drexel",
-				"seed": 12,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 4,
 				"score": 69,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Drexel",
+				"code": "drexel",
+				"seed": 12,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1996-03-16",
+			"location": "Albuquerque, NM",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-16-drexel.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Iowa",
-				"code": "iowa",
-				"seed": 6,
-				"score": 73,
-				"winner": false
-			},
-			"away": {
 				"name": "Arizona",
 				"code": "arizona",
 				"seed": 3,
 				"score": 87,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 6,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1996-03-17",
+			"location": "Tempe, AZ",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-17-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Santa Clara",
-				"code": "santa-clara",
-				"seed": 10,
-				"score": 51,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 2,
 				"score": 76,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Santa Clara",
+				"code": "santa-clara",
+				"seed": 10,
+				"score": 51,
+				"winner": false
+			},
+			"date": "1996-03-17",
+			"location": "Tempe, AZ",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-17-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 4,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
 				"name": "Georgia",
 				"code": "georgia",
 				"seed": 8,
 				"score": 81,
 				"winner": false
 			},
-			"away": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 4,
-				"score": 83,
-				"winner": true
-			},
-			"date": "",
+			"date": "1996-03-22",
+			"location": "Denver, CO",
 			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-22-georgia.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 2,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
 				"name": "Arizona",
 				"code": "arizona",
 				"seed": 3,
 				"score": 80,
 				"winner": false
 			},
-			"away": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 2,
-				"score": 83,
-				"winner": true
-			},
-			"date": "",
+			"date": "1996-03-22",
+			"location": "Denver, CO",
 			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-22-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 4,
-				"score": 60,
-				"winner": true
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 2,
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 4,
+				"score": 60,
+				"winner": true
+			},
+			"date": "1996-03-24",
+			"location": "Denver, CO",
 			"region": "TR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-24-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Massachusetts",
+				"name": "UMass",
 				"code": "massachusetts",
 				"seed": 1,
 				"score": 74,
@@ -1296,32 +1357,34 @@
 				"score": 81,
 				"winner": true
 			},
-			"date": "",
+			"date": "1996-03-30",
+			"location": "East Rutherford, NJ",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-30-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Mississippi State",
-				"code": "mississippi-st",
-				"seed": 5,
-				"score": 69,
-				"winner": false
-			},
-			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 4,
 				"score": 77,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Mississippi State",
+				"code": "mississippi-st",
+				"seed": 5,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1996-03-30",
+			"location": "East Rutherford, NJ",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-03-30-mississippi-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1338,11 +1401,12 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
+			"date": "1996-04-01",
+			"location": "East Rutherford, NJ",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1996-04-01-kentucky.html",
+			"isComplete": true
 		}
 	]
 }

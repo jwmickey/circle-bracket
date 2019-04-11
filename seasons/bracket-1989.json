@@ -1,23 +1,24 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:53:48.553Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:11:26.234Z",
 	"year": 1989,
 	"regions": [
 		{
-			"name": "",
+			"name": "East",
 			"position": "BL"
 		},
 		{
-			"name": "",
-			"position": "TL"
+			"name": "Midwest",
+			"position": "BR"
 		},
 		{
-			"name": "",
+			"name": "Southeast",
 			"position": "TR"
 		},
 		{
-			"name": "",
-			"position": "BR"
+			"name": "West",
+			"position": "TL"
 		}
 	],
 	"games": [
@@ -36,11 +37,12 @@
 				"score": 49,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-17",
+			"location": "Providence, RI",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -57,11 +59,12 @@
 				"score": 81,
 				"winner": true
 			},
-			"date": "",
+			"date": "1989-03-17",
+			"location": "Providence, RI",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-notre-dame.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -78,11 +81,12 @@
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-17",
+			"location": "Providence, RI",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-north-carolina-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -99,11 +103,12 @@
 				"score": 73,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-17",
+			"location": "Providence, RI",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-iowa.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -120,11 +125,12 @@
 				"score": 86,
 				"winner": true
 			},
-			"date": "",
+			"date": "1989-03-16",
+			"location": "Greensboro, NC",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-kansas-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -141,11 +147,12 @@
 				"score": 80,
 				"winner": true
 			},
-			"date": "",
+			"date": "1989-03-16",
+			"location": "Greensboro, NC",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-siena.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -162,11 +169,12 @@
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-16",
+			"location": "Greensboro, NC",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-tennessee.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -183,11 +191,12 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-16",
+			"location": "Greensboro, NC",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -204,32 +213,34 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-19",
+			"location": "Providence, RI",
 			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-19-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "NC State",
-				"code": "north-carolina-st",
-				"seed": 5,
-				"score": 102,
-				"winner": true
-			},
-			"away": {
 				"name": "Iowa",
 				"code": "iowa",
 				"seed": 4,
 				"score": 96,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 5,
+				"score": 102,
+				"winner": true
+			},
+			"date": "1989-03-19",
+			"location": "Providence, RI",
 			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-19-iowa.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -246,32 +257,34 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-18",
+			"location": "Greensboro, NC",
 			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-18-minnesota.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "West Virginia",
-				"code": "west-virginia",
-				"seed": 7,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
 				"name": "Duke",
 				"code": "duke",
 				"seed": 2,
 				"score": 70,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 7,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1989-03-18",
+			"location": "Greensboro, NC",
 			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-18-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -288,32 +301,34 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-24",
+			"location": "East Rutherford, NJ",
 			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-24-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Minnesota",
-				"code": "minnesota",
-				"seed": 11,
-				"score": 70,
-				"winner": false
-			},
-			"away": {
 				"name": "Duke",
 				"code": "duke",
 				"seed": 2,
 				"score": 87,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Minnesota",
+				"code": "minnesota",
+				"seed": 11,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1989-03-24",
+			"location": "East Rutherford, NJ",
 			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-24-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -330,641 +345,12 @@
 				"score": 85,
 				"winner": true
 			},
-			"date": "",
+			"date": "1989-03-26",
+			"location": "East Rutherford, NJ",
 			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 1,
-				"score": 94,
-				"winner": true
-			},
-			"away": {
-				"name": "Robert Morris",
-				"code": "robert-morris",
-				"seed": 16,
-				"score": 60,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Saint Mary's",
-				"code": "st-marys-ca",
-				"seed": 8,
-				"score": 70,
-				"winner": false
-			},
-			"away": {
-				"name": "Clemson",
-				"code": "clemson",
-				"seed": 9,
-				"score": 83,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Memphis State",
-				"code": "memphis",
-				"seed": 5,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
-				"name": "DePaul",
-				"code": "depaul",
-				"seed": 12,
-				"score": 66,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UNLV",
-				"code": "unlv",
-				"seed": 4,
-				"score": 68,
-				"winner": true
-			},
-			"away": {
-				"name": "Idaho",
-				"code": "idaho",
-				"seed": 13,
-				"score": 56,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oregon State",
-				"code": "oregon-st",
-				"seed": 6,
-				"score": 90,
-				"winner": false
-			},
-			"away": {
-				"name": "Evansville",
-				"code": "evansville",
-				"seed": 11,
-				"score": 94,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Seton Hall",
-				"code": "seton-hall",
-				"seed": 3,
-				"score": 60,
-				"winner": true
-			},
-			"away": {
-				"name": "Southwest Missouri State",
-				"code": "missouri-st",
-				"seed": 14,
-				"score": 51,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UTEP",
-				"code": "utep",
-				"seed": 7,
-				"score": 85,
-				"winner": true
-			},
-			"away": {
-				"name": "LSU",
-				"code": "lsu",
-				"seed": 10,
-				"score": 74,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Indiana",
-				"code": "indiana",
-				"seed": 2,
-				"score": 99,
-				"winner": true
-			},
-			"away": {
-				"name": "George Mason",
-				"code": "george-mason",
-				"seed": 15,
-				"score": 85,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 1,
-				"score": 94,
-				"winner": true
-			},
-			"away": {
-				"name": "Clemson",
-				"code": "clemson",
-				"seed": 9,
-				"score": 68,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "DePaul",
-				"code": "depaul",
-				"seed": 12,
-				"score": 70,
-				"winner": false
-			},
-			"away": {
-				"name": "UNLV",
-				"code": "unlv",
-				"seed": 4,
-				"score": 85,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Evansville",
-				"code": "evansville",
-				"seed": 11,
-				"score": 73,
-				"winner": false
-			},
-			"away": {
-				"name": "Seton Hall",
-				"code": "seton-hall",
-				"seed": 3,
-				"score": 87,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UTEP",
-				"code": "utep",
-				"seed": 7,
-				"score": 69,
-				"winner": false
-			},
-			"away": {
-				"name": "Indiana",
-				"code": "indiana",
-				"seed": 2,
-				"score": 92,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 1,
-				"score": 67,
-				"winner": false
-			},
-			"away": {
-				"name": "UNLV",
-				"code": "unlv",
-				"seed": 4,
-				"score": 68,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Seton Hall",
-				"code": "seton-hall",
-				"seed": 3,
-				"score": 78,
-				"winner": true
-			},
-			"away": {
-				"name": "Indiana",
-				"code": "indiana",
-				"seed": 2,
-				"score": 65,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UNLV",
-				"code": "unlv",
-				"seed": 4,
-				"score": 61,
-				"winner": false
-			},
-			"away": {
-				"name": "Seton Hall",
-				"code": "seton-hall",
-				"seed": 3,
-				"score": 84,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oklahoma",
-				"code": "oklahoma",
-				"seed": 1,
-				"score": 72,
-				"winner": true
-			},
-			"away": {
-				"name": "East Tennessee State",
-				"code": "east-tenn-st",
-				"seed": 16,
-				"score": 71,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "La Salle",
-				"code": "la-salle",
-				"seed": 8,
-				"score": 74,
-				"winner": false
-			},
-			"away": {
-				"name": "Louisiana Tech",
-				"code": "louisiana-tech",
-				"seed": 9,
-				"score": 83,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Virginia",
-				"code": "virginia",
-				"seed": 5,
-				"score": 100,
-				"winner": true
-			},
-			"away": {
-				"name": "Providence",
-				"code": "providence",
-				"seed": 12,
-				"score": 97,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Florida State",
-				"code": "florida-st",
-				"seed": 4,
-				"score": 83,
-				"winner": false
-			},
-			"away": {
-				"name": "Middle Tennessee State",
-				"code": "middle-tenn",
-				"seed": 13,
-				"score": 97,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Alabama",
-				"code": "alabama",
-				"seed": 6,
-				"score": 84,
-				"winner": false
-			},
-			"away": {
-				"name": "South Alabama",
-				"code": "south-ala",
-				"seed": 11,
-				"score": 86,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan",
-				"code": "michigan",
-				"seed": 3,
-				"score": 92,
-				"winner": true
-			},
-			"away": {
-				"name": "Xavier",
-				"code": "xavier",
-				"seed": 14,
-				"score": 87,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 7,
-				"score": 84,
-				"winner": true
-			},
-			"away": {
-				"name": "Iowa State",
-				"code": "iowa-st",
-				"seed": 10,
-				"score": 74,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 93,
-				"winner": true
-			},
-			"away": {
-				"name": "Southern",
-				"code": "southern-u",
-				"seed": 15,
-				"score": 79,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oklahoma",
-				"code": "oklahoma",
-				"seed": 1,
-				"score": 124,
-				"winner": true
-			},
-			"away": {
-				"name": "Louisiana Tech",
-				"code": "louisiana-tech",
-				"seed": 9,
-				"score": 81,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Virginia",
-				"code": "virginia",
-				"seed": 5,
-				"score": 104,
-				"winner": true
-			},
-			"away": {
-				"name": "Middle Tennessee State",
-				"code": "middle-tenn",
-				"seed": 13,
-				"score": 88,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "South Alabama",
-				"code": "south-ala",
-				"seed": 11,
-				"score": 82,
-				"winner": false
-			},
-			"away": {
-				"name": "Michigan",
-				"code": "michigan",
-				"seed": 3,
-				"score": 91,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 7,
-				"score": 81,
-				"winner": false
-			},
-			"away": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 88,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oklahoma",
-				"code": "oklahoma",
-				"seed": 1,
-				"score": 80,
-				"winner": false
-			},
-			"away": {
-				"name": "Virginia",
-				"code": "virginia",
-				"seed": 5,
-				"score": 86,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan",
-				"code": "michigan",
-				"seed": 3,
-				"score": 92,
-				"winner": true
-			},
-			"away": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 87,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Virginia",
-				"code": "virginia",
-				"seed": 5,
-				"score": 65,
-				"winner": false
-			},
-			"away": {
-				"name": "Michigan",
-				"code": "michigan",
-				"seed": 3,
-				"score": 102,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-26-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -981,15 +367,16 @@
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-16",
+			"location": "Indianapolis, IN",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 8,
 				"score": 64,
@@ -1002,11 +389,12 @@
 				"score": 68,
 				"winner": true
 			},
-			"date": "",
+			"date": "1989-03-16",
+			"location": "Indianapolis, IN",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-ball-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +411,12 @@
 				"score": 101,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-16",
+			"location": "Indianapolis, IN",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1038,17 +427,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Arkansas–Little Rock",
+				"name": "Little Rock",
 				"code": "ualr",
 				"seed": 13,
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-16",
+			"location": "Indianapolis, IN",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-arkansas-little-rock.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,11 +455,12 @@
 				"score": 76,
 				"winner": true
 			},
-			"date": "",
+			"date": "1989-03-17",
+			"location": "Dallas, TX",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +477,12 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-17",
+			"location": "Dallas, TX",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-creighton.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +499,12 @@
 				"score": 68,
 				"winner": true
 			},
-			"date": "",
+			"date": "1989-03-17",
+			"location": "Dallas, TX",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-colorado-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,11 +521,12 @@
 				"score": 81,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-17",
+			"location": "Dallas, TX",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-bucknell.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1149,74 +543,78 @@
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-18",
+			"location": "Indianapolis, IN",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-18-ball-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Arkansas",
-				"code": "arkansas",
-				"seed": 5,
-				"score": 84,
-				"winner": false
-			},
-			"away": {
 				"name": "Louisville",
 				"code": "louisville",
 				"seed": 4,
 				"score": 93,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 5,
+				"score": 84,
+				"winner": false
+			},
+			"date": "1989-03-18",
+			"location": "Indianapolis, IN",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-18-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Texas",
-				"code": "texas",
-				"seed": 11,
-				"score": 89,
-				"winner": false
-			},
-			"away": {
 				"name": "Missouri",
 				"code": "missouri",
 				"seed": 3,
 				"score": 108,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 11,
+				"score": 89,
+				"winner": false
+			},
+			"date": "1989-03-19",
+			"location": "Dallas, TX",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-19-missouri.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Colorado State",
-				"code": "colorado-st",
-				"seed": 10,
-				"score": 50,
-				"winner": false
-			},
-			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 2,
 				"score": 65,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Colorado State",
+				"code": "colorado-st",
+				"seed": 10,
+				"score": 50,
+				"winner": false
+			},
+			"date": "1989-03-19",
+			"location": "Dallas, TX",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-19-colorado-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1233,32 +631,34 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-24",
+			"location": "Minneapolis, MN",
 			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-24-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Missouri",
-				"code": "missouri",
-				"seed": 3,
-				"score": 80,
-				"winner": false
-			},
-			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 2,
 				"score": 83,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Missouri",
+				"code": "missouri",
+				"seed": 3,
+				"score": 80,
+				"winner": false
+			},
+			"date": "1989-03-24",
+			"location": "Minneapolis, MN",
 			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-24-missouri.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1275,11 +675,694 @@
 				"score": 86,
 				"winner": false
 			},
-			"date": "",
+			"date": "1989-03-26",
+			"location": "Minneapolis, MN",
 			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-26-illinois.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 1,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "ETSU",
+				"code": "east-tenn-st",
+				"seed": 16,
+				"score": 71,
+				"winner": false
+			},
+			"date": "1989-03-16",
+			"location": "Nashville, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-east-tennessee-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "La Salle",
+				"code": "la-salle",
+				"seed": 8,
+				"score": 74,
+				"winner": false
+			},
+			"away": {
+				"name": "Louisiana Tech",
+				"code": "louisiana-tech",
+				"seed": 9,
+				"score": 83,
+				"winner": true
+			},
+			"date": "1989-03-16",
+			"location": "Nashville, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-la-salle.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 5,
+				"score": 100,
+				"winner": true
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 12,
+				"score": 97,
+				"winner": false
+			},
+			"date": "1989-03-16",
+			"location": "Nashville, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-providence.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida State",
+				"code": "florida-st",
+				"seed": 4,
+				"score": 83,
+				"winner": false
+			},
+			"away": {
+				"name": "Middle Tennessee",
+				"code": "middle-tenn",
+				"seed": 13,
+				"score": 97,
+				"winner": true
+			},
+			"date": "1989-03-16",
+			"location": "Nashville, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-florida-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 6,
+				"score": 84,
+				"winner": false
+			},
+			"away": {
+				"name": "South Alabama",
+				"code": "south-ala",
+				"seed": 11,
+				"score": 86,
+				"winner": true
+			},
+			"date": "1989-03-17",
+			"location": "Atlanta, GA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-alabama.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 3,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "Xavier",
+				"code": "xavier",
+				"seed": 14,
+				"score": 87,
+				"winner": false
+			},
+			"date": "1989-03-17",
+			"location": "Atlanta, GA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-michigan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 7,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Iowa State",
+				"code": "iowa-st",
+				"seed": 10,
+				"score": 74,
+				"winner": false
+			},
+			"date": "1989-03-17",
+			"location": "Atlanta, GA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-iowa-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 93,
+				"winner": true
+			},
+			"away": {
+				"name": "Southern",
+				"code": "southern-u",
+				"seed": 15,
+				"score": 79,
+				"winner": false
+			},
+			"date": "1989-03-17",
+			"location": "Atlanta, GA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 1,
+				"score": 124,
+				"winner": true
+			},
+			"away": {
+				"name": "Louisiana Tech",
+				"code": "louisiana-tech",
+				"seed": 9,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1989-03-18",
+			"location": "Nashville, TN",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-18-louisiana-tech.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 5,
+				"score": 104,
+				"winner": true
+			},
+			"away": {
+				"name": "Middle Tennessee",
+				"code": "middle-tenn",
+				"seed": 13,
+				"score": 88,
+				"winner": false
+			},
+			"date": "1989-03-18",
+			"location": "Nashville, TN",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-18-middle-tennessee.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 3,
+				"score": 91,
+				"winner": true
+			},
+			"away": {
+				"name": "South Alabama",
+				"code": "south-ala",
+				"seed": 11,
+				"score": 82,
+				"winner": false
+			},
+			"date": "1989-03-19",
+			"location": "Atlanta, GA",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-19-michigan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 88,
+				"winner": true
+			},
+			"away": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 7,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1989-03-19",
+			"location": "Atlanta, GA",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-19-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 1,
+				"score": 80,
+				"winner": false
+			},
+			"away": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 5,
+				"score": 86,
+				"winner": true
+			},
+			"date": "1989-03-23",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-23-oklahoma.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 87,
+				"winner": false
+			},
+			"away": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 3,
+				"score": 92,
+				"winner": true
+			},
+			"date": "1989-03-23",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-23-michigan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 3,
+				"score": 102,
+				"winner": true
+			},
+			"away": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 5,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1989-03-25",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-25-michigan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 1,
+				"score": 94,
+				"winner": true
+			},
+			"away": {
+				"name": "Robert Morris",
+				"code": "robert-morris",
+				"seed": 16,
+				"score": 60,
+				"winner": false
+			},
+			"date": "1989-03-16",
+			"location": "Boise, ID",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Saint Mary's",
+				"code": "st-marys-ca",
+				"seed": 8,
+				"score": 70,
+				"winner": false
+			},
+			"away": {
+				"name": "Clemson",
+				"code": "clemson",
+				"seed": 9,
+				"score": 83,
+				"winner": true
+			},
+			"date": "1989-03-16",
+			"location": "Boise, ID",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-clemson.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 5,
+				"score": 63,
+				"winner": false
+			},
+			"away": {
+				"name": "DePaul",
+				"code": "depaul",
+				"seed": 12,
+				"score": 66,
+				"winner": true
+			},
+			"date": "1989-03-16",
+			"location": "Boise, ID",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-depaul.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 4,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Idaho",
+				"code": "idaho",
+				"seed": 13,
+				"score": 56,
+				"winner": false
+			},
+			"date": "1989-03-16",
+			"location": "Boise, ID",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-16-idaho.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oregon State",
+				"code": "oregon-st",
+				"seed": 6,
+				"score": 90,
+				"winner": false
+			},
+			"away": {
+				"name": "Evansville",
+				"code": "evansville",
+				"seed": 11,
+				"score": 94,
+				"winner": true
+			},
+			"date": "1989-03-17",
+			"location": "Tucson, AZ",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-evansville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Seton Hall",
+				"code": "seton-hall",
+				"seed": 3,
+				"score": 60,
+				"winner": true
+			},
+			"away": {
+				"name": "Missouri State",
+				"code": "missouri-st",
+				"seed": 14,
+				"score": 51,
+				"winner": false
+			},
+			"date": "1989-03-17",
+			"location": "Tucson, AZ",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-missouri-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UTEP",
+				"code": "utep",
+				"seed": 7,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "LSU",
+				"code": "lsu",
+				"seed": 10,
+				"score": 74,
+				"winner": false
+			},
+			"date": "1989-03-17",
+			"location": "Tucson, AZ",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-louisiana-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 2,
+				"score": 99,
+				"winner": true
+			},
+			"away": {
+				"name": "George Mason",
+				"code": "george-mason",
+				"seed": 15,
+				"score": 85,
+				"winner": false
+			},
+			"date": "1989-03-17",
+			"location": "Tucson, AZ",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-17-george-mason.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 1,
+				"score": 94,
+				"winner": true
+			},
+			"away": {
+				"name": "Clemson",
+				"code": "clemson",
+				"seed": 9,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1989-03-18",
+			"location": "Boise, ID",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-18-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 4,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "DePaul",
+				"code": "depaul",
+				"seed": 12,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1989-03-18",
+			"location": "Boise, ID",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-18-depaul.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Seton Hall",
+				"code": "seton-hall",
+				"seed": 3,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Evansville",
+				"code": "evansville",
+				"seed": 11,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1989-03-19",
+			"location": "Tucson, AZ",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-19-evansville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 2,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "UTEP",
+				"code": "utep",
+				"seed": 7,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1989-03-19",
+			"location": "Tucson, AZ",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-19-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 1,
+				"score": 67,
+				"winner": false
+			},
+			"away": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 4,
+				"score": 68,
+				"winner": true
+			},
+			"date": "1989-03-23",
+			"location": "Denver, CO",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-23-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 2,
+				"score": 65,
+				"winner": false
+			},
+			"away": {
+				"name": "Seton Hall",
+				"code": "seton-hall",
+				"seed": 3,
+				"score": 78,
+				"winner": true
+			},
+			"date": "1989-03-23",
+			"location": "Denver, CO",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-23-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Seton Hall",
+				"code": "seton-hall",
+				"seed": 3,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 4,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1989-03-25",
+			"location": "Denver, CO",
+			"region": "TL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-03-25-nevada-las-vegas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 1,
+				"score": 81,
+				"winner": false
+			},
+			"away": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 3,
+				"score": 83,
+				"winner": true
+			},
+			"date": "1989-04-01",
+			"location": "Seattle, WA",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-04-01-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1296,32 +1379,12 @@
 				"score": 95,
 				"winner": true
 			},
-			"date": "",
+			"date": "1989-04-01",
+			"location": "Seattle, WA",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan",
-				"code": "michigan",
-				"seed": 3,
-				"score": 83,
-				"winner": true
-			},
-			"away": {
-				"name": "Illinois",
-				"code": "illinois",
-				"seed": 1,
-				"score": 81,
-				"winner": false
-			},
-			"date": "",
-			"region": "",
-			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-04-01-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1338,11 +1401,12 @@
 				"score": 80,
 				"winner": true
 			},
-			"date": "",
+			"date": "1989-04-03",
+			"location": "Seattle, WA",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1989-04-03-michigan.html",
+			"isComplete": true
 		}
 	]
 }

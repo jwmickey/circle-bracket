@@ -1,23 +1,24 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:54:40.213Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:06:21.826Z",
 	"year": 1985,
 	"regions": [
 		{
-			"name": "",
+			"name": "East",
 			"position": "TL"
 		},
 		{
-			"name": "",
-			"position": "BL"
+			"name": "Midwest",
+			"position": "BR"
 		},
 		{
-			"name": "",
+			"name": "Southeast",
 			"position": "TR"
 		},
 		{
-			"name": "",
-			"position": "BR"
+			"name": "West",
+			"position": "BL"
 		}
 	],
 	"games": [
@@ -36,11 +37,12 @@
 				"score": 43,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-14",
+			"location": "Hartford, CT",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -57,11 +59,12 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-14",
+			"location": "Hartford, CT",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-temple.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -78,15 +81,16 @@
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-14",
+			"location": "Hartford, CT",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-old-dominion.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Loyola–Chicago",
+				"name": "Loyola (IL)",
 				"code": "loyola-il",
 				"seed": 4,
 				"score": 59,
@@ -99,11 +103,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-14",
+			"location": "Hartford, CT",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-iona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -120,11 +125,12 @@
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-15",
+			"location": "Atlanta, GA",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-georgia.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -141,11 +147,12 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-15",
+			"location": "Atlanta, GA",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -162,11 +169,12 @@
 				"score": 65,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-15",
+			"location": "Atlanta, GA",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-depaul.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -183,11 +191,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-15",
+			"location": "Atlanta, GA",
 			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -204,74 +213,78 @@
 				"score": 46,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-16",
+			"location": "Hartford, CT",
 			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-16-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Loyola (IL)",
+				"code": "loyola-il",
+				"seed": 4,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
 				"name": "SMU",
 				"code": "smu",
 				"seed": 5,
 				"score": 57,
 				"winner": false
 			},
-			"away": {
-				"name": "Loyola–Chicago",
-				"code": "loyola-il",
-				"seed": 4,
-				"score": 70,
-				"winner": true
-			},
-			"date": "",
+			"date": "1985-03-16",
+			"location": "Hartford, CT",
 			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-16-loyola-il.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Georgia",
-				"code": "georgia",
-				"seed": 6,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
 				"name": "Illinois",
 				"code": "illinois",
 				"seed": 3,
 				"score": 74,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Georgia",
+				"code": "georgia",
+				"seed": 6,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1985-03-17",
+			"location": "Atlanta, GA",
 			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-17-georgia.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Georgia Tech",
+				"code": "georgia-tech",
+				"seed": 2,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 7,
 				"score": 53,
 				"winner": false
 			},
-			"away": {
-				"name": "Georgia Tech",
-				"code": "georgia-tech",
-				"seed": 2,
-				"score": 70,
-				"winner": true
-			},
-			"date": "",
+			"date": "1985-03-17",
+			"location": "Atlanta, GA",
 			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-17-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -282,38 +295,40 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Loyola–Chicago",
+				"name": "Loyola (IL)",
 				"code": "loyola-il",
 				"seed": 4,
 				"score": 53,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-21",
+			"location": "Providence, RI",
 			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-21-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Georgia Tech",
+				"code": "georgia-tech",
+				"seed": 2,
+				"score": 61,
+				"winner": true
+			},
+			"away": {
 				"name": "Illinois",
 				"code": "illinois",
 				"seed": 3,
 				"score": 53,
 				"winner": false
 			},
-			"away": {
-				"name": "Georgia Tech",
-				"code": "georgia-tech",
-				"seed": 2,
-				"score": 61,
-				"winner": true
-			},
-			"date": "",
+			"date": "1985-03-21",
+			"location": "Providence, RI",
 			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-21-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -330,641 +345,12 @@
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-23",
+			"location": "Providence, RI",
 			"region": "TL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "St John's",
-				"code": "st-johns-ny",
-				"seed": 1,
-				"score": 83,
-				"winner": true
-			},
-			"away": {
-				"name": "Southern",
-				"code": "southern-u",
-				"seed": 16,
-				"score": 59,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Iowa",
-				"code": "iowa",
-				"seed": 8,
-				"score": 54,
-				"winner": false
-			},
-			"away": {
-				"name": "Arkansas",
-				"code": "arkansas",
-				"seed": 9,
-				"score": 63,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Washington",
-				"code": "washington",
-				"seed": 5,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 12,
-				"score": 66,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UNLV",
-				"code": "unlv",
-				"seed": 4,
-				"score": 85,
-				"winner": true
-			},
-			"away": {
-				"name": "San Diego State",
-				"code": "san-diego-st",
-				"seed": 13,
-				"score": 80,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Tulsa",
-				"code": "tulsa",
-				"seed": 6,
-				"score": 75,
-				"winner": false
-			},
-			"away": {
-				"name": "UTEP",
-				"code": "utep",
-				"seed": 11,
-				"score": 79,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "NC State",
-				"code": "north-carolina-st",
-				"seed": 3,
-				"score": 65,
-				"winner": true
-			},
-			"away": {
-				"name": "Nevada",
-				"code": "nevada",
-				"seed": 14,
-				"score": 56,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Alabama",
-				"code": "alabama",
-				"seed": 7,
-				"score": 50,
-				"winner": true
-			},
-			"away": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 10,
-				"score": 41,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "VCU",
-				"code": "vcu",
-				"seed": 2,
-				"score": 81,
-				"winner": true
-			},
-			"away": {
-				"name": "Marshall",
-				"code": "marshall",
-				"seed": 15,
-				"score": 65,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "St John's",
-				"code": "st-johns-ny",
-				"seed": 1,
-				"score": 68,
-				"winner": true
-			},
-			"away": {
-				"name": "Arkansas",
-				"code": "arkansas",
-				"seed": 9,
-				"score": 65,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 12,
-				"score": 64,
-				"winner": true
-			},
-			"away": {
-				"name": "UNLV",
-				"code": "unlv",
-				"seed": 4,
-				"score": 61,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UTEP",
-				"code": "utep",
-				"seed": 11,
-				"score": 73,
-				"winner": false
-			},
-			"away": {
-				"name": "NC State",
-				"code": "north-carolina-st",
-				"seed": 3,
-				"score": 86,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Alabama",
-				"code": "alabama",
-				"seed": 7,
-				"score": 63,
-				"winner": true
-			},
-			"away": {
-				"name": "VCU",
-				"code": "vcu",
-				"seed": 2,
-				"score": 59,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "St John's",
-				"code": "st-johns-ny",
-				"seed": 1,
-				"score": 86,
-				"winner": true
-			},
-			"away": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 12,
-				"score": 70,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "NC State",
-				"code": "north-carolina-st",
-				"seed": 3,
-				"score": 61,
-				"winner": true
-			},
-			"away": {
-				"name": "Alabama",
-				"code": "alabama",
-				"seed": 7,
-				"score": 55,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "St John's",
-				"code": "st-johns-ny",
-				"seed": 1,
-				"score": 69,
-				"winner": true
-			},
-			"away": {
-				"name": "NC State",
-				"code": "north-carolina-st",
-				"seed": 3,
-				"score": 60,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan",
-				"code": "michigan",
-				"seed": 1,
-				"score": 59,
-				"winner": true
-			},
-			"away": {
-				"name": "Fairleigh Dickinson",
-				"code": "fairleigh-dickinson",
-				"seed": 16,
-				"score": 55,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Villanova",
-				"code": "villanova",
-				"seed": 8,
-				"score": 51,
-				"winner": true
-			},
-			"away": {
-				"name": "Dayton",
-				"code": "dayton",
-				"seed": 9,
-				"score": 49,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 5,
-				"score": 69,
-				"winner": true
-			},
-			"away": {
-				"name": "Miami (OH)",
-				"code": "miami-oh",
-				"seed": 12,
-				"score": 68,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "LSU",
-				"code": "lsu",
-				"seed": 4,
-				"score": 55,
-				"winner": false
-			},
-			"away": {
-				"name": "Navy",
-				"code": "navy",
-				"seed": 13,
-				"score": 78,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 6,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
-				"name": "Auburn",
-				"code": "auburn",
-				"seed": 11,
-				"score": 59,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 3,
-				"score": 49,
-				"winner": true
-			},
-			"away": {
-				"name": "Ohio",
-				"code": "ohio",
-				"seed": 14,
-				"score": 38,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Notre Dame",
-				"code": "notre-dame",
-				"seed": 7,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
-				"name": "Oregon State",
-				"code": "oregon-st",
-				"seed": 10,
-				"score": 70,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 76,
-				"winner": true
-			},
-			"away": {
-				"name": "Middle Tennessee State",
-				"code": "middle-tenn",
-				"seed": 15,
-				"score": 57,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan",
-				"code": "michigan",
-				"seed": 1,
-				"score": 55,
-				"winner": false
-			},
-			"away": {
-				"name": "Villanova",
-				"code": "villanova",
-				"seed": 8,
-				"score": 59,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 5,
-				"score": 64,
-				"winner": true
-			},
-			"away": {
-				"name": "Navy",
-				"code": "navy",
-				"seed": 13,
-				"score": 59,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Auburn",
-				"code": "auburn",
-				"seed": 11,
-				"score": 66,
-				"winner": true
-			},
-			"away": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 3,
-				"score": 64,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Notre Dame",
-				"code": "notre-dame",
-				"seed": 7,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 60,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Villanova",
-				"code": "villanova",
-				"seed": 8,
-				"score": 46,
-				"winner": true
-			},
-			"away": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 5,
-				"score": 43,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Auburn",
-				"code": "auburn",
-				"seed": 11,
-				"score": 56,
-				"winner": false
-			},
-			"away": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 62,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Villanova",
-				"code": "villanova",
-				"seed": 8,
-				"score": 56,
-				"winner": true
-			},
-			"away": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 44,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-23-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -981,15 +367,16 @@
 				"score": 83,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-14",
+			"location": "Tulsa, OK",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-north-carolina-at.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Southern California",
+				"name": "USC",
 				"code": "southern-california",
 				"seed": 8,
 				"score": 55,
@@ -1002,11 +389,12 @@
 				"score": 58,
 				"winner": true
 			},
-			"date": "",
+			"date": "1985-03-14",
+			"location": "Tulsa, OK",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-illinois-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1017,17 +405,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 12,
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-14",
+			"location": "Tulsa, OK",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-louisiana-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1044,11 +433,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-14",
+			"location": "Tulsa, OK",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-iowa-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,11 +455,12 @@
 				"score": 55,
 				"winner": true
 			},
-			"date": "",
+			"date": "1985-03-15",
+			"location": "Houston, TX",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,15 +477,16 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-15",
+			"location": "Houston, TX",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "UAB",
+				"name": "Alabama-Birmingham",
 				"code": "uab",
 				"seed": 7,
 				"score": 70,
@@ -1107,15 +499,16 @@
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-15",
+			"location": "Houston, TX",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-alabama-birmingham.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Memphis State",
+				"name": "Memphis",
 				"code": "memphis",
 				"seed": 2,
 				"score": 67,
@@ -1128,11 +521,12 @@
 				"score": 55,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-15",
+			"location": "Houston, TX",
 			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-memphis.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1149,74 +543,78 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-16",
+			"location": "Tulsa, OK",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-16-illinois-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Louisiana Tech",
-				"code": "louisiana-tech",
-				"seed": 5,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
 				"name": "Ohio State",
 				"code": "ohio-st",
 				"seed": 4,
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Louisiana Tech",
+				"code": "louisiana-tech",
+				"seed": 5,
+				"score": 79,
+				"winner": true
+			},
+			"date": "1985-03-16",
+			"location": "Tulsa, OK",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-16-louisiana-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Boston College",
-				"code": "boston-college",
-				"seed": 11,
-				"score": 74,
-				"winner": true
-			},
-			"away": {
 				"name": "Duke",
 				"code": "duke",
 				"seed": 3,
 				"score": 73,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 11,
+				"score": 74,
+				"winner": true
+			},
+			"date": "1985-03-17",
+			"location": "Houston, TX",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-17-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "UAB",
-				"code": "uab",
-				"seed": 7,
-				"score": 66,
-				"winner": false
-			},
-			"away": {
-				"name": "Memphis State",
+				"name": "Memphis",
 				"code": "memphis",
 				"seed": 2,
 				"score": 67,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Alabama-Birmingham",
+				"code": "uab",
+				"seed": 7,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1985-03-17",
+			"location": "Houston, TX",
 			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-17-alabama-birmingham.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1233,32 +631,34 @@
 				"score": 84,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-21",
+			"location": "Dallas, TX",
 			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-21-louisiana-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 2,
+				"score": 59,
+				"winner": true
+			},
+			"away": {
 				"name": "Boston College",
 				"code": "boston-college",
 				"seed": 11,
 				"score": 57,
 				"winner": false
 			},
-			"away": {
-				"name": "Memphis State",
-				"code": "memphis",
-				"seed": 2,
-				"score": 59,
-				"winner": true
-			},
-			"date": "",
+			"date": "1985-03-21",
+			"location": "Dallas, TX",
 			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-21-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1269,17 +669,700 @@
 				"winner": false
 			},
 			"away": {
-				"name": "Memphis State",
+				"name": "Memphis",
 				"code": "memphis",
 				"seed": 2,
 				"score": 63,
 				"winner": true
 			},
-			"date": "",
+			"date": "1985-03-23",
+			"location": "Dallas, TX",
 			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-23-memphis.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 59,
+				"winner": true
+			},
+			"away": {
+				"name": "Fairleigh Dickinson",
+				"code": "fairleigh-dickinson",
+				"seed": 16,
+				"score": 55,
+				"winner": false
+			},
+			"date": "1985-03-15",
+			"location": "Dayton, OH",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-fairleigh-dickinson.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 8,
+				"score": 51,
+				"winner": true
+			},
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 9,
+				"score": 49,
+				"winner": false
+			},
+			"date": "1985-03-15",
+			"location": "Dayton, OH",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-dayton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 5,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Miami (OH)",
+				"code": "miami-oh",
+				"seed": 12,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1985-03-15",
+			"location": "Dayton, OH",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-maryland.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "LSU",
+				"code": "lsu",
+				"seed": 4,
+				"score": 55,
+				"winner": false
+			},
+			"away": {
+				"name": "Navy",
+				"code": "navy",
+				"seed": 13,
+				"score": 78,
+				"winner": true
+			},
+			"date": "1985-03-15",
+			"location": "Dayton, OH",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-louisiana-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 6,
+				"score": 58,
+				"winner": false
+			},
+			"away": {
+				"name": "Auburn",
+				"code": "auburn",
+				"seed": 11,
+				"score": 59,
+				"winner": true
+			},
+			"date": "1985-03-14",
+			"location": "South Bend, IN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-auburn.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 3,
+				"score": 49,
+				"winner": true
+			},
+			"away": {
+				"name": "Ohio",
+				"code": "ohio",
+				"seed": 14,
+				"score": 38,
+				"winner": false
+			},
+			"date": "1985-03-14",
+			"location": "South Bend, IN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 7,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Oregon State",
+				"code": "oregon-st",
+				"seed": 10,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1985-03-14",
+			"location": "South Bend, IN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-notre-dame.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Middle Tennessee",
+				"code": "middle-tenn",
+				"seed": 15,
+				"score": 57,
+				"winner": false
+			},
+			"date": "1985-03-14",
+			"location": "South Bend, IN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-middle-tennessee.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 55,
+				"winner": false
+			},
+			"away": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 8,
+				"score": 59,
+				"winner": true
+			},
+			"date": "1985-03-17",
+			"location": "Dayton, OH",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-17-michigan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 5,
+				"score": 64,
+				"winner": true
+			},
+			"away": {
+				"name": "Navy",
+				"code": "navy",
+				"seed": 13,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1985-03-17",
+			"location": "Dayton, OH",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-17-maryland.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 3,
+				"score": 64,
+				"winner": false
+			},
+			"away": {
+				"name": "Auburn",
+				"code": "auburn",
+				"seed": 11,
+				"score": 66,
+				"winner": true
+			},
+			"date": "1985-03-16",
+			"location": "South Bend, IN",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-16-auburn.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 60,
+				"winner": true
+			},
+			"away": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 7,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1985-03-16",
+			"location": "South Bend, IN",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-16-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 5,
+				"score": 43,
+				"winner": false
+			},
+			"away": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 8,
+				"score": 46,
+				"winner": true
+			},
+			"date": "1985-03-22",
+			"location": "Birmingham, AL",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-22-maryland.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 62,
+				"winner": true
+			},
+			"away": {
+				"name": "Auburn",
+				"code": "auburn",
+				"seed": 11,
+				"score": 56,
+				"winner": false
+			},
+			"date": "1985-03-22",
+			"location": "Birmingham, AL",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-22-auburn.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 44,
+				"winner": false
+			},
+			"away": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 8,
+				"score": 56,
+				"winner": true
+			},
+			"date": "1985-03-24",
+			"location": "Birmingham, AL",
+			"region": "TR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-24-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 1,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Southern",
+				"code": "southern-u",
+				"seed": 16,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1985-03-14",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-southern.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 8,
+				"score": 54,
+				"winner": false
+			},
+			"away": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 9,
+				"score": 63,
+				"winner": true
+			},
+			"date": "1985-03-14",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-arkansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Washington",
+				"code": "washington",
+				"seed": 5,
+				"score": 58,
+				"winner": false
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 12,
+				"score": 66,
+				"winner": true
+			},
+			"date": "1985-03-14",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 4,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "San Diego State",
+				"code": "san-diego-st",
+				"seed": 13,
+				"score": 80,
+				"winner": false
+			},
+			"date": "1985-03-14",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-14-nevada-las-vegas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Tulsa",
+				"code": "tulsa",
+				"seed": 6,
+				"score": 75,
+				"winner": false
+			},
+			"away": {
+				"name": "UTEP",
+				"code": "utep",
+				"seed": 11,
+				"score": 79,
+				"winner": true
+			},
+			"date": "1985-03-15",
+			"location": "Albuquerque, NM",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-texas-el-paso.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 3,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "Nevada",
+				"code": "nevada",
+				"seed": 14,
+				"score": 56,
+				"winner": false
+			},
+			"date": "1985-03-15",
+			"location": "Albuquerque, NM",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-nevada.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 7,
+				"score": 50,
+				"winner": true
+			},
+			"away": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 10,
+				"score": 41,
+				"winner": false
+			},
+			"date": "1985-03-15",
+			"location": "Albuquerque, NM",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-alabama.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 2,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Marshall",
+				"code": "marshall",
+				"seed": 15,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1985-03-15",
+			"location": "Albuquerque, NM",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-15-marshall.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 1,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 9,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1985-03-16",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-16-arkansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 4,
+				"score": 61,
+				"winner": false
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 12,
+				"score": 64,
+				"winner": true
+			},
+			"date": "1985-03-16",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-16-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 3,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "UTEP",
+				"code": "utep",
+				"seed": 11,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1985-03-17",
+			"location": "Albuquerque, NM",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-17-north-carolina-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 2,
+				"score": 59,
+				"winner": false
+			},
+			"away": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 7,
+				"score": 63,
+				"winner": true
+			},
+			"date": "1985-03-17",
+			"location": "Albuquerque, NM",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-17-alabama.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 1,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 12,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1985-03-22",
+			"location": "Denver, CO",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-22-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 3,
+				"score": 61,
+				"winner": true
+			},
+			"away": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 7,
+				"score": 55,
+				"winner": false
+			},
+			"date": "1985-03-22",
+			"location": "Denver, CO",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-22-alabama.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 1,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 3,
+				"score": 60,
+				"winner": false
+			},
+			"date": "1985-03-24",
+			"location": "Denver, CO",
+			"region": "BL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-24-north-carolina-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 2,
+				"score": 45,
+				"winner": false
+			},
+			"away": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 8,
+				"score": 52,
+				"winner": true
+			},
+			"date": "1985-03-30",
+			"location": "Lexington, KY",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-30-memphis.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1290,38 +1373,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "St John's",
+				"name": "St. John's (NY)",
 				"code": "st-johns-ny",
 				"seed": 1,
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
+			"date": "1985-03-30",
+			"location": "Lexington, KY",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Villanova",
-				"code": "villanova",
-				"seed": 8,
-				"score": 52,
-				"winner": true
-			},
-			"away": {
-				"name": "Memphis State",
-				"code": "memphis",
-				"seed": 2,
-				"score": 45,
-				"winner": false
-			},
-			"date": "",
-			"region": "",
-			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-03-30-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1338,11 +1401,12 @@
 				"score": 66,
 				"winner": true
 			},
-			"date": "",
+			"date": "1985-04-01",
+			"location": "Lexington, KY",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1985-04-01-georgetown.html",
+			"isComplete": true
 		}
 	]
 }

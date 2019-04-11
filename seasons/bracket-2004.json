@@ -1,341 +1,27 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:36:51.180Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:14:06.047Z",
 	"year": 2004,
 	"regions": [
 		{
-			"name": "",
+			"name": "Stlouis",
+			"position": "TR"
+		},
+		{
+			"name": "Atlanta",
 			"position": "BL"
 		},
 		{
-			"name": "",
-			"position": "TL"
-		},
-		{
-			"name": "",
+			"name": "Eastrutherford",
 			"position": "BR"
 		},
 		{
-			"name": "",
-			"position": "TR"
+			"name": "Phoenix",
+			"position": "TL"
 		}
 	],
 	"games": [
-		{
-			"home": {
-				"name": "Saint Joseph's",
-				"code": "saint-josephs",
-				"seed": 1,
-				"score": 82,
-				"winner": true
-			},
-			"away": {
-				"name": "Liberty",
-				"code": "liberty",
-				"seed": 16,
-				"score": 63,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Texas Tech",
-				"code": "texas-tech",
-				"seed": 8,
-				"score": 76,
-				"winner": true
-			},
-			"away": {
-				"name": "Charlotte",
-				"code": "charlotte",
-				"seed": 9,
-				"score": 73,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 5,
-				"score": 60,
-				"winner": false
-			},
-			"away": {
-				"name": "Manhattan",
-				"code": "manhattan",
-				"seed": 12,
-				"score": 75,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Wake Forest",
-				"code": "wake-forest",
-				"seed": 4,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
-				"name": "VCU",
-				"code": "vcu",
-				"seed": 13,
-				"score": 78,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Wisconsin",
-				"code": "wisconsin",
-				"seed": 6,
-				"score": 76,
-				"winner": true
-			},
-			"away": {
-				"name": "Richmond",
-				"code": "richmond",
-				"seed": 11,
-				"score": 64,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Pittsburgh",
-				"code": "pittsburgh",
-				"seed": 3,
-				"score": 53,
-				"winner": true
-			},
-			"away": {
-				"name": "Central Florida",
-				"code": "ucf",
-				"seed": 14,
-				"score": 44,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Memphis",
-				"code": "memphis",
-				"seed": 7,
-				"score": 59,
-				"winner": true
-			},
-			"away": {
-				"name": "South Carolina",
-				"code": "south-carolina",
-				"seed": 10,
-				"score": 43,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oklahoma State",
-				"code": "oklahoma-st",
-				"seed": 2,
-				"score": 75,
-				"winner": true
-			},
-			"away": {
-				"name": "Eastern Washington",
-				"code": "eastern-wash",
-				"seed": 15,
-				"score": 56,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Saint Joseph's",
-				"code": "saint-josephs",
-				"seed": 1,
-				"score": 70,
-				"winner": true
-			},
-			"away": {
-				"name": "Texas Tech",
-				"code": "texas-tech",
-				"seed": 8,
-				"score": 65,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Manhattan",
-				"code": "manhattan",
-				"seed": 12,
-				"score": 80,
-				"winner": false
-			},
-			"away": {
-				"name": "Wake Forest",
-				"code": "wake-forest",
-				"seed": 4,
-				"score": 84,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Wisconsin",
-				"code": "wisconsin",
-				"seed": 6,
-				"score": 55,
-				"winner": false
-			},
-			"away": {
-				"name": "Pittsburgh",
-				"code": "pittsburgh",
-				"seed": 3,
-				"score": 59,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Memphis",
-				"code": "memphis",
-				"seed": 7,
-				"score": 53,
-				"winner": false
-			},
-			"away": {
-				"name": "Oklahoma State",
-				"code": "oklahoma-st",
-				"seed": 2,
-				"score": 70,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Saint Joseph's",
-				"code": "saint-josephs",
-				"seed": 1,
-				"score": 84,
-				"winner": true
-			},
-			"away": {
-				"name": "Wake Forest",
-				"code": "wake-forest",
-				"seed": 4,
-				"score": 80,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Pittsburgh",
-				"code": "pittsburgh",
-				"seed": 3,
-				"score": 51,
-				"winner": false
-			},
-			"away": {
-				"name": "Oklahoma State",
-				"code": "oklahoma-st",
-				"seed": 2,
-				"score": 63,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Saint Joseph's",
-				"code": "saint-josephs",
-				"seed": 1,
-				"score": 62,
-				"winner": false
-			},
-			"away": {
-				"name": "Oklahoma State",
-				"code": "oklahoma-st",
-				"seed": 2,
-				"score": 64,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
 		{
 			"home": {
 				"name": "Kentucky",
@@ -351,11 +37,12 @@
 				"score": 76,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2004-03-19",
+			"location": "Columbus, OH",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-florida-am.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -366,17 +53,18 @@
 				"winner": false
 			},
 			"away": {
-				"name": "UAB",
+				"name": "Alabama-Birmingham",
 				"code": "uab",
 				"seed": 9,
 				"score": 102,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2004-03-19",
+			"location": "Columbus, OH",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-alabama-birmingham.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -393,11 +81,12 @@
 				"score": 66,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2004-03-19",
+			"location": "Kansas City, MO",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-pacific.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -414,11 +103,12 @@
 				"score": 53,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2004-03-19",
+			"location": "Kansas City, MO",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-illinois-chicago.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -435,11 +125,12 @@
 				"score": 51,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2004-03-19",
+			"location": "Milwaukee, WI",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -456,11 +147,12 @@
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2004-03-19",
+			"location": "Milwaukee, WI",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -477,11 +169,12 @@
 				"score": 72,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2004-03-18",
+			"location": "Seattle, WA",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-michigan-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -498,11 +191,12 @@
 				"score": 49,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2004-03-18",
+			"location": "Seattle, WA",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-gonzaga.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -513,101 +207,106 @@
 				"winner": false
 			},
 			"away": {
-				"name": "UAB",
+				"name": "Alabama-Birmingham",
 				"code": "uab",
 				"seed": 9,
 				"score": 76,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2004-03-21",
+			"location": "Columbus, OH",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-21-alabama-birmingham.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Pacific",
-				"code": "pacific",
-				"seed": 12,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 4,
 				"score": 78,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Pacific",
+				"code": "pacific",
+				"seed": 12,
+				"score": 63,
+				"winner": false
+			},
+			"date": "2004-03-21",
+			"location": "Kansas City, MO",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-21-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Boston College",
-				"code": "boston-college",
-				"seed": 6,
-				"score": 54,
-				"winner": false
-			},
-			"away": {
 				"name": "Georgia Tech",
 				"code": "georgia-tech",
 				"seed": 3,
 				"score": 57,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 6,
+				"score": 54,
+				"winner": false
+			},
+			"date": "2004-03-21",
+			"location": "Milwaukee, WI",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-21-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Nevada",
-				"code": "nevada",
-				"seed": 10,
-				"score": 91,
-				"winner": true
-			},
-			"away": {
 				"name": "Gonzaga",
 				"code": "gonzaga",
 				"seed": 2,
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Nevada",
+				"code": "nevada",
+				"seed": 10,
+				"score": 91,
+				"winner": true
+			},
+			"date": "2004-03-20",
+			"location": "Seattle, WA",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-20-gonzaga.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "UAB",
-				"code": "uab",
-				"seed": 9,
-				"score": 74,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 4,
 				"score": 100,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Alabama-Birmingham",
+				"code": "uab",
+				"seed": 9,
+				"score": 74,
+				"winner": false
+			},
+			"date": "2004-03-26",
+			"location": "St. Louis, MO",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-26-alabama-birmingham.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -624,32 +323,34 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2004-03-26",
+			"location": "St. Louis, MO",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-26-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 4,
-				"score": 71,
-				"winner": false
-			},
-			"away": {
 				"name": "Georgia Tech",
 				"code": "georgia-tech",
 				"seed": 3,
 				"score": 79,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 4,
+				"score": 71,
+				"winner": false
+			},
+			"date": "2004-03-28",
+			"location": "St. Louis, MO",
+			"region": "TR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-28-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -666,11 +367,12 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2004-03-18",
+			"location": "Raleigh, NC",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-alabama-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -687,11 +389,12 @@
 				"score": 76,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2004-03-18",
+			"location": "Raleigh, NC",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -708,11 +411,12 @@
 				"score": 53,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2004-03-19",
+			"location": "Columbus, OH",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -723,21 +427,22 @@
 				"winner": true
 			},
 			"away": {
-				"name": "East Tennessee State",
+				"name": "ETSU",
 				"code": "east-tenn-st",
 				"seed": 13,
 				"score": 77,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2004-03-19",
+			"location": "Columbus, OH",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-cincinnati.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 6,
 				"score": 63,
@@ -750,11 +455,12 @@
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2004-03-18",
+			"location": "Denver, CO",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-air-force.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -771,11 +477,12 @@
 				"score": 49,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2004-03-18",
+			"location": "Denver, CO",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-princeton.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -792,11 +499,12 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2004-03-19",
+			"location": "Orlando, FL",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -813,11 +521,12 @@
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2004-03-19",
+			"location": "Orlando, FL",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-mississippi-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -834,74 +543,78 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2004-03-20",
+			"location": "Raleigh, NC",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-20-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Illinois",
-				"code": "illinois",
-				"seed": 5,
-				"score": 92,
-				"winner": true
-			},
-			"away": {
 				"name": "Cincinnati",
 				"code": "cincinnati",
 				"seed": 4,
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 5,
+				"score": 92,
+				"winner": true
+			},
+			"date": "2004-03-21",
+			"location": "Columbus, OH",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-21-cincinnati.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 6,
-				"score": 75,
-				"winner": false
-			},
-			"away": {
 				"name": "Texas",
 				"code": "texas",
 				"seed": 3,
 				"score": 78,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 6,
+				"score": 75,
+				"winner": false
+			},
+			"date": "2004-03-20",
+			"location": "Denver, CO",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-20-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Xavier",
-				"code": "xavier",
-				"seed": 7,
-				"score": 89,
-				"winner": true
-			},
-			"away": {
 				"name": "Mississippi State",
 				"code": "mississippi-st",
 				"seed": 2,
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Xavier",
+				"code": "xavier",
+				"seed": 7,
+				"score": 89,
+				"winner": true
+			},
+			"date": "2004-03-21",
+			"location": "Orlando, FL",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-21-mississippi-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -918,11 +631,12 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2004-03-26",
+			"location": "Atlanta, GA",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-26-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -939,11 +653,12 @@
 				"score": 79,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2004-03-26",
+			"location": "Atlanta, GA",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-26-texas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -960,11 +675,342 @@
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
+			"date": "2004-03-28",
+			"location": "Atlanta, GA",
+			"region": "BL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-28-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 1,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Liberty",
+				"code": "liberty",
+				"seed": 16,
+				"score": 63,
+				"winner": false
+			},
+			"date": "2004-03-18",
+			"location": "Buffalo, NY",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-liberty.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas Tech",
+				"code": "texas-tech",
+				"seed": 8,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Charlotte",
+				"code": "charlotte",
+				"seed": 9,
+				"score": 73,
+				"winner": false
+			},
+			"date": "2004-03-18",
+			"location": "Buffalo, NY",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-charlotte.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 5,
+				"score": 60,
+				"winner": false
+			},
+			"away": {
+				"name": "Manhattan",
+				"code": "manhattan",
+				"seed": 12,
+				"score": 75,
+				"winner": true
+			},
+			"date": "2004-03-18",
+			"location": "Raleigh, NC",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-florida.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 4,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 13,
+				"score": 78,
+				"winner": false
+			},
+			"date": "2004-03-18",
+			"location": "Raleigh, NC",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-virginia-commonwealth.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wisconsin",
+				"code": "wisconsin",
+				"seed": 6,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Richmond",
+				"code": "richmond",
+				"seed": 11,
+				"score": 64,
+				"winner": false
+			},
+			"date": "2004-03-19",
+			"location": "Milwaukee, WI",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-richmond.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 3,
+				"score": 53,
+				"winner": true
+			},
+			"away": {
+				"name": "UCF",
+				"code": "ucf",
+				"seed": 14,
+				"score": 44,
+				"winner": false
+			},
+			"date": "2004-03-19",
+			"location": "Milwaukee, WI",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-central-florida.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 7,
+				"score": 59,
+				"winner": true
+			},
+			"away": {
+				"name": "South Carolina",
+				"code": "south-carolina",
+				"seed": 10,
+				"score": 43,
+				"winner": false
+			},
+			"date": "2004-03-19",
+			"location": "Kansas City, MO",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-memphis.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 2,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Eastern Washington",
+				"code": "eastern-wash",
+				"seed": 15,
+				"score": 56,
+				"winner": false
+			},
+			"date": "2004-03-19",
+			"location": "Kansas City, MO",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-eastern-washington.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 1,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas Tech",
+				"code": "texas-tech",
+				"seed": 8,
+				"score": 65,
+				"winner": false
+			},
+			"date": "2004-03-20",
+			"location": "Buffalo, NY",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-20-saint-josephs.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 4,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Manhattan",
+				"code": "manhattan",
+				"seed": 12,
+				"score": 80,
+				"winner": false
+			},
+			"date": "2004-03-20",
+			"location": "Raleigh, NC",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-20-manhattan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 3,
+				"score": 59,
+				"winner": true
+			},
+			"away": {
+				"name": "Wisconsin",
+				"code": "wisconsin",
+				"seed": 6,
+				"score": 55,
+				"winner": false
+			},
+			"date": "2004-03-21",
+			"location": "Milwaukee, WI",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-21-pittsburgh.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 2,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 7,
+				"score": 53,
+				"winner": false
+			},
+			"date": "2004-03-21",
+			"location": "Kansas City, MO",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-21-memphis.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 1,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 4,
+				"score": 80,
+				"winner": false
+			},
+			"date": "2004-03-25",
+			"location": "East Rutherford, NJ",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-25-saint-josephs.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 2,
+				"score": 63,
+				"winner": true
+			},
+			"away": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 3,
+				"score": 51,
+				"winner": false
+			},
+			"date": "2004-03-25",
+			"location": "East Rutherford, NJ",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-25-oklahoma-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 1,
+				"score": 62,
+				"winner": false
+			},
+			"away": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 2,
+				"score": 64,
+				"winner": true
+			},
+			"date": "2004-03-27",
+			"location": "East Rutherford, NJ",
 			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-27-oklahoma-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -975,17 +1021,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Texas-San Antonio",
+				"name": "UTSA",
 				"code": "utsa",
 				"seed": 16,
 				"score": 45,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2004-03-18",
+			"location": "Seattle, WA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-stanford.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +1049,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2004-03-18",
+			"location": "Seattle, WA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-alabama.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +1071,12 @@
 				"score": 75,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2004-03-18",
+			"location": "Denver, CO",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-brigham-young.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1044,11 +1093,12 @@
 				"score": 83,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2004-03-18",
+			"location": "Denver, CO",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-maryland.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,32 +1115,34 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2004-03-19",
+			"location": "Denver, CO",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-vanderbilt.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina State",
+				"name": "NC State",
 				"code": "north-carolina-st",
 				"seed": 3,
 				"score": 61,
 				"winner": true
 			},
 			"away": {
-				"name": "Louisiana-Lafayette",
+				"name": "Louisiana",
 				"code": "la-lafayette",
 				"seed": 14,
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2004-03-19",
+			"location": "Denver, CO",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-19-louisiana-lafayette.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,15 +1159,16 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2004-03-18",
+			"location": "Buffalo, NY",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-dayton.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 2,
 				"score": 70,
@@ -1128,11 +1181,12 @@
 				"score": 53,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2004-03-18",
+			"location": "Buffalo, NY",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-18-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1149,137 +1203,166 @@
 				"score": 70,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2004-03-20",
+			"location": "Seattle, WA",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-20-alabama.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 5,
-				"score": 72,
-				"winner": true
-			},
-			"away": {
 				"name": "Maryland",
 				"code": "maryland",
 				"seed": 4,
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 5,
+				"score": 72,
+				"winner": true
+			},
+			"date": "2004-03-20",
+			"location": "Denver, CO",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-20-maryland.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 3,
+				"score": 73,
+				"winner": false
+			},
+			"away": {
 				"name": "Vanderbilt",
 				"code": "vanderbilt",
 				"seed": 6,
 				"score": 75,
 				"winner": true
 			},
-			"away": {
-				"name": "North Carolina State",
-				"code": "north-carolina-st",
-				"seed": 3,
-				"score": 73,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
+			"date": "2004-03-21",
+			"location": "Denver, CO",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-21-north-carolina-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 2,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
 				"name": "DePaul",
 				"code": "depaul",
 				"seed": 7,
 				"score": 55,
 				"winner": false
 			},
-			"away": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 2,
-				"score": 72,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
+			"date": "2004-03-20",
+			"location": "Buffalo, NY",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-20-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Alabama",
-				"code": "alabama",
-				"seed": 8,
-				"score": 80,
-				"winner": true
-			},
-			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 5,
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 8,
+				"score": 80,
+				"winner": true
+			},
+			"date": "2004-03-25",
+			"location": "Phoenix, AZ",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-25-alabama.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 2,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
 				"name": "Vanderbilt",
 				"code": "vanderbilt",
 				"seed": 6,
 				"score": 53,
 				"winner": false
 			},
-			"away": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 2,
-				"score": 73,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
+			"date": "2004-03-25",
+			"location": "Phoenix, AZ",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-25-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 2,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
 				"name": "Alabama",
 				"code": "alabama",
 				"seed": 8,
 				"score": 71,
 				"winner": false
 			},
+			"date": "2004-03-27",
+			"location": "Phoenix, AZ",
+			"region": "TL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-03-27-alabama.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 78,
+				"winner": false
+			},
 			"away": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 2,
-				"score": 87,
+				"score": 79,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"date": "2004-04-03",
+			"location": "San Antonio, TX",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-04-03-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1296,53 +1379,34 @@
 				"score": 67,
 				"winner": true
 			},
-			"date": "",
+			"date": "2004-04-03",
+			"location": "San Antonio, TX",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-04-03-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 78,
-				"winner": false
-			},
-			"away": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 2,
-				"score": 79,
+				"score": 82,
 				"winner": true
 			},
-			"date": "",
-			"region": "",
-			"round": 5,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
+			"away": {
 				"name": "Georgia Tech",
 				"code": "georgia-tech",
 				"seed": 3,
 				"score": 73,
 				"winner": false
 			},
-			"away": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 2,
-				"score": 82,
-				"winner": true
-			},
-			"date": "",
+			"date": "2004-04-05",
+			"location": "San Antonio, TX",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2004-04-05-connecticut.html",
+			"isComplete": true
 		}
 	]
 }

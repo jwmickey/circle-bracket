@@ -1,0 +1,510 @@
+{
+	"format": "ncaa",
+	"displaySeeds": false,
+	"updated": "2019-04-11T17:47:59.802Z",
+	"year": 1957,
+	"regions": [
+		{
+			"name": "East",
+			"position": "TL"
+		},
+		{
+			"name": "Mideast",
+			"position": "BL"
+		},
+		{
+			"name": "Midwest",
+			"position": "TR"
+		},
+		{
+			"name": "West",
+			"position": "BR"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "Yale",
+				"code": "yale",
+				"seed": 7,
+				"score": 74,
+				"winner": false
+			},
+			"date": "1957-03-12",
+			"location": "New York, NY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-12-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Canisius",
+				"code": "canisius",
+				"seed": 3,
+				"score": 64,
+				"winner": true
+			},
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 6,
+				"score": 56,
+				"winner": false
+			},
+			"date": "1957-03-12",
+			"location": "New York, NY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-12-canisius.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 4,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 5,
+				"score": 76,
+				"winner": false
+			},
+			"date": "1957-03-12",
+			"location": "New York, NY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-12-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Canisius",
+				"code": "canisius",
+				"seed": 3,
+				"score": 75,
+				"winner": false
+			},
+			"date": "1957-03-15",
+			"location": "Philadelphia, PA",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-15-canisius.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Lafayette",
+				"code": "lafayette",
+				"seed": 1,
+				"score": 71,
+				"winner": false
+			},
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 4,
+				"score": 75,
+				"winner": true
+			},
+			"date": "1957-03-15",
+			"location": "Philadelphia, PA",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-15-lafayette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 67,
+				"winner": true
+			},
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 4,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1957-03-17",
+			"location": "Philadelphia, PA",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-17-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 4,
+				"score": 89,
+				"winner": true
+			},
+			"away": {
+				"name": "Miami (OH)",
+				"code": "miami-oh",
+				"seed": 5,
+				"score": 77,
+				"winner": false
+			},
+			"date": "1957-03-11",
+			"location": "Columbus, OH",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-11-miami-oh.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 3,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "Morehead State",
+				"code": "morehead-st",
+				"seed": 6,
+				"score": 85,
+				"winner": false
+			},
+			"date": "1957-03-11",
+			"location": "Columbus, OH",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-11-morehead-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 1,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 4,
+				"score": 83,
+				"winner": false
+			},
+			"date": "1957-03-15",
+			"location": "Lexington, KY",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-15-michigan-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 3,
+				"score": 92,
+				"winner": false
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 98,
+				"winner": true
+			},
+			"date": "1957-03-15",
+			"location": "Lexington, KY",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-15-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 1,
+				"score": 80,
+				"winner": true
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1957-03-16",
+			"location": "Lexington, KY",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-16-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma City",
+				"code": "oklahoma-city",
+				"seed": 4,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Loyola (LA)",
+				"code": "loyola-no",
+				"seed": 5,
+				"score": 55,
+				"winner": false
+			},
+			"date": "1957-03-12",
+			"location": "Oklahoma City, OK",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-12-loyola-la.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 2,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": 3,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1957-03-15",
+			"location": "Dallas, TX",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-15-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Saint Louis",
+				"code": "saint-louis",
+				"seed": 1,
+				"score": 66,
+				"winner": false
+			},
+			"away": {
+				"name": "Oklahoma City",
+				"code": "oklahoma-city",
+				"seed": 4,
+				"score": 75,
+				"winner": true
+			},
+			"date": "1957-03-15",
+			"location": "Dallas, TX",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-15-oklahoma-city.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 2,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Oklahoma City",
+				"code": "oklahoma-city",
+				"seed": 4,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1957-03-16",
+			"location": "Dallas, TX",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-16-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Idaho State",
+				"code": "idaho-st",
+				"seed": 4,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Hardin-Simmons",
+				"code": "hardin-simmons",
+				"seed": 5,
+				"score": 57,
+				"winner": false
+			},
+			"date": "1957-03-11",
+			"location": "Pocatello, ID",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-11-hardin-simmons.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 1,
+				"score": 66,
+				"winner": true
+			},
+			"away": {
+				"name": "Idaho State",
+				"code": "idaho-st",
+				"seed": 4,
+				"score": 51,
+				"winner": false
+			},
+			"date": "1957-03-15",
+			"location": "Corvallis, OR",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-15-idaho-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 2,
+				"score": 59,
+				"winner": false
+			},
+			"away": {
+				"name": "California",
+				"code": "california",
+				"seed": 3,
+				"score": 86,
+				"winner": true
+			},
+			"date": "1957-03-15",
+			"location": "Corvallis, OR",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-15-brigham-young.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 1,
+				"score": 50,
+				"winner": true
+			},
+			"away": {
+				"name": "California",
+				"code": "california",
+				"seed": 3,
+				"score": 46,
+				"winner": false
+			},
+			"date": "1957-03-16",
+			"location": "Corvallis, OR",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-16-california.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": null,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": null,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1957-03-22",
+			"location": "Kansas City, MO",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-22-michigan-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": null,
+				"score": 56,
+				"winner": false
+			},
+			"away": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": null,
+				"score": 80,
+				"winner": true
+			},
+			"date": "1957-03-22",
+			"location": "Kansas City, MO",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-22-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": null,
+				"score": 54,
+				"winner": true
+			},
+			"away": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": null,
+				"score": 53,
+				"winner": false
+			},
+			"date": "1957-03-23",
+			"location": "Kansas City, MO",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1957-03-23-kansas.html",
+			"isComplete": true
+		}
+	]
+}

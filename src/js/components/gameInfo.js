@@ -15,7 +15,7 @@ function createImageUrlFromLogo(logo) {
   return url;
 }
 
-export default (game, id = "info") => {
+export default (game, displaySeeds = false, id = "info") => {
   const root = document.createElement("div");
   root.id = id;
   root.className = "game-info";
@@ -26,8 +26,11 @@ export default (game, id = "info") => {
   t1Img.src = createImageUrlFromLogo(teams[game.home.code].logo.url);
   const t1Title = document.createElement("div");
   t1Title.className = "title";
-  const t1Name = document.createElement("h1");
-  t1Name.innerText = `${teams[game.home.code].name} (${game.home.seed})`;
+  let t1Name = document.createElement("h1");
+  t1Name.innerText = teams[game.home.code].name;
+  if (displaySeeds) {
+    t1Name.innerText += ` (${game.home.seed})`;
+  }
   const t1Mascot = document.createElement("h2");
   t1Mascot.innerText = teams[game.home.code].mascot;
   t1Title.appendChild(t1Name);
@@ -46,8 +49,11 @@ export default (game, id = "info") => {
   t2Img.src = createImageUrlFromLogo(teams[game.away.code].logo.url);
   const t2Title = document.createElement("div");
   t2Title.className = "title";
-  const t2Name = document.createElement("h1");
-  t2Name.innerText = `${teams[game.away.code].name} (${game.away.seed})`;
+  let t2Name = document.createElement("h1");
+  t2Name.innerText = teams[game.away.code].name;
+  if (displaySeeds) {
+    t2Name.innerText += ` (${game.away.seed})`;
+  }
   const t2Mascot = document.createElement("h2");
   t2Mascot.innerText = teams[game.away.code].mascot;
   t2Title.appendChild(t2Name);
@@ -63,17 +69,26 @@ export default (game, id = "info") => {
 
   const meta = document.createElement("div");
   meta.className = "meta";
+  let dateLocationElem = document.createElement("p");
   if (game.date) {
     const date = new Date(game.date);
-    const dateElem = document.createElement("p");
     const month = new Intl.DateTimeFormat("en-US", { month: "long" }).format(
       date
     );
     const day = date.getDate();
     const year = date.getFullYear();
-    dateElem.innerText = `${month} ${day}, ${year}`;
-    meta.appendChild(dateElem);
+    dateLocationElem.innerText = `${month} ${day}, ${year}`;
   }
+  if (game.location) {
+    if (game.date) {
+      dateLocationElem.innerText += " | ";
+    }
+    dateLocationElem.innerText += game.location.toString();
+  }
+  if (dateLocationElem.innerText.length) {
+    meta.appendChild(dateLocationElem);
+  }
+
   if (game.link.length) {
     const link = document.createElement("a");
     link.target = "_blank";

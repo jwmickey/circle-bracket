@@ -19,7 +19,10 @@ const commonConfig = merge([
           to: "seasons",
           force: true,
           transform(content, path) {
-            return Promise.resolve(content.toString().replace(/\s+/g, ""));
+            // encode string as json and re-convert to minified string
+            return Promise.resolve(
+              JSON.stringify(JSON.parse(content.toString()))
+            );
           }
         }
       ])
@@ -33,7 +36,7 @@ const commonConfig = merge([
   },
   parts.loadJS(),
   parts.loadCSS(),
-  parts.loadSVG()
+  parts.loadLogos()
 ]);
 
 const productionConfig = merge([
@@ -41,14 +44,20 @@ const productionConfig = merge([
     options: {
       limit: 15000,
       name: "[name].[ext]"
-    }
+    },
+    exclude: [/logos/]
   }),
   {
     devtool: "source-map"
   }
 ]);
 
-const developmentConfig = merge([parts.devServer(), parts.loadImages()]);
+const developmentConfig = merge([
+  parts.devServer(),
+  parts.loadImages({
+    exclude: [/logos/]
+  })
+]);
 
 module.exports = mode => {
   if (mode === "production") {

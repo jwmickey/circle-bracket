@@ -1,29 +1,30 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:34:01.091Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:15:02.968Z",
 	"year": 2008,
 	"regions": [
 		{
-			"name": "",
-			"position": "BL"
+			"name": "East",
+			"position": "BR"
 		},
 		{
-			"name": "",
-			"position": "TL"
-		},
-		{
-			"name": "",
+			"name": "Midwest",
 			"position": "TR"
 		},
 		{
-			"name": "",
-			"position": "BR"
+			"name": "South",
+			"position": "TL"
+		},
+		{
+			"name": "West",
+			"position": "BL"
 		}
 	],
 	"games": [
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 113,
@@ -36,11 +37,12 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2008-03-21",
+			"location": "Raleigh, NC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-mount-st-marys.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -57,11 +59,12 @@
 				"score": 86,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2008-03-21",
+			"location": "Raleigh, NC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -78,15 +81,16 @@
 				"score": 50,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2008-03-20",
+			"location": "Denver, CO",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-george-mason.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Washington St.",
+				"name": "Washington State",
 				"code": "washington-st",
 				"seed": 4,
 				"score": 71,
@@ -99,11 +103,12 @@
 				"score": 40,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2008-03-20",
+			"location": "Denver, CO",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-washington-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -120,11 +125,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2008-03-21",
+			"location": "Birmingham, AL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-oklahoma.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -135,17 +141,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Boise St.",
+				"name": "Boise State",
 				"code": "boise-st",
 				"seed": 14,
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2008-03-21",
+			"location": "Birmingham, AL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-boise-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -162,11 +169,12 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2008-03-21",
+			"location": "Birmingham, AL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-butler.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -183,15 +191,16 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2008-03-21",
+			"location": "Birmingham, AL",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-american.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 108,
@@ -204,120 +213,126 @@
 				"score": 77,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2008-03-23",
+			"location": "Raleigh, NC",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-23-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Washington State",
+				"code": "washington-st",
+				"seed": 4,
+				"score": 61,
+				"winner": true
+			},
+			"away": {
 				"name": "Notre Dame",
 				"code": "notre-dame",
 				"seed": 5,
 				"score": 41,
 				"winner": false
 			},
-			"away": {
-				"name": "Washington St.",
-				"code": "washington-st",
-				"seed": 4,
-				"score": 61,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
+			"date": "2008-03-22",
+			"location": "Denver, CO",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-22-notre-dame.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Oklahoma",
-				"code": "oklahoma",
-				"seed": 6,
-				"score": 48,
-				"winner": false
-			},
-			"away": {
 				"name": "Louisville",
 				"code": "louisville",
 				"seed": 3,
 				"score": 78,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 6,
+				"score": 48,
+				"winner": false
+			},
+			"date": "2008-03-23",
+			"location": "Birmingham, AL",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-23-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Butler",
-				"code": "butler",
-				"seed": 7,
-				"score": 71,
-				"winner": false
-			},
-			"away": {
 				"name": "Tennessee",
 				"code": "tennessee",
 				"seed": 2,
 				"score": 76,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Butler",
+				"code": "butler",
+				"seed": 7,
+				"score": 71,
+				"winner": false
+			},
+			"date": "2008-03-23",
+			"location": "Birmingham, AL",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-23-butler.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 68,
 				"winner": true
 			},
 			"away": {
-				"name": "Washington St.",
+				"name": "Washington State",
 				"code": "washington-st",
 				"seed": 4,
 				"score": 47,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2008-03-27",
+			"location": "Charlotte, NC",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-27-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 3,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
 				"name": "Tennessee",
 				"code": "tennessee",
 				"seed": 2,
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 3,
+				"score": 79,
+				"winner": true
+			},
+			"date": "2008-03-27",
+			"location": "Charlotte, NC",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-27-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 83,
@@ -330,11 +345,12 @@
 				"score": 73,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "2008-03-29",
+			"location": "Charlotte, NC",
+			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-29-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -345,17 +361,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Portland St.",
+				"name": "Portland State",
 				"code": "portland-st",
 				"seed": 16,
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2008-03-20",
+			"location": "Omaha, NE",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -366,17 +383,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Kent St.",
+				"name": "Kent State",
 				"code": "kent-st",
 				"seed": 9,
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2008-03-20",
+			"location": "Omaha, NE",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-kent-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -393,11 +411,12 @@
 				"score": 75,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2008-03-21",
+			"location": "Tampa, FL",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-clemson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -414,32 +433,34 @@
 				"score": 83,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2008-03-21",
+			"location": "Tampa, FL",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-siena.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Southern California",
+				"name": "USC",
 				"code": "southern-california",
 				"seed": 6,
 				"score": 67,
 				"winner": false
 			},
 			"away": {
-				"name": "Kansas St.",
+				"name": "Kansas State",
 				"code": "kansas-st",
 				"seed": 11,
 				"score": 80,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2008-03-20",
+			"location": "Omaha, NE",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-kansas-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -456,11 +477,12 @@
 				"score": 56,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2008-03-20",
+			"location": "Omaha, NE",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-cal-state-fullerton.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -477,11 +499,12 @@
 				"score": 82,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2008-03-21",
+			"location": "Raleigh, NC",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-davidson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -498,11 +521,12 @@
 				"score": 47,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2008-03-21",
+			"location": "Raleigh, NC",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -519,11 +543,12 @@
 				"score": 56,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2008-03-22",
+			"location": "Omaha, NE",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-22-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -540,53 +565,56 @@
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2008-03-23",
+			"location": "Tampa, FL",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-23-siena.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Kansas St.",
-				"code": "kansas-st",
-				"seed": 11,
-				"score": 55,
-				"winner": false
-			},
-			"away": {
 				"name": "Wisconsin",
 				"code": "wisconsin",
 				"seed": 3,
 				"score": 72,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 11,
+				"score": 55,
+				"winner": false
+			},
+			"date": "2008-03-22",
+			"location": "Omaha, NE",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-22-kansas-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Davidson ",
-				"code": "davidson",
-				"seed": 10,
-				"score": 74,
-				"winner": true
-			},
-			"away": {
 				"name": "Georgetown",
 				"code": "georgetown",
 				"seed": 2,
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Davidson",
+				"code": "davidson",
+				"seed": 10,
+				"score": 74,
+				"winner": true
+			},
+			"date": "2008-03-23",
+			"location": "Raleigh, NC",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-23-davidson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -603,11 +631,12 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2008-03-28",
+			"location": "Detroit, MI",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-28-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -624,11 +653,12 @@
 				"score": 73,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2008-03-28",
+			"location": "Detroit, MI",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-28-davidson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -645,11 +675,12 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2008-03-30",
+			"location": "Detroit, MI",
+			"region": "TR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-30-davidson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -660,17 +691,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Texas–Arlington",
+				"name": "Texas-Arlington",
 				"code": "texas-arlington",
 				"seed": 16,
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2008-03-21",
+			"location": "Little Rock, AR",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-memphis.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -687,11 +719,12 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2008-03-21",
+			"location": "Little Rock, AR",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-mississippi-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -708,15 +741,16 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2008-03-20",
+			"location": "Denver, CO",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-michigan-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 4,
 				"score": 82,
@@ -729,11 +763,12 @@
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2008-03-20",
+			"location": "Denver, CO",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-oral-roberts.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -750,11 +785,12 @@
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2008-03-20",
+			"location": "Anaheim, CA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -771,11 +807,12 @@
 				"score": 53,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2008-03-20",
+			"location": "Anaheim, CA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-cornell.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -792,11 +829,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2008-03-21",
+			"location": "Little Rock, AR",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-miami-fl.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -813,11 +851,12 @@
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2008-03-21",
+			"location": "Little Rock, AR",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-austin-peay.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -834,74 +873,78 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2008-03-23",
+			"location": "Little Rock, AR",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-23-memphis.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 4,
+				"score": 54,
+				"winner": false
+			},
+			"away": {
 				"name": "Michigan State",
 				"code": "michigan-st",
 				"seed": 5,
 				"score": 65,
 				"winner": true
 			},
-			"away": {
-				"name": "Pittsburgh",
-				"code": "pittsburgh",
-				"seed": 4,
-				"score": 54,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
+			"date": "2008-03-22",
+			"location": "Denver, CO",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-22-michigan-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Marquette",
-				"code": "marquette",
-				"seed": 6,
-				"score": 81,
-				"winner": false
-			},
-			"away": {
 				"name": "Stanford",
 				"code": "stanford",
 				"seed": 3,
 				"score": 82,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 6,
+				"score": 81,
+				"winner": false
+			},
+			"date": "2008-03-22",
+			"location": "Anaheim, CA",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-22-marquette.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Miami (FL)",
-				"code": "miami-fl",
-				"seed": 7,
-				"score": 72,
-				"winner": false
-			},
-			"away": {
 				"name": "Texas",
 				"code": "texas",
 				"seed": 2,
 				"score": 75,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Miami (FL)",
+				"code": "miami-fl",
+				"seed": 7,
+				"score": 72,
+				"winner": false
+			},
+			"date": "2008-03-23",
+			"location": "Little Rock, AR",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-23-miami-fl.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -918,32 +961,34 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2008-03-28",
+			"location": "Houston, TX",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-28-memphis.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Stanford",
-				"code": "stanford",
-				"seed": 3,
-				"score": 62,
-				"winner": false
-			},
-			"away": {
 				"name": "Texas",
 				"code": "texas",
 				"seed": 2,
 				"score": 82,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Stanford",
+				"code": "stanford",
+				"seed": 3,
+				"score": 62,
+				"winner": false
+			},
+			"date": "2008-03-28",
+			"location": "Houston, TX",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-28-stanford.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -960,11 +1005,12 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2008-03-30",
+			"location": "Houston, TX",
+			"region": "TL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-30-memphis.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -975,17 +1021,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Miss Valley St.",
+				"name": "Mississippi Valley State",
 				"code": "mississippi-val",
 				"seed": 16,
 				"score": 29,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2008-03-20",
+			"location": "Anaheim, CA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-mississippi-valley-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +1049,12 @@
 				"score": 67,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2008-03-20",
+			"location": "Anaheim, CA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-brigham-young.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1017,21 +1065,22 @@
 				"winner": false
 			},
 			"away": {
-				"name": "WKU",
+				"name": "Western Kentucky",
 				"code": "western-ky",
 				"seed": 12,
 				"score": 101,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2008-03-21",
+			"location": "Tampa, FL",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-drake.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 4,
 				"score": 69,
@@ -1044,11 +1093,12 @@
 				"score": 70,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2008-03-21",
+			"location": "Tampa, FL",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-21-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,11 +1115,12 @@
 				"score": 79,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2008-03-20",
+			"location": "Washington, DC",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-baylor.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +1137,12 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2008-03-20",
+			"location": "Washington, DC",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-georgia.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +1159,12 @@
 				"score": 65,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2008-03-20",
+			"location": "Washington, DC",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,11 +1181,12 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2008-03-20",
+			"location": "Washington, DC",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-20-belmont.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1149,15 +1203,16 @@
 				"score": 49,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2008-03-22",
+			"location": "Anaheim, CA",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-22-texas-am.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "WKU",
+				"name": "Western Kentucky",
 				"code": "western-ky",
 				"seed": 12,
 				"score": 72,
@@ -1170,53 +1225,56 @@
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2008-03-23",
+			"location": "Tampa, FL",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-23-san-diego.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 6,
-				"score": 78,
-				"winner": false
-			},
-			"away": {
 				"name": "Xavier",
 				"code": "xavier",
 				"seed": 3,
 				"score": 85,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 6,
+				"score": 78,
+				"winner": false
+			},
+			"date": "2008-03-22",
+			"location": "Washington, DC",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-22-purdue.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "West Virginia",
-				"code": "west-virginia",
-				"seed": 7,
-				"score": 73,
-				"winner": true
-			},
-			"away": {
 				"name": "Duke",
 				"code": "duke",
 				"seed": 2,
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 7,
+				"score": 73,
+				"winner": true
+			},
+			"date": "2008-03-22",
+			"location": "Washington, DC",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-22-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1227,17 +1285,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "WKU",
+				"name": "Western Kentucky",
 				"code": "western-ky",
 				"seed": 12,
 				"score": 78,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2008-03-27",
+			"location": "Phoenix, AZ",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-27-ucla.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1254,11 +1313,12 @@
 				"score": 75,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2008-03-27",
+			"location": "Phoenix, AZ",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-27-west-virginia.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1275,15 +1335,16 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2008-03-29",
+			"location": "Phoenix, AZ",
+			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-03-29-ucla.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 66,
@@ -1296,11 +1357,12 @@
 				"score": 84,
 				"winner": true
 			},
-			"date": "",
+			"date": "2008-04-05",
+			"location": "San Antonio, TX",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-04-05-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1317,32 +1379,34 @@
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
+			"date": "2008-04-05",
+			"location": "San Antonio, TX",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-04-05-memphis.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 1,
-				"score": 75,
-				"winner": true
-			},
-			"away": {
 				"name": "Memphis",
 				"code": "memphis",
 				"seed": 1,
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 1,
+				"score": 75,
+				"winner": true
+			},
+			"date": "2008-04-07",
+			"location": "San Antonio, TX",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2008-04-07-kansas.html",
+			"isComplete": true
 		}
 	]
 }

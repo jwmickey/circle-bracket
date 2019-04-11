@@ -1,0 +1,554 @@
+{
+	"format": "ncaa",
+	"displaySeeds": false,
+	"updated": "2019-04-11T14:49:47.577Z",
+	"year": 1964,
+	"regions": [
+		{
+			"name": "East",
+			"position": "TR"
+		},
+		{
+			"name": "Mideast",
+			"position": "BR"
+		},
+		{
+			"name": "Midwest",
+			"position": "BL"
+		},
+		{
+			"name": "West",
+			"position": "TL"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 4,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 5,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1964-03-09",
+			"location": "Philadelphia, PA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-09-providence.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 2,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "VMI",
+				"code": "vmi",
+				"seed": 7,
+				"score": 60,
+				"winner": false
+			},
+			"date": "1964-03-09",
+			"location": "Philadelphia, PA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-09-princeton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 3,
+				"score": 53,
+				"winner": true
+			},
+			"away": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 6,
+				"score": 48,
+				"winner": false
+			},
+			"date": "1964-03-09",
+			"location": "Philadelphia, PA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-09-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 4,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1964-03-13",
+			"location": "Raleigh, NC",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-13-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 2,
+				"score": 50,
+				"winner": false
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 3,
+				"score": 52,
+				"winner": true
+			},
+			"date": "1964-03-13",
+			"location": "Raleigh, NC",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-13-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 101,
+				"winner": true
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 3,
+				"score": 54,
+				"winner": false
+			},
+			"date": "1964-03-14",
+			"location": "Raleigh, NC",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-14-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Loyola (IL)",
+				"code": "loyola-il",
+				"seed": 4,
+				"score": 101,
+				"winner": true
+			},
+			"away": {
+				"name": "Murray State",
+				"code": "murray-st",
+				"seed": 5,
+				"score": 91,
+				"winner": false
+			},
+			"date": "1964-03-10",
+			"location": "Evanston, IL",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-10-loyola-il.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Ohio",
+				"code": "ohio",
+				"seed": 3,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 6,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1964-03-10",
+			"location": "Evanston, IL",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-10-louisville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Loyola (IL)",
+				"code": "loyola-il",
+				"seed": 4,
+				"score": 80,
+				"winner": false
+			},
+			"date": "1964-03-13",
+			"location": "Minneapolis, MN",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-13-loyola-il.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 69,
+				"winner": false
+			},
+			"away": {
+				"name": "Ohio",
+				"code": "ohio",
+				"seed": 3,
+				"score": 85,
+				"winner": true
+			},
+			"date": "1964-03-13",
+			"location": "Minneapolis, MN",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-13-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Ohio",
+				"code": "ohio",
+				"seed": 3,
+				"score": 57,
+				"winner": false
+			},
+			"date": "1964-03-14",
+			"location": "Minneapolis, MN",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-14-michigan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UTEP",
+				"code": "utep",
+				"seed": 4,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas A&M",
+				"code": "texas-am",
+				"seed": 5,
+				"score": 62,
+				"winner": false
+			},
+			"date": "1964-03-09",
+			"location": "Dallas, TX",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-09-texas-am.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Creighton",
+				"code": "creighton",
+				"seed": 3,
+				"score": 89,
+				"winner": true
+			},
+			"away": {
+				"name": "Oklahoma City",
+				"code": "oklahoma-city",
+				"seed": 6,
+				"score": 78,
+				"winner": false
+			},
+			"date": "1964-03-09",
+			"location": "Dallas, TX",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-09-creighton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 1,
+				"score": 64,
+				"winner": true
+			},
+			"away": {
+				"name": "UTEP",
+				"code": "utep",
+				"seed": 4,
+				"score": 60,
+				"winner": false
+			},
+			"date": "1964-03-13",
+			"location": "Wichita, KS",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-13-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Creighton",
+				"code": "creighton",
+				"seed": 3,
+				"score": 68,
+				"winner": false
+			},
+			"away": {
+				"name": "Wichita State",
+				"code": "wichita-st",
+				"seed": 2,
+				"score": 84,
+				"winner": true
+			},
+			"date": "1964-03-13",
+			"location": "Wichita, KS",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-13-creighton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 1,
+				"score": 94,
+				"winner": true
+			},
+			"away": {
+				"name": "Wichita State",
+				"code": "wichita-st",
+				"seed": 2,
+				"score": 86,
+				"winner": false
+			},
+			"date": "1964-03-14",
+			"location": "Wichita, KS",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-14-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Seattle",
+				"code": "seattle",
+				"seed": 4,
+				"score": 61,
+				"winner": true
+			},
+			"away": {
+				"name": "Oregon State",
+				"code": "oregon-st",
+				"seed": 5,
+				"score": 57,
+				"winner": false
+			},
+			"date": "1964-03-10",
+			"location": "Eugene, OR",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-10-oregon-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Utah State",
+				"code": "utah-st",
+				"seed": 3,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "Arizona State",
+				"code": "arizona-st",
+				"seed": 6,
+				"score": 90,
+				"winner": false
+			},
+			"date": "1964-03-10",
+			"location": "Eugene, OR",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-10-arizona-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 95,
+				"winner": true
+			},
+			"away": {
+				"name": "Seattle",
+				"code": "seattle",
+				"seed": 4,
+				"score": 90,
+				"winner": false
+			},
+			"date": "1964-03-13",
+			"location": "Corvallis, OR",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-13-seattle.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Utah State",
+				"code": "utah-st",
+				"seed": 3,
+				"score": 58,
+				"winner": false
+			},
+			"away": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 2,
+				"score": 64,
+				"winner": true
+			},
+			"date": "1964-03-13",
+			"location": "Corvallis, OR",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-13-san-francisco.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 2,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1964-03-14",
+			"location": "Corvallis, OR",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-14-san-francisco.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": null,
+				"score": 84,
+				"winner": false
+			},
+			"date": "1964-03-20",
+			"location": "Kansas City, MO",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-20-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": null,
+				"score": 80,
+				"winner": false
+			},
+			"away": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": null,
+				"score": 91,
+				"winner": true
+			},
+			"date": "1964-03-20",
+			"location": "Kansas City, MO",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-20-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 98,
+				"winner": true
+			},
+			"away": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": null,
+				"score": 83,
+				"winner": false
+			},
+			"date": "1964-03-21",
+			"location": "Kansas City, MO",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1964-03-21-duke.html",
+			"isComplete": true
+		}
+	]
+}

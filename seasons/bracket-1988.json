@@ -1,23 +1,24 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:54:09.700Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:10:02.727Z",
 	"year": 1988,
 	"regions": [
 		{
-			"name": "",
-			"position": "BL"
+			"name": "East",
+			"position": "BR"
 		},
 		{
-			"name": "",
-			"position": "TL"
-		},
-		{
-			"name": "",
+			"name": "Midwest",
 			"position": "TR"
 		},
 		{
-			"name": "",
-			"position": "BR"
+			"name": "Southeast",
+			"position": "TL"
+		},
+		{
+			"name": "West",
+			"position": "BL"
 		}
 	],
 	"games": [
@@ -36,11 +37,12 @@
 				"score": 73,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1988-03-18",
+			"location": "Hartford, CT",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-lehigh.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -57,11 +59,12 @@
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1988-03-18",
+			"location": "Hartford, CT",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -78,11 +81,12 @@
 				"score": 78,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1988-03-18",
+			"location": "Hartford, CT",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -99,11 +103,12 @@
 				"score": 72,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1988-03-18",
+			"location": "Hartford, CT",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-indiana.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -120,11 +125,12 @@
 				"score": 87,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1988-03-17",
+			"location": "Chapel Hill, NC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-missouri.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -141,11 +147,12 @@
 				"score": 55,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1988-03-17",
+			"location": "Chapel Hill, NC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-north-carolina-at.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -162,11 +169,12 @@
 				"score": 75,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1988-03-17",
+			"location": "Chapel Hill, NC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-notre-dame.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -183,11 +191,12 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1988-03-17",
+			"location": "Chapel Hill, NC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-boston-university.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -204,11 +213,12 @@
 				"score": 53,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1988-03-20",
+			"location": "Hartford, CT",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-20-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -225,53 +235,56 @@
 				"score": 59,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1988-03-20",
+			"location": "Hartford, CT",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-20-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Rhode Island",
-				"code": "rhode-island",
-				"seed": 11,
-				"score": 97,
-				"winner": true
-			},
-			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 3,
 				"score": 94,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Rhode Island",
+				"code": "rhode-island",
+				"seed": 11,
+				"score": 97,
+				"winner": true
+			},
+			"date": "1988-03-19",
+			"location": "Chapel Hill, NC",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-19-rhode-island.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "SMU",
-				"code": "smu",
-				"seed": 7,
-				"score": 79,
-				"winner": false
-			},
-			"away": {
 				"name": "Duke",
 				"code": "duke",
 				"seed": 2,
 				"score": 94,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": 7,
+				"score": 79,
+				"winner": false
+			},
+			"date": "1988-03-19",
+			"location": "Chapel Hill, NC",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-19-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -288,32 +301,34 @@
 				"score": 47,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1988-03-24",
+			"location": "East Rutherford, NJ",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-24-richmond.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Rhode Island",
-				"code": "rhode-island",
-				"seed": 11,
-				"score": 72,
-				"winner": false
-			},
-			"away": {
 				"name": "Duke",
 				"code": "duke",
 				"seed": 2,
 				"score": 73,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Rhode Island",
+				"code": "rhode-island",
+				"seed": 11,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1988-03-24",
+			"location": "East Rutherford, NJ",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-24-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -330,11 +345,12 @@
 				"score": 63,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1988-03-26",
+			"location": "East Rutherford, NJ",
+			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-26-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -351,11 +367,12 @@
 				"score": 79,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-17",
+			"location": "South Bend, IN",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-fairleigh-dickinson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -366,17 +383,18 @@
 				"winner": false
 			},
 			"away": {
-				"name": "Memphis State",
+				"name": "Memphis",
 				"code": "memphis",
 				"seed": 9,
 				"score": 75,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-17",
+			"location": "South Bend, IN",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-baylor.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -393,11 +411,12 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-17",
+			"location": "South Bend, IN",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-depaul.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -414,11 +433,12 @@
 				"score": 53,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-17",
+			"location": "South Bend, IN",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-kansas-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -435,11 +455,12 @@
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-18",
+			"location": "Lincoln, NE",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -456,11 +477,12 @@
 				"score": 78,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-18",
+			"location": "Lincoln, NE",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-murray-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -477,15 +499,16 @@
 				"score": 77,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-18",
+			"location": "Lincoln, NE",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-utah-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 2,
 				"score": 108,
@@ -498,11 +521,12 @@
 				"score": 90,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-18",
+			"location": "Lincoln, NE",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-eastern-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -513,38 +537,40 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Memphis State",
+				"name": "Memphis",
 				"code": "memphis",
 				"seed": 9,
 				"score": 73,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-19",
+			"location": "South Bend, IN",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-19-memphis.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "DePaul",
-				"code": "depaul",
-				"seed": 5,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas State",
 				"code": "kansas-st",
 				"seed": 4,
 				"score": 66,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "DePaul",
+				"code": "depaul",
+				"seed": 5,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1988-03-19",
+			"location": "South Bend, IN",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-19-depaul.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -561,32 +587,34 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-20",
+			"location": "Lincoln, NE",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-20-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 2,
+				"score": 74,
+				"winner": false
+			},
+			"away": {
 				"name": "Vanderbilt",
 				"code": "vanderbilt",
 				"seed": 7,
 				"score": 80,
 				"winner": true
 			},
-			"away": {
-				"name": "Pittsburgh",
-				"code": "pittsburgh",
-				"seed": 2,
-				"score": 74,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-20",
+			"location": "Lincoln, NE",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-20-pittsburgh.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -603,11 +631,12 @@
 				"score": 73,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-25",
+			"location": "Pontiac, MI",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-25-kansas-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -624,11 +653,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-25",
+			"location": "Pontiac, MI",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-25-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -645,11 +675,12 @@
 				"score": 71,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1988-03-27",
+			"location": "Pontiac, MI",
+			"region": "TR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-27-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -666,11 +697,12 @@
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1988-03-17",
+			"location": "Atlanta, GA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-chattanooga.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -687,11 +719,12 @@
 				"score": 86,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1988-03-17",
+			"location": "Atlanta, GA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-auburn.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -708,11 +741,12 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1988-03-17",
+			"location": "Atlanta, GA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -729,11 +763,12 @@
 				"score": 92,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1988-03-17",
+			"location": "Atlanta, GA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-brigham-young.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -750,11 +785,12 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1988-03-18",
+			"location": "Cincinnati, OH",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -771,11 +807,12 @@
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1988-03-18",
+			"location": "Cincinnati, OH",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -786,21 +823,22 @@
 				"winner": true
 			},
 			"away": {
-				"name": "UC Santa Barbara",
+				"name": "UCSB",
 				"code": "uc-santa-barbara",
 				"seed": 10,
 				"score": 82,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1988-03-18",
+			"location": "Cincinnati, OH",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-california-santa-barbara.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Kentucky#",
+				"name": "Kentucky",
 				"code": "kentucky",
 				"seed": 2,
 				"score": 99,
@@ -813,11 +851,12 @@
 				"score": 84,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1988-03-18",
+			"location": "Cincinnati, OH",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -834,74 +873,78 @@
 				"score": 87,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1988-03-19",
+			"location": "Atlanta, GA",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-19-auburn.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 5,
-				"score": 97,
-				"winner": true
-			},
-			"away": {
 				"name": "BYU",
 				"code": "byu",
 				"seed": 4,
 				"score": 76,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 5,
+				"score": 97,
+				"winner": true
+			},
+			"date": "1988-03-19",
+			"location": "Atlanta, GA",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-19-brigham-young.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Villanova",
-				"code": "villanova",
-				"seed": 6,
-				"score": 66,
-				"winner": true
-			},
-			"away": {
 				"name": "Illinois",
 				"code": "illinois",
 				"seed": 3,
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 6,
+				"score": 66,
+				"winner": true
+			},
+			"date": "1988-03-20",
+			"location": "Cincinnati, OH",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-20-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
 				"name": "Maryland",
 				"code": "maryland",
 				"seed": 7,
 				"score": 81,
 				"winner": false
 			},
-			"away": {
-				"name": "Kentucky#",
-				"code": "kentucky",
-				"seed": 2,
-				"score": 90,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
+			"date": "1988-03-20",
+			"location": "Cincinnati, OH",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-20-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -918,32 +961,34 @@
 				"score": 98,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1988-03-24",
+			"location": "Birmingham, AL",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-24-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Villanova",
-				"code": "villanova",
-				"seed": 6,
-				"score": 80,
-				"winner": true
-			},
-			"away": {
 				"name": "Kentucky",
 				"code": "kentucky",
 				"seed": 2,
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 6,
+				"score": 80,
+				"winner": true
+			},
+			"date": "1988-03-24",
+			"location": "Birmingham, AL",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-24-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -960,11 +1005,12 @@
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1988-03-26",
+			"location": "Birmingham, AL",
+			"region": "TL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-26-oklahoma.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -981,11 +1027,12 @@
 				"score": 50,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1988-03-18",
+			"location": "Los Angeles, CA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +1049,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1988-03-18",
+			"location": "Los Angeles, CA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-seton-hall.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +1071,12 @@
 				"score": 98,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1988-03-18",
+			"location": "Los Angeles, CA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-florida-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1038,17 +1087,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Southwest Missouri State",
+				"name": "Missouri State",
 				"code": "missouri-st",
 				"seed": 13,
 				"score": 50,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1988-03-18",
+			"location": "Los Angeles, CA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-18-missouri-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1059,17 +1109,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "St. John's",
+				"name": "St. John's (NY)",
 				"code": "st-johns-ny",
 				"seed": 11,
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1988-03-17",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +1137,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1988-03-17",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-boise-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,32 +1159,34 @@
 				"score": 119,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1988-03-17",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-loyola-marymount.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 2,
 				"score": 83,
 				"winner": true
 			},
 			"away": {
-				"name": "North Texas State",
+				"name": "North Texas",
 				"code": "north-texas",
 				"seed": 15,
 				"score": 65,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1988-03-17",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-17-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1149,74 +1203,78 @@
 				"score": 55,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1988-03-20",
+			"location": "Los Angeles, CA",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-20-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Iowa",
-				"code": "iowa",
-				"seed": 5,
-				"score": 104,
-				"winner": true
-			},
-			"away": {
 				"name": "UNLV",
 				"code": "unlv",
 				"seed": 4,
 				"score": 86,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 5,
+				"score": 104,
+				"winner": true
+			},
+			"date": "1988-03-20",
+			"location": "Los Angeles, CA",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-20-iowa.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 6,
-				"score": 85,
-				"winner": false
-			},
-			"away": {
 				"name": "Michigan",
 				"code": "michigan",
 				"seed": 3,
 				"score": 108,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 6,
+				"score": 85,
+				"winner": false
+			},
+			"date": "1988-03-19",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-19-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 123,
+				"winner": true
+			},
+			"away": {
 				"name": "Loyola Marymount",
 				"code": "loyola-marymount",
 				"seed": 10,
 				"score": 97,
 				"winner": false
 			},
-			"away": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 123,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
+			"date": "1988-03-19",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-19-loyola-marymount.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1233,32 +1291,34 @@
 				"score": 79,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1988-03-25",
+			"location": "Seattle, WA",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-25-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
 				"name": "Michigan",
 				"code": "michigan",
 				"seed": 3,
 				"score": 69,
 				"winner": false
 			},
-			"away": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 78,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
+			"date": "1988-03-25",
+			"location": "Seattle, WA",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-25-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1269,17 +1329,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 2,
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1988-03-27",
+			"location": "Seattle, WA",
+			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-03-27-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1296,11 +1357,12 @@
 				"score": 66,
 				"winner": true
 			},
-			"date": "",
+			"date": "1988-04-02",
+			"location": "Kansas City, MO",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-04-02-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1317,32 +1379,34 @@
 				"score": 78,
 				"winner": false
 			},
-			"date": "",
+			"date": "1988-04-02",
+			"location": "Kansas City, MO",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-04-02-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 6,
-				"score": 83,
-				"winner": true
-			},
-			"away": {
 				"name": "Oklahoma",
 				"code": "oklahoma",
 				"seed": 1,
 				"score": 79,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 6,
+				"score": 83,
+				"winner": true
+			},
+			"date": "1988-04-04",
+			"location": "Kansas City, MO",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1988-04-04-kansas.html",
+			"isComplete": true
 		}
 	]
 }

@@ -1,29 +1,30 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:53:25.021Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:11:50.238Z",
 	"year": 1990,
 	"regions": [
 		{
-			"name": "",
-			"position": "TL"
+			"name": "East",
+			"position": "TR"
 		},
 		{
-			"name": "",
-			"position": "BL"
-		},
-		{
-			"name": "",
+			"name": "Midwest",
 			"position": "BR"
 		},
 		{
-			"name": "",
-			"position": "TR"
+			"name": "Southeast",
+			"position": "BL"
+		},
+		{
+			"name": "West",
+			"position": "TL"
 		}
 	],
 	"games": [
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 1,
 				"score": 76,
@@ -36,11 +37,12 @@
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1990-03-15",
+			"location": "Hartford, CT",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-boston-university.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -57,11 +59,12 @@
 				"score": 65,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1990-03-15",
+			"location": "Hartford, CT",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-california.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -78,11 +81,12 @@
 				"score": 47,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1990-03-15",
+			"location": "Hartford, CT",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-brigham-young.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -99,15 +103,16 @@
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1990-03-15",
+			"location": "Hartford, CT",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-la-salle.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "St. John's",
+				"name": "St. John's (NY)",
 				"code": "st-johns-ny",
 				"seed": 6,
 				"score": 81,
@@ -120,11 +125,12 @@
 				"score": 65,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1990-03-16",
+			"location": "Atlanta, GA",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-st-johns-ny.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -141,11 +147,12 @@
 				"score": 46,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1990-03-16",
+			"location": "Atlanta, GA",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -156,17 +163,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "UAB",
+				"name": "Alabama-Birmingham",
 				"code": "uab",
 				"seed": 10,
 				"score": 56,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1990-03-16",
+			"location": "Atlanta, GA",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-alabama-birmingham.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -183,15 +191,16 @@
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1990-03-16",
+			"location": "Atlanta, GA",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 1,
 				"score": 74,
@@ -204,78 +213,82 @@
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1990-03-17",
+			"location": "Hartford, CT",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-17-california.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Clemson",
-				"code": "clemson",
-				"seed": 5,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
 				"name": "La Salle",
 				"code": "la-salle",
 				"seed": 4,
 				"score": 75,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Clemson",
+				"code": "clemson",
+				"seed": 5,
+				"score": 79,
+				"winner": true
+			},
+			"date": "1990-03-17",
+			"location": "Hartford, CT",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-17-clemson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "St. John's",
-				"code": "st-johns-ny",
-				"seed": 6,
-				"score": 72,
-				"winner": false
-			},
-			"away": {
 				"name": "Duke",
 				"code": "duke",
 				"seed": 3,
 				"score": 76,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 6,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1990-03-18",
+			"location": "Atlanta, GA",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-18-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 7,
-				"score": 71,
-				"winner": true
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 2,
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 7,
+				"score": 71,
+				"winner": true
+			},
+			"date": "1990-03-18",
+			"location": "Atlanta, GA",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-18-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 1,
 				"score": 71,
@@ -288,11 +301,12 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1990-03-22",
+			"location": "East Rutherford, NJ",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-22-clemson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -309,15 +323,16 @@
 				"score": 81,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1990-03-22",
+			"location": "East Rutherford, NJ",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-22-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 1,
 				"score": 78,
@@ -330,11 +345,12 @@
 				"score": 79,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1990-03-24",
+			"location": "East Rutherford, NJ",
+			"region": "TR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-24-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -345,38 +361,40 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Towson State",
+				"name": "Towson",
 				"code": "towson",
 				"seed": 16,
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1990-03-15",
+			"location": "Austin, TX",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-oklahoma.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 8,
 				"score": 83,
 				"winner": true
 			},
 			"away": {
-				"name": "SW Missouri State",
+				"name": "Missouri State",
 				"code": "missouri-st",
 				"seed": 9,
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1990-03-15",
+			"location": "Austin, TX",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-missouri-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -393,11 +411,12 @@
 				"score": 88,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1990-03-15",
+			"location": "Austin, TX",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-dayton.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -414,11 +433,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1990-03-15",
+			"location": "Austin, TX",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -435,11 +455,12 @@
 				"score": 79,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1990-03-16",
+			"location": "Indianapolis, IN",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-kansas-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -456,11 +477,12 @@
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1990-03-16",
+			"location": "Indianapolis, IN",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -477,11 +499,12 @@
 				"score": 100,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1990-03-16",
+			"location": "Indianapolis, IN",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-georgia.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -492,17 +515,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Northeast Louisiana",
+				"name": "Louisiana-Monroe",
 				"code": "la-monroe",
 				"seed": 15,
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1990-03-16",
+			"location": "Indianapolis, IN",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-louisiana-monroe.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -513,101 +537,106 @@
 				"winner": false
 			},
 			"away": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 8,
 				"score": 79,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1990-03-17",
+			"location": "Austin, TX",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-17-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Dayton",
-				"code": "dayton",
-				"seed": 12,
-				"score": 84,
-				"winner": false
-			},
-			"away": {
 				"name": "Arkansas",
 				"code": "arkansas",
 				"seed": 4,
 				"score": 86,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 12,
+				"score": 84,
+				"winner": false
+			},
+			"date": "1990-03-17",
+			"location": "Austin, TX",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-17-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Xavier",
-				"code": "xavier",
-				"seed": 6,
-				"score": 74,
-				"winner": true
-			},
-			"away": {
 				"name": "Georgetown",
 				"code": "georgetown",
 				"seed": 3,
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Xavier",
+				"code": "xavier",
+				"seed": 6,
+				"score": 74,
+				"winner": true
+			},
+			"date": "1990-03-18",
+			"location": "Indianapolis, IN",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-18-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Texas",
-				"code": "texas",
-				"seed": 10,
-				"score": 73,
-				"winner": true
-			},
-			"away": {
 				"name": "Purdue",
 				"code": "purdue",
 				"seed": 2,
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 10,
+				"score": 73,
+				"winner": true
+			},
+			"date": "1990-03-18",
+			"location": "Indianapolis, IN",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-18-purdue.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 8,
-				"score": 73,
-				"winner": false
-			},
-			"away": {
 				"name": "Arkansas",
 				"code": "arkansas",
 				"seed": 4,
 				"score": 96,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 8,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1990-03-22",
+			"location": "Dallas, TX",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-22-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -624,11 +653,12 @@
 				"score": 102,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1990-03-22",
+			"location": "Dallas, TX",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-22-texas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -645,11 +675,12 @@
 				"score": 85,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1990-03-24",
+			"location": "Dallas, TX",
+			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-24-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -666,11 +697,12 @@
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1990-03-15",
+			"location": "Knoxville, TN",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-michigan-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -681,17 +713,18 @@
 				"winner": false
 			},
 			"away": {
-				"name": "UC Santa Barbara",
+				"name": "UCSB",
 				"code": "uc-santa-barbara",
 				"seed": 9,
 				"score": 70,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1990-03-15",
+			"location": "Knoxville, TN",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-california-santa-barbara.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -708,11 +741,12 @@
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1990-03-15",
+			"location": "Knoxville, TN",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-louisiana-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -723,17 +757,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "East Tennessee State",
+				"name": "ETSU",
 				"code": "east-tenn-st",
 				"seed": 13,
 				"score": 83,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1990-03-15",
+			"location": "Knoxville, TN",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-east-tennessee-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -750,11 +785,12 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1990-03-16",
+			"location": "Richmond, VA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-minnesota.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -771,11 +807,12 @@
 				"score": 74,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1990-03-16",
+			"location": "Richmond, VA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-missouri.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -792,11 +829,12 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1990-03-16",
+			"location": "Richmond, VA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-notre-dame.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -813,11 +851,12 @@
 				"score": 48,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1990-03-16",
+			"location": "Richmond, VA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-coppin-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -828,38 +867,40 @@
 				"winner": true
 			},
 			"away": {
-				"name": "UC Santa Barbara",
+				"name": "UCSB",
 				"code": "uc-santa-barbara",
 				"seed": 9,
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1990-03-17",
+			"location": "Knoxville, TN",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-17-california-santa-barbara.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "LSU",
-				"code": "lsu",
-				"seed": 5,
-				"score": 91,
-				"winner": false
-			},
-			"away": {
 				"name": "Georgia Tech",
 				"code": "georgia-tech",
 				"seed": 4,
 				"score": 94,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "LSU",
+				"code": "lsu",
+				"seed": 5,
+				"score": 91,
+				"winner": false
+			},
+			"date": "1990-03-17",
+			"location": "Knoxville, TN",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-17-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -876,32 +917,34 @@
 				"score": 78,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1990-03-18",
+			"location": "Richmond, VA",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-18-minnesota.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Virginia",
-				"code": "virginia",
-				"seed": 7,
-				"score": 61,
-				"winner": false
-			},
-			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 2,
 				"score": 63,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 7,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1990-03-18",
+			"location": "Richmond, VA",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-18-syracuse.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -918,32 +961,34 @@
 				"score": 81,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1990-03-23",
+			"location": "New Orleans, LA",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-23-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Minnesota",
-				"code": "minnesota",
-				"seed": 6,
-				"score": 82,
-				"winner": true
-			},
-			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 2,
 				"score": 75,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Minnesota",
+				"code": "minnesota",
+				"seed": 6,
+				"score": 82,
+				"winner": true
+			},
+			"date": "1990-03-23",
+			"location": "New Orleans, LA",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-23-minnesota.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -960,11 +1005,12 @@
 				"score": 91,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1990-03-25",
+			"location": "New Orleans, LA",
+			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-25-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -975,17 +1021,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Arkansas–Little Rock",
+				"name": "Little Rock",
 				"code": "ualr",
 				"seed": 16,
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1990-03-15",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-arkansas-little-rock.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +1049,12 @@
 				"score": 83,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1990-03-15",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-ohio-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +1071,12 @@
 				"score": 54,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1990-03-15",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-ball-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1044,11 +1093,12 @@
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1990-03-15",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-15-idaho.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,11 +1115,12 @@
 				"score": 111,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1990-03-16",
+			"location": "Long Beach, CA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-loyola-marymount.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +1137,12 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1990-03-16",
+			"location": "Long Beach, CA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-illinois-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +1159,12 @@
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1990-03-16",
+			"location": "Long Beach, CA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-alabama.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,11 +1181,12 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1990-03-16",
+			"location": "Long Beach, CA",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-16-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1149,74 +1203,78 @@
 				"score": 65,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1990-03-17",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-17-nevada-las-vegas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Ball State",
-				"code": "ball-st",
-				"seed": 12,
-				"score": 62,
-				"winner": true
-			},
-			"away": {
 				"name": "Louisville",
 				"code": "louisville",
 				"seed": 4,
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Ball State",
+				"code": "ball-st",
+				"seed": 12,
+				"score": 62,
+				"winner": true
+			},
+			"date": "1990-03-17",
+			"location": "Salt Lake City, UT",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-17-ball-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Loyola Marymount",
-				"code": "loyola-marymount",
-				"seed": 11,
-				"score": 149,
-				"winner": true
-			},
-			"away": {
 				"name": "Michigan",
 				"code": "michigan",
 				"seed": 3,
 				"score": 115,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Loyola Marymount",
+				"code": "loyola-marymount",
+				"seed": 11,
+				"score": 149,
+				"winner": true
+			},
+			"date": "1990-03-18",
+			"location": "Long Beach, CA",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-18-loyola-marymount.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Alabama",
-				"code": "alabama",
-				"seed": 7,
-				"score": 77,
-				"winner": true
-			},
-			"away": {
 				"name": "Arizona",
 				"code": "arizona",
 				"seed": 2,
 				"score": 55,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 7,
+				"score": 77,
+				"winner": true
+			},
+			"date": "1990-03-18",
+			"location": "Long Beach, CA",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-18-alabama.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1233,32 +1291,34 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1990-03-23",
+			"location": "Oakland, CA",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-23-ball-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Loyola Marymount",
-				"code": "loyola-marymount",
-				"seed": 11,
-				"score": 62,
-				"winner": true
-			},
-			"away": {
 				"name": "Alabama",
 				"code": "alabama",
 				"seed": 7,
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Loyola Marymount",
+				"code": "loyola-marymount",
+				"seed": 11,
+				"score": 62,
+				"winner": true
+			},
+			"date": "1990-03-23",
+			"location": "Oakland, CA",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-23-alabama.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1275,11 +1335,34 @@
 				"score": 101,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1990-03-25",
+			"location": "Oakland, CA",
+			"region": "TL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-25-loyola-marymount.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 1,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "Georgia Tech",
+				"code": "georgia-tech",
+				"seed": 4,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1990-03-31",
+			"location": "Denver, CO",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-31-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1296,53 +1379,34 @@
 				"score": 83,
 				"winner": false
 			},
-			"date": "",
+			"date": "1990-03-31",
+			"location": "Denver, CO",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-03-31-arkansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Georgia Tech",
-				"code": "georgia-tech",
-				"seed": 4,
-				"score": 81,
-				"winner": false
-			},
-			"away": {
-				"name": "UNLV",
-				"code": "unlv",
-				"seed": 1,
-				"score": 90,
-				"winner": true
-			},
-			"date": "",
-			"region": "",
-			"round": 5,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 3,
-				"score": 73,
-				"winner": false
-			},
-			"away": {
 				"name": "UNLV",
 				"code": "unlv",
 				"seed": 1,
 				"score": 103,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 3,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1990-04-02",
+			"location": "Denver, CO",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1990-04-02-duke.html",
+			"isComplete": true
 		}
 	]
 }

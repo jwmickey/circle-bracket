@@ -1,0 +1,532 @@
+{
+	"format": "ncaa",
+	"displaySeeds": false,
+	"updated": "2019-04-11T17:52:01.684Z",
+	"year": 1958,
+	"regions": [
+		{
+			"name": "East",
+			"position": "BL"
+		},
+		{
+			"name": "Mideast",
+			"position": "TL"
+		},
+		{
+			"name": "Midwest",
+			"position": "BR"
+		},
+		{
+			"name": "West",
+			"position": "TR"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 4,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 5,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1958-03-11",
+			"location": "New York, NY",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-11-boston-college.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Manhattan",
+				"code": "manhattan",
+				"seed": 2,
+				"score": 89,
+				"winner": true
+			},
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 7,
+				"score": 84,
+				"winner": false
+			},
+			"date": "1958-03-11",
+			"location": "New York, NY",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-11-manhattan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Dartmouth",
+				"code": "dartmouth",
+				"seed": 3,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 6,
+				"score": 64,
+				"winner": false
+			},
+			"date": "1958-03-11",
+			"location": "New York, NY",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-11-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 1,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 4,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1958-03-14",
+			"location": "Charlotte, NC",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-14-maryland.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Manhattan",
+				"code": "manhattan",
+				"seed": 2,
+				"score": 62,
+				"winner": false
+			},
+			"away": {
+				"name": "Dartmouth",
+				"code": "dartmouth",
+				"seed": 3,
+				"score": 79,
+				"winner": true
+			},
+			"date": "1958-03-14",
+			"location": "Charlotte, NC",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-14-dartmouth.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 1,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Dartmouth",
+				"code": "dartmouth",
+				"seed": 3,
+				"score": 50,
+				"winner": false
+			},
+			"date": "1958-03-15",
+			"location": "Charlotte, NC",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-15-dartmouth.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Miami (OH)",
+				"code": "miami-oh",
+				"seed": 4,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 5,
+				"score": 77,
+				"winner": false
+			},
+			"date": "1958-03-11",
+			"location": "Evanston, IL",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-11-miami-oh.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 3,
+				"score": 94,
+				"winner": true
+			},
+			"away": {
+				"name": "Tennessee Tech",
+				"code": "tennessee-tech",
+				"seed": 6,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1958-03-11",
+			"location": "Evanston, IL",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-11-notre-dame.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 1,
+				"score": 94,
+				"winner": true
+			},
+			"away": {
+				"name": "Miami (OH)",
+				"code": "miami-oh",
+				"seed": 4,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1958-03-14",
+			"location": "Lexington, KY",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-14-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 2,
+				"score": 87,
+				"winner": false
+			},
+			"away": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 3,
+				"score": 94,
+				"winner": true
+			},
+			"date": "1958-03-14",
+			"location": "Lexington, KY",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-14-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 1,
+				"score": 89,
+				"winner": true
+			},
+			"away": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 3,
+				"score": 56,
+				"winner": false
+			},
+			"date": "1958-03-15",
+			"location": "Lexington, KY",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-15-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 4,
+				"score": 59,
+				"winner": true
+			},
+			"away": {
+				"name": "Loyola (LA)",
+				"code": "loyola-no",
+				"seed": 5,
+				"score": 42,
+				"winner": false
+			},
+			"date": "1958-03-11",
+			"location": "Stillwater, OK",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-11-loyola-la.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 2,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 3,
+				"score": 80,
+				"winner": false
+			},
+			"date": "1958-03-14",
+			"location": "Lawrence, KS",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-14-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 1,
+				"score": 40,
+				"winner": false
+			},
+			"away": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 4,
+				"score": 65,
+				"winner": true
+			},
+			"date": "1958-03-14",
+			"location": "Lawrence, KS",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-14-arkansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 2,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 4,
+				"score": 57,
+				"winner": false
+			},
+			"date": "1958-03-15",
+			"location": "Lawrence, KS",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-15-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Seattle",
+				"code": "seattle",
+				"seed": 4,
+				"score": 88,
+				"winner": true
+			},
+			"away": {
+				"name": "Wyoming",
+				"code": "wyoming",
+				"seed": 5,
+				"score": 51,
+				"winner": false
+			},
+			"date": "1958-03-12",
+			"location": "Berkeley, CA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-12-seattle.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Idaho State",
+				"code": "idaho-st",
+				"seed": 3,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Arizona State",
+				"code": "arizona-st",
+				"seed": 6,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1958-03-12",
+			"location": "Berkeley, CA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-12-arizona-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Seattle",
+				"code": "seattle",
+				"seed": 4,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 1,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1958-03-14",
+			"location": "San Francisco, CA",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-14-san-francisco.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Idaho State",
+				"code": "idaho-st",
+				"seed": 3,
+				"score": 43,
+				"winner": false
+			},
+			"away": {
+				"name": "California",
+				"code": "california",
+				"seed": 2,
+				"score": 54,
+				"winner": true
+			},
+			"date": "1958-03-14",
+			"location": "San Francisco, CA",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-14-california.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Seattle",
+				"code": "seattle",
+				"seed": 4,
+				"score": 66,
+				"winner": true
+			},
+			"away": {
+				"name": "California",
+				"code": "california",
+				"seed": 2,
+				"score": 62,
+				"winner": false
+			},
+			"date": "1958-03-15",
+			"location": "San Francisco, CA",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-15-california.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": null,
+				"score": 61,
+				"winner": true
+			},
+			"away": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": null,
+				"score": 60,
+				"winner": false
+			},
+			"date": "1958-03-21",
+			"location": "Louisville, KY",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-21-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": null,
+				"score": 51,
+				"winner": false
+			},
+			"away": {
+				"name": "Seattle",
+				"code": "seattle",
+				"seed": null,
+				"score": 73,
+				"winner": true
+			},
+			"date": "1958-03-21",
+			"location": "Louisville, KY",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-21-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": null,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Seattle",
+				"code": "seattle",
+				"seed": null,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1958-03-22",
+			"location": "Louisville, KY",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1958-03-22-kentucky.html",
+			"isComplete": true
+		}
+	]
+}

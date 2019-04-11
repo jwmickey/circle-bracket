@@ -1,23 +1,24 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:29:54.891Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:15:10.976Z",
 	"year": 2011,
 	"regions": [
 		{
-			"name": "",
+			"name": "East",
 			"position": "BL"
 		},
 		{
-			"name": "",
-			"position": "TL"
+			"name": "Southeast",
+			"position": "TR"
 		},
 		{
-			"name": "",
+			"name": "Southwest",
 			"position": "BR"
 		},
 		{
-			"name": "",
-			"position": "TR"
+			"name": "West",
+			"position": "TL"
 		}
 	],
 	"games": [
@@ -36,11 +37,12 @@
 				"score": 46,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-18",
+			"location": "Cleveland, OH",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-ohio-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -57,11 +59,12 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-18",
+			"location": "Cleveland, OH",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-george-mason.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -78,11 +81,12 @@
 				"score": 76,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-17",
+			"location": "Tampa, FL",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-clemson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -99,11 +103,12 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-17",
+			"location": "Tampa, FL",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -120,11 +125,12 @@
 				"score": 66,
 				"winner": true
 			},
-			"date": "",
+			"date": "2011-03-18",
+			"location": "Cleveland, OH",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-marquette.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -141,11 +147,12 @@
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-18",
+			"location": "Cleveland, OH",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-indiana-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -162,32 +169,34 @@
 				"score": 65,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-18",
+			"location": "Charlotte, NC",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-georgia.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 2,
 				"score": 102,
 				"winner": true
 			},
 			"away": {
-				"name": "Long Island",
+				"name": "LIU-Brooklyn",
 				"code": "long-island",
 				"seed": 15,
 				"score": 87,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-18",
+			"location": "Charlotte, NC",
 			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-long-island-university.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -204,74 +213,78 @@
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-20",
+			"location": "Cleveland, OH",
 			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-20-george-mason.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "West Virginia",
-				"code": "west-virginia",
-				"seed": 5,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
 				"name": "Kentucky",
 				"code": "kentucky",
 				"seed": 4,
 				"score": 71,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 5,
+				"score": 63,
+				"winner": false
+			},
+			"date": "2011-03-19",
+			"location": "Tampa, FL",
 			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-19-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Marquette",
-				"code": "marquette",
-				"seed": 11,
-				"score": 66,
-				"winner": true
-			},
-			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 3,
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 11,
+				"score": 66,
+				"winner": true
+			},
+			"date": "2011-03-20",
+			"location": "Cleveland, OH",
 			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-20-marquette.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
 				"name": "Washington",
 				"code": "washington",
 				"seed": 7,
 				"score": 83,
 				"winner": false
 			},
-			"away": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 86,
-				"winner": true
-			},
-			"date": "",
+			"date": "2011-03-20",
+			"location": "Charlotte, NC",
 			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-20-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -288,687 +301,60 @@
 				"score": 62,
 				"winner": true
 			},
-			"date": "",
+			"date": "2011-03-25",
+			"location": "Newark, NJ",
 			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-25-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
 				"name": "Marquette",
 				"code": "marquette",
 				"seed": 11,
 				"score": 63,
 				"winner": false
 			},
-			"away": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 81,
-				"winner": true
-			},
-			"date": "",
+			"date": "2011-03-25",
+			"location": "Newark, NJ",
 			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-25-marquette.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 2,
+				"score": 69,
+				"winner": false
+			},
+			"away": {
 				"name": "Kentucky",
 				"code": "kentucky",
 				"seed": 4,
 				"score": 76,
 				"winner": true
 			},
-			"away": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 2,
-				"score": 69,
-				"winner": false
-			},
-			"date": "",
+			"date": "2011-03-27",
+			"location": "Newark, NJ",
 			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-27-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 87,
-				"winner": true
-			},
-			"away": {
-				"name": "Hampton",
-				"code": "hampton",
-				"seed": 16,
-				"score": 45,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan",
-				"code": "michigan",
-				"seed": 8,
-				"score": 75,
-				"winner": true
-			},
-			"away": {
-				"name": "Tennessee",
-				"code": "tennessee",
-				"seed": 9,
-				"score": 45,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 5,
-				"score": 77,
-				"winner": true
-			},
-			"away": {
-				"name": "Memphis",
-				"code": "memphis",
-				"seed": 12,
-				"score": 75,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Texas",
-				"code": "texas",
-				"seed": 4,
-				"score": 85,
-				"winner": true
-			},
-			"away": {
-				"name": "Oakland",
-				"code": "oakland",
-				"seed": 13,
-				"score": 81,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Cincinnati",
-				"code": "cincinnati",
-				"seed": 6,
-				"score": 78,
-				"winner": true
-			},
-			"away": {
-				"name": "Missouri",
-				"code": "missouri",
-				"seed": 11,
-				"score": 63,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 3,
-				"score": 81,
-				"winner": true
-			},
-			"away": {
-				"name": "Bucknell",
-				"code": "bucknell",
-				"seed": 14,
-				"score": 52,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Temple",
-				"code": "temple",
-				"seed": 7,
-				"score": 66,
-				"winner": true
-			},
-			"away": {
-				"name": "Penn State",
-				"code": "penn-st",
-				"seed": 10,
-				"score": 64,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "San Diego State",
-				"code": "san-diego-st",
-				"seed": 2,
-				"score": 68,
-				"winner": true
-			},
-			"away": {
-				"name": "Northern Colorado",
-				"code": "northern-colo",
-				"seed": 15,
-				"score": 50,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 73,
-				"winner": true
-			},
-			"away": {
-				"name": "Michigan",
-				"code": "michigan",
-				"seed": 8,
-				"score": 71,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 5,
-				"score": 70,
-				"winner": true
-			},
-			"away": {
-				"name": "Texas",
-				"code": "texas",
-				"seed": 4,
-				"score": 69,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Cincinnati",
-				"code": "cincinnati",
-				"seed": 6,
-				"score": 58,
-				"winner": false
-			},
-			"away": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 3,
-				"score": 69,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Temple",
-				"code": "temple",
-				"seed": 7,
-				"score": 64,
-				"winner": false
-			},
-			"away": {
-				"name": "San Diego State",
-				"code": "san-diego-st",
-				"seed": 2,
-				"score": 71,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 77,
-				"winner": false
-			},
-			"away": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 5,
-				"score": 93,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 3,
-				"score": 74,
-				"winner": true
-			},
-			"away": {
-				"name": "San Diego State",
-				"code": "san-diego-st",
-				"seed": 2,
-				"score": 67,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 5,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 3,
-				"score": 65,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 1,
-				"score": 72,
-				"winner": true
-			},
-			"away": {
-				"name": "Boston University",
-				"code": "boston-u",
-				"seed": 16,
-				"score": 53,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UNLV",
-				"code": "unlv",
-				"seed": 8,
-				"score": 62,
-				"winner": false
-			},
-			"away": {
-				"name": "Illinois",
-				"code": "illinois",
-				"seed": 9,
-				"score": 73,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Vanderbilt",
-				"code": "vanderbilt",
-				"seed": 5,
-				"score": 66,
-				"winner": false
-			},
-			"away": {
-				"name": "Richmond",
-				"code": "richmond",
-				"seed": 12,
-				"score": 69,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Louisville",
-				"code": "louisville",
-				"seed": 4,
-				"score": 61,
-				"winner": false
-			},
-			"away": {
-				"name": "Morehead State",
-				"code": "morehead-st",
-				"seed": 13,
-				"score": 62,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Georgetown",
-				"code": "georgetown",
-				"seed": 6,
-				"score": 56,
-				"winner": false
-			},
-			"away": {
-				"name": "VCU",
-				"code": "vcu",
-				"seed": 11,
-				"score": 74,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 3,
-				"score": 65,
-				"winner": true
-			},
-			"away": {
-				"name": "Saint Peter's",
-				"code": "st-peters",
-				"seed": 14,
-				"score": 43,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Texas A&M",
-				"code": "texas-am",
-				"seed": 7,
-				"score": 50,
-				"winner": false
-			},
-			"away": {
-				"name": "Florida State",
-				"code": "florida-st",
-				"seed": 10,
-				"score": 57,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Notre Dame",
-				"code": "notre-dame",
-				"seed": 2,
-				"score": 69,
-				"winner": true
-			},
-			"away": {
-				"name": "Akron",
-				"code": "akron",
-				"seed": 15,
-				"score": 56,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 1,
-				"score": 73,
-				"winner": true
-			},
-			"away": {
-				"name": "Illinois",
-				"code": "illinois",
-				"seed": 9,
-				"score": 59,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Richmond",
-				"code": "richmond",
-				"seed": 12,
-				"score": 65,
-				"winner": true
-			},
-			"away": {
-				"name": "Morehead State",
-				"code": "morehead-st",
-				"seed": 13,
-				"score": 48,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "VCU",
-				"code": "vcu",
-				"seed": 11,
-				"score": 94,
-				"winner": true
-			},
-			"away": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 3,
-				"score": 76,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Florida State",
-				"code": "florida-st",
-				"seed": 10,
-				"score": 71,
-				"winner": true
-			},
-			"away": {
-				"name": "Notre Dame",
-				"code": "notre-dame",
-				"seed": 2,
-				"score": 57,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 1,
-				"score": 77,
-				"winner": true
-			},
-			"away": {
-				"name": "Richmond",
-				"code": "richmond",
-				"seed": 12,
-				"score": 57,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "VCU",
-				"code": "vcu",
-				"seed": 11,
-				"score": 72,
-				"winner": true
-			},
-			"away": {
-				"name": "Florida State",
-				"code": "florida-st",
-				"seed": 10,
-				"score": 71,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 1,
-				"score": 61,
-				"winner": false
-			},
-			"away": {
-				"name": "VCU",
-				"code": "vcu",
-				"seed": 11,
-				"score": 71,
-				"winner": true
-			},
-			"date": "",
-			"region": "BR",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 1,
 				"score": 74,
@@ -981,11 +367,12 @@
 				"score": 51,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-17",
+			"location": "Washington, DC",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-north-carolina-asheville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +389,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-17",
+			"location": "Washington, DC",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-butler.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +411,12 @@
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-17",
+			"location": "Tucson, AZ",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-kansas-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1044,15 +433,16 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-17",
+			"location": "Tucson, AZ",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-belmont.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "St. John's",
+				"name": "St. John's (NY)",
 				"code": "st-johns-ny",
 				"seed": 6,
 				"score": 71,
@@ -1065,11 +455,12 @@
 				"score": 86,
 				"winner": true
 			},
-			"date": "",
+			"date": "2011-03-17",
+			"location": "Denver, CO",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-gonzaga.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +477,12 @@
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-17",
+			"location": "Denver, CO",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-brigham-young.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +499,12 @@
 				"score": 76,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-17",
+			"location": "Tampa, FL",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-michigan-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1122,21 +515,22 @@
 				"winner": true
 			},
 			"away": {
-				"name": "UC Santa Barbara",
+				"name": "UCSB",
 				"code": "uc-santa-barbara",
 				"seed": 15,
 				"score": 51,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-03-17",
+			"location": "Tampa, FL",
 			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-california-santa-barbara.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 1,
 				"score": 70,
@@ -1149,183 +543,852 @@
 				"score": 71,
 				"winner": true
 			},
-			"date": "",
+			"date": "2011-03-19",
+			"location": "Washington, DC",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-19-butler.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Wisconsin",
+				"code": "wisconsin",
+				"seed": 4,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
 				"name": "Kansas State",
 				"code": "kansas-st",
 				"seed": 5,
 				"score": 65,
 				"winner": false
 			},
-			"away": {
-				"name": "Wisconsin",
-				"code": "wisconsin",
-				"seed": 4,
-				"score": 70,
-				"winner": true
-			},
-			"date": "",
+			"date": "2011-03-19",
+			"location": "Tucson, AZ",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-19-kansas-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Gonzaga",
-				"code": "gonzaga",
-				"seed": 11,
-				"score": 67,
-				"winner": false
-			},
-			"away": {
 				"name": "BYU",
 				"code": "byu",
 				"seed": 3,
 				"score": 89,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 11,
+				"score": 67,
+				"winner": false
+			},
+			"date": "2011-03-19",
+			"location": "Denver, CO",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-19-brigham-young.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 7,
-				"score": 65,
-				"winner": false
-			},
-			"away": {
 				"name": "Florida",
 				"code": "florida",
 				"seed": 2,
 				"score": 73,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 7,
+				"score": 65,
+				"winner": false
+			},
+			"date": "2011-03-19",
+			"location": "Tampa, FL",
 			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-19-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Butler",
-				"code": "butler",
-				"seed": 8,
-				"score": 61,
-				"winner": true
-			},
-			"away": {
 				"name": "Wisconsin",
 				"code": "wisconsin",
 				"seed": 4,
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Butler",
+				"code": "butler",
+				"seed": 8,
+				"score": 61,
+				"winner": true
+			},
+			"date": "2011-03-24",
+			"location": "New Orleans, LA",
 			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-24-butler.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "BYU",
-				"code": "byu",
-				"seed": 3,
-				"score": 74,
-				"winner": false
-			},
-			"away": {
 				"name": "Florida",
 				"code": "florida",
 				"seed": 2,
 				"score": 83,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 3,
+				"score": 74,
+				"winner": false
+			},
+			"date": "2011-03-24",
+			"location": "New Orleans, LA",
 			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-24-brigham-young.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Butler",
-				"code": "butler",
-				"seed": 8,
-				"score": 74,
-				"winner": true
-			},
-			"away": {
 				"name": "Florida",
 				"code": "florida",
 				"seed": 2,
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
+			"away": {
+				"name": "Butler",
+				"code": "butler",
+				"seed": 8,
+				"score": 74,
+				"winner": true
+			},
+			"date": "2011-03-26",
+			"location": "New Orleans, LA",
 			"region": "TR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-26-butler.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 1,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Boston University",
+				"code": "boston-u",
+				"seed": 16,
+				"score": 53,
+				"winner": false
+			},
+			"date": "2011-03-18",
+			"location": "Tulsa, OK",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-boston-university.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 8,
+				"score": 62,
+				"winner": false
+			},
+			"away": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 9,
+				"score": 73,
+				"winner": true
+			},
+			"date": "2011-03-18",
+			"location": "Tulsa, OK",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-illinois.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Vanderbilt",
+				"code": "vanderbilt",
+				"seed": 5,
+				"score": 66,
+				"winner": false
+			},
+			"away": {
+				"name": "Richmond",
+				"code": "richmond",
+				"seed": 12,
+				"score": 69,
+				"winner": true
+			},
+			"date": "2011-03-17",
+			"location": "Denver, CO",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-richmond.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 4,
+				"score": 61,
+				"winner": false
+			},
+			"away": {
+				"name": "Morehead State",
+				"code": "morehead-st",
+				"seed": 13,
+				"score": 62,
+				"winner": true
+			},
+			"date": "2011-03-17",
+			"location": "Denver, CO",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-louisville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 6,
+				"score": 56,
+				"winner": false
+			},
+			"away": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 11,
+				"score": 74,
+				"winner": true
+			},
+			"date": "2011-03-18",
+			"location": "Chicago, IL",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-georgetown.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 3,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "St. Peter's",
+				"code": "st-peters",
+				"seed": 14,
+				"score": 43,
+				"winner": false
+			},
+			"date": "2011-03-18",
+			"location": "Chicago, IL",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-purdue.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas A&M",
+				"code": "texas-am",
+				"seed": 7,
+				"score": 50,
+				"winner": false
+			},
+			"away": {
+				"name": "Florida State",
+				"code": "florida-st",
+				"seed": 10,
+				"score": 57,
+				"winner": true
+			},
+			"date": "2011-03-18",
+			"location": "Chicago, IL",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-florida-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 2,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Akron",
+				"code": "akron",
+				"seed": 15,
+				"score": 56,
+				"winner": false
+			},
+			"date": "2011-03-18",
+			"location": "Chicago, IL",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-akron.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 1,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 9,
+				"score": 59,
+				"winner": false
+			},
+			"date": "2011-03-20",
+			"location": "Tulsa, OK",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-20-illinois.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Richmond",
+				"code": "richmond",
+				"seed": 12,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "Morehead State",
+				"code": "morehead-st",
+				"seed": 13,
+				"score": 48,
+				"winner": false
+			},
+			"date": "2011-03-19",
+			"location": "Denver, CO",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-19-morehead-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 3,
+				"score": 76,
+				"winner": false
+			},
+			"away": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 11,
+				"score": 94,
+				"winner": true
+			},
+			"date": "2011-03-20",
+			"location": "Chicago, IL",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-20-purdue.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 2,
+				"score": 57,
+				"winner": false
+			},
+			"away": {
+				"name": "Florida State",
+				"code": "florida-st",
+				"seed": 10,
+				"score": 71,
+				"winner": true
+			},
+			"date": "2011-03-20",
+			"location": "Chicago, IL",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-20-florida-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 1,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "Richmond",
+				"code": "richmond",
+				"seed": 12,
+				"score": 57,
+				"winner": false
+			},
+			"date": "2011-03-25",
+			"location": "San Antonio, TX",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-25-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida State",
+				"code": "florida-st",
+				"seed": 10,
+				"score": 71,
+				"winner": false
+			},
+			"away": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 11,
+				"score": 72,
+				"winner": true
+			},
+			"date": "2011-03-25",
+			"location": "San Antonio, TX",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-25-florida-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 1,
+				"score": 61,
+				"winner": false
+			},
+			"away": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 11,
+				"score": 71,
+				"winner": true
+			},
+			"date": "2011-03-27",
+			"location": "San Antonio, TX",
+			"region": "BR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-27-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Hampton",
+				"code": "hampton",
+				"seed": 16,
+				"score": 45,
+				"winner": false
+			},
+			"date": "2011-03-18",
+			"location": "Charlotte, NC",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 8,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 9,
+				"score": 45,
+				"winner": false
+			},
+			"date": "2011-03-18",
+			"location": "Charlotte, NC",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-michigan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 5,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 12,
+				"score": 75,
+				"winner": false
+			},
+			"date": "2011-03-18",
+			"location": "Tulsa, OK",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 4,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "Oakland",
+				"code": "oakland",
+				"seed": 13,
+				"score": 81,
+				"winner": false
+			},
+			"date": "2011-03-18",
+			"location": "Tulsa, OK",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-18-oakland.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 6,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Missouri",
+				"code": "missouri",
+				"seed": 11,
+				"score": 63,
+				"winner": false
+			},
+			"date": "2011-03-17",
+			"location": "Washington, DC",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 3,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Bucknell",
+				"code": "bucknell",
+				"seed": 14,
+				"score": 52,
+				"winner": false
+			},
+			"date": "2011-03-17",
+			"location": "Washington, DC",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-bucknell.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 7,
+				"score": 66,
+				"winner": true
+			},
+			"away": {
+				"name": "Penn State",
+				"code": "penn-st",
+				"seed": 10,
+				"score": 64,
+				"winner": false
+			},
+			"date": "2011-03-17",
+			"location": "Tucson, AZ",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-penn-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "San Diego State",
+				"code": "san-diego-st",
+				"seed": 2,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Northern Colorado",
+				"code": "northern-colo",
+				"seed": 15,
+				"score": 50,
+				"winner": false
+			},
+			"date": "2011-03-17",
+			"location": "Tucson, AZ",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-17-northern-colorado.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 8,
+				"score": 71,
+				"winner": false
+			},
+			"date": "2011-03-20",
+			"location": "Charlotte, NC",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-20-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 4,
+				"score": 69,
+				"winner": false
+			},
+			"away": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 5,
+				"score": 70,
+				"winner": true
+			},
+			"date": "2011-03-20",
+			"location": "Tulsa, OK",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-20-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 3,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 6,
+				"score": 58,
+				"winner": false
+			},
+			"date": "2011-03-19",
+			"location": "Washington, DC",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-19-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "San Diego State",
+				"code": "san-diego-st",
+				"seed": 2,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 7,
+				"score": 64,
+				"winner": false
+			},
+			"date": "2011-03-19",
+			"location": "Tucson, AZ",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-19-san-diego-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 77,
+				"winner": false
+			},
+			"away": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 5,
+				"score": 93,
+				"winner": true
+			},
+			"date": "2011-03-24",
+			"location": "Anaheim, CA",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-24-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "San Diego State",
+				"code": "san-diego-st",
+				"seed": 2,
+				"score": 67,
+				"winner": false
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 3,
+				"score": 74,
+				"winner": true
+			},
+			"date": "2011-03-24",
+			"location": "Anaheim, CA",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-24-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 3,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 5,
+				"score": 63,
+				"winner": false
+			},
+			"date": "2011-03-26",
+			"location": "Anaheim, CA",
+			"region": "TL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-03-26-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 3,
+				"score": 56,
+				"winner": true
+			},
+			"away": {
 				"name": "Kentucky",
 				"code": "kentucky",
 				"seed": 4,
 				"score": 55,
 				"winner": false
 			},
-			"away": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 3,
-				"score": 56,
-				"winner": true
-			},
-			"date": "",
+			"date": "2011-04-02",
+			"location": "Houston, TX",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-04-02-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "VCU",
-				"code": "vcu",
-				"seed": 11,
-				"score": 62,
-				"winner": false
-			},
-			"away": {
 				"name": "Butler",
 				"code": "butler",
 				"seed": 8,
 				"score": 70,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 11,
+				"score": 62,
+				"winner": false
+			},
+			"date": "2011-04-02",
+			"location": "Houston, TX",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-04-02-butler.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 3,
 				"score": 53,
@@ -1338,11 +1401,12 @@
 				"score": 41,
 				"winner": false
 			},
-			"date": "",
+			"date": "2011-04-04",
+			"location": "Houston, TX",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2011-04-04-butler.html",
+			"isComplete": true
 		}
 	]
 }

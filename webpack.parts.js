@@ -40,17 +40,17 @@ exports.loadImages = ({ include, exclude, options } = {}) => ({
   }
 });
 
-exports.loadSVG = (options = {}) => {
+exports.loadLogos = (options = {}) => {
   return {
     module: {
       rules: [
         {
-          test: /\.svg$/,
+          test: /logos\/.*\.(svg|png)$/,
           use: [
             {
               loader: "file-loader",
               options: {
-                outputPath: "svg"
+                outputPath: "logos"
               }
             }
           ]

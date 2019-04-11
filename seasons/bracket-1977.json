@@ -1,0 +1,708 @@
+{
+	"format": "ncaa",
+	"displaySeeds": false,
+	"updated": "2019-04-11T05:14:33.122Z",
+	"year": 1977,
+	"regions": [
+		{
+			"name": "East",
+			"position": "TR"
+		},
+		{
+			"name": "Mideast",
+			"position": "BL"
+		},
+		{
+			"name": "Midwest",
+			"position": "TL"
+		},
+		{
+			"name": "West",
+			"position": "BR"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 8,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1977-03-12",
+			"location": "Philadelphia, PA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-12-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 4,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "Hofstra",
+				"code": "hofstra",
+				"seed": 5,
+				"score": 83,
+				"winner": false
+			},
+			"date": "1977-03-12",
+			"location": "Raleigh, NC",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-12-hofstra.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "VMI",
+				"code": "vmi",
+				"seed": 3,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Duquesne",
+				"code": "duquesne",
+				"seed": 6,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1977-03-12",
+			"location": "Raleigh, NC",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-12-duquesne.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 7,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1977-03-12",
+			"location": "Philadelphia, PA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-12-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 4,
+				"score": 77,
+				"winner": false
+			},
+			"date": "1977-03-17",
+			"location": "College Park, MD",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-17-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "VMI",
+				"code": "vmi",
+				"seed": 3,
+				"score": 78,
+				"winner": false
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 93,
+				"winner": true
+			},
+			"date": "1977-03-17",
+			"location": "College Park, MD",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-17-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1977-03-19",
+			"location": "College Park, MD",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-19-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Charlotte",
+				"code": "charlotte",
+				"seed": 1,
+				"score": 91,
+				"winner": true
+			},
+			"away": {
+				"name": "Central Michigan",
+				"code": "central-mich",
+				"seed": 8,
+				"score": 86,
+				"winner": false
+			},
+			"date": "1977-03-13",
+			"location": "Bloomington, IN",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-13-central-michigan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 4,
+				"score": 93,
+				"winner": true
+			},
+			"away": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 5,
+				"score": 88,
+				"winner": false
+			},
+			"date": "1977-03-13",
+			"location": "Baton Rouge, LA",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-13-syracuse.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Detroit",
+				"code": "detroit",
+				"seed": 3,
+				"score": 93,
+				"winner": true
+			},
+			"away": {
+				"name": "Middle Tennessee",
+				"code": "middle-tenn",
+				"seed": 6,
+				"score": 76,
+				"winner": false
+			},
+			"date": "1977-03-13",
+			"location": "Baton Rouge, LA",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-13-detroit-mercy.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 2,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "Holy Cross",
+				"code": "holy-cross",
+				"seed": 7,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1977-03-13",
+			"location": "Bloomington, IN",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-13-holy-cross.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Charlotte",
+				"code": "charlotte",
+				"seed": 1,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 4,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1977-03-17",
+			"location": "Lexington, KY",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-17-charlotte.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Detroit",
+				"code": "detroit",
+				"seed": 3,
+				"score": 81,
+				"winner": false
+			},
+			"away": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 2,
+				"score": 86,
+				"winner": true
+			},
+			"date": "1977-03-17",
+			"location": "Lexington, KY",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-17-detroit-mercy.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Charlotte",
+				"code": "charlotte",
+				"seed": 1,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 2,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1977-03-19",
+			"location": "Lexington, KY",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-19-charlotte.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 1,
+				"score": 66,
+				"winner": true
+			},
+			"away": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 8,
+				"score": 51,
+				"winner": false
+			},
+			"date": "1977-03-12",
+			"location": "Omaha, NE",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-12-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 4,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 5,
+				"score": 80,
+				"winner": false
+			},
+			"date": "1977-03-12",
+			"location": "Norman, OK",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-12-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Southern Illinois",
+				"code": "southern-ill",
+				"seed": 3,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 6,
+				"score": 77,
+				"winner": false
+			},
+			"date": "1977-03-12",
+			"location": "Omaha, NE",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-12-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 2,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 7,
+				"score": 80,
+				"winner": false
+			},
+			"date": "1977-03-12",
+			"location": "Norman, OK",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-12-arkansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 1,
+				"score": 67,
+				"winner": true
+			},
+			"away": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 4,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1977-03-17",
+			"location": "Oklahoma City, OK",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-17-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Southern Illinois",
+				"code": "southern-ill",
+				"seed": 3,
+				"score": 81,
+				"winner": false
+			},
+			"away": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 2,
+				"score": 86,
+				"winner": true
+			},
+			"date": "1977-03-17",
+			"location": "Oklahoma City, OK",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-17-southern-illinois.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 1,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Wake Forest",
+				"code": "wake-forest",
+				"seed": 2,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1977-03-19",
+			"location": "Oklahoma City, OK",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-19-marquette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 1,
+				"score": 121,
+				"winner": true
+			},
+			"away": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 8,
+				"score": 95,
+				"winner": false
+			},
+			"date": "1977-03-12",
+			"location": "Tucson, AZ",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-12-nevada-las-vegas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Utah",
+				"code": "utah",
+				"seed": 4,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 5,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1977-03-12",
+			"location": "Tucson, AZ",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-12-st-johns-ny.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 3,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 6,
+				"score": 79,
+				"winner": false
+			},
+			"date": "1977-03-12",
+			"location": "Pocatello, ID",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-12-louisville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Idaho State",
+				"code": "idaho-st",
+				"seed": 2,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Long Beach State",
+				"code": "long-beach-st",
+				"seed": 7,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1977-03-12",
+			"location": "Pocatello, ID",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-12-idaho-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 1,
+				"score": 88,
+				"winner": true
+			},
+			"away": {
+				"name": "Utah",
+				"code": "utah",
+				"seed": 4,
+				"score": 83,
+				"winner": false
+			},
+			"date": "1977-03-17",
+			"location": "Provo, UT",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-17-nevada-las-vegas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 3,
+				"score": 75,
+				"winner": false
+			},
+			"away": {
+				"name": "Idaho State",
+				"code": "idaho-st",
+				"seed": 2,
+				"score": 76,
+				"winner": true
+			},
+			"date": "1977-03-17",
+			"location": "Provo, UT",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-17-idaho-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 1,
+				"score": 107,
+				"winner": true
+			},
+			"away": {
+				"name": "Idaho State",
+				"code": "idaho-st",
+				"seed": 2,
+				"score": 90,
+				"winner": false
+			},
+			"date": "1977-03-19",
+			"location": "Provo, UT",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-19-idaho-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 1,
+				"score": 51,
+				"winner": true
+			},
+			"away": {
+				"name": "Charlotte",
+				"code": "charlotte",
+				"seed": 1,
+				"score": 49,
+				"winner": false
+			},
+			"date": "1977-03-26",
+			"location": "Atlanta, GA",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-26-charlotte.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 1,
+				"score": 83,
+				"winner": false
+			},
+			"away": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 84,
+				"winner": true
+			},
+			"date": "1977-03-26",
+			"location": "Atlanta, GA",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-26-nevada-las-vegas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 1,
+				"score": 67,
+				"winner": true
+			},
+			"away": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1977-03-28",
+			"location": "Atlanta, GA",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1977-03-28-marquette.html",
+			"isComplete": true
+		}
+	]
+}

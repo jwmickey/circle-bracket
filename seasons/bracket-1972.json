@@ -1,0 +1,554 @@
+{
+	"format": "ncaa",
+	"displaySeeds": false,
+	"updated": "2019-04-11T13:58:54.254Z",
+	"year": 1972,
+	"regions": [
+		{
+			"name": "East",
+			"position": "BR"
+		},
+		{
+			"name": "Mideast",
+			"position": "TR"
+		},
+		{
+			"name": "Midwest",
+			"position": "BL"
+		},
+		{
+			"name": "West",
+			"position": "TL"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "South Carolina",
+				"code": "south-carolina",
+				"seed": 4,
+				"score": 53,
+				"winner": true
+			},
+			"away": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 5,
+				"score": 51,
+				"winner": false
+			},
+			"date": "1972-03-11",
+			"location": "Williamsburg, PA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-11-south-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 2,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "East Carolina",
+				"code": "east-carolina",
+				"seed": 7,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1972-03-11",
+			"location": "Princeton, NJ",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-11-east-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 3,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 6,
+				"score": 60,
+				"winner": false
+			},
+			"date": "1972-03-11",
+			"location": "Jamaica, NY",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-11-pennsylvania.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "South Carolina",
+				"code": "south-carolina",
+				"seed": 4,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1972-03-16",
+			"location": "Morgantown, WV",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-16-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 2,
+				"score": 67,
+				"winner": false
+			},
+			"away": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 3,
+				"score": 78,
+				"winner": true
+			},
+			"date": "1972-03-16",
+			"location": "Morgantown, WV",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-16-pennsylvania.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 3,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1972-03-18",
+			"location": "Morgantown, WV",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-18-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida State",
+				"code": "florida-st",
+				"seed": 4,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Eastern Kentucky",
+				"code": "eastern-ky",
+				"seed": 5,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1972-03-11",
+			"location": "Knoxville, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-11-eastern-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 3,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Ohio",
+				"code": "ohio",
+				"seed": 6,
+				"score": 49,
+				"winner": false
+			},
+			"date": "1972-03-11",
+			"location": "Knoxville, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-11-marquette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida State",
+				"code": "florida-st",
+				"seed": 4,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Minnesota",
+				"code": "minnesota",
+				"seed": 1,
+				"score": 56,
+				"winner": false
+			},
+			"date": "1972-03-16",
+			"location": "Dayton, OH",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-16-florida-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 3,
+				"score": 69,
+				"winner": false
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 85,
+				"winner": true
+			},
+			"date": "1972-03-16",
+			"location": "Dayton, OH",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-16-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Florida State",
+				"code": "florida-st",
+				"seed": 4,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 54,
+				"winner": false
+			},
+			"date": "1972-03-18",
+			"location": "Dayton, OH",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-18-florida-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisiana",
+				"code": "la-lafayette",
+				"seed": 4,
+				"score": 112,
+				"winner": true
+			},
+			"away": {
+				"name": "Marshall",
+				"code": "marshall",
+				"seed": 5,
+				"score": 101,
+				"winner": false
+			},
+			"date": "1972-03-11",
+			"location": "Las Cruces, NM",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-11-louisiana-lafayette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 3,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 6,
+				"score": 74,
+				"winner": false
+			},
+			"date": "1972-03-11",
+			"location": "Las Cruces, NM",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-11-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 1,
+				"score": 88,
+				"winner": true
+			},
+			"away": {
+				"name": "Louisiana",
+				"code": "la-lafayette",
+				"seed": 4,
+				"score": 84,
+				"winner": false
+			},
+			"date": "1972-03-16",
+			"location": "Ames, IA",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-16-louisiana-lafayette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 3,
+				"score": 55,
+				"winner": false
+			},
+			"away": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 2,
+				"score": 66,
+				"winner": true
+			},
+			"date": "1972-03-16",
+			"location": "Ames, IA",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-16-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 1,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 2,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1972-03-18",
+			"location": "Ames, IA",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-18-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Weber State",
+				"code": "weber-st",
+				"seed": 4,
+				"score": 91,
+				"winner": true
+			},
+			"away": {
+				"name": "Hawaii",
+				"code": "hawaii",
+				"seed": 5,
+				"score": 64,
+				"winner": false
+			},
+			"date": "1972-03-11",
+			"location": "Pocatello, ID",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-11-hawaii.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Long Beach State",
+				"code": "long-beach-st",
+				"seed": 3,
+				"score": 95,
+				"winner": true
+			},
+			"away": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 6,
+				"score": 90,
+				"winner": false
+			},
+			"date": "1972-03-11",
+			"location": "Pocatello, ID",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-11-brigham-young.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "Weber State",
+				"code": "weber-st",
+				"seed": 4,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1972-03-16",
+			"location": "Provo, UT",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-16-ucla.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 2,
+				"score": 55,
+				"winner": false
+			},
+			"away": {
+				"name": "Long Beach State",
+				"code": "long-beach-st",
+				"seed": 3,
+				"score": 75,
+				"winner": true
+			},
+			"date": "1972-03-16",
+			"location": "Provo, UT",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-16-long-beach-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Long Beach State",
+				"code": "long-beach-st",
+				"seed": 3,
+				"score": 57,
+				"winner": false
+			},
+			"date": "1972-03-18",
+			"location": "Provo, UT",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-18-long-beach-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 96,
+				"winner": true
+			},
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": null,
+				"score": 77,
+				"winner": false
+			},
+			"date": "1972-03-23",
+			"location": "Los Angeles, CA",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-23-louisville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": null,
+				"score": 75,
+				"winner": false
+			},
+			"away": {
+				"name": "Florida State",
+				"code": "florida-st",
+				"seed": null,
+				"score": 79,
+				"winner": true
+			},
+			"date": "1972-03-23",
+			"location": "Los Angeles, CA",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-23-florida-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Florida State",
+				"code": "florida-st",
+				"seed": null,
+				"score": 76,
+				"winner": false
+			},
+			"date": "1972-03-25",
+			"location": "Los Angeles, CA",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1972-03-25-florida-state.html",
+			"isComplete": true
+		}
+	]
+}

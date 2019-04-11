@@ -1,29 +1,30 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:54:11.747Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:08:47.382Z",
 	"year": 1987,
 	"regions": [
 		{
 			"name": "East",
+			"position": "TR"
+		},
+		{
+			"name": "Midwest",
 			"position": "TL"
 		},
 		{
 			"name": "Southeast",
-			"position": "BL"
-		},
-		{
-			"name": "Midwest",
-			"position": "TR"
+			"position": "BR"
 		},
 		{
 			"name": "West",
-			"position": "BR"
+			"position": "BL"
 		}
 	],
 	"games": [
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 113,
@@ -36,11 +37,12 @@
 				"score": 82,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1987-03-12",
+			"location": "Charlotte, NC",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -57,11 +59,12 @@
 				"score": 97,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1987-03-12",
+			"location": "Charlotte, NC",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -72,17 +75,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Middle Tennessee State",
+				"name": "Middle Tennessee",
 				"code": "middle-tenn",
 				"seed": 12,
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1987-03-12",
+			"location": "Charlotte, NC",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-middle-tennessee.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -99,11 +103,12 @@
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1987-03-12",
+			"location": "Charlotte, NC",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-marshall.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -120,11 +125,12 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1987-03-13",
+			"location": "Syracuse, NY",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -141,11 +147,12 @@
 				"score": 95,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1987-03-13",
+			"location": "Syracuse, NY",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-northeastern.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -162,11 +169,12 @@
 				"score": 64,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1987-03-13",
+			"location": "Syracuse, NY",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-west-virginia.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -183,15 +191,16 @@
 				"score": 73,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1987-03-13",
+			"location": "Syracuse, NY",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-georgia-southern.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 109,
@@ -204,78 +213,82 @@
 				"score": 97,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1987-03-14",
+			"location": "Charlotte, NC",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-14-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Notre Dame",
-				"code": "notre-dame",
-				"seed": 5,
-				"score": 58,
-				"winner": true
-			},
-			"away": {
 				"name": "TCU",
 				"code": "tcu",
 				"seed": 4,
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 5,
+				"score": 58,
+				"winner": true
+			},
+			"date": "1987-03-14",
+			"location": "Charlotte, NC",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-14-notre-dame.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 6,
-				"score": 85,
-				"winner": true
-			},
-			"away": {
 				"name": "Purdue",
 				"code": "purdue",
 				"seed": 3,
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 6,
+				"score": 85,
+				"winner": true
+			},
+			"date": "1987-03-15",
+			"location": "Syracuse, NY",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-15-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Western Kentucky",
-				"code": "western-ky",
-				"seed": 10,
-				"score": 86,
-				"winner": false
-			},
-			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 2,
 				"score": 104,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Western Kentucky",
+				"code": "western-ky",
+				"seed": 10,
+				"score": 86,
+				"winner": false
+			},
+			"date": "1987-03-15",
+			"location": "Syracuse, NY",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-15-syracuse.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 74,
@@ -288,36 +301,38 @@
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1987-03-19",
+			"location": "East Rutherford, NJ",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-19-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Florida",
-				"code": "florida",
-				"seed": 6,
-				"score": 81,
-				"winner": false
-			},
-			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 2,
 				"score": 87,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 6,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1987-03-19",
+			"location": "East Rutherford, NJ",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-19-florida.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 75,
@@ -330,326 +345,12 @@
 				"score": 79,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "1987-03-21",
+			"location": "East Rutherford, NJ",
+			"region": "TR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Georgetown",
-				"code": "georgetown",
-				"seed": 1,
-				"score": 75,
-				"winner": true
-			},
-			"away": {
-				"name": "Bucknell",
-				"code": "bucknell",
-				"seed": 16,
-				"score": 53,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 8,
-				"score": 77,
-				"winner": false
-			},
-			"away": {
-				"name": "Ohio State",
-				"code": "ohio-st",
-				"seed": 9,
-				"score": 91,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 5,
-				"score": 66,
-				"winner": true
-			},
-			"away": {
-				"name": "Houston",
-				"code": "houston",
-				"seed": 12,
-				"score": 55,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Clemson",
-				"code": "clemson",
-				"seed": 4,
-				"score": 60,
-				"winner": false
-			},
-			"away": {
-				"name": "Southwest Missouri State",
-				"code": "missouri-st",
-				"seed": 13,
-				"score": 65,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Providence",
-				"code": "providence",
-				"seed": 6,
-				"score": 90,
-				"winner": true
-			},
-			"away": {
-				"name": "UAB",
-				"code": "uab",
-				"seed": 11,
-				"score": 68,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Illinois",
-				"code": "illinois",
-				"seed": 3,
-				"score": 67,
-				"winner": false
-			},
-			"away": {
-				"name": "Austin Peay",
-				"code": "austin-peay",
-				"seed": 14,
-				"score": 68,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "New Orleans",
-				"code": "new-orleans",
-				"seed": 7,
-				"score": 83,
-				"winner": true
-			},
-			"away": {
-				"name": "BYU",
-				"code": "byu",
-				"seed": 10,
-				"score": 79,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Alabama",
-				"code": "alabama",
-				"seed": 2,
-				"score": 88,
-				"winner": true
-			},
-			"away": {
-				"name": "North Carolina A&T",
-				"code": "nc-at",
-				"seed": 15,
-				"score": 71,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Georgetown",
-				"code": "georgetown",
-				"seed": 1,
-				"score": 82,
-				"winner": true
-			},
-			"away": {
-				"name": "Ohio State",
-				"code": "ohio-st",
-				"seed": 9,
-				"score": 79,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 5,
-				"score": 67,
-				"winner": true
-			},
-			"away": {
-				"name": "Southwest Missouri State",
-				"code": "missouri-st",
-				"seed": 13,
-				"score": 63,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Providence",
-				"code": "providence",
-				"seed": 6,
-				"score": 90,
-				"winner": true
-			},
-			"away": {
-				"name": "Austin Peay",
-				"code": "austin-peay",
-				"seed": 14,
-				"score": 87,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "New Orleans",
-				"code": "new-orleans",
-				"seed": 7,
-				"score": 76,
-				"winner": false
-			},
-			"away": {
-				"name": "Alabama",
-				"code": "alabama",
-				"seed": 2,
-				"score": 101,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Georgetown",
-				"code": "georgetown",
-				"seed": 1,
-				"score": 70,
-				"winner": true
-			},
-			"away": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 5,
-				"score": 57,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Providence",
-				"code": "providence",
-				"seed": 6,
-				"score": 103,
-				"winner": true
-			},
-			"away": {
-				"name": "Alabama",
-				"code": "alabama",
-				"seed": 2,
-				"score": 82,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Georgetown",
-				"code": "georgetown",
-				"seed": 1,
-				"score": 73,
-				"winner": false
-			},
-			"away": {
-				"name": "Providence",
-				"code": "providence",
-				"seed": 6,
-				"score": 88,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-21-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -666,11 +367,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1987-03-12",
+			"location": "Indianapolis, IN",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-fairfield.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -687,11 +389,12 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1987-03-12",
+			"location": "Indianapolis, IN",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-auburn.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -708,11 +411,12 @@
 				"score": 51,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1987-03-12",
+			"location": "Indianapolis, IN",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -729,15 +433,16 @@
 				"score": 70,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1987-03-12",
+			"location": "Indianapolis, IN",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-missouri.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "St. John's",
+				"name": "St. John's (NY)",
 				"code": "st-johns-ny",
 				"seed": 6,
 				"score": 57,
@@ -750,11 +455,12 @@
 				"score": 55,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1987-03-13",
+			"location": "Chicago, IL",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-st-johns-ny.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -771,11 +477,12 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1987-03-13",
+			"location": "Chicago, IL",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-depaul.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -792,11 +499,12 @@
 				"score": 85,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1987-03-13",
+			"location": "Chicago, IL",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-georgia-tech.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -813,11 +521,12 @@
 				"score": 56,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1987-03-13",
+			"location": "Chicago, IL",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-southern.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -834,11 +543,12 @@
 				"score": 90,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1987-03-14",
+			"location": "Indianapolis, IN",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-14-auburn.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -855,53 +565,56 @@
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1987-03-14",
+			"location": "Indianapolis, IN",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-14-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "St. John's",
-				"code": "st-johns-ny",
-				"seed": 6,
-				"score": 75,
-				"winner": false
-			},
-			"away": {
 				"name": "DePaul",
 				"code": "depaul",
 				"seed": 3,
 				"score": 83,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 6,
+				"score": 75,
+				"winner": false
+			},
+			"date": "1987-03-15",
+			"location": "Chicago, IL",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-15-depaul.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "LSU",
-				"code": "lsu",
-				"seed": 10,
-				"score": 72,
-				"winner": true
-			},
-			"away": {
 				"name": "Temple",
 				"code": "temple",
 				"seed": 2,
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "LSU",
+				"code": "lsu",
+				"seed": 10,
+				"score": 72,
+				"winner": true
+			},
+			"date": "1987-03-15",
+			"location": "Chicago, IL",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-15-louisiana-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -918,11 +631,12 @@
 				"score": 82,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1987-03-20",
+			"location": "Cincinnati, OH",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-20-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -939,11 +653,12 @@
 				"score": 63,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1987-03-20",
+			"location": "Cincinnati, OH",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-20-depaul.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -960,11 +675,342 @@
 				"score": 76,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "1987-03-22",
+			"location": "Cincinnati, OH",
+			"region": "TL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-22-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Bucknell",
+				"code": "bucknell",
+				"seed": 16,
+				"score": 53,
+				"winner": false
+			},
+			"date": "1987-03-13",
+			"location": "Atlanta, GA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-bucknell.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 8,
+				"score": 77,
+				"winner": false
+			},
+			"away": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": 9,
+				"score": 91,
+				"winner": true
+			},
+			"date": "1987-03-13",
+			"location": "Atlanta, GA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 5,
+				"score": 66,
+				"winner": true
+			},
+			"away": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 12,
+				"score": 55,
+				"winner": false
+			},
+			"date": "1987-03-13",
+			"location": "Atlanta, GA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Clemson",
+				"code": "clemson",
+				"seed": 4,
+				"score": 60,
+				"winner": false
+			},
+			"away": {
+				"name": "Missouri State",
+				"code": "missouri-st",
+				"seed": 13,
+				"score": 65,
+				"winner": true
+			},
+			"date": "1987-03-13",
+			"location": "Atlanta, GA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-clemson.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 6,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "Alabama-Birmingham",
+				"code": "uab",
+				"seed": 11,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1987-03-12",
+			"location": "Birmingham, AL",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-alabama-birmingham.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 3,
+				"score": 67,
+				"winner": false
+			},
+			"away": {
+				"name": "Austin Peay",
+				"code": "austin-peay",
+				"seed": 14,
+				"score": 68,
+				"winner": true
+			},
+			"date": "1987-03-12",
+			"location": "Birmingham, AL",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-austin-peay.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "New Orleans",
+				"code": "new-orleans",
+				"seed": 7,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 10,
+				"score": 79,
+				"winner": false
+			},
+			"date": "1987-03-12",
+			"location": "Birmingham, AL",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-brigham-young.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 2,
+				"score": 88,
+				"winner": true
+			},
+			"away": {
+				"name": "North Carolina A&T",
+				"code": "nc-at",
+				"seed": 15,
+				"score": 71,
+				"winner": false
+			},
+			"date": "1987-03-12",
+			"location": "Birmingham, AL",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-alabama.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Ohio State",
+				"code": "ohio-st",
+				"seed": 9,
+				"score": 79,
+				"winner": false
+			},
+			"date": "1987-03-15",
+			"location": "Atlanta, GA",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-15-georgetown.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 5,
+				"score": 67,
+				"winner": true
+			},
+			"away": {
+				"name": "Missouri State",
+				"code": "missouri-st",
+				"seed": 13,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1987-03-15",
+			"location": "Atlanta, GA",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-15-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 6,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "Austin Peay",
+				"code": "austin-peay",
+				"seed": 14,
+				"score": 87,
+				"winner": false
+			},
+			"date": "1987-03-14",
+			"location": "Birmingham, AL",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-14-austin-peay.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 2,
+				"score": 101,
+				"winner": true
+			},
+			"away": {
+				"name": "New Orleans",
+				"code": "new-orleans",
+				"seed": 7,
+				"score": 76,
+				"winner": false
+			},
+			"date": "1987-03-14",
+			"location": "Birmingham, AL",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-14-alabama.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 5,
+				"score": 57,
+				"winner": false
+			},
+			"date": "1987-03-19",
+			"location": "Louisville, KY",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-19-georgetown.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 2,
+				"score": 82,
+				"winner": false
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 6,
+				"score": 103,
+				"winner": true
+			},
+			"date": "1987-03-19",
+			"location": "Louisville, KY",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-19-alabama.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 1,
+				"score": 73,
+				"winner": false
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 6,
+				"score": 88,
+				"winner": true
+			},
+			"date": "1987-03-21",
+			"location": "Louisville, KY",
+			"region": "BR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-21-georgetown.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -981,11 +1027,12 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1987-03-12",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-idaho-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +1049,12 @@
 				"score": 82,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1987-03-12",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-georgia.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +1071,12 @@
 				"score": 64,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1987-03-12",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-virginia.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1044,11 +1093,12 @@
 				"score": 73,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1987-03-12",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-12-central-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,15 +1115,16 @@
 				"score": 69,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1987-03-13",
+			"location": "Tucson, AZ",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-oklahoma.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 3,
 				"score": 93,
@@ -1086,11 +1137,12 @@
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1987-03-13",
+			"location": "Tucson, AZ",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-marist.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +1159,12 @@
 				"score": 91,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1987-03-13",
+			"location": "Tucson, AZ",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,11 +1181,12 @@
 				"score": 76,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1987-03-13",
+			"location": "Tucson, AZ",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-13-iowa.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1149,74 +1203,78 @@
 				"score": 61,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1987-03-14",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-14-kansas-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Wyoming",
-				"code": "wyoming",
-				"seed": 12,
-				"score": 78,
-				"winner": true
-			},
-			"away": {
 				"name": "UCLA",
 				"code": "ucla",
 				"seed": 4,
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Wyoming",
+				"code": "wyoming",
+				"seed": 12,
+				"score": 78,
+				"winner": true
+			},
+			"date": "1987-03-14",
+			"location": "Salt Lake City, UT",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-14-ucla.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 3,
+				"score": 93,
+				"winner": false
+			},
+			"away": {
 				"name": "Oklahoma",
 				"code": "oklahoma",
 				"seed": 6,
 				"score": 96,
 				"winner": true
 			},
-			"away": {
-				"name": "Pittsburgh",
-				"code": "pittsburgh",
-				"seed": 3,
-				"score": 93,
-				"winner": false
-			},
-			"date": "",
-			"region": "BR",
+			"date": "1987-03-15",
+			"location": "Tucson, AZ",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-15-oklahoma.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "UTEP",
-				"code": "utep",
-				"seed": 7,
-				"score": 82,
-				"winner": false
-			},
-			"away": {
 				"name": "Iowa",
 				"code": "iowa",
 				"seed": 2,
 				"score": 84,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "UTEP",
+				"code": "utep",
+				"seed": 7,
+				"score": 82,
+				"winner": false
+			},
+			"date": "1987-03-15",
+			"location": "Tucson, AZ",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-15-iowa.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1233,32 +1291,34 @@
 				"score": 78,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1987-03-20",
+			"location": "Seattle, WA",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-20-nevada-las-vegas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Oklahoma",
-				"code": "oklahoma",
-				"seed": 6,
-				"score": 91,
-				"winner": false
-			},
-			"away": {
 				"name": "Iowa",
 				"code": "iowa",
 				"seed": 2,
 				"score": 93,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 6,
+				"score": 91,
+				"winner": false
+			},
+			"date": "1987-03-20",
+			"location": "Seattle, WA",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-20-iowa.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1275,11 +1335,34 @@
 				"score": 81,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1987-03-22",
+			"location": "Seattle, WA",
+			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-22-iowa.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNLV",
+				"code": "unlv",
+				"seed": 1,
+				"score": 93,
+				"winner": false
+			},
+			"away": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 1,
+				"score": 97,
+				"winner": true
+			},
+			"date": "1987-03-28",
+			"location": "New Orleans, LA",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-28-indiana.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1296,53 +1379,34 @@
 				"score": 63,
 				"winner": false
 			},
-			"date": "",
+			"date": "1987-03-28",
+			"location": "New Orleans, LA",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-28-providence.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Indiana",
-				"code": "indiana",
-				"seed": 1,
-				"score": 97,
-				"winner": true
-			},
-			"away": {
-				"name": "UNLV",
-				"code": "unlv",
-				"seed": 1,
-				"score": 93,
-				"winner": false
-			},
-			"date": "",
-			"region": "",
-			"round": 5,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 2,
-				"score": 73,
-				"winner": false
-			},
-			"away": {
 				"name": "Indiana",
 				"code": "indiana",
 				"seed": 1,
 				"score": 74,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 2,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1987-03-30",
+			"location": "New Orleans, LA",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1987-03-30-indiana.html",
+			"isComplete": true
 		}
 	]
 }

@@ -1,0 +1,510 @@
+{
+	"format": "ncaa",
+	"displaySeeds": false,
+	"updated": "2019-04-11T14:00:30.582Z",
+	"year": 1967,
+	"regions": [
+		{
+			"name": "East",
+			"position": "BR"
+		},
+		{
+			"name": "Mideast",
+			"position": "TR"
+		},
+		{
+			"name": "Midwest",
+			"position": "BL"
+		},
+		{
+			"name": "West",
+			"position": "TL"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 4,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 5,
+				"score": 57,
+				"winner": false
+			},
+			"date": "1967-03-11",
+			"location": "Blacksburg, VA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-11-princeton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 2,
+				"score": 57,
+				"winner": true
+			},
+			"away": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 7,
+				"score": 53,
+				"winner": false
+			},
+			"date": "1967-03-11",
+			"location": "Blacksburg, VA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-11-st-johns-ny.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 3,
+				"score": 48,
+				"winner": true
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 6,
+				"score": 42,
+				"winner": false
+			},
+			"date": "1967-03-11",
+			"location": "Kingston, RI",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-11-boston-college.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 4,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1967-03-17",
+			"location": "College Park, MD",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-17-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 2,
+				"score": 62,
+				"winner": false
+			},
+			"away": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 3,
+				"score": 63,
+				"winner": true
+			},
+			"date": "1967-03-17",
+			"location": "College Park, MD",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-17-boston-college.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 96,
+				"winner": true
+			},
+			"away": {
+				"name": "Boston College",
+				"code": "boston-college",
+				"seed": 3,
+				"score": 80,
+				"winner": false
+			},
+			"date": "1967-03-18",
+			"location": "College Park, MD",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-18-boston-college.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 4,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Western Kentucky",
+				"code": "western-ky",
+				"seed": 5,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1967-03-11",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-11-dayton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Virginia Tech",
+				"code": "virginia-tech",
+				"seed": 3,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Toledo",
+				"code": "toledo",
+				"seed": 6,
+				"score": 76,
+				"winner": false
+			},
+			"date": "1967-03-11",
+			"location": "Lexington, KY",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-11-toledo.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 4,
+				"score": 53,
+				"winner": true
+			},
+			"away": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 1,
+				"score": 52,
+				"winner": false
+			},
+			"date": "1967-03-17",
+			"location": "Evanston, IL",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-17-dayton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 2,
+				"score": 70,
+				"winner": false
+			},
+			"away": {
+				"name": "Virginia Tech",
+				"code": "virginia-tech",
+				"seed": 3,
+				"score": 79,
+				"winner": true
+			},
+			"date": "1967-03-17",
+			"location": "Evanston, IL",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-17-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 4,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Virginia Tech",
+				"code": "virginia-tech",
+				"seed": 3,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1967-03-18",
+			"location": "Evanston, IL",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-18-dayton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 4,
+				"score": 59,
+				"winner": true
+			},
+			"away": {
+				"name": "New Mexico State",
+				"code": "new-mexico-st",
+				"seed": 5,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1967-03-11",
+			"location": "Fort Collins, CO",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-11-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 4,
+				"score": 66,
+				"winner": true
+			},
+			"away": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 1,
+				"score": 53,
+				"winner": false
+			},
+			"date": "1967-03-17",
+			"location": "Lawrence, KS",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-17-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 2,
+				"score": 81,
+				"winner": false
+			},
+			"away": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": 3,
+				"score": 83,
+				"winner": true
+			},
+			"date": "1967-03-17",
+			"location": "Lawrence, KS",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-17-louisville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 4,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": 3,
+				"score": 75,
+				"winner": false
+			},
+			"date": "1967-03-18",
+			"location": "Lawrence, KS",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-18-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UTEP",
+				"code": "utep",
+				"seed": 4,
+				"score": 62,
+				"winner": true
+			},
+			"away": {
+				"name": "Seattle",
+				"code": "seattle",
+				"seed": 5,
+				"score": 54,
+				"winner": false
+			},
+			"date": "1967-03-11",
+			"location": "Fort Collins, CO",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-11-seattle.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 109,
+				"winner": true
+			},
+			"away": {
+				"name": "Wyoming",
+				"code": "wyoming",
+				"seed": 2,
+				"score": 60,
+				"winner": false
+			},
+			"date": "1967-03-17",
+			"location": "Corvallis, OR",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-17-ucla.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UTEP",
+				"code": "utep",
+				"seed": 4,
+				"score": 63,
+				"winner": false
+			},
+			"away": {
+				"name": "Pacific",
+				"code": "pacific",
+				"seed": 3,
+				"score": 72,
+				"winner": true
+			},
+			"date": "1967-03-17",
+			"location": "Corvallis, OR",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-17-pacific.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 80,
+				"winner": true
+			},
+			"away": {
+				"name": "Pacific",
+				"code": "pacific",
+				"seed": 3,
+				"score": 64,
+				"winner": false
+			},
+			"date": "1967-03-18",
+			"location": "Corvallis, OR",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-18-pacific.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": null,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1967-03-24",
+			"location": "Louisville, KY",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-24-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": null,
+				"score": 62,
+				"winner": false
+			},
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": null,
+				"score": 76,
+				"winner": true
+			},
+			"date": "1967-03-24",
+			"location": "Louisville, KY",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-24-dayton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": null,
+				"score": 64,
+				"winner": false
+			},
+			"date": "1967-03-25",
+			"location": "Louisville, KY",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1967-03-25-dayton.html",
+			"isComplete": true
+		}
+	]
+}

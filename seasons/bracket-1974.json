@@ -1,0 +1,554 @@
+{
+	"format": "ncaa",
+	"displaySeeds": false,
+	"updated": "2019-04-11T14:48:04.891Z",
+	"year": 1974,
+	"regions": [
+		{
+			"name": "East",
+			"position": "TL"
+		},
+		{
+			"name": "Mideast",
+			"position": "TR"
+		},
+		{
+			"name": "Midwest",
+			"position": "BR"
+		},
+		{
+			"name": "West",
+			"position": "BL"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 4,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 5,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1974-03-09",
+			"location": "Jamaica, NY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-09-pennsylvania.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Furman",
+				"code": "furman",
+				"seed": 2,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "South Carolina",
+				"code": "south-carolina",
+				"seed": 7,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1974-03-09",
+			"location": "Philadelphia, PA",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-09-furman.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 3,
+				"score": 54,
+				"winner": true
+			},
+			"away": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 6,
+				"score": 42,
+				"winner": false
+			},
+			"date": "1974-03-09",
+			"location": "Morgantown, WV",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-09-pittsburgh.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 1,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 4,
+				"score": 78,
+				"winner": false
+			},
+			"date": "1974-03-14",
+			"location": "Raleigh, NC",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-14-north-carolina-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Furman",
+				"code": "furman",
+				"seed": 2,
+				"score": 78,
+				"winner": false
+			},
+			"away": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 3,
+				"score": 81,
+				"winner": true
+			},
+			"date": "1974-03-14",
+			"location": "Raleigh, NC",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-14-furman.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 1,
+				"score": 100,
+				"winner": true
+			},
+			"away": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 3,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1974-03-16",
+			"location": "Raleigh, NC",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-16-north-carolina-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 4,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "Ohio",
+				"code": "ohio",
+				"seed": 5,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1974-03-09",
+			"location": "Terre Haute, IN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-09-marquette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 3,
+				"score": 108,
+				"winner": true
+			},
+			"away": {
+				"name": "Austin Peay",
+				"code": "austin-peay",
+				"seed": 6,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1974-03-09",
+			"location": "Terre Haute, IN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-09-austin-peay.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 4,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "Vanderbilt",
+				"code": "vanderbilt",
+				"seed": 1,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1974-03-14",
+			"location": "Tuscaloosa, AL",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-14-marquette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 3,
+				"score": 68,
+				"winner": false
+			},
+			"away": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 2,
+				"score": 77,
+				"winner": true
+			},
+			"date": "1974-03-14",
+			"location": "Tuscaloosa, AL",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-14-michigan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 4,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 2,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1974-03-16",
+			"location": "Tuscaloosa, AL",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-16-marquette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Creighton",
+				"code": "creighton",
+				"seed": 4,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 5,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1974-03-09",
+			"location": "Denton, TX",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-09-creighton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oral Roberts",
+				"code": "oral-roberts",
+				"seed": 3,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 6,
+				"score": 82,
+				"winner": false
+			},
+			"date": "1974-03-09",
+			"location": "Denton, TX",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-09-oral-roberts.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 1,
+				"score": 55,
+				"winner": true
+			},
+			"away": {
+				"name": "Creighton",
+				"code": "creighton",
+				"seed": 4,
+				"score": 54,
+				"winner": false
+			},
+			"date": "1974-03-14",
+			"location": "Tulsa, OK",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-14-creighton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 2,
+				"score": 93,
+				"winner": false
+			},
+			"away": {
+				"name": "Oral Roberts",
+				"code": "oral-roberts",
+				"seed": 3,
+				"score": 96,
+				"winner": true
+			},
+			"date": "1974-03-14",
+			"location": "Tulsa, OK",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-14-louisville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 1,
+				"score": 93,
+				"winner": true
+			},
+			"away": {
+				"name": "Oral Roberts",
+				"code": "oral-roberts",
+				"seed": 3,
+				"score": 90,
+				"winner": false
+			},
+			"date": "1974-03-16",
+			"location": "Tulsa, OK",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-16-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 4,
+				"score": 88,
+				"winner": true
+			},
+			"away": {
+				"name": "Cal State Los Angeles",
+				"code": "cal-st-los-angeles",
+				"seed": 5,
+				"score": 80,
+				"winner": false
+			},
+			"date": "1974-03-09",
+			"location": "Pocatello, ID",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-09-cal-state-los-angeles.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "New Mexico",
+				"code": "new-mexico",
+				"seed": 3,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Idaho State",
+				"code": "idaho-st",
+				"seed": 6,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1974-03-09",
+			"location": "Pocatello, ID",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-09-idaho-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 111,
+				"winner": true
+			},
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 4,
+				"score": 100,
+				"winner": false
+			},
+			"date": "1974-03-14",
+			"location": "Tucson, AZ",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-14-dayton.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "New Mexico",
+				"code": "new-mexico",
+				"seed": 3,
+				"score": 61,
+				"winner": false
+			},
+			"away": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 2,
+				"score": 64,
+				"winner": true
+			},
+			"date": "1974-03-14",
+			"location": "Tucson, AZ",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-14-new-mexico.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 2,
+				"score": 60,
+				"winner": false
+			},
+			"date": "1974-03-16",
+			"location": "Tucson, AZ",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-16-san-francisco.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": null,
+				"score": 80,
+				"winner": true
+			},
+			"away": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 77,
+				"winner": false
+			},
+			"date": "1974-03-23",
+			"location": "Greensboro, NC",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-23-north-carolina-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": null,
+				"score": 51,
+				"winner": false
+			},
+			"away": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": null,
+				"score": 64,
+				"winner": true
+			},
+			"date": "1974-03-23",
+			"location": "Greensboro, NC",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-23-kansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": null,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": null,
+				"score": 64,
+				"winner": false
+			},
+			"date": "1974-03-25",
+			"location": "Greensboro, NC",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1974-03-25-marquette.html",
+			"isComplete": true
+		}
+	]
+}

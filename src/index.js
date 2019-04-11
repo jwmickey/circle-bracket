@@ -9,7 +9,7 @@ import "./styles/style.sass";
 
 const trackingId = "UA-137823086-1";
 const hash = new URL(document.location).hash;
-const minYear = 1985;
+const minYear = 1956;
 const maxYear = new Date().getFullYear();
 const options = hash.substring(1).split("/");
 const year = parseInt(options[0]) || maxYear;
@@ -31,13 +31,13 @@ const wrap = document.body.appendChild(canvas(width, height));
 const bracket = new Bracket(wrap.childNodes[0], { showGameDetails });
 
 let gameInfoElem;
-function showGameDetails(game) {
+function showGameDetails(game, displaySeeds = true) {
   if (gameInfoElem) {
     gameInfoElem.remove();
   }
 
   if (game) {
-    let info = gameInfo(game);
+    let info = gameInfo(game, displaySeeds);
     info.querySelector(".close").addEventListener("click", () => {
       showGameDetails(null);
     });
@@ -45,13 +45,10 @@ function showGameDetails(game) {
   }
 }
 
-let bracketInfo;
-
 function drawBracket(bracketYear) {
   wrap.classList.add("loading");
   axios.get(`/seasons/bracket-${bracketYear}.json`).then(res => {
-    bracketInfo = res.data;
-    bracket.setBracket(bracketInfo);
+    bracket.setBracket(res.data);
     bracket
       .render()
       .then(() => {
@@ -66,10 +63,8 @@ function drawBracket(bracketYear) {
 
 const years = Array.from(
   new Array(maxYear - minYear + 1),
-  (x, i) => i + 1985
+  (x, i) => i + minYear
 ).reverse();
-// add 1983 manually temporarily
-years.push(1983);
 
 document.body.appendChild(
   yearPicker(years, year, e => {

@@ -1,0 +1,883 @@
+{
+	"format": "ncaa",
+	"updated": "2019-04-11T02:28:01.986Z",
+	"year": 1979,
+	"regions": [
+		{
+			"name": "East",
+			"position": "BR"
+		},
+		{
+			"name": "Mideast",
+			"position": "TR"
+		},
+		{
+			"name": "Midwest",
+			"position": "TL"
+		},
+		{
+			"name": "West",
+			"position": "BL"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Iona",
+				"code": "iona",
+				"seed": 8,
+				"score": 69,
+				"winner": false
+			},
+			"away": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 9,
+				"score": 73,
+				"winner": true
+			},
+			"date": "1979-03-09",
+			"location": "Raleigh, NC",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-09-iona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 7,
+				"score": 70,
+				"winner": false
+			},
+			"away": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 10,
+				"score": 75,
+				"winner": true
+			},
+			"date": "1979-03-09",
+			"location": "Raleigh, NC",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-09-st-johns-ny.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 71,
+				"winner": false
+			},
+			"away": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 9,
+				"score": 72,
+				"winner": true
+			},
+			"date": "1979-03-11",
+			"location": "Raleigh, NC",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-11-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 4,
+				"score": 89,
+				"winner": true
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 5,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1979-03-10",
+			"location": "Providence, RI",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-10-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Georgetown",
+				"code": "georgetown",
+				"seed": 3,
+				"score": 58,
+				"winner": false
+			},
+			"away": {
+				"name": "Rutgers",
+				"code": "rutgers",
+				"seed": 6,
+				"score": 64,
+				"winner": true
+			},
+			"date": "1979-03-10",
+			"location": "Providence, RI",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-10-georgetown.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 2,
+				"score": 78,
+				"winner": false
+			},
+			"away": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 10,
+				"score": 80,
+				"winner": true
+			},
+			"date": "1979-03-10",
+			"location": "Raleigh, NC",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-10-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 4,
+				"score": 76,
+				"winner": false
+			},
+			"away": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 9,
+				"score": 84,
+				"winner": true
+			},
+			"date": "1979-03-16",
+			"location": "Greensboro, NC",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-16-pennsylvania.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Rutgers",
+				"code": "rutgers",
+				"seed": 6,
+				"score": 65,
+				"winner": false
+			},
+			"away": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 10,
+				"score": 67,
+				"winner": true
+			},
+			"date": "1979-03-16",
+			"location": "Greensboro, NC",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-16-rutgers.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 9,
+				"score": 64,
+				"winner": true
+			},
+			"away": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 10,
+				"score": 62,
+				"winner": false
+			},
+			"date": "1979-03-18",
+			"location": "Greensboro, NC",
+			"region": "BR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-18-pennsylvania.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 8,
+				"score": 97,
+				"winner": true
+			},
+			"away": {
+				"name": "Eastern Kentucky",
+				"code": "eastern-ky",
+				"seed": 9,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1979-03-09",
+			"location": "Murfreesboro, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-09-eastern-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Detroit",
+				"code": "detroit",
+				"seed": 7,
+				"score": 87,
+				"winner": false
+			},
+			"away": {
+				"name": "Lamar",
+				"code": "lamar",
+				"seed": 10,
+				"score": 95,
+				"winner": true
+			},
+			"date": "1979-03-09",
+			"location": "Murfreesboro, TN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-09-detroit-mercy.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 1,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 8,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1979-03-11",
+			"location": "Murfreesboro, TN",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-11-notre-dame.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 4,
+				"score": 72,
+				"winner": false
+			},
+			"away": {
+				"name": "Toledo",
+				"code": "toledo",
+				"seed": 5,
+				"score": 74,
+				"winner": true
+			},
+			"date": "1979-03-11",
+			"location": "Bloomington, IN",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-11-iowa.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "LSU",
+				"code": "lsu",
+				"seed": 3,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Appalachian State",
+				"code": "appalachian-st",
+				"seed": 6,
+				"score": 57,
+				"winner": false
+			},
+			"date": "1979-03-10",
+			"location": "Bloomington, IN",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-10-appalachian-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 2,
+				"score": 95,
+				"winner": true
+			},
+			"away": {
+				"name": "Lamar",
+				"code": "lamar",
+				"seed": 10,
+				"score": 64,
+				"winner": false
+			},
+			"date": "1979-03-10",
+			"location": "Murfreesboro, TN",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-10-lamar.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 1,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Toledo",
+				"code": "toledo",
+				"seed": 5,
+				"score": 71,
+				"winner": false
+			},
+			"date": "1979-03-16",
+			"location": "Indianapolis, IN",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-16-notre-dame.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 2,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "LSU",
+				"code": "lsu",
+				"seed": 3,
+				"score": 71,
+				"winner": false
+			},
+			"date": "1979-03-16",
+			"location": "Indianapolis, IN",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-16-louisiana-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Notre Dame",
+				"code": "notre-dame",
+				"seed": 1,
+				"score": 68,
+				"winner": false
+			},
+			"away": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 2,
+				"score": 80,
+				"winner": true
+			},
+			"date": "1979-03-18",
+			"location": "Indianapolis, IN",
+			"region": "TR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-18-michigan-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Virginia Tech",
+				"code": "virginia-tech",
+				"seed": 8,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Jacksonville",
+				"code": "jacksonville",
+				"seed": 9,
+				"score": 53,
+				"winner": false
+			},
+			"date": "1979-03-09",
+			"location": "Lawrence, KS",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-09-jacksonville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Weber State",
+				"code": "weber-st",
+				"seed": 7,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "New Mexico State",
+				"code": "new-mexico-st",
+				"seed": 10,
+				"score": 78,
+				"winner": false
+			},
+			"date": "1979-03-09",
+			"location": "Lawrence, KS",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-09-new-mexico-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana State",
+				"code": "indiana-st",
+				"seed": 1,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "Virginia Tech",
+				"code": "virginia-tech",
+				"seed": 8,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1979-03-11",
+			"location": "Lawrence, KS",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-11-indiana-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 4,
+				"score": 76,
+				"winner": false
+			},
+			"away": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 5,
+				"score": 90,
+				"winner": true
+			},
+			"date": "1979-03-11",
+			"location": "Dallas, TX",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-11-oklahoma.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 3,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "South Alabama",
+				"code": "south-ala",
+				"seed": 6,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1979-03-10",
+			"location": "Dallas, TX",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-10-louisville.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 2,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "Weber State",
+				"code": "weber-st",
+				"seed": 7,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1979-03-10",
+			"location": "Lawrence, KS",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-10-arkansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana State",
+				"code": "indiana-st",
+				"seed": 1,
+				"score": 93,
+				"winner": true
+			},
+			"away": {
+				"name": "Oklahoma",
+				"code": "oklahoma",
+				"seed": 5,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1979-03-15",
+			"location": "Cincinnati, OH",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-15-indiana-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 2,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 3,
+				"score": 62,
+				"winner": false
+			},
+			"date": "1979-03-15",
+			"location": "Cincinnati, OH",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-15-arkansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana State",
+				"code": "indiana-st",
+				"seed": 1,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 2,
+				"score": 71,
+				"winner": false
+			},
+			"date": "1979-03-17",
+			"location": "Cincinnati, OH",
+			"region": "TL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-17-arkansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Utah",
+				"code": "utah",
+				"seed": 8,
+				"score": 88,
+				"winner": false
+			},
+			"away": {
+				"name": "Pepperdine",
+				"code": "pepperdine",
+				"seed": 9,
+				"score": 92,
+				"winner": true
+			},
+			"date": "1979-03-09",
+			"location": "Los Angeles, CA",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-09-pepperdine.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "USC",
+				"code": "southern-california",
+				"seed": 7,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "Utah State",
+				"code": "utah-st",
+				"seed": 10,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1979-03-09",
+			"location": "Los Angeles, CA",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-09-southern-california.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Pepperdine",
+				"code": "pepperdine",
+				"seed": 9,
+				"score": 71,
+				"winner": false
+			},
+			"date": "1979-03-11",
+			"location": "Los Angeles, CA",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-11-pepperdine.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 4,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 5,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1979-03-11",
+			"location": "Tucson, AZ",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-11-brigham-young.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 3,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Pacific",
+				"code": "pacific",
+				"seed": 6,
+				"score": 48,
+				"winner": false
+			},
+			"date": "1979-03-10",
+			"location": "Tucson, AZ",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-10-marquette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "DePaul",
+				"code": "depaul",
+				"seed": 2,
+				"score": 89,
+				"winner": true
+			},
+			"away": {
+				"name": "USC",
+				"code": "southern-california",
+				"seed": 7,
+				"score": 78,
+				"winner": false
+			},
+			"date": "1979-03-11",
+			"location": "Los Angeles, CA",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-11-depaul.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 99,
+				"winner": true
+			},
+			"away": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 4,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1979-03-15",
+			"location": "Provo, UT",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-15-san-francisco.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "DePaul",
+				"code": "depaul",
+				"seed": 2,
+				"score": 62,
+				"winner": true
+			},
+			"away": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 3,
+				"score": 56,
+				"winner": false
+			},
+			"date": "1979-03-15",
+			"location": "Provo, UT",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-15-depaul.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 91,
+				"winner": false
+			},
+			"away": {
+				"name": "DePaul",
+				"code": "depaul",
+				"seed": 2,
+				"score": 95,
+				"winner": true
+			},
+			"date": "1979-03-17",
+			"location": "Provo, UT",
+			"region": "BL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-17-depaul.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 2,
+				"score": 101,
+				"winner": true
+			},
+			"away": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 9,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1979-03-24",
+			"location": "Salt Lake City, UT",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-24-michigan-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana State",
+				"code": "indiana-st",
+				"seed": 1,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "DePaul",
+				"code": "depaul",
+				"seed": 2,
+				"score": 74,
+				"winner": false
+			},
+			"date": "1979-03-24",
+			"location": "Salt Lake City, UT",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-24-depaul.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana State",
+				"code": "indiana-st",
+				"seed": 1,
+				"score": 64,
+				"winner": false
+			},
+			"away": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 2,
+				"score": 75,
+				"winner": true
+			},
+			"date": "1979-03-26",
+			"location": "Salt Lake City, UT",
+			"region": "",
+			"round": 6,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1979-03-26-indiana-state.html",
+			"isComplete": true
+		}
+	]
+}

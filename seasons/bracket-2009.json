@@ -1,23 +1,24 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T20:39:11.271Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:15:05.613Z",
 	"year": 2009,
 	"regions": [
 		{
-			"name": "",
-			"position": "TL"
+			"name": "Midwest",
+			"position": "TR"
 		},
 		{
-			"name": "",
+			"name": "East",
 			"position": "BL"
 		},
 		{
-			"name": "",
-			"position": "BR"
+			"name": "South",
+			"position": "TL"
 		},
 		{
-			"name": "",
-			"position": "TR"
+			"name": "West",
+			"position": "BR"
 		}
 	],
 	"games": [
@@ -36,11 +37,12 @@
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2009-03-20",
+			"location": "Dayton, OH",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -57,11 +59,12 @@
 				"score": 74,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2009-03-20",
+			"location": "Dayton, OH",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-ohio-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -78,11 +81,12 @@
 				"score": 84,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2009-03-20",
+			"location": "Miami, FL",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -99,11 +103,12 @@
 				"score": 84,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2009-03-20",
+			"location": "Miami, FL",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-cleveland-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -120,11 +125,12 @@
 				"score": 68,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2009-03-20",
+			"location": "Minneapolis, MN",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-dayton.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -141,11 +147,12 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2009-03-20",
+			"location": "Minneapolis, MN",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -162,11 +169,12 @@
 				"score": 72,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2009-03-20",
+			"location": "Minneapolis, MN",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-boston-college.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -183,11 +191,12 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2009-03-20",
+			"location": "Minneapolis, MN",
+			"region": "TR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-michigan-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -204,11 +213,12 @@
 				"score": 72,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2009-03-22",
+			"location": "Dayton, OH",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-22-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -225,53 +235,56 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2009-03-22",
+			"location": "Miami, FL",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-22-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Dayton",
-				"code": "dayton",
-				"seed": 11,
-				"score": 43,
-				"winner": false
-			},
-			"away": {
 				"name": "Kansas",
 				"code": "kansas",
 				"seed": 3,
 				"score": 60,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 11,
+				"score": 43,
+				"winner": false
+			},
+			"date": "2009-03-22",
+			"location": "Minneapolis, MN",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-22-dayton.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "USC",
-				"code": "southern-california",
-				"seed": 10,
-				"score": 69,
-				"winner": false
-			},
-			"away": {
 				"name": "Michigan State",
 				"code": "michigan-st",
 				"seed": 2,
 				"score": 74,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "USC",
+				"code": "southern-california",
+				"seed": 10,
+				"score": 69,
+				"winner": false
+			},
+			"date": "2009-03-22",
+			"location": "Minneapolis, MN",
+			"region": "TR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-22-michigan-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -288,32 +301,34 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2009-03-27",
+			"location": "Indianapolis, IN",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-27-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Kansas",
-				"code": "kansas",
-				"seed": 3,
-				"score": 62,
-				"winner": false
-			},
-			"away": {
 				"name": "Michigan State",
 				"code": "michigan-st",
 				"seed": 2,
 				"score": 67,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"away": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 3,
+				"score": 62,
+				"winner": false
+			},
+			"date": "2009-03-27",
+			"location": "Indianapolis, IN",
+			"region": "TR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-27-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -330,347 +345,34 @@
 				"score": 64,
 				"winner": true
 			},
-			"date": "",
-			"region": "TL",
+			"date": "2009-03-29",
+			"location": "Indianapolis, IN",
+			"region": "TR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-29-louisville.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 1,
-				"score": 103,
-				"winner": true
-			},
-			"away": {
-				"name": "Chattanooga",
-				"code": "chattanooga",
-				"seed": 16,
-				"score": 47,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "BYU",
-				"code": "byu",
-				"seed": 8,
-				"score": 66,
-				"winner": false
-			},
-			"away": {
-				"name": "Texas A&M",
-				"code": "texas-am",
-				"seed": 9,
-				"score": 79,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 5,
-				"score": 61,
-				"winner": true
-			},
-			"away": {
-				"name": "Northern Iowa",
-				"code": "uni",
-				"seed": 12,
-				"score": 56,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Washington",
-				"code": "washington",
-				"seed": 4,
-				"score": 71,
-				"winner": true
-			},
-			"away": {
-				"name": "Mississippi State",
-				"code": "mississippi-st",
-				"seed": 13,
-				"score": 58,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Marquette",
-				"code": "marquette",
-				"seed": 6,
-				"score": 58,
-				"winner": true
-			},
-			"away": {
-				"name": "Utah State",
-				"code": "utah-st",
-				"seed": 11,
-				"score": 57,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Missouri",
-				"code": "missouri",
-				"seed": 3,
-				"score": 78,
-				"winner": true
-			},
-			"away": {
-				"name": "Cornell",
-				"code": "cornell",
-				"seed": 14,
-				"score": 59,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "California",
-				"code": "california",
-				"seed": 7,
-				"score": 71,
-				"winner": false
-			},
-			"away": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 10,
-				"score": 84,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Memphis",
-				"code": "memphis",
-				"seed": 2,
-				"score": 81,
-				"winner": true
-			},
-			"away": {
-				"name": "Cal State Northridge",
-				"code": "cal-st-northridge",
-				"seed": 15,
-				"score": 70,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 1,
-				"score": 92,
-				"winner": true
-			},
-			"away": {
-				"name": "Texas A&M",
-				"code": "texas-am",
-				"seed": 9,
-				"score": 66,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 5,
-				"score": 76,
-				"winner": true
-			},
-			"away": {
-				"name": "Washington",
-				"code": "washington",
-				"seed": 4,
-				"score": 74,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Marquette",
-				"code": "marquette",
-				"seed": 6,
-				"score": 79,
-				"winner": false
-			},
-			"away": {
-				"name": "Missouri",
-				"code": "missouri",
-				"seed": 3,
-				"score": 83,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 10,
-				"score": 70,
-				"winner": false
-			},
-			"away": {
-				"name": "Memphis",
-				"code": "memphis",
-				"seed": 2,
-				"score": 89,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 1,
-				"score": 72,
-				"winner": true
-			},
-			"away": {
-				"name": "Purdue",
-				"code": "purdue",
-				"seed": 5,
-				"score": 60,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Missouri",
-				"code": "missouri",
-				"seed": 3,
-				"score": 102,
-				"winner": true
-			},
-			"away": {
-				"name": "Memphis",
-				"code": "memphis",
-				"seed": 2,
-				"score": 91,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 1,
-				"score": 82,
-				"winner": true
-			},
-			"away": {
-				"name": "Missouri",
-				"code": "missouri",
-				"seed": 3,
-				"score": 75,
-				"winner": false
-			},
-			"date": "",
-			"region": "BL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 1,
 				"score": 72,
 				"winner": true
 			},
 			"away": {
-				"name": "East Tennessee St.",
+				"name": "ETSU",
 				"code": "east-tenn-st",
 				"seed": 16,
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2009-03-20",
+			"location": "Dayton, OH",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-east-tennessee-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -687,15 +389,16 @@
 				"score": 75,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2009-03-20",
+			"location": "Dayton, OH",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-oklahoma-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Florida St.",
+				"name": "Florida State",
 				"code": "florida-st",
 				"seed": 5,
 				"score": 59,
@@ -708,11 +411,12 @@
 				"score": 61,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2009-03-20",
+			"location": "Boise, ID",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-florida-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -723,17 +427,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Portland St.",
+				"name": "Portland State",
 				"code": "portland-st",
 				"seed": 13,
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2009-03-20",
+			"location": "Boise, ID",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-portland-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -750,11 +455,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2009-03-19",
+			"location": "Philadelphia, PA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-ucla.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -771,11 +477,12 @@
 				"score": 67,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2009-03-19",
+			"location": "Philadelphia, PA",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-american.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -792,11 +499,12 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2009-03-19",
+			"location": "Greensboro, NC",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-minnesota.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -813,15 +521,16 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2009-03-19",
+			"location": "Greensboro, NC",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-binghamton.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 1,
 				"score": 84,
@@ -834,78 +543,82 @@
 				"score": 76,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2009-03-22",
+			"location": "Dayton, OH",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-22-oklahoma-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Wisconsin",
-				"code": "wisconsin",
-				"seed": 12,
-				"score": 49,
-				"winner": false
-			},
-			"away": {
 				"name": "Xavier",
 				"code": "xavier",
 				"seed": 4,
 				"score": 60,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Wisconsin",
+				"code": "wisconsin",
+				"seed": 12,
+				"score": 49,
+				"winner": false
+			},
+			"date": "2009-03-22",
+			"location": "Boise, ID",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-22-wisconsin.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 6,
-				"score": 69,
-				"winner": false
-			},
-			"away": {
 				"name": "Villanova",
 				"code": "villanova",
 				"seed": 3,
 				"score": 89,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Texas",
-				"code": "texas",
-				"seed": 7,
+			"away": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 6,
 				"score": 69,
 				"winner": false
 			},
-			"away": {
+			"date": "2009-03-21",
+			"location": "Philadelphia, PA",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-21-ucla.html",
+			"isComplete": true
+		},
+		{
+			"home": {
 				"name": "Duke",
 				"code": "duke",
 				"seed": 2,
 				"score": 74,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 7,
+				"score": 69,
+				"winner": false
+			},
+			"date": "2009-03-21",
+			"location": "Greensboro, NC",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-21-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 1,
 				"score": 60,
@@ -918,36 +631,38 @@
 				"score": 55,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2009-03-26",
+			"location": "Boston, MA",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-26-pittsburgh.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Villanova",
-				"code": "villanova",
-				"seed": 3,
-				"score": 77,
-				"winner": true
-			},
-			"away": {
 				"name": "Duke",
 				"code": "duke",
 				"seed": 2,
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 3,
+				"score": 77,
+				"winner": true
+			},
+			"date": "2009-03-26",
+			"location": "Boston, MA",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-26-duke.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Pittsburgh",
+				"name": "Pitt",
 				"code": "pittsburgh",
 				"seed": 1,
 				"score": 76,
@@ -960,15 +675,16 @@
 				"score": 78,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "2009-03-28",
+			"location": "Boston, MA",
+			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-28-pittsburgh.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 101,
@@ -981,11 +697,12 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2009-03-19",
+			"location": "Greensboro, NC",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +719,12 @@
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2009-03-19",
+			"location": "Greensboro, NC",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-butler.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +741,12 @@
 				"score": 76,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2009-03-19",
+			"location": "Portland, OR",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-illinois.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1044,11 +763,12 @@
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2009-03-19",
+			"location": "Portland, OR",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-akron.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,11 +785,12 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2009-03-20",
+			"location": "Miami, FL",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-arizona-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,11 +807,12 @@
 				"score": 44,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2009-03-20",
+			"location": "Miami, FL",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-stephen-f-austin.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1107,11 +829,12 @@
 				"score": 62,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2009-03-19",
+			"location": "Kansas City, MO",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-clemson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,15 +851,16 @@
 				"score": 54,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2009-03-19",
+			"location": "Kansas City, MO",
+			"region": "TL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-morgan-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 84,
@@ -1149,78 +873,82 @@
 				"score": 70,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2009-03-21",
+			"location": "Greensboro, NC",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-21-louisiana-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "WKU",
-				"code": "western-ky",
-				"seed": 12,
-				"score": 81,
-				"winner": false
-			},
-			"away": {
 				"name": "Gonzaga",
 				"code": "gonzaga",
 				"seed": 4,
 				"score": 83,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Western Kentucky",
+				"code": "western-ky",
+				"seed": 12,
+				"score": 81,
+				"winner": false
+			},
+			"date": "2009-03-21",
+			"location": "Portland, OR",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-21-gonzaga.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Arizona State",
-				"code": "arizona-st",
-				"seed": 6,
-				"score": 67,
-				"winner": false
-			},
-			"away": {
 				"name": "Syracuse",
 				"code": "syracuse",
 				"seed": 3,
 				"score": 78,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Arizona State",
+				"code": "arizona-st",
+				"seed": 6,
+				"score": 67,
+				"winner": false
+			},
+			"date": "2009-03-22",
+			"location": "Miami, FL",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-22-arizona-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Michigan",
-				"code": "michigan",
-				"seed": 10,
-				"score": 63,
-				"winner": false
-			},
-			"away": {
 				"name": "Oklahoma",
 				"code": "oklahoma",
 				"seed": 2,
 				"score": 73,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 10,
+				"score": 63,
+				"winner": false
+			},
+			"date": "2009-03-21",
+			"location": "Kansas City, MO",
+			"region": "TL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-21-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 98,
@@ -1233,36 +961,38 @@
 				"score": 77,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2009-03-27",
+			"location": "Memphis, TN",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-27-gonzaga.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 3,
-				"score": 71,
-				"winner": false
-			},
-			"away": {
 				"name": "Oklahoma",
 				"code": "oklahoma",
 				"seed": 2,
 				"score": 84,
 				"winner": true
 			},
-			"date": "",
-			"region": "TR",
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 3,
+				"score": 71,
+				"winner": false
+			},
+			"date": "2009-03-27",
+			"location": "Memphis, TN",
+			"region": "TL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-27-oklahoma.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 72,
@@ -1275,74 +1005,408 @@
 				"score": 60,
 				"winner": false
 			},
-			"date": "",
-			"region": "TR",
+			"date": "2009-03-29",
+			"location": "Memphis, TN",
+			"region": "TL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-29-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Michigan St.",
-				"code": "michigan-st",
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 1,
+				"score": 103,
+				"winner": true
+			},
+			"away": {
+				"name": "Chattanooga",
+				"code": "chattanooga",
+				"seed": 16,
+				"score": 47,
+				"winner": false
+			},
+			"date": "2009-03-19",
+			"location": "Philadelphia, PA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-chattanooga.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 8,
+				"score": 66,
+				"winner": false
+			},
+			"away": {
+				"name": "Texas A&M",
+				"code": "texas-am",
+				"seed": 9,
+				"score": 79,
+				"winner": true
+			},
+			"date": "2009-03-19",
+			"location": "Philadelphia, PA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-brigham-young.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 5,
+				"score": 61,
+				"winner": true
+			},
+			"away": {
+				"name": "Northern Iowa",
+				"code": "uni",
+				"seed": 12,
+				"score": 56,
+				"winner": false
+			},
+			"date": "2009-03-19",
+			"location": "Portland, OR",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-northern-iowa.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Washington",
+				"code": "washington",
+				"seed": 4,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Mississippi State",
+				"code": "mississippi-st",
+				"seed": 13,
+				"score": 58,
+				"winner": false
+			},
+			"date": "2009-03-19",
+			"location": "Portland, OR",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-mississippi-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 6,
+				"score": 58,
+				"winner": true
+			},
+			"away": {
+				"name": "Utah State",
+				"code": "utah-st",
+				"seed": 11,
+				"score": 57,
+				"winner": false
+			},
+			"date": "2009-03-20",
+			"location": "Boise, ID",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-marquette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Missouri",
+				"code": "missouri",
+				"seed": 3,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Cornell",
+				"code": "cornell",
+				"seed": 14,
+				"score": 59,
+				"winner": false
+			},
+			"date": "2009-03-20",
+			"location": "Boise, ID",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-20-cornell.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "California",
+				"code": "california",
+				"seed": 7,
+				"score": 71,
+				"winner": false
+			},
+			"away": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 10,
+				"score": 84,
+				"winner": true
+			},
+			"date": "2009-03-19",
+			"location": "Kansas City, MO",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-california.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
 				"seed": 2,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Cal State Northridge",
+				"code": "cal-st-northridge",
+				"seed": 15,
+				"score": 70,
+				"winner": false
+			},
+			"date": "2009-03-19",
+			"location": "Kansas City, MO",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-19-cal-state-northridge.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 1,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas A&M",
+				"code": "texas-am",
+				"seed": 9,
+				"score": 66,
+				"winner": false
+			},
+			"date": "2009-03-21",
+			"location": "Philadelphia, PA",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-21-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Washington",
+				"code": "washington",
+				"seed": 4,
+				"score": 74,
+				"winner": false
+			},
+			"away": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 5,
+				"score": 76,
+				"winner": true
+			},
+			"date": "2009-03-21",
+			"location": "Portland, OR",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-21-purdue.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Missouri",
+				"code": "missouri",
+				"seed": 3,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 6,
+				"score": 79,
+				"winner": false
+			},
+			"date": "2009-03-22",
+			"location": "Boise, ID",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-22-marquette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 2,
+				"score": 89,
+				"winner": true
+			},
+			"away": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 10,
+				"score": 70,
+				"winner": false
+			},
+			"date": "2009-03-21",
+			"location": "Kansas City, MO",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-21-maryland.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 1,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 5,
+				"score": 60,
+				"winner": false
+			},
+			"date": "2009-03-26",
+			"location": "Glendale, AZ",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-26-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 2,
+				"score": 91,
+				"winner": false
+			},
+			"away": {
+				"name": "Missouri",
+				"code": "missouri",
+				"seed": 3,
+				"score": 102,
+				"winner": true
+			},
+			"date": "2009-03-26",
+			"location": "Glendale, AZ",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-26-memphis.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 1,
 				"score": 82,
 				"winner": true
 			},
 			"away": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 1,
-				"score": 73,
+				"name": "Missouri",
+				"code": "missouri",
+				"seed": 3,
+				"score": 75,
 				"winner": false
 			},
-			"date": "",
-			"region": "",
-			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"date": "2009-03-28",
+			"location": "Glendale, AZ",
+			"region": "BR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-03-28-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
 				"name": "Villanova",
 				"code": "villanova",
 				"seed": 3,
 				"score": 69,
 				"winner": false
 			},
-			"away": {
-				"name": "North Carolina",
-				"code": "north-carolina",
-				"seed": 1,
-				"score": 83,
-				"winner": true
-			},
-			"date": "",
+			"date": "2009-04-04",
+			"location": "Detroit, MI",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-04-04-north-carolina.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Michigan St.",
-				"code": "michigan-st",
-				"seed": 2,
-				"score": 72,
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 1,
+				"score": 73,
 				"winner": false
 			},
 			"away": {
-				"name": "North Carolina",
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 2,
+				"score": 82,
+				"winner": true
+			},
+			"date": "2009-04-04",
+			"location": "Detroit, MI",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-04-04-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 89,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Michigan State",
+				"code": "michigan-st",
+				"seed": 2,
+				"score": 72,
+				"winner": false
+			},
+			"date": "2009-04-06",
+			"location": "Detroit, MI",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/2009-04-06-michigan-state.html",
+			"isComplete": true
 		}
 	]
 }

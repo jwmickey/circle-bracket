@@ -1,0 +1,554 @@
+{
+	"format": "ncaa",
+	"displaySeeds": false,
+	"updated": "2019-04-11T13:58:44.650Z",
+	"year": 1973,
+	"regions": [
+		{
+			"name": "East",
+			"position": "BR"
+		},
+		{
+			"name": "Mideast",
+			"position": "BL"
+		},
+		{
+			"name": "Midwest",
+			"position": "TR"
+		},
+		{
+			"name": "West",
+			"position": "TL"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 4,
+				"score": 89,
+				"winner": true
+			},
+			"away": {
+				"name": "St. Joseph's",
+				"code": "saint-josephs",
+				"seed": 5,
+				"score": 76,
+				"winner": false
+			},
+			"date": "1973-03-10",
+			"location": "Williamsburg, VA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-10-providence.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 2,
+				"score": 62,
+				"winner": true
+			},
+			"away": {
+				"name": "St. John's (NY)",
+				"code": "st-johns-ny",
+				"seed": 7,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1973-03-10",
+			"location": "Jamaica, NY",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-10-pennsylvania.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 3,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Furman",
+				"code": "furman",
+				"seed": 6,
+				"score": 82,
+				"winner": false
+			},
+			"date": "1973-03-10",
+			"location": "Philadelphia, PA",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-10-furman.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 4,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 2,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1973-03-15",
+			"location": "Charlotte, NC",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-15-pennsylvania.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 3,
+				"score": 75,
+				"winner": false
+			},
+			"away": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 1,
+				"score": 91,
+				"winner": true
+			},
+			"date": "1973-03-15",
+			"location": "Charlotte, NC",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-15-maryland.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 4,
+				"score": 103,
+				"winner": true
+			},
+			"away": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 1,
+				"score": 89,
+				"winner": false
+			},
+			"date": "1973-03-17",
+			"location": "Charlotte, NC",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-17-maryland.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 4,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "Miami (OH)",
+				"code": "miami-oh",
+				"seed": 5,
+				"score": 62,
+				"winner": false
+			},
+			"date": "1973-03-10",
+			"location": "Dayton, OH",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-10-marquette.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Austin Peay",
+				"code": "austin-peay",
+				"seed": 3,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "Jacksonville",
+				"code": "jacksonville",
+				"seed": 6,
+				"score": 75,
+				"winner": false
+			},
+			"date": "1973-03-10",
+			"location": "Dayton, OH",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-10-austin-peay.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 1,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 4,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1973-03-15",
+			"location": "Nashville, TN",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-15-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Austin Peay",
+				"code": "austin-peay",
+				"seed": 3,
+				"score": 100,
+				"winner": false
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 106,
+				"winner": true
+			},
+			"date": "1973-03-15",
+			"location": "Nashville, TN",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-15-austin-peay.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 1,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1973-03-17",
+			"location": "Nashville, TN",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-17-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "South Carolina",
+				"code": "south-carolina",
+				"seed": 4,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas Tech",
+				"code": "texas-tech",
+				"seed": 5,
+				"score": 70,
+				"winner": false
+			},
+			"date": "1973-03-10",
+			"location": "Wichita, KS",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-10-south-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisiana",
+				"code": "la-lafayette",
+				"seed": 3,
+				"score": 102,
+				"winner": true
+			},
+			"away": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 6,
+				"score": 89,
+				"winner": false
+			},
+			"date": "1973-03-10",
+			"location": "Wichita, KS",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-10-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 1,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "South Carolina",
+				"code": "south-carolina",
+				"seed": 4,
+				"score": 76,
+				"winner": false
+			},
+			"date": "1973-03-15",
+			"location": "Houston, TX",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-15-memphis.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Louisiana",
+				"code": "la-lafayette",
+				"seed": 3,
+				"score": 63,
+				"winner": false
+			},
+			"away": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 2,
+				"score": 66,
+				"winner": true
+			},
+			"date": "1973-03-15",
+			"location": "Houston, TX",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-15-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 1,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 2,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1973-03-17",
+			"location": "Houston, TX",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-17-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona State",
+				"code": "arizona-st",
+				"seed": 4,
+				"score": 103,
+				"winner": true
+			},
+			"away": {
+				"name": "Oklahoma City",
+				"code": "",
+				"seed": 5,
+				"score": 78,
+				"winner": false
+			},
+			"date": "1973-03-10",
+			"location": "Logan, UT",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-10-arizona-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Long Beach State",
+				"code": "long-beach-st",
+				"seed": 3,
+				"score": 88,
+				"winner": true
+			},
+			"away": {
+				"name": "Weber State",
+				"code": "weber-st",
+				"seed": 6,
+				"score": 75,
+				"winner": false
+			},
+			"date": "1973-03-10",
+			"location": "Logan, UT",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-10-long-beach-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 98,
+				"winner": true
+			},
+			"away": {
+				"name": "Arizona State",
+				"code": "arizona-st",
+				"seed": 4,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1973-03-15",
+			"location": "Los Angeles, CA",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-15-arizona-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Long Beach State",
+				"code": "long-beach-st",
+				"seed": 3,
+				"score": 67,
+				"winner": false
+			},
+			"away": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 2,
+				"score": 77,
+				"winner": true
+			},
+			"date": "1973-03-15",
+			"location": "Los Angeles, CA",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-15-long-beach-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 1,
+				"score": 54,
+				"winner": true
+			},
+			"away": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 2,
+				"score": 39,
+				"winner": false
+			},
+			"date": "1973-03-17",
+			"location": "Los Angeles, CA",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-17-san-francisco.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": null,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1973-03-24",
+			"location": "St. Louis, MO",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-24-indiana.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": null,
+				"score": 85,
+				"winner": false
+			},
+			"away": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": null,
+				"score": 98,
+				"winner": true
+			},
+			"date": "1973-03-24",
+			"location": "St. Louis, MO",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-24-memphis.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": null,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": null,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1973-03-26",
+			"location": "St. Louis, MO",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1973-03-26-memphis.html",
+			"isComplete": true
+		}
+	]
+}

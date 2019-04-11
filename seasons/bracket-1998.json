@@ -1,29 +1,30 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T16:44:50.856Z",
+	"displaySeeds": true,
+	"updated": "2019-04-11T18:12:26.558Z",
 	"year": 1998,
 	"regions": [
 		{
-			"name": "",
+			"name": "East",
+			"position": "BR"
+		},
+		{
+			"name": "Midwest",
 			"position": "BL"
 		},
 		{
-			"name": "",
+			"name": "South",
 			"position": "TL"
 		},
 		{
-			"name": "",
+			"name": "West",
 			"position": "TR"
-		},
-		{
-			"name": "",
-			"position": "BR"
 		}
 	],
 	"games": [
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 88,
@@ -36,11 +37,12 @@
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-12",
+			"location": "Hartford, CT",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-navy.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -57,11 +59,12 @@
 				"score": 62,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-12",
+			"location": "Hartford, CT",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-charlotte.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -78,11 +81,12 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-12",
+			"location": "Hartford, CT",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-nevada-las-vegas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -99,11 +103,12 @@
 				"score": 71,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-12",
+			"location": "Hartford, CT",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-eastern-michigan.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -120,11 +125,12 @@
 				"score": 69,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-12",
+			"location": "Washington, DC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-washington.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -141,11 +147,12 @@
 				"score": 62,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-12",
+			"location": "Washington, DC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-richmond.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -162,15 +169,16 @@
 				"score": 87,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-12",
+			"location": "Washington, DC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-indiana.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 2,
 				"score": 93,
@@ -183,15 +191,16 @@
 				"score": 85,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-12",
+			"location": "Washington, DC",
+			"region": "BR",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 93,
@@ -204,32 +213,34 @@
 				"score": 83,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-14",
+			"location": "Hartford, CT",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-14-charlotte.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Princeton",
-				"code": "princeton",
-				"seed": 5,
-				"score": 56,
-				"winner": false
-			},
-			"away": {
 				"name": "Michigan State",
 				"code": "michigan-st",
 				"seed": 4,
 				"score": 63,
 				"winner": true
 			},
-			"date": "",
-			"region": "BL",
+			"away": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 5,
+				"score": 56,
+				"winner": false
+			},
+			"date": "1998-03-14",
+			"location": "Hartford, CT",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-14-michigan-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -246,36 +257,38 @@
 				"score": 66,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-14",
+			"location": "Washington, DC",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-14-richmond.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 2,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
 				"name": "Indiana",
 				"code": "indiana",
 				"seed": 7,
 				"score": 68,
 				"winner": false
 			},
-			"away": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 2,
-				"score": 78,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-14",
+			"location": "Washington, DC",
+			"region": "BR",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-14-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 73,
@@ -288,683 +301,56 @@
 				"score": 58,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-19",
+			"location": "Greensboro, NC",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-19-michigan-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 2,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
 				"name": "Washington",
 				"code": "washington",
 				"seed": 11,
 				"score": 74,
 				"winner": false
 			},
-			"away": {
-				"name": "Connecticut",
-				"code": "uconn",
-				"seed": 2,
-				"score": 75,
-				"winner": true
-			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-19",
+			"location": "Greensboro, NC",
+			"region": "BR",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-19-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
+				"name": "UNC",
 				"code": "north-carolina",
 				"seed": 1,
 				"score": 75,
 				"winner": true
 			},
 			"away": {
-				"name": "Connecticut",
+				"name": "UConn",
 				"code": "uconn",
 				"seed": 2,
 				"score": 64,
 				"winner": false
 			},
-			"date": "",
-			"region": "BL",
+			"date": "1998-03-21",
+			"location": "Greensboro, NC",
+			"region": "BR",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 1,
-				"score": 99,
-				"winner": true
-			},
-			"away": {
-				"name": "Nicholls State",
-				"code": "nicholls-st",
-				"seed": 16,
-				"score": 60,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Tennessee",
-				"code": "tennessee",
-				"seed": 8,
-				"score": 81,
-				"winner": false
-			},
-			"away": {
-				"name": "Illinois State",
-				"code": "illinois-st",
-				"seed": 9,
-				"score": 82,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Illinois",
-				"code": "illinois",
-				"seed": 5,
-				"score": 64,
-				"winner": true
-			},
-			"away": {
-				"name": "South Alabama",
-				"code": "south-ala",
-				"seed": 12,
-				"score": 51,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 4,
-				"score": 82,
-				"winner": true
-			},
-			"away": {
-				"name": "Utah State",
-				"code": "utah-st",
-				"seed": 13,
-				"score": 68,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arkansas",
-				"code": "arkansas",
-				"seed": 6,
-				"score": 74,
-				"winner": true
-			},
-			"away": {
-				"name": "Nebraska",
-				"code": "nebraska",
-				"seed": 11,
-				"score": 65,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Utah",
-				"code": "utah",
-				"seed": 3,
-				"score": 85,
-				"winner": true
-			},
-			"away": {
-				"name": "San Francisco",
-				"code": "san-francisco",
-				"seed": 14,
-				"score": 68,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Temple",
-				"code": "temple",
-				"seed": 7,
-				"score": 52,
-				"winner": false
-			},
-			"away": {
-				"name": "West Virginia",
-				"code": "west-virginia",
-				"seed": 10,
-				"score": 82,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Cincinnati",
-				"code": "cincinnati",
-				"seed": 2,
-				"score": 65,
-				"winner": true
-			},
-			"away": {
-				"name": "Northern Arizona",
-				"code": "northern-ariz",
-				"seed": 15,
-				"score": 62,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 1,
-				"score": 82,
-				"winner": true
-			},
-			"away": {
-				"name": "Illinois State",
-				"code": "illinois-st",
-				"seed": 9,
-				"score": 49,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Illinois",
-				"code": "illinois",
-				"seed": 5,
-				"score": 61,
-				"winner": false
-			},
-			"away": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 4,
-				"score": 67,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arkansas",
-				"code": "arkansas",
-				"seed": 6,
-				"score": 69,
-				"winner": false
-			},
-			"away": {
-				"name": "Utah",
-				"code": "utah",
-				"seed": 3,
-				"score": 75,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "West Virginia",
-				"code": "west-virginia",
-				"seed": 10,
-				"score": 75,
-				"winner": true
-			},
-			"away": {
-				"name": "Cincinnati",
-				"code": "cincinnati",
-				"seed": 2,
-				"score": 74,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 1,
-				"score": 87,
-				"winner": true
-			},
-			"away": {
-				"name": "Maryland",
-				"code": "maryland",
-				"seed": 4,
-				"score": 79,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Utah",
-				"code": "utah",
-				"seed": 3,
-				"score": 65,
-				"winner": true
-			},
-			"away": {
-				"name": "West Virginia",
-				"code": "west-virginia",
-				"seed": 10,
-				"score": 62,
-				"winner": false
-			},
-			"date": "",
-			"region": "TL",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Arizona",
-				"code": "arizona",
-				"seed": 1,
-				"score": 51,
-				"winner": false
-			},
-			"away": {
-				"name": "Utah",
-				"code": "utah",
-				"seed": 3,
-				"score": 76,
-				"winner": true
-			},
-			"date": "",
-			"region": "TL",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 99,
-				"winner": true
-			},
-			"away": {
-				"name": "Radford",
-				"code": "radford",
-				"seed": 16,
-				"score": 63,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Oklahoma State",
-				"code": "oklahoma-st",
-				"seed": 8,
-				"score": 74,
-				"winner": true
-			},
-			"away": {
-				"name": "George Washington",
-				"code": "george-washington",
-				"seed": 9,
-				"score": 59,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 5,
-				"score": 63,
-				"winner": true
-			},
-			"away": {
-				"name": "Iona",
-				"code": "iona",
-				"seed": 12,
-				"score": 61,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "New Mexico",
-				"code": "new-mexico",
-				"seed": 4,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
-				"name": "Butler",
-				"code": "butler",
-				"seed": 13,
-				"score": 62,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 6,
-				"score": 65,
-				"winner": true
-			},
-			"away": {
-				"name": "Miami (FL)",
-				"code": "miami-fl",
-				"seed": 11,
-				"score": 62,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Michigan",
-				"code": "michigan",
-				"seed": 3,
-				"score": 80,
-				"winner": true
-			},
-			"away": {
-				"name": "Davidson",
-				"code": "davidson",
-				"seed": 14,
-				"score": 61,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Massachusetts",
-				"code": "massachusetts",
-				"seed": 7,
-				"score": 46,
-				"winner": false
-			},
-			"away": {
-				"name": "Saint Louis",
-				"code": "saint-louis",
-				"seed": 10,
-				"score": 51,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 2,
-				"score": 82,
-				"winner": true
-			},
-			"away": {
-				"name": "South Carolina State",
-				"code": "south-carolina-st",
-				"seed": 15,
-				"score": 67,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 1,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 79,
-				"winner": true
-			},
-			"away": {
-				"name": "Oklahoma State",
-				"code": "oklahoma-st",
-				"seed": 8,
-				"score": 73,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 5,
-				"score": 56,
-				"winner": true
-			},
-			"away": {
-				"name": "New Mexico",
-				"code": "new-mexico",
-				"seed": 4,
-				"score": 46,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 6,
-				"score": 85,
-				"winner": true
-			},
-			"away": {
-				"name": "Michigan",
-				"code": "michigan",
-				"seed": 3,
-				"score": 82,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Saint Louis",
-				"code": "saint-louis",
-				"seed": 10,
-				"score": 61,
-				"winner": false
-			},
-			"away": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 2,
-				"score": 88,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 80,
-				"winner": true
-			},
-			"away": {
-				"name": "Syracuse",
-				"code": "syracuse",
-				"seed": 5,
-				"score": 67,
-				"winner": false
-			},
-			"date": "",
-			"region": "TR",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "UCLA",
-				"code": "ucla",
-				"seed": 6,
-				"score": 68,
-				"winner": false
-			},
-			"away": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 2,
-				"score": 94,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 3,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Duke",
-				"code": "duke",
-				"seed": 1,
-				"score": 84,
-				"winner": false
-			},
-			"away": {
-				"name": "Kentucky",
-				"code": "kentucky",
-				"seed": 2,
-				"score": 86,
-				"winner": true
-			},
-			"date": "",
-			"region": "TR",
-			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-21-connecticut.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -975,17 +361,18 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Prairie View A&M",
+				"name": "Prairie View",
 				"code": "prairie-view",
 				"seed": 16,
 				"score": 52,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1998-03-13",
+			"location": "Oklahoma City, OK",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1002,11 +389,12 @@
 				"score": 74,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1998-03-13",
+			"location": "Oklahoma City, OK",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-murray-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1023,11 +411,12 @@
 				"score": 96,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1998-03-13",
+			"location": "Oklahoma City, OK",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-florida-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1038,17 +427,18 @@
 				"winner": false
 			},
 			"away": {
-				"name": "Valparaíso",
+				"name": "Valparaiso",
 				"code": "valparaiso",
 				"seed": 13,
 				"score": 70,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1998-03-13",
+			"location": "Oklahoma City, OK",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-mississippi.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1065,11 +455,12 @@
 				"score": 75,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1998-03-13",
+			"location": "Chicago, IL",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-clemson.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1086,15 +477,16 @@
 				"score": 57,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1998-03-13",
+			"location": "Chicago, IL",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-college-of-charleston.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "St. John's",
+				"name": "St. John's (NY)",
 				"code": "st-johns-ny",
 				"seed": 7,
 				"score": 64,
@@ -1107,11 +499,12 @@
 				"score": 66,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1998-03-13",
+			"location": "Chicago, IL",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-detroit-mercy.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1128,11 +521,12 @@
 				"score": 56,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1998-03-13",
+			"location": "Chicago, IL",
+			"region": "BL",
 			"round": 1,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-delaware.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1149,11 +543,12 @@
 				"score": 80,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1998-03-15",
+			"location": "Oklahoma City, OK",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-15-kansas.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1170,53 +565,56 @@
 				"score": 83,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1998-03-15",
+			"location": "Oklahoma City, OK",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-15-florida-state.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Western Michigan",
-				"code": "western-mich",
-				"seed": 11,
-				"score": 65,
-				"winner": false
-			},
-			"away": {
 				"name": "Stanford",
 				"code": "stanford",
 				"seed": 3,
 				"score": 83,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
-			"round": 2,
-			"isComplete": true,
-			"link": ""
-		},
-		{
-			"home": {
-				"name": "Detroit",
-				"code": "detroit",
-				"seed": 10,
+			"away": {
+				"name": "Western Michigan",
+				"code": "western-mich",
+				"seed": 11,
 				"score": 65,
 				"winner": false
 			},
-			"away": {
+			"date": "1998-03-15",
+			"location": "Chicago, IL",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-15-stanford.html",
+			"isComplete": true
+		},
+		{
+			"home": {
 				"name": "Purdue",
 				"code": "purdue",
 				"seed": 2,
 				"score": 80,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Detroit",
+				"code": "detroit",
+				"seed": 10,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1998-03-15",
+			"location": "Chicago, IL",
+			"region": "BL",
 			"round": 2,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-15-detroit-mercy.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1233,74 +631,716 @@
 				"score": 68,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"date": "1998-03-20",
+			"location": "St. Louis, MO",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-20-rhode-island.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Stanford",
-				"code": "stanford",
-				"seed": 3,
-				"score": 67,
-				"winner": true
-			},
-			"away": {
 				"name": "Purdue",
 				"code": "purdue",
 				"seed": 2,
 				"score": 59,
 				"winner": false
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Stanford",
+				"code": "stanford",
+				"seed": 3,
+				"score": 67,
+				"winner": true
+			},
+			"date": "1998-03-20",
+			"location": "St. Louis, MO",
+			"region": "BL",
 			"round": 3,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-20-purdue.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Rhode Island",
-				"code": "rhode-island",
-				"seed": 8,
-				"score": 77,
-				"winner": false
-			},
-			"away": {
 				"name": "Stanford",
 				"code": "stanford",
 				"seed": 3,
 				"score": 79,
 				"winner": true
 			},
-			"date": "",
-			"region": "BR",
+			"away": {
+				"name": "Rhode Island",
+				"code": "rhode-island",
+				"seed": 8,
+				"score": 77,
+				"winner": false
+			},
+			"date": "1998-03-22",
+			"location": "St. Louis, MO",
+			"region": "BL",
 			"round": 4,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-22-rhode-island.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "North Carolina",
-				"code": "north-carolina",
+				"name": "Duke",
+				"code": "duke",
 				"seed": 1,
+				"score": 99,
+				"winner": true
+			},
+			"away": {
+				"name": "Radford",
+				"code": "radford",
+				"seed": 16,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1998-03-13",
+			"location": "Lexington, KY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 8,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "George Washington",
+				"code": "george-washington",
+				"seed": 9,
 				"score": 59,
 				"winner": false
 			},
+			"date": "1998-03-13",
+			"location": "Lexington, KY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-george-washington.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 5,
+				"score": 63,
+				"winner": true
+			},
 			"away": {
+				"name": "Iona",
+				"code": "iona",
+				"seed": 12,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1998-03-13",
+			"location": "Lexington, KY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-iona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "New Mexico",
+				"code": "new-mexico",
+				"seed": 4,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Butler",
+				"code": "butler",
+				"seed": 13,
+				"score": 62,
+				"winner": false
+			},
+			"date": "1998-03-13",
+			"location": "Lexington, KY",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-butler.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 6,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "Miami (FL)",
+				"code": "miami-fl",
+				"seed": 11,
+				"score": 62,
+				"winner": false
+			},
+			"date": "1998-03-13",
+			"location": "Atlanta, GA",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-miami-fl.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 3,
+				"score": 80,
+				"winner": true
+			},
+			"away": {
+				"name": "Davidson",
+				"code": "davidson",
+				"seed": 14,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1998-03-13",
+			"location": "Atlanta, GA",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-davidson.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UMass",
+				"code": "massachusetts",
+				"seed": 7,
+				"score": 46,
+				"winner": false
+			},
+			"away": {
+				"name": "Saint Louis",
+				"code": "saint-louis",
+				"seed": 10,
+				"score": 51,
+				"winner": true
+			},
+			"date": "1998-03-13",
+			"location": "Atlanta, GA",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-massachusetts.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "South Carolina State",
+				"code": "south-carolina-st",
+				"seed": 15,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1998-03-13",
+			"location": "Atlanta, GA",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-13-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Oklahoma State",
+				"code": "oklahoma-st",
+				"seed": 8,
+				"score": 73,
+				"winner": false
+			},
+			"date": "1998-03-15",
+			"location": "Lexington, KY",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-15-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "New Mexico",
+				"code": "new-mexico",
+				"seed": 4,
+				"score": 46,
+				"winner": false
+			},
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 5,
+				"score": 56,
+				"winner": true
+			},
+			"date": "1998-03-15",
+			"location": "Lexington, KY",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-15-new-mexico.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 3,
+				"score": 82,
+				"winner": false
+			},
+			"away": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 6,
+				"score": 85,
+				"winner": true
+			},
+			"date": "1998-03-15",
+			"location": "Atlanta, GA",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-15-michigan.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 88,
+				"winner": true
+			},
+			"away": {
+				"name": "Saint Louis",
+				"code": "saint-louis",
+				"seed": 10,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1998-03-15",
+			"location": "Atlanta, GA",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-15-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 80,
+				"winner": true
+			},
+			"away": {
+				"name": "Syracuse",
+				"code": "syracuse",
+				"seed": 5,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1998-03-20",
+			"location": "St. Petersburg, FL",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-20-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 94,
+				"winner": true
+			},
+			"away": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 6,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1998-03-20",
+			"location": "St. Petersburg, FL",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-20-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 84,
+				"winner": false
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 86,
+				"winner": true
+			},
+			"date": "1998-03-22",
+			"location": "St. Petersburg, FL",
+			"region": "TL",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-22-duke.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 1,
+				"score": 99,
+				"winner": true
+			},
+			"away": {
+				"name": "Nicholls State",
+				"code": "nicholls-st",
+				"seed": 16,
+				"score": 60,
+				"winner": false
+			},
+			"date": "1998-03-12",
+			"location": "Sacramento, CA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 8,
+				"score": 81,
+				"winner": false
+			},
+			"away": {
+				"name": "Illinois State",
+				"code": "illinois-st",
+				"seed": 9,
+				"score": 82,
+				"winner": true
+			},
+			"date": "1998-03-12",
+			"location": "Sacramento, CA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-illinois-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 5,
+				"score": 64,
+				"winner": true
+			},
+			"away": {
+				"name": "South Alabama",
+				"code": "south-ala",
+				"seed": 12,
+				"score": 51,
+				"winner": false
+			},
+			"date": "1998-03-12",
+			"location": "Sacramento, CA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-illinois.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 4,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Utah State",
+				"code": "utah-st",
+				"seed": 13,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1998-03-12",
+			"location": "Sacramento, CA",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-maryland.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 6,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "Nebraska",
+				"code": "nebraska",
+				"seed": 11,
+				"score": 65,
+				"winner": false
+			},
+			"date": "1998-03-12",
+			"location": "Boise, ID",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-arkansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Utah",
+				"code": "utah",
+				"seed": 3,
+				"score": 85,
+				"winner": true
+			},
+			"away": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 14,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1998-03-12",
+			"location": "Boise, ID",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-san-francisco.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 7,
+				"score": 52,
+				"winner": false
+			},
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 10,
+				"score": 82,
+				"winner": true
+			},
+			"date": "1998-03-12",
+			"location": "Boise, ID",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-temple.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 2,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "Northern Arizona",
+				"code": "northern-ariz",
+				"seed": 15,
+				"score": 62,
+				"winner": false
+			},
+			"date": "1998-03-12",
+			"location": "Boise, ID",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-12-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 1,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Illinois State",
+				"code": "illinois-st",
+				"seed": 9,
+				"score": 49,
+				"winner": false
+			},
+			"date": "1998-03-14",
+			"location": "Sacramento, CA",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-14-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 4,
+				"score": 67,
+				"winner": true
+			},
+			"away": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 5,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1998-03-14",
+			"location": "Sacramento, CA",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-14-illinois.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Utah",
+				"code": "utah",
+				"seed": 3,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 6,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1998-03-14",
+			"location": "Boise, ID",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-14-arkansas.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Cincinnati",
+				"code": "cincinnati",
+				"seed": 2,
+				"score": 74,
+				"winner": false
+			},
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 10,
+				"score": 75,
+				"winner": true
+			},
+			"date": "1998-03-14",
+			"location": "Boise, ID",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-14-cincinnati.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 1,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 4,
+				"score": 79,
+				"winner": false
+			},
+			"date": "1998-03-19",
+			"location": "Anaheim, CA",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-19-arizona.html",
+			"isComplete": true
+		},
+		{
+			"home": {
 				"name": "Utah",
 				"code": "utah",
 				"seed": 3,
 				"score": 65,
 				"winner": true
 			},
-			"date": "",
-			"region": "",
-			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 10,
+				"score": 62,
+				"winner": false
+			},
+			"date": "1998-03-19",
+			"location": "Anaheim, CA",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-19-utah.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 1,
+				"score": 51,
+				"winner": false
+			},
+			"away": {
+				"name": "Utah",
+				"code": "utah",
+				"seed": 3,
+				"score": 76,
+				"winner": true
+			},
+			"date": "1998-03-21",
+			"location": "Anaheim, CA",
+			"region": "TR",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-21-arizona.html",
+			"isComplete": true
 		},
 		{
 			"home": {
@@ -1317,32 +1357,56 @@
 				"score": 85,
 				"winner": false
 			},
-			"date": "",
+			"date": "1998-03-28",
+			"location": "San Antonio, TX",
 			"region": "",
 			"round": 5,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-28-kentucky.html",
+			"isComplete": true
 		},
 		{
 			"home": {
-				"name": "Utah",
-				"code": "utah",
-				"seed": 3,
-				"score": 69,
+				"name": "UNC",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": 59,
 				"winner": false
 			},
 			"away": {
+				"name": "Utah",
+				"code": "utah",
+				"seed": 3,
+				"score": 65,
+				"winner": true
+			},
+			"date": "1998-03-28",
+			"location": "San Antonio, TX",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-28-north-carolina.html",
+			"isComplete": true
+		},
+		{
+			"home": {
 				"name": "Kentucky",
 				"code": "kentucky",
 				"seed": 2,
 				"score": 78,
 				"winner": true
 			},
-			"date": "",
+			"away": {
+				"name": "Utah",
+				"code": "utah",
+				"seed": 3,
+				"score": 69,
+				"winner": false
+			},
+			"date": "1998-03-30",
+			"location": "San Antonio, TX",
 			"region": "",
 			"round": 6,
-			"isComplete": true,
-			"link": ""
+			"link": "https://www.sports-reference.com/cbb/boxscores/1998-03-30-kentucky.html",
+			"isComplete": true
 		}
 	]
 }

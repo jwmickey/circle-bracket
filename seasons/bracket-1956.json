@@ -1,0 +1,554 @@
+{
+	"format": "ncaa",
+	"displaySeeds": false,
+	"updated": "2019-04-11T17:59:56.167Z",
+	"year": 1956,
+	"regions": [
+		{
+			"name": "East",
+			"position": "BR"
+		},
+		{
+			"name": "Farwest",
+			"position": "TL"
+		},
+		{
+			"name": "Midwest",
+			"position": "TR"
+		},
+		{
+			"name": "West",
+			"position": "BL"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 1,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "Holy Cross",
+				"code": "holy-cross",
+				"seed": 8,
+				"score": 72,
+				"winner": false
+			},
+			"date": "1956-03-12",
+			"location": "New York, NY",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-12-holy-cross.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 4,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Manhattan",
+				"code": "manhattan",
+				"seed": 5,
+				"score": 75,
+				"winner": false
+			},
+			"date": "1956-03-13",
+			"location": "New York, NY",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-13-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Dartmouth",
+				"code": "dartmouth",
+				"seed": 3,
+				"score": 61,
+				"winner": true
+			},
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 6,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1956-03-13",
+			"location": "New York, NY",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-13-dartmouth.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Canisius",
+				"code": "canisius",
+				"seed": 2,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 7,
+				"score": 78,
+				"winner": false
+			},
+			"date": "1956-03-12",
+			"location": "New York, NY",
+			"region": "BR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-12-canisius.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 1,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 4,
+				"score": 59,
+				"winner": false
+			},
+			"date": "1956-03-16",
+			"location": "Philadelphia, PA",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-16-connecticut.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Dartmouth",
+				"code": "dartmouth",
+				"seed": 3,
+				"score": 58,
+				"winner": false
+			},
+			"away": {
+				"name": "Canisius",
+				"code": "canisius",
+				"seed": 2,
+				"score": 66,
+				"winner": true
+			},
+			"date": "1956-03-16",
+			"location": "Philadelphia, PA",
+			"region": "BR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-16-canisius.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": 1,
+				"score": 60,
+				"winner": true
+			},
+			"away": {
+				"name": "Canisius",
+				"code": "canisius",
+				"seed": 2,
+				"score": 58,
+				"winner": false
+			},
+			"date": "1956-03-17",
+			"location": "Philadelphia, PA",
+			"region": "BR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-17-canisius.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Seattle",
+				"code": "seattle",
+				"seed": 4,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Idaho State",
+				"code": "idaho-st",
+				"seed": 5,
+				"score": 66,
+				"winner": false
+			},
+			"date": "1956-03-12",
+			"location": "Seattle, WA",
+			"region": "TL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-12-idaho-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 2,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 3,
+				"score": 61,
+				"winner": false
+			},
+			"date": "1956-03-16",
+			"location": "Corvallis, OR",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-16-san-francisco.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Seattle",
+				"code": "seattle",
+				"seed": 4,
+				"score": 72,
+				"winner": false
+			},
+			"away": {
+				"name": "Utah",
+				"code": "utah",
+				"seed": 1,
+				"score": 81,
+				"winner": true
+			},
+			"date": "1956-03-16",
+			"location": "Corvallis, OR",
+			"region": "TL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-16-seattle.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": 2,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "Utah",
+				"code": "utah",
+				"seed": 1,
+				"score": 77,
+				"winner": false
+			},
+			"date": "1956-03-17",
+			"location": "Corvallis, OR",
+			"region": "TL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-17-san-francisco.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Morehead State",
+				"code": "morehead-st",
+				"seed": 4,
+				"score": 107,
+				"winner": true
+			},
+			"away": {
+				"name": "Marshall",
+				"code": "marshall",
+				"seed": 5,
+				"score": 92,
+				"winner": false
+			},
+			"date": "1956-03-12",
+			"location": "Fort Wayne, IN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-12-marshall.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wayne State (MI)",
+				"code": "wayne-state",
+				"seed": 3,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "DePaul",
+				"code": "depaul",
+				"seed": 6,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1956-03-12",
+			"location": "Fort Wayne, IN",
+			"region": "TR",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-12-depaul.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 1,
+				"score": 97,
+				"winner": true
+			},
+			"away": {
+				"name": "Morehead State",
+				"code": "morehead-st",
+				"seed": 4,
+				"score": 83,
+				"winner": false
+			},
+			"date": "1956-03-16",
+			"location": "Iowa City, IA",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-16-iowa.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Wayne State (MI)",
+				"code": "wayne-state",
+				"seed": 3,
+				"score": 64,
+				"winner": false
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 84,
+				"winner": true
+			},
+			"date": "1956-03-16",
+			"location": "Iowa City, IA",
+			"region": "TR",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-16-kentucky.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 1,
+				"score": 89,
+				"winner": true
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 2,
+				"score": 77,
+				"winner": false
+			},
+			"date": "1956-03-17",
+			"location": "Iowa City, IA",
+			"region": "TR",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-17-iowa.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": 4,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas Tech",
+				"code": "texas-tech",
+				"seed": 5,
+				"score": 67,
+				"winner": false
+			},
+			"date": "1956-03-13",
+			"location": "Wichita, KS",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-13-southern-methodist.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Oklahoma City",
+				"code": "oklahoma-city",
+				"seed": 3,
+				"score": 97,
+				"winner": true
+			},
+			"away": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 6,
+				"score": 81,
+				"winner": false
+			},
+			"date": "1956-03-13",
+			"location": "Wichita, KS",
+			"region": "BL",
+			"round": 1,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-13-memphis.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": 4,
+				"score": 89,
+				"winner": true
+			},
+			"away": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 1,
+				"score": 74,
+				"winner": false
+			},
+			"date": "1956-03-16",
+			"location": "Evanston, IL",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-16-houston.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Kansas State",
+				"code": "kansas-st",
+				"seed": 2,
+				"score": 93,
+				"winner": false
+			},
+			"away": {
+				"name": "Oklahoma City",
+				"code": "oklahoma-city",
+				"seed": 3,
+				"score": 97,
+				"winner": true
+			},
+			"date": "1956-03-16",
+			"location": "Evanston, IL",
+			"region": "BL",
+			"round": 2,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-16-kansas-state.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": 4,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Oklahoma City",
+				"code": "oklahoma-city",
+				"seed": 3,
+				"score": 63,
+				"winner": false
+			},
+			"date": "1956-03-17",
+			"location": "Evanston, IL",
+			"region": "BL",
+			"round": 3,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-17-oklahoma-city.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": null,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": null,
+				"score": 68,
+				"winner": false
+			},
+			"date": "1956-03-22",
+			"location": "Evanston, IL",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-22-san-francisco.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "Temple",
+				"code": "temple",
+				"seed": null,
+				"score": 76,
+				"winner": false
+			},
+			"away": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": null,
+				"score": 83,
+				"winner": true
+			},
+			"date": "1956-03-22",
+			"location": "Evanston, IL",
+			"region": "",
+			"round": 4,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-22-iowa.html",
+			"isComplete": true
+		},
+		{
+			"home": {
+				"name": "San Francisco",
+				"code": "san-francisco",
+				"seed": null,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": null,
+				"score": 71,
+				"winner": false
+			},
+			"date": "1956-03-23",
+			"location": "Evanston, IL",
+			"region": "",
+			"round": 5,
+			"link": "https://www.sports-reference.com/cbb/boxscores/1956-03-23-iowa.html",
+			"isComplete": true
+		}
+	]
+}
