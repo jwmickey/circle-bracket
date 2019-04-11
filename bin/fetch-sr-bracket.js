@@ -186,73 +186,10 @@ getRawFile()
     }); //
 
     // older tournaments did not seed teams, so we'll artificially create seeds for placement purposes only
-    // TODO: handle seeding when there are bye's.  reference paper notes with seed scenarios
     const seedless =
       games.find(game => !game.bye && isNaN(game.home.seed)) !== undefined;
     if (seedless) {
-      // for each region, determine the number of teams and bye's in the first round.  this will determine seeding
-      const firstRoundByRegion = games
-        .filter(game => game.region.length > 0 && game.round === 1)
-        .reduce((accu, game) => {
-          if (!accu.hasOwnProperty(game.region)) {
-            accu[game.region] = {
-              teams: 0,
-              byes: 0,
-              byeOrder: ""
-            };
-          }
-          accu[game.region].byes += game.bye ? 1 : 0;
-          accu[game.region].teams += game.bye ? 1 : 2;
-          accu[game.region].byeOrder += game.bye ? "b" : "g";
-          return accu;
-        }, {});
-
-      let seedAssignments = {};
-      let region = games[0].region;
-      let seedIndex = 0;
-
-      for (let i = 0; i < games.length; i++) {
-        const game = games[i];
-        if (game.hasOwnProperty("bye") || game.region.length === 0) {
-          continue;
-        }
-
-        if (seedAssignments[game.home.code]) {
-          game.home.seed = seedAssignments[game.home.code];
-        }
-
-        if (seedAssignments[game.away.code]) {
-          game.away.seed = seedAssignments[game.away.code];
-        }
-
-        if (game.region !== region) {
-          seedIndex = 0;
-        }
-
-        if (!game.home.seed) {
-          region = game.region;
-          const { teams, byes, byeOrder } = firstRoundByRegion[region];
-          game.home.seed = determineSeedForBye(
-            teams,
-            byes,
-            byeOrder,
-            seedIndex++
-          );
-          seedAssignments[game.home.code] = game.home.seed;
-        }
-
-        if (!game.away.seed) {
-          region = game.region;
-          const { teams, byes, byeOrder } = firstRoundByRegion[region];
-          game.away.seed = determineSeedForBye(
-            teams,
-            byes,
-            byeOrder,
-            seedIndex++
-          );
-          seedAssignments[game.away.code] = game.away.seed;
-        }
-      }
+      games = assignSeeds(games);
     }
 
     // return regions and games, filtering out any byes
@@ -360,6 +297,64 @@ getRawFile()
     console.log("Done!");
   });
 
+// artificially assign seeds for slot placement purposes.  these seeds will not be displayed anywhere
+function assignSeeds(games) {
+  // for each region, determine the number of teams and bye's in the first round.  this will determine seeding
+  const firstRoundByRegion = games
+    .filter(game => game.region.length > 0 && game.round === 1)
+    .reduce((accu, game) => {
+      if (!accu.hasOwnProperty(game.region)) {
+        accu[game.region] = {
+          teams: 0,
+          byes: 0,
+          byeOrder: ""
+        };
+      }
+      accu[game.region].byes += game.bye ? 1 : 0;
+      accu[game.region].teams += game.bye ? 1 : 2;
+      accu[game.region].byeOrder += game.bye ? "b" : "g";
+      return accu;
+    }, {});
+
+  let seedAssignments = {};
+  let region = games[0].region;
+  let seedIndex = 0;
+
+  for (let i = 0; i < games.length; i++) {
+    const game = games[i];
+    if (game.hasOwnProperty("bye") || game.region.length === 0) {
+      continue;
+    }
+
+    if (seedAssignments[game.home.code]) {
+      game.home.seed = seedAssignments[game.home.code];
+    }
+
+    if (seedAssignments[game.away.code]) {
+      game.away.seed = seedAssignments[game.away.code];
+    }
+
+    if (game.region !== region) {
+      seedIndex = 0;
+    }
+
+    if (!game.home.seed) {
+      region = game.region;
+      const { teams, byes, byeOrder } = firstRoundByRegion[region];
+      game.home.seed = determineSeedForBye(teams, byes, byeOrder, seedIndex++);
+      seedAssignments[game.home.code] = game.home.seed;
+    }
+
+    if (!game.away.seed) {
+      region = game.region;
+      const { teams, byes, byeOrder } = firstRoundByRegion[region];
+      game.away.seed = determineSeedForBye(teams, byes, byeOrder, seedIndex++);
+      seedAssignments[game.away.code] = game.away.seed;
+    }
+  }
+}
+
+// seed orientation can get weird
 function determineSeedForBye(teams, byes, byeOrder, index) {
   if (teams === 8 && byes === 0) {
     return [1, 8, 4, 5, 3, 6, 2, 7][index];
@@ -382,6 +377,6 @@ function determineSeedForBye(teams, byes, byeOrder, index) {
       return [4, 5, 2, 3, 1][index];
     }
   } else {
-    return 0;
+    return 0; // oh no
   }
 }

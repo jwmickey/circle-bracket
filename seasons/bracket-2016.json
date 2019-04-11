@@ -1,7 +1,7 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-05T04:10:09.752Z",
-	"year": "2016",
+	"updated": "2019-04-11T19:05:52.669Z",
+	"year": 2016,
 	"regions": [
 		{
 			"position": "TL",
@@ -37,6 +37,7 @@
 				"winner": false
 			},
 			"date": "03-15-2016",
+			"location": "University of Dayton Arena, Dayton, Ohio",
 			"region": "",
 			"round": 0,
 			"isComplete": true,
@@ -58,6 +59,7 @@
 				"winner": true
 			},
 			"date": "03-15-2016",
+			"location": "University of Dayton Arena, Dayton, Ohio",
 			"region": "",
 			"round": 0,
 			"isComplete": true,
@@ -79,6 +81,7 @@
 				"winner": true
 			},
 			"date": "03-16-2016",
+			"location": "University of Dayton Arena, Dayton, Ohio",
 			"region": "",
 			"round": 0,
 			"isComplete": true,
@@ -100,6 +103,7 @@
 				"winner": false
 			},
 			"date": "03-16-2016",
+			"location": "University of Dayton Arena, Dayton, Ohio",
 			"region": "",
 			"round": 0,
 			"isComplete": true,
@@ -121,6 +125,7 @@
 				"winner": false
 			},
 			"date": "03-17-2016",
+			"location": "Dunkin Donuts Center, Providence, R.I.",
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
@@ -142,6 +147,7 @@
 				"winner": true
 			},
 			"date": "03-17-2016",
+			"location": "PNC Arena, Raleigh, N.C.",
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
@@ -163,6 +169,7 @@
 				"winner": true
 			},
 			"date": "03-17-2016",
+			"location": "Wells Fargo Arena, Des Moines, Iowa",
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
@@ -184,6 +191,7 @@
 				"winner": false
 			},
 			"date": "03-17-2016",
+			"location": "Pepsi Center, Denver, Colo.",
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
@@ -205,6 +213,7 @@
 				"winner": true
 			},
 			"date": "03-17-2016",
+			"location": "Dunkin Donuts Center, Providence, R.I.",
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
@@ -226,6 +235,7 @@
 				"winner": false
 			},
 			"date": "03-17-2016",
+			"location": "PNC Arena, Raleigh, N.C.",
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
@@ -247,6 +257,7 @@
 				"winner": false
 			},
 			"date": "03-17-2016",
+			"location": "Wells Fargo Arena, Des Moines, Iowa",
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
@@ -268,6 +279,7 @@
 				"winner": true
 			},
 			"date": "03-17-2016",
+			"location": "Pepsi Center, Denver, Colo.",
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
@@ -289,6 +301,7 @@
 				"winner": false
 			},
 			"date": "03-17-2016",
+			"location": "Dunkin Donuts Center, Providence, R.I.",
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
@@ -310,6 +323,7 @@
 				"winner": false
 			},
 			"date": "03-17-2016",
+			"location": "PNC Arena, Raleigh, N.C.",
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
@@ -331,6 +345,7 @@
 				"winner": false
 			},
 			"date": "03-17-2016",
+			"location": "Wells Fargo Arena, Des Moines, Iowa",
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
@@ -352,6 +367,7 @@
 				"winner": false
 			},
 			"date": "03-17-2016",
+			"location": "Pepsi Center, Denver, Colo.",
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
@@ -373,6 +389,7 @@
 				"winner": true
 			},
 			"date": "03-17-2016",
+			"location": "Dunkin Donuts Center, Providence, R.I.",
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
@@ -394,6 +411,7 @@
 				"winner": false
 			},
 			"date": "03-17-2016",
+			"location": "Wells Fargo Arena, Des Moines, Iowa",
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
@@ -415,6 +433,7 @@
 				"winner": true
 			},
 			"date": "03-17-2016",
+			"location": "PNC Arena, Raleigh, N.C.",
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
@@ -436,6 +455,7 @@
 				"winner": true
 			},
 			"date": "03-17-2016",
+			"location": "Pepsi Center, Denver, Colo.",
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
@@ -457,6 +477,7 @@
 				"winner": true
 			},
 			"date": "03-18-2016",
+			"location": "Scottrade Center, St. Louis, Mo.",
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
@@ -478,6 +499,7 @@
 				"winner": false
 			},
 			"date": "03-18-2016",
+			"location": "Barclays Center, Brooklyn, N.Y.",
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
@@ -499,6 +521,7 @@
 				"winner": true
 			},
 			"date": "03-18-2016",
+			"location": "Chesapeake Energy Arena, Oklahoma City, Okla.",
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
@@ -520,6 +543,7 @@
 				"winner": true
 			},
 			"date": "03-18-2016",
+			"location": "Spokane Veterans Memorial Arena, Spokane, Wash.",
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
@@ -541,6 +565,7 @@
 				"winner": true
 			},
 			"date": "03-18-2016",
+			"location": "Scottrade Center, St. Louis, Mo.",
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
@@ -562,6 +587,7 @@
 				"winner": false
 			},
 			"date": "03-18-2016",
+			"location": "Barclays Center, Brooklyn, N.Y.",
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
@@ -583,6 +609,7 @@
 				"winner": false
 			},
 			"date": "03-18-2016",
+			"location": "Chesapeake Energy Arena, Oklahoma City, Okla.",
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
@@ -604,6 +631,7 @@
 				"winner": false
 			},
 			"date": "03-18-2016",
+			"location": "Spokane Veterans Memorial Arena, Spokane, Wash.",
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
@@ -625,6 +653,7 @@
 				"winner": false
 			},
 			"date": "03-18-2016",
+			"location": "Scottrade Center, St. Louis, Mo.",
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
@@ -646,6 +675,7 @@
 				"winner": true
 			},
 			"date": "03-18-2016",
+			"location": "Barclays Center, Brooklyn, N.Y.",
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
@@ -667,6 +697,7 @@
 				"winner": false
 			},
 			"date": "03-18-2016",
+			"location": "Chesapeake Energy Arena, Oklahoma City, Okla.",
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
@@ -688,6 +719,7 @@
 				"winner": false
 			},
 			"date": "03-18-2016",
+			"location": "Spokane Veterans Memorial Arena, Spokane, Wash.",
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
@@ -709,6 +741,7 @@
 				"winner": false
 			},
 			"date": "03-18-2016",
+			"location": "Scottrade Center, St. Louis, Mo.",
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
@@ -730,6 +763,7 @@
 				"winner": true
 			},
 			"date": "03-18-2016",
+			"location": "Chesapeake Energy Arena, Oklahoma City, Okla.",
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
@@ -751,6 +785,7 @@
 				"winner": false
 			},
 			"date": "03-18-2016",
+			"location": "Barclays Center, Brooklyn, N.Y.",
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
@@ -772,6 +807,7 @@
 				"winner": false
 			},
 			"date": "03-18-2016",
+			"location": "Spokane Veterans Memorial Arena, Spokane, Wash.",
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
@@ -793,6 +829,7 @@
 				"winner": false
 			},
 			"date": "03-19-2016",
+			"location": "Dunkin Donuts Center, Providence, R.I.",
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
@@ -814,6 +851,7 @@
 				"winner": false
 			},
 			"date": "03-19-2016",
+			"location": "Dunkin Donuts Center, Providence, R.I.",
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
@@ -835,6 +873,7 @@
 				"winner": true
 			},
 			"date": "03-19-2016",
+			"location": "Wells Fargo Arena, Des Moines, Iowa",
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
@@ -856,6 +895,7 @@
 				"winner": false
 			},
 			"date": "03-19-2016",
+			"location": "Pepsi Center, Denver, Colo.",
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
@@ -877,6 +917,7 @@
 				"winner": false
 			},
 			"date": "03-19-2016",
+			"location": "PNC Arena, Raleigh, N.C.",
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
@@ -898,6 +939,7 @@
 				"winner": true
 			},
 			"date": "03-19-2016",
+			"location": "Pepsi Center, Denver, Colo.",
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
@@ -919,6 +961,7 @@
 				"winner": false
 			},
 			"date": "03-19-2016",
+			"location": "PNC Arena, Raleigh, N.C.",
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
@@ -940,6 +983,7 @@
 				"winner": false
 			},
 			"date": "03-19-2016",
+			"location": "Wells Fargo Arena, Des Moines, Iowa",
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
@@ -961,6 +1005,7 @@
 				"winner": false
 			},
 			"date": "03-20-2016",
+			"location": "Barclays Center, Brooklyn, N.Y.",
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
@@ -982,6 +1027,7 @@
 				"winner": false
 			},
 			"date": "03-20-2016",
+			"location": "Barclays Center, Brooklyn, N.Y.",
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
@@ -1003,6 +1049,7 @@
 				"winner": false
 			},
 			"date": "03-20-2016",
+			"location": "Chesapeake Energy Arena, Oklahoma City, Okla.",
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
@@ -1024,6 +1071,7 @@
 				"winner": false
 			},
 			"date": "03-20-2016",
+			"location": "Scottrade Center, St. Louis, Mo.",
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
@@ -1045,6 +1093,7 @@
 				"winner": false
 			},
 			"date": "03-20-2016",
+			"location": "Spokane Veterans Memorial Arena, Spokane, Wash.",
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
@@ -1066,6 +1115,7 @@
 				"winner": false
 			},
 			"date": "03-20-2016",
+			"location": "Chesapeake Energy Arena, Oklahoma City, Okla.",
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
@@ -1087,6 +1137,7 @@
 				"winner": true
 			},
 			"date": "03-20-2016",
+			"location": "Scottrade Center, St. Louis, Mo.",
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
@@ -1108,6 +1159,7 @@
 				"winner": false
 			},
 			"date": "03-20-2016",
+			"location": "Spokane Veterans Memorial Arena, Spokane, Wash.",
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
@@ -1129,6 +1181,7 @@
 				"winner": false
 			},
 			"date": "03-24-2016",
+			"location": "KFC Yum! Center, Louisville, Ky.",
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
@@ -1150,6 +1203,7 @@
 				"winner": false
 			},
 			"date": "03-24-2016",
+			"location": "Honda Center, Anaheim, Calif.",
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
@@ -1171,6 +1225,7 @@
 				"winner": false
 			},
 			"date": "03-24-2016",
+			"location": "KFC Yum! Center, Louisville, Ky.",
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
@@ -1192,6 +1247,7 @@
 				"winner": false
 			},
 			"date": "03-24-2016",
+			"location": "Honda Center, Anaheim, Calif.",
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
@@ -1213,6 +1269,7 @@
 				"winner": false
 			},
 			"date": "03-25-2016",
+			"location": "United Center, Chicago, Ill.",
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
@@ -1234,6 +1291,7 @@
 				"winner": false
 			},
 			"date": "03-25-2016",
+			"location": "Wells Fargo Center, Philadelphia, Pa.",
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
@@ -1255,6 +1313,7 @@
 				"winner": false
 			},
 			"date": "03-25-2016",
+			"location": "United Center, Chicago, Ill.",
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
@@ -1276,6 +1335,7 @@
 				"winner": false
 			},
 			"date": "03-25-2016",
+			"location": "Wells Fargo Center, Philadelphia, Pa.",
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
@@ -1297,6 +1357,7 @@
 				"winner": true
 			},
 			"date": "03-26-2016",
+			"location": "Honda Center, Anaheim, Calif.",
 			"region": "BL",
 			"round": 4,
 			"isComplete": true,
@@ -1318,6 +1379,7 @@
 				"winner": true
 			},
 			"date": "03-26-2016",
+			"location": "KFC Yum! Center, Louisville, Ky.",
 			"region": "TL",
 			"round": 4,
 			"isComplete": true,
@@ -1339,6 +1401,7 @@
 				"winner": true
 			},
 			"date": "03-27-2016",
+			"location": "United Center, Chicago, Ill.",
 			"region": "BR",
 			"round": 4,
 			"isComplete": true,
@@ -1360,6 +1423,7 @@
 				"winner": false
 			},
 			"date": "03-27-2016",
+			"location": "Wells Fargo Center, Philadelphia, Pa.",
 			"region": "TR",
 			"round": 4,
 			"isComplete": true,
@@ -1381,6 +1445,7 @@
 				"winner": true
 			},
 			"date": "04-02-2016",
+			"location": "NRG Stadium, Houston, Texas",
 			"region": "",
 			"round": 5,
 			"isComplete": true,
@@ -1402,6 +1467,7 @@
 				"winner": false
 			},
 			"date": "04-02-2016",
+			"location": "NRG Stadium, Houston, Texas",
 			"region": "",
 			"round": 5,
 			"isComplete": true,
@@ -1423,6 +1489,7 @@
 				"winner": true
 			},
 			"date": "04-04-2016",
+			"location": "NRG Stadium, Houston, Texas",
 			"region": "",
 			"round": 6,
 			"isComplete": true,

@@ -90,6 +90,7 @@ Promise.all([getDataFile("setup"), getDataFile("bracket")])
         winner: !!entry.game.away.winner
       },
       date: entry.game.startDate,
+      location: entry.game.location,
       region: regionsMap[entry.game.bracketRegion] || "",
       round: roundsMap[entry.game.bracketRound],
       isComplete: entry.game.gameState === "final",
