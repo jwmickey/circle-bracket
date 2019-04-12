@@ -40,7 +40,7 @@ function showGameDetails(game, displaySeeds = true) {
     if (window.gtag) {
       gtag("event", "view", {
         event_category: "Game",
-        event_label: `${game.home.name} vs. ${game.away.name}`
+        event_label: `${year} - ${game.home.name} vs. ${game.away.name}`
       });
     }
   }
