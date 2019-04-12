@@ -1,5 +1,4 @@
 import axios from "axios";
-import throttle from "lodash.throttle";
 import canvas from "./js/components/canvas";
 import yearPicker from "./js/components/yearPicker";
 import gameInfo from "./js/components/gameInfo";
@@ -13,7 +12,7 @@ const hash = new URL(document.location).hash;
 const minYear = 1956;
 const maxYear = new Date().getFullYear();
 const options = hash.substring(1).split("/");
-const year = parseInt(options[0]) || maxYear;
+let year = parseInt(options[0]) || maxYear;
 
 // pre-determine canvas size and scale for high resolution displays
 const size = Math.min(window.innerWidth, window.innerHeight);
@@ -23,14 +22,6 @@ const wrap = document.body.appendChild(canvas(size * scale, size));
 // bracket instance
 const bracket = new Bracket(wrap.childNodes[0], { showGameDetails, scale });
 drawBracket(year);
-
-// redraw on screen resize, but not too often
-window.addEventListener(
-  "resize",
-  throttle(function() {
-    bracket.resize(Math.min(window.innerWidth, window.innerHeight));
-  }, 500)
-);
 
 // display game info when clicked
 let gameInfoElem;
@@ -45,6 +36,16 @@ function showGameDetails(game, displaySeeds = true) {
       showGameDetails(null);
     });
     gameInfoElem = document.body.appendChild(info);
+
+    if (window.ga) {
+      ga("send", {
+        hitType: "event",
+        eventCategory: "Game",
+        eventAction: "View",
+        eventLabel: year.toString(),
+        eventValue: `${game.home.name} vs. ${game.away.name}`
+      });
+    }
   }
 }
 
@@ -68,9 +69,20 @@ function drawBracket(bracketYear) {
 // add year chooser and event handler for redrawing bracket on change
 document.body.appendChild(
   yearPicker(minYear, maxYear, year, e => {
-    const nextYear = e.target.value;
-    history.replaceState(null, nextYear.toString(), `#${nextYear}`);
-    drawBracket(nextYear);
+    year = e.target.value;
+
+    history.replaceState(null, year.toString(), `#${year}`);
+    drawBracket(year);
+
+    if (window.ga) {
+      ga("send", {
+        hitType: "event",
+        eventCategory: "Bracket",
+        eventAction: "View",
+        eventLabel: "Bracket Year",
+        eventValue: year
+      });
+    }
   })
 );
 

@@ -1,19 +1,27 @@
-import { createImageUrlFromLogo } from "./utils";
+import {
+  createImageUrlFromLogo,
+  scaleDims,
+  calcImageBox,
+  findTeamRegion
+} from "./utils";
 import teams from "../data/teams";
 
 const TO_RADIANS = Math.PI / 180;
 
+// slot position for a seed based on the round
 const seedSlotMap = [
   [0, 14, 10, 6, 4, 8, 12, 2, 3, 13, 9, 5, 7, 11, 15, 1], // 64 teams
   [0, 7, 5, 3, 2, 4, 6, 1, 1, 6, 4, 2, 3, 5, 7, 0], // 32 teams
   [0, 3, 2, 1, 1, 2, 3, 0, 0, 3, 2, 1, 1, 2, 3, 0], // 16 teams
-  [0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0], // 8 teams
-  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] // 4 teams
+  [0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0] // 8 teams
+  // [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] // 4 teams
 ];
 
-const roundWidths = [0, 0.075, 0.09, 0.125, 0.15, 0.18, 0.22, 0.1];
-// TODO: this is a temp hack to play around with widths for 32 teams (6 rounds)
-const roundWidths32 = [0, 0.1, 0.15, 0.175, 0.2, 0.25, 0.1];
+// widths of rounds when there are 64 slots on the outer ring
+const roundWidths64 = [0, 0.075, 0.09, 0.125, 0.15, 0.18, 0.22];
+
+// widths of rounds when there are 32 slots on the outer ring
+const roundWidths32 = [0, 0.1, 0.15, 0.175, 0.2, 0.25];
 
 export const DEFAULTS = {
   gridStrokeWidth: 2,
@@ -69,14 +77,6 @@ export default class Bracket {
     this.reset();
   }
 
-  resize = size => {
-    this.cvs.width = size;
-    this.cvs.height = size;
-    this.cvs.style.width = `${size * this.settings.scale}px`;
-    this.cvs.style.height = `${size * this.settings.scale}px`;
-    this.render().catch(e => console.error(e));
-  };
-
   getBracketData = () => {
     return this.bracketData;
   };
@@ -87,17 +87,18 @@ export default class Bracket {
 
   getRadiiForRound = round => {
     let center = Math.min(...this.getCenter());
-    let radius = center - this.margin - this.titleHeight;
+    let radius = Math.floor(center - this.margin - this.titleHeight);
     let innerRadius = 0;
-    let source = this.numRounds === 7 ? roundWidths : roundWidths32;
+    let source = this.numRounds === 7 ? roundWidths64 : roundWidths32;
 
     for (let i = 1; i < round; i++) {
-      radius -= center * source[i];
+      radius -= Math.floor(center * source[i]);
     }
-    radius = Math.floor(radius);
 
     if (round < this.numRounds) {
       innerRadius = Math.floor(radius - center * source[round]);
+    } else {
+      console.log(round, radius);
     }
 
     return [radius, innerRadius];
@@ -234,6 +235,10 @@ export default class Bracket {
     this.ctx.translate(centerX, centerY);
     this.ctx.rotate(TO_RADIANS * 90);
 
+    const clipPath = new Path2D();
+    clipPath.arc(0, 0, this.getRadiiForRound(1)[0], 0, 2 * Math.PI);
+    this.ctx.clip(clipPath);
+
     for (let i = 1; i < this.numRounds; i++) {
       const path = new Path2D();
       const slots = this.numEntries / Math.pow(2, i - 1);
@@ -255,8 +260,23 @@ export default class Bracket {
         }
       }
 
+      this.ctx.shadowColor = "rgba(0, 0, 0, 0.25)";
+      this.ctx.shadowBlur = 5;
       this.ctx.stroke(path);
     }
+
+    // stroke a final outer line to remove shadow
+    const strokePath = new Path2D();
+    strokePath.arc(
+      0,
+      0,
+      this.getRadiiForRound(1)[0] + this.ctx.lineWidth,
+      0,
+      2 * Math.PI
+    );
+    this.ctx.strokeStyle = "#fff";
+    this.ctx.lineWidth = this.ctx.lineWidth * 2;
+    this.ctx.stroke(strokePath);
 
     // draw a line up and down the center for the champ game divider
     const radius = this.getRadiiForRound(this.numRounds - 1)[0];
@@ -402,7 +422,7 @@ export default class Bracket {
       img.addEventListener("load", () => {
         revoke();
 
-        let [width, height] = this.scaleDims(
+        let [width, height] = scaleDims(
           img.width,
           img.height,
           maxWidth,
@@ -415,8 +435,6 @@ export default class Bracket {
 
         let imgX = x + xOffset;
         let imgY = y + yOffset;
-
-        // TODO: for final four, offset images to fit in slice better, and oversize them a little more maybe?
 
         // create path for background and logo clip area
         this.ctx.save();
@@ -452,7 +470,7 @@ export default class Bracket {
       });
       img.addEventListener("error", e => {
         console.error("Error displaying image for " + team.name, e.message);
-        resolve(); // we could reject, but don't want to stop the rest of the grid from being drawn
+        resolve(); // img failed to load, but don't interrupt the rest of the render
       });
       img.src = url;
     });
@@ -504,7 +522,7 @@ export default class Bracket {
       });
       img.addEventListener("error", e => {
         console.error("Error displaying image for " + team.name, e.message);
-        resolve();
+        resolve(); // img failed to load, but don't interrupt the rest of the render
       });
       img.src = url;
     });
@@ -525,7 +543,9 @@ export default class Bracket {
         team = teams[teamCode];
       }
       const [centerX, centerY] = this.getCenter();
-      const radius = centerX * roundWidths[roundWidths.length - 1];
+
+      // make the champ game winner radius be a little less than half the radius of the champ game itself
+      const radius = this.getRadiiForRound(this.numRounds - 1)[0] / 2.25;
 
       const img = new Image();
       const [url, revoke] = createImageUrlFromLogo(team.logo.url);
@@ -533,6 +553,7 @@ export default class Bracket {
       img.addEventListener("load", () => {
         revoke();
 
+        // image size should be much larger than the inner circle
         let size = Math.floor(radius * 4);
         let posX = centerX - size / 2;
         let posY = centerY - size / 2;
@@ -547,22 +568,17 @@ export default class Bracket {
         this.ctx.fill();
         this.ctx.stroke();
         this.ctx.shadowColor = "#000000";
-        this.ctx.shadowBlur = 25;
+        this.ctx.shadowBlur = 15;
         this.ctx.drawImage(img, posX, posY, size, size);
         this.ctx.restore();
         resolve();
       });
       img.addEventListener("error", e => {
         console.error("Error displaying image for " + team.name, e.message);
-        resolve();
+        resolve(); // couldn't display the image but this should not interrupt the render
       });
       img.src = url;
     });
-  };
-
-  scaleDims = (w, h, mW, mH) => {
-    let scale = Math.min(mW, mH) / Math.max(w, h);
-    return [Math.floor(w * scale), Math.floor(h * scale)];
   };
 
   translateToSlot = (regionCode, round, team) => {
@@ -595,65 +611,11 @@ export default class Bracket {
       const offset = (slots / 4) * quadrant;
       let roundIndex = round - 1;
 
-      // TODO: fix this hard-coded round check that shifts our seedSlotMap down when the bracket is 32 teams or fewer
+      // shift seed slot index by one round when we have a 32 team (or fewer) bracket
       if (this.numRounds < 7) {
         roundIndex++;
       }
       return offset + seedSlotMap[roundIndex][team.seed - 1];
     }
   };
-}
-
-function calcImageBox(radius, innerRadius, centerX, centerY, slots, slot) {
-  const quadrant = slot / slots;
-  const t1 = ((Math.PI * 2) / slots) * slot;
-  const t2 = ((Math.PI * 2) / slots) * (slot + 1);
-  let x1Radius, y1Radius, x2Radius, y2Radius;
-
-  if (quadrant < 0.25) {
-    x1Radius = innerRadius;
-    y1Radius = innerRadius;
-    x2Radius = radius;
-    y2Radius = radius;
-  } else if (quadrant < 0.5) {
-    x1Radius = radius;
-    y1Radius = innerRadius;
-    x2Radius = innerRadius;
-    y2Radius = radius;
-  } else if (quadrant < 0.75) {
-    x1Radius = radius;
-    y1Radius = radius;
-    x2Radius = innerRadius;
-    y2Radius = innerRadius;
-  } else {
-    x1Radius = innerRadius;
-    y1Radius = radius;
-    x2Radius = radius;
-    y2Radius = innerRadius;
-  }
-
-  // these values give us oversized areas to display the logo in
-  const x1 = Math.floor(
-    Math.min(x1Radius * Math.cos(t1), x1Radius * Math.cos(t2)) + centerX
-  );
-  const y1 = Math.floor(
-    Math.min(y1Radius * Math.sin(t1), y1Radius * Math.sin(t2)) + centerY
-  );
-  const x2 = Math.floor(
-    Math.max(x2Radius * Math.cos(t1), x2Radius * Math.cos(t2)) + centerX
-  );
-  const y2 = Math.floor(
-    Math.max(y2Radius * Math.sin(t1), y2Radius * Math.sin(t2)) + centerY
-  );
-
-  const maxWidth = Math.abs(x2 - x1);
-  const maxHeight = Math.abs(y2 - y1);
-
-  return { x: x1, y: y1, maxWidth, maxHeight };
-}
-
-function findTeamRegion(allGames, teamCode) {
-  return allGames.find(game => {
-    return game.home.code === teamCode || game.away.code === teamCode;
-  }).region;
 }
