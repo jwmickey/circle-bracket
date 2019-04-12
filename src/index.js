@@ -37,13 +37,10 @@ function showGameDetails(game, displaySeeds = true) {
     });
     gameInfoElem = document.body.appendChild(info);
 
-    if (window.ga) {
-      ga("send", {
-        hitType: "event",
-        eventCategory: "Game",
-        eventAction: "View",
-        eventLabel: year.toString(),
-        eventValue: `${game.home.name} vs. ${game.away.name}`
+    if (window.gtag) {
+      gtag("event", "view", {
+        event_category: "Game",
+        event_label: `${game.home.name} vs. ${game.away.name}`
       });
     }
   }
@@ -74,13 +71,10 @@ document.body.appendChild(
     history.replaceState(null, year.toString(), `#${year}`);
     drawBracket(year);
 
-    if (window.ga) {
-      ga("send", {
-        hitType: "event",
-        eventCategory: "Bracket",
-        eventAction: "View",
-        eventLabel: "Bracket Year",
-        eventValue: year
+    if (window.gtag) {
+      gtag("event", "view", {
+        event_category: "Bracket",
+        event_label: year
       });
     }
   })
