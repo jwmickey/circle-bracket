@@ -6,53 +6,50 @@ export default (game, displaySeeds = false, id = "info") => {
   root.id = id;
   root.className = "game-info";
 
-  const t1 = document.createElement("div");
-  t1.className = "team team-1";
-  const t1Img = document.createElement("img");
-  t1Img.src = createImageUrlFromLogo(teams[game.home.code].logo.url)[0];
-  const t1Title = document.createElement("div");
-  t1Title.className = "title";
-  let t1Name = document.createElement("h1");
-  t1Name.innerText = teams[game.home.code].name;
-  if (displaySeeds) {
-    t1Name.innerText += ` (${game.home.seed})`;
-  }
-  const t1Mascot = document.createElement("h2");
-  t1Mascot.innerText = teams[game.home.code].mascot;
-  t1Title.appendChild(t1Name);
-  t1Title.appendChild(t1Mascot);
-  t1Title.style.color = teams[game.home.code].primaryColor;
-  const t1Score = document.createElement("h1");
-  t1Score.innerText = game.home.score;
-  t1Score.className = game.home.winner ? "score winner" : "score";
-  t1.appendChild(t1Img);
-  t1.appendChild(t1Title);
-  t1.appendChild(t1Score);
+  for (const team of [game.home, game.away]) {
+    const teamCode = team.code;
 
-  const t2 = document.createElement("div");
-  t2.className = "team team-2";
-  const t2Img = document.createElement("img");
-  t2Img.src = createImageUrlFromLogo(teams[game.away.code].logo.url)[0];
-  const t2Title = document.createElement("div");
-  t2Title.className = "title";
-  let t2Name = document.createElement("h1");
-  t2Name.innerText = teams[game.away.code].name;
-  if (displaySeeds) {
-    t2Name.innerText += ` (${game.away.seed})`;
-  }
-  const t2Mascot = document.createElement("h2");
-  t2Mascot.innerText = teams[game.away.code].mascot;
-  t2Title.appendChild(t2Name);
-  t2Title.appendChild(t2Mascot);
-  t2Title.style.color = teams[game.away.code].primaryColor;
-  const t2Score = document.createElement("h1");
-  t2Score.className = "score";
-  t2Score.innerText = game.away.score;
-  t2Score.className = game.away.winner ? "score winner" : "score";
-  t2.appendChild(t2Img);
-  t2.appendChild(t2Title);
-  t2.appendChild(t2Score);
+    // wrap in an outer div
+    const wrap = document.createElement("div");
+    wrap.className = "team";
 
+    // logo
+    const img = document.createElement("img");
+    img.src = createImageUrlFromLogo(teams[teamCode].logo.url)[0];
+
+    // title (team name and mascot)
+    const title = document.createElement("div");
+    title.className = "title";
+
+    // name and (optionally) seed
+    const teamName = document.createElement("h1");
+    teamName.innerText = team.name;
+    if (displaySeeds) {
+      teamName.innerText += ` (${team.seed})`;
+    }
+
+    // mascot
+    const mascot = document.createElement("h2");
+    mascot.innerText = teams[teamCode].mascot;
+    title.appendChild(teamName);
+    title.appendChild(mascot);
+    title.style.color = teams[teamCode].primaryColor;
+
+    // score
+    const score = document.createElement("h1");
+    score.innerText = team.score;
+    score.className = team.winner ? "score winner" : "score";
+
+    // append all child elements to wrap
+    wrap.appendChild(img);
+    wrap.appendChild(title);
+    wrap.appendChild(score);
+
+    // append wrap to root
+    root.appendChild(wrap);
+  }
+
+  // add game meta info
   const meta = document.createElement("div");
   meta.className = "meta";
 
@@ -83,15 +80,13 @@ export default (game, displaySeeds = false, id = "info") => {
     linkElem.appendChild(link);
     meta.appendChild(linkElem);
   }
+  root.appendChild(meta);
 
+  // add closer
   const close = document.createElement("div");
   close.innerText = "×";
   close.className = "close";
   close.title = "Close";
-
-  root.appendChild(t1);
-  root.appendChild(t2);
-  root.appendChild(meta);
   root.appendChild(close);
 
   return root;
