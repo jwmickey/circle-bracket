@@ -44,10 +44,9 @@ export default class Bracket {
       const rect = event.target.getBoundingClientRect();
       const x = event.clientX - rect.left; //x position within the element.
       const y = event.clientY - rect.top; //y position within the element.
-      console.log(x, y, this.settings.scale);
 
       for (let entry of this.teamPaths) {
-        if (this.ctx.isPointInPath(entry.path, x * 2, y * 2)) {
+        if (this.ctx.isPointInPath(entry.path, x * scale, y * scale)) {
           const { teamCode, round } = entry;
           const game = this.bracketData.games.find(
             g =>
@@ -73,6 +72,8 @@ export default class Bracket {
   resize = size => {
     this.cvs.width = size;
     this.cvs.height = size;
+    this.cvs.style.width = `${size * this.settings.scale}px`;
+    this.cvs.style.height = `${size * this.settings.scale}px`;
     this.render().catch(e => console.error(e));
   };
 
@@ -122,7 +123,6 @@ export default class Bracket {
 
     this.settings.showGameDetails(null);
     this.teamPaths = [];
-    this.ctx.scale(this.settings.scale, this.settings.scale);
     this.ctx.clearRect(0, 0, this.cvs.width, this.cvs.height);
     this.ctx.fillStyle = "#fff";
     this.ctx.fillRect(0, 0, this.cvs.width, this.cvs.height);

@@ -15,16 +15,13 @@ const maxYear = new Date().getFullYear();
 const options = hash.substring(1).split("/");
 const year = parseInt(options[0]) || maxYear;
 
-// determine canvas size.  make canvas 2x size and set css width/height for high resolution displays
+// pre-determine canvas size and scale for high resolution displays
 const size = Math.min(window.innerWidth, window.innerHeight);
-let canvasSize = size;
-if (window.devicePixelRatio > 1) {
-  canvasSize *= 2;
-}
-const wrap = document.body.appendChild(canvas(canvasSize, size));
+const scale = Math.ceil(window.devicePixelRatio);
+const wrap = document.body.appendChild(canvas(size * scale, size));
 
 // bracket instance
-const bracket = new Bracket(wrap.childNodes[0], { showGameDetails });
+const bracket = new Bracket(wrap.childNodes[0], { showGameDetails, scale });
 drawBracket(year);
 
 // redraw on screen resize, but not too often
