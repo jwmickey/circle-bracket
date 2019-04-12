@@ -14,6 +14,27 @@ body
   font-family: "Open Sans", sans-serif
 
 .canvas-wrap
+  display: flex
+  flex-flow: column wrap
+  align-items: center
+  justify-content: center
+
+  .msg
+    display: none
+
+  canvas
+    align-self: center
+    margin: 0 auto
+    display: block
+    position: relative
+    cursor: pointer
+
+  &.error
+    .msg
+      display: block
+    canvas
+      display: none
+
   &.loading:after
     content: "Loading..."
     position: absolute
@@ -27,19 +48,35 @@ body
     justify-content: center
     align-items: center
 
-#canvas
-  align-self: center
-  margin: 0 auto
-  display: block
-  position: relative
-  cursor: pointer
-
 #year-picker
   position: absolute
   top: 0
   left: 0
   margin: 10px
   font-size: 1.25em
+
+.about-link
+  position: absolute
+  bottom: 0
+  right: 0
+  margin: 10px
+  font-size: 12px
+
+.about
+  position: absolute
+  top: 50%
+  left: 50%
+  margin-left: -25%
+  margin-top: -12.5vh
+  width: 50vw
+  height: 25vh
+  padding: 20px
+  font-size: 18px
+  border: 2px solid #777
+  background-color: rgba(255,255,255,0.95)
+
+  &.hide
+    display: none
 
 .links
   position: absolute

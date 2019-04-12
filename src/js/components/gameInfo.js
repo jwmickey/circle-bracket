@@ -13,8 +13,16 @@ export default (game, displaySeeds = false, id = "info") => {
     const wrap = document.createElement("div");
     wrap.className = "team";
 
-    // logo
+    // logo, prevent drag or context menu as a show of good faith towards logo owners
     const img = document.createElement("img");
+    img.addEventListener("contextmenu", function(e) {
+      e.preventDefault();
+      return false;
+    });
+    img.addEventListener("mousedown", function(e) {
+      e.preventDefault();
+      return false;
+    });
     img.src = createImageUrlFromLogo(teams[teamCode].logo.url)[0];
 
     // title (team name and mascot)

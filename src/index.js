@@ -3,19 +3,19 @@ import canvas from "./js/components/canvas";
 import yearPicker from "./js/components/yearPicker";
 import gameInfo from "./js/components/gameInfo";
 import downloadLink from "./js/components/downloadLink";
-import { initAnalytics, runAnalytics } from "./js/components/analytics";
 import Bracket from "./js/bracket";
 import "./styles/style.sass";
+import { aboutLink, aboutOverlay } from "./js/components/about";
 
-const trackingId = "UA-137823086-1";
 const hash = new URL(document.location).hash;
 const minYear = 1956;
 const maxYear = new Date().getFullYear();
 const options = hash.substring(1).split("/");
-let year = parseInt(options[0]) || maxYear;
+const initialYear = parseInt(options[0]) || maxYear;
+let year = initialYear;
 
 // pre-determine canvas size and scale for high resolution displays
-const size = Math.min(window.innerWidth, window.innerHeight);
+const size = Math.min(window.innerWidth, window.innerHeight, 1600);
 const scale = Math.ceil(window.devicePixelRatio);
 const wrap = document.body.appendChild(canvas(size * scale, size));
 
@@ -48,24 +48,30 @@ function showGameDetails(game, displaySeeds = true) {
 
 // draw a bracket for a given year.  toggles loading on/off for start/finish
 function drawBracket(bracketYear) {
+  wrap.classList.remove("error");
   wrap.classList.add("loading");
-  axios.get(`/seasons/bracket-${bracketYear}.json`).then(res => {
-    bracket.setBracket(res.data);
-    bracket
-      .render()
-      .then(() => {
-        wrap.classList.remove("loading");
-      })
-      .catch(err => {
-        console.error("ERROR!", err);
-        wrap.classList.remove("loading");
-      });
-  });
+
+  axios
+    .get(`/seasons/bracket-${bracketYear}.json`)
+    .then(res => {
+      bracket.setBracket(res.data);
+      return bracket.render();
+    })
+    .catch(err => {
+      console.log(err);
+      wrap.classList.add("error");
+      wrap.getElementsByClassName(
+        "error"
+      )[0].innerText = `Sorry, could not create a bracket for year ${bracketYear}`;
+    })
+    .finally(() => {
+      wrap.classList.remove("loading");
+    });
 }
 
 // add year chooser and event handler for redrawing bracket on change
 document.body.appendChild(
-  yearPicker(minYear, maxYear, year, e => {
+  yearPicker(minYear, maxYear, initialYear, e => {
     year = e.target.value;
 
     history.replaceState(null, year.toString(), `#${year}`);
@@ -89,6 +95,6 @@ links.appendChild(downloadLink(2400, "Large", bracket));
 links.appendChild(downloadLink(4800, "Huge", bracket));
 document.body.appendChild(links);
 
-// add analytics
-document.body.appendChild(initAnalytics(trackingId));
-document.body.appendChild(runAnalytics(trackingId));
+// add about link and overlay
+document.body.appendChild(aboutLink());
+document.body.appendChild(aboutOverlay());

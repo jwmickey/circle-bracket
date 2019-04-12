@@ -1392,7 +1392,8 @@
 				"code": "louisville",
 				"seed": 1,
 				"score": 82,
-				"winner": true
+				"winner": true,
+				"vacated": true
 			},
 			"away": {
 				"name": "Michigan",

@@ -177,9 +177,7 @@ export default class Bracket {
           game.round,
           game.home
         );
-        slotPromises.push(
-          this.fillSlot(game.round, homeTeamSlot, game.home.code)
-        );
+        slotPromises.push(this.fillSlot(game.round, homeTeamSlot, game.home));
       }
 
       if (game.away.code) {
@@ -192,9 +190,7 @@ export default class Bracket {
           game.round,
           game.away
         );
-        slotPromises.push(
-          this.fillSlot(game.round, awayTeamSlot, game.away.code)
-        );
+        slotPromises.push(this.fillSlot(game.round, awayTeamSlot, game.away));
       }
     }
 
@@ -210,9 +206,9 @@ export default class Bracket {
         if (champGame) {
           let winner;
           if (champGame.home.winner) {
-            winner = champGame.home.code;
+            winner = champGame.home;
           } else if (champGame.away.winner) {
-            winner = champGame.away.code;
+            winner = champGame.away;
           } else {
             winner = false;
           }
@@ -393,13 +389,13 @@ export default class Bracket {
     this.ctx.restore();
   };
 
-  fillSlot = (round, slot, teamCode) => {
+  fillSlot = (round, slot, team) => {
     if (round === this.numRounds - 1) {
-      return this.fillChampGameSlot(slot, teamCode);
+      return this.fillChampGameSlot(slot, team);
     }
 
     return new Promise((resolve, reject) => {
-      const team = teams[teamCode];
+      const teamInfo = teams[team.code];
       const [centerX, centerY] = this.getCenter();
       const [radius, innerRadius] = this.getRadiiForRound(round);
       const slots = this.numEntries / Math.pow(2, round - 1);
@@ -416,7 +412,7 @@ export default class Bracket {
       );
 
       const img = new Image();
-      const [url, revoke] = createImageUrlFromLogo(team.logo.url);
+      const [url, revoke] = createImageUrlFromLogo(teamInfo.logo.url);
 
       img.addEventListener("load", () => {
         revoke();
@@ -455,10 +451,10 @@ export default class Bracket {
         );
         path.closePath();
         this.ctx.fillStyle =
-          team.logo.background || team.primaryColor || "#FFFFFF";
+          teamInfo.logo.background || teamInfo.primaryColor || "#FFFFFF";
         this.ctx.fill(path);
         this.ctx.clip(path);
-        this.teamPaths.push({ path, teamCode, team, round });
+        this.teamPaths.push({ path, round, teamCode: team.code });
 
         // draw logo in clipping path
         this.ctx.drawImage(img, imgX, imgY, width, height);
@@ -468,21 +464,21 @@ export default class Bracket {
         resolve();
       });
       img.addEventListener("error", e => {
-        console.error("Error displaying image for " + team.name, e.message);
+        console.error("Error displaying image for " + teamInfo.name, e.message);
         resolve(); // img failed to load, but don't interrupt the rest of the render
       });
       img.src = url;
     });
   };
 
-  fillChampGameSlot = (slot, teamCode) => {
+  fillChampGameSlot = (slot, team) => {
     return new Promise((resolve, reject) => {
-      const team = teams[teamCode];
+      const teamInfo = teams[team.code];
       const [centerX, centerY] = this.getCenter();
       const radius = this.getRadiiForRound(this.numRounds - 1)[0];
 
       const img = new Image();
-      const [url, revoke] = createImageUrlFromLogo(team.logo.url);
+      const [url, revoke] = createImageUrlFromLogo(teamInfo.logo.url);
 
       img.addEventListener("load", () => {
         revoke();
@@ -496,12 +492,11 @@ export default class Bracket {
         path.closePath();
         this.teamPaths.push({
           path,
-          teamCode,
-          team,
-          round: this.numRounds - 1
+          round: this.numRounds - 1,
+          teamCode: team.code
         });
         this.ctx.fillStyle =
-          team.logo.background || team.primaryColor || "#FFFFFF";
+          teamInfo.logo.background || teamInfo.primaryColor || "#FFFFFF";
         this.ctx.stroke(path);
         this.ctx.fill(path);
         this.ctx.clip(path);
@@ -520,34 +515,23 @@ export default class Bracket {
         resolve();
       });
       img.addEventListener("error", e => {
-        console.error("Error displaying image for " + team.name, e.message);
+        console.error("Error displaying image for " + teamInfo.name, e.message);
         resolve(); // img failed to load, but don't interrupt the rest of the render
       });
       img.src = url;
     });
   };
 
-  fillChamp = teamCode => {
+  fillChamp = team => {
     return new Promise((resolve, reject) => {
-      let team;
-      if (teamCode === false) {
-        team = {
-          name: "Vacated",
-          logo: {
-            url: "img/logos/vacated.svg",
-            background: "brown"
-          }
-        };
-      } else {
-        team = teams[teamCode];
-      }
+      const teamInfo = teams[team.code];
       const [centerX, centerY] = this.getCenter();
 
       // make the champ game winner radius be a little less than half the radius of the champ game itself
       const radius = this.getRadiiForRound(this.numRounds - 1)[0] / 2.25;
 
       const img = new Image();
-      const [url, revoke] = createImageUrlFromLogo(team.logo.url);
+      const [url, revoke] = createImageUrlFromLogo(teamInfo.logo.url);
 
       img.addEventListener("load", () => {
         revoke();
@@ -557,12 +541,18 @@ export default class Bracket {
         let posX = centerX - size / 2;
         let posY = centerY - size / 2;
         this.ctx.save();
+
+        // make vacated wins be displayed in grayscale.  shame, shame!
+        if (team.winner && team.vacated) {
+          this.ctx.filter = "grayscale(100%)";
+        }
+
         this.ctx.beginPath();
         this.ctx.moveTo(centerX + radius, centerY);
         this.ctx.strokeStyle = this.settings.gridStrokeStyle;
         this.ctx.lineWidth = this.settings.gridStrokeWidth;
         this.ctx.fillStyle =
-          team.logo.background || team.primaryColor || "#FFF";
+          teamInfo.logo.background || teamInfo.primaryColor || "#FFF";
         this.ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI);
         this.ctx.fill();
         this.ctx.stroke();
@@ -573,7 +563,7 @@ export default class Bracket {
         resolve();
       });
       img.addEventListener("error", e => {
-        console.error("Error displaying image for " + team.name, e.message);
+        console.error("Error displaying image for " + teamInfo.name, e.message);
         resolve(); // couldn't display the image but this should not interrupt the render
       });
       img.src = url;
