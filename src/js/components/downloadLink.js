@@ -23,11 +23,11 @@ export default (size, text, bracket) => {
     dlBracket
       .render()
       .then(() => {
-        const image = dlBracket.getDataUrl("jpg");
+        const image = dlBracket.getDataUrl("png");
         downloadjs(
           image,
-          `circle-bracket-${sourceData.year}-${text.toLowerCase()}.jpg`,
-          "image/jpg"
+          `circle-bracket-${sourceData.year}-${text.toLowerCase()}.png`,
+          "image/png"
         );
       })
       .finally(() => {

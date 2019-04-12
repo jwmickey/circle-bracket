@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "downloadjs": "^1.4.7"
+    "downloadjs": "^1.4.7",
+    "lodash.throttle": "^4.1.1"
   }
 }

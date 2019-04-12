@@ -32,6 +32,7 @@ body
   margin: 0 auto
   display: block
   position: relative
+  cursor: pointer
 
 #year-picker
   position: absolute
@@ -40,28 +41,21 @@ body
   margin: 10px
   font-size: 1.25em
 
-.options
+.links
   position: absolute
   bottom: 0
   left: 0
-  width: 220px
+  width: 200px
+  font-size: 12px
+  line-height: 24px
+  margin: 10px
   display: flex
-  flex-flow: row wrap
+  flex-flow: row nowrap
   justify-content: space-between
+  align-self: flex-end
 
-
-  .links
-    font-size: 12px
-    line-height: 24px
-    margin: 10px
-    flex: 1
-    display: flex
-    flex-flow: row nowrap
-    justify-content: space-between
-    align-self: flex-end
-
-    img
-      max-height: 16px
+  img
+    max-height: 16px
 
 
 .game-info
@@ -85,11 +79,17 @@ body
 
   .close
     position: absolute
-    top: 0
-    right: 6px
-    color: #777
-    font-size: 1.5em
+    top: 2px
+    right: 2px
+    color: #aaaaaa
+    border: 1px solid #aaaaaa
+    border-radius: 2px
+    font-size: 2em
+    line-height: 0.6em
     cursor: pointer
+
+    &:hover
+      color: #333333
 
   .score
     flex: 1 0 auto
@@ -102,17 +102,26 @@ body
 
   .meta
     flex: 1
-    text-align: center
-    font-weight: bold
+    font-weight: 400
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-between
 
     p
-      margin: 0 5px
+      margin: 4px 0
+      text-align: center
+
+      &:first-child
+        text-align: left
+      &:last-child
+          text-align: right
 
   .team
     flex: 1 0 100%
     display: flex
     flex-flow: row wrap
     align-items: center
+    margin-bottom: 10px
 
     h1, h2
       margin: 0
@@ -136,6 +145,13 @@ body
 @media (max-width: 800px)
   .game-info
     padding: 5px 10px
+
+    .meta
+      flex-flow: column wrap
+
+      p
+        &:first-child, &:last-child
+          text-align: center
 
     .score
       font-size: 3em

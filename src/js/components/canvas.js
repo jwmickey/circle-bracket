@@ -1,10 +1,12 @@
-export default (width, height, id = "canvas") => {
+export default (size, cssSize, id = "canvas") => {
   const wrap = document.createElement("div");
   wrap.className = "canvas-wrap";
   const canvas = document.createElement("canvas");
   canvas.id = id;
-  canvas.width = width;
-  canvas.height = height;
+  canvas.width = size;
+  canvas.height = size;
+  canvas.style.width = cssSize + "px";
+  canvas.style.height = cssSize + "px";
   wrap.appendChild(canvas);
   return wrap;
 };

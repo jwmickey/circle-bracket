@@ -1,4 +1,9 @@
-export default (years = [], value, onChange) => {
+export default (minYear, maxYear, value, onChange) => {
+  const years = Array.from(
+    new Array(maxYear - minYear + 1),
+    (x, i) => i + minYear
+  ).reverse();
+
   let element = document.createElement("select");
   element.id = "year-picker";
   years.forEach(year => {

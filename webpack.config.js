@@ -53,7 +53,7 @@ const productionConfig = merge([
 ]);
 
 const developmentConfig = merge([
-  parts.devServer(),
+  parts.devServer({ host: "0.0.0.0" }),
   parts.loadImages({
     exclude: [/logos/]
   })

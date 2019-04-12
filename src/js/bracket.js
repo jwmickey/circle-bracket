@@ -1,6 +1,6 @@
+import { createImageUrlFromLogo } from "./utils";
 import teams from "../data/teams";
 
-const DOMURL = window.URL || window.webkitURL || window;
 const TO_RADIANS = Math.PI / 180;
 
 const seedSlotMap = [
@@ -18,6 +18,7 @@ const roundWidths32 = [0, 0.1, 0.15, 0.175, 0.2, 0.25, 0.1];
 export const DEFAULTS = {
   gridStrokeWidth: 2,
   gridStrokeStyle: "#fff",
+  scale: 1,
   showGameDetails: () => {}
 };
 
@@ -39,12 +40,14 @@ export default class Bracket {
     this.teamPaths = [];
 
     this.cvs.addEventListener("click", event => {
+      const scale = this.settings.scale;
       const rect = event.target.getBoundingClientRect();
       const x = event.clientX - rect.left; //x position within the element.
       const y = event.clientY - rect.top; //y position within the element.
+      console.log(x, y, this.settings.scale);
 
       for (let entry of this.teamPaths) {
-        if (this.ctx.isPointInPath(entry.path, x, y)) {
+        if (this.ctx.isPointInPath(entry.path, x * 2, y * 2)) {
           const { teamCode, round } = entry;
           const game = this.bracketData.games.find(
             g =>
@@ -66,6 +69,12 @@ export default class Bracket {
 
     this.reset();
   }
+
+  resize = size => {
+    this.cvs.width = size;
+    this.cvs.height = size;
+    this.render().catch(e => console.error(e));
+  };
 
   getBracketData = () => {
     return this.bracketData;
@@ -112,12 +121,11 @@ export default class Bracket {
     }
 
     this.settings.showGameDetails(null);
-    // this.fontSize = this.cvs.width * 0.015;
     this.teamPaths = [];
+    this.ctx.scale(this.settings.scale, this.settings.scale);
     this.ctx.clearRect(0, 0, this.cvs.width, this.cvs.height);
     this.ctx.fillStyle = "#fff";
     this.ctx.fillRect(0, 0, this.cvs.width, this.cvs.height);
-    this.ctx.setTransform(1, 0, 0, 1, 0, 0);
     this.ctx.translate(0, 0);
 
     this.fontSize = Math.floor(this.cvs.width * 0.0125);
@@ -223,7 +231,6 @@ export default class Bracket {
     this.ctx.save();
     this.ctx.lineWidth = this.settings.gridStrokeWidth;
     this.ctx.strokeStyle = this.settings.gridStrokeStyle;
-    this.ctx.setTransform(1, 0, 0, 1, 0, 0);
     this.ctx.translate(centerX, centerY);
     this.ctx.rotate(TO_RADIANS * 90);
 
@@ -268,7 +275,6 @@ export default class Bracket {
 
     this.ctx.save();
     this.ctx.font = `${this.fontSize}px "Open Sans"`;
-    this.ctx.setTransform(1, 0, 0, 1, 0, 0);
     this.ctx.translate(centerX, centerY);
     this.ctx.textAlign = "center";
     this.ctx.fillStyle = "#555";
@@ -391,10 +397,10 @@ export default class Bracket {
       );
 
       const img = new Image();
-      const url = createImageUrlFromLogo(team.logo.url);
+      const [url, revoke] = createImageUrlFromLogo(team.logo.url);
 
       img.addEventListener("load", () => {
-        DOMURL.revokeObjectURL(img.url);
+        revoke();
 
         let [width, height] = this.scaleDims(
           img.width,
@@ -459,10 +465,11 @@ export default class Bracket {
       const radius = this.getRadiiForRound(this.numRounds - 1)[0];
 
       const img = new Image();
-      const url = createImageUrlFromLogo(team.logo.url);
+      const [url, revoke] = createImageUrlFromLogo(team.logo.url);
 
       img.addEventListener("load", () => {
-        DOMURL.revokeObjectURL(url);
+        revoke();
+
         this.ctx.save();
         const path = new Path2D();
         const startAngle = 90 * TO_RADIANS;
@@ -521,10 +528,11 @@ export default class Bracket {
       const radius = centerX * roundWidths[roundWidths.length - 1];
 
       const img = new Image();
-      const url = createImageUrlFromLogo(team.logo.url);
+      const [url, revoke] = createImageUrlFromLogo(team.logo.url);
 
       img.addEventListener("load", () => {
-        DOMURL.revokeObjectURL(url);
+        revoke();
+
         let size = Math.floor(radius * 4);
         let posX = centerX - size / 2;
         let posY = centerY - size / 2;
@@ -642,27 +650,6 @@ function calcImageBox(radius, innerRadius, centerX, centerY, slots, slot) {
   const maxHeight = Math.abs(y2 - y1);
 
   return { x: x1, y: y1, maxWidth, maxHeight };
-}
-
-function createImageUrlFromLogo(logo) {
-  const file = require("../" + logo);
-
-  // this is an image object
-  if (typeof file !== "string") {
-    return file;
-  }
-
-  let url;
-
-  // logo might be a path to a file or it could be a SVG XML code
-  if (file.substring(0, 4) === "<svg") {
-    const svg = new Blob([file], { type: "image/svg+xml" });
-    url = DOMURL.createObjectURL(svg);
-  } else {
-    url = file;
-  }
-
-  return url;
 }
 
 function findTeamRegion(allGames, teamCode) {
