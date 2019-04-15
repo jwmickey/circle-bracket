@@ -1,4008 +1,4104 @@
 {
-	"vermont": {
-		"name": "Vermont",
-		"abbr": "VRMT",
-		"mascot": "Catamounts",
-		"primaryColor": "#007155",
-		"secondaryColor": "#66AC47",
-		"logo": {
-			"url": "img/logos/vermont.svg",
-			"background": "#007155"
-		}
-	},
-	"stony-brook": {
-		"name": "Stony Brook",
-		"abbr": "STBK",
-		"mascot": "Seawolves",
-		"primaryColor": "#990000",
-		"secondaryColor": "#16243E",
-		"logo": {
-			"url": "img/logos/stony-brook.svg",
-			"background": "#16243E"
-		}
-	},
-	"umbc": {
-		"name": "UMBC",
-		"abbr": "UMBC",
-		"mascot": "Retrievers",
-		"primaryColor": "#B18906",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/umbc.svg",
-			"background": "#B18906"
-		}
-	},
-	"hartford": {
-		"name": "Hartford",
-		"abbr": "HART",
-		"mascot": "Hawks",
-		"primaryColor": "#C02427",
-		"secondaryColor": "#0F0708",
-		"logo": {
-			"url": "img/logos/hartford.svg",
-			"background": "#C02427"
-		}
-	},
-	"albany-ny": {
-		"name": "Albany",
-		"alternates": ["Albany (NY)"],
-		"abbr": "ALBY",
-		"mascot": "Great Danes",
-		"primaryColor": "#461660",
-		"secondaryColor": "#EEB211",
-		"logo": {
-			"url": "img/logos/albany-ny.svg",
-			"background": "#EEB211"
-		}
-	},
-	"umass-lowell": {
-		"name": "Massachusetts-Lowell",
-		"abbr": "MLOW",
-		"mascot": "River Hawks",
-		"primaryColor": "#003DA5",
-		"secondaryColor": "#C8102E",
-		"logo": {
-			"url": "img/logos/umass-lowell.svg",
-			"background": "#C8102E"
-		}
-	},
-	"binghamton": {
-		"name": "Binghamton",
-		"abbr": "BING",
-		"mascot": "Bearcats",
-		"primaryColor": "#005A43",
-		"secondaryColor": "#169B62",
-		"logo": {
-			"url": "img/logos/binghamton.svg",
-			"background": "#169B62"
-		}
-	},
-	"new-hampshire": {
-		"name": "New Hampshire",
-		"abbr": "UNH",
-		"mascot": "Wildcats",
-		"primaryColor": "#041E42",
-		"secondaryColor": "#BBBCBC",
-		"logo": {
-			"url": "img/logos/new-hampshire.svg",
-			"background": "#041E42"
-		}
-	},
-	"maine": {
-		"name": "Maine",
-		"abbr": "UME",
-		"mascot": "Black Bears",
-		"primaryColor": "#003263",
-		"secondaryColor": "#B0D7FF",
-		"logo": {
-			"url": "img/logos/maine.svg",
-			"background": "#003263"
-		}
-	},
-	"houston": {
-		"name": "Houston",
-		"abbr": "HOU",
-		"mascot": "Cougars",
-		"primaryColor": "#C8102E",
-		"secondaryColor": "#76232F",
-		"logo": {
-			"url": "img/logos/houston.svg",
-			"background": "#76232F"
-		}
-	},
-	"cincinnati": {
-		"name": "Cincinnati",
-		"abbr": "CINCY",
-		"mascot": "Bearcats",
-		"primaryColor": "#E00122",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/cincinnati.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"ucf": {
-		"name": "Central Florida",
-		"abbr": "UCF",
-		"mascot": "Knights",
-		"primaryColor": "#000000",
-		"secondaryColor": "#FFC904",
-		"logo": {
-			"url": "img/logos/ucf.svg",
-			"background": ""
-		}
-	},
-	"temple": {
-		"name": "Temple",
-		"abbr": "TEMP",
-		"mascot": "Owls",
-		"primaryColor": "#9D2235",
-		"secondaryColor": "#FFCD00",
-		"logo": {
-			"url": "img/logos/temple.svg",
-			"background": "#9D2235"
-		}
-	},
-	"memphis": {
-		"name": "Memphis",
-		"alternates": ["Memphis State"],
-		"abbr": "MEM",
-		"mascot": "Tigers",
-		"primaryColor": "#003087",
-		"secondaryColor": "#898D8D",
-		"logo": {
-			"url": "img/logos/memphis.svg",
-			"background": "#003087"
-		}
-	},
-	"wichita-st": {
-		"name": "Wichita State",
-		"abbr": "WSU",
-		"mascot": "Shockers",
-		"primaryColor": "#FFCD00",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/wichita-st.svg",
-			"background": "#FFCD00"
-		}
-	},
-	"south-fla": {
-		"name": "South Florida",
-		"abbr": "USF",
-		"mascot": "Bulls",
-		"primaryColor": "#006747",
-		"secondaryColor": "#CFC493",
-		"logo": {
-			"url": "img/logos/south-fla.svg",
-			"background": "#006747"
-		}
-	},
-	"tulsa": {
-		"name": "Tulsa",
-		"abbr": "TULSA",
-		"mascot": "Golden Hurricane",
-		"primaryColor": "#002D72",
-		"secondaryColor": "#C8102E",
-		"logo": {
-			"url": "img/logos/tulsa.svg",
-			"background": "#C5B783"
-		}
-	},
-	"uconn": {
-		"name": "Connecticut",
-		"abbr": "UCONN",
-		"mascot": "Huskies",
-		"primaryColor": "#000E2F",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/uconn.svg",
-			"background": "#000E2F"
-		}
-	},
-	"smu": {
-		"name": "Southern Methodist",
-		"abbr": "SMU",
-		"mascot": "Mustangs",
-		"primaryColor": "#CC0035",
-		"secondaryColor": "#354CA1",
-		"logo": {
-			"url": "img/logos/smu.svg",
-			"background": "#354CA1"
-		}
-	},
-	"east-carolina": {
-		"name": "East Carolina",
-		"abbr": "ECU",
-		"mascot": "Pirates",
-		"primaryColor": "#592A8A",
-		"secondaryColor": "#FDC82F",
-		"logo": {
-			"url": "img/logos/east-carolina.svg",
-			"background": "#592A8A"
-		}
-	},
-	"tulane": {
-		"name": "Tulane",
-		"abbr": "TUL",
-		"mascot": "Green Wave",
-		"primaryColor": "#006747",
-		"secondaryColor": "#43B02A",
-		"logo": {
-			"url": "img/logos/tulane.svg",
-			"background": "#43B02A"
-		}
-	},
-	"vcu": {
-		"name": "Virginia Commonwealth",
-		"abbr": "VCU",
-		"mascot": "Rams",
-		"primaryColor": "#FFB300",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/vcu.svg",
-			"background": "#FFB300"
-		}
-	},
-	"davidson": {
-		"name": "Davidson",
-		"abbr": "DAV",
-		"mascot": "Wildcats",
-		"primaryColor": "#AC1A2F",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/davidson.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"dayton": {
-		"name": "Dayton",
-		"abbr": "DAY",
-		"mascot": "Flyers",
-		"primaryColor": "#CE1141",
-		"secondaryColor": "#004B8D",
-		"logo": {
-			"url": "img/logos/dayton.svg",
-			"background": "#004B8D"
-		}
-	},
-	"st-bonaventure": {
-		"name": "St. Bonaventure",
-		"abbr": "STBN",
-		"mascot": "Bonnies",
-		"primaryColor": "#54261A",
-		"secondaryColor": "#FDB726",
-		"logo": {
-			"url": "img/logos/st-bonaventure.svg",
-			"background": "#54261A"
-		}
-	},
-	"george-mason": {
-		"name": "George Mason",
-		"abbr": "GM",
-		"mascot": "Patriots",
-		"primaryColor": "#006633",
-		"secondaryColor": "#FFCC33",
-		"logo": {
-			"url": "img/logos/george-mason.svg",
-			"background": ""
-		}
-	},
-	"saint-louis": {
-		"name": "Saint Louis",
-		"alternates": ["St. Louis"],
-		"abbr": "STLS",
-		"mascot": "Billikens",
-		"primaryColor": "#003DA5",
-		"secondaryColor": "#C8C9C7",
-		"logo": {
-			"url": "img/logos/saint-louis.svg",
-			"background": "#C8C9C7"
-		}
-	},
-	"duquesne": {
-		"name": "Duquesne",
-		"abbr": "DUQ",
-		"mascot": "Dukes",
-		"primaryColor": "#041E42",
-		"secondaryColor": "#BA0C2F",
-		"logo": {
-			"url": "img/logos/duquesne.svg",
-			"background": ""
-		}
-	},
-	"rhode-island": {
-		"name": "Rhode Island",
-		"abbr": "URI",
-		"mascot": "Rams",
-		"primaryColor": "#68ABE8",
-		"secondaryColor": "#002147",
-		"logo": {
-			"url": "img/logos/rhode-island.svg",
-			"background": "#68ABE8"
-		},
-		"conference": ""
-	},
-	"la-salle": {
-		"name": "La Salle",
-		"abbr": "SALLE",
-		"mascot": "Explorers",
-		"primaryColor": "#FFCC00",
-		"secondaryColor": "#003366",
-		"logo": {
-			"url": "img/logos/la-salle.svg",
-			"background": "#003366"
-		}
-	},
-	"richmond": {
-		"name": "Richmond",
-		"abbr": "RICH",
-		"mascot": "Spiders",
-		"primaryColor": "#000066",
-		"secondaryColor": "#990000",
-		"logo": {
-			"url": "img/logos/richmond.svg",
-			"background": "#000066"
-		}
-	},
-	"saint-josephs": {
-		"name": "Saint Joseph's",
-		"alternates": ["St. Joseph's"],
-		"abbr": "SJU",
-		"mascot": "Hawks",
-		"primaryColor": "#9E1B32",
-		"secondaryColor": "#6C6F70",
-		"logo": {
-			"url": "img/logos/saint-josephs.svg",
-			"background": "#9E1B32"
-		}
-	},
-	"massachusetts": {
-		"name": "Massachusetts",
-		"alternates": ["UMass"],
-		"abbr": "UMASS",
-		"mascot": "Minutemen",
-		"primaryColor": "#971B2F",
-		"secondaryColor": "#572932",
-		"logo": {
-			"url": "img/logos/massachusetts.svg",
-			"background": "#971B2F"
-		}
-	},
-	"george-washington": {
-		"name": "George Washington",
-		"abbr": "GW",
-		"mascot": "Colonials",
-		"primaryColor": "#E2CB92",
-		"secondaryColor": "#002654",
-		"logo": {
-			"url": "img/logos/george-washington.svg",
-			"background": ""
-		}
-	},
-	"fordham": {
-		"name": "Fordham",
-		"abbr": "FORD",
-		"mascot": "Rams",
-		"primaryColor": "#860038",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/fordham.svg",
-			"background": "#860038"
-		}
-	},
-	"north-carolina": {
-		"name": "North Carolina",
-		"abbr": "UNC",
-		"mascot": "Tar Heels",
-		"primaryColor": "#7BAFD4",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/north-carolina.svg",
-			"background": "#7BAFD4"
-		}
-	},
-	"virginia": {
-		"name": "Virginia",
-		"abbr": "UVA",
-		"mascot": "Cavaliers",
-		"primaryColor": "#232D4B",
-		"secondaryColor": "#F84C1E",
-		"logo": {
-			"url": "img/logos/virginia.svg",
-			"background": "#F84C1E"
-		}
-	},
-	"duke": {
-		"name": "Duke",
-		"abbr": "DUKE",
-		"mascot": "Blue Devils",
-		"primaryColor": "#003087",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/duke.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"florida-st": {
-		"name": "Florida State",
-		"abbr": "FSU",
-		"mascot": "Seminoles",
-		"primaryColor": "#782F40",
-		"secondaryColor": "#CEB888",
-		"logo": {
-			"url": "img/logos/florida-st.svg",
-			"background": "#CEB888"
-		}
-	},
-	"virginia-tech": {
-		"name": "Virginia Tech",
-		"abbr": "VT",
-		"mascot": "Hokies",
-		"primaryColor": "#630031",
-		"secondaryColor": "#CF4420",
-		"logo": {
-			"url": "img/logos/virginia-tech.svg",
-			"background": ""
-		}
-	},
-	"louisville": {
-		"name": "Louisville",
-		"abbr": "UL",
-		"mascot": "Cardinals",
-		"primaryColor": "#AD0000",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/louisville.svg",
-			"background": "#AD0000"
-		}
-	},
-	"syracuse": {
-		"name": "Syracuse",
-		"abbr": "CUSE",
-		"mascot": "Orange",
-		"primaryColor": "#D44500",
-		"secondaryColor": "#3E3D3C",
-		"logo": {
-			"url": "img/logos/syracuse.svg",
-			"background": ""
-		}
-	},
-	"clemson": {
-		"name": "Clemson",
-		"abbr": "CLEM",
-		"mascot": "Tigers",
-		"primaryColor": "#F56600",
-		"secondaryColor": "#522D80",
-		"logo": {
-			"url": "img/logos/clemson.svg",
-			"background": "#522D80"
-		}
-	},
-	"north-carolina-st": {
-		"name": "North Carolina State",
-		"alternates": ["NC State"],
-		"abbr": "NCST",
-		"mascot": "Wolfpack",
-		"primaryColor": "#CC0000",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/north-carolina-st.svg",
-			"background": "#CC0000"
-		}
-	},
-	"georgia-tech": {
-		"name": "Georgia Tech",
-		"abbr": "GT",
-		"mascot": "Yellow Jackets",
-		"primaryColor": "#B3A369",
-		"secondaryColor": "#003057",
-		"logo": {
-			"url": "img/logos/georgia-tech.svg",
-			"background": "#003057"
-		}
-	},
-	"miami-fl": {
-		"name": "Miami (FL)",
-		"abbr": "MIAMI",
-		"mascot": "Hurricanes",
-		"primaryColor": "#F47321",
-		"secondaryColor": "#005030",
-		"logo": {
-			"url": "img/logos/miami-fl.svg",
-			"background": "#005030"
-		}
-	},
-	"boston-college": {
-		"name": "Boston College",
-		"abbr": "BC",
-		"mascot": "Golden Eagles",
-		"primaryColor": "#98002E",
-		"secondaryColor": "#BC9B6A",
-		"logo": {
-			"url": "img/logos/boston-college.svg",
-			"background": "#BC9B6A"
-		}
-	},
-	"wake-forest": {
-		"name": "Wake Forest",
-		"abbr": "WF",
-		"mascot": "Demon Deacons",
-		"primaryColor": "#A67F31",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/wake-forest.svg",
-			"background": "#000000"
-		}
-	},
-	"pittsburgh": {
-		"name": "Pittsburgh",
-		"alternates": ["Pitt"],
-		"abbr": "PITT",
-		"mascot": "Panthers",
-		"primaryColor": "#1C2957",
-		"secondaryColor": "#CDB87D",
-		"logo": {
-			"url": "img/logos/pittsburgh.svg",
-			"background": "#CDB87D"
-		}
-	},
-	"notre-dame": {
-		"name": "Notre Dame",
-		"abbr": "ND",
-		"mascot": "Fighting Irish",
-		"primaryColor": "#0C2340",
-		"secondaryColor": "#C99700",
-		"logo": {
-			"url": "img/logos/notre-dame.svg",
-			"background": "#C99700"
-		}
-	},
-	"liberty": {
-		"name": "Liberty",
-		"abbr": "LIB",
-		"mascot": "Flames",
-		"primaryColor": "#990000",
-		"secondaryColor": "#0A254E",
-		"logo": {
-			"url": "img/logos/liberty.svg",
-			"background": "#0A254E"
-		}
-	},
-	"lipscomb": {
-		"name": "Lipscomb",
-		"abbr": "LPSC",
-		"mascot": "Bisons",
-		"primaryColor": "#331E54",
-		"secondaryColor": "#F4AA00",
-		"logo": {
-			"url": "img/logos/lipscomb.svg",
-			"background": "#F4AA00"
-		}
-	},
-	"fgcu": {
-		"name": "Florida Gulf Coast",
-		"abbr": "FGU",
-		"mascot": "Eagles",
-		"primaryColor": "#002D72",
-		"secondaryColor": "#007749",
-		"logo": {
-			"url": "img/logos/fgcu.svg",
-			"background": "#007749"
-		}
-	},
-	"north-florida": {
-		"name": "North Florida",
-		"abbr": "NFLA",
-		"mascot": "Ospreys",
-		"primaryColor": "#00246B",
-		"secondaryColor": "#D9D9D9",
-		"logo": {
-			"url": "img/logos/north-florida.svg",
-			"background": "#D9D9D9"
-		}
-	},
-	"njit": {
-		"name": "N.J.I.T.",
-		"abbr": "NJIT",
-		"mascot": "Highlanders",
-		"primaryColor": "#D22630",
-		"secondaryColor": "#071D49",
-		"logo": {
-			"url": "img/logos/njit.svg",
-			"background": "#D22630"
-		}
-	},
-	"north-ala": {
-		"name": "North Alabama",
-		"abbr": "UNA",
-		"mascot": "Lions",
-		"primaryColor": "#46166B",
-		"secondaryColor": "#DB9F11",
-		"logo": {
-			"url": "img/logos/north-ala.svg",
-			"background": "#46166B"
-		}
-	},
-	"jacksonville": {
-		"name": "Jacksonville",
-		"abbr": "JU",
-		"mascot": "Dolphins",
-		"primaryColor": "#004E44",
-		"secondaryColor": "#898A8D",
-		"logo": {
-			"url": "img/logos/jacksonville.svg",
-			"background": "#898A8D"
-		}
-	},
-	"stetson": {
-		"name": "Stetson",
-		"abbr": "SU",
-		"mascot": "Hatters",
-		"primaryColor": "#006747",
-		"secondaryColor": "#B58150",
-		"logo": {
-			"url": "img/logos/stetson.svg",
-			"background": "#006747"
-		}
-	},
-	"kennesaw-st": {
-		"name": "Kennesaw State",
-		"abbr": "KENN",
-		"mascot": "Owls",
-		"primaryColor": "#FDBB30",
-		"secondaryColor": "#0B1315",
-		"logo": {
-			"url": "img/logos/kennesaw-st.svg",
-			"background": "#0B1315"
-		}
-	},
-	"texas-tech": {
-		"name": "Texas Tech",
-		"abbr": "TTU",
-		"mascot": "Red Raiders",
-		"primaryColor": "#CC0000",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/texas-tech.svg",
-			"background": "#CC0000"
-		}
-	},
-	"kansas-st": {
-		"name": "Kansas State",
-		"abbr": "KSU",
-		"mascot": "Wildcats",
-		"primaryColor": "#512888",
-		"secondaryColor": "#D1D1D1",
-		"logo": {
-			"url": "img/logos/kansas-st.svg",
-			"background": "#D1D1D1"
-		}
-	},
-	"kansas": {
-		"name": "Kansas",
-		"abbr": "KU",
-		"mascot": "Jayhawks",
-		"primaryColor": "#0051BA",
-		"secondaryColor": "#0051BA",
-		"logo": {
-			"url": "img/logos/kansas.svg",
-			"background": "#0051BA"
-		}
-	},
-	"baylor": {
-		"name": "Baylor",
-		"abbr": "BAY",
-		"mascot": "Bears",
-		"primaryColor": "#003015",
-		"secondaryColor": "#FECB00",
-		"logo": {
-			"url": "img/logos/baylor.svg",
-			"background": "#003015"
-		}
-	},
-	"iowa-st": {
-		"name": "Iowa State",
-		"abbr": "IOST",
-		"mascot": "Cyclones",
-		"primaryColor": "#C8102E",
-		"secondaryColor": "#F1BE48",
-		"logo": {
-			"url": "img/logos/iowa-st.svg",
-			"background": "#F1BE48"
-		}
-	},
-	"texas": {
-		"name": "Texas",
-		"abbr": "TEX",
-		"mascot": "Longhorns",
-		"primaryColor": "#BF5700",
-		"secondaryColor": "#333F48",
-		"logo": {
-			"url": "img/logos/texas.svg",
-			"background": "#333F48"
-		}
-	},
-	"tcu": {
-		"name": "Texas Christian",
-		"abbr": "TCU",
-		"mascot": "Horned Frogs",
-		"primaryColor": "#4D1979",
-		"secondaryColor": "#A3A9AC",
-		"logo": {
-			"url": "img/logos/tcu.svg",
-			"background": "#A3A9AC"
-		}
-	},
-	"oklahoma": {
-		"name": "Oklahoma",
-		"abbr": "OU",
-		"mascot": "Sooners",
-		"primaryColor": "#841617",
-		"secondaryColor": "#FDF9D8",
-		"logo": {
-			"url": "img/logos/oklahoma.svg",
-			"background": "#FDF9D8"
-		}
-	},
-	"oklahoma-st": {
-		"name": "Oklahoma State",
-		"abbr": "OKST",
-		"mascot": "Cowboys",
-		"primaryColor": "#FF7300",
-		"secondaryColor": "#FF9900",
-		"logo": {
-			"url": "img/logos/oklahoma-st.svg",
-			"background": "#FF9900"
-		}
-	},
-	"west-virginia": {
-		"name": "West Virginia",
-		"abbr": "WVA",
-		"mascot": "Mountaineers",
-		"primaryColor": "#002855",
-		"secondaryColor": "#EAAA00",
-		"logo": {
-			"url": "img/logos/west-virginia.svg",
-			"background": "#002855"
-		}
-	},
-	"villanova": {
-		"name": "Villanova",
-		"abbr": "NOVA",
-		"mascot": "Wildcats",
-		"primaryColor": "#00205B",
-		"secondaryColor": "#13B5EA",
-		"logo": {
-			"url": "img/logos/villanova.svg",
-			"background": "#13B5EA"
-		}
-	},
-	"marquette": {
-		"name": "Marquette",
-		"abbr": "MARQ",
-		"mascot": "Golden Eagles",
-		"primaryColor": "#003366",
-		"secondaryColor": "#FFCC00",
-		"logo": {
-			"url": "img/logos/marquette.svg",
-			"background": "#FFCC00"
-		}
-	},
-	"xavier": {
-		"name": "Xavier",
-		"abbr": "XAV",
-		"mascot": "Musketeers",
-		"primaryColor": "#0C2340",
-		"secondaryColor": "#9EA2A2",
-		"logo": {
-			"url": "img/logos/xavier.svg",
-			"background": "#0C2340"
-		}
-	},
-	"creighton": {
-		"name": "Creighton",
-		"abbr": "CRE",
-		"mascot": "Bluejays",
-		"primaryColor": "#005CA9",
-		"secondaryColor": "#00235D",
-		"logo": {
-			"url": "img/logos/creighton.svg",
-			"background": "#005CA9"
-		}
-	},
-	"seton-hall": {
-		"name": "Seton Hall",
-		"abbr": "SETON",
-		"mascot": "Pirates",
-		"primaryColor": "#004488",
-		"secondaryColor": "#A2AAAD",
-		"logo": {
-			"url": "img/logos/seton-hall.svg",
-			"background": "#004488"
-		}
-	},
-	"georgetown": {
-		"name": "Georgetown",
-		"abbr": "GTOWN",
-		"mascot": "Hoyas",
-		"primaryColor": "#041E42",
-		"secondaryColor": "#8D817B",
-		"logo": {
-			"url": "img/logos/georgetown.svg",
-			"background": "#041E42"
-		}
-	},
-	"st-johns-ny": {
-		"name": "St. John's",
-		"alternates": ["St John's", "St. John's (NY)"],
-		"abbr": "SJU",
-		"mascot": "Red Storm",
-		"primaryColor": "#BA0C2F",
-		"secondaryColor": "#041C2C",
-		"logo": {
-			"url": "img/logos/st-johns-ny.svg",
-			"background": "#BA0C2F"
-		}
-	},
-	"butler": {
-		"name": "Butler",
-		"abbr": "BUTLR",
-		"mascot": "Bulldogs",
-		"primaryColor": "#13294B",
-		"secondaryColor": "#747678",
-		"logo": {
-			"url": "img/logos/butler.svg",
-			"background": "#13294B"
-		}
-	},
-	"depaul": {
-		"name": "DePaul",
-		"abbr": "DePAUL",
-		"mascot": "Blue Demons",
-		"primaryColor": "#005EB8",
-		"secondaryColor": "#E4002B",
-		"logo": {
-			"url": "img/logos/depaul.svg",
-			"background": "#005EB8"
-		}
-	},
-	"providence": {
-		"name": "Providence",
-		"abbr": "PROV",
-		"mascot": "Friars",
-		"primaryColor": "#8A8D8F",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/providence.svg",
-			"background": "#8A8D8F"
-		}
-	},
-	"montana": {
-		"name": "Montana",
-		"abbr": "MONT",
-		"mascot": "Grizzlies",
-		"primaryColor": "#660033",
-		"secondaryColor": "#999999",
-		"logo": {
-			"url": "img/logos/montana.svg",
-			"background": "#999999"
-		}
-	},
-	"northern-colo": {
-		"name": "Northern Colorado",
-		"abbr": "NCO",
-		"mascot": "Bears",
-		"primaryColor": "#013C65",
-		"secondaryColor": "#F6B000",
-		"logo": {
-			"url": "img/logos/northern-colo.svg",
-			"background": "#013C65"
-		}
-	},
-	"eastern-wash": {
-		"name": "Eastern Washington",
-		"abbr": "EWA",
-		"mascot": "Eagles",
-		"primaryColor": "#A10022",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/eastern-wash.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"montana-st": {
-		"name": "Montana State",
-		"abbr": "MTST",
-		"mascot": "Bobcats",
-		"primaryColor": "#00205B",
-		"secondaryColor": "#B9975B",
-		"logo": {
-			"url": "img/logos/montana-st.svg",
-			"background": "#B9975B"
-		}
-	},
-	"weber-st": {
-		"name": "Weber State",
-		"abbr": "WEBER",
-		"mascot": "Wildcats",
-		"primaryColor": "#4B2682",
-		"secondaryColor": "#A1A1A4",
-		"logo": {
-			"url": "img/logos/weber-st.svg",
-			"background": "#4B2682"
-		}
-	},
-	"portland-st": {
-		"name": "Portland State",
-		"abbr": "PORTST",
-		"mascot": "Vikings",
-		"primaryColor": "#154734",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/portland-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"southern-utah": {
-		"name": "Southern Utah",
-		"abbr": "SUTAH",
-		"mascot": "Thunderbirds",
-		"primaryColor": "#C41425",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/southern-utah.svg",
-			"background": "#000000"
-		}
-	},
-	"northern-ariz": {
-		"name": "Northern Arizona",
-		"abbr": "NAU",
-		"mascot": "Lumberjacks",
-		"primaryColor": "#003466",
-		"secondaryColor": "#FFD200",
-		"logo": {
-			"url": "img/logos/northern-ariz.svg",
-			"background": "#FBB040"
-		}
-	},
-	"sacramento-st": {
-		"name": "Sacramento State",
-		"abbr": "SACST",
-		"mascot": "Hornets",
-		"primaryColor": "#043927",
-		"secondaryColor": "#C4B581",
-		"logo": {
-			"url": "img/logos/sacramento-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"idaho-st": {
-		"name": "Idaho State",
-		"abbr": "IDST",
-		"mascot": "Bengals",
-		"primaryColor": "#FF671F",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/idaho-st.svg",
-			"background": "#FF671F"
-		}
-	},
-	"idaho": {
-		"name": "Idaho",
-		"abbr": "IDAHO",
-		"mascot": "Vandals",
-		"primaryColor": "#B3A369",
-		"secondaryColor": "#EAAB00",
-		"logo": {
-			"url": "img/logos/idaho.svg",
-			"background": "#B3A369"
-		}
-	},
-	"campbell": {
-		"name": "Campbell",
-		"abbr": "CAMP",
-		"mascot": "Fighting Camels",
-		"primaryColor": "#E87722",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/campbell.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"radford": {
-		"name": "Radford",
-		"abbr": "RAD",
-		"mascot": "Highlanders",
-		"primaryColor": "#C2011B",
-		"secondaryColor": "#808285",
-		"logo": {
-			"url": "img/logos/radford.svg",
-			"background": "#C2011B"
-		}
-	},
-	"winthrop": {
-		"name": "Winthrop",
-		"abbr": "WTHRP",
-		"mascot": "Eagles",
-		"primaryColor": "#872434",
-		"secondaryColor": "#FFC82E",
-		"logo": {
-			"url": "img/logos/winthrop.svg",
-			"background": "#872434"
-		}
-	},
-	"gardner-webb": {
-		"name": "Gardner-Webb",
-		"abbr": "GWEBB",
-		"mascot": "Runnin' Bulldogs",
-		"primaryColor": "#A6192E",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/gardner-webb.svg",
-			"background": "#A6192E"
-		}
-	},
-	"hampton": {
-		"name": "Hampton",
-		"abbr": "HAMP",
-		"mascot": "Pirates",
-		"primaryColor": "#265198",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/hampton.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"charleston-so": {
-		"name": "Charleston Southern",
-		"abbr": "CHSO",
-		"mascot": "Buccaneers",
-		"primaryColor": "#002855",
-		"secondaryColor": "#A89968",
-		"logo": {
-			"url": "img/logos/charleston-so.svg",
-			"background": "#A89968"
-		}
-	},
-	"presbyterian": {
-		"name": "Presbyterian",
-		"abbr": "PRESB",
-		"mascot": "Blue Hose",
-		"primaryColor": "#0060A9",
-		"secondaryColor": "#9D2235",
-		"logo": {
-			"url": "img/logos/presbyterian.svg",
-			"background": "#0060A9"
-		}
-	},
-	"high-point": {
-		"name": "High Point",
-		"abbr": "HPU",
-		"mascot": "Panthers",
-		"primaryColor": "#330072",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/high-point.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"longwood": {
-		"name": "Longwood",
-		"abbr": "LWOOD",
-		"mascot": "Lancers",
-		"primaryColor": "#041E42",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/longwood.svg",
-			"background": "#041E42"
-		}
-	},
-	"unc-asheville": {
-		"name": "UNC Asheville",
-		"abbr": "UNCA",
-		"mascot": "Bulldogs",
-		"primaryColor": "#003DA5",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/unc-asheville.svg",
-			"background": "#003DA5"
-		}
-	},
-	"usc-upstate": {
-		"name": "USC Upstate",
-		"abbr": "USCU",
-		"mascot": "Spartans",
-		"primaryColor": "#046A38",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/usc-upstate.svg",
-			"background": "#046A38"
-		}
-	},
-	"purdue": {
-		"name": "Purdue",
-		"abbr": "PUR",
-		"mascot": "Boilermakers",
-		"primaryColor": "#CEB888",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/purdue.svg",
-			"background": "#CEB888"
-		}
-	},
-	"michigan-st": {
-		"name": "Michigan State",
-		"abbr": "MSU",
-		"mascot": "Spartans",
-		"primaryColor": "#18453B",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/michigan-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"michigan": {
-		"name": "Michigan",
-		"abbr": "MICH",
-		"mascot": "Wolverines",
-		"primaryColor": "#00274C",
-		"secondaryColor": "#FFCB05",
-		"logo": {
-			"url": "img/logos/michigan.svg",
-			"background": "#00274C"
-		}
-	},
-	"wisconsin": {
-		"name": "Wisconsin",
-		"abbr": "WIS",
-		"mascot": "Badgers",
-		"primaryColor": "#C5050C",
-		"secondaryColor": "#9B0000",
-		"logo": {
-			"url": "img/logos/wisconsin.svg",
-			"background": "#C5050C"
-		}
-	},
-	"maryland": {
-		"name": "Maryland",
-		"abbr": "MD",
-		"mascot": "Terrapins",
-		"primaryColor": "#E03A3E",
-		"secondaryColor": "#FFD520",
-		"logo": {
-			"url": "img/logos/maryland.svg",
-			"background": "#E03A3E"
-		}
-	},
-	"iowa": {
-		"name": "Iowa",
-		"abbr": "IOWA",
-		"mascot": "Hawkeyes",
-		"primaryColor": "#FFCD00",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/iowa.svg",
-			"background": ""
-		}
-	},
-	"minnesota": {
-		"name": "Minnesota",
-		"abbr": "MINN",
-		"mascot": "Golden Gophers",
-		"primaryColor": "#7A0019",
-		"secondaryColor": "#FFCC33",
-		"logo": {
-			"url": "img/logos/minnesota.svg",
-			"background": "#7A0019"
-		}
-	},
-	"ohio-st": {
-		"name": "Ohio State",
-		"abbr": "OSU",
-		"mascot": "Buckeyes",
-		"primaryColor": "#BB0000",
-		"secondaryColor": "#666666",
-		"logo": {
-			"url": "img/logos/ohio-st.svg",
-			"background": "#BB0000"
-		}
-	},
-	"indiana": {
-		"name": "Indiana",
-		"abbr": "IU",
-		"mascot": "Hoosiers",
-		"primaryColor": "#990000",
-		"secondaryColor": "#EEEDEB",
-		"logo": {
-			"url": "img/logos/indiana.svg",
-			"background": "#EEEDEB"
-		}
-	},
-	"penn-st": {
-		"name": "Penn State",
-		"abbr": "PSU",
-		"mascot": "Nittany Lions",
-		"primaryColor": "#093162",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/penn-st.svg",
-			"background": "#093162"
-		}
-	},
-	"rutgers": {
-		"name": "Rutgers",
-		"abbr": "RUTG",
-		"mascot": "Scarlet Knights",
-		"primaryColor": "#CC0033",
-		"secondaryColor": "#5F6A72",
-		"logo": {
-			"url": "img/logos/rutgers.svg",
-			"background": "#5F6A72"
-		}
-	},
-	"illinois": {
-		"name": "Illinois",
-		"abbr": "IL",
-		"mascot": "Fighting Illini",
-		"primaryColor": "#E84A27",
-		"secondaryColor": "#13294B",
-		"logo": {
-			"url": "img/logos/illinois.svg",
-			"background": "#E84A27"
-		}
-	},
-	"nebraska": {
-		"name": "Nebraska",
-		"abbr": "NBRK",
-		"mascot": "Cornhuskers",
-		"primaryColor": "#E41C38",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/nebraska.svg",
-			"background": "#000000"
-		}
-	},
-	"northwestern": {
-		"name": "Northwestern",
-		"abbr": "NW",
-		"mascot": "Wildcats",
-		"primaryColor": "#4E2A84",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/northwestern.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"uc-irvine": {
-		"name": "UC Irvine",
-		"abbr": "UIC",
-		"mascot": "Anteaters",
-		"primaryColor": "#0C2340",
-		"secondaryColor": "#FFC72C",
-		"logo": {
-			"url": "img/logos/uc-irvine.svg",
-			"background": "#0C2340"
-		}
-	},
-	"cal-st-fullerton": {
-		"name": "Cal State Fullerton",
-		"abbr": "CALST",
-		"mascot": "Titans",
-		"primaryColor": "#00274C",
-		"secondaryColor": "#FF7900",
-		"logo": {
-			"url": "img/logos/cal-st-fullerton.svg",
-			"background": "#FF7900"
-		}
-	},
-	"uc-santa-barbara": {
-		"name": "UC Santa Barbara",
-		"abbr": "UCSB",
-		"mascot": "Gauchos",
-		"primaryColor": "#004D9F",
-		"secondaryColor": "#FFB814",
-		"logo": {
-			"url": "img/logos/uc-santa-barbara.svg",
-			"background": "#FFB814"
-		}
-	},
-	"hawaii": {
-		"name": "Hawaii",
-		"abbr": "HI",
-		"mascot": "Warriors",
-		"primaryColor": "#024731",
-		"secondaryColor": "#C8C8C8",
-		"logo": {
-			"url": "img/logos/hawaii.svg",
-			"background": "#024731"
-		}
-	},
-	"long-beach-st": {
-		"name": "Long Beach State",
-		"abbr": "LBSU",
-		"mascot": "Dirtbags",
-		"primaryColor": "#000000",
-		"secondaryColor": "#FFC61E",
-		"logo": {
-			"url": "img/logos/long-beach-st.svg",
-			"background": ""
-		}
-	},
-	"cal-st-northridge": {
-		"name": "Cal State Northridge",
-		"abbr": "CSNR",
-		"mascot": "Matadors",
-		"primaryColor": "#CE1126",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/cal-st-northridge.svg",
-			"background": "#CE1126"
-		}
-	},
-	"uc-davis": {
-		"name": "UC Davis",
-		"abbr": "UCDAV",
-		"mascot": "Aggies",
-		"primaryColor": "#002855",
-		"secondaryColor": "#B3A369",
-		"logo": {
-			"url": "img/logos/uc-davis.svg",
-			"background": "#002855"
-		}
-	},
-	"uc-riverside": {
-		"name": "UC Riverside",
-		"abbr": "UCRS",
-		"mascot": "Highlanders",
-		"primaryColor": "#2D6CC0",
-		"secondaryColor": "#F1AB00",
-		"logo": {
-			"url": "img/logos/uc-riverside.svg",
-			"background": "#2D6CC0"
-		}
-	},
-	"cal-poly": {
-		"name": "Cal Poly",
-		"abbr": "CAPOLY",
-		"mascot": "Mustangs",
-		"primaryColor": "#003831",
-		"secondaryColor": "#B38F4F",
-		"logo": {
-			"url": "img/logos/cal-poly.svg",
-			"background": "#003831"
-		}
-	},
-	"hofstra": {
-		"name": "Hofstra",
-		"abbr": "HOF",
-		"mascot": "Pride",
-		"primaryColor": "#FDC82F",
-		"secondaryColor": "#003591",
-		"logo": {
-			"url": "img/logos/hofstra.svg",
-			"background": "#FDC82F"
-		}
-	},
-	"northeastern": {
-		"name": "Northeastern",
-		"abbr": "NE",
-		"mascot": "Huskies",
-		"primaryColor": "#E50000",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/northeastern.svg",
-			"background": "#000000"
-		}
-	},
-	"col-of-charleston": {
-		"name": "Charleston",
-		"alternates": ["College of Charleston"],
-		"abbr": "CLST",
-		"mascot": "Cougars",
-		"primaryColor": "#76232F",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/col-of-charleston.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"william-mary": {
-		"name": "William & Mary",
-		"abbr": "W&M",
-		"mascot": "Tribe",
-		"primaryColor": "#115740",
-		"secondaryColor": "#F0B323",
-		"logo": {
-			"url": "img/logos/william-mary.svg",
-			"background": "#115740"
-		}
-	},
-	"delaware": {
-		"name": "Delaware",
-		"abbr": "DEL",
-		"mascot": "Blue Hens",
-		"primaryColor": "#00539F",
-		"secondaryColor": "#FFD200",
-		"logo": {
-			"url": "img/logos/delaware.svg",
-			"background": "#00539F"
-		}
-	},
-	"drexel": {
-		"name": "Drexel",
-		"abbr": "DREX",
-		"mascot": "Dragons",
-		"primaryColor": "#07294D",
-		"secondaryColor": "#FFC600",
-		"logo": {
-			"url": "img/logos/drexel.svg",
-			"background": "#07294D"
-		}
-	},
-	"elon": {
-		"name": "Elon",
-		"abbr": "ELON",
-		"mascot": "Phoenix",
-		"primaryColor": "#73000A",
-		"secondaryColor": "#B59A57",
-		"logo": {
-			"url": "img/logos/elon.svg",
-			"background": "#73000A"
-		}
-	},
-	"james-madison": {
-		"name": "James Madison",
-		"abbr": "JMU",
-		"mascot": "Dukes",
-		"primaryColor": "#450084",
-		"secondaryColor": "#CBB677",
-		"logo": {
-			"url": "img/logos/james-madison.svg",
-			"background": "#450084"
-		}
-	},
-	"towson": {
-		"name": "Towson",
-		"alternates": ["Towson State"],
-		"abbr": "TOWS",
-		"mascot": "Tigers",
-		"primaryColor": "#000000",
-		"secondaryColor": "#FFCC00",
-		"logo": {
-			"url": "img/logos/towson.svg",
-			"background": "#FFCC00"
-		}
-	},
-	"unc-wilmington": {
-		"name": "North Carolina-Wilmington",
-		"abbr": "UNCW",
-		"mascot": "Seahawks",
-		"primaryColor": "#006666",
-		"secondaryColor": "#003366",
-		"logo": {
-			"url": "img/logos/unc-wilmington.svg",
-			"background": "#003366"
-		}
-	},
-	"old-dominion": {
-		"name": "Old Dominion",
-		"abbr": "ODU",
-		"mascot": "Monarchs",
-		"primaryColor": "#00325B",
-		"secondaryColor": "#A1D1F1",
-		"logo": {
-			"url": "img/logos/old-dominion.svg",
-			"background": "#A1D1F1"
-		}
-	},
-	"southern-miss": {
-		"name": "Southern Miss",
-		"abbr": "SMISS",
-		"mascot": "Golden Eagles",
-		"primaryColor": "#000000",
-		"secondaryColor": "#FFD046",
-		"logo": {
-			"url": "img/logos/southern-miss.svg",
-			"background": "#FFD046"
-		}
-	},
-	"marshall": {
-		"name": "Marshall",
-		"abbr": "MARS",
-		"mascot": "Thundering Herd",
-		"primaryColor": "#00B140",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/marshall.svg",
-			"background": "#00B140"
-		}
-	},
-	"utsa": {
-		"name": "UT San Antonio",
-		"alternates": ["Texas-San Antonio"],
-		"abbr": "UTSA",
-		"mascot": "Roadrunners",
-		"primaryColor": "#002244",
-		"secondaryColor": "#DD4814",
-		"logo": {
-			"url": "img/logos/utsa.svg",
-			"background": "#DD4814"
-		}
-	},
-	"western-ky": {
-		"name": "Western Kentucky",
-		"abbr": "WKU",
-		"mascot": "Hilltoppers",
-		"primaryColor": "#B01E24",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/western-ky.svg",
-			"background": "#B01E24"
-		}
-	},
-	"fiu": {
-		"name": "Florida International",
-		"abbr": "FIU",
-		"mascot": "Panthers",
-		"primaryColor": "#081E3F",
-		"secondaryColor": "#B6862C",
-		"logo": {
-			"url": "img/logos/fiu.svg",
-			"background": "#081E3F"
-		}
-	},
-	"uab": {
-		"name": "UAB",
-		"alternates": ["Alabama-Birmingham"],
-		"abbr": "UAB",
-		"mascot": "Blazers",
-		"primaryColor": "#1E6B52",
-		"secondaryColor": "#CFC580",
-		"logo": {
-			"url": "img/logos/uab.svg",
-			"background": "#CFC580"
-		}
-	},
-	"louisiana-tech": {
-		"name": "Louisiana Tech",
-		"abbr": "LATECH",
-		"mascot": "Bulldogs",
-		"primaryColor": "#CB333B",
-		"secondaryColor": "#003087",
-		"logo": {
-			"url": "img/logos/louisiana-tech.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"middle-tenn": {
-		"name": "Middle Tennessee",
-		"alternates": ["Middle Tennessee State"],
-		"abbr": "MTSU",
-		"mascot": "Blue Raiders",
-		"primaryColor": "#0066CC",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/middle-tenn.svg",
-			"background": "#0066CC"
-		}
-	},
-	"fla-atlantic": {
-		"name": "Florida Atlantic",
-		"abbr": "FAU",
-		"mascot": "Owls",
-		"primaryColor": "#003366",
-		"secondaryColor": "#CC0000",
-		"logo": {
-			"url": "img/logos/fla-atlantic.svg",
-			"background": "#003366"
-		}
-	},
-	"rice": {
-		"name": "Rice",
-		"abbr": "RICE",
-		"mascot": "Owls",
-		"primaryColor": "#00205B",
-		"secondaryColor": "#C1C6C8",
-		"logo": {
-			"url": "img/logos/rice.svg",
-			"background": "#C1C6C8"
-		}
-	},
-	"north-texas": {
-		"name": "North Texas",
-		"alternates": ["North Texas State"],
-		"abbr": "NTEX",
-		"mascot": "Mean Green",
-		"primaryColor": "#00853E",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/north-texas.svg",
-			"background": "#00853E"
-		}
-	},
-	"charlotte": {
-		"name": "Charlotte",
-		"alternates": ["UNC Charlotte"],
-		"abbr": "UNCC",
-		"mascot": "49ers",
-		"primaryColor": "#006940",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/charlotte.svg",
-			"background": "#006940"
-		}
-	},
-	"utep": {
-		"name": "UTEP",
-		"abbr": "UTEP",
-		"mascot": "Miners",
-		"primaryColor": "#041E42",
-		"secondaryColor": "#FF8200",
-		"logo": {
-			"url": "img/logos/utep.svg",
-			"background": "#041E42"
-		}
-	},
-	"wright-st": {
-		"name": "Wright State",
-		"abbr": "WRST",
-		"mascot": "Raiders",
-		"primaryColor": "#026937",
-		"secondaryColor": "#CEA052",
-		"logo": {
-			"url": "img/logos/wright-st.svg",
-			"background": "#026937"
-		}
-	},
-	"northern-ky": {
-		"name": "Northern Kentucky",
-		"abbr": "NKU",
-		"mascot": "Norse",
-		"primaryColor": "#FFC72C",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/northern-ky.svg",
-			"background": "#FFC72C"
-		}
-	},
-	"oakland": {
-		"name": "Oakland",
-		"abbr": "OAK",
-		"mascot": "Golden Grizzlies",
-		"primaryColor": "#0000000",
-		"secondaryColor": "#B59A57",
-		"logo": {
-			"url": "img/logos/oakland.svg",
-			"background": "#B59A57"
-		}
-	},
-	"ill-chicago": {
-		"name": "Illinois-Chicago",
-		"abbr": "ILCH",
-		"mascot": "Flames",
-		"primaryColor": "#091F40",
-		"secondaryColor": "#AC1E2D",
-		"logo": {
-			"url": "img/logos/ill-chicago.svg",
-			"background": "FFFFFF"
-		}
-	},
-	"green-bay": {
-		"name": "Green Bay",
-		"alternates": ["UW-Green Bay", "Wisconsin-Green Bay"],
-		"abbr": "GB",
-		"mascot": "Phoenix",
-		"primaryColor": "#006633",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/green-bay.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"iupui": {
-		"name": "IUPUI",
-		"abbr": "IUPUI",
-		"mascot": "Jaguars",
-		"primaryColor": "#990000",
-		"secondaryColor": "#F1BE48",
-		"logo": {
-			"url": "img/logos/iupui.svg",
-			"background": "#990000"
-		}
-	},
-	"youngstown-st": {
-		"name": "Youngstown State",
-		"abbr": "YTWNST",
-		"mascot": "Penguins",
-		"primaryColor": "#C8102E",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/youngstown-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"detroit": {
-		"name": "Detroit Mercy",
-		"abbr": "DETMR",
-		"mascot": "Titans",
-		"primaryColor": "#C8102E",
-		"secondaryColor": "#002D72",
-		"logo": {
-			"url": "img/logos/detroit.svg",
-			"background": "#C8102E"
-		}
-	},
-	"cleveland-st": {
-		"name": "Cleveland State",
-		"abbr": "CLEST",
-		"mascot": "Vikings",
-		"primaryColor": "#006A4D",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/cleveland-st.svg",
-			"background": "#006A4D"
-		}
-	},
-	"milwaukee": {
-		"name": "Milwaukee",
-		"alternates": ["UW-Milwaukee"],
-		"abbr": "MIL",
-		"mascot": "Panthers",
-		"primaryColor": "#000000",
-		"secondaryColor": "#FFBD00",
-		"logo": {
-			"url": "img/logos/milwaukee.svg",
-			"background": "#FFBD00"
-		}
-	},
-	"yale": {
-		"name": "Yale",
-		"abbr": "YALE",
-		"mascot": "Bulldogs",
-		"primaryColor": "#00356B",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/yale.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"harvard": {
-		"name": "Harvard",
-		"abbr": "HRVD",
-		"mascot": "Crimson",
-		"primaryColor": "#A51C30",
-		"secondaryColor": "#1E1E1E",
-		"logo": {
-			"url": "img/logos/harvard.svg",
-			"background": "#1E1E1E"
-		}
-	},
-	"princeton": {
-		"name": "Princeton",
-		"abbr": "PRINC",
-		"mascot": "Tigers",
-		"primaryColor": "#FF6000",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/princeton.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"penn": {
-		"name": "Pennsylvania",
-		"abbr": "PENN",
-		"mascot": "Quakers",
-		"primaryColor": "#990000",
-		"secondaryColor": "#011F5B",
-		"logo": {
-			"url": "img/logos/penn.svg",
-			"background": "#990000"
-		}
-	},
-	"brown": {
-		"name": "Brown",
-		"abbr": "BROWN",
-		"mascot": "Bears",
-		"primaryColor": "#381C00",
-		"secondaryColor": "#E4002B",
-		"logo": {
-			"url": "img/logos/brown.svg",
-			"background": "#E4002B"
-		}
-	},
-	"cornell": {
-		"name": "Cornell",
-		"abbr": "CORN",
-		"mascot": "Big Red",
-		"primaryColor": "#B31B1B",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/cornell.svg",
-			"background": "#B31B1B"
-		}
-	},
-	"columbia": {
-		"name": "Columbia",
-		"abbr": "COLU",
-		"mascot": "Lions",
-		"primaryColor": "#B31B1B",
-		"secondaryColor": "#FFFFF",
-		"logo": {
-			"url": "img/logos/columbia.svg",
-			"background": "#B31B1B"
-		}
-	},
-	"dartmouth": {
-		"name": "Dartmouth",
-		"abbr": "DART",
-		"mascot": "Big Green",
-		"primaryColor": "#005F2F",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/dartmouth.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"iona": {
-		"name": "Iona",
-		"abbr": "IONA",
-		"mascot": "Gaels",
-		"primaryColor": "#005F2F",
-		"secondaryColor": "#EAAF0F",
-		"logo": {
-			"url": "img/logos/iona.svg",
-			"background": "#EAAF0F"
-		}
-	},
-	"quinnipiac": {
-		"name": "Quinnipiac",
-		"abbr": "QUINN",
-		"mascot": "Bobcats",
-		"primaryColor": "#0A2240",
-		"secondaryColor": "#FFB819",
-		"logo": {
-			"url": "img/logos/quinnipiac.svg",
-			"background": "#FFB819"
-		}
-	},
-	"siena": {
-		"name": "Siena",
-		"abbr": "SIENNA",
-		"mascot": "Saints",
-		"primaryColor": "#006747",
-		"secondaryColor": "#FFC20F",
-		"logo": {
-			"url": "img/logos/siena.svg",
-			"background": "#006747"
-		}
-	},
-	"rider": {
-		"name": "Rider",
-		"abbr": "RIDER",
-		"mascot": "Broncs",
-		"primaryColor": "#981E32",
-		"secondaryColor": "#6C6F70",
-		"logo": {
-			"url": "img/logos/rider.svg",
-			"background": "#6C6F70"
-		}
-	},
-	"canisius": {
-		"name": "Canisius",
-		"abbr": "CAN",
-		"mascot": "Golden Griffins",
-		"primaryColor": "#0E2756",
-		"secondaryColor": "#FFBA00",
-		"logo": {
-			"url": "img/logos/canisius.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"monmouth": {
-		"name": "Monmouth",
-		"abbr": "MONM",
-		"mascot": "Hawks",
-		"primaryColor": "#041E42",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/monmouth.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"manhattan": {
-		"name": "Manhattan",
-		"abbr": "MHAT",
-		"mascot": "Jaspers",
-		"primaryColor": "#00703C",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/manhattan.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"marist": {
-		"name": "Marist",
-		"abbr": "MARIST",
-		"mascot": "Red Foxes",
-		"primaryColor": "#C8102E",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/marist.svg",
-			"background": "#C8102E"
-		}
-	},
-	"niagara": {
-		"name": "Niagara",
-		"abbr": "NIAGRA",
-		"mascot": "Purple Eagles",
-		"primaryColor": "#582C83",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/niagara.svg",
-			"background": "#582C83"
-		}
-	},
-	"fairfield": {
-		"name": "Fairfield",
-		"abbr": "FAIR",
-		"mascot": "Stags",
-		"primaryColor": "#582C83",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/fairfield.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"st-peters": {
-		"name": "St. Peter's",
-		"alternates": ["Saint Peter's", "Saint Peters"],
-		"abbr": "STPTRS",
-		"mascot": "Peacocks",
-		"primaryColor": "#0072CE",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/st-peters.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"buffalo": {
-		"name": "Buffalo",
-		"abbr": "BUFF",
-		"mascot": "Bulls",
-		"primaryColor": "#005BBB",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/buffalo.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"toledo": {
-		"name": "Toledo",
-		"abbr": "TOLEDO",
-		"mascot": "Rockets",
-		"primaryColor": "#15397F",
-		"secondaryColor": "#FFDA00",
-		"logo": {
-			"url": "img/logos/toledo.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"bowling-green": {
-		"name": "Bowling Green",
-		"alternates": ["Bowling Green State"],
-		"abbr": "BOWL",
-		"mascot": "Falcons",
-		"primaryColor": "#FE5000",
-		"secondaryColor": "#4F2C1D",
-		"logo": {
-			"url": "img/logos/bowling-green.svg",
-			"background": "#4F2C1D"
-		}
-	},
-	"kent-st": {
-		"name": "Kent State",
-		"abbr": "KENTST",
-		"mascot": "Golden Flashes",
-		"primaryColor": "#002664",
-		"secondaryColor": "#EFAB00",
-		"logo": {
-			"url": "img/logos/kent-st.svg",
-			"background": "#002664"
-		}
-	},
-	"central-mich": {
-		"name": "Central Michigan",
-		"abbr": "CMICH",
-		"mascot": "Chippewas",
-		"primaryColor": "#15397F",
-		"secondaryColor": "#FFC82E",
-		"logo": {
-			"url": "img/logos/central-mich.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"eastern-mich": {
-		"name": "Eastern Michigan",
-		"abbr": "EMICH",
-		"mascot": "Eagles",
-		"primaryColor": "#046A38",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/eastern-mich.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"northern-ill": {
-		"name": "Northern Illinois",
-		"abbr": "NIU",
-		"mascot": "Huskies",
-		"primaryColor": "#046A38",
-		"secondaryColor": "#27251F",
-		"logo": {
-			"url": "img/logos/northern-ill.svg",
-			"background": "#046A38"
-		}
-	},
-	"akron": {
-		"name": "Akron",
-		"abbr": "AKRON",
-		"mascot": "Zips",
-		"primaryColor": "#041E42",
-		"secondaryColor": "#A89968",
-		"logo": {
-			"url": "img/logos/akron.svg",
-			"background": "#041E42"
-		}
-	},
-	"miami-oh": {
-		"name": "Miami (OH)",
-		"alternates": ["Miami (Ohio)"],
-		"abbr": "MIOH",
-		"mascot": "RedHawks",
-		"primaryColor": "#B61E2E",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/miami-oh.svg",
-			"background": "#B61E2E"
-		}
-	},
-	"ohio": {
-		"name": "Ohio",
-		"abbr": "OHIO",
-		"mascot": "Bobcats",
-		"primaryColor": "#00694E",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/ohio.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"ball-st": {
-		"name": "Ball State",
-		"abbr": "BALLST",
-		"mascot": "Cardinals",
-		"primaryColor": "#BA0C2F",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/ball-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"western-mich": {
-		"name": "Western Michigan",
-		"abbr": "WMICH",
-		"mascot": "Broncos",
-		"primaryColor": "#6C4023",
-		"secondaryColor": "#B5A167",
-		"logo": {
-			"url": "img/logos/western-mich.svg",
-			"background": "#B5A167"
-		}
-	},
-	"norfolk-st": {
-		"name": "Norfolk State",
-		"abbr": "NORST",
-		"mascot": "Spartans",
-		"primaryColor": "#007A53",
-		"secondaryColor": "#F2A900",
-		"logo": {
-			"url": "img/logos/norfolk-st.svg",
-			"background": "#F2A900"
-		}
-	},
-	"nc-at": {
-		"name": "North Carolina A&T",
-		"abbr": "NCA&T",
-		"mascot": "Aggies",
-		"primaryColor": "#004684",
-		"secondaryColor": "#FDB927",
-		"logo": {
-			"url": "img/logos/nc-at.svg",
-			"background": "#FDB927"
-		}
-	},
-	"nc-central": {
-		"name": "North Carolina Central",
-		"alternates": ["NC Central"],
-		"abbr": "NCCEN",
-		"mascot": "Eagles",
-		"primaryColor": "#862633",
-		"secondaryColor": "#898D8D",
-		"logo": {
-			"url": "img/logos/nc-central.svg",
-			"background": "#862633"
-		}
-	},
-	"howard": {
-		"name": "Howard",
-		"abbr": "HOWARD",
-		"mascot": "Bison",
-		"primaryColor": "#003A63",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/howard.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"florida-am": {
-		"name": "Florida A&M",
-		"abbr": "FLAM",
-		"mascot": "Rattlers",
-		"primaryColor": "#F4811F",
-		"secondaryColor": "#F4811F",
-		"logo": {
-			"url": "img/logos/florida-am.svg",
-			"background": "#F4811F"
-		}
-	},
-	"bethune-cookman": {
-		"name": "Bethune-Cookman",
-		"abbr": "BCOOK",
-		"mascot": "Wildcats",
-		"primaryColor": "#6F263D",
-		"secondaryColor": "#F2A900",
-		"logo": {
-			"url": "img/logos/bethune-cookman.svg",
-			"background": "#6F263D"
-		}
-	},
-	"savannah-st": {
-		"name": "Savannah State",
-		"abbr": "SAVST",
-		"mascot": "Tigers",
-		"primaryColor": "#F24D17",
-		"secondaryColor": "#002294",
-		"logo": {
-			"url": "img/logos/savannah-st.svg",
-			"background": "#F24D17"
-		}
-	},
-	"coppin-st": {
-		"name": "Coppin State",
-		"abbr": "COPPST",
-		"mascot": "Eagles",
-		"primaryColor": "#003056",
-		"secondaryColor": "#FFC915",
-		"logo": {
-			"url": "img/logos/coppin-st.svg",
-			"background": "#FFC915"
-		}
-	},
-	"south-carolina-st": {
-		"name": "South Carolina State",
-		"alternates": ["South Carolina St"],
-		"abbr": "SCST",
-		"mascot": "Bulldogs",
-		"primaryColor": "#841A2B",
-		"secondaryColor": "#1E4692",
-		"logo": {
-			"url": "img/logos/south-carolina-st.svg",
-			"background": "#841A2B"
-		}
-	},
-	"md-east-shore": {
-		"name": "Maryland-Eastern Shore",
-		"abbr": "MDES",
-		"mascot": "Hawks",
-		"primaryColor": "#822433",
-		"secondaryColor": "#8B8D8E",
-		"logo": {
-			"url": "img/logos/md-east-shore.svg",
-			"background": "#8B8D8E"
-		}
-	},
-	"morgan-st": {
-		"name": "Morgan State",
-		"abbr": "MORGST",
-		"mascot": "Bears",
-		"primaryColor": "#8B8D8E",
-		"secondaryColor": "#FF4E00",
-		"logo": {
-			"url": "img/logos/morgan-st.svg",
-			"background": "#8B8D8E"
-		}
-	},
-	"delaware-st": {
-		"name": "Delaware State",
-		"abbr": "DELST",
-		"mascot": "Hornets",
-		"primaryColor": "#EE3124",
-		"secondaryColor": "#0099CC",
-		"logo": {
-			"url": "img/logos/delaware-st.svg",
-			"background": "#EE3124"
-		}
-	},
-	"drake": {
-		"name": "Drake",
-		"abbr": "DRAKE",
-		"mascot": "Bulldogs",
-		"primaryColor": "#003B73",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/drake.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"loyola-il": {
-		"name": "Loyola (IL)",
-		"alternates": ["Loyola-Chicago"],
-		"abbr": "LOYOLA",
-		"mascot": "Ramblers",
-		"primaryColor": "#582931",
-		"secondaryColor": "#FDB913",
-		"logo": {
-			"url": "img/logos/loyola-il.svg",
-			"background": "#FDB913"
-		}
-	},
-	"missouri-st": {
-		"name": "Missouri State",
-		"alternates": ["SW Missouri St.", "Southwest Missouri State", "SW Missouri State"],
-		"abbr": "MOST",
-		"mascot": "Bears",
-		"primaryColor": "#5E0009",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/missouri-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"southern-ill": {
-		"name": "Southern Illinois",
-		"abbr": "SIL",
-		"mascot": "Salukis",
-		"primaryColor": "#5E0009",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/southern-ill.svg",
-			"background": "#5E0009"
-		}
-	},
-	"illinois-st": {
-		"name": "Illinois State",
-		"abbr": "ILST",
-		"mascot": "Redbirds",
-		"primaryColor": "#CE1126",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/illinois-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"uni": {
-		"name": "Northern Iowa",
-		"abbr": "UNI",
-		"mascot": "Panthers",
-		"primaryColor": "#4B116F",
-		"secondaryColor": "#FFCC00",
-		"logo": {
-			"url": "img/logos/uni.svg",
-			"background": "#4B116F"
-		}
-	},
-	"bradley": {
-		"name": "Bradley",
-		"abbr": "BRAD",
-		"mascot": "Braves",
-		"primaryColor": "#A50000",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/bradley.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"indiana-st": {
-		"name": "Indiana State",
-		"abbr": "INST",
-		"mascot": "Sycamores",
-		"primaryColor": "#0142BC",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/indiana-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"valparaiso": {
-		"name": "Valparaiso",
-		"alternates": ["Valparaíso"],
-		"abbr": "VALPO",
-		"mascot": "Crusaders",
-		"primaryColor": "#0142BC",
-		"secondaryColor": "#0142BC",
-		"logo": {
-			"url": "img/logos/valparaiso.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"evansville": {
-		"name": "Evansville",
-		"abbr": "EVANS",
-		"mascot": "Purple Aces",
-		"primaryColor": "#52237F",
-		"secondaryColor": "#F36F21",
-		"logo": {
-			"url": "img/logos/evansville.svg",
-			"background": "#52237F"
-		}
-	},
-	"nevada": {
-		"name": "Nevada",
-		"abbr": "NEV",
-		"mascot": "Wolf Pack",
-		"primaryColor": "#999999",
-		"secondaryColor": "#003366",
-		"logo": {
-			"url": "img/logos/nevada.svg",
-			"background": "#999999"
-		}
-	},
-	"utah-st": {
-		"name": "Utah State",
-		"abbr": "UTST",
-		"mascot": "Aggies",
-		"primaryColor": "#0F2439",
-		"secondaryColor": "#9D968D",
-		"logo": {
-			"url": "img/logos/utah-st.svg",
-			"background": "#9D968D"
-		}
-	},
-	"fresno-st": {
-		"name": "Fresno State",
-		"abbr": "FRESNO",
-		"mascot": "Bulldogs",
-		"primaryColor": "#CC0033",
-		"secondaryColor": "#00235D",
-		"logo": {
-			"url": "img/logos/fresno-st.svg",
-			"background": "#CC0033"
-		}
-	},
-	"unlv": {
-		"name": "UNLV",
-		"abbr": "UNLV",
-		"mascot": "Rebels",
-		"primaryColor": "#CF0A2C",
-		"secondaryColor": "#CAC8C8",
-		"logo": {
-			"url": "img/logos/unlv.svg",
-			"background": "#CAC8C8"
-		}
-	},
-	"san-diego-st": {
-		"name": "San Diego State",
-		"abbr": "SDSU",
-		"mascot": "Aztecs",
-		"primaryColor": "#C41230",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/san-diego-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"air-force": {
-		"name": "Air Force",
-		"abbr": "AFCE",
-		"mascot": "Falcons",
-		"primaryColor": "#0033A0",
-		"secondaryColor": "#8F8F8C",
-		"logo": {
-			"url": "img/logos/air-force.svg",
-			"background": "#8F8F8C"
-		}
-	},
-	"boise-st": {
-		"name": "Boise State",
-		"abbr": "BOISE",
-		"mascot": "Broncos",
-		"primaryColor": "#0033A0",
-		"secondaryColor": "#D64309",
-		"logo": {
-			"url": "img/logos/boise-st.svg",
-			"background": "#0033A0"
-		}
-	},
-	"new-mexico": {
-		"name": "New Mexico",
-		"abbr": "UNM",
-		"mascot": "Lobos",
-		"primaryColor": "#BA0C2F",
-		"secondaryColor": "#A7A8AA",
-		"logo": {
-			"url": "img/logos/new-mexico.svg",
-			"background": "#BA0C2F"
-		}
-	},
-	"colorado-st": {
-		"name": "Colorado State",
-		"abbr": "COST",
-		"mascot": "Rams",
-		"primaryColor": "#006A4D",
-		"secondaryColor": "#B3A369",
-		"logo": {
-			"url": "img/logos/colorado-st.svg",
-			"background": "#006A4D"
-		}
-	},
-	"wyoming": {
-		"name": "Wyoming",
-		"abbr": "WYOM",
-		"mascot": "Cowboys",
-		"primaryColor": "#492F24",
-		"secondaryColor": "#FFC425",
-		"logo": {
-			"url": "img/logos/wyoming.svg",
-			"background": "#492F24"
-		}
-	},
-	"san-jose-st": {
-		"name": "San Jose State",
-		"abbr": "SJST",
-		"mascot": "Spartans",
-		"primaryColor": "#FDBF5C",
-		"secondaryColor": "#005298",
-		"logo": {
-			"url": "img/logos/san-jose-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"fairleigh-dickinson": {
-		"name": "Fairleigh Dickinson",
-		"abbr": "FAIR",
-		"mascot": "Knights",
-		"primaryColor": "#A32638",
-		"secondaryColor": "#003F87",
-		"logo": {
-			"url": "img/logos/fairleigh-dickinson.svg",
-			"background": "#A32638"
-		}
-	},
-	"st-francis-pa": {
-		"name": "St. Francis (PA)",
-		"alternates": ["Saint Francis (PA)"],
-		"abbr": "STFRPA",
-		"mascot": "Red Flash",
-		"primaryColor": "#BD1F25",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/st-francis-pa.svg",
-			"background": "#BD1F25"
-		}
-	},
-	"robert-morris": {
-		"name": "Robert Morris",
-		"abbr": "ROBMR",
-		"mascot": "Colonials",
-		"primaryColor": "#14234B",
-		"secondaryColor": "#A6192E",
-		"logo": {
-			"url": "img/logos/robert-morris.svg",
-			"background": "#A6192E"
-		}
-	},
-	"sacred-heart": {
-		"name": "Sacred Heart",
-		"abbr": "SHU",
-		"mascot": "Pioneers",
-		"primaryColor": "#CD1041",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/sacred-heart.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"long-island": {
-		"name": "LIU Brooklyn",
-		"alternates": ["LIU-Brooklyn"],
-		"abbr": "LIUBK",
-		"mascot": "Blackbirds",
-		"primaryColor": "#231F20",
-		"secondaryColor": "#8A8D8F",
-		"logo": {
-			"url": "img/logos/long-island.svg",
-			"background": "#8A8D8F"
-		}
-	},
-	"st-francis-ny": {
-		"name": "St. Francis (BKN)",
-		"abbr": "STFRBK",
-		"mascot": "Terriers",
-		"primaryColor": "#0038A8",
-		"secondaryColor": "#CE1126",
-		"logo": {
-			"url": "img/logos/st-francis-ny.svg",
-			"background": "#CE1126"
-		}
-	},
-	"wagner": {
-		"name": "Wagner",
-		"abbr": "WAGNER",
-		"mascot": "Seahawks",
-		"primaryColor": "#004331",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/wagner.svg",
-			"background": "#004331"
-		}
-	},
-	"bryant": {
-		"name": "Bryant University",
-		"abbr": "BRYANT",
-		"mascot": "Bulldogs",
-		"primaryColor": "#231F20",
-		"secondaryColor": "#B09863",
-		"logo": {
-			"url": "img/logos/bryant.svg",
-			"background": "#B09863"
-		}
-	},
-	"mt-st-marys": {
-		"name": "Mount St. Mary's",
-		"abbr": "MTSTMY",
-		"mascot": "Mountaineers",
-		"primaryColor": "#002F6C",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/mt-st-marys.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"central-conn-st": {
-		"name": "Central Connecticut State",
-		"alternates": ["Central Connecticut St", "Central Connecticut"],
-		"abbr": "CCST",
-		"mascot": "Blue Devils",
-		"primaryColor": "#1A4784",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/central-conn-st.svg",
-			"background": "#1A4784"
-		}
-	},
-	"murray-st": {
-		"name": "Murray State",
-		"abbr": "MURRST",
-		"mascot": "Racers",
-		"primaryColor": "#002144",
-		"secondaryColor": "#ECAC00",
-		"logo": {
-			"url": "img/logos/murray-st.svg",
-			"background": "#002144"
-		}
-	},
-	"belmont": {
-		"name": "Belmont",
-		"abbr": "BELMT",
-		"mascot": "Bruins",
-		"primaryColor": "#002469",
-		"secondaryColor": "#C9262D",
-		"logo": {
-			"url": "img/logos/belmont.svg",
-			"background": "#C9262D"
-		}
-	},
-	"jacksonville-st": {
-		"name": "Jacksonville State",
-		"abbr": "JACKST",
-		"mascot": "Gamecocks",
-		"primaryColor": "#CC0000",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/jacksonville-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"austin-peay": {
-		"name": "Austin Peay",
-		"abbr": "APEAY",
-		"mascot": "Governors",
-		"primaryColor": "#BA0C2F",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/austin-peay.svg",
-			"background": "#BA0C2F"
-		}
-	},
-	"morehead-st": {
-		"name": "Morehead State",
-		"abbr": "MOREST",
-		"mascot": "Eagles",
-		"primaryColor": "#005EB8",
-		"secondaryColor": "#FFCF00",
-		"logo": {
-			"url": "img/logos/morehead-st.svg",
-			"background": "#FFCF00"
-		}
-	},
-	"eastern-ill": {
-		"name": "Eastern Illinois",
-		"abbr": "EILL",
-		"mascot": "Panthers",
-		"primaryColor": "#003399",
-		"secondaryColor": "#B2B2B2",
-		"logo": {
-			"url": "img/logos/eastern-ill.svg",
-			"background": "#B2B2B2"
-		}
-	},
-	"ut-martin": {
-		"name": "Tennessee-Martin",
-		"abbr": "TNMT",
-		"mascot": "Skyhawks",
-		"primaryColor": "#002649",
-		"secondaryColor": "#F77F00",
-		"logo": {
-			"url": "img/logos/ut-martin.svg",
-			"background": "#F77F00"
-		}
-	},
-	"siu-edwardsville": {
-		"name": "SIU-Edwardsville",
-		"abbr": "SIUED",
-		"mascot": "Cougars",
-		"primaryColor": "#CC0000",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/siu-edwardsville.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"eastern-ky": {
-		"name": "Eastern Kentucky",
-		"abbr": "EKU",
-		"mascot": "Colones",
-		"primaryColor": "#4C151E",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/eastern-ky.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"tennessee-st": {
-		"name": "Tennessee State",
-		"abbr": "TNST",
-		"mascot": "Tigers",
-		"primaryColor": "#00539F",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/tennessee-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"southeast-mo-st": {
-		"name": "Southeast Missouri State",
-		"alternates": ["Southeast Missouri St."],
-		"abbr": "SEMOST",
-		"mascot": "Redhawks",
-		"primaryColor": "#C8102E",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/southeast-mo-st.svg",
-			"background": "#C8102E"
-		}
-	},
-	"tennessee-tech": {
-		"name": "Tennessee Tech",
-		"abbr": "TNTECH",
-		"mascot": "Golden Eagles",
-		"primaryColor": "#4F2984",
-		"secondaryColor": "#FFDD00",
-		"logo": {
-			"url": "img/logos/tennessee-tech.svg",
-			"background": "#4F2984"
-		}
-	},
-	"washington": {
-		"name": "Washington",
-		"abbr": "WASH",
-		"mascot": "Huskies",
-		"primaryColor": "#363C74",
-		"secondaryColor": "#E8D3A2",
-		"logo": {
-			"url": "img/logos/washington.svg",
-			"background": "#363C74"
-		}
-	},
-	"arizona-st": {
-		"name": "Arizona State",
-		"abbr": "ASU",
-		"mascot": "Sun Devils",
-		"primaryColor": "#8E0C3A",
-		"secondaryColor": "#FFC72C",
-		"logo": {
-			"url": "img/logos/arizona-st.svg",
-			"background": "#FFC72C"
-		}
-	},
-	"utah": {
-		"name": "Utah",
-		"abbr": "UTAH",
-		"mascot": "Utes",
-		"primaryColor": "#CC0000",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/utah.svg",
-			"background": "#CC0000"
-		}
-	},
-	"colorado": {
-		"name": "Colorado",
-		"abbr": "COLO",
-		"mascot": "Buffaloes",
-		"primaryColor": "#CFB87C",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/colorado.svg",
-			"background": "#000000"
-		}
-	},
-	"oregon-st": {
-		"name": "Oregon State",
-		"abbr": "ORST",
-		"mascot": "Beavers",
-		"primaryColor": "#DC4405",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/oregon-st.svg",
-			"background": "#DC4405"
-		}
-	},
-	"oregon": {
-		"name": "Oregon",
-		"abbr": "ORE",
-		"mascot": "Ducks",
-		"primaryColor": "#004F39",
-		"secondaryColor": "#FBE021",
-		"logo": {
-			"url": "img/logos/oregon.svg",
-			"background": "#FBE021"
-		}
-	},
-	"ucla": {
-		"name": "UCLA",
-		"abbr": "UCLA",
-		"mascot": "Bruins",
-		"primaryColor": "#FBE021",
-		"secondaryColor": "#F2A900",
-		"logo": {
-			"url": "img/logos/ucla.svg",
-			"background": "#F2A900"
-		}
-	},
-	"stanford": {
-		"name": "Stanford",
-		"abbr": "STAN",
-		"mascot": "Cardinal",
-		"primaryColor": "#F2A900",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/stanford.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"southern-california": {
-		"name": "USC",
-		"abbr": "USC",
-		"mascot": "Trojans",
-		"primaryColor": "#9D2235",
-		"secondaryColor": "#FFC72C",
-		"logo": {
-			"url": "img/logos/southern-california.svg",
-			"background": "#9D2235"
-		}
-	},
-	"arizona": {
-		"name": "Arizona",
-		"abbr": "ARIZ",
-		"mascot": "Wildcats",
-		"primaryColor": "#AB0520",
-		"secondaryColor": "#002147",
-		"logo": {
-			"url": "img/logos/arizona.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"washington-st": {
-		"name": "Washington State",
-		"abbr": "WSU",
-		"mascot": "Cougars",
-		"primaryColor": "#981E32",
-		"secondaryColor": "#53565A",
-		"logo": {
-			"url": "img/logos/washington-st.svg",
-			"background": "#53565A"
-		}
-	},
-	"california": {
-		"name": "California",
-		"abbr": "CAL",
-		"mascot": "Bears",
-		"primaryColor": "#041E42",
-		"secondaryColor": "#FFC72C",
-		"logo": {
-			"url": "img/logos/california.svg",
-			"background": "#FFC72C"
-		}
-	},
-	"bucknell": {
-		"name": "Bucknell",
-		"abbr": "BUCK",
-		"mascot": "Bison",
-		"primaryColor": "#EF5B0C",
-		"secondaryColor": "#003865",
-		"logo": {
-			"url": "img/logos/bucknell.svg",
-			"background": "#EF5B0C"
-		}
-	},
-	"colgate": {
-		"name": "Colgate",
-		"abbr": "COLG",
-		"mascot": "Raiders",
-		"primaryColor": "#862633",
-		"secondaryColor": "#C8C7C7",
-		"logo": {
-			"url": "img/logos/colgate.svg",
-			"background": "#C8C7C7"
-		}
-	},
-	"lehigh": {
-		"name": "Lehigh",
-		"abbr": "LEHIGH",
-		"mascot": "Mountain Hawks",
-		"primaryColor": "#4B2913",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/lehigh.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"american": {
-		"name": "American University",
-		"alternates": "American",
-		"abbr": "AMER",
-		"mascot": "Eagles",
-		"primaryColor": "#C4122E",
-		"secondaryColor": "#005099",
-		"logo": {
-			"url": "img/logos/american.svg",
-			"background": "#005099"
-		}
-	},
-	"navy": {
-		"name": "Navy",
-		"abbr": "NAVY",
-		"mascot": "Midshipmen",
-		"primaryColor": "#000048",
-		"secondaryColor": "#B4A87E",
-		"logo": {
-			"url": "img/logos/navy.svg",
-			"background": "#B4A87E"
-		}
-	},
-	"army": {
-		"name": "Army",
-		"abbr": "ARMY",
-		"mascot": "Black Knights",
-		"primaryColor": "#000000",
-		"secondaryColor": "#D4BF91",
-		"logo": {
-			"url": "img/logos/army.svg",
-			"background": "#D4BF91"
-		}
-	},
-	"lafayette": {
-		"name": "Lafayette",
-		"abbr": "LFYT",
-		"mascot": "Leopards",
-		"primaryColor": "#910029",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/lafayette.svg",
-			"background": "#910029"
-		}
-	},
-	"loyola-maryland": {
-		"name": "Loyola (MD)",
-		"abbr": "LOYOLA",
-		"mascot": "Greyhounds",
-		"primaryColor": "#00694E",
-		"secondaryColor": "#CACAC8",
-		"logo": {
-			"url": "img/logos/loyola-maryland.svg",
-			"background": "#00694E"
-		}
-	},
-	"boston-u": {
-		"name": "Boston University",
-		"abbr": "BOSTON",
-		"mascot": "Terriers",
-		"primaryColor": "#CC0000",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/boston-u.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"holy-cross": {
-		"name": "Holy Cross",
-		"abbr": "HCRS",
-		"mascot": "Crusaders",
-		"primaryColor": "#602D89",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/holy-cross.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"lsu": {
-		"name": "LSU",
-		"abbr": "LSU",
-		"mascot": "Tigers",
-		"primaryColor": "#461D7C",
-		"secondaryColor": "#FDD023",
-		"logo": {
-			"url": "img/logos/lsu.svg",
-			"background": "#FDD023"
-		}
-	},
-	"kentucky": {
-		"name": "Kentucky",
-		"abbr": "UK",
-		"mascot": "Wildcats",
-		"primaryColor": "#0033A0",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/kentucky.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"tennessee": {
-		"name": "Tennessee",
-		"abbr": "UT",
-		"mascot": "Volunteers",
-		"primaryColor": "#FF8200",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/tennessee.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"south-carolina": {
-		"name": "South Carolina",
-		"abbr": "SCAR",
-		"mascot": "Gamecocks",
-		"primaryColor": "#73000A",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/south-carolina.svg",
-			"background": "#000000"
-		}
-	},
-	"auburn": {
-		"name": "Auburn",
-		"abbr": "AUB",
-		"mascot": "Tigers",
-		"primaryColor": "#F26522",
-		"secondaryColor": "#0C2340",
-		"logo": {
-			"url": "img/logos/auburn.svg",
-			"background": "#0C2340"
-		}
-	},
-	"ole-miss": {
-		"name": "Ole Miss",
-		"alternates": ["Mississippi"],
-		"abbr": "MISS",
-		"mascot": "Rebels",
-		"primaryColor": "#CE1126",
-		"secondaryColor": "#14213D",
-		"logo": {
-			"url": "img/logos/ole-miss.svg",
-			"background": "#CE1126"
-		}
-	},
-	"mississippi-st": {
-		"name": "Mississippi State",
-		"abbr": "MSST",
-		"mascot": "Bulldogs",
-		"primaryColor": "#660000",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/mississippi-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"florida": {
-		"name": "Florida",
-		"abbr": "FLA",
-		"mascot": "Gators",
-		"primaryColor": "#FA4616",
-		"secondaryColor": "#003087",
-		"logo": {
-			"url": "img/logos/florida.svg",
-			"background": "#FA4616"
-		}
-	},
-	"alabama": {
-		"name": "Alabama",
-		"abbr": "ALA",
-		"mascot": "Crimson Tide",
-		"primaryColor": "#A60C31",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/alabama.svg",
-			"background": "#A60C31"
-		}
-	},
-	"arkansas": {
-		"name": "Arkansas",
-		"abbr": "ARK",
-		"mascot": "Razorbacks",
-		"primaryColor": "#9D2235",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/arkansas.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"texas-am": {
-		"name": "Texas A&M",
-		"alternates": ["Texas A&M-Corpus Christi"],
-		"abbr": "TA&M",
-		"mascot": "Aggies",
-		"primaryColor": "#500000",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/texas-am.svg",
-			"background": "#500000"
-		}
-	},
-	"missouri": {
-		"name": "Missouri",
-		"abbr": "MISSOU",
-		"mascot": "Tigers",
-		"primaryColor": "#C69214",
-		"secondaryColor": "#2C2A29",
-		"logo": {
-			"url": "img/logos/missouri.svg",
-			"background": "#2C2A29"
-		}
-	},
-	"georgia": {
-		"name": "Georgia",
-		"abbr": "UGA",
-		"mascot": "Bulldogs",
-		"primaryColor": "#BA0C2F",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/georgia.svg",
-			"background": "#000000"
-		}
-	},
-	"vanderbilt": {
-		"name": "Vanderbilt",
-		"abbr": "VANDY",
-		"mascot": "Commodores",
-		"primaryColor": "#000000",
-		"secondaryColor": "#A8996E",
-		"logo": {
-			"url": "img/logos/vanderbilt.svg",
-			"background": "#000000"
-		}
-	},
-	"wofford": {
-		"name": "Wofford",
-		"abbr": "WOFF",
-		"mascot": "Terriers",
-		"primaryColor": "#886E4C",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/wofford.svg",
-			"background": "#886E4C"
-		}
-	},
-	"unc-greensboro": {
-		"name": "UNC Greensboro",
-		"abbr": "UNCG",
-		"mascot": "Spartans",
-		"primaryColor": "#0F2044",
-		"secondaryColor": "#FFB71B",
-		"logo": {
-			"url": "img/logos/unc-greensboro.svg",
-			"background": "#FFB71B"
-		}
-	},
-	"furman": {
-		"name": "Furman",
-		"abbr": "FURMAN",
-		"mascot": "Paladins",
-		"primaryColor": "#582C83",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/furman.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"east-tenn-st": {
-		"name": "East Tennessee State",
-		"alternates": ["East Tennessee St.", "ETSU"],
-		"abbr": "ETNST",
-		"mascot": "Buccaneers",
-		"primaryColor": "#041E42",
-		"secondaryColor": "#FFC72C",
-		"logo": {
-			"url": "img/logos/east-tenn-st.svg",
-			"background": "#FFC72C"
-		}
-	},
-	"chattanooga": {
-		"name": "Chattanooga",
-		"alternates": ["UT-Chattanooga"],
-		"abbr": "CHAT",
-		"mascot": "Tigers",
-		"primaryColor": "#00386B",
-		"secondaryColor": "#E0AA0F",
-		"logo": {
-			"url": "img/logos/chattanooga.svg",
-			"background": "#E0AA0F"
-		}
-	},
-	"samford": {
-		"name": "Samford",
-		"abbr": "SAM",
-		"mascot": "Bulldogs",
-		"primaryColor": "#C4161D",
-		"secondaryColor": "#002649",
-		"logo": {
-			"url": "img/logos/samford.svg",
-			"background": "#C4161D"
-		}
-	},
-	"mercer": {
-		"name": "Mercer",
-		"abbr": "MERCER",
-		"mascot": "Bears",
-		"primaryColor": "#CB5307",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/mercer.svg",
-			"background": "#000000"
-		}
-	},
-	"vmi": {
-		"name": "Virginia Military",
-		"abbr": "VMI",
-		"mascot": "Keydets",
-		"primaryColor": "#AE122A",
-		"secondaryColor": "#FFD619",
-		"logo": {
-			"url": "img/logos/vmi.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"western-caro": {
-		"name": "Western Carolina",
-		"abbr": "WCU",
-		"mascot": "Catamounts",
-		"primaryColor": "#592C88",
-		"secondaryColor": "#B9975B",
-		"logo": {
-			"url": "img/logos/western-caro.svg",
-			"background": "#B9975B"
-		}
-	},
-	"citadel": {
-		"name": "Citadel",
-		"abbr": "CIT",
-		"mascot": "Bulldogs",
-		"primaryColor": "#3975B7",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/citadel.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"sam-houston-st": {
-		"name": "Sam Houston State",
-		"abbr": "SAMST",
-		"mascot": "Bearkats",
-		"primaryColor": "#F78E1E",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/sam-houston-st.svg",
-			"background": "#F78E1E"
-		}
-	},
-	"abilene-christian": {
-		"name": "Abilene Christian",
-		"abbr": "ABCH",
-		"mascot": "Wildcats",
-		"primaryColor": "#4E2683",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/abilene-christian.svg",
-			"background": "#4E2683"
-		}
-	},
-	"new-orleans": {
-		"name": "New Orleans",
-		"abbr": "UNO",
-		"mascot": "Privateers",
-		"primaryColor": "#005CA6",
-		"secondaryColor": "#A3A9AD",
-		"logo": {
-			"url": "img/logos/new-orleans.svg",
-			"background": "#005CA6"
-		}
-	},
-	"lamar": {
-		"name": "Lamar",
-		"abbr": "LAMAR",
-		"mascot": "Cardinals",
-		"primaryColor": "#E31937",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/lamar.svg",
-			"background": "#E31937"
-		}
-	},
-	"southeastern-la": {
-		"name": "Southeastern Louisiana",
-		"abbr": "SELA",
-		"mascot": "Lions",
-		"primaryColor": "#006341",
-		"secondaryColor": "#EAAA00",
-		"logo": {
-			"url": "img/logos/southeastern-la.svg",
-			"background": "#006341"
-		}
-	},
-	"am-corpus-chris": {
-		"name": "Texas A&M-CC",
-		"abbr": "TAMCC",
-		"mascot": "Islanders",
-		"primaryColor": "#0067C5",
-		"secondaryColor": "#007F3E",
-		"logo": {
-			"url": "img/logos/am-corpus-chris.svg",
-			"background": "#0067C5"
-		}
-	},
-	"houston-baptist": {
-		"name": "Houston Baptist",
-		"abbr": "HOUBPT",
-		"mascot": "Huskies",
-		"primaryColor": "#00529C",
-		"secondaryColor": "#F85512",
-		"logo": {
-			"url": "img/logos/houston-baptist.svg",
-			"background": "#00529C"
-		}
-	},
-	"central-ark": {
-		"name": "Central Arkansas",
-		"abbr": "UCAR",
-		"mascot": "Bears",
-		"primaryColor": "#4F2D7F",
-		"secondaryColor": "#818A8F",
-		"logo": {
-			"url": "img/logos/central-ark.svg",
-			"background": "#4F2D7F"
-		}
-	},
-	"stephen-f-austin": {
-		"name": "Stephen F. Austin",
-		"abbr": "SFA",
-		"mascot": "Lumberjacks",
-		"primaryColor": "#3F2A55",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/stephen-f-austin.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"nicholls-st": {
-		"name": "Nicholls State",
-		"abbr": "NICHST",
-		"mascot": "Colonels",
-		"primaryColor": "#C41230",
-		"secondaryColor": "#B2B2B2",
-		"logo": {
-			"url": "img/logos/nicholls-st.svg",
-			"background": "#C41230"
-		}
-	},
-	"northwestern-st": {
-		"name": "Northwestern State",
-		"abbr": "NWST",
-		"mascot": "Demons",
-		"primaryColor": "#492F92",
-		"secondaryColor": "#F78426",
-		"logo": {
-			"url": "img/logos/northwestern-st.svg",
-			"background": "#F78426"
-		}
-	},
-	"mcneese-st": {
-		"name": "McNeese State",
-		"abbr": "MCNST",
-		"mascot": "Cowboys",
-		"primaryColor": "#00529B",
-		"secondaryColor": "#FFD204",
-		"logo": {
-			"url": "img/logos/mcneese-st.svg",
-			"background": "#FFD204"
-		}
-	},
-	"incarnate-word": {
-		"name": "Incarnate Word",
-		"abbr": "INWD",
-		"mascot": "Cardinals",
-		"primaryColor": "#CB333B",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/incarnate-word.svg",
-			"background": "#CB333B"
-		}
-	},
-	"prairie-view": {
-		"name": "Prairie View A&M",
-		"abbr": "PRVW",
-		"mascot": "Panthers",
-		"primaryColor": "#330066",
-		"secondaryColor": "#FFCC33",
-		"logo": {
-			"url": "img/logos/prairie-view.svg",
-			"background": "#FFCC33"
-		}
-	},
-	"texas-southern": {
-		"name": "Texas Southern",
-		"abbr": "TXSO",
-		"mascot": "Tigers",
-		"primaryColor": "#6F263D",
-		"secondaryColor": "#A2AAAD",
-		"logo": {
-			"url": "img/logos/texas-southern.svg",
-			"background": "#A2AAAD"
-		}
-	},
-	"jackson-st": {
-		"name": "Jackson State",
-		"abbr": "JKST",
-		"mascot": "Tigers",
-		"primaryColor": "#002147",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/jackson-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"grambling": {
-		"name": "Grambling State",
-		"abbr": "GRST",
-		"mascot": "Tigers",
-		"primaryColor": "#000000",
-		"secondaryColor": "#ECAA00",
-		"logo": {
-			"url": "img/logos/grambling.svg",
-			"background": "#ECAA00"
-		}
-	},
-	"ark-pine-bluff": {
-		"name": "Arkansas-Pine Bluff",
-		"abbr": "ARPB",
-		"mascot": "Golden Lions",
-		"primaryColor": "#000000",
-		"secondaryColor": "#EEB310",
-		"logo": {
-			"url": "img/logos/ark-pine-bluff.svg",
-			"background": "#000000"
-		}
-	},
-	"alabama-st": {
-		"name": "Alabama State",
-		"abbr": "ALST",
-		"mascot": "Hornets",
-		"primaryColor": "#000000",
-		"secondaryColor": "#C99700",
-		"logo": {
-			"url": "img/logos/alabama-st.svg",
-			"background": "#C99700"
-		}
-	},
-	"southern-u": {
-		"name": "Southern University",
-		"alternates": ["Southern"],
-		"abbr": "SOUTRN",
-		"mascot": "Jaguars",
-		"primaryColor": "#69B3E7",
-		"secondaryColor": "#FFC72C",
-		"logo": {
-			"url": "img/logos/southern-u.svg",
-			"background": "#FFC72C"
-		}
-	},
-	"alcorn": {
-		"name": "Alcorn State",
-		"abbr": "ALCST",
-		"mascot": "Braves",
-		"primaryColor": "#46166A",
-		"secondaryColor": "#E9A713",
-		"logo": {
-			"url": "img/logos/alcorn.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"alabama-am": {
-		"name": "Alabama A&M",
-		"abbr": "ABAM",
-		"mascot": "Bulldogs",
-		"primaryColor": "#660000",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/alabama-am.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"mississippi-val": {
-		"name": "Mississippi Valley State",
-		"alternates": ["Miss Valley St."],
-		"abbr": "MSVST",
-		"mascot": "Delta Devils",
-		"primaryColor": "#046A38",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/mississippi-val.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"south-dakota-st": {
-		"name": "South Dakota State",
-		"abbr": "SDST",
-		"mascot": "Jackrabbits",
-		"primaryColor": "#FFD100",
-		"secondaryColor": "#0032A0",
-		"logo": {
-			"url": "img/logos/south-dakota-st.svg",
-			"background": "#FFD100"
-		}
-	},
-	"neb-omaha": {
-		"name": "Nebraska-Omaha",
-		"abbr": "NEBOM",
-		"mascot": "Mavericks",
-		"primaryColor": "#000000",
-		"secondaryColor": "#D71920",
-		"logo": {
-			"url": "img/logos/neb-omaha.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"north-dakota-st": {
-		"name": "North Dakota State",
-		"abbr": "NDST",
-		"mascot": "Bison",
-		"primaryColor": "#FFC82E",
-		"secondaryColor": "#005643",
-		"logo": {
-			"url": "img/logos/north-dakota-st.svg",
-			"background": "#005643"
-		}
-	},
-	"ipfw": {
-		"name": "Purdue Fort Wayne",
-		"abbr": "PURFW",
-		"mascot": "Mastodons",
-		"primaryColor": "#000000",
-		"secondaryColor": "#C28E0E",
-		"logo": {
-			"url": "img/logos/ipfw.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"oral-roberts": {
-		"name": "Oral Roberts",
-		"abbr": "ORLRB",
-		"mascot": "Golden Eagles",
-		"primaryColor": "#002F60",
-		"secondaryColor": "#CFB67C",
-		"logo": {
-			"url": "img/logos/oral-roberts.svg",
-			"background": "#CFB67C"
-		}
-	},
-	"south-dakota": {
-		"name": "South Dakota",
-		"abbr": "USD",
-		"mascot": "Coyotes",
-		"primaryColor": "#AD0000",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/south-dakota.svg",
-			"background": "#AD0000"
-		}
-	},
-	"north-dakota": {
-		"name": "North Dakota",
-		"abbr": "UND",
-		"mascot": "Fighting Hawks",
-		"primaryColor": "#009A44",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/north-dakota.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"western-ill": {
-		"name": "Western Illinois",
-		"abbr": "WILL",
-		"mascot": "Leathernecks",
-		"primaryColor": "#663399",
-		"secondaryColor": "#FFCC00",
-		"logo": {
-			"url": "img/logos/western-ill.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"denver": {
-		"name": "Denver",
-		"abbr": "DENVER",
-		"mascot": "Pioneers",
-		"primaryColor": "#8B2332",
-		"secondaryColor": "#8B6F4B",
-		"logo": {
-			"url": "img/logos/denver.svg",
-			"background": "#8B6F4B"
-		}
-	},
-	"georgia-st": {
-		"name": "Georgia State",
-		"abbr": "GAST",
-		"mascot": "Panthers",
-		"primaryColor": "#0039A6",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/georgia-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"texas-st": {
-		"name": "Texas State",
-		"alternates": ["Southwest Texas State"],
-		"abbr": "TXST",
-		"mascot": "Bobcats",
-		"primaryColor": "#501214",
-		"secondaryColor": "#8D734A",
-		"logo": {
-			"url": "img/logos/texas-st.svg",
-			"background": "#501214"
-		}
-	},
-	"ga-southern": {
-		"name": "Georgia Southern",
-		"abbr": "GASO",
-		"mascot": "Eagles",
-		"primaryColor": "#011E41",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/ga-southern.svg",
-			"background": "#011E41"
-		}
-	},
-	"texas-arlington": {
-		"name": "Texas-Arlington",
-		"abbr": "TXAR",
-		"mascot": "Mavericks",
-		"primaryColor": "#0064B1",
-		"secondaryColor": "#F58025",
-		"logo": {
-			"url": "img/logos/texas-arlington.svg",
-			"background": "#0064B1"
-		}
-	},
-	"la-lafayette": {
-		"name": "Louisiana-Lafayette",
-		"alternates": ["Southwest Louisiana", "Louisiana"],
-		"abbr": "LALF",
-		"mascot": "Ragin' Cajuns",
-		"primaryColor": "#CE181E",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/la-lafayette.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"la-monroe": {
-		"name": "Louisiana-Monroe",
-		"alternates": ["Northeast Louisiana"],
-		"abbr": "LAMN",
-		"mascot": "Warhawks",
-		"primaryColor": "#800029",
-		"secondaryColor": "#BD955A",
-		"logo": {
-			"url": "img/logos/la-monroe.svg",
-			"background": "#800029"
-		}
-	},
-	"coastal-caro": {
-		"name": "Coastal Carolina",
-		"abbr": "COSTCA",
-		"mascot": "Chanticleers",
-		"primaryColor": "#006F71",
-		"secondaryColor": "#A27752",
-		"logo": {
-			"url": "img/logos/coastal-caro.svg",
-			"background": "#006F71"
-		}
-	},
-	"south-ala": {
-		"name": "South Alabama",
-		"abbr": "SOAB",
-		"mascot": "Jaguars",
-		"primaryColor": "#BF0D3E",
-		"secondaryColor": "#00205B",
-		"logo": {
-			"url": "img/logos/south-ala.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"arkansas-st": {
-		"name": "Arkansas State",
-		"abbr": "ARST",
-		"mascot": "Red Wolves",
-		"primaryColor": "#CC092F",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/arkansas-st.svg",
-			"background": "#CC092F"
-		}
-	},
-	"appalachian-st": {
-		"name": "Appalachian State",
-		"abbr": "APPST",
-		"mascot": "Mountaineers",
-		"primaryColor": "#222222",
-		"secondaryColor": "#FFCC00",
-		"logo": {
-			"url": "img/logos/appalachian-st.svg",
-			"background": "#FFCC00"
-		}
-	},
-	"ualr": {
-		"name": "Arkansas-Little Rock",
-		"alternates": ["Little Rock"],
-		"abbr": "ARLR",
-		"mascot": "Trojans",
-		"primaryColor": "#6E2639",
-		"secondaryColor": "#A7A9AC",
-		"logo": {
-			"url": "img/logos/ualr.svg",
-			"background": "#A7A9AC"
-		}
-	},
-	"troy": {
-		"name": "Troy",
-		"alternates": ["Troy St"],
-		"abbr": "TROY",
-		"mascot": "Trojans",
-		"primaryColor": "#6D0017",
-		"secondaryColor": "#B2B3B5",
-		"logo": {
-			"url": "img/logos/troy.svg",
-			"background": "#B2B3B5"
-		}
-	},
-	"gonzaga": {
-		"name": "Gonzaga",
-		"abbr": "GZAG",
-		"mascot": "Zags",
-		"primaryColor": "#041E42",
-		"secondaryColor": "#C8102E",
-		"logo": {
-			"url": "img/logos/gonzaga.svg",
-			"background": "#C8102E"
-		}
-	},
-	"st-marys-ca": {
-		"name": "Saint Mary's",
-		"alternates": ["St. Mary's"],
-		"abbr": "STMRY",
-		"mascot": "Gaels",
-		"primaryColor": "#06315B",
-		"secondaryColor": "#D80024",
-		"logo": {
-			"url": "img/logos/st-marys-ca.svg",
-			"background": "#D80024"
-		}
-	},
-	"byu": {
-		"name": "Brigham Young",
-		"abbr": "BYU",
-		"mascot": "Cougars",
-		"primaryColor": "#002E5D",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/byu.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"san-francisco": {
-		"name": "San Francisco",
-		"abbr": "SANFRN",
-		"mascot": "Dons",
-		"primaryColor": "#00543C",
-		"secondaryColor": "#FDBB30",
-		"logo": {
-			"url": "img/logos/san-francisco.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"loyola-marymount": {
-		"name": "Loyola Marymount",
-		"abbr": "LYMNT",
-		"mascot": "Lions",
-		"primaryColor": "#7D001E",
-		"secondaryColor": "#002B54",
-		"logo": {
-			"url": "img/logos/loyola-marymount.svg",
-			"background": "#7D001E"
-		}
-	},
-	"santa-clara": {
-		"name": "Santa Clara",
-		"abbr": "SNTCLA",
-		"mascot": "Broncos",
-		"primaryColor": "#862633",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/santa-clara.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"san-diego": {
-		"name": "San Diego",
-		"abbr": "SD",
-		"mascot": "Toreros",
-		"primaryColor": "#75BEE9",
-		"secondaryColor": "#003B70",
-		"logo": {
-			"url": "img/logos/san-diego.svg",
-			"background": "#75BEE9"
-		}
-	},
-	"pepperdine": {
-		"name": "Pepperdine",
-		"abbr": "PEPP",
-		"mascot": "Waves",
-		"primaryColor": "#00205C",
-		"secondaryColor": "#EE7624",
-		"logo": {
-			"url": "img/logos/pepperdine.svg",
-			"background": "#00205C"
-		}
-	},
-	"pacific": {
-		"name": "Pacific",
-		"abbr": "PACIF",
-		"mascot": "Tigers",
-		"primaryColor": "#F47920",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/pacific.svg",
-			"background": "#F47920"
-		}
-	},
-	"portland": {
-		"name": "Portland",
-		"abbr": "PORT",
-		"mascot": "Pilots",
-		"primaryColor": "#1E1656",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/portland.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"new-mexico-st": {
-		"name": "New Mexico State",
-		"abbr": "NMST",
-		"mascot": "Aggies",
-		"primaryColor": "#891216",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/new-mexico-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"utah-valley": {
-		"name": "Utah Valley",
-		"abbr": "UTVL",
-		"mascot": "Wolverines",
-		"primaryColor": "#275D38",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/utah-valley.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"grand-canyon": {
-		"name": "Grand Canyon",
-		"abbr": "GRCYN",
-		"mascot": "Lopes",
-		"primaryColor": "#522398",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/grand-canyon.svg",
-			"background": "#000000"
-		}
-	},
-	"utrgv": {
-		"name": "Texas Rio Grande Valley",
-		"abbr": "TXRIO",
-		"mascot": "Vaqueros",
-		"primaryColor": "#F05023",
-		"secondaryColor": "#646469",
-		"logo": {
-			"url": "img/logos/utrgv.svg",
-			"background": "#F05023"
-		}
-	},
-	"california-baptist": {
-		"name": "California Baptist",
-		"abbr": "CABT",
-		"mascot": "Lancers",
-		"primaryColor": "#002554",
-		"secondaryColor": "#A37400",
-		"logo": {
-			"url": "img/logos/california-baptist.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"bakersfield": {
-		"name": "Cal State Bakersfield",
-		"abbr": "CASTBK",
-		"mascot": "Roadrunners",
-		"primaryColor": "#3154A3",
-		"secondaryColor": "#FDB913",
-		"logo": {
-			"url": "img/logos/bakersfield.svg",
-			"background": "#FDB913"
-		}
-	},
-	"seattle": {
-		"name": "Seattle",
-		"abbr": "SEATTL",
-		"mascot": "Redhawks",
-		"primaryColor": "#AA0000",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/seattle.svg",
-			"background": "#AA0000"
-		}
-	},
-	"umkc": {
-		"name": "UMKC",
-		"abbr": "UMKC",
-		"mascot": "Kangaroos",
-		"primaryColor": "#005293",
-		"secondaryColor": "#FECB00",
-		"logo": {
-			"url": "img/logos/umkc.svg",
-			"background": "#005293"
-		}
-	},
-	"chicago-st": {
-		"name": "Chicago State",
-		"abbr": "CHST",
-		"mascot": "Cougars",
-		"primaryColor": "#006666",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/chicago-st.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"oklahoma-city": {
-		"name": "Oklahoma City",
-		"abbr": "OKCU",
-		"mascot": "Stars",
-		"primaryColor": "#1F4B7F",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/oklahoma-city.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"trinity": {
-		"name": "Trinity",
-		"alternates": ["Trinity (TX)"],
-		"abbr": "TRIN",
-		"mascot": "Tigers",
-		"primaryColor": "burgandy",
-		"secondaryColor": "#FFFFFF",
-		"logo": {
-			"url": "img/logos/trinity.png",
-			"background": "#FFFFFF"
-		}
-	},
-	"cal-st-los-angeles": {
-		"name": "Cal State Los Angeles",
-		"abbr": "CSLA",
-		"mascot": "Golden Eagles",
-		"primaryColor": "#FFCE00",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/cal-st-los-angeles.svg",
-			"background": "#FFFFFF"
-		}
-	},
-	"nyu": {
-		"name": "NYU",
-		"abbr": "NYU",
-		"mascot": "Violets",
-		"primaryColor": "#57068C",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/nyu.png",
-			"background": "#57068C"
-		}
-	},
-	"loyola-no": {
-		"name": "Loyola (NO)",
-		"alternates": ["Loyola (LA)"],
-		"abbr": "LONO",
-		"mascot": "Wolf Pack",
-		"primaryColor": "#660000",
-		"secondaryColor": "#F4AA00",
-		"logo": {
-			"url": "img/logos/loyola-no.png",
-			"background": "#F4AA00"
-		}
-	},
-	"hardin-simmons": {
-		"name": "Hardin-Simmons",
-		"abbr": "HSIM",
-		"mascot": "Spirit",
-		"primaryColor": "#581483",
-		"secondaryColor": "#FFC72C",
-		"logo": {
-			"url": "img/logos/hardin-simmons.png",
-			"background": "#FFFFFF"
-		}
-	},
-	"wayne-state": {
-		"name": "Wayne State",
-		"alternates": ["Wayne State (MI)"],
-		"abbr": "WSU",
-		"mascot": "Warriors",
-		"primaryColor": "#1F6157",
-		"secondaryColor": "#000000",
-		"logo": {
-			"url": "img/logos/wayne-state.svg",
-			"background": "#1F6157"
-		}
-	}
+  "abilene-christian": {
+    "name": "Abilene Christian",
+    "abbr": "ABCH",
+    "mascot": "Wildcats",
+    "primaryColor": "#4E2683",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/abilene-christian.svg",
+      "background": "#4E2683"
+    }
+  },
+  "air-force": {
+    "name": "Air Force",
+    "abbr": "AFCE",
+    "mascot": "Falcons",
+    "primaryColor": "#0033A0",
+    "secondaryColor": "#8F8F8C",
+    "logo": {
+      "url": "img/logos/air-force.svg",
+      "background": "#8F8F8C"
+    }
+  },
+  "akron": {
+    "name": "Akron",
+    "abbr": "AKRON",
+    "mascot": "Zips",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#A89968",
+    "logo": {
+      "url": "img/logos/akron.svg",
+      "background": "#041E42"
+    }
+  },
+  "alabama": {
+    "name": "Alabama",
+    "abbr": "ALA",
+    "mascot": "Crimson Tide",
+    "primaryColor": "#A60C31",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/alabama.svg",
+      "background": "#A60C31"
+    }
+  },
+  "alabama-am": {
+    "name": "Alabama A&M",
+    "abbr": "ABAM",
+    "mascot": "Bulldogs",
+    "primaryColor": "#660000",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/alabama-am.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "alabama-st": {
+    "name": "Alabama State",
+    "abbr": "ALST",
+    "mascot": "Hornets",
+    "primaryColor": "#000000",
+    "secondaryColor": "#C99700",
+    "logo": {
+      "url": "img/logos/alabama-st.svg",
+      "background": "#C99700"
+    }
+  },
+  "albany-ny": {
+    "name": "Albany",
+    "alternates": [
+      "Albany (NY)"
+    ],
+    "abbr": "ALBY",
+    "mascot": "Great Danes",
+    "primaryColor": "#461660",
+    "secondaryColor": "#EEB211",
+    "logo": {
+      "url": "img/logos/albany-ny.svg",
+      "background": "#EEB211"
+    }
+  },
+  "alcorn": {
+    "name": "Alcorn State",
+    "abbr": "ALCST",
+    "mascot": "Braves",
+    "primaryColor": "#46166A",
+    "secondaryColor": "#E9A713",
+    "logo": {
+      "url": "img/logos/alcorn.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "am-corpus-chris": {
+    "name": "Texas A&M-CC",
+    "abbr": "TAMCC",
+    "mascot": "Islanders",
+    "primaryColor": "#0067C5",
+    "secondaryColor": "#007F3E",
+    "logo": {
+      "url": "img/logos/am-corpus-chris.svg",
+      "background": "#0067C5"
+    }
+  },
+  "american": {
+    "name": "American University",
+    "alternates": "American",
+    "abbr": "AMER",
+    "mascot": "Eagles",
+    "primaryColor": "#C4122E",
+    "secondaryColor": "#005099",
+    "logo": {
+      "url": "img/logos/american.svg",
+      "background": "#005099"
+    }
+  },
+  "appalachian-st": {
+    "name": "Appalachian State",
+    "abbr": "APPST",
+    "mascot": "Mountaineers",
+    "primaryColor": "#222222",
+    "secondaryColor": "#FFCC00",
+    "logo": {
+      "url": "img/logos/appalachian-st.svg",
+      "background": "#FFCC00"
+    }
+  },
+  "arizona": {
+    "name": "Arizona",
+    "abbr": "ARIZ",
+    "mascot": "Wildcats",
+    "primaryColor": "#AB0520",
+    "secondaryColor": "#002147",
+    "logo": {
+      "url": "img/logos/arizona.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "arizona-st": {
+    "name": "Arizona State",
+    "abbr": "ASU",
+    "mascot": "Sun Devils",
+    "primaryColor": "#8E0C3A",
+    "secondaryColor": "#FFC72C",
+    "logo": {
+      "url": "img/logos/arizona-st.svg",
+      "background": "#FFC72C"
+    }
+  },
+  "ark-pine-bluff": {
+    "name": "Arkansas-Pine Bluff",
+    "abbr": "ARPB",
+    "mascot": "Golden Lions",
+    "primaryColor": "#000000",
+    "secondaryColor": "#EEB310",
+    "logo": {
+      "url": "img/logos/ark-pine-bluff.svg",
+      "background": "#000000"
+    }
+  },
+  "arkansas": {
+    "name": "Arkansas",
+    "abbr": "ARK",
+    "mascot": "Razorbacks",
+    "primaryColor": "#9D2235",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/arkansas.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "arkansas-st": {
+    "name": "Arkansas State",
+    "abbr": "ARST",
+    "mascot": "Red Wolves",
+    "primaryColor": "#CC092F",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/arkansas-st.svg",
+      "background": "#CC092F"
+    }
+  },
+  "army": {
+    "name": "Army",
+    "abbr": "ARMY",
+    "mascot": "Black Knights",
+    "primaryColor": "#000000",
+    "secondaryColor": "#D4BF91",
+    "logo": {
+      "url": "img/logos/army.svg",
+      "background": "#D4BF91"
+    }
+  },
+  "auburn": {
+    "name": "Auburn",
+    "abbr": "AUB",
+    "mascot": "Tigers",
+    "primaryColor": "#F26522",
+    "secondaryColor": "#0C2340",
+    "logo": {
+      "url": "img/logos/auburn.svg",
+      "background": "#0C2340"
+    }
+  },
+  "austin-peay": {
+    "name": "Austin Peay",
+    "abbr": "APEAY",
+    "mascot": "Governors",
+    "primaryColor": "#BA0C2F",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/austin-peay.svg",
+      "background": "#BA0C2F"
+    }
+  },
+  "bakersfield": {
+    "name": "Cal State Bakersfield",
+    "abbr": "CASTBK",
+    "mascot": "Roadrunners",
+    "primaryColor": "#3154A3",
+    "secondaryColor": "#FDB913",
+    "logo": {
+      "url": "img/logos/bakersfield.svg",
+      "background": "#FDB913"
+    }
+  },
+  "ball-st": {
+    "name": "Ball State",
+    "abbr": "BALLST",
+    "mascot": "Cardinals",
+    "primaryColor": "#BA0C2F",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/ball-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "baylor": {
+    "name": "Baylor",
+    "abbr": "BAY",
+    "mascot": "Bears",
+    "primaryColor": "#003015",
+    "secondaryColor": "#FECB00",
+    "logo": {
+      "url": "img/logos/baylor.svg",
+      "background": "#003015"
+    }
+  },
+  "belmont": {
+    "name": "Belmont",
+    "abbr": "BELMT",
+    "mascot": "Bruins",
+    "primaryColor": "#002469",
+    "secondaryColor": "#C9262D",
+    "logo": {
+      "url": "img/logos/belmont.svg",
+      "background": "#C9262D"
+    }
+  },
+  "bethune-cookman": {
+    "name": "Bethune-Cookman",
+    "abbr": "BCOOK",
+    "mascot": "Wildcats",
+    "primaryColor": "#6F263D",
+    "secondaryColor": "#F2A900",
+    "logo": {
+      "url": "img/logos/bethune-cookman.svg",
+      "background": "#6F263D"
+    }
+  },
+  "binghamton": {
+    "name": "Binghamton",
+    "abbr": "BING",
+    "mascot": "Bearcats",
+    "primaryColor": "#005A43",
+    "secondaryColor": "#169B62",
+    "logo": {
+      "url": "img/logos/binghamton.svg",
+      "background": "#169B62"
+    }
+  },
+  "boise-st": {
+    "name": "Boise State",
+    "abbr": "BOISE",
+    "mascot": "Broncos",
+    "primaryColor": "#0033A0",
+    "secondaryColor": "#D64309",
+    "logo": {
+      "url": "img/logos/boise-st.svg",
+      "background": "#0033A0"
+    }
+  },
+  "boston-college": {
+    "name": "Boston College",
+    "abbr": "BC",
+    "mascot": "Golden Eagles",
+    "primaryColor": "#98002E",
+    "secondaryColor": "#BC9B6A",
+    "logo": {
+      "url": "img/logos/boston-college.svg",
+      "background": "#BC9B6A"
+    }
+  },
+  "boston-u": {
+    "name": "Boston University",
+    "abbr": "BOSTON",
+    "mascot": "Terriers",
+    "primaryColor": "#CC0000",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/boston-u.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "bowling-green": {
+    "name": "Bowling Green",
+    "alternates": [
+      "Bowling Green State"
+    ],
+    "abbr": "BOWL",
+    "mascot": "Falcons",
+    "primaryColor": "#FE5000",
+    "secondaryColor": "#4F2C1D",
+    "logo": {
+      "url": "img/logos/bowling-green.svg",
+      "background": "#4F2C1D"
+    }
+  },
+  "bradley": {
+    "name": "Bradley",
+    "abbr": "BRAD",
+    "mascot": "Braves",
+    "primaryColor": "#A50000",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/bradley.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "brown": {
+    "name": "Brown",
+    "abbr": "BROWN",
+    "mascot": "Bears",
+    "primaryColor": "#381C00",
+    "secondaryColor": "#E4002B",
+    "logo": {
+      "url": "img/logos/brown.svg",
+      "background": "#E4002B"
+    }
+  },
+  "bryant": {
+    "name": "Bryant University",
+    "abbr": "BRYANT",
+    "mascot": "Bulldogs",
+    "primaryColor": "#231F20",
+    "secondaryColor": "#B09863",
+    "logo": {
+      "url": "img/logos/bryant.svg",
+      "background": "#B09863"
+    }
+  },
+  "bucknell": {
+    "name": "Bucknell",
+    "abbr": "BUCK",
+    "mascot": "Bison",
+    "primaryColor": "#EF5B0C",
+    "secondaryColor": "#003865",
+    "logo": {
+      "url": "img/logos/bucknell.svg",
+      "background": "#EF5B0C"
+    }
+  },
+  "buffalo": {
+    "name": "Buffalo",
+    "abbr": "BUFF",
+    "mascot": "Bulls",
+    "primaryColor": "#005BBB",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/buffalo.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "butler": {
+    "name": "Butler",
+    "abbr": "BUTLR",
+    "mascot": "Bulldogs",
+    "primaryColor": "#13294B",
+    "secondaryColor": "#747678",
+    "logo": {
+      "url": "img/logos/butler.svg",
+      "background": "#13294B"
+    }
+  },
+  "byu": {
+    "name": "Brigham Young",
+    "abbr": "BYU",
+    "mascot": "Cougars",
+    "primaryColor": "#002E5D",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/byu.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "cal-poly": {
+    "name": "Cal Poly",
+    "abbr": "CAPOLY",
+    "mascot": "Mustangs",
+    "primaryColor": "#003831",
+    "secondaryColor": "#B38F4F",
+    "logo": {
+      "url": "img/logos/cal-poly.svg",
+      "background": "#003831"
+    }
+  },
+  "cal-st-fullerton": {
+    "name": "Cal State Fullerton",
+    "abbr": "CALST",
+    "mascot": "Titans",
+    "primaryColor": "#00274C",
+    "secondaryColor": "#FF7900",
+    "logo": {
+      "url": "img/logos/cal-st-fullerton.svg",
+      "background": "#FF7900"
+    }
+  },
+  "cal-st-los-angeles": {
+    "name": "Cal State Los Angeles",
+    "abbr": "CSLA",
+    "mascot": "Golden Eagles",
+    "primaryColor": "#FFCE00",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/cal-st-los-angeles.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "cal-st-northridge": {
+    "name": "Cal State Northridge",
+    "abbr": "CSNR",
+    "mascot": "Matadors",
+    "primaryColor": "#CE1126",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/cal-st-northridge.svg",
+      "background": "#CE1126"
+    }
+  },
+  "california": {
+    "name": "California",
+    "abbr": "CAL",
+    "mascot": "Bears",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#FFC72C",
+    "logo": {
+      "url": "img/logos/california.svg",
+      "background": "#FFC72C"
+    }
+  },
+  "california-baptist": {
+    "name": "California Baptist",
+    "abbr": "CABT",
+    "mascot": "Lancers",
+    "primaryColor": "#002554",
+    "secondaryColor": "#A37400",
+    "logo": {
+      "url": "img/logos/california-baptist.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "campbell": {
+    "name": "Campbell",
+    "abbr": "CAMP",
+    "mascot": "Fighting Camels",
+    "primaryColor": "#E87722",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/campbell.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "canisius": {
+    "name": "Canisius",
+    "abbr": "CAN",
+    "mascot": "Golden Griffins",
+    "primaryColor": "#0E2756",
+    "secondaryColor": "#FFBA00",
+    "logo": {
+      "url": "img/logos/canisius.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "central-ark": {
+    "name": "Central Arkansas",
+    "abbr": "UCAR",
+    "mascot": "Bears",
+    "primaryColor": "#4F2D7F",
+    "secondaryColor": "#818A8F",
+    "logo": {
+      "url": "img/logos/central-ark.svg",
+      "background": "#4F2D7F"
+    }
+  },
+  "central-conn-st": {
+    "name": "Central Connecticut State",
+    "alternates": [
+      "Central Connecticut St",
+      "Central Connecticut"
+    ],
+    "abbr": "CCST",
+    "mascot": "Blue Devils",
+    "primaryColor": "#1A4784",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/central-conn-st.svg",
+      "background": "#1A4784"
+    }
+  },
+  "central-mich": {
+    "name": "Central Michigan",
+    "abbr": "CMICH",
+    "mascot": "Chippewas",
+    "primaryColor": "#15397F",
+    "secondaryColor": "#FFC82E",
+    "logo": {
+      "url": "img/logos/central-mich.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "charleston-so": {
+    "name": "Charleston Southern",
+    "abbr": "CHSO",
+    "mascot": "Buccaneers",
+    "primaryColor": "#002855",
+    "secondaryColor": "#A89968",
+    "logo": {
+      "url": "img/logos/charleston-so.svg",
+      "background": "#A89968"
+    }
+  },
+  "charlotte": {
+    "name": "Charlotte",
+    "alternates": [
+      "UNC Charlotte"
+    ],
+    "abbr": "UNCC",
+    "mascot": "49ers",
+    "primaryColor": "#006940",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/charlotte.svg",
+      "background": "#006940"
+    }
+  },
+  "chattanooga": {
+    "name": "Chattanooga",
+    "alternates": [
+      "UT-Chattanooga"
+    ],
+    "abbr": "CHAT",
+    "mascot": "Tigers",
+    "primaryColor": "#00386B",
+    "secondaryColor": "#E0AA0F",
+    "logo": {
+      "url": "img/logos/chattanooga.svg",
+      "background": "#E0AA0F"
+    }
+  },
+  "chicago-st": {
+    "name": "Chicago State",
+    "abbr": "CHST",
+    "mascot": "Cougars",
+    "primaryColor": "#006666",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/chicago-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "cincinnati": {
+    "name": "Cincinnati",
+    "abbr": "CINCY",
+    "mascot": "Bearcats",
+    "primaryColor": "#E00122",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/cincinnati.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "citadel": {
+    "name": "Citadel",
+    "abbr": "CIT",
+    "mascot": "Bulldogs",
+    "primaryColor": "#3975B7",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/citadel.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "clemson": {
+    "name": "Clemson",
+    "abbr": "CLEM",
+    "mascot": "Tigers",
+    "primaryColor": "#F56600",
+    "secondaryColor": "#522D80",
+    "logo": {
+      "url": "img/logos/clemson.svg",
+      "background": "#522D80"
+    }
+  },
+  "cleveland-st": {
+    "name": "Cleveland State",
+    "abbr": "CLEST",
+    "mascot": "Vikings",
+    "primaryColor": "#006A4D",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/cleveland-st.svg",
+      "background": "#006A4D"
+    }
+  },
+  "coastal-caro": {
+    "name": "Coastal Carolina",
+    "abbr": "COSTCA",
+    "mascot": "Chanticleers",
+    "primaryColor": "#006F71",
+    "secondaryColor": "#A27752",
+    "logo": {
+      "url": "img/logos/coastal-caro.svg",
+      "background": "#006F71"
+    }
+  },
+  "col-of-charleston": {
+    "name": "Charleston",
+    "alternates": [
+      "College of Charleston"
+    ],
+    "abbr": "CLST",
+    "mascot": "Cougars",
+    "primaryColor": "#76232F",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/col-of-charleston.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "colgate": {
+    "name": "Colgate",
+    "abbr": "COLG",
+    "mascot": "Raiders",
+    "primaryColor": "#862633",
+    "secondaryColor": "#C8C7C7",
+    "logo": {
+      "url": "img/logos/colgate.svg",
+      "background": "#C8C7C7"
+    }
+  },
+  "colorado": {
+    "name": "Colorado",
+    "abbr": "COLO",
+    "mascot": "Buffaloes",
+    "primaryColor": "#CFB87C",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/colorado.svg",
+      "background": "#000000"
+    }
+  },
+  "colorado-st": {
+    "name": "Colorado State",
+    "abbr": "COST",
+    "mascot": "Rams",
+    "primaryColor": "#006A4D",
+    "secondaryColor": "#B3A369",
+    "logo": {
+      "url": "img/logos/colorado-st.svg",
+      "background": "#006A4D"
+    }
+  },
+  "columbia": {
+    "name": "Columbia",
+    "abbr": "COLU",
+    "mascot": "Lions",
+    "primaryColor": "#B31B1B",
+    "secondaryColor": "#FFFFF",
+    "logo": {
+      "url": "img/logos/columbia.svg",
+      "background": "#B31B1B"
+    }
+  },
+  "coppin-st": {
+    "name": "Coppin State",
+    "abbr": "COPPST",
+    "mascot": "Eagles",
+    "primaryColor": "#003056",
+    "secondaryColor": "#FFC915",
+    "logo": {
+      "url": "img/logos/coppin-st.svg",
+      "background": "#FFC915"
+    }
+  },
+  "cornell": {
+    "name": "Cornell",
+    "abbr": "CORN",
+    "mascot": "Big Red",
+    "primaryColor": "#B31B1B",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/cornell.svg",
+      "background": "#B31B1B"
+    }
+  },
+  "creighton": {
+    "name": "Creighton",
+    "abbr": "CRE",
+    "mascot": "Bluejays",
+    "primaryColor": "#005CA9",
+    "secondaryColor": "#00235D",
+    "logo": {
+      "url": "img/logos/creighton.svg",
+      "background": "#005CA9"
+    }
+  },
+  "dartmouth": {
+    "name": "Dartmouth",
+    "abbr": "DART",
+    "mascot": "Big Green",
+    "primaryColor": "#005F2F",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/dartmouth.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "davidson": {
+    "name": "Davidson",
+    "abbr": "DAV",
+    "mascot": "Wildcats",
+    "primaryColor": "#AC1A2F",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/davidson.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "dayton": {
+    "name": "Dayton",
+    "abbr": "DAY",
+    "mascot": "Flyers",
+    "primaryColor": "#CE1141",
+    "secondaryColor": "#004B8D",
+    "logo": {
+      "url": "img/logos/dayton.svg",
+      "background": "#004B8D"
+    }
+  },
+  "delaware": {
+    "name": "Delaware",
+    "abbr": "DEL",
+    "mascot": "Blue Hens",
+    "primaryColor": "#00539F",
+    "secondaryColor": "#FFD200",
+    "logo": {
+      "url": "img/logos/delaware.svg",
+      "background": "#00539F"
+    }
+  },
+  "delaware-st": {
+    "name": "Delaware State",
+    "abbr": "DELST",
+    "mascot": "Hornets",
+    "primaryColor": "#EE3124",
+    "secondaryColor": "#0099CC",
+    "logo": {
+      "url": "img/logos/delaware-st.svg",
+      "background": "#EE3124"
+    }
+  },
+  "denver": {
+    "name": "Denver",
+    "abbr": "DENVER",
+    "mascot": "Pioneers",
+    "primaryColor": "#8B2332",
+    "secondaryColor": "#8B6F4B",
+    "logo": {
+      "url": "img/logos/denver.svg",
+      "background": "#8B6F4B"
+    }
+  },
+  "depaul": {
+    "name": "DePaul",
+    "abbr": "DePAUL",
+    "mascot": "Blue Demons",
+    "primaryColor": "#005EB8",
+    "secondaryColor": "#E4002B",
+    "logo": {
+      "url": "img/logos/depaul.svg",
+      "background": "#005EB8"
+    }
+  },
+  "detroit": {
+    "name": "Detroit Mercy",
+    "abbr": "DETMR",
+    "mascot": "Titans",
+    "primaryColor": "#C8102E",
+    "secondaryColor": "#002D72",
+    "logo": {
+      "url": "img/logos/detroit.svg",
+      "background": "#C8102E"
+    }
+  },
+  "drake": {
+    "name": "Drake",
+    "abbr": "DRAKE",
+    "mascot": "Bulldogs",
+    "primaryColor": "#003B73",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/drake.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "drexel": {
+    "name": "Drexel",
+    "abbr": "DREX",
+    "mascot": "Dragons",
+    "primaryColor": "#07294D",
+    "secondaryColor": "#FFC600",
+    "logo": {
+      "url": "img/logos/drexel.svg",
+      "background": "#07294D"
+    }
+  },
+  "duke": {
+    "name": "Duke",
+    "abbr": "DUKE",
+    "mascot": "Blue Devils",
+    "primaryColor": "#003087",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/duke.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "duquesne": {
+    "name": "Duquesne",
+    "abbr": "DUQ",
+    "mascot": "Dukes",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#BA0C2F",
+    "logo": {
+      "url": "img/logos/duquesne.svg",
+      "background": ""
+    }
+  },
+  "east-carolina": {
+    "name": "East Carolina",
+    "abbr": "ECU",
+    "mascot": "Pirates",
+    "primaryColor": "#592A8A",
+    "secondaryColor": "#FDC82F",
+    "logo": {
+      "url": "img/logos/east-carolina.svg",
+      "background": "#592A8A"
+    }
+  },
+  "east-tenn-st": {
+    "name": "East Tennessee State",
+    "alternates": [
+      "East Tennessee St.",
+      "ETSU"
+    ],
+    "abbr": "ETNST",
+    "mascot": "Buccaneers",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#FFC72C",
+    "logo": {
+      "url": "img/logos/east-tenn-st.svg",
+      "background": "#FFC72C"
+    }
+  },
+  "eastern-ill": {
+    "name": "Eastern Illinois",
+    "abbr": "EILL",
+    "mascot": "Panthers",
+    "primaryColor": "#003399",
+    "secondaryColor": "#B2B2B2",
+    "logo": {
+      "url": "img/logos/eastern-ill.svg",
+      "background": "#B2B2B2"
+    }
+  },
+  "eastern-ky": {
+    "name": "Eastern Kentucky",
+    "abbr": "EKU",
+    "mascot": "Colones",
+    "primaryColor": "#4C151E",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/eastern-ky.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "eastern-mich": {
+    "name": "Eastern Michigan",
+    "abbr": "EMICH",
+    "mascot": "Eagles",
+    "primaryColor": "#046A38",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/eastern-mich.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "eastern-wash": {
+    "name": "Eastern Washington",
+    "abbr": "EWA",
+    "mascot": "Eagles",
+    "primaryColor": "#A10022",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/eastern-wash.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "elon": {
+    "name": "Elon",
+    "abbr": "ELON",
+    "mascot": "Phoenix",
+    "primaryColor": "#73000A",
+    "secondaryColor": "#B59A57",
+    "logo": {
+      "url": "img/logos/elon.svg",
+      "background": "#73000A"
+    }
+  },
+  "evansville": {
+    "name": "Evansville",
+    "abbr": "EVANS",
+    "mascot": "Purple Aces",
+    "primaryColor": "#52237F",
+    "secondaryColor": "#F36F21",
+    "logo": {
+      "url": "img/logos/evansville.svg",
+      "background": "#52237F"
+    }
+  },
+  "fairfield": {
+    "name": "Fairfield",
+    "abbr": "FAIR",
+    "mascot": "Stags",
+    "primaryColor": "#582C83",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/fairfield.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "fairleigh-dickinson": {
+    "name": "Fairleigh Dickinson",
+    "abbr": "FAIR",
+    "mascot": "Knights",
+    "primaryColor": "#A32638",
+    "secondaryColor": "#003F87",
+    "logo": {
+      "url": "img/logos/fairleigh-dickinson.svg",
+      "background": "#A32638"
+    }
+  },
+  "fgcu": {
+    "name": "Florida Gulf Coast",
+    "abbr": "FGU",
+    "mascot": "Eagles",
+    "primaryColor": "#002D72",
+    "secondaryColor": "#007749",
+    "logo": {
+      "url": "img/logos/fgcu.svg",
+      "background": "#007749"
+    }
+  },
+  "fiu": {
+    "name": "Florida International",
+    "abbr": "FIU",
+    "mascot": "Panthers",
+    "primaryColor": "#081E3F",
+    "secondaryColor": "#B6862C",
+    "logo": {
+      "url": "img/logos/fiu.svg",
+      "background": "#081E3F"
+    }
+  },
+  "fla-atlantic": {
+    "name": "Florida Atlantic",
+    "abbr": "FAU",
+    "mascot": "Owls",
+    "primaryColor": "#003366",
+    "secondaryColor": "#CC0000",
+    "logo": {
+      "url": "img/logos/fla-atlantic.svg",
+      "background": "#003366"
+    }
+  },
+  "florida": {
+    "name": "Florida",
+    "abbr": "FLA",
+    "mascot": "Gators",
+    "primaryColor": "#FA4616",
+    "secondaryColor": "#003087",
+    "logo": {
+      "url": "img/logos/florida.svg",
+      "background": "#FA4616"
+    }
+  },
+  "florida-am": {
+    "name": "Florida A&M",
+    "abbr": "FLAM",
+    "mascot": "Rattlers",
+    "primaryColor": "#F4811F",
+    "secondaryColor": "#F4811F",
+    "logo": {
+      "url": "img/logos/florida-am.svg",
+      "background": "#F4811F"
+    }
+  },
+  "florida-st": {
+    "name": "Florida State",
+    "abbr": "FSU",
+    "mascot": "Seminoles",
+    "primaryColor": "#782F40",
+    "secondaryColor": "#CEB888",
+    "logo": {
+      "url": "img/logos/florida-st.svg",
+      "background": "#CEB888"
+    }
+  },
+  "fordham": {
+    "name": "Fordham",
+    "abbr": "FORD",
+    "mascot": "Rams",
+    "primaryColor": "#860038",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/fordham.svg",
+      "background": "#860038"
+    }
+  },
+  "fresno-st": {
+    "name": "Fresno State",
+    "abbr": "FRESNO",
+    "mascot": "Bulldogs",
+    "primaryColor": "#CC0033",
+    "secondaryColor": "#00235D",
+    "logo": {
+      "url": "img/logos/fresno-st.svg",
+      "background": "#CC0033"
+    }
+  },
+  "furman": {
+    "name": "Furman",
+    "abbr": "FURMAN",
+    "mascot": "Paladins",
+    "primaryColor": "#582C83",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/furman.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "ga-southern": {
+    "name": "Georgia Southern",
+    "abbr": "GASO",
+    "mascot": "Eagles",
+    "primaryColor": "#011E41",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/ga-southern.svg",
+      "background": "#011E41"
+    }
+  },
+  "gardner-webb": {
+    "name": "Gardner-Webb",
+    "abbr": "GWEBB",
+    "mascot": "Runnin' Bulldogs",
+    "primaryColor": "#A6192E",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/gardner-webb.svg",
+      "background": "#A6192E"
+    }
+  },
+  "george-mason": {
+    "name": "George Mason",
+    "abbr": "GM",
+    "mascot": "Patriots",
+    "primaryColor": "#006633",
+    "secondaryColor": "#FFCC33",
+    "logo": {
+      "url": "img/logos/george-mason.svg",
+      "background": ""
+    }
+  },
+  "george-washington": {
+    "name": "George Washington",
+    "abbr": "GW",
+    "mascot": "Colonials",
+    "primaryColor": "#E2CB92",
+    "secondaryColor": "#002654",
+    "logo": {
+      "url": "img/logos/george-washington.svg",
+      "background": ""
+    }
+  },
+  "georgetown": {
+    "name": "Georgetown",
+    "abbr": "GTOWN",
+    "mascot": "Hoyas",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#8D817B",
+    "logo": {
+      "url": "img/logos/georgetown.svg",
+      "background": "#041E42"
+    }
+  },
+  "georgia": {
+    "name": "Georgia",
+    "abbr": "UGA",
+    "mascot": "Bulldogs",
+    "primaryColor": "#BA0C2F",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/georgia.svg",
+      "background": "#000000"
+    }
+  },
+  "georgia-st": {
+    "name": "Georgia State",
+    "abbr": "GAST",
+    "mascot": "Panthers",
+    "primaryColor": "#0039A6",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/georgia-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "georgia-tech": {
+    "name": "Georgia Tech",
+    "abbr": "GT",
+    "mascot": "Yellow Jackets",
+    "primaryColor": "#B3A369",
+    "secondaryColor": "#003057",
+    "logo": {
+      "url": "img/logos/georgia-tech.svg",
+      "background": "#003057"
+    }
+  },
+  "gonzaga": {
+    "name": "Gonzaga",
+    "abbr": "GZAG",
+    "mascot": "Zags",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#C8102E",
+    "logo": {
+      "url": "img/logos/gonzaga.svg",
+      "background": "#C8102E"
+    }
+  },
+  "grambling": {
+    "name": "Grambling State",
+    "abbr": "GRST",
+    "mascot": "Tigers",
+    "primaryColor": "#000000",
+    "secondaryColor": "#ECAA00",
+    "logo": {
+      "url": "img/logos/grambling.svg",
+      "background": "#ECAA00"
+    }
+  },
+  "grand-canyon": {
+    "name": "Grand Canyon",
+    "abbr": "GRCYN",
+    "mascot": "Lopes",
+    "primaryColor": "#522398",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/grand-canyon.svg",
+      "background": "#000000"
+    }
+  },
+  "green-bay": {
+    "name": "Green Bay",
+    "alternates": [
+      "UW-Green Bay",
+      "Wisconsin-Green Bay"
+    ],
+    "abbr": "GB",
+    "mascot": "Phoenix",
+    "primaryColor": "#006633",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/green-bay.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "hampton": {
+    "name": "Hampton",
+    "abbr": "HAMP",
+    "mascot": "Pirates",
+    "primaryColor": "#265198",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/hampton.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "hardin-simmons": {
+    "name": "Hardin-Simmons",
+    "abbr": "HSIM",
+    "mascot": "Spirit",
+    "primaryColor": "#581483",
+    "secondaryColor": "#FFC72C",
+    "logo": {
+      "url": "img/logos/hardin-simmons.png",
+      "background": "#FFFFFF"
+    }
+  },
+  "hartford": {
+    "name": "Hartford",
+    "abbr": "HART",
+    "mascot": "Hawks",
+    "primaryColor": "#C02427",
+    "secondaryColor": "#0F0708",
+    "logo": {
+      "url": "img/logos/hartford.svg",
+      "background": "#C02427"
+    }
+  },
+  "harvard": {
+    "name": "Harvard",
+    "abbr": "HRVD",
+    "mascot": "Crimson",
+    "primaryColor": "#A51C30",
+    "secondaryColor": "#1E1E1E",
+    "logo": {
+      "url": "img/logos/harvard.svg",
+      "background": "#1E1E1E"
+    }
+  },
+  "hawaii": {
+    "name": "Hawaii",
+    "abbr": "HI",
+    "mascot": "Warriors",
+    "primaryColor": "#024731",
+    "secondaryColor": "#C8C8C8",
+    "logo": {
+      "url": "img/logos/hawaii.svg",
+      "background": "#024731"
+    }
+  },
+  "high-point": {
+    "name": "High Point",
+    "abbr": "HPU",
+    "mascot": "Panthers",
+    "primaryColor": "#330072",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/high-point.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "hofstra": {
+    "name": "Hofstra",
+    "abbr": "HOF",
+    "mascot": "Pride",
+    "primaryColor": "#FDC82F",
+    "secondaryColor": "#003591",
+    "logo": {
+      "url": "img/logos/hofstra.svg",
+      "background": "#FDC82F"
+    }
+  },
+  "holy-cross": {
+    "name": "Holy Cross",
+    "abbr": "HCRS",
+    "mascot": "Crusaders",
+    "primaryColor": "#602D89",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/holy-cross.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "houston": {
+    "name": "Houston",
+    "abbr": "HOU",
+    "mascot": "Cougars",
+    "primaryColor": "#C8102E",
+    "secondaryColor": "#76232F",
+    "logo": {
+      "url": "img/logos/houston.svg",
+      "background": "#76232F"
+    }
+  },
+  "houston-baptist": {
+    "name": "Houston Baptist",
+    "abbr": "HOUBPT",
+    "mascot": "Huskies",
+    "primaryColor": "#00529C",
+    "secondaryColor": "#F85512",
+    "logo": {
+      "url": "img/logos/houston-baptist.svg",
+      "background": "#00529C"
+    }
+  },
+  "howard": {
+    "name": "Howard",
+    "abbr": "HOWARD",
+    "mascot": "Bison",
+    "primaryColor": "#003A63",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/howard.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "idaho": {
+    "name": "Idaho",
+    "abbr": "IDAHO",
+    "mascot": "Vandals",
+    "primaryColor": "#B3A369",
+    "secondaryColor": "#EAAB00",
+    "logo": {
+      "url": "img/logos/idaho.svg",
+      "background": "#B3A369"
+    }
+  },
+  "idaho-st": {
+    "name": "Idaho State",
+    "abbr": "IDST",
+    "mascot": "Bengals",
+    "primaryColor": "#FF671F",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/idaho-st.svg",
+      "background": "#FF671F"
+    }
+  },
+  "ill-chicago": {
+    "name": "Illinois-Chicago",
+    "abbr": "ILCH",
+    "mascot": "Flames",
+    "primaryColor": "#091F40",
+    "secondaryColor": "#AC1E2D",
+    "logo": {
+      "url": "img/logos/ill-chicago.svg",
+      "background": "FFFFFF"
+    }
+  },
+  "illinois": {
+    "name": "Illinois",
+    "abbr": "IL",
+    "mascot": "Fighting Illini",
+    "primaryColor": "#E84A27",
+    "secondaryColor": "#13294B",
+    "logo": {
+      "url": "img/logos/illinois.svg",
+      "background": "#E84A27"
+    }
+  },
+  "illinois-st": {
+    "name": "Illinois State",
+    "abbr": "ILST",
+    "mascot": "Redbirds",
+    "primaryColor": "#CE1126",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/illinois-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "incarnate-word": {
+    "name": "Incarnate Word",
+    "abbr": "INWD",
+    "mascot": "Cardinals",
+    "primaryColor": "#CB333B",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/incarnate-word.svg",
+      "background": "#CB333B"
+    }
+  },
+  "indiana": {
+    "name": "Indiana",
+    "abbr": "IU",
+    "mascot": "Hoosiers",
+    "primaryColor": "#990000",
+    "secondaryColor": "#EEEDEB",
+    "logo": {
+      "url": "img/logos/indiana.svg",
+      "background": "#EEEDEB"
+    }
+  },
+  "indiana-st": {
+    "name": "Indiana State",
+    "abbr": "INST",
+    "mascot": "Sycamores",
+    "primaryColor": "#0142BC",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/indiana-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "iona": {
+    "name": "Iona",
+    "abbr": "IONA",
+    "mascot": "Gaels",
+    "primaryColor": "#005F2F",
+    "secondaryColor": "#EAAF0F",
+    "logo": {
+      "url": "img/logos/iona.svg",
+      "background": "#EAAF0F"
+    }
+  },
+  "iowa": {
+    "name": "Iowa",
+    "abbr": "IOWA",
+    "mascot": "Hawkeyes",
+    "primaryColor": "#FFCD00",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/iowa.svg",
+      "background": ""
+    }
+  },
+  "iowa-st": {
+    "name": "Iowa State",
+    "abbr": "IOST",
+    "mascot": "Cyclones",
+    "primaryColor": "#C8102E",
+    "secondaryColor": "#F1BE48",
+    "logo": {
+      "url": "img/logos/iowa-st.svg",
+      "background": "#F1BE48"
+    }
+  },
+  "ipfw": {
+    "name": "Purdue Fort Wayne",
+    "abbr": "PURFW",
+    "mascot": "Mastodons",
+    "primaryColor": "#000000",
+    "secondaryColor": "#C28E0E",
+    "logo": {
+      "url": "img/logos/ipfw.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "iupui": {
+    "name": "IUPUI",
+    "abbr": "IUPUI",
+    "mascot": "Jaguars",
+    "primaryColor": "#990000",
+    "secondaryColor": "#F1BE48",
+    "logo": {
+      "url": "img/logos/iupui.svg",
+      "background": "#990000"
+    }
+  },
+  "jackson-st": {
+    "name": "Jackson State",
+    "abbr": "JKST",
+    "mascot": "Tigers",
+    "primaryColor": "#002147",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/jackson-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "jacksonville": {
+    "name": "Jacksonville",
+    "abbr": "JU",
+    "mascot": "Dolphins",
+    "primaryColor": "#004E44",
+    "secondaryColor": "#898A8D",
+    "logo": {
+      "url": "img/logos/jacksonville.svg",
+      "background": "#898A8D"
+    }
+  },
+  "jacksonville-st": {
+    "name": "Jacksonville State",
+    "abbr": "JACKST",
+    "mascot": "Gamecocks",
+    "primaryColor": "#CC0000",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/jacksonville-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "james-madison": {
+    "name": "James Madison",
+    "abbr": "JMU",
+    "mascot": "Dukes",
+    "primaryColor": "#450084",
+    "secondaryColor": "#CBB677",
+    "logo": {
+      "url": "img/logos/james-madison.svg",
+      "background": "#450084"
+    }
+  },
+  "kansas": {
+    "name": "Kansas",
+    "abbr": "KU",
+    "mascot": "Jayhawks",
+    "primaryColor": "#0051BA",
+    "secondaryColor": "#0051BA",
+    "logo": {
+      "url": "img/logos/kansas.svg",
+      "background": "#0051BA"
+    }
+  },
+  "kansas-st": {
+    "name": "Kansas State",
+    "abbr": "KSU",
+    "mascot": "Wildcats",
+    "primaryColor": "#512888",
+    "secondaryColor": "#D1D1D1",
+    "logo": {
+      "url": "img/logos/kansas-st.svg",
+      "background": "#D1D1D1"
+    }
+  },
+  "kennesaw-st": {
+    "name": "Kennesaw State",
+    "abbr": "KENN",
+    "mascot": "Owls",
+    "primaryColor": "#FDBB30",
+    "secondaryColor": "#0B1315",
+    "logo": {
+      "url": "img/logos/kennesaw-st.svg",
+      "background": "#0B1315"
+    }
+  },
+  "kent-st": {
+    "name": "Kent State",
+    "abbr": "KENTST",
+    "mascot": "Golden Flashes",
+    "primaryColor": "#002664",
+    "secondaryColor": "#EFAB00",
+    "logo": {
+      "url": "img/logos/kent-st.svg",
+      "background": "#002664"
+    }
+  },
+  "kentucky": {
+    "name": "Kentucky",
+    "abbr": "UK",
+    "mascot": "Wildcats",
+    "primaryColor": "#0033A0",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/kentucky.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "la-lafayette": {
+    "name": "Louisiana-Lafayette",
+    "alternates": [
+      "Southwest Louisiana",
+      "Louisiana"
+    ],
+    "abbr": "LALF",
+    "mascot": "Ragin' Cajuns",
+    "primaryColor": "#CE181E",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/la-lafayette.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "la-monroe": {
+    "name": "Louisiana-Monroe",
+    "alternates": [
+      "Northeast Louisiana"
+    ],
+    "abbr": "LAMN",
+    "mascot": "Warhawks",
+    "primaryColor": "#800029",
+    "secondaryColor": "#BD955A",
+    "logo": {
+      "url": "img/logos/la-monroe.svg",
+      "background": "#800029"
+    }
+  },
+  "la-salle": {
+    "name": "La Salle",
+    "abbr": "SALLE",
+    "mascot": "Explorers",
+    "primaryColor": "#FFCC00",
+    "secondaryColor": "#003366",
+    "logo": {
+      "url": "img/logos/la-salle.svg",
+      "background": "#003366"
+    }
+  },
+  "lafayette": {
+    "name": "Lafayette",
+    "abbr": "LFYT",
+    "mascot": "Leopards",
+    "primaryColor": "#910029",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/lafayette.svg",
+      "background": "#910029"
+    }
+  },
+  "lamar": {
+    "name": "Lamar",
+    "abbr": "LAMAR",
+    "mascot": "Cardinals",
+    "primaryColor": "#E31937",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/lamar.svg",
+      "background": "#E31937"
+    }
+  },
+  "lehigh": {
+    "name": "Lehigh",
+    "abbr": "LEHIGH",
+    "mascot": "Mountain Hawks",
+    "primaryColor": "#4B2913",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/lehigh.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "liberty": {
+    "name": "Liberty",
+    "abbr": "LIB",
+    "mascot": "Flames",
+    "primaryColor": "#990000",
+    "secondaryColor": "#0A254E",
+    "logo": {
+      "url": "img/logos/liberty.svg",
+      "background": "#0A254E"
+    }
+  },
+  "lipscomb": {
+    "name": "Lipscomb",
+    "abbr": "LPSC",
+    "mascot": "Bisons",
+    "primaryColor": "#331E54",
+    "secondaryColor": "#F4AA00",
+    "logo": {
+      "url": "img/logos/lipscomb.svg",
+      "background": "#F4AA00"
+    }
+  },
+  "long-beach-st": {
+    "name": "Long Beach State",
+    "abbr": "LBSU",
+    "mascot": "Dirtbags",
+    "primaryColor": "#000000",
+    "secondaryColor": "#FFC61E",
+    "logo": {
+      "url": "img/logos/long-beach-st.svg",
+      "background": ""
+    }
+  },
+  "long-island": {
+    "name": "LIU Brooklyn",
+    "alternates": [
+      "LIU-Brooklyn"
+    ],
+    "abbr": "LIUBK",
+    "mascot": "Blackbirds",
+    "primaryColor": "#231F20",
+    "secondaryColor": "#8A8D8F",
+    "logo": {
+      "url": "img/logos/long-island.svg",
+      "background": "#8A8D8F"
+    }
+  },
+  "longwood": {
+    "name": "Longwood",
+    "abbr": "LWOOD",
+    "mascot": "Lancers",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/longwood.svg",
+      "background": "#041E42"
+    }
+  },
+  "louisiana-tech": {
+    "name": "Louisiana Tech",
+    "abbr": "LATECH",
+    "mascot": "Bulldogs",
+    "primaryColor": "#CB333B",
+    "secondaryColor": "#003087",
+    "logo": {
+      "url": "img/logos/louisiana-tech.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "louisville": {
+    "name": "Louisville",
+    "abbr": "UL",
+    "mascot": "Cardinals",
+    "primaryColor": "#AD0000",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/louisville.svg",
+      "background": "#AD0000"
+    }
+  },
+  "loyola-il": {
+    "name": "Loyola (IL)",
+    "alternates": [
+      "Loyola-Chicago"
+    ],
+    "abbr": "LOYOLA",
+    "mascot": "Ramblers",
+    "primaryColor": "#582931",
+    "secondaryColor": "#FDB913",
+    "logo": {
+      "url": "img/logos/loyola-il.svg",
+      "background": "#FDB913"
+    }
+  },
+  "loyola-maryland": {
+    "name": "Loyola (MD)",
+    "abbr": "LOYOLA",
+    "mascot": "Greyhounds",
+    "primaryColor": "#00694E",
+    "secondaryColor": "#CACAC8",
+    "logo": {
+      "url": "img/logos/loyola-maryland.svg",
+      "background": "#00694E"
+    }
+  },
+  "loyola-marymount": {
+    "name": "Loyola Marymount",
+    "abbr": "LYMNT",
+    "mascot": "Lions",
+    "primaryColor": "#7D001E",
+    "secondaryColor": "#002B54",
+    "logo": {
+      "url": "img/logos/loyola-marymount.svg",
+      "background": "#7D001E"
+    }
+  },
+  "loyola-no": {
+    "name": "Loyola (NO)",
+    "alternates": [
+      "Loyola (LA)"
+    ],
+    "abbr": "LONO",
+    "mascot": "Wolf Pack",
+    "primaryColor": "#660000",
+    "secondaryColor": "#F4AA00",
+    "logo": {
+      "url": "img/logos/loyola-no.png",
+      "background": "#F4AA00"
+    }
+  },
+  "lsu": {
+    "name": "LSU",
+    "abbr": "LSU",
+    "mascot": "Tigers",
+    "primaryColor": "#461D7C",
+    "secondaryColor": "#FDD023",
+    "logo": {
+      "url": "img/logos/lsu.svg",
+      "background": "#FDD023"
+    }
+  },
+  "maine": {
+    "name": "Maine",
+    "abbr": "UME",
+    "mascot": "Black Bears",
+    "primaryColor": "#003263",
+    "secondaryColor": "#B0D7FF",
+    "logo": {
+      "url": "img/logos/maine.svg",
+      "background": "#003263"
+    }
+  },
+  "manhattan": {
+    "name": "Manhattan",
+    "abbr": "MHAT",
+    "mascot": "Jaspers",
+    "primaryColor": "#00703C",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/manhattan.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "marist": {
+    "name": "Marist",
+    "abbr": "MARIST",
+    "mascot": "Red Foxes",
+    "primaryColor": "#C8102E",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/marist.svg",
+      "background": "#C8102E"
+    }
+  },
+  "marquette": {
+    "name": "Marquette",
+    "abbr": "MARQ",
+    "mascot": "Golden Eagles",
+    "primaryColor": "#003366",
+    "secondaryColor": "#FFCC00",
+    "logo": {
+      "url": "img/logos/marquette.svg",
+      "background": "#FFCC00"
+    }
+  },
+  "marshall": {
+    "name": "Marshall",
+    "abbr": "MARS",
+    "mascot": "Thundering Herd",
+    "primaryColor": "#00B140",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/marshall.svg",
+      "background": "#00B140"
+    }
+  },
+  "maryland": {
+    "name": "Maryland",
+    "abbr": "MD",
+    "mascot": "Terrapins",
+    "primaryColor": "#E03A3E",
+    "secondaryColor": "#FFD520",
+    "logo": {
+      "url": "img/logos/maryland.svg",
+      "background": "#E03A3E"
+    }
+  },
+  "massachusetts": {
+    "name": "Massachusetts",
+    "alternates": [
+      "UMass"
+    ],
+    "abbr": "UMASS",
+    "mascot": "Minutemen",
+    "primaryColor": "#971B2F",
+    "secondaryColor": "#572932",
+    "logo": {
+      "url": "img/logos/massachusetts.svg",
+      "background": "#971B2F"
+    }
+  },
+  "mcneese-st": {
+    "name": "McNeese State",
+    "abbr": "MCNST",
+    "mascot": "Cowboys",
+    "primaryColor": "#00529B",
+    "secondaryColor": "#FFD204",
+    "logo": {
+      "url": "img/logos/mcneese-st.svg",
+      "background": "#FFD204"
+    }
+  },
+  "md-east-shore": {
+    "name": "Maryland-Eastern Shore",
+    "abbr": "MDES",
+    "mascot": "Hawks",
+    "primaryColor": "#822433",
+    "secondaryColor": "#8B8D8E",
+    "logo": {
+      "url": "img/logos/md-east-shore.svg",
+      "background": "#8B8D8E"
+    }
+  },
+  "memphis": {
+    "name": "Memphis",
+    "alternates": [
+      "Memphis State"
+    ],
+    "abbr": "MEM",
+    "mascot": "Tigers",
+    "primaryColor": "#003087",
+    "secondaryColor": "#898D8D",
+    "logo": {
+      "url": "img/logos/memphis.svg",
+      "background": "#003087"
+    }
+  },
+  "mercer": {
+    "name": "Mercer",
+    "abbr": "MERCER",
+    "mascot": "Bears",
+    "primaryColor": "#CB5307",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/mercer.svg",
+      "background": "#000000"
+    }
+  },
+  "miami-fl": {
+    "name": "Miami (FL)",
+    "abbr": "MIAMI",
+    "mascot": "Hurricanes",
+    "primaryColor": "#F47321",
+    "secondaryColor": "#005030",
+    "logo": {
+      "url": "img/logos/miami-fl.svg",
+      "background": "#005030"
+    }
+  },
+  "miami-oh": {
+    "name": "Miami (OH)",
+    "alternates": [
+      "Miami (Ohio)"
+    ],
+    "abbr": "MIOH",
+    "mascot": "RedHawks",
+    "primaryColor": "#B61E2E",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/miami-oh.svg",
+      "background": "#B61E2E"
+    }
+  },
+  "michigan": {
+    "name": "Michigan",
+    "abbr": "MICH",
+    "mascot": "Wolverines",
+    "primaryColor": "#00274C",
+    "secondaryColor": "#FFCB05",
+    "logo": {
+      "url": "img/logos/michigan.svg",
+      "background": "#00274C"
+    }
+  },
+  "michigan-st": {
+    "name": "Michigan State",
+    "abbr": "MSU",
+    "mascot": "Spartans",
+    "primaryColor": "#18453B",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/michigan-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "middle-tenn": {
+    "name": "Middle Tennessee",
+    "alternates": [
+      "Middle Tennessee State"
+    ],
+    "abbr": "MTSU",
+    "mascot": "Blue Raiders",
+    "primaryColor": "#0066CC",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/middle-tenn.svg",
+      "background": "#0066CC"
+    }
+  },
+  "milwaukee": {
+    "name": "Milwaukee",
+    "alternates": [
+      "UW-Milwaukee"
+    ],
+    "abbr": "MIL",
+    "mascot": "Panthers",
+    "primaryColor": "#000000",
+    "secondaryColor": "#FFBD00",
+    "logo": {
+      "url": "img/logos/milwaukee.svg",
+      "background": "#FFBD00"
+    }
+  },
+  "minnesota": {
+    "name": "Minnesota",
+    "abbr": "MINN",
+    "mascot": "Golden Gophers",
+    "primaryColor": "#7A0019",
+    "secondaryColor": "#FFCC33",
+    "logo": {
+      "url": "img/logos/minnesota.svg",
+      "background": "#7A0019"
+    }
+  },
+  "mississippi-st": {
+    "name": "Mississippi State",
+    "abbr": "MSST",
+    "mascot": "Bulldogs",
+    "primaryColor": "#660000",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/mississippi-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "mississippi-val": {
+    "name": "Mississippi Valley State",
+    "alternates": [
+      "Miss Valley St."
+    ],
+    "abbr": "MSVST",
+    "mascot": "Delta Devils",
+    "primaryColor": "#046A38",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/mississippi-val.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "missouri": {
+    "name": "Missouri",
+    "abbr": "MISSOU",
+    "mascot": "Tigers",
+    "primaryColor": "#C69214",
+    "secondaryColor": "#2C2A29",
+    "logo": {
+      "url": "img/logos/missouri.svg",
+      "background": "#2C2A29"
+    }
+  },
+  "missouri-st": {
+    "name": "Missouri State",
+    "alternates": [
+      "SW Missouri St.",
+      "Southwest Missouri State",
+      "SW Missouri State"
+    ],
+    "abbr": "MOST",
+    "mascot": "Bears",
+    "primaryColor": "#5E0009",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/missouri-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "monmouth": {
+    "name": "Monmouth",
+    "abbr": "MONM",
+    "mascot": "Hawks",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/monmouth.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "montana": {
+    "name": "Montana",
+    "abbr": "MONT",
+    "mascot": "Grizzlies",
+    "primaryColor": "#660033",
+    "secondaryColor": "#999999",
+    "logo": {
+      "url": "img/logos/montana.svg",
+      "background": "#999999"
+    }
+  },
+  "montana-st": {
+    "name": "Montana State",
+    "abbr": "MTST",
+    "mascot": "Bobcats",
+    "primaryColor": "#00205B",
+    "secondaryColor": "#B9975B",
+    "logo": {
+      "url": "img/logos/montana-st.svg",
+      "background": "#B9975B"
+    }
+  },
+  "morehead-st": {
+    "name": "Morehead State",
+    "abbr": "MOREST",
+    "mascot": "Eagles",
+    "primaryColor": "#005EB8",
+    "secondaryColor": "#FFCF00",
+    "logo": {
+      "url": "img/logos/morehead-st.svg",
+      "background": "#FFCF00"
+    }
+  },
+  "morgan-st": {
+    "name": "Morgan State",
+    "abbr": "MORGST",
+    "mascot": "Bears",
+    "primaryColor": "#8B8D8E",
+    "secondaryColor": "#FF4E00",
+    "logo": {
+      "url": "img/logos/morgan-st.svg",
+      "background": "#8B8D8E"
+    }
+  },
+  "mt-st-marys": {
+    "name": "Mount St. Mary's",
+    "abbr": "MTSTMY",
+    "mascot": "Mountaineers",
+    "primaryColor": "#002F6C",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/mt-st-marys.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "murray-st": {
+    "name": "Murray State",
+    "abbr": "MURRST",
+    "mascot": "Racers",
+    "primaryColor": "#002144",
+    "secondaryColor": "#ECAC00",
+    "logo": {
+      "url": "img/logos/murray-st.svg",
+      "background": "#002144"
+    }
+  },
+  "navy": {
+    "name": "Navy",
+    "abbr": "NAVY",
+    "mascot": "Midshipmen",
+    "primaryColor": "#000048",
+    "secondaryColor": "#B4A87E",
+    "logo": {
+      "url": "img/logos/navy.svg",
+      "background": "#B4A87E"
+    }
+  },
+  "nc-at": {
+    "name": "North Carolina A&T",
+    "abbr": "NCA&T",
+    "mascot": "Aggies",
+    "primaryColor": "#004684",
+    "secondaryColor": "#FDB927",
+    "logo": {
+      "url": "img/logos/nc-at.svg",
+      "background": "#FDB927"
+    }
+  },
+  "nc-central": {
+    "name": "North Carolina Central",
+    "alternates": [
+      "NC Central"
+    ],
+    "abbr": "NCCEN",
+    "mascot": "Eagles",
+    "primaryColor": "#862633",
+    "secondaryColor": "#898D8D",
+    "logo": {
+      "url": "img/logos/nc-central.svg",
+      "background": "#862633"
+    }
+  },
+  "neb-omaha": {
+    "name": "Nebraska-Omaha",
+    "abbr": "NEBOM",
+    "mascot": "Mavericks",
+    "primaryColor": "#000000",
+    "secondaryColor": "#D71920",
+    "logo": {
+      "url": "img/logos/neb-omaha.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "nebraska": {
+    "name": "Nebraska",
+    "abbr": "NBRK",
+    "mascot": "Cornhuskers",
+    "primaryColor": "#E41C38",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/nebraska.svg",
+      "background": "#000000"
+    }
+  },
+  "nevada": {
+    "name": "Nevada",
+    "abbr": "NEV",
+    "mascot": "Wolf Pack",
+    "primaryColor": "#999999",
+    "secondaryColor": "#003366",
+    "logo": {
+      "url": "img/logos/nevada.svg",
+      "background": "#999999"
+    }
+  },
+  "new-hampshire": {
+    "name": "New Hampshire",
+    "abbr": "UNH",
+    "mascot": "Wildcats",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#BBBCBC",
+    "logo": {
+      "url": "img/logos/new-hampshire.svg",
+      "background": "#041E42"
+    }
+  },
+  "new-mexico": {
+    "name": "New Mexico",
+    "abbr": "UNM",
+    "mascot": "Lobos",
+    "primaryColor": "#BA0C2F",
+    "secondaryColor": "#A7A8AA",
+    "logo": {
+      "url": "img/logos/new-mexico.svg",
+      "background": "#BA0C2F"
+    }
+  },
+  "new-mexico-st": {
+    "name": "New Mexico State",
+    "abbr": "NMST",
+    "mascot": "Aggies",
+    "primaryColor": "#891216",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/new-mexico-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "new-orleans": {
+    "name": "New Orleans",
+    "abbr": "UNO",
+    "mascot": "Privateers",
+    "primaryColor": "#005CA6",
+    "secondaryColor": "#A3A9AD",
+    "logo": {
+      "url": "img/logos/new-orleans.svg",
+      "background": "#005CA6"
+    }
+  },
+  "niagara": {
+    "name": "Niagara",
+    "abbr": "NIAGRA",
+    "mascot": "Purple Eagles",
+    "primaryColor": "#582C83",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/niagara.svg",
+      "background": "#582C83"
+    }
+  },
+  "nicholls-st": {
+    "name": "Nicholls State",
+    "abbr": "NICHST",
+    "mascot": "Colonels",
+    "primaryColor": "#C41230",
+    "secondaryColor": "#B2B2B2",
+    "logo": {
+      "url": "img/logos/nicholls-st.svg",
+      "background": "#C41230"
+    }
+  },
+  "njit": {
+    "name": "N.J.I.T.",
+    "abbr": "NJIT",
+    "mascot": "Highlanders",
+    "primaryColor": "#D22630",
+    "secondaryColor": "#071D49",
+    "logo": {
+      "url": "img/logos/njit.svg",
+      "background": "#D22630"
+    }
+  },
+  "norfolk-st": {
+    "name": "Norfolk State",
+    "abbr": "NORST",
+    "mascot": "Spartans",
+    "primaryColor": "#007A53",
+    "secondaryColor": "#F2A900",
+    "logo": {
+      "url": "img/logos/norfolk-st.svg",
+      "background": "#F2A900"
+    }
+  },
+  "north-ala": {
+    "name": "North Alabama",
+    "abbr": "UNA",
+    "mascot": "Lions",
+    "primaryColor": "#46166B",
+    "secondaryColor": "#DB9F11",
+    "logo": {
+      "url": "img/logos/north-ala.svg",
+      "background": "#46166B"
+    }
+  },
+  "north-carolina": {
+    "name": "North Carolina",
+    "abbr": "UNC",
+    "mascot": "Tar Heels",
+    "primaryColor": "#7BAFD4",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/north-carolina.svg",
+      "background": "#7BAFD4"
+    }
+  },
+  "north-carolina-st": {
+    "name": "North Carolina State",
+    "alternates": [
+      "NC State"
+    ],
+    "abbr": "NCST",
+    "mascot": "Wolfpack",
+    "primaryColor": "#CC0000",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/north-carolina-st.svg",
+      "background": "#CC0000"
+    }
+  },
+  "north-dakota": {
+    "name": "North Dakota",
+    "abbr": "UND",
+    "mascot": "Fighting Hawks",
+    "primaryColor": "#009A44",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/north-dakota.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "north-dakota-st": {
+    "name": "North Dakota State",
+    "abbr": "NDST",
+    "mascot": "Bison",
+    "primaryColor": "#FFC82E",
+    "secondaryColor": "#005643",
+    "logo": {
+      "url": "img/logos/north-dakota-st.svg",
+      "background": "#005643"
+    }
+  },
+  "north-florida": {
+    "name": "North Florida",
+    "abbr": "NFLA",
+    "mascot": "Ospreys",
+    "primaryColor": "#00246B",
+    "secondaryColor": "#D9D9D9",
+    "logo": {
+      "url": "img/logos/north-florida.svg",
+      "background": "#D9D9D9"
+    }
+  },
+  "north-texas": {
+    "name": "North Texas",
+    "alternates": [
+      "North Texas State"
+    ],
+    "abbr": "NTEX",
+    "mascot": "Mean Green",
+    "primaryColor": "#00853E",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/north-texas.svg",
+      "background": "#00853E"
+    }
+  },
+  "northeastern": {
+    "name": "Northeastern",
+    "abbr": "NE",
+    "mascot": "Huskies",
+    "primaryColor": "#E50000",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/northeastern.svg",
+      "background": "#000000"
+    }
+  },
+  "northern-ariz": {
+    "name": "Northern Arizona",
+    "abbr": "NAU",
+    "mascot": "Lumberjacks",
+    "primaryColor": "#003466",
+    "secondaryColor": "#FFD200",
+    "logo": {
+      "url": "img/logos/northern-ariz.svg",
+      "background": "#FBB040"
+    }
+  },
+  "northern-colo": {
+    "name": "Northern Colorado",
+    "abbr": "NCO",
+    "mascot": "Bears",
+    "primaryColor": "#013C65",
+    "secondaryColor": "#F6B000",
+    "logo": {
+      "url": "img/logos/northern-colo.svg",
+      "background": "#013C65"
+    }
+  },
+  "northern-ill": {
+    "name": "Northern Illinois",
+    "abbr": "NIU",
+    "mascot": "Huskies",
+    "primaryColor": "#046A38",
+    "secondaryColor": "#27251F",
+    "logo": {
+      "url": "img/logos/northern-ill.svg",
+      "background": "#046A38"
+    }
+  },
+  "northern-ky": {
+    "name": "Northern Kentucky",
+    "abbr": "NKU",
+    "mascot": "Norse",
+    "primaryColor": "#FFC72C",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/northern-ky.svg",
+      "background": "#FFC72C"
+    }
+  },
+  "northwestern": {
+    "name": "Northwestern",
+    "abbr": "NW",
+    "mascot": "Wildcats",
+    "primaryColor": "#4E2A84",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/northwestern.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "northwestern-st": {
+    "name": "Northwestern State",
+    "abbr": "NWST",
+    "mascot": "Demons",
+    "primaryColor": "#492F92",
+    "secondaryColor": "#F78426",
+    "logo": {
+      "url": "img/logos/northwestern-st.svg",
+      "background": "#F78426"
+    }
+  },
+  "notre-dame": {
+    "name": "Notre Dame",
+    "abbr": "ND",
+    "mascot": "Fighting Irish",
+    "primaryColor": "#0C2340",
+    "secondaryColor": "#C99700",
+    "logo": {
+      "url": "img/logos/notre-dame.svg",
+      "background": "#C99700"
+    }
+  },
+  "nyu": {
+    "name": "NYU",
+    "abbr": "NYU",
+    "mascot": "Violets",
+    "primaryColor": "#57068C",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/nyu.png",
+      "background": "#57068C"
+    }
+  },
+  "oakland": {
+    "name": "Oakland",
+    "abbr": "OAK",
+    "mascot": "Golden Grizzlies",
+    "primaryColor": "#0000000",
+    "secondaryColor": "#B59A57",
+    "logo": {
+      "url": "img/logos/oakland.svg",
+      "background": "#B59A57"
+    }
+  },
+  "ohio": {
+    "name": "Ohio",
+    "abbr": "OHIO",
+    "mascot": "Bobcats",
+    "primaryColor": "#00694E",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/ohio.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "ohio-st": {
+    "name": "Ohio State",
+    "abbr": "OSU",
+    "mascot": "Buckeyes",
+    "primaryColor": "#BB0000",
+    "secondaryColor": "#666666",
+    "logo": {
+      "url": "img/logos/ohio-st.svg",
+      "background": "#BB0000"
+    }
+  },
+  "oklahoma": {
+    "name": "Oklahoma",
+    "abbr": "OU",
+    "mascot": "Sooners",
+    "primaryColor": "#841617",
+    "secondaryColor": "#FDF9D8",
+    "logo": {
+      "url": "img/logos/oklahoma.svg",
+      "background": "#FDF9D8"
+    }
+  },
+  "oklahoma-city": {
+    "name": "Oklahoma City",
+    "abbr": "OKCU",
+    "mascot": "Stars",
+    "primaryColor": "#1F4B7F",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/oklahoma-city.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "oklahoma-st": {
+    "name": "Oklahoma State",
+    "abbr": "OKST",
+    "mascot": "Cowboys",
+    "primaryColor": "#FF7300",
+    "secondaryColor": "#FF9900",
+    "logo": {
+      "url": "img/logos/oklahoma-st.svg",
+      "background": "#FF9900"
+    }
+  },
+  "old-dominion": {
+    "name": "Old Dominion",
+    "abbr": "ODU",
+    "mascot": "Monarchs",
+    "primaryColor": "#00325B",
+    "secondaryColor": "#A1D1F1",
+    "logo": {
+      "url": "img/logos/old-dominion.svg",
+      "background": "#A1D1F1"
+    }
+  },
+  "ole-miss": {
+    "name": "Ole Miss",
+    "alternates": [
+      "Mississippi"
+    ],
+    "abbr": "MISS",
+    "mascot": "Rebels",
+    "primaryColor": "#CE1126",
+    "secondaryColor": "#14213D",
+    "logo": {
+      "url": "img/logos/ole-miss.svg",
+      "background": "#CE1126"
+    }
+  },
+  "oral-roberts": {
+    "name": "Oral Roberts",
+    "abbr": "ORLRB",
+    "mascot": "Golden Eagles",
+    "primaryColor": "#002F60",
+    "secondaryColor": "#CFB67C",
+    "logo": {
+      "url": "img/logos/oral-roberts.svg",
+      "background": "#CFB67C"
+    }
+  },
+  "oregon": {
+    "name": "Oregon",
+    "abbr": "ORE",
+    "mascot": "Ducks",
+    "primaryColor": "#004F39",
+    "secondaryColor": "#FBE021",
+    "logo": {
+      "url": "img/logos/oregon.svg",
+      "background": "#FBE021"
+    }
+  },
+  "oregon-st": {
+    "name": "Oregon State",
+    "abbr": "ORST",
+    "mascot": "Beavers",
+    "primaryColor": "#DC4405",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/oregon-st.svg",
+      "background": "#DC4405"
+    }
+  },
+  "pacific": {
+    "name": "Pacific",
+    "abbr": "PACIF",
+    "mascot": "Tigers",
+    "primaryColor": "#F47920",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/pacific.svg",
+      "background": "#F47920"
+    }
+  },
+  "penn": {
+    "name": "Pennsylvania",
+    "abbr": "PENN",
+    "mascot": "Quakers",
+    "primaryColor": "#990000",
+    "secondaryColor": "#011F5B",
+    "logo": {
+      "url": "img/logos/penn.svg",
+      "background": "#990000"
+    }
+  },
+  "penn-st": {
+    "name": "Penn State",
+    "abbr": "PSU",
+    "mascot": "Nittany Lions",
+    "primaryColor": "#093162",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/penn-st.svg",
+      "background": "#093162"
+    }
+  },
+  "pepperdine": {
+    "name": "Pepperdine",
+    "abbr": "PEPP",
+    "mascot": "Waves",
+    "primaryColor": "#00205C",
+    "secondaryColor": "#EE7624",
+    "logo": {
+      "url": "img/logos/pepperdine.svg",
+      "background": "#00205C"
+    }
+  },
+  "pittsburgh": {
+    "name": "Pittsburgh",
+    "alternates": [
+      "Pitt"
+    ],
+    "abbr": "PITT",
+    "mascot": "Panthers",
+    "primaryColor": "#1C2957",
+    "secondaryColor": "#CDB87D",
+    "logo": {
+      "url": "img/logos/pittsburgh.svg",
+      "background": "#CDB87D"
+    }
+  },
+  "portland": {
+    "name": "Portland",
+    "abbr": "PORT",
+    "mascot": "Pilots",
+    "primaryColor": "#1E1656",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/portland.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "portland-st": {
+    "name": "Portland State",
+    "abbr": "PORTST",
+    "mascot": "Vikings",
+    "primaryColor": "#154734",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/portland-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "prairie-view": {
+    "name": "Prairie View A&M",
+    "abbr": "PRVW",
+    "mascot": "Panthers",
+    "primaryColor": "#330066",
+    "secondaryColor": "#FFCC33",
+    "logo": {
+      "url": "img/logos/prairie-view.svg",
+      "background": "#FFCC33"
+    }
+  },
+  "presbyterian": {
+    "name": "Presbyterian",
+    "abbr": "PRESB",
+    "mascot": "Blue Hose",
+    "primaryColor": "#0060A9",
+    "secondaryColor": "#9D2235",
+    "logo": {
+      "url": "img/logos/presbyterian.svg",
+      "background": "#0060A9"
+    }
+  },
+  "princeton": {
+    "name": "Princeton",
+    "abbr": "PRINC",
+    "mascot": "Tigers",
+    "primaryColor": "#FF6000",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/princeton.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "providence": {
+    "name": "Providence",
+    "abbr": "PROV",
+    "mascot": "Friars",
+    "primaryColor": "#8A8D8F",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/providence.svg",
+      "background": "#8A8D8F"
+    }
+  },
+  "purdue": {
+    "name": "Purdue",
+    "abbr": "PUR",
+    "mascot": "Boilermakers",
+    "primaryColor": "#CEB888",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/purdue.svg",
+      "background": "#CEB888"
+    }
+  },
+  "quinnipiac": {
+    "name": "Quinnipiac",
+    "abbr": "QUINN",
+    "mascot": "Bobcats",
+    "primaryColor": "#0A2240",
+    "secondaryColor": "#FFB819",
+    "logo": {
+      "url": "img/logos/quinnipiac.svg",
+      "background": "#FFB819"
+    }
+  },
+  "radford": {
+    "name": "Radford",
+    "abbr": "RAD",
+    "mascot": "Highlanders",
+    "primaryColor": "#C2011B",
+    "secondaryColor": "#808285",
+    "logo": {
+      "url": "img/logos/radford.svg",
+      "background": "#C2011B"
+    }
+  },
+  "rhode-island": {
+    "name": "Rhode Island",
+    "abbr": "URI",
+    "mascot": "Rams",
+    "primaryColor": "#68ABE8",
+    "secondaryColor": "#002147",
+    "logo": {
+      "url": "img/logos/rhode-island.svg",
+      "background": "#68ABE8"
+    },
+    "conference": ""
+  },
+  "rice": {
+    "name": "Rice",
+    "abbr": "RICE",
+    "mascot": "Owls",
+    "primaryColor": "#00205B",
+    "secondaryColor": "#C1C6C8",
+    "logo": {
+      "url": "img/logos/rice.svg",
+      "background": "#C1C6C8"
+    }
+  },
+  "richmond": {
+    "name": "Richmond",
+    "abbr": "RICH",
+    "mascot": "Spiders",
+    "primaryColor": "#000066",
+    "secondaryColor": "#990000",
+    "logo": {
+      "url": "img/logos/richmond.svg",
+      "background": "#000066"
+    }
+  },
+  "rider": {
+    "name": "Rider",
+    "abbr": "RIDER",
+    "mascot": "Broncs",
+    "primaryColor": "#981E32",
+    "secondaryColor": "#6C6F70",
+    "logo": {
+      "url": "img/logos/rider.svg",
+      "background": "#6C6F70"
+    }
+  },
+  "robert-morris": {
+    "name": "Robert Morris",
+    "abbr": "ROBMR",
+    "mascot": "Colonials",
+    "primaryColor": "#14234B",
+    "secondaryColor": "#A6192E",
+    "logo": {
+      "url": "img/logos/robert-morris.svg",
+      "background": "#A6192E"
+    }
+  },
+  "rutgers": {
+    "name": "Rutgers",
+    "abbr": "RUTG",
+    "mascot": "Scarlet Knights",
+    "primaryColor": "#CC0033",
+    "secondaryColor": "#5F6A72",
+    "logo": {
+      "url": "img/logos/rutgers.svg",
+      "background": "#5F6A72"
+    }
+  },
+  "sacramento-st": {
+    "name": "Sacramento State",
+    "abbr": "SACST",
+    "mascot": "Hornets",
+    "primaryColor": "#043927",
+    "secondaryColor": "#C4B581",
+    "logo": {
+      "url": "img/logos/sacramento-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "sacred-heart": {
+    "name": "Sacred Heart",
+    "abbr": "SHU",
+    "mascot": "Pioneers",
+    "primaryColor": "#CD1041",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/sacred-heart.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "saint-josephs": {
+    "name": "Saint Joseph's",
+    "alternates": [
+      "St. Joseph's"
+    ],
+    "abbr": "SJU",
+    "mascot": "Hawks",
+    "primaryColor": "#9E1B32",
+    "secondaryColor": "#6C6F70",
+    "logo": {
+      "url": "img/logos/saint-josephs.svg",
+      "background": "#9E1B32"
+    }
+  },
+  "saint-louis": {
+    "name": "Saint Louis",
+    "alternates": [
+      "St. Louis"
+    ],
+    "abbr": "STLS",
+    "mascot": "Billikens",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#C8C9C7",
+    "logo": {
+      "url": "img/logos/saint-louis.svg",
+      "background": "#C8C9C7"
+    }
+  },
+  "sam-houston-st": {
+    "name": "Sam Houston State",
+    "abbr": "SAMST",
+    "mascot": "Bearkats",
+    "primaryColor": "#F78E1E",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/sam-houston-st.svg",
+      "background": "#F78E1E"
+    }
+  },
+  "samford": {
+    "name": "Samford",
+    "abbr": "SAM",
+    "mascot": "Bulldogs",
+    "primaryColor": "#C4161D",
+    "secondaryColor": "#002649",
+    "logo": {
+      "url": "img/logos/samford.svg",
+      "background": "#C4161D"
+    }
+  },
+  "san-diego": {
+    "name": "San Diego",
+    "abbr": "SD",
+    "mascot": "Toreros",
+    "primaryColor": "#75BEE9",
+    "secondaryColor": "#003B70",
+    "logo": {
+      "url": "img/logos/san-diego.svg",
+      "background": "#75BEE9"
+    }
+  },
+  "san-diego-st": {
+    "name": "San Diego State",
+    "abbr": "SDSU",
+    "mascot": "Aztecs",
+    "primaryColor": "#C41230",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/san-diego-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "san-francisco": {
+    "name": "San Francisco",
+    "abbr": "SANFRN",
+    "mascot": "Dons",
+    "primaryColor": "#00543C",
+    "secondaryColor": "#FDBB30",
+    "logo": {
+      "url": "img/logos/san-francisco.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "san-jose-st": {
+    "name": "San Jose State",
+    "abbr": "SJST",
+    "mascot": "Spartans",
+    "primaryColor": "#FDBF5C",
+    "secondaryColor": "#005298",
+    "logo": {
+      "url": "img/logos/san-jose-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "santa-clara": {
+    "name": "Santa Clara",
+    "abbr": "SNTCLA",
+    "mascot": "Broncos",
+    "primaryColor": "#862633",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/santa-clara.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "savannah-st": {
+    "name": "Savannah State",
+    "abbr": "SAVST",
+    "mascot": "Tigers",
+    "primaryColor": "#F24D17",
+    "secondaryColor": "#002294",
+    "logo": {
+      "url": "img/logos/savannah-st.svg",
+      "background": "#F24D17"
+    }
+  },
+  "seattle": {
+    "name": "Seattle",
+    "abbr": "SEATTL",
+    "mascot": "Redhawks",
+    "primaryColor": "#AA0000",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/seattle.svg",
+      "background": "#AA0000"
+    }
+  },
+  "seton-hall": {
+    "name": "Seton Hall",
+    "abbr": "SETON",
+    "mascot": "Pirates",
+    "primaryColor": "#004488",
+    "secondaryColor": "#A2AAAD",
+    "logo": {
+      "url": "img/logos/seton-hall.svg",
+      "background": "#004488"
+    }
+  },
+  "siena": {
+    "name": "Siena",
+    "abbr": "SIENNA",
+    "mascot": "Saints",
+    "primaryColor": "#006747",
+    "secondaryColor": "#FFC20F",
+    "logo": {
+      "url": "img/logos/siena.svg",
+      "background": "#006747"
+    }
+  },
+  "siu-edwardsville": {
+    "name": "SIU-Edwardsville",
+    "abbr": "SIUED",
+    "mascot": "Cougars",
+    "primaryColor": "#CC0000",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/siu-edwardsville.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "smu": {
+    "name": "Southern Methodist",
+    "abbr": "SMU",
+    "mascot": "Mustangs",
+    "primaryColor": "#CC0035",
+    "secondaryColor": "#354CA1",
+    "logo": {
+      "url": "img/logos/smu.svg",
+      "background": "#354CA1"
+    }
+  },
+  "south-ala": {
+    "name": "South Alabama",
+    "abbr": "SOAB",
+    "mascot": "Jaguars",
+    "primaryColor": "#BF0D3E",
+    "secondaryColor": "#00205B",
+    "logo": {
+      "url": "img/logos/south-ala.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "south-carolina": {
+    "name": "South Carolina",
+    "abbr": "SCAR",
+    "mascot": "Gamecocks",
+    "primaryColor": "#73000A",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/south-carolina.svg",
+      "background": "#000000"
+    }
+  },
+  "south-carolina-st": {
+    "name": "South Carolina State",
+    "alternates": [
+      "South Carolina St"
+    ],
+    "abbr": "SCST",
+    "mascot": "Bulldogs",
+    "primaryColor": "#841A2B",
+    "secondaryColor": "#1E4692",
+    "logo": {
+      "url": "img/logos/south-carolina-st.svg",
+      "background": "#841A2B"
+    }
+  },
+  "south-dakota": {
+    "name": "South Dakota",
+    "abbr": "USD",
+    "mascot": "Coyotes",
+    "primaryColor": "#AD0000",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/south-dakota.svg",
+      "background": "#AD0000"
+    }
+  },
+  "south-dakota-st": {
+    "name": "South Dakota State",
+    "abbr": "SDST",
+    "mascot": "Jackrabbits",
+    "primaryColor": "#FFD100",
+    "secondaryColor": "#0032A0",
+    "logo": {
+      "url": "img/logos/south-dakota-st.svg",
+      "background": "#FFD100"
+    }
+  },
+  "south-fla": {
+    "name": "South Florida",
+    "abbr": "USF",
+    "mascot": "Bulls",
+    "primaryColor": "#006747",
+    "secondaryColor": "#CFC493",
+    "logo": {
+      "url": "img/logos/south-fla.svg",
+      "background": "#006747"
+    }
+  },
+  "southeast-mo-st": {
+    "name": "Southeast Missouri State",
+    "alternates": [
+      "Southeast Missouri St."
+    ],
+    "abbr": "SEMOST",
+    "mascot": "Redhawks",
+    "primaryColor": "#C8102E",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/southeast-mo-st.svg",
+      "background": "#C8102E"
+    }
+  },
+  "southeastern-la": {
+    "name": "Southeastern Louisiana",
+    "abbr": "SELA",
+    "mascot": "Lions",
+    "primaryColor": "#006341",
+    "secondaryColor": "#EAAA00",
+    "logo": {
+      "url": "img/logos/southeastern-la.svg",
+      "background": "#006341"
+    }
+  },
+  "southern-california": {
+    "name": "USC",
+    "abbr": "USC",
+    "mascot": "Trojans",
+    "primaryColor": "#9D2235",
+    "secondaryColor": "#FFC72C",
+    "logo": {
+      "url": "img/logos/southern-california.svg",
+      "background": "#9D2235"
+    }
+  },
+  "southern-ill": {
+    "name": "Southern Illinois",
+    "abbr": "SIL",
+    "mascot": "Salukis",
+    "primaryColor": "#5E0009",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/southern-ill.svg",
+      "background": "#5E0009"
+    }
+  },
+  "southern-miss": {
+    "name": "Southern Miss",
+    "abbr": "SMISS",
+    "mascot": "Golden Eagles",
+    "primaryColor": "#000000",
+    "secondaryColor": "#FFD046",
+    "logo": {
+      "url": "img/logos/southern-miss.svg",
+      "background": "#FFD046"
+    }
+  },
+  "southern-u": {
+    "name": "Southern University",
+    "alternates": [
+      "Southern"
+    ],
+    "abbr": "SOUTRN",
+    "mascot": "Jaguars",
+    "primaryColor": "#69B3E7",
+    "secondaryColor": "#FFC72C",
+    "logo": {
+      "url": "img/logos/southern-u.svg",
+      "background": "#FFC72C"
+    }
+  },
+  "southern-utah": {
+    "name": "Southern Utah",
+    "abbr": "SUTAH",
+    "mascot": "Thunderbirds",
+    "primaryColor": "#C41425",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/southern-utah.svg",
+      "background": "#000000"
+    }
+  },
+  "st-bonaventure": {
+    "name": "St. Bonaventure",
+    "abbr": "STBN",
+    "mascot": "Bonnies",
+    "primaryColor": "#54261A",
+    "secondaryColor": "#FDB726",
+    "logo": {
+      "url": "img/logos/st-bonaventure.svg",
+      "background": "#54261A"
+    }
+  },
+  "st-francis-ny": {
+    "name": "St. Francis (BKN)",
+    "abbr": "STFRBK",
+    "mascot": "Terriers",
+    "primaryColor": "#0038A8",
+    "secondaryColor": "#CE1126",
+    "logo": {
+      "url": "img/logos/st-francis-ny.svg",
+      "background": "#CE1126"
+    }
+  },
+  "st-francis-pa": {
+    "name": "St. Francis (PA)",
+    "alternates": [
+      "Saint Francis (PA)"
+    ],
+    "abbr": "STFRPA",
+    "mascot": "Red Flash",
+    "primaryColor": "#BD1F25",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/st-francis-pa.svg",
+      "background": "#BD1F25"
+    }
+  },
+  "st-johns-ny": {
+    "name": "St. John's",
+    "alternates": [
+      "St John's",
+      "St. John's (NY)"
+    ],
+    "abbr": "SJU",
+    "mascot": "Red Storm",
+    "primaryColor": "#BA0C2F",
+    "secondaryColor": "#041C2C",
+    "logo": {
+      "url": "img/logos/st-johns-ny.svg",
+      "background": "#BA0C2F"
+    }
+  },
+  "st-marys-ca": {
+    "name": "Saint Mary's",
+    "alternates": [
+      "St. Mary's"
+    ],
+    "abbr": "STMRY",
+    "mascot": "Gaels",
+    "primaryColor": "#06315B",
+    "secondaryColor": "#D80024",
+    "logo": {
+      "url": "img/logos/st-marys-ca.svg",
+      "background": "#D80024"
+    }
+  },
+  "st-peters": {
+    "name": "St. Peter's",
+    "alternates": [
+      "Saint Peter's",
+      "Saint Peters"
+    ],
+    "abbr": "STPTRS",
+    "mascot": "Peacocks",
+    "primaryColor": "#0072CE",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/st-peters.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "stanford": {
+    "name": "Stanford",
+    "abbr": "STAN",
+    "mascot": "Cardinal",
+    "primaryColor": "#F2A900",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/stanford.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "stephen-f-austin": {
+    "name": "Stephen F. Austin",
+    "abbr": "SFA",
+    "mascot": "Lumberjacks",
+    "primaryColor": "#3F2A55",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/stephen-f-austin.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "stetson": {
+    "name": "Stetson",
+    "abbr": "SU",
+    "mascot": "Hatters",
+    "primaryColor": "#006747",
+    "secondaryColor": "#B58150",
+    "logo": {
+      "url": "img/logos/stetson.svg",
+      "background": "#006747"
+    }
+  },
+  "stony-brook": {
+    "name": "Stony Brook",
+    "abbr": "STBK",
+    "mascot": "Seawolves",
+    "primaryColor": "#990000",
+    "secondaryColor": "#16243E",
+    "logo": {
+      "url": "img/logos/stony-brook.svg",
+      "background": "#16243E"
+    }
+  },
+  "syracuse": {
+    "name": "Syracuse",
+    "abbr": "CUSE",
+    "mascot": "Orange",
+    "primaryColor": "#D44500",
+    "secondaryColor": "#3E3D3C",
+    "logo": {
+      "url": "img/logos/syracuse.svg",
+      "background": ""
+    }
+  },
+  "tcu": {
+    "name": "Texas Christian",
+    "abbr": "TCU",
+    "mascot": "Horned Frogs",
+    "primaryColor": "#4D1979",
+    "secondaryColor": "#A3A9AC",
+    "logo": {
+      "url": "img/logos/tcu.svg",
+      "background": "#A3A9AC"
+    }
+  },
+  "temple": {
+    "name": "Temple",
+    "abbr": "TEMP",
+    "mascot": "Owls",
+    "primaryColor": "#9D2235",
+    "secondaryColor": "#FFCD00",
+    "logo": {
+      "url": "img/logos/temple.svg",
+      "background": "#9D2235"
+    }
+  },
+  "tennessee": {
+    "name": "Tennessee",
+    "abbr": "UT",
+    "mascot": "Volunteers",
+    "primaryColor": "#FF8200",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/tennessee.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "tennessee-st": {
+    "name": "Tennessee State",
+    "abbr": "TNST",
+    "mascot": "Tigers",
+    "primaryColor": "#00539F",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/tennessee-st.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "tennessee-tech": {
+    "name": "Tennessee Tech",
+    "abbr": "TNTECH",
+    "mascot": "Golden Eagles",
+    "primaryColor": "#4F2984",
+    "secondaryColor": "#FFDD00",
+    "logo": {
+      "url": "img/logos/tennessee-tech.svg",
+      "background": "#4F2984"
+    }
+  },
+  "texas": {
+    "name": "Texas",
+    "abbr": "TEX",
+    "mascot": "Longhorns",
+    "primaryColor": "#BF5700",
+    "secondaryColor": "#333F48",
+    "logo": {
+      "url": "img/logos/texas.svg",
+      "background": "#333F48"
+    }
+  },
+  "texas-am": {
+    "name": "Texas A&M",
+    "alternates": [
+      "Texas A&M-Corpus Christi"
+    ],
+    "abbr": "TA&M",
+    "mascot": "Aggies",
+    "primaryColor": "#500000",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/texas-am.svg",
+      "background": "#500000"
+    }
+  },
+  "texas-arlington": {
+    "name": "Texas-Arlington",
+    "abbr": "TXAR",
+    "mascot": "Mavericks",
+    "primaryColor": "#0064B1",
+    "secondaryColor": "#F58025",
+    "logo": {
+      "url": "img/logos/texas-arlington.svg",
+      "background": "#0064B1"
+    }
+  },
+  "texas-southern": {
+    "name": "Texas Southern",
+    "abbr": "TXSO",
+    "mascot": "Tigers",
+    "primaryColor": "#6F263D",
+    "secondaryColor": "#A2AAAD",
+    "logo": {
+      "url": "img/logos/texas-southern.svg",
+      "background": "#A2AAAD"
+    }
+  },
+  "texas-st": {
+    "name": "Texas State",
+    "alternates": [
+      "Southwest Texas State"
+    ],
+    "abbr": "TXST",
+    "mascot": "Bobcats",
+    "primaryColor": "#501214",
+    "secondaryColor": "#8D734A",
+    "logo": {
+      "url": "img/logos/texas-st.svg",
+      "background": "#501214"
+    }
+  },
+  "texas-tech": {
+    "name": "Texas Tech",
+    "abbr": "TTU",
+    "mascot": "Red Raiders",
+    "primaryColor": "#CC0000",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/texas-tech.svg",
+      "background": "#CC0000"
+    }
+  },
+  "toledo": {
+    "name": "Toledo",
+    "abbr": "TOLEDO",
+    "mascot": "Rockets",
+    "primaryColor": "#15397F",
+    "secondaryColor": "#FFDA00",
+    "logo": {
+      "url": "img/logos/toledo.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "towson": {
+    "name": "Towson",
+    "alternates": [
+      "Towson State"
+    ],
+    "abbr": "TOWS",
+    "mascot": "Tigers",
+    "primaryColor": "#000000",
+    "secondaryColor": "#FFCC00",
+    "logo": {
+      "url": "img/logos/towson.svg",
+      "background": "#FFCC00"
+    }
+  },
+  "trinity": {
+    "name": "Trinity",
+    "alternates": [
+      "Trinity (TX)"
+    ],
+    "abbr": "TRIN",
+    "mascot": "Tigers",
+    "primaryColor": "burgandy",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/trinity.png",
+      "background": "#FFFFFF"
+    }
+  },
+  "troy": {
+    "name": "Troy",
+    "alternates": [
+      "Troy St"
+    ],
+    "abbr": "TROY",
+    "mascot": "Trojans",
+    "primaryColor": "#6D0017",
+    "secondaryColor": "#B2B3B5",
+    "logo": {
+      "url": "img/logos/troy.svg",
+      "background": "#B2B3B5"
+    }
+  },
+  "tulane": {
+    "name": "Tulane",
+    "abbr": "TUL",
+    "mascot": "Green Wave",
+    "primaryColor": "#006747",
+    "secondaryColor": "#43B02A",
+    "logo": {
+      "url": "img/logos/tulane.svg",
+      "background": "#43B02A"
+    }
+  },
+  "tulsa": {
+    "name": "Tulsa",
+    "abbr": "TULSA",
+    "mascot": "Golden Hurricane",
+    "primaryColor": "#002D72",
+    "secondaryColor": "#C8102E",
+    "logo": {
+      "url": "img/logos/tulsa.svg",
+      "background": "#C5B783"
+    }
+  },
+  "uab": {
+    "name": "UAB",
+    "alternates": [
+      "Alabama-Birmingham"
+    ],
+    "abbr": "UAB",
+    "mascot": "Blazers",
+    "primaryColor": "#1E6B52",
+    "secondaryColor": "#CFC580",
+    "logo": {
+      "url": "img/logos/uab.svg",
+      "background": "#CFC580"
+    }
+  },
+  "ualr": {
+    "name": "Arkansas-Little Rock",
+    "alternates": [
+      "Little Rock"
+    ],
+    "abbr": "ARLR",
+    "mascot": "Trojans",
+    "primaryColor": "#6E2639",
+    "secondaryColor": "#A7A9AC",
+    "logo": {
+      "url": "img/logos/ualr.svg",
+      "background": "#A7A9AC"
+    }
+  },
+  "uc-davis": {
+    "name": "UC Davis",
+    "abbr": "UCDAV",
+    "mascot": "Aggies",
+    "primaryColor": "#002855",
+    "secondaryColor": "#B3A369",
+    "logo": {
+      "url": "img/logos/uc-davis.svg",
+      "background": "#002855"
+    }
+  },
+  "uc-irvine": {
+    "name": "UC Irvine",
+    "abbr": "UIC",
+    "mascot": "Anteaters",
+    "primaryColor": "#0C2340",
+    "secondaryColor": "#FFC72C",
+    "logo": {
+      "url": "img/logos/uc-irvine.svg",
+      "background": "#0C2340"
+    }
+  },
+  "uc-riverside": {
+    "name": "UC Riverside",
+    "abbr": "UCRS",
+    "mascot": "Highlanders",
+    "primaryColor": "#2D6CC0",
+    "secondaryColor": "#F1AB00",
+    "logo": {
+      "url": "img/logos/uc-riverside.svg",
+      "background": "#2D6CC0"
+    }
+  },
+  "uc-santa-barbara": {
+    "name": "UC Santa Barbara",
+    "abbr": "UCSB",
+    "mascot": "Gauchos",
+    "primaryColor": "#004D9F",
+    "secondaryColor": "#FFB814",
+    "logo": {
+      "url": "img/logos/uc-santa-barbara.svg",
+      "background": "#FFB814"
+    }
+  },
+  "ucf": {
+    "name": "Central Florida",
+    "abbr": "UCF",
+    "mascot": "Knights",
+    "primaryColor": "#000000",
+    "secondaryColor": "#FFC904",
+    "logo": {
+      "url": "img/logos/ucf.svg",
+      "background": ""
+    }
+  },
+  "ucla": {
+    "name": "UCLA",
+    "abbr": "UCLA",
+    "mascot": "Bruins",
+    "primaryColor": "#FBE021",
+    "secondaryColor": "#F2A900",
+    "logo": {
+      "url": "img/logos/ucla.svg",
+      "background": "#F2A900"
+    }
+  },
+  "uconn": {
+    "name": "Connecticut",
+    "abbr": "UCONN",
+    "mascot": "Huskies",
+    "primaryColor": "#000E2F",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/uconn.svg",
+      "background": "#000E2F"
+    }
+  },
+  "umass-lowell": {
+    "name": "Massachusetts-Lowell",
+    "abbr": "MLOW",
+    "mascot": "River Hawks",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#C8102E",
+    "logo": {
+      "url": "img/logos/umass-lowell.svg",
+      "background": "#C8102E"
+    }
+  },
+  "umbc": {
+    "name": "UMBC",
+    "abbr": "UMBC",
+    "mascot": "Retrievers",
+    "primaryColor": "#B18906",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/umbc.svg",
+      "background": "#B18906"
+    }
+  },
+  "umkc": {
+    "name": "UMKC",
+    "abbr": "UMKC",
+    "mascot": "Kangaroos",
+    "primaryColor": "#005293",
+    "secondaryColor": "#FECB00",
+    "logo": {
+      "url": "img/logos/umkc.svg",
+      "background": "#005293"
+    }
+  },
+  "unc-asheville": {
+    "name": "UNC Asheville",
+    "abbr": "UNCA",
+    "mascot": "Bulldogs",
+    "primaryColor": "#003DA5",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/unc-asheville.svg",
+      "background": "#003DA5"
+    }
+  },
+  "unc-greensboro": {
+    "name": "UNC Greensboro",
+    "abbr": "UNCG",
+    "mascot": "Spartans",
+    "primaryColor": "#0F2044",
+    "secondaryColor": "#FFB71B",
+    "logo": {
+      "url": "img/logos/unc-greensboro.svg",
+      "background": "#FFB71B"
+    }
+  },
+  "unc-wilmington": {
+    "name": "North Carolina-Wilmington",
+    "abbr": "UNCW",
+    "mascot": "Seahawks",
+    "primaryColor": "#006666",
+    "secondaryColor": "#003366",
+    "logo": {
+      "url": "img/logos/unc-wilmington.svg",
+      "background": "#003366"
+    }
+  },
+  "uni": {
+    "name": "Northern Iowa",
+    "abbr": "UNI",
+    "mascot": "Panthers",
+    "primaryColor": "#4B116F",
+    "secondaryColor": "#FFCC00",
+    "logo": {
+      "url": "img/logos/uni.svg",
+      "background": "#4B116F"
+    }
+  },
+  "unlv": {
+    "name": "UNLV",
+    "abbr": "UNLV",
+    "mascot": "Rebels",
+    "primaryColor": "#CF0A2C",
+    "secondaryColor": "#CAC8C8",
+    "logo": {
+      "url": "img/logos/unlv.svg",
+      "background": "#CAC8C8"
+    }
+  },
+  "usc-upstate": {
+    "name": "USC Upstate",
+    "abbr": "USCU",
+    "mascot": "Spartans",
+    "primaryColor": "#046A38",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/usc-upstate.svg",
+      "background": "#046A38"
+    }
+  },
+  "ut-martin": {
+    "name": "Tennessee-Martin",
+    "abbr": "TNMT",
+    "mascot": "Skyhawks",
+    "primaryColor": "#002649",
+    "secondaryColor": "#F77F00",
+    "logo": {
+      "url": "img/logos/ut-martin.svg",
+      "background": "#F77F00"
+    }
+  },
+  "utah": {
+    "name": "Utah",
+    "abbr": "UTAH",
+    "mascot": "Utes",
+    "primaryColor": "#CC0000",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/utah.svg",
+      "background": "#CC0000"
+    }
+  },
+  "utah-st": {
+    "name": "Utah State",
+    "abbr": "UTST",
+    "mascot": "Aggies",
+    "primaryColor": "#0F2439",
+    "secondaryColor": "#9D968D",
+    "logo": {
+      "url": "img/logos/utah-st.svg",
+      "background": "#9D968D"
+    }
+  },
+  "utah-valley": {
+    "name": "Utah Valley",
+    "abbr": "UTVL",
+    "mascot": "Wolverines",
+    "primaryColor": "#275D38",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/utah-valley.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "utep": {
+    "name": "UTEP",
+    "abbr": "UTEP",
+    "mascot": "Miners",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#FF8200",
+    "logo": {
+      "url": "img/logos/utep.svg",
+      "background": "#041E42"
+    }
+  },
+  "utrgv": {
+    "name": "Texas Rio Grande Valley",
+    "abbr": "TXRIO",
+    "mascot": "Vaqueros",
+    "primaryColor": "#F05023",
+    "secondaryColor": "#646469",
+    "logo": {
+      "url": "img/logos/utrgv.svg",
+      "background": "#F05023"
+    }
+  },
+  "utsa": {
+    "name": "UT San Antonio",
+    "alternates": [
+      "Texas-San Antonio"
+    ],
+    "abbr": "UTSA",
+    "mascot": "Roadrunners",
+    "primaryColor": "#002244",
+    "secondaryColor": "#DD4814",
+    "logo": {
+      "url": "img/logos/utsa.svg",
+      "background": "#DD4814"
+    }
+  },
+  "valparaiso": {
+    "name": "Valparaiso",
+    "alternates": [
+      "Valparaíso"
+    ],
+    "abbr": "VALPO",
+    "mascot": "Crusaders",
+    "primaryColor": "#0142BC",
+    "secondaryColor": "#0142BC",
+    "logo": {
+      "url": "img/logos/valparaiso.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "vanderbilt": {
+    "name": "Vanderbilt",
+    "abbr": "VANDY",
+    "mascot": "Commodores",
+    "primaryColor": "#000000",
+    "secondaryColor": "#A8996E",
+    "logo": {
+      "url": "img/logos/vanderbilt.svg",
+      "background": "#000000"
+    }
+  },
+  "vcu": {
+    "name": "Virginia Commonwealth",
+    "abbr": "VCU",
+    "mascot": "Rams",
+    "primaryColor": "#FFB300",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/vcu.svg",
+      "background": "#FFB300"
+    }
+  },
+  "vermont": {
+    "name": "Vermont",
+    "abbr": "VRMT",
+    "mascot": "Catamounts",
+    "primaryColor": "#007155",
+    "secondaryColor": "#66AC47",
+    "logo": {
+      "url": "img/logos/vermont.svg",
+      "background": "#007155"
+    }
+  },
+  "villanova": {
+    "name": "Villanova",
+    "abbr": "NOVA",
+    "mascot": "Wildcats",
+    "primaryColor": "#00205B",
+    "secondaryColor": "#13B5EA",
+    "logo": {
+      "url": "img/logos/villanova.svg",
+      "background": "#13B5EA"
+    }
+  },
+  "virginia": {
+    "name": "Virginia",
+    "abbr": "UVA",
+    "mascot": "Cavaliers",
+    "primaryColor": "#232D4B",
+    "secondaryColor": "#F84C1E",
+    "logo": {
+      "url": "img/logos/virginia.svg",
+      "background": "#F84C1E"
+    }
+  },
+  "virginia-tech": {
+    "name": "Virginia Tech",
+    "abbr": "VT",
+    "mascot": "Hokies",
+    "primaryColor": "#630031",
+    "secondaryColor": "#CF4420",
+    "logo": {
+      "url": "img/logos/virginia-tech.svg",
+      "background": ""
+    }
+  },
+  "vmi": {
+    "name": "Virginia Military",
+    "abbr": "VMI",
+    "mascot": "Keydets",
+    "primaryColor": "#AE122A",
+    "secondaryColor": "#FFD619",
+    "logo": {
+      "url": "img/logos/vmi.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "wagner": {
+    "name": "Wagner",
+    "abbr": "WAGNER",
+    "mascot": "Seahawks",
+    "primaryColor": "#004331",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/wagner.svg",
+      "background": "#004331"
+    }
+  },
+  "wake-forest": {
+    "name": "Wake Forest",
+    "abbr": "WF",
+    "mascot": "Demon Deacons",
+    "primaryColor": "#A67F31",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/wake-forest.svg",
+      "background": "#000000"
+    }
+  },
+  "washington": {
+    "name": "Washington",
+    "abbr": "WASH",
+    "mascot": "Huskies",
+    "primaryColor": "#363C74",
+    "secondaryColor": "#E8D3A2",
+    "logo": {
+      "url": "img/logos/washington.svg",
+      "background": "#363C74"
+    }
+  },
+  "washington-st": {
+    "name": "Washington State",
+    "abbr": "WSU",
+    "mascot": "Cougars",
+    "primaryColor": "#981E32",
+    "secondaryColor": "#53565A",
+    "logo": {
+      "url": "img/logos/washington-st.svg",
+      "background": "#53565A"
+    }
+  },
+  "wayne-state": {
+    "name": "Wayne State",
+    "alternates": [
+      "Wayne State (MI)"
+    ],
+    "abbr": "WSU",
+    "mascot": "Warriors",
+    "primaryColor": "#1F6157",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/wayne-state.svg",
+      "background": "#1F6157"
+    }
+  },
+  "weber-st": {
+    "name": "Weber State",
+    "abbr": "WEBER",
+    "mascot": "Wildcats",
+    "primaryColor": "#4B2682",
+    "secondaryColor": "#A1A1A4",
+    "logo": {
+      "url": "img/logos/weber-st.svg",
+      "background": "#4B2682"
+    }
+  },
+  "west-virginia": {
+    "name": "West Virginia",
+    "abbr": "WVA",
+    "mascot": "Mountaineers",
+    "primaryColor": "#002855",
+    "secondaryColor": "#EAAA00",
+    "logo": {
+      "url": "img/logos/west-virginia.svg",
+      "background": "#002855"
+    }
+  },
+  "western-caro": {
+    "name": "Western Carolina",
+    "abbr": "WCU",
+    "mascot": "Catamounts",
+    "primaryColor": "#592C88",
+    "secondaryColor": "#B9975B",
+    "logo": {
+      "url": "img/logos/western-caro.svg",
+      "background": "#B9975B"
+    }
+  },
+  "western-ill": {
+    "name": "Western Illinois",
+    "abbr": "WILL",
+    "mascot": "Leathernecks",
+    "primaryColor": "#663399",
+    "secondaryColor": "#FFCC00",
+    "logo": {
+      "url": "img/logos/western-ill.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "western-ky": {
+    "name": "Western Kentucky",
+    "abbr": "WKU",
+    "mascot": "Hilltoppers",
+    "primaryColor": "#B01E24",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/western-ky.svg",
+      "background": "#B01E24"
+    }
+  },
+  "western-mich": {
+    "name": "Western Michigan",
+    "abbr": "WMICH",
+    "mascot": "Broncos",
+    "primaryColor": "#6C4023",
+    "secondaryColor": "#B5A167",
+    "logo": {
+      "url": "img/logos/western-mich.svg",
+      "background": "#B5A167"
+    }
+  },
+  "wichita-st": {
+    "name": "Wichita State",
+    "abbr": "WSU",
+    "mascot": "Shockers",
+    "primaryColor": "#FFCD00",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/wichita-st.svg",
+      "background": "#FFCD00"
+    }
+  },
+  "william-mary": {
+    "name": "William & Mary",
+    "abbr": "W&M",
+    "mascot": "Tribe",
+    "primaryColor": "#115740",
+    "secondaryColor": "#F0B323",
+    "logo": {
+      "url": "img/logos/william-mary.svg",
+      "background": "#115740"
+    }
+  },
+  "winthrop": {
+    "name": "Winthrop",
+    "abbr": "WTHRP",
+    "mascot": "Eagles",
+    "primaryColor": "#872434",
+    "secondaryColor": "#FFC82E",
+    "logo": {
+      "url": "img/logos/winthrop.svg",
+      "background": "#872434"
+    }
+  },
+  "wisconsin": {
+    "name": "Wisconsin",
+    "abbr": "WIS",
+    "mascot": "Badgers",
+    "primaryColor": "#C5050C",
+    "secondaryColor": "#9B0000",
+    "logo": {
+      "url": "img/logos/wisconsin.svg",
+      "background": "#C5050C"
+    }
+  },
+  "wofford": {
+    "name": "Wofford",
+    "abbr": "WOFF",
+    "mascot": "Terriers",
+    "primaryColor": "#886E4C",
+    "secondaryColor": "#000000",
+    "logo": {
+      "url": "img/logos/wofford.svg",
+      "background": "#886E4C"
+    }
+  },
+  "wright-st": {
+    "name": "Wright State",
+    "abbr": "WRST",
+    "mascot": "Raiders",
+    "primaryColor": "#026937",
+    "secondaryColor": "#CEA052",
+    "logo": {
+      "url": "img/logos/wright-st.svg",
+      "background": "#026937"
+    }
+  },
+  "wyoming": {
+    "name": "Wyoming",
+    "abbr": "WYOM",
+    "mascot": "Cowboys",
+    "primaryColor": "#492F24",
+    "secondaryColor": "#FFC425",
+    "logo": {
+      "url": "img/logos/wyoming.svg",
+      "background": "#492F24"
+    }
+  },
+  "xavier": {
+    "name": "Xavier",
+    "abbr": "XAV",
+    "mascot": "Musketeers",
+    "primaryColor": "#0C2340",
+    "secondaryColor": "#9EA2A2",
+    "logo": {
+      "url": "img/logos/xavier.svg",
+      "background": "#0C2340"
+    }
+  },
+  "yale": {
+    "name": "Yale",
+    "abbr": "YALE",
+    "mascot": "Bulldogs",
+    "primaryColor": "#00356B",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/yale.svg",
+      "background": "#FFFFFF"
+    }
+  },
+  "youngstown-st": {
+    "name": "Youngstown State",
+    "abbr": "YTWNST",
+    "mascot": "Penguins",
+    "primaryColor": "#C8102E",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/youngstown-st.svg",
+      "background": "#FFFFFF"
+    }
+  }
 }

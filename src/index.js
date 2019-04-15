@@ -86,15 +86,15 @@ document.body.appendChild(
   })
 );
 
-// add download links for three size
+// add download links for three size and the about link
 const links = document.createElement("div");
 links.className = "links";
 links.innerText = "Download: ";
 links.appendChild(downloadLink(1200, "Medium", bracket));
 links.appendChild(downloadLink(2400, "Large", bracket));
 links.appendChild(downloadLink(4800, "Huge", bracket));
+links.appendChild(aboutLink());
 document.body.appendChild(links);
 
-// add about link and overlay
-document.body.appendChild(aboutLink());
+// add about overlay
 document.body.appendChild(aboutOverlay());
