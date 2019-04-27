@@ -24,6 +24,11 @@ const commonConfig = merge([
               JSON.stringify(JSON.parse(content.toString()))
             );
           }
+        },
+        {
+          from: "favicon",
+          to: "",
+          force: true,
         }
       ])
     ],
