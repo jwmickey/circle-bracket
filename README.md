@@ -1,4 +1,4 @@
-This project provides historical data (1985-present) for the NCAA Men's Basketball Tournament
+This project provides historical data (1956-present) for the NCAA Men's Basketball Tournament
 in a unique circular/radial format, where each round is represented as a ring with 64 teams on
 the outer ring, 32 on the next, etc.
 
