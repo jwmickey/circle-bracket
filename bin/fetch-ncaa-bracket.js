@@ -9,6 +9,7 @@ const linkPrefix = "https://www.ncaa.com";
 // CLI INPUTS
 const year = parseInt(process.argv[2]) || new Date().getFullYear();
 const useCache = process.argv[3] !== "false";
+const printOutput = process.argv[4] === "true";
 
 const sourceUrls = {
   setup: `https://data.ncaa.com/carmen/brackets/championships/basketball-men/d1/${year}/definition.json`,
@@ -32,13 +33,15 @@ function getDataFile(dataType) {
       const data = fs.readFileSync(cacheFile);
       resolve(JSON.parse(data));
     } else {
-      console.warn(`Getting ${dataType} from source!`);
+      if (!printOutput) {
+        console.warn(`Getting ${dataType} from source!`);
+      }
       axios
         .get(sourceUrls[dataType])
         .then(res => {
           const data = res.data;
           fs.writeFile(cacheFile, JSON.stringify(data, null, "\t"), err => {
-            if (err) {
+            if (err && !printOutput) {
               console.warn("Cannot write to cache file", err);
             }
           });
@@ -106,8 +109,10 @@ Promise.all([getDataFile("setup"), getDataFile("bracket")])
     };
   })
   .then(data => {
-    if (true) {
-      // TODO: allow spitting out to the console instead of to a file
+    if (printOutput) {
+      console.log(JSON.stringify(data, null, 2));
+      return true;
+    } else {
       const outFile = path.join(dataDir, `bracket-${year}.json`);
       fs.writeFile(outFile, JSON.stringify(data, null, "\t"), err => {
         if (err) {
@@ -116,14 +121,13 @@ Promise.all([getDataFile("setup"), getDataFile("bracket")])
         }
         return true;
       });
-    } else {
-      console.log(data);
-      return true;
     }
   })
   .catch(err => {
     console.error(err);
   })
   .finally(() => {
-    console.log("Done!");
+    if (!printOutput) {
+      console.log("Done!");
+    }
   });
