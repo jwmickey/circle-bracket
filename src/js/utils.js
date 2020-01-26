@@ -88,3 +88,16 @@ export const findTeamRegion = (allGames, teamCode) => {
     return game.home.code === teamCode || game.away.code === teamCode;
   }).region;
 };
+
+export const getSelectionSunday = year => {
+  const date = getTournamentStart(year);
+  date.setDate(date.getDate() - 4);
+  return date;
+};
+
+export const getTournamentStart = year => {
+  let date = new Date(year, 2, 1),
+    add = ((4 - date.getDay() + 7) % 7) + 2 * 7;
+  date.setDate(1 + add);
+  return date;
+};

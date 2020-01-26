@@ -3,9 +3,10 @@ import canvas from "./js/components/canvas";
 import yearPicker from "./js/components/yearPicker";
 import gameInfo from "./js/components/gameInfo";
 import downloadLink from "./js/components/downloadLink";
-import Bracket from "./js/bracket";
-import "./styles/style.sass";
 import { aboutLink, aboutOverlay } from "./js/components/about";
+import Bracket from "./js/bracket";
+import { getSelectionSunday } from "./js/utils";
+import "./styles/style.sass";
 
 const hash = new URL(document.location).hash;
 const minYear = 1956;
@@ -49,6 +50,19 @@ function showGameDetails(game, displaySeeds = true) {
 // draw a bracket for a given year.  toggles loading on/off for start/finish
 function drawBracket(bracketYear) {
   wrap.classList.remove("error");
+
+  if (bracketYear === maxYear) {
+    const today = new Date();
+    const selection = getSelectionSunday(maxYear);
+    const days = Math.ceil((selection.getTime() - today.getTime()) / 86400000);
+    if (days > -1) {
+      let msg = `The ${maxYear} bracket arrives in ${days} days!`;
+      wrap.classList.add("error");
+      wrap.getElementsByClassName("msg")[0].innerText = msg;
+      bracketYear -= 1;
+    }
+  }
+
   wrap.classList.add("loading");
 
   axios
@@ -58,11 +72,10 @@ function drawBracket(bracketYear) {
       return bracket.render();
     })
     .catch(err => {
-      console.log(err);
+      console.error(err);
+      let msg = `Sorry, could not create a bracket for year ${bracketYear}`;
       wrap.classList.add("error");
-      wrap.getElementsByClassName(
-        "error"
-      )[0].innerText = `Sorry, could not create a bracket for year ${bracketYear}`;
+      wrap.getElementsByClassName("msg")[0].innerText = msg;
     })
     .finally(() => {
       wrap.classList.remove("loading");
@@ -72,8 +85,7 @@ function drawBracket(bracketYear) {
 // add year chooser and event handler for redrawing bracket on change
 document.body.appendChild(
   yearPicker(minYear, maxYear, initialYear, e => {
-    year = e.target.value;
-
+    year = parseInt(e.target.value);
     history.replaceState(null, year.toString(), `#${year}`);
     drawBracket(year);
 
