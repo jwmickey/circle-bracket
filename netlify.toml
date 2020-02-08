@@ -1,0 +1,10 @@
+[dev]
+  command = "npm start"
+  publish = "dist"
+  port = 3000
+  functionsPort = 34567
+
+[build]
+  command = "npm run-script build"
+  publish = "dist"
+  functions = ".netlify/functions"

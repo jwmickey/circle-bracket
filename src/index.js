@@ -50,6 +50,7 @@ function showGameDetails(game, displaySeeds = true) {
 // draw a bracket for a given year.  toggles loading on/off for start/finish
 function drawBracket(bracketYear) {
   wrap.classList.remove("error");
+  let bracketUrl = `/seasons/bracket-${bracketYear}.json`;
 
   if (bracketYear === maxYear) {
     const today = new Date();
@@ -60,13 +61,15 @@ function drawBracket(bracketYear) {
       wrap.classList.add("error");
       wrap.getElementsByClassName("msg")[0].innerText = msg;
       bracketYear -= 1;
+    } else {
+      bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
     }
   }
 
   wrap.classList.add("loading");
 
   axios
-    .get(`/seasons/bracket-${bracketYear}.json`)
+    .get(bracketUrl)
     .then(res => {
       bracket.setBracket(res.data);
       return bracket.render();

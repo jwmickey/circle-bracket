@@ -8,7 +8,8 @@
     "start": "nodemon --watch \"webpack.*.js\" --exec \"webpack-dev-server --env development\"",
     "build": "webpack --env production",
     "serve": "serve dist",
-    "fetch-teams": "node bin/fetch-teams.js"
+    "fetch-teams": "node bin/fetch-teams.js",
+    "fetch-bracket": "node -r esm bin/fetch-ncaa-bracket.js"
   },
   "author": "Jody Mickey <jody.mickey@gmail.com>",
   "license": "ISC",
@@ -37,7 +38,10 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "aws-sdk": "^2.614.0",
     "axios": "^0.19.2",
-    "downloadjs": "^1.4.7"
+    "downloadjs": "^1.4.7",
+    "esm": "^3.2.25",
+    "netlify-lambda": "^1.6.3"
   }
 }

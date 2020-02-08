@@ -96,8 +96,6 @@ export default class Bracket {
 
     if (round < this.numRounds) {
       innerRadius = Math.floor(radius - center * source[round]);
-    } else {
-      console.log(round, radius);
     }
 
     return [radius, innerRadius];
