@@ -61,6 +61,7 @@ function drawBracket(bracketYear) {
       wrap.classList.add("error");
       wrap.getElementsByClassName("msg")[0].innerText = msg;
       bracketYear -= 1;
+      bracketUrl = `/seasons/bracket-${bracketYear}.json`;
     } else {
       bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
     }
