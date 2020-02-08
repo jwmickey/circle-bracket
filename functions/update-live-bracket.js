@@ -1,9 +1,9 @@
 const aws = require("aws-sdk");
-const fetchBracket = require("../../fetchers/ncaa");
+const fetchBracket = require("../fetchers/ncaa");
 
 // Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
 exports.handler = async (event, context) => {
-  if (!shouldCheckNow()) {
+  if (false) { // !shouldCheckNow()) {
     return {
       statusCode: 200,
       body: "No updates are expected to be available at this time"
