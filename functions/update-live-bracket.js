@@ -25,8 +25,12 @@ exports.handler = async (event, context) => {
     };
 
     if (awsAccessKeyId && awsSecretAccessKey) {
-      aws.config.credentials.accessKeyId = awsAccessKeyId;
-      aws.config.credentials.secretAccessKey = awsSecretAccessKey;
+      aws.config.update({
+        credentials: {
+          accessKeyId: awsAccessKeyId,
+          secretAccessKey: awsSecretAccessKey
+        }
+      });
     }
 
     const upload = await new aws.S3({apiVersion: "2006-03-01"}).putObject(objectParams).promise();
