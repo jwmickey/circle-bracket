@@ -1,8 +1,8 @@
 const aws = require("aws-sdk");
-const fetchBracket = require("../fetchers/ncaa");
+const fetchBracket = require("./fetchers/ncaa");
 
 // Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
-exports.handler = async (event, context) => {
+export async function handler(event, context) {
   if (false) { // !shouldCheckNow()) {
     return {
       statusCode: 200,
@@ -30,7 +30,7 @@ exports.handler = async (event, context) => {
   } catch (err) {
     return { statusCode: 500, body: err.toString() };
   }
-};
+}
 
 function shouldCheckNow() {
   const today = new Date();

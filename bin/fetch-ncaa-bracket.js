@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import fetchBracket from "../fetchers/ncaa";
+import fetchBracket from "../functions/fetchers/ncaa";
 
 const dataDir = path.join(__dirname, "../seasons/");
 
