@@ -1,44 +1,75 @@
 // these are prefixed with MY_ because they are reserved in netlify
-const awsAccessKeyId = process.env.MY_AWS_ACCESS_KEY_ID;
-const awsSecretAccessKey = process.env.MY_AWS_SECRET_ACCESS_KEY;
+const ACCESS_KEY_ID = process.env.MY_AWS_ACCESS_KEY_ID;
+const SECRET_ACCESS_KEY = process.env.MY_AWS_SECRET_ACCESS_KEY;
+const BUCKET = 'circlebracket';
+const OBJECT_KEY = 'live-bracket.json';
+const REFRESH_LIMIT = 1800;  // how long to wait between checks in seconds
 
 const aws = require("aws-sdk");
 const fetchBracket = require("./fetchers/ncaa");
 
 // Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
 exports.handler = async (event, context) => {
-  if (false) { // !shouldCheckNow()) {
+  const now = new Date();
+  console.log('Updating live bracket', now);
+
+  // only check during specific times when we expect changes to the bracket
+  if (!shouldCheckNow()) {
+    console.log('No updates are expected to be available at this time');
     return {
       statusCode: 200,
-      body: "No updates are expected to be available at this time"
-    }
+      body: JSON.stringify({ message: "No updates are expected to be available at this time" })
+    };
   }
 
+  if (ACCESS_KEY_ID && SECRET_ACCESS_KEY) {
+    aws.config.update({
+      credentials: {
+        accessKeyId: ACCESS_KEY_ID,
+        secretAccessKey: SECRET_ACCESS_KEY
+      }
+    });
+  }
+  const s3 = new aws.S3({apiVersion: "2006-03-01"});
+
+  // check the last modified date on the stored file to make sure we don't try getting this too often
+  try {
+    const meta = await s3.headObject({Bucket: BUCKET, Key: OBJECT_KEY}).promise();
+    const elapsed = Math.floor((now.getTime() - meta.LastModified.getTime()) / 1000);
+    if (elapsed < REFRESH_LIMIT) {
+      const mins = Math.ceil((REFRESH_LIMIT - elapsed) / 60);
+      const message = `Waiting ${mins} minutes before next refresh`;
+      console.log(message);
+      return {
+        statusCode: 200,
+        body: JSON.stringify({message})
+      };
+    }
+  } catch (err) {
+    console.warn(err.message);
+    // can't get meta info, keep going
+  }
+
+  // update the bracket
   try {
     const year = new Date().getFullYear();
     const bracket = await fetchBracket(year, false);
     const bracketJson = JSON.stringify(bracket, null, "\t");
     const objectParams = {
-      Bucket: 'circlebracket',
-      Key: 'live-bracket.json',
+      Bucket: BUCKET,
+      Key: OBJECT_KEY,
       Body: bracketJson
     };
 
-    if (awsAccessKeyId && awsSecretAccessKey) {
-      aws.config.update({
-        credentials: {
-          accessKeyId: awsAccessKeyId,
-          secretAccessKey: awsSecretAccessKey
-        }
-      });
-    }
-
-    const upload = await new aws.S3({apiVersion: "2006-03-01"}).putObject(objectParams).promise();
+    const upload = await s3.putObject(objectParams).promise();
 
     return {
       statusCode: 200,
       body: JSON.stringify({
-        message: upload
+        upload,
+        bracket,
+        lastModified: now,
+        message: "OK"
       })
     };
   } catch (err) {
