@@ -1,3 +1,7 @@
+// these are prefixed with MY_ because they are reserved in netlify
+const awsAccessKeyId = process.env.MY_AWS_ACCESS_KEY_ID;
+const awsSecretAccessKey = process.env.MY_AWS_SECRET_ACCESS_KEY;
+
 const aws = require("aws-sdk");
 const fetchBracket = require("./fetchers/ncaa");
 
@@ -19,6 +23,12 @@ exports.handler = async (event, context) => {
       Key: 'live-bracket.json',
       Body: bracketJson
     };
+
+    if (awsAccessKeyId && awsSecretAccessKey) {
+      aws.config.credentials.accessKeyId = awsAccessKeyId;
+      aws.config.credentials.secretAccessKey = awsSecretAccessKey;
+    }
+
     const upload = await new aws.S3({apiVersion: "2006-03-01"}).putObject(objectParams).promise();
 
     return {
