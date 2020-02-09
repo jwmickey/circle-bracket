@@ -8,4 +8,4 @@ on:
       runs-on: ubuntu-latest
       steps:
         - name: Curl Request
-          run: curl -X GET https://funcs--circlebracket.netlify.com/.netlify/functions/update-live-bracket
+          run: curl -X GET https://circlebracket.netlify.com/.netlify/functions/update-live-bracket
