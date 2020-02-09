@@ -93,11 +93,13 @@ function getDataFile(year, dataType, useCache) {
         .get(url)
         .then(res => {
           const data = res.data;
-          fs.writeFile(cacheFile, JSON.stringify(data, null, "\t"), err => {
-            if (err) {
-              console.warn("Cannot write to cache file", err);
-            }
-          });
+          if (useCache) {
+              fs.writeFile(cacheFile, JSON.stringify(data, null, "\t"), err => {
+                  if (err) {
+                      console.warn("Cannot write to cache file", err);
+                  }
+              });
+          }
           resolve(res.data);
         })
         .catch(err => {
