@@ -1,0 +1,11 @@
+name: Trigger Update Bracket
+on:
+  schedule:
+    - cron: '*/30 11-23 * 3,4 0,4,5,6'
+  jobs:
+    update:
+      name: Request Update Function
+      runs-on: ubuntu-latest
+      steps:
+        - name: Curl Request
+          run: curl -X GET https://funcs--circlebracket.netlify.com/.netlify/functions/update-live-bracket
