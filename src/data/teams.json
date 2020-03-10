@@ -2637,11 +2637,11 @@
     ],
     "abbr": "PITT",
     "mascot": "Panthers",
-    "primaryColor": "#1C2957",
-    "secondaryColor": "#CDB87D",
+    "primaryColor": "#003594",
+    "secondaryColor": "#FFB81C",
     "logo": {
       "url": "img/logos/pittsburgh.svg",
-      "background": "#CDB87D"
+      "background": "#003594"
     }
   },
   "portland": {
