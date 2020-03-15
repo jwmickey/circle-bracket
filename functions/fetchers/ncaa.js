@@ -2,7 +2,7 @@ const axios = require("axios");
 const fs = require("fs");
 const path = require("path");
 
-const cacheDir = path.join(__dirname, "../cache/");
+const cacheDir = path.join(__dirname, "../../cache/");
 const linkPrefix = "https://www.ncaa.com";
 
 function fetchBracket(year, useCache = true) {

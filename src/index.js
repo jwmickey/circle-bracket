@@ -52,7 +52,7 @@ function drawBracket(bracketYear) {
   wrap.classList.remove("error");
   let bracketUrl = `/seasons/bracket-${bracketYear}.json`;
 
-  if (bracketYear === maxYear) {
+  if (bracketYear === maxYear && bracketYear !== 2020) { // second condition is temporary edge-case
     const today = new Date();
     const selection = getSelectionSunday(maxYear);
     const days = Math.ceil((selection.getTime() - today.getTime()) / 86400000);

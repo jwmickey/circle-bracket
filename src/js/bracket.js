@@ -137,9 +137,16 @@ export default class Bracket {
     }
 
     this.reset();
-
     this.drawTitle();
     this.drawRegionNames();
+
+
+    if (this.bracketData.hasOwnProperty("status")) {
+      if (["postponed", "canceled"].includes(this.bracketData.status)) {
+        this.drawStatusMessage();
+        return;
+      }
+    }
 
     if (
       !this.bracketData.hasOwnProperty("displaySeeds") ||
@@ -216,6 +223,7 @@ export default class Bracket {
           return Promise.resolve;
         }
       });
+
   };
 
   drawGrid = () => {
@@ -333,6 +341,21 @@ export default class Bracket {
       this.getCenter()[0],
       this.titleHeight + 5,
       this.cvs.width - this.margin
+    );
+    this.ctx.restore();
+  };
+
+  drawStatusMessage = () => {
+    const [x, y] = this.getCenter();
+    this.ctx.save();
+    this.ctx.fillStyle = "#000";
+    this.ctx.textAlign = "center";
+    this.ctx.font = `${this.fontSize * 2.5}px "Open Sans"`;
+    this.ctx.fillText(
+        this.bracketData.hasOwnProperty('notes') ? this.bracketData.notes : this.bracketData.status,
+        x,
+        y,
+        this.cvs.width - this.margin
     );
     this.ctx.restore();
   };
