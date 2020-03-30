@@ -2,6 +2,7 @@
   "name": "circle-bracket",
   "version": "1.0.0",
   "description": "Circular bracket for tournaments",
+  "repository": "https://github.com/jwmickey/circle-bracket",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
