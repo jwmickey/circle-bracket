@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.614.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "downloadjs": "^1.4.7",
     "esm": "^3.2.25",
     "netlify-lambda": "^1.6.3"
