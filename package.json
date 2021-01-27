@@ -24,7 +24,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "cheerio": "^1.0.0-rc.3",
     "clean-webpack-plugin": "^2.0.2",
-    "copy-webpack-plugin": "^5.1.1",
+    "copy-webpack-plugin": "^6.4.1",
     "css-loader": "^2.1.1",
     "fast-sass-loader": "^1.5.0",
     "file-loader": "^3.0.1",
@@ -35,12 +35,12 @@
     "url-loader": "^1.1.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1",
+    "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
     "aws-sdk": "^2.614.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "downloadjs": "^1.4.7",
     "esm": "^3.2.25",
     "netlify-lambda": "^1.6.3"

@@ -9,7 +9,7 @@ export default (size, cssSize, id = "canvas") => {
   canvas.style.height = cssSize + "px";
   wrap.appendChild(canvas);
 
-  const msg = document.createElement("h2");
+  const msg = document.createElement("div");
   msg.className = "msg";
   wrap.appendChild(msg);
 

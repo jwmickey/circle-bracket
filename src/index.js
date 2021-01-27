@@ -50,40 +50,46 @@ function showGameDetails(game, displaySeeds = true) {
 // draw a bracket for a given year.  toggles loading on/off for start/finish
 function drawBracket(bracketYear) {
   wrap.classList.remove("error");
+  let showBracket = true;
   let bracketUrl = `/seasons/bracket-${bracketYear}.json`;
 
-  if (bracketYear === maxYear && bracketYear !== 2020) { // second condition is temporary edge-case
+  if (bracketYear === maxYear) {
     const today = new Date();
     const selection = getSelectionSunday(maxYear);
     const days = Math.ceil((selection.getTime() - today.getTime()) / 86400000);
     if (days > -1) {
-      let msg = `The ${maxYear} bracket arrives in ${days} days!`;
+      let msg = `
+        <div style="text-align: center">
+          <h3>The ${maxYear} bracket arrives in<br/>${days} days!</h3>
+          <h5>Use the year selector to see more brackets - all the way back to ${minYear}</h5>
+        </div>
+      `;
       wrap.classList.add("error");
-      wrap.getElementsByClassName("msg")[0].innerText = msg;
-      bracketYear -= 1;
-      bracketUrl = `/seasons/bracket-${bracketYear}.json`;
+      wrap.getElementsByClassName("msg")[0].innerHTML = msg;
+      showBracket = false;
     } else {
       bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
     }
   }
 
-  wrap.classList.add("loading");
-
-  axios
-    .get(bracketUrl)
-    .then(res => {
-      bracket.setBracket(res.data);
-      return bracket.render();
-    })
-    .catch(err => {
-      console.error(err);
-      let msg = `Sorry, could not create a bracket for year ${bracketYear}`;
-      wrap.classList.add("error");
-      wrap.getElementsByClassName("msg")[0].innerText = msg;
-    })
-    .finally(() => {
-      wrap.classList.remove("loading");
-    });
+  if (showBracket) {
+    wrap.classList.add("loading");
+    axios
+      .get(bracketUrl)
+      .then(res => {
+        bracket.setBracket(res.data);
+        return bracket.render();
+      })
+      .catch(err => {
+        console.error(err);
+        let msg = `Sorry, could not create a bracket for year ${bracketYear}`;
+        wrap.classList.add("error");
+        wrap.getElementsByClassName("msg")[0].innerText = msg;
+      })
+      .finally(() => {
+        wrap.classList.remove("loading");
+      });
+  }
 }
 
 // add year chooser and event handler for redrawing bracket on change
@@ -114,3 +120,4 @@ document.body.appendChild(links);
 
 // add about overlay
 document.body.appendChild(aboutOverlay());
+

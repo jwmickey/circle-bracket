@@ -13,24 +13,26 @@ const commonConfig = merge([
         title: "Circular Tournament Bracket",
         template: "index.html"
       }),
-      new CopyWebpackPlugin([
-        {
-          from: "seasons",
-          to: "seasons",
-          force: true,
-          transform(content, path) {
-            // encode string as json and re-convert to minified string
-            return Promise.resolve(
-              JSON.stringify(JSON.parse(content.toString()))
-            );
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            from: "seasons",
+            to: "seasons",
+            force: true,
+            transform(content, path) {
+              // encode string as json and re-convert to minified string
+              return Promise.resolve(
+                  JSON.stringify(JSON.parse(content.toString()))
+              );
+            }
+          },
+          {
+            from: "favicon",
+            to: "",
+            force: true,
           }
-        },
-        {
-          from: "favicon",
-          to: "",
-          force: true,
-        }
-      ])
+        ]
+      })
     ],
     entry: {
       index: "./src/index.js"
