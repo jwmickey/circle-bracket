@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
-import fetchBracket from "../functions/fetchers/ncaa";
+import fetchClassic from "../functions/fetchers/ncaa";
+import fetchBracket from "../functions/fetchers/ncaa_2021";
 
 const dataDir = path.join(__dirname, "../seasons/");
 
@@ -9,15 +10,21 @@ const year = parseInt(process.argv[2]) || new Date().getFullYear();
 const useCache = process.argv[3] !== "false";
 const printOutput = process.argv[4] === "true";
 
+let fetcher;
+
 if (year < 2016) {
   console.log("Sorry, this tool only works from year 2016 and forward");
   process.exit(1);
+} else if (year < 2019) {
+  fetcher = fetchClassic;
+} else {
+  fetcher = fetchBracket;
 }
 
-fetchBracket(year, useCache)
+fetcher(year, useCache)
   .then(bracket => {
     if (printOutput) {
-      console.log(JSON.stringify(bracket, null, 2));
+      console.log('DATA', JSON.stringify(bracket, null, 2));
       return true;
     } else {
       const outFile = path.join(dataDir, `bracket-${year}.json`);
