@@ -10,7 +10,8 @@
     "build": "webpack --env production",
     "serve": "serve dist",
     "fetch-teams": "node bin/fetch-teams.js",
-    "fetch-bracket": "node -r esm bin/fetch-ncaa-bracket.js"
+    "fetch-bracket": "node -r esm bin/fetch-ncaa-bracket.js",
+    "fetch-sr-bracket": "node -r esm bin/fetch-sr-bracket.js"
   },
   "author": "Jody Mickey <jody.mickey@gmail.com>",
   "license": "ISC",

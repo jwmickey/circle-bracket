@@ -6,7 +6,7 @@ const OBJECT_KEY = 'live-bracket.json';
 const REFRESH_LIMIT = 1800;  // how long to wait between checks in seconds
 
 const aws = require("aws-sdk");
-const fetchBracket = require("./fetchers/ncaa");
+const fetchBracket = require("./fetchers/ncaa_2021");
 
 // Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
 exports.handler = async (event, context) => {

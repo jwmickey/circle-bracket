@@ -46,12 +46,20 @@ function fetchBracket(year, useCache = true) {
                   winner: awayTeam.isWinner
               },
               date: c.startDate,
-              location: '',     // TODO: we don't have this anymore
+              location: '', // NOTE: if we want this, we need to use scores_current_web
               region: regionsMap.get(c.region.title) || '',
               round: roundsMap.get(c.round.title),
               isComplete: c.gameStateCode === 4,
               link: createGameLink(awayTeam.seoname, homeTeam.seoname, c.startDate)
           }
+      }).sort((a, b) => {
+        if (a.round > b.round) {
+            return a;
+        } else if (b.round > a.round) {
+            return b;
+        } else if (a.round === b.round) {
+            return a.date < b.date ? a : b;
+        }
       });
 
       let regionList = [];
