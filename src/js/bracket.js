@@ -33,9 +33,9 @@ export default class Bracket {
   constructor(cvs, settings = {}) {
     this.cvs = cvs;
     this.ctx = cvs.getContext("2d");
-    this.ctx.font = '14px "Open Sans", sans-serif';
+    this.ctx.font = '14px Arial, Verdana, sans-serif';
 
-    this.fontSize = 14;
+    this.fontSize = 18;
     this.titleHeight = 24;
     this.margin = 50;
 
@@ -295,7 +295,7 @@ export default class Bracket {
     const radius = this.getRadiiForRound(1)[0] * 1.05;
 
     this.ctx.save();
-    this.ctx.font = `${this.fontSize}px "Open Sans"`;
+    this.ctx.font = `${this.fontSize * 1.25}px Arial sans-serif`;
     this.ctx.translate(centerX, centerY);
     this.ctx.textAlign = "center";
     this.ctx.fillStyle = "#555";
@@ -324,7 +324,7 @@ export default class Bracket {
       let t2 = ((Math.PI * 2) / this.numEntries) * (i + 1);
       let t = t1 + (t2 - t1) / 2;
       let x = Math.floor(radius * Math.cos(t));
-      let y = Math.floor(radius * Math.sin(t) + 3);
+      let y = Math.floor(radius * Math.sin(t) + 7);
       this.ctx.fillText(seed.toString(), x, y);
     }
 
@@ -335,7 +335,7 @@ export default class Bracket {
     this.ctx.save();
     this.ctx.fillStyle = "#000";
     this.ctx.textAlign = "center";
-    this.ctx.font = `${this.fontSize * 1.75}px "Open Sans"`;
+    this.ctx.font = `${this.fontSize * 1.75}px Arial, sans-serif`;
     this.ctx.fillText(
       `${this.bracketData.year} NCAA Men's Basketball Tournament`,
       this.getCenter()[0],
@@ -350,7 +350,7 @@ export default class Bracket {
     this.ctx.save();
     this.ctx.fillStyle = "#000";
     this.ctx.textAlign = "center";
-    this.ctx.font = `${this.fontSize * 2.5}px "Open Sans"`;
+    this.ctx.font = `${this.fontSize * 2.5}px Arial, sans-serif`;
     this.ctx.fillText(
         this.bracketData.hasOwnProperty('notes') ? this.bracketData.notes : this.bracketData.status,
         x,
@@ -376,7 +376,7 @@ export default class Bracket {
 
     this.ctx.save();
     this.ctx.translate(centerX, centerY);
-    this.ctx.font = `${this.fontSize * 1.5}px "Open Sans"`;
+    this.ctx.font = `${this.fontSize * 1.5}px Arial, sans-serif`;
     this.ctx.fillStyle = "#999";
     for (let i = 0; i < regions.length; i++) {
       switch (regions[i].position) {

@@ -1,8 +1,6 @@
 @font-face
-  font-family: "Open Sans", sans-serif
-  font-weight: 400
+  font-family: Arial, Verdana, "Open Sans", sans-serif
   font-size: 14px
-  src: url(https://fonts.googleapis.com/css?family=Open+Sans:400,800)
 
 body
   margin: 0
@@ -12,7 +10,7 @@ body
   justify-content: center
   align-items: center
   overflow: auto
-  font-family: "Open Sans", "Arial Black", Arial, sans-serif
+  font-family: Arial, Verdana, "Open Sans", sans-serif
 
 .canvas-wrap
   display: flex
@@ -37,6 +35,13 @@ body
       position: absolute
     canvas
       opacity: 0.25
+
+  &.message
+    .msg
+      display: block
+      position: absolute
+    canvas
+      opacity: 0.75
 
   &.loading:after
     content: "Loading..."

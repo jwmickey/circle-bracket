@@ -64,7 +64,7 @@ function drawBracket(bracketYear) {
           <h5>Use the year selector to see more brackets - all the way back to ${minYear}</h5>
         </div>
       `;
-      wrap.classList.add("error");
+      wrap.classList.add("message");
       wrap.getElementsByClassName("msg")[0].innerHTML = msg;
       showBracket = false;
     } else {
@@ -76,7 +76,7 @@ function drawBracket(bracketYear) {
           <h3>The ${maxYear} bracket will be announced soon!</h3>
         </div>
       `;
-        wrap.classList.add("error");
+        wrap.classList.add("message");
         wrap.getElementsByClassName("msg")[0].innerHTML = msg;
       }
     }
