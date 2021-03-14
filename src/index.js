@@ -57,7 +57,7 @@ function drawBracket(bracketYear) {
     const today = new Date();
     const selection = getSelectionSunday(maxYear);
     const days = Math.ceil((selection.getTime() - today.getTime()) / 86400000);
-    if (days > -1) {
+    if (days > 0) {
       let msg = `
         <div style="text-align: center">
           <h3>The ${maxYear} bracket arrives in<br/>${days} days!</h3>
@@ -69,6 +69,16 @@ function drawBracket(bracketYear) {
       showBracket = false;
     } else {
       bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
+
+      if (days === 0) {
+        let msg = `
+        <div style="text-align: center">
+          <h3>The ${maxYear} bracket will be announced soon!</h3>
+        </div>
+      `;
+        wrap.classList.add("error");
+        wrap.getElementsByClassName("msg")[0].innerHTML = msg;
+      }
     }
   }
 

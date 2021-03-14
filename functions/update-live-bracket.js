@@ -109,8 +109,8 @@ function getSelectionSunday(year) {
 }
 
 function getTournamentStart(year) {
-  let date = new Date(year, 2, 1),
-      add = ((4 - date.getDay() + 7) % 7) + 2 * 7;
+  const date = new Date(year, 2, 1);
+  const add = ((4 - date.getDay() + 7) % 7) + 2 * 7;
   date.setDate(1 + add);
   return date;
 }

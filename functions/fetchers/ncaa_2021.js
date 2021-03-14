@@ -27,30 +27,38 @@ function fetchBracket(year, useCache = true) {
           return m;
       }, new Map());
 
+      const defaultTeam = {
+          name: '',
+          code: '',
+          seed: 0,
+          score: 0,
+          winner: false
+      };
+
       const games = contests.map(c => {
           const homeTeam = c.teams.find(t => t.isHome);
           const awayTeam = c.teams.find(t => !t.isHome);
           return {
-              home: {
+              home: homeTeam ? {
                   name: homeTeam.nameShort,
                   code: homeTeam.seoname,
                   seed: homeTeam.seed,
                   score: homeTeam.score,
                   winner: homeTeam.isWinner
-              },
-              away: {
+              } : defaultTeam,
+              away: awayTeam ? {
                   name: awayTeam.nameShort,
                   code: awayTeam.seoname,
                   seed: awayTeam.seed,
                   score: awayTeam.score,
                   winner: awayTeam.isWinner
-              },
+              } : defaultTeam,
               date: c.startDate,
               location: '', // NOTE: if we want this, we need to use scores_current_web
               region: regionsMap.get(c.region.title) || '',
               round: roundsMap.get(c.round.title),
               isComplete: c.gameStateCode === 4,
-              link: createGameLink(awayTeam.seoname, homeTeam.seoname, c.startDate)
+              link: awayTeam && homeTeam ? createGameLink(awayTeam.seoname, homeTeam.seoname, c.startDate) : ''
           }
       }).sort((a, b) => {
         if (a.round > b.round) {
