@@ -104,13 +104,13 @@ function getDataFile(year, useCache) {
         .get(url)
         .then(res => {
           const data = res.data.data.mmlContests;
-          //if (useCache) {
+          if (useCache) {
               fs.writeFile(cacheFile, JSON.stringify(data, null, "\t"), err => {
                   if (err) {
                       console.warn("Cannot write to cache file", err);
                   }
               });
-          //}
+          }
           resolve(data);
         })
         .catch(err => {
