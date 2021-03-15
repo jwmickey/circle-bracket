@@ -1,4 +1,4 @@
-import { createImageUrlFromLogo } from "../utils";
+import { createImageUrlFromLogo, findTeamByCode } from "../utils";
 import teams from "../../data/teams";
 
 export default (game, displaySeeds = false, id = "info") => {
@@ -8,6 +8,10 @@ export default (game, displaySeeds = false, id = "info") => {
 
   for (const team of [game.home, game.away]) {
     const teamCode = team.code;
+    const teamInfo = findTeamByCode(teamCode);
+    if (!teamInfo) {
+      continue;
+    }
 
     // wrap in an outer div
     const wrap = document.createElement("div");
@@ -23,7 +27,9 @@ export default (game, displaySeeds = false, id = "info") => {
       e.preventDefault();
       return false;
     });
-    img.src = createImageUrlFromLogo(teams[teamCode].logo.url)[0];
+    if (teamInfo && teamInfo.logo) {
+      img.src = createImageUrlFromLogo(teamInfo.logo.url)[0];
+    }
 
     // title (team name and mascot)
     const title = document.createElement("div");
@@ -38,10 +44,10 @@ export default (game, displaySeeds = false, id = "info") => {
 
     // mascot
     const mascot = document.createElement("h2");
-    mascot.innerText = teams[teamCode].mascot;
+    mascot.innerText = teamInfo.mascot;
     title.appendChild(teamName);
     title.appendChild(mascot);
-    title.style.color = teams[teamCode].primaryColor;
+    title.style.color = teamInfo.primaryColor;
 
     // score
     const score = document.createElement("h1");

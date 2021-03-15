@@ -70,7 +70,7 @@ function drawBracket(bracketYear) {
     } else {
       bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
 
-      if (days === 0) {
+      if (days === 0 && (today.getHours() < 18)) {
         let msg = `
         <div style="text-align: center">
           <h3>The ${maxYear} bracket will be announced soon!</h3>

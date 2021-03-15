@@ -2,9 +2,9 @@ import {
   createImageUrlFromLogo,
   scaleDims,
   calcImageBox,
-  findTeamRegion
+  findTeamRegion,
+  findTeamByCode
 } from "./utils";
-import teams from "../data/teams";
 
 const TO_RADIANS = Math.PI / 180;
 
@@ -416,7 +416,7 @@ export default class Bracket {
     }
 
     return new Promise((resolve, reject) => {
-      const teamInfo = teams[team.code];
+      const teamInfo = findTeamByCode(team.code);
       const [centerX, centerY] = this.getCenter();
       const [radius, innerRadius] = this.getRadiiForRound(round);
       const slots = this.numEntries / Math.pow(2, round - 1);
@@ -494,58 +494,60 @@ export default class Bracket {
 
   fillChampGameSlot = (slot, team) => {
     return new Promise((resolve, reject) => {
-      const teamInfo = teams[team.code];
+      const teamInfo = findTeamByCode(team.code);
       const [centerX, centerY] = this.getCenter();
       const radius = this.getRadiiForRound(this.numRounds - 1)[0];
 
-      const img = new Image();
-      const [url, revoke] = createImageUrlFromLogo(teamInfo.logo.url);
+      if (teamInfo.logo) {
+        const img = new Image();
+        const [url, revoke] = createImageUrlFromLogo(teamInfo.logo.url);
 
-      img.addEventListener("load", () => {
-        revoke();
+        img.addEventListener("load", () => {
+          revoke();
 
-        this.ctx.save();
-        const path = new Path2D();
-        const startAngle = 90 * TO_RADIANS;
-        const endAngle = 270 * TO_RADIANS;
-        const antiClockwise = slot === 0;
-        path.arc(centerX, centerY, radius, startAngle, endAngle, antiClockwise);
-        path.closePath();
-        this.teamPaths.push({
-          path,
-          round: this.numRounds - 1,
-          teamCode: team.code
+          this.ctx.save();
+          const path = new Path2D();
+          const startAngle = 90 * TO_RADIANS;
+          const endAngle = 270 * TO_RADIANS;
+          const antiClockwise = slot === 0;
+          path.arc(centerX, centerY, radius, startAngle, endAngle, antiClockwise);
+          path.closePath();
+          this.teamPaths.push({
+            path,
+            round: this.numRounds - 1,
+            teamCode: team.code
+          });
+          this.ctx.fillStyle =
+              teamInfo.logo.background || teamInfo.primaryColor || "#FFFFFF";
+          this.ctx.stroke(path);
+          this.ctx.fill(path);
+          this.ctx.clip(path);
+
+          let size = Math.floor(radius * 1.5);
+          let x = centerX + size / 4;
+          let y = centerY - size / 2;
+          if (slot === 1) {
+            x -= size;
+          } else {
+            x -= size / 2;
+          }
+
+          this.ctx.drawImage(img, x, y, size, size);
+          this.ctx.restore();
+          resolve();
         });
-        this.ctx.fillStyle =
-          teamInfo.logo.background || teamInfo.primaryColor || "#FFFFFF";
-        this.ctx.stroke(path);
-        this.ctx.fill(path);
-        this.ctx.clip(path);
-
-        let size = Math.floor(radius * 1.5);
-        let x = centerX + size / 4;
-        let y = centerY - size / 2;
-        if (slot === 1) {
-          x -= size;
-        } else {
-          x -= size / 2;
-        }
-
-        this.ctx.drawImage(img, x, y, size, size);
-        this.ctx.restore();
-        resolve();
-      });
-      img.addEventListener("error", e => {
-        console.error("Error displaying image for " + teamInfo.name, e.message);
-        resolve(); // img failed to load, but don't interrupt the rest of the render
-      });
-      img.src = url;
+        img.addEventListener("error", e => {
+          console.error("Error displaying image for " + teamInfo.name, e.message);
+          resolve(); // img failed to load, but don't interrupt the rest of the render
+        });
+        img.src = url;
+      }
     });
   };
 
   fillChamp = team => {
     return new Promise((resolve, reject) => {
-      const teamInfo = teams[team.code];
+      const teamInfo = findTeamByCode(team.code);
       const [centerX, centerY] = this.getCenter();
 
       // make the champ game winner radius be a little less than half the radius of the champ game itself

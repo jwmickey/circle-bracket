@@ -1,3 +1,22 @@
+import teams from '../data/teams.json';
+
+export const findTeamByCode = code => {
+  if (teams.hasOwnProperty(code)) {
+    return teams[code];
+  }
+  // find by alternates
+  return Object.values(teams).find(t => {
+    if (t.hasOwnProperty('alternates')) {
+      if (typeof t.alternates == 'object') {
+        const alts = t.alternates.map(a => a.toLowerCase());
+        return alts.includes(code);
+      } else {
+        return t.alternates === code;
+      }
+    }
+  });
+}
+
 export const createImageUrlFromLogo = logo => {
   const file = require("../" + logo);
 
