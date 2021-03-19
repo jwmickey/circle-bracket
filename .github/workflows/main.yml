@@ -1,4 +1,4 @@
-name: Trigger Update Bracket
+name: Update Live Bracket
 on:
   schedule:
     - cron: '*/15 11-23 * 3,4 0,4,5,6'
