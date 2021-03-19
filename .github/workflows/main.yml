@@ -1,7 +1,7 @@
 name: Trigger Update Bracket
 on:
   schedule:
-    - cron: '*/30 11-23 * 3,4 0,4,5,6'
+    - cron: '*/15 11-23 * 3,4 0,4,5,6'
   jobs:
     update:
       name: Request Update Function
