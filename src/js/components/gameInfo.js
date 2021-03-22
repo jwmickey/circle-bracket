@@ -50,13 +50,13 @@ export default (game, displaySeeds = false, id = "info") => {
 
     // score
     const score = document.createElement("h1");
+    score.className = team.winner ? "score winner" : "score";
     if (game.isComplete && team.score === null) {
       score.innerText = team.winner ? 'W' : 'L';
     } else if (!game.isComplete && (new Date(game.date) > new Date())) {
       score.innerText = '';
     } else {
       score.innerText = team.score;
-      score.className = team.winner ? "score winner" : "score";
     }
 
     // append all child elements to wrap
