@@ -1,5 +1,4 @@
 import { createImageUrlFromLogo, findTeamByCode } from "../utils";
-import teams from "../../data/teams";
 
 export default (game, displaySeeds = false, id = "info") => {
   const root = document.createElement("div");
@@ -8,7 +7,7 @@ export default (game, displaySeeds = false, id = "info") => {
 
   for (const team of [game.home, game.away]) {
     const teamCode = team.code;
-    const teamInfo = findTeamByCode(teamCode);
+    const teamInfo = findTeamByCode(teamCode) || findTeamByCode('_tbd');
     if (!teamInfo) {
       continue;
     }
@@ -37,8 +36,8 @@ export default (game, displaySeeds = false, id = "info") => {
 
     // name and (optionally) seed
     const teamName = document.createElement("h1");
-    teamName.innerText = team.name;
-    if (displaySeeds) {
+    teamName.innerText = teamInfo.name;
+    if (displaySeeds && teamInfo.abbr !== 'TBD') {
       teamName.innerText += ` (${team.seed})`;
     }
 
@@ -51,8 +50,14 @@ export default (game, displaySeeds = false, id = "info") => {
 
     // score
     const score = document.createElement("h1");
-    score.innerText = team.score;
-    score.className = team.winner ? "score winner" : "score";
+    if (game.isComplete && team.score === null) {
+      score.innerText = team.winner ? 'W' : 'L';
+    } else if (!game.isComplete && (new Date(game.date) > new Date())) {
+      score.innerText = '';
+    } else {
+      score.innerText = team.score;
+      score.className = team.winner ? "score winner" : "score";
+    }
 
     // append all child elements to wrap
     wrap.appendChild(img);

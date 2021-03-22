@@ -1,4 +1,15 @@
 {
+  "_tbd": {
+    "name": "To Be Determined",
+    "abbr": "TBD",
+    "mascot": "Hoopers",
+    "primaryColor": "#AAAAAA",
+    "secondaryColor": "#FFFFFF",
+    "logo": {
+      "url": "img/logos/_tbd.svg",
+      "background": "#FFFFFF"
+    }
+  },
   "abilene-christian": {
     "name": "Abilene Christian",
     "abbr": "ABCH",
