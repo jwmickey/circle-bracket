@@ -11,7 +11,8 @@
     "serve": "serve dist",
     "fetch-teams": "node bin/fetch-teams.js",
     "fetch-bracket": "node -r esm bin/fetch-ncaa-bracket.js",
-    "fetch-sr-bracket": "node -r esm bin/fetch-sr-bracket.js"
+    "fetch-sr-bracket": "node -r esm bin/fetch-sr-bracket.js",
+    "update-logo": "node -r esm bin/update-logo.js"
   },
   "author": "Jody Mickey <jody.mickey@gmail.com>",
   "license": "ISC",
@@ -33,6 +34,7 @@
     "node-sass": "^4.14.1",
     "nodemon": "^1.19.4",
     "style-loader": "^0.23.1",
+    "svgo": "^2.3.0",
     "url-loader": "^1.1.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.12",
