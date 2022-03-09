@@ -50,6 +50,7 @@ function showGameDetails(game, displaySeeds = true) {
 // draw a bracket for a given year.  toggles loading on/off for start/finish
 function drawBracket(bracketYear) {
   wrap.classList.remove("error");
+  wrap.classList.remove("message");
   let showBracket = true;
   let bracketUrl = `/seasons/bracket-${bracketYear}.json`;
 
@@ -67,6 +68,8 @@ function drawBracket(bracketYear) {
       wrap.classList.add("message");
       wrap.getElementsByClassName("msg")[0].innerHTML = msg;
       showBracket = false;
+      bracket.setBracket(undefined);
+      bracket.render();
     } else {
       bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
 
