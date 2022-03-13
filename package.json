@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest",
     "start": "nodemon --watch \"webpack.*.js\" --exec \"webpack serve --mode development\"",
-    "build": "webpack --env production",
+    "build": "webpack --mode production",
     "serve": "serve dist",
     "fetch-teams": "node bin/fetch-teams.js",
     "fetch-bracket": "node -r esm bin/fetch-ncaa-bracket.js",
