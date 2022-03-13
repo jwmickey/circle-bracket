@@ -1,16 +1,16 @@
-import downloadjs from "downloadjs";
+import * as downloadjs from "downloadjs";
 import Bracket from "../bracket";
-import loadingGif from "../../img/loading.gif";
+import * as loadingGif from "../../img/loading.gif";
 
 const loadingImg = new Image();
 loadingImg.src = loadingGif;
 
-export default (size, text, bracket) => {
+export default (size: number, text: string, bracket: Bracket) => {
   let link = document.createElement("a");
   link.className = "download";
   link.innerText = text;
   link.href = "#";
-  link.addEventListener("click", function(e) {
+  link.addEventListener("click", function (e) {
     const prevText = this.innerText;
     this.childNodes[0].replaceWith(loadingImg);
     e.preventDefault();

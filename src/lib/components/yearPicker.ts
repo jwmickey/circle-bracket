@@ -1,4 +1,9 @@
-export default (minYear, maxYear, value, onChange) => {
+export default (
+  minYear: number,
+  maxYear: number,
+  value: number,
+  onChange?: EventListener
+): HTMLElement => {
   const years = Array.from(
     new Array(maxYear - minYear + 1),
     (x, i) => i + minYear
@@ -6,13 +11,13 @@ export default (minYear, maxYear, value, onChange) => {
 
   let element = document.createElement("select");
   element.id = "year-picker";
-  years.forEach(year => {
+  years.forEach((year) => {
     let option = document.createElement("option");
-    option.value = year;
-    option.text = year;
+    option.value = year.toString();
+    option.text = year.toString();
     element.appendChild(option);
   });
-  element.value = value;
+  element.value = value.toString();
   if (onChange) {
     element.addEventListener("change", onChange);
   }

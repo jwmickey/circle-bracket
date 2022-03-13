@@ -1,23 +1,27 @@
-import teams from '../data/teams.json';
+import { Team } from "./types/Team";
+import * as teamsData from "../data/teams.json";
+import { Game, RegionPosition } from "./types/Bracket";
 
-export const findTeamByCode = code => {
-  if (teams.hasOwnProperty(code)) {
+const teams: { [key: string]: Team } = teamsData;
+
+export const findTeamByCode = (code: string): Team => {
+  if (teams[code]) {
     return teams[code];
   }
   // find by alternates
-  return Object.values(teams).find(t => {
-    if (t.hasOwnProperty('alternates')) {
-      if (typeof t.alternates == 'object') {
-        const alts = t.alternates.map(a => a.toLowerCase());
+  return Object.values(teams).find((t: Team) => {
+    if (t.alternates) {
+      if (typeof t.alternates == "object") {
+        const alts = t.alternates.map((a) => a.toLowerCase());
         return alts.includes(code);
       } else {
         return t.alternates === code;
       }
     }
   });
-}
+};
 
-export const createImageUrlFromLogo = logo => {
+export const createImageUrlFromLogo = (logo: string): [string, Function] => {
   const file = require("../" + logo);
 
   // this is an image object
@@ -25,7 +29,7 @@ export const createImageUrlFromLogo = logo => {
     return [file, undefined];
   }
 
-  let url;
+  let url: string;
 
   // logo might be a path to a file or it could be a SVG XML code
   if (file.substring(0, 4) === "<svg") {
@@ -42,19 +46,29 @@ export const createImageUrlFromLogo = logo => {
   return [url, revoke];
 };
 
-export const scaleDims = (w, h, mW, mH) => {
+export const scaleDims = (
+  w: number,
+  h: number,
+  mW: number,
+  mH: number
+): [number, number] => {
   let scale = Math.min(mW, mH) / Math.max(w, h);
   return [Math.floor(w * scale), Math.floor(h * scale)];
 };
 
 export const calcImageBox = (
-  radius,
-  innerRadius,
-  centerX,
-  centerY,
-  slots,
-  slot
-) => {
+  radius: number,
+  innerRadius: number,
+  centerX: number,
+  centerY: number,
+  slots: number,
+  slot: number
+): {
+  x: number;
+  y: number;
+  maxWidth: number;
+  maxHeight: number;
+} => {
   const quadrant = slot / slots;
   const t1 = ((Math.PI * 2) / slots) * slot;
   const t2 = ((Math.PI * 2) / slots) * (slot + 1);
@@ -102,19 +116,22 @@ export const calcImageBox = (
   return { x: x1, y: y1, maxWidth, maxHeight };
 };
 
-export const findTeamRegion = (allGames, teamCode) => {
-  return allGames.find(game => {
+export const findTeamRegion = (
+  allGames: Game[],
+  teamCode: string
+): RegionPosition => {
+  return allGames.find((game) => {
     return game.home.code === teamCode || game.away.code === teamCode;
   }).region;
 };
 
-export const getSelectionSunday = year => {
+export const getSelectionSunday = (year: number): Date => {
   const date = getTournamentStart(year);
   date.setDate(date.getDate() - 4);
   return date;
 };
 
-export const getTournamentStart = year => {
+export const getTournamentStart = (year: number): Date => {
   let date = new Date(year, 2, 1),
     add = ((4 - date.getDay() + 7) % 7) + 2 * 7;
   date.setDate(1 + add);

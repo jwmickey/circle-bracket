@@ -8,11 +8,14 @@ const parts = require("./webpack.parts");
 
 const commonConfig = merge([
   {
+    resolve: {
+      extensions: [".tsx", ".ts", ".js"],
+    },
     plugins: [
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
         title: "Circular Tournament Bracket",
-        template: "index.html"
+        template: "index.html",
       }),
       new CopyWebpackPlugin({
         patterns: [
@@ -23,38 +26,39 @@ const commonConfig = merge([
             transform(content, path) {
               // encode string as json and re-convert to minified string
               return Promise.resolve(
-                  JSON.stringify(JSON.parse(content.toString()))
+                JSON.stringify(JSON.parse(content.toString()))
               );
-            }
+            },
           },
           {
             from: "favicon",
             to: "",
             force: true,
-          }
-        ]
-      })
+          },
+        ],
+      }),
     ],
     entry: {
-      index: "./src/index.js"
+      index: "./src/index.ts",
     },
     output: {
       chunkFilename: "[name].bundle.js",
       path: __dirname + "/dist"
     }
   },
+  parts.typescript(),
   parts.loadJS(),
   parts.loadCSS(),
-  parts.loadLogos()
+  parts.loadLogos(),
 ]);
 
 const productionConfig = merge([
   parts.loadImages({
     options: {
       limit: 15000,
-      name: "[name].[ext]"
+      name: "[name].[ext]",
     },
-    exclude: [/logos/]
+    exclude: [/logos/],
   }),
   {
     devtool: "source-map",
@@ -68,8 +72,8 @@ const productionConfig = merge([
 const developmentConfig = merge([
   parts.devServer({ host: "0.0.0.0" }),
   parts.loadImages({
-    exclude: [/logos/]
-  })
+    exclude: [/logos/],
+  }),
 ]);
 
 module.exports = () => {

@@ -1,14 +1,15 @@
 import axios from "axios";
-import canvas from "./js/components/canvas";
-import yearPicker from "./js/components/yearPicker";
-import gameInfo from "./js/components/gameInfo";
-import downloadLink from "./js/components/downloadLink";
-import { aboutLink, aboutOverlay } from "./js/components/about";
-import Bracket from "./js/bracket";
-import { getSelectionSunday } from "./js/utils";
+import canvas from "./lib/components/canvas";
+import yearPicker from "./lib/components/yearPicker";
+import gameInfo from "./lib/components/gameInfo";
+import downloadLink from "./lib/components/downloadLink";
+import { aboutLink, aboutOverlay } from "./lib/components/about";
+import Bracket from "./lib/bracket";
+import { getSelectionSunday } from "./lib/utils";
 import "./styles/style.sass";
+import { Game } from "./lib/types/Bracket";
 
-const hash = new URL(document.location).hash;
+const hash = window.location.hash;
 const minYear = 1956;
 const maxYear = new Date().getFullYear();
 const options = hash.substring(1).split("/");
@@ -18,15 +19,19 @@ let year = initialYear;
 // pre-determine canvas size and scale for high resolution displays
 const size = Math.min(window.innerWidth, window.innerHeight, 1600);
 const scale = Math.ceil(window.devicePixelRatio);
-const wrap = document.body.appendChild(canvas(size * scale, size));
+const cvs = canvas(size * scale, size);
+const wrap = document.body.appendChild(cvs);
 
 // bracket instance
-const bracket = new Bracket(wrap.childNodes[0], { showGameDetails, scale });
+const bracket = new Bracket(cvs.childNodes[0] as HTMLCanvasElement, {
+  showGameDetails,
+  scale,
+});
 drawBracket(year);
 
 // display game info when clicked
-let gameInfoElem;
-function showGameDetails(game, displaySeeds = true) {
+let gameInfoElem: HTMLElement;
+function showGameDetails(game: Game, displaySeeds = true) {
   if (gameInfoElem) {
     gameInfoElem.remove();
   }
@@ -38,17 +43,18 @@ function showGameDetails(game, displaySeeds = true) {
     });
     gameInfoElem = document.body.appendChild(info);
 
-    if (window.gtag) {
-      gtag("event", "view", {
+    if (window.hasOwnProperty("gtag")) {
+      // @ts-ignore
+      window.gtag("event", "view", {
         event_category: "Game",
-        event_label: `${year} - ${game.home.name} vs. ${game.away.name}`
+        event_label: `${year} - ${game.home.name} vs. ${game.away.name}`,
       });
     }
   }
 }
 
 // draw a bracket for a given year.  toggles loading on/off for start/finish
-function drawBracket(bracketYear) {
+function drawBracket(bracketYear: number) {
   wrap.classList.remove("error");
   wrap.classList.remove("message");
   let showBracket = true;
@@ -71,9 +77,9 @@ function drawBracket(bracketYear) {
       bracket.setBracket(undefined);
       bracket.render();
     } else {
-      bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
+      bracketUrl = "https://circlebracket.s3.amazonaws.com/live-bracket.json";
 
-      if (days === 0 && (today.getHours() < 18)) {
+      if (days === 0 && today.getHours() < 18) {
         let msg = `
         <div style="text-align: center">
           <h3>The ${maxYear} bracket will be announced soon!</h3>
@@ -89,15 +95,15 @@ function drawBracket(bracketYear) {
     wrap.classList.add("loading");
     axios
       .get(bracketUrl)
-      .then(res => {
+      .then((res) => {
         bracket.setBracket(res.data);
         return bracket.render();
       })
-      .catch(err => {
+      .catch((err) => {
         console.error(err);
         let msg = `Sorry, could not create a bracket for year ${bracketYear}`;
         wrap.classList.add("error");
-        wrap.getElementsByClassName("msg")[0].innerText = msg;
+        wrap.getElementsByClassName("msg").item(0).textContent = msg;
       })
       .finally(() => {
         wrap.classList.remove("loading");
@@ -107,15 +113,16 @@ function drawBracket(bracketYear) {
 
 // add year chooser and event handler for redrawing bracket on change
 document.body.appendChild(
-  yearPicker(minYear, maxYear, initialYear, e => {
-    year = parseInt(e.target.value);
+  yearPicker(minYear, maxYear, initialYear, (e: Event) => {
+    year = parseInt((e.target as HTMLInputElement).value);
     history.replaceState(null, year.toString(), `#${year}`);
     drawBracket(year);
 
-    if (window.gtag) {
+    if (window.hasOwnProperty("gtag")) {
+      // @ts-ignore
       gtag("event", "view", {
         event_category: "Bracket",
-        event_label: year
+        event_label: year,
       });
     }
   })
@@ -133,4 +140,3 @@ document.body.appendChild(links);
 
 // add about overlay
 document.body.appendChild(aboutOverlay());
-

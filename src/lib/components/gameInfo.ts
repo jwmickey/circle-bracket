@@ -1,13 +1,14 @@
 import { createImageUrlFromLogo, findTeamByCode } from "../utils";
+import { Game } from "../types/Bracket";
 
-export default (game, displaySeeds = false, id = "info") => {
+export default (game: Game, displaySeeds = false, id = "info"): HTMLElement => {
   const root = document.createElement("div");
   root.id = id;
   root.className = "game-info";
 
   for (const team of [game.home, game.away]) {
     const teamCode = team.code;
-    const teamInfo = findTeamByCode(teamCode) || findTeamByCode('_tbd');
+    const teamInfo = findTeamByCode(teamCode) || findTeamByCode("_tbd");
     if (!teamInfo) {
       continue;
     }
@@ -18,11 +19,11 @@ export default (game, displaySeeds = false, id = "info") => {
 
     // logo, prevent drag or context menu as a show of good faith towards logo owners
     const img = document.createElement("img");
-    img.addEventListener("contextmenu", function(e) {
+    img.addEventListener("contextmenu", function (e) {
       e.preventDefault();
       return false;
     });
-    img.addEventListener("mousedown", function(e) {
+    img.addEventListener("mousedown", function (e) {
       e.preventDefault();
       return false;
     });
@@ -37,7 +38,7 @@ export default (game, displaySeeds = false, id = "info") => {
     // name and (optionally) seed
     const teamName = document.createElement("h1");
     teamName.innerText = teamInfo.name;
-    if (displaySeeds && teamInfo.abbr !== 'TBD') {
+    if (displaySeeds && teamInfo.abbr !== "TBD") {
       teamName.innerText += ` (${team.seed})`;
     }
 
@@ -52,11 +53,11 @@ export default (game, displaySeeds = false, id = "info") => {
     const score = document.createElement("h1");
     score.className = team.winner ? "score winner" : "score";
     if (game.isComplete && team.score === null) {
-      score.innerText = team.winner ? 'W' : 'L';
-    } else if (!game.isComplete && (new Date(game.date) > new Date())) {
-      score.innerText = '';
+      score.innerText = team.winner ? "W" : "L";
+    } else if (!game.isComplete && new Date(game.date) > new Date()) {
+      score.innerText = "";
     } else {
-      score.innerText = team.score;
+      score.innerText = team.score.toString();
     }
 
     // append all child elements to wrap

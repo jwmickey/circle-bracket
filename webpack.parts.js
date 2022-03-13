@@ -1,8 +1,20 @@
 exports.devServer = ({ host, port } = {}) => ({
   devServer: {
     host,
-    port
-  }
+    port,
+  },
+});
+
+exports.typescript = () => ({
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        use: "ts-loader",
+        exclude: /node_modules/,
+      },
+    ],
+  },
 });
 
 exports.loadJS = () => ({
@@ -14,12 +26,12 @@ exports.loadJS = () => ({
         use: {
           loader: "babel-loader",
           options: {
-            presets: ["@babel/preset-env"]
-          }
-        }
-      }
-    ]
-  }
+            presets: ["@babel/preset-env"],
+          },
+        },
+      },
+    ],
+  },
 });
 
 exports.loadImages = ({ include, exclude, options } = {}) => ({
@@ -54,7 +66,7 @@ exports.loadCSS = ({ include, exclude } = {}) => ({
         include,
         exclude,
 
-        use: ["style-loader", "css-loader"]
+        use: ["style-loader", "css-loader"],
       },
       {
         test: /\.(scss|sass)$/,
@@ -63,10 +75,10 @@ exports.loadCSS = ({ include, exclude } = {}) => ({
           "css-loader",
           {
             loader: "fast-sass-loader",
-            options: {}
-          }
-        ]
-      }
-    ]
-  }
+            options: {},
+          },
+        ],
+      },
+    ],
+  },
 });

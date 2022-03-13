@@ -1,4 +1,8 @@
-export default (size, cssSize, id = "canvas") => {
+export default (
+  size: number,
+  cssSize: number,
+  id = "canvas"
+): HTMLDivElement => {
   const wrap = document.createElement("div");
   wrap.className = "canvas-wrap";
   const canvas = document.createElement("canvas");

@@ -1,16 +1,16 @@
-export const aboutLink = () => {
+export const aboutLink = (): HTMLElement => {
   let element = document.createElement("a");
   element.className = "about-link";
   element.innerText = "About";
   element.href = "#";
-  element.addEventListener("click", e => {
+  element.addEventListener("click", (e) => {
     e.preventDefault();
     document.getElementById("about").classList.remove("hide");
   });
   return element;
 };
 
-export const aboutOverlay = () => {
+export const aboutOverlay = (): HTMLElement => {
   let element = document.createElement("div");
   element.id = "about";
   element.className = "about hide";
@@ -18,7 +18,7 @@ export const aboutOverlay = () => {
     "<p>This is an educational website with the intention of presenting historical data in a unique format.</p> " +
     "<p>The logos used on this website are owned by their respective institutions.  No images displayed or generated may be used for commercial purposes.</p>" +
     "<p>This site is not affiliated with the NCAA or any of its members.</p>";
-  element.addEventListener("click", e => {
+  element.addEventListener("click", (e) => {
     e.preventDefault();
     element.classList.add("hide");
   });
