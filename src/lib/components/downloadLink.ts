@@ -1,4 +1,4 @@
-import * as downloadjs from "downloadjs";
+import download from "downloadjs";
 import Bracket from "../bracket";
 import * as loadingGif from "../../img/loading.gif";
 
@@ -24,7 +24,7 @@ export default (size: number, text: string, bracket: Bracket) => {
       .render()
       .then(() => {
         const image = dlBracket.getDataUrl("png");
-        downloadjs(
+        download(
           image,
           `circle-bracket-${sourceData.year}-${text.toLowerCase()}.png`,
           "image/png"

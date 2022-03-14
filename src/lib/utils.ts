@@ -122,7 +122,7 @@ export const findTeamRegion = (
 ): RegionPosition => {
   return allGames.find((game) => {
     return game.home.code === teamCode || game.away.code === teamCode;
-  }).region;
+  })?.region;
 };
 
 export const getSelectionSunday = (year: number): Date => {
