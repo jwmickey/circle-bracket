@@ -86,7 +86,7 @@ export default (game: Game, displaySeeds = false, id = "info"): HTMLElement => {
     );
     const day = date.getDate();
     const year = date.getFullYear();
-    let dateElem = document.createElement("p");
+    const dateElem = document.createElement("p");
     dateElem.innerText = `${month} ${day}, ${year}`;
     meta.appendChild(dateElem);
   }

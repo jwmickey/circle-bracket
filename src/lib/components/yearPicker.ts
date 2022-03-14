@@ -9,10 +9,10 @@ export default (
     (x, i) => i + minYear
   ).reverse();
 
-  let element = document.createElement("select");
+  const element = document.createElement("select");
   element.id = "year-picker";
   years.forEach((year) => {
-    let option = document.createElement("option");
+    const option = document.createElement("option");
     option.value = year.toString();
     option.text = year.toString();
     element.appendChild(option);

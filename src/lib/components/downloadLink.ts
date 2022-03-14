@@ -6,7 +6,7 @@ const loadingImg = new Image();
 loadingImg.src = loadingGif;
 
 export default (size: number, text: string, bracket: Bracket) => {
-  let link = document.createElement("a");
+  const link = document.createElement("a");
   link.className = "download";
   link.innerText = text;
   link.href = "#";

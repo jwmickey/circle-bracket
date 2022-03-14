@@ -49,7 +49,7 @@ export interface BracketSettings {
   gridStrokeWidth: number;
   gridStrokeStyle: string;
   scale: number;
-  showGameDetails: Function;
+  showGameDetails(game: Game, displaySeeds?: boolean): void;
 }
 
 export interface TeamPath {

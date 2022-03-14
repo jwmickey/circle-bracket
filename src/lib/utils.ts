@@ -21,7 +21,8 @@ export const findTeamByCode = (code: string): Team => {
   });
 };
 
-export const createImageUrlFromLogo = (logo: string): [string, Function] => {
+export const createImageUrlFromLogo = (logo: string): [string, () => void] => {
+  /* eslint-disable @typescript-eslint/no-var-requires */
   const file = require("../" + logo);
 
   // this is an image object
@@ -52,7 +53,7 @@ export const scaleDims = (
   mW: number,
   mH: number
 ): [number, number] => {
-  let scale = Math.min(mW, mH) / Math.max(w, h);
+  const scale = Math.min(mW, mH) / Math.max(w, h);
   return [Math.floor(w * scale), Math.floor(h * scale)];
 };
 
@@ -132,7 +133,7 @@ export const getSelectionSunday = (year: number): Date => {
 };
 
 export const getTournamentStart = (year: number): Date => {
-  let date = new Date(year, 2, 1),
+  const date = new Date(year, 2, 1),
     add = ((4 - date.getDay() + 7) % 7) + 2 * 7;
   date.setDate(1 + add);
   return date;

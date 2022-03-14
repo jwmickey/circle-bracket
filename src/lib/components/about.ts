@@ -1,5 +1,5 @@
 export const aboutLink = (): HTMLElement => {
-  let element = document.createElement("a");
+  const element = document.createElement("a");
   element.className = "about-link";
   element.innerText = "About";
   element.href = "#";
@@ -11,7 +11,7 @@ export const aboutLink = (): HTMLElement => {
 };
 
 export const aboutOverlay = (): HTMLElement => {
-  let element = document.createElement("div");
+  const element = document.createElement("div");
   element.id = "about";
   element.className = "about hide";
   element.innerHTML =

@@ -33,7 +33,7 @@ export const DEFAULTS: BracketSettings = {
   gridStrokeWidth: 2,
   gridStrokeStyle: "#fff",
   scale: 1,
-  showGameDetails: () => {},
+  showGameDetails: () => undefined,
 };
 
 export default class Bracket {
@@ -63,7 +63,7 @@ export default class Bracket {
       const x = event.clientX - rect.left; //x position within the element.
       const y = event.clientY - rect.top; //y position within the element.
 
-      for (let entry of this.teamPaths) {
+      for (const entry of this.teamPaths) {
         if (this.ctx.isPointInPath(entry.path, x * scale, y * scale)) {
           const { teamCode, round } = entry;
           const game = this.bracketData.games.find(
@@ -74,8 +74,7 @@ export default class Bracket {
           if (game) {
             return this.settings.showGameDetails(
               game,
-              !this.bracketData.hasOwnProperty("displaySeeds") ||
-                this.bracketData.displaySeeds === true
+              this.bracketData.displaySeeds ?? true
             );
           }
         }
@@ -96,10 +95,10 @@ export default class Bracket {
   };
 
   getRadiiForRound = (round: number) => {
-    let center = Math.min(...this.getCenter());
+    const center = Math.min(...this.getCenter());
     let radius = Math.floor(center - this.margin - this.titleHeight);
     let innerRadius = 0;
-    let source = this.numRounds === 7 ? roundWidths64 : roundWidths32;
+    const source = this.numRounds === 7 ? roundWidths64 : roundWidths32;
 
     for (let i = 1; i < round; i++) {
       radius -= Math.floor(center * source[i]);
@@ -151,17 +150,14 @@ export default class Bracket {
     this.drawTitle();
     this.drawRegionNames();
 
-    if (this.bracketData.hasOwnProperty("status")) {
+    if (this.bracketData.status) {
       if (["postponed", "canceled"].includes(this.bracketData.status)) {
         this.drawStatusMessage();
         return;
       }
     }
 
-    if (
-      !this.bracketData.hasOwnProperty("displaySeeds") ||
-      this.bracketData.displaySeeds
-    ) {
+    if ((this.bracketData.displaySeeds ?? true)) {
       this.drawSeeds();
     }
 
@@ -178,7 +174,7 @@ export default class Bracket {
 
     const dataset = this.bracketData.games.filter((game) => game.round > 0);
 
-    let slotPromises = [];
+    const slotPromises = [];
     for (let i = 0; i < dataset.length; i++) {
       const game = dataset[i];
 
@@ -259,11 +255,11 @@ export default class Bracket {
       // inner lines, skip on last ring
       if (i < this.numRounds - 1) {
         for (let j = 0; j < slots; j++) {
-          let t1 = ((Math.PI * 2) / slots) * j;
-          let x1 = Math.floor(radius * Math.cos(t1));
-          let y1 = Math.floor(radius * Math.sin(t1));
-          let x2 = Math.floor(innerRadius * Math.cos(t1));
-          let y2 = Math.floor(innerRadius * Math.sin(t1));
+          const t1 = ((Math.PI * 2) / slots) * j;
+          const x1 = Math.floor(radius * Math.cos(t1));
+          const y1 = Math.floor(radius * Math.sin(t1));
+          const x2 = Math.floor(innerRadius * Math.cos(t1));
+          const y2 = Math.floor(innerRadius * Math.sin(t1));
           path.moveTo(x1, y1);
           path.lineTo(x2, y2);
         }
@@ -328,11 +324,11 @@ export default class Bracket {
         continue;
       }
 
-      let t1 = ((Math.PI * 2) / this.numEntries) * i;
-      let t2 = ((Math.PI * 2) / this.numEntries) * (i + 1);
-      let t = t1 + (t2 - t1) / 2;
-      let x = Math.floor(radius * Math.cos(t));
-      let y = Math.floor(radius * Math.sin(t) + 7);
+      const t1 = ((Math.PI * 2) / this.numEntries) * i;
+      const t2 = ((Math.PI * 2) / this.numEntries) * (i + 1);
+      const t = t1 + (t2 - t1) / 2;
+      const x = Math.floor(radius * Math.cos(t));
+      const y = Math.floor(radius * Math.sin(t) + 7);
       this.ctx.fillText(seed.toString(), x, y);
     }
 
@@ -360,9 +356,7 @@ export default class Bracket {
     this.ctx.textAlign = "center";
     this.ctx.font = `${this.fontSize * 2.5}px Arial, sans-serif`;
     this.ctx.fillText(
-      this.bracketData.hasOwnProperty("notes")
-        ? this.bracketData.notes
-        : this.bracketData.status,
+      this.bracketData.notes ?? this.bracketData.status,
       x,
       y,
       this.cvs.width - this.margin
@@ -425,7 +419,7 @@ export default class Bracket {
       return this.fillChampGameSlot(slot, team);
     }
 
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       const teamInfo = findTeamByCode(team.code);
       const [centerX, centerY] = this.getCenter();
       const [radius, innerRadius] = this.getRadiiForRound(round);
@@ -448,7 +442,7 @@ export default class Bracket {
       img.addEventListener("load", () => {
         revoke();
 
-        let [width, height] = scaleDims(
+        const [width, height] = scaleDims(
           img.width,
           img.height,
           maxWidth,
@@ -459,8 +453,8 @@ export default class Bracket {
         const angle1 = degrees * slot;
         const angle2 = angle1 + degrees;
 
-        let imgX = x + xOffset;
-        let imgY = y + yOffset;
+        const imgX = x + xOffset;
+        const imgY = y + yOffset;
 
         // create path for background and logo clip area
         this.ctx.save();
@@ -503,7 +497,7 @@ export default class Bracket {
   };
 
   fillChampGameSlot = (slot: number, team: Contestant): Promise<void> => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       const teamInfo = findTeamByCode(team.code);
       const [centerX, centerY] = this.getCenter();
       const radius = this.getRadiiForRound(this.numRounds - 1)[0];
@@ -540,9 +534,9 @@ export default class Bracket {
           this.ctx.fill(path);
           this.ctx.clip(path);
 
-          let size = Math.floor(radius * 1.5);
+          const size = Math.floor(radius * 1.5);
           let x = centerX + size / 4;
-          let y = centerY - size / 2;
+          const y = centerY - size / 2;
           if (slot === 1) {
             x -= size;
           } else {
@@ -566,7 +560,7 @@ export default class Bracket {
   };
 
   fillChamp = (team: Contestant): Promise<void> => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       const teamInfo = findTeamByCode(team.code);
       const [centerX, centerY] = this.getCenter();
 
@@ -580,9 +574,9 @@ export default class Bracket {
         revoke();
 
         // image size should be much larger than the inner circle
-        let size = Math.floor(radius * 4);
-        let posX = centerX - size / 2;
-        let posY = centerY - size / 2;
+        const size = Math.floor(radius * 4);
+        const posX = centerX - size / 2;
+        const posY = centerY - size / 2;
         this.ctx.save();
 
         // make vacated wins be displayed in grayscale.  shame, shame!
