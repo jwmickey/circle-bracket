@@ -1,10 +1,18 @@
 [dev]
-  command = "npm start"
-  publish = "dist"
-  port = 3000
-  functionsPort = 34567
+command = "npm start"
+publish = "dist"
+port = 3000
+functionsPort = 34567
 
 [build]
-  command = "npm run-script build"
-  publish = "dist"
-  functions = "functions"
+command = "npm run-script build"
+publish = "dist"
+functions = "functions"
+  [build.environment]
+  CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
+  TERM = "xterm"
+
+[[plugins]]
+package = "netlify-plugin-cypress"
+  [plugins.inputs]
+  record = true
