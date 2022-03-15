@@ -1,4 +1,5 @@
 {
   "baseUrl": "https://circlebracket.netlify.app",
-  "projectId": "etekt8"
+  "projectId": "etekt8",
+  "browser": "chrome"
 }
