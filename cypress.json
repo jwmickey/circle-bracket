@@ -1,5 +1,7 @@
 {
   "baseUrl": "https://circlebracket.netlify.app",
   "projectId": "etekt8",
-  "browser": "chrome"
+  "browser": "chrome",
+  "viewportWidth": 1280,
+  "viewportHeight": 800
 }
