@@ -5,3 +5,5 @@ vendor
 /cache
 # Local Netlify folder
 .netlify
+cypress.env.json
+.env
