@@ -1,7 +1,8 @@
-const merge = require("webpack-merge");
+const { merge } = require("webpack-merge");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-const CleanWebpackPlugin = require("clean-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 
 const parts = require("./webpack.parts");
 
@@ -38,7 +39,8 @@ const commonConfig = merge([
       index: "./src/index.js"
     },
     output: {
-      chunkFilename: "[name].bundle.js"
+      chunkFilename: "[name].bundle.js",
+      path: __dirname + "/dist"
     }
   },
   parts.loadJS(),
@@ -55,8 +57,12 @@ const productionConfig = merge([
     exclude: [/logos/]
   }),
   {
-    devtool: "source-map"
-  }
+    devtool: "source-map",
+    optimization: {
+      minimize: true,
+      minimizer: [new TerserPlugin()],
+    }
+  },
 ]);
 
 const developmentConfig = merge([
@@ -66,10 +72,10 @@ const developmentConfig = merge([
   })
 ]);
 
-module.exports = mode => {
-  if (mode === "production") {
-    return merge(commonConfig, productionConfig, { mode });
+module.exports = () => {
+  if (process.env === "production") {
+    return merge(commonConfig, productionConfig, { mode: 'production' });
   }
 
-  return merge(commonConfig, developmentConfig, { mode });
+  return merge(commonConfig, developmentConfig, { mode: 'development' });
 };

@@ -22,7 +22,7 @@ export const createImageUrlFromLogo = logo => {
 
   // this is an image object
   if (typeof file !== "string") {
-    return file;
+    return [file, undefined];
   }
 
   let url;
