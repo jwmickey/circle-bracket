@@ -1,7 +1,5 @@
 exports.devServer = ({ host, port } = {}) => ({
   devServer: {
-    stats: "errors-only",
-    overlay: true,
     host,
     port
   }
@@ -29,12 +27,7 @@ exports.loadImages = ({ include, exclude, options } = {}) => ({
     rules: [
       {
         test: /\.(png|jpg|gif)$/,
-        include,
-        exclude,
-        use: {
-          loader: "url-loader",
-          options
-        }
+        type: 'asset/resource'
       }
     ]
   }
@@ -46,14 +39,7 @@ exports.loadLogos = (options = {}) => {
       rules: [
         {
           test: /logos\/.*\.(svg|png)$/,
-          use: [
-            {
-              loader: "file-loader",
-              options: {
-                outputPath: "logos"
-              }
-            }
-          ]
+          type: 'asset/resource'
         }
       ]
     }
