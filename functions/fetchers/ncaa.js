@@ -84,6 +84,10 @@ function getDataFile(year, dataType, useCache) {
   const cacheFile = path.join(cacheDir, `${dataType}-${year}.json`);
 
   return new Promise((resolve, reject) => {
+    if (!fs.existsSync(cacheDir)) {
+      fs.mkdirSync(cacheDir);
+    }
+
     if (useCache && fs.existsSync(cacheFile)) {
       const data = fs.readFileSync(cacheFile);
       resolve(JSON.parse(data));

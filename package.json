@@ -10,7 +10,7 @@
     "build": "webpack --env production",
     "serve": "serve dist",
     "fetch-teams": "node bin/fetch-teams.js",
-    "fetch-bracket": "node -r esm bin/fetch-ncaa-bracket.js",
+    "fetch-bracket": "node bin/fetch-ncaa-bracket.js",
     "fetch-sr-bracket": "node -r esm bin/fetch-sr-bracket.js",
     "update-logo": "node -r esm bin/update-logo.js",
     "preinstall": "npx npm-force-resolutions"
@@ -35,7 +35,6 @@
     "html-webpack-plugin": "^5.5.0",
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.21",
-    "npm-force-resolutions": "^0.0.10",
     "serve": "^14.2.0",
     "style-loader": "^1.3.0",
     "svgo": "^2.3.0",

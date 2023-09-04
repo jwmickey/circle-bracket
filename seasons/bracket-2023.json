@@ -1,0 +1,1499 @@
+{
+	"format": "ncaa",
+	"updated": "2023-09-04T00:29:58.838Z",
+	"year": 2023,
+	"regions": [
+		{
+			"name": "South",
+			"position": "TL"
+		},
+		{
+			"name": "East",
+			"position": "BL"
+		},
+		{
+			"name": "Midwest",
+			"position": "TR"
+		},
+		{
+			"name": "West",
+			"position": "BR"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Texas A&M-CC",
+				"code": "am-corpus-chris",
+				"seed": 16,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "SE Missouri St.",
+				"code": "southeast-mo-st",
+				"seed": 16,
+				"score": 71,
+				"winner": false
+			},
+			"date": "03/14/2023",
+			"location": "",
+			"region": "",
+			"round": 0,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/14/southeast-mo-st-am-corpus-chris"
+		},
+		{
+			"home": {
+				"name": "Texas Southern",
+				"code": "texas-southern",
+				"seed": 16,
+				"score": 61,
+				"winner": false
+			},
+			"away": {
+				"name": "FDU",
+				"code": "fairleigh-dickinson",
+				"seed": 16,
+				"score": 84,
+				"winner": true
+			},
+			"date": "03/15/2023",
+			"location": "",
+			"region": "",
+			"round": 0,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/15/fairleigh-dickinson-texas-southern"
+		},
+		{
+			"home": {
+				"name": "Arizona St.",
+				"code": "arizona-st",
+				"seed": 11,
+				"score": 98,
+				"winner": true
+			},
+			"away": {
+				"name": "Nevada",
+				"code": "nevada",
+				"seed": 11,
+				"score": 73,
+				"winner": false
+			},
+			"date": "03/15/2023",
+			"location": "",
+			"region": "",
+			"round": 0,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/15/nevada-arizona-st"
+		},
+		{
+			"home": {
+				"name": "Mississippi St.",
+				"code": "mississippi-st",
+				"seed": 11,
+				"score": 59,
+				"winner": false
+			},
+			"away": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 11,
+				"score": 60,
+				"winner": true
+			},
+			"date": "03/14/2023",
+			"location": "",
+			"region": "",
+			"round": 0,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/14/pittsburgh-mississippi-st"
+		},
+		{
+			"home": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 1,
+				"score": 96,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas A&M-CC",
+				"code": "am-corpus-chris",
+				"seed": 16,
+				"score": 75,
+				"winner": false
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/am-corpus-chris-alabama"
+		},
+		{
+			"home": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 8,
+				"score": 67,
+				"winner": true
+			},
+			"away": {
+				"name": "West Virginia",
+				"code": "west-virginia",
+				"seed": 9,
+				"score": 65,
+				"winner": false
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/west-virginia-maryland"
+		},
+		{
+			"home": {
+				"name": "San Diego St.",
+				"code": "san-diego-st",
+				"seed": 5,
+				"score": 63,
+				"winner": true
+			},
+			"away": {
+				"name": "Col of Charleston",
+				"code": "col-of-charleston",
+				"seed": 12,
+				"score": 57,
+				"winner": false
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/col-of-charleston-san-diego-st"
+		},
+		{
+			"home": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 4,
+				"score": 67,
+				"winner": false
+			},
+			"away": {
+				"name": "Furman",
+				"code": "furman",
+				"seed": 13,
+				"score": 68,
+				"winner": true
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/furman-virginia"
+		},
+		{
+			"home": {
+				"name": "Creighton",
+				"code": "creighton",
+				"seed": 6,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 11,
+				"score": 63,
+				"winner": false
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/north-carolina-st-creighton"
+		},
+		{
+			"home": {
+				"name": "Baylor",
+				"code": "baylor",
+				"seed": 3,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "UCSB",
+				"code": "uc-santa-barbara",
+				"seed": 14,
+				"score": 56,
+				"winner": false
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/uc-santa-barbara-baylor"
+		},
+		{
+			"home": {
+				"name": "Missouri",
+				"code": "missouri",
+				"seed": 7,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Utah St.",
+				"code": "utah-st",
+				"seed": 10,
+				"score": 65,
+				"winner": false
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/utah-st-missouri"
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 2,
+				"score": 55,
+				"winner": false
+			},
+			"away": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 15,
+				"score": 59,
+				"winner": true
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/princeton-arizona"
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 1,
+				"score": 58,
+				"winner": false
+			},
+			"away": {
+				"name": "FDU",
+				"code": "fairleigh-dickinson",
+				"seed": 16,
+				"score": 63,
+				"winner": true
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/fairleigh-dickinson-purdue"
+		},
+		{
+			"home": {
+				"name": "Memphis",
+				"code": "memphis",
+				"seed": 8,
+				"score": 65,
+				"winner": false
+			},
+			"away": {
+				"name": "FAU",
+				"code": "fla-atlantic",
+				"seed": 9,
+				"score": 66,
+				"winner": true
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/fla-atlantic-memphis"
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 5,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "Oral Roberts",
+				"code": "oral-roberts",
+				"seed": 12,
+				"score": 51,
+				"winner": false
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/oral-roberts-duke"
+		},
+		{
+			"home": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 4,
+				"score": 58,
+				"winner": true
+			},
+			"away": {
+				"name": "Louisiana",
+				"code": "la-lafayette",
+				"seed": 13,
+				"score": 55,
+				"winner": false
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/la-lafayette-tennessee"
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 6,
+				"score": 61,
+				"winner": true
+			},
+			"away": {
+				"name": "Providence",
+				"code": "providence",
+				"seed": 11,
+				"score": 53,
+				"winner": false
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/providence-kentucky"
+		},
+		{
+			"home": {
+				"name": "Kansas St.",
+				"code": "kansas-st",
+				"seed": 3,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "Montana St.",
+				"code": "montana-st",
+				"seed": 14,
+				"score": 65,
+				"winner": false
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/montana-st-kansas-st"
+		},
+		{
+			"home": {
+				"name": "Michigan St.",
+				"code": "michigan-st",
+				"seed": 7,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "USC",
+				"code": "southern-california",
+				"seed": 10,
+				"score": 62,
+				"winner": false
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/southern-california-michigan-st"
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 2,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Vermont",
+				"code": "vermont",
+				"seed": 15,
+				"score": 61,
+				"winner": false
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/vermont-marquette"
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 1,
+				"score": 63,
+				"winner": true
+			},
+			"away": {
+				"name": "N Kentucky",
+				"code": "northern-ky",
+				"seed": 16,
+				"score": 52,
+				"winner": false
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/northern-ky-houston"
+		},
+		{
+			"home": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 8,
+				"score": 75,
+				"winner": false
+			},
+			"away": {
+				"name": "Auburn",
+				"code": "auburn",
+				"seed": 9,
+				"score": 83,
+				"winner": true
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/auburn-iowa"
+		},
+		{
+			"home": {
+				"name": "Miami (FL)",
+				"code": "miami-fl",
+				"seed": 5,
+				"score": 63,
+				"winner": true
+			},
+			"away": {
+				"name": "Drake",
+				"code": "drake",
+				"seed": 12,
+				"score": 56,
+				"winner": false
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/drake-miami-fl"
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 4,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Kent St.",
+				"code": "kent-st",
+				"seed": 13,
+				"score": 60,
+				"winner": false
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/kent-st-indiana"
+		},
+		{
+			"home": {
+				"name": "Iowa St.",
+				"code": "iowa-st",
+				"seed": 6,
+				"score": 41,
+				"winner": false
+			},
+			"away": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 11,
+				"score": 59,
+				"winner": true
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/pittsburgh-iowa-st"
+		},
+		{
+			"home": {
+				"name": "Xavier",
+				"code": "xavier",
+				"seed": 3,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Kennesaw St.",
+				"code": "kennesaw-st",
+				"seed": 14,
+				"score": 67,
+				"winner": false
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/kennesaw-st-xavier"
+		},
+		{
+			"home": {
+				"name": "Texas A&M",
+				"code": "texas-am",
+				"seed": 7,
+				"score": 59,
+				"winner": false
+			},
+			"away": {
+				"name": "Penn St.",
+				"code": "penn-st",
+				"seed": 10,
+				"score": 76,
+				"winner": true
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/penn-st-texas-am"
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 2,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Colgate",
+				"code": "colgate",
+				"seed": 15,
+				"score": 61,
+				"winner": false
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/colgate-texas"
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 1,
+				"score": 96,
+				"winner": true
+			},
+			"away": {
+				"name": "Howard",
+				"code": "howard",
+				"seed": 16,
+				"score": 68,
+				"winner": false
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/howard-kansas"
+		},
+		{
+			"home": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 8,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 9,
+				"score": 63,
+				"winner": false
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/illinois-arkansas"
+		},
+		{
+			"home": {
+				"name": "Saint Mary's",
+				"code": "st-marys-ca",
+				"seed": 5,
+				"score": 63,
+				"winner": true
+			},
+			"away": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 12,
+				"score": 51,
+				"winner": false
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/vcu-st-marys-ca"
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 4,
+				"score": 87,
+				"winner": true
+			},
+			"away": {
+				"name": "Iona",
+				"code": "iona",
+				"seed": 13,
+				"score": 63,
+				"winner": false
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/iona-uconn"
+		},
+		{
+			"home": {
+				"name": "TCU",
+				"code": "tcu",
+				"seed": 6,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Arizona St.",
+				"code": "arizona-st",
+				"seed": 11,
+				"score": 70,
+				"winner": false
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/arizona-st-tcu"
+		},
+		{
+			"home": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 3,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Grand Canyon",
+				"code": "grand-canyon",
+				"seed": 14,
+				"score": 70,
+				"winner": false
+			},
+			"date": "03/17/2023",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/grand-canyon-gonzaga"
+		},
+		{
+			"home": {
+				"name": "Northwestern",
+				"code": "northwestern",
+				"seed": 7,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Boise St.",
+				"code": "boise-st",
+				"seed": 10,
+				"score": 67,
+				"winner": false
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/boise-st-northwestern"
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 2,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "UNC Asheville",
+				"code": "unc-asheville",
+				"seed": 15,
+				"score": 53,
+				"winner": false
+			},
+			"date": "03/16/2023",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/unc-asheville-ucla"
+		},
+		{
+			"home": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 1,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Maryland",
+				"code": "maryland",
+				"seed": 8,
+				"score": 51,
+				"winner": false
+			},
+			"date": "03/18/2023",
+			"location": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/maryland-alabama"
+		},
+		{
+			"home": {
+				"name": "San Diego St.",
+				"code": "san-diego-st",
+				"seed": 5,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Furman",
+				"code": "furman",
+				"seed": 13,
+				"score": 52,
+				"winner": false
+			},
+			"date": "03/18/2023",
+			"location": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/furman-san-diego-st"
+		},
+		{
+			"home": {
+				"name": "Baylor",
+				"code": "baylor",
+				"seed": 3,
+				"score": 76,
+				"winner": false
+			},
+			"away": {
+				"name": "Creighton",
+				"code": "creighton",
+				"seed": 6,
+				"score": 85,
+				"winner": true
+			},
+			"date": "03/19/2023",
+			"location": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/creighton-baylor"
+		},
+		{
+			"home": {
+				"name": "Missouri",
+				"code": "missouri",
+				"seed": 7,
+				"score": 63,
+				"winner": false
+			},
+			"away": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 15,
+				"score": 78,
+				"winner": true
+			},
+			"date": "03/18/2023",
+			"location": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/princeton-missouri"
+		},
+		{
+			"home": {
+				"name": "FAU",
+				"code": "fla-atlantic",
+				"seed": 9,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "FDU",
+				"code": "fairleigh-dickinson",
+				"seed": 16,
+				"score": 70,
+				"winner": false
+			},
+			"date": "03/19/2023",
+			"location": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/fairleigh-dickinson-fla-atlantic"
+		},
+		{
+			"home": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 4,
+				"score": 65,
+				"winner": true
+			},
+			"away": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 5,
+				"score": 52,
+				"winner": false
+			},
+			"date": "03/18/2023",
+			"location": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/duke-tennessee"
+		},
+		{
+			"home": {
+				"name": "Kansas St.",
+				"code": "kansas-st",
+				"seed": 3,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 6,
+				"score": 69,
+				"winner": false
+			},
+			"date": "03/19/2023",
+			"location": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/kentucky-kansas-st"
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 2,
+				"score": 60,
+				"winner": false
+			},
+			"away": {
+				"name": "Michigan St.",
+				"code": "michigan-st",
+				"seed": 7,
+				"score": 69,
+				"winner": true
+			},
+			"date": "03/19/2023",
+			"location": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/michigan-st-marquette"
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 1,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "Auburn",
+				"code": "auburn",
+				"seed": 9,
+				"score": 64,
+				"winner": false
+			},
+			"date": "03/18/2023",
+			"location": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/auburn-houston"
+		},
+		{
+			"home": {
+				"name": "Indiana",
+				"code": "indiana",
+				"seed": 4,
+				"score": 69,
+				"winner": false
+			},
+			"away": {
+				"name": "Miami (FL)",
+				"code": "miami-fl",
+				"seed": 5,
+				"score": 85,
+				"winner": true
+			},
+			"date": "03/19/2023",
+			"location": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/miami-fl-indiana"
+		},
+		{
+			"home": {
+				"name": "Xavier",
+				"code": "xavier",
+				"seed": 3,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "Pitt",
+				"code": "pittsburgh",
+				"seed": 11,
+				"score": 73,
+				"winner": false
+			},
+			"date": "03/19/2023",
+			"location": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/pittsburgh-xavier"
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 2,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Penn St.",
+				"code": "penn-st",
+				"seed": 10,
+				"score": 66,
+				"winner": false
+			},
+			"date": "03/18/2023",
+			"location": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/penn-st-texas"
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 1,
+				"score": 71,
+				"winner": false
+			},
+			"away": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 8,
+				"score": 72,
+				"winner": true
+			},
+			"date": "03/18/2023",
+			"location": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/arkansas-kansas"
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 4,
+				"score": 70,
+				"winner": true
+			},
+			"away": {
+				"name": "Saint Mary's",
+				"code": "st-marys-ca",
+				"seed": 5,
+				"score": 55,
+				"winner": false
+			},
+			"date": "03/19/2023",
+			"location": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/st-marys-ca-uconn"
+		},
+		{
+			"home": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 3,
+				"score": 84,
+				"winner": true
+			},
+			"away": {
+				"name": "TCU",
+				"code": "tcu",
+				"seed": 6,
+				"score": 81,
+				"winner": false
+			},
+			"date": "03/19/2023",
+			"location": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/tcu-gonzaga"
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 2,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Northwestern",
+				"code": "northwestern",
+				"seed": 7,
+				"score": 63,
+				"winner": false
+			},
+			"date": "03/18/2023",
+			"location": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/northwestern-ucla"
+		},
+		{
+			"home": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 1,
+				"score": 64,
+				"winner": false
+			},
+			"away": {
+				"name": "San Diego St.",
+				"code": "san-diego-st",
+				"seed": 5,
+				"score": 71,
+				"winner": true
+			},
+			"date": "03/24/2023",
+			"location": "",
+			"region": "TL",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/24/san-diego-st-alabama"
+		},
+		{
+			"home": {
+				"name": "Creighton",
+				"code": "creighton",
+				"seed": 6,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "Princeton",
+				"code": "princeton",
+				"seed": 15,
+				"score": 75,
+				"winner": false
+			},
+			"date": "03/24/2023",
+			"location": "",
+			"region": "TL",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/24/princeton-creighton"
+		},
+		{
+			"home": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 4,
+				"score": 55,
+				"winner": false
+			},
+			"away": {
+				"name": "FAU",
+				"code": "fla-atlantic",
+				"seed": 9,
+				"score": 62,
+				"winner": true
+			},
+			"date": "03/23/2023",
+			"location": "",
+			"region": "BL",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/23/fla-atlantic-tennessee"
+		},
+		{
+			"home": {
+				"name": "Kansas St.",
+				"code": "kansas-st",
+				"seed": 3,
+				"score": 98,
+				"winner": true
+			},
+			"away": {
+				"name": "Michigan St.",
+				"code": "michigan-st",
+				"seed": 7,
+				"score": 93,
+				"winner": false
+			},
+			"date": "03/23/2023",
+			"location": "",
+			"region": "BL",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/23/michigan-st-kansas-st"
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 1,
+				"score": 75,
+				"winner": false
+			},
+			"away": {
+				"name": "Miami (FL)",
+				"code": "miami-fl",
+				"seed": 5,
+				"score": 89,
+				"winner": true
+			},
+			"date": "03/24/2023",
+			"location": "",
+			"region": "TR",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/24/miami-fl-houston"
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 2,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "Xavier",
+				"code": "xavier",
+				"seed": 3,
+				"score": 71,
+				"winner": false
+			},
+			"date": "03/24/2023",
+			"location": "",
+			"region": "TR",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/24/xavier-texas"
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 4,
+				"score": 88,
+				"winner": true
+			},
+			"away": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 8,
+				"score": 65,
+				"winner": false
+			},
+			"date": "03/23/2023",
+			"location": "",
+			"region": "BR",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/23/arkansas-uconn"
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 2,
+				"score": 76,
+				"winner": false
+			},
+			"away": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 3,
+				"score": 79,
+				"winner": true
+			},
+			"date": "03/23/2023",
+			"location": "",
+			"region": "BR",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/23/gonzaga-ucla"
+		},
+		{
+			"home": {
+				"name": "San Diego St.",
+				"code": "san-diego-st",
+				"seed": 5,
+				"score": 57,
+				"winner": true
+			},
+			"away": {
+				"name": "Creighton",
+				"code": "creighton",
+				"seed": 6,
+				"score": 56,
+				"winner": false
+			},
+			"date": "03/26/2023",
+			"location": "",
+			"region": "TL",
+			"round": 4,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/26/creighton-san-diego-st"
+		},
+		{
+			"home": {
+				"name": "Kansas St.",
+				"code": "kansas-st",
+				"seed": 3,
+				"score": 76,
+				"winner": false
+			},
+			"away": {
+				"name": "FAU",
+				"code": "fla-atlantic",
+				"seed": 9,
+				"score": 79,
+				"winner": true
+			},
+			"date": "03/25/2023",
+			"location": "",
+			"region": "BL",
+			"round": 4,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/25/fla-atlantic-kansas-st"
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 2,
+				"score": 81,
+				"winner": false
+			},
+			"away": {
+				"name": "Miami (FL)",
+				"code": "miami-fl",
+				"seed": 5,
+				"score": 88,
+				"winner": true
+			},
+			"date": "03/26/2023",
+			"location": "",
+			"region": "TR",
+			"round": 4,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/26/miami-fl-texas"
+		},
+		{
+			"home": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 3,
+				"score": 54,
+				"winner": false
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 4,
+				"score": 82,
+				"winner": true
+			},
+			"date": "03/25/2023",
+			"location": "",
+			"region": "BR",
+			"round": 4,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/25/uconn-gonzaga"
+		},
+		{
+			"home": {
+				"name": "San Diego St.",
+				"code": "san-diego-st",
+				"seed": 5,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "FAU",
+				"code": "fla-atlantic",
+				"seed": 9,
+				"score": 71,
+				"winner": false
+			},
+			"date": "04/01/2023",
+			"location": "",
+			"region": "",
+			"round": 5,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/04/01/fla-atlantic-san-diego-st"
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 4,
+				"score": 72,
+				"winner": true
+			},
+			"away": {
+				"name": "Miami (FL)",
+				"code": "miami-fl",
+				"seed": 5,
+				"score": 59,
+				"winner": false
+			},
+			"date": "04/01/2023",
+			"location": "",
+			"region": "",
+			"round": 5,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/04/01/miami-fl-uconn"
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 4,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "San Diego St.",
+				"code": "san-diego-st",
+				"seed": 5,
+				"score": 59,
+				"winner": false
+			},
+			"date": "04/03/2023",
+			"location": "",
+			"region": "",
+			"round": 6,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/04/03/san-diego-st-uconn"
+		}
+	]
+}

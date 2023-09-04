@@ -94,6 +94,10 @@ function getDataFile(year, useCache) {
   const cacheFile = path.join(cacheDir, `official_bracket_web-${year}.json`);
 
   return new Promise((resolve, reject) => {
+    if (!fs.existsSync(cacheDir)) {
+      fs.mkdirSync(cacheDir);
+    }
+    
     if (useCache && fs.existsSync(cacheFile)) {
       console.debug('Using cache');
       const data = fs.readFileSync(cacheFile);

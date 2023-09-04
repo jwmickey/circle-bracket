@@ -1,7 +1,7 @@
-import fs from "fs";
-import path from "path";
-import fetchClassic from "../functions/fetchers/ncaa";
-import fetchBracket from "../functions/fetchers/ncaa_2021";
+const fs = require('fs');
+const path = require('path');
+const fetchClassic = require('../functions/fetchers/ncaa');
+const fetchBracket = require('../functions/fetchers/ncaa_2021');
 
 const dataDir = path.join(__dirname, "../seasons/");
 
