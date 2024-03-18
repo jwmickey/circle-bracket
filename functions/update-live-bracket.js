@@ -96,8 +96,7 @@ function shouldCheckNow() {
 
   // only look for updates thursday-sunday (4, 5, 6, 0)
   if (dayOfWeek > 1 && dayOfWeek < 4) {
-    // Temp disabled for 2021 schedule
-    // return false;
+    return false;
   }
 
   return true;

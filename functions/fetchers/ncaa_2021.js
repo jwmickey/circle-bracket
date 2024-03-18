@@ -2,7 +2,7 @@ const axios = require("axios");
 const fs = require("fs");
 const path = require("path");
 
-const cacheDir = path.join(__dirname, "../../cache/");
+const cacheDir = process.env.CACHE_DIR || path.join(__dirname, "../../cache/");
 const linkPrefix = "https://www.ncaa.com/game/basketball-men/d1";
 const setupQueryHash = process.env.SETUP_QUERY_HASH || '5214677a0d6c0df6619a440e97006fe55abcd89c46692ac349a7b781adf5f1ad';
 
