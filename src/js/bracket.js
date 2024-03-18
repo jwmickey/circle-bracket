@@ -417,6 +417,12 @@ export default class Bracket {
 
     return new Promise((resolve, reject) => {
       const teamInfo = findTeamByCode(team.code);
+      
+      if (!teamInfo || !teamInfo.logo) {
+        console.warn('Cannot find logo for team', team.code);
+        resolve();
+      }
+
       const [centerX, centerY] = this.getCenter();
       const [radius, innerRadius] = this.getRadiiForRound(round);
       const slots = this.numEntries / Math.pow(2, round - 1);

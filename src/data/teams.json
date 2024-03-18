@@ -1881,7 +1881,10 @@
     "logo": {
       "url": "img/logos/mcneese-st.svg",
       "background": "#FFD204"
-    }
+    },
+    "alternates": [
+      "McNeese"
+    ]
   },
   "md-east-shore": {
     "name": "Maryland-Eastern Shore",
