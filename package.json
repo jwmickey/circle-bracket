@@ -12,6 +12,7 @@
     "fetch-teams": "node bin/fetch-teams.js",
     "fetch-bracket": "node bin/fetch-ncaa-bracket.js",
     "fetch-sr-bracket": "node -r esm bin/fetch-sr-bracket.js",
+    "run-func": "node --env-file=.env bin/run-function.js",
     "update-logo": "node -r esm bin/update-logo.js",
     "preinstall": "npx npm-force-resolutions"
   },

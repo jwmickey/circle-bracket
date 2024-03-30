@@ -5,6 +5,7 @@ const BUCKET = 'circlebracket';
 const OBJECT_KEY = 'live-bracket.json';
 const REFRESH_LIMIT = 1800;  // how long to wait between checks in seconds
 
+const crypto = require("crypto");
 const aws = require("aws-sdk");
 const fetchBracket = require("./fetchers/ncaa_2021");
 
@@ -55,10 +56,14 @@ exports.handler = async (event, context) => {
     const year = new Date().getFullYear();
     const bracket = await fetchBracket(year, false);
     const bracketJson = JSON.stringify(bracket, null, "\t");
+    const hasher = crypto.createHash('md5');
+    const md5 = hasher.update(bracketJson).digest('base64');
+    console.log('md5', md5);
     const objectParams = {
       Bucket: BUCKET,
       Key: OBJECT_KEY,
-      Body: bracketJson
+      Body: bracketJson,
+      ContentMD5: md5
     };
 
     const upload = await s3.putObject(objectParams).promise();
