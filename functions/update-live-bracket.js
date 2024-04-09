@@ -84,6 +84,8 @@ exports.handler = async (event, context) => {
 
 function shouldCheckNow() {
   const today = new Date();
+  const yesterday = new Date();
+  yesterday.setDate(today.getDate() - 1);
   const year = today.getFullYear();
   const month = today.getMonth();
   const dayOfMonth = today.getDate();
@@ -91,6 +93,12 @@ function shouldCheckNow() {
 
   // allow on selection sunday
   if (getSelectionSunday(year).toDateString() === today.toDateString()) {
+    return true;
+  }
+
+  // allow on champ game or day after, in case of late overtime
+  const tournamentEnd = getTournamentEnd(year);
+  if (tournamentEnd.toDateString() === today.toDateString() || tournamentEnd.toDateString() === yesterday.toDateString()) {
     return true;
   }
 
@@ -117,5 +125,11 @@ function getTournamentStart(year) {
   const date = new Date(year, 2, 1);
   const add = ((4 - date.getDay() + 7) % 7) + 2 * 7;
   date.setDate(1 + add);
+  return date;
+}
+
+function getTournamentEnd(year) {
+  const date = getSelectionSunday(year);
+  date.setDate(date.getDate() + 22);
   return date;
 }

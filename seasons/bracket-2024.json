@@ -1,0 +1,1499 @@
+{
+	"format": "ncaa",
+	"updated": "2024-04-09T12:51:10.090Z",
+	"year": 2024,
+	"regions": [
+		{
+			"name": "EAST",
+			"position": "TL"
+		},
+		{
+			"name": "WEST",
+			"position": "BL"
+		},
+		{
+			"name": "SOUTH",
+			"position": "TR"
+		},
+		{
+			"name": "MIDWEST",
+			"position": "BR"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Wagner",
+				"code": "wagner",
+				"seed": 16,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Howard",
+				"code": "howard",
+				"seed": 16,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/19/2024",
+			"location": "",
+			"region": "",
+			"round": 0,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/19/howard-wagner"
+		},
+		{
+			"home": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 10,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Colorado St.",
+				"code": "colorado-st",
+				"seed": 10,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/19/2024",
+			"location": "",
+			"region": "",
+			"round": 0,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/19/colorado-st-virginia"
+		},
+		{
+			"home": {
+				"name": "Montana St.",
+				"code": "montana-st",
+				"seed": 16,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Grambling",
+				"code": "grambling",
+				"seed": 16,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/20/2024",
+			"location": "",
+			"region": "",
+			"round": 0,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/20/grambling-montana-st"
+		},
+		{
+			"home": {
+				"name": "Boise St.",
+				"code": "boise-st",
+				"seed": 10,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Colorado",
+				"code": "colorado",
+				"seed": 10,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/20/2024",
+			"location": "",
+			"region": "",
+			"round": 0,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/20/colorado-boise-st"
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 1,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Stetson",
+				"code": "stetson",
+				"seed": 16,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/stetson-uconn"
+		},
+		{
+			"home": {
+				"name": "FAU",
+				"code": "fla-atlantic",
+				"seed": 8,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Northwestern",
+				"code": "northwestern",
+				"seed": 9,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/northwestern-fla-atlantic"
+		},
+		{
+			"home": {
+				"name": "San Diego St.",
+				"code": "san-diego-st",
+				"seed": 5,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "UAB",
+				"code": "uab",
+				"seed": 12,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/uab-san-diego-st"
+		},
+		{
+			"home": {
+				"name": "Auburn",
+				"code": "auburn",
+				"seed": 4,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Yale",
+				"code": "yale",
+				"seed": 13,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/yale-auburn"
+		},
+		{
+			"home": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 6,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Duquesne",
+				"code": "duquesne",
+				"seed": 11,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/duquesne-byu"
+		},
+		{
+			"home": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 3,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Morehead St.",
+				"code": "morehead-st",
+				"seed": 14,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/morehead-st-illinois"
+		},
+		{
+			"home": {
+				"name": "Washington St.",
+				"code": "washington-st",
+				"seed": 7,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Drake",
+				"code": "drake",
+				"seed": 10,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/drake-washington-st"
+		},
+		{
+			"home": {
+				"name": "Iowa St.",
+				"code": "iowa-st",
+				"seed": 2,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "South Dakota St.",
+				"code": "south-dakota-st",
+				"seed": 15,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/south-dakota-st-iowa-st"
+		},
+		{
+			"home": {
+				"name": "North Carolina",
+				"code": "north-carolina",
+				"seed": 1,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Mississippi St.",
+				"code": "mississippi-st",
+				"seed": 8,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Michigan St.",
+				"code": "michigan-st",
+				"seed": 9,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/michigan-st-mississippi-st"
+		},
+		{
+			"home": {
+				"name": "Saint Mary's",
+				"code": "st-marys-ca",
+				"seed": 5,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Grand Canyon",
+				"code": "grand-canyon",
+				"seed": 12,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/grand-canyon-st-marys-ca"
+		},
+		{
+			"home": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 4,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Charleston",
+				"code": "col-of-charleston",
+				"seed": 13,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/col-of-charleston-alabama"
+		},
+		{
+			"home": {
+				"name": "Clemson",
+				"code": "clemson",
+				"seed": 6,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "New Mexico",
+				"code": "new-mexico",
+				"seed": 11,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/new-mexico-clemson"
+		},
+		{
+			"home": {
+				"name": "Baylor",
+				"code": "baylor",
+				"seed": 3,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Colgate",
+				"code": "colgate",
+				"seed": 14,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/colgate-baylor"
+		},
+		{
+			"home": {
+				"name": "Dayton",
+				"code": "dayton",
+				"seed": 7,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Nevada",
+				"code": "nevada",
+				"seed": 10,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/nevada-dayton"
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 2,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Long Beach St.",
+				"code": "long-beach-st",
+				"seed": 15,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/long-beach-st-arizona"
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 1,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Longwood",
+				"code": "longwood",
+				"seed": 16,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/longwood-houston"
+		},
+		{
+			"home": {
+				"name": "Nebraska",
+				"code": "nebraska",
+				"seed": 8,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Texas A&M",
+				"code": "texas-am",
+				"seed": 9,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/texas-am-nebraska"
+		},
+		{
+			"home": {
+				"name": "Wisconsin",
+				"code": "wisconsin",
+				"seed": 5,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "James Madison",
+				"code": "james-madison",
+				"seed": 12,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/james-madison-wisconsin"
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 4,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Vermont",
+				"code": "vermont",
+				"seed": 13,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/vermont-duke"
+		},
+		{
+			"home": {
+				"name": "Texas Tech",
+				"code": "texas-tech",
+				"seed": 6,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 11,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/north-carolina-st-texas-tech"
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 3,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Oakland",
+				"code": "oakland",
+				"seed": 14,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/oakland-kentucky"
+		},
+		{
+			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 7,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Marquette",
+				"code": "marquette",
+				"seed": 2,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Western Ky.",
+				"code": "western-ky",
+				"seed": 15,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/western-ky-marquette"
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 1,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Utah St.",
+				"code": "utah-st",
+				"seed": 8,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "TCU",
+				"code": "tcu",
+				"seed": 9,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/22/2024",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/tcu-utah-st"
+		},
+		{
+			"home": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 5,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "McNeese",
+				"code": "mcneese",
+				"seed": 12,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/mcneese-gonzaga"
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 4,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Samford",
+				"code": "samford",
+				"seed": 13,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/samford-kansas"
+		},
+		{
+			"home": {
+				"name": "South Carolina",
+				"code": "south-carolina",
+				"seed": 6,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Oregon",
+				"code": "oregon",
+				"seed": 11,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/oregon-south-carolina"
+		},
+		{
+			"home": {
+				"name": "Creighton",
+				"code": "creighton",
+				"seed": 3,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Akron",
+				"code": "akron",
+				"seed": 14,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/akron-creighton"
+		},
+		{
+			"home": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 7,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 2,
+				"score": null,
+				"winner": false
+			},
+			"away": {
+				"name": "Saint Peter's",
+				"code": "st-peters",
+				"seed": 15,
+				"score": null,
+				"winner": false
+			},
+			"date": "03/21/2024",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": false,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/st-peters-tennessee"
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/24/2024",
+			"location": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/24/2024",
+			"location": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/23/2024",
+			"location": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/23/2024",
+			"location": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/23/2024",
+			"location": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/24/2024",
+			"location": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/24/2024",
+			"location": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/23/2024",
+			"location": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/24/2024",
+			"location": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/24/2024",
+			"location": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/23/2024",
+			"location": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/24/2024",
+			"location": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/24/2024",
+			"location": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/23/2024",
+			"location": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/23/2024",
+			"location": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/23/2024",
+			"location": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/28/2024",
+			"location": "",
+			"region": "TL",
+			"round": 3,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/28/2024",
+			"location": "",
+			"region": "TL",
+			"round": 3,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/28/2024",
+			"location": "",
+			"region": "BL",
+			"round": 3,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/28/2024",
+			"location": "",
+			"region": "BL",
+			"round": 3,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/29/2024",
+			"location": "",
+			"region": "TR",
+			"round": 3,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/29/2024",
+			"location": "",
+			"region": "TR",
+			"round": 3,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/29/2024",
+			"location": "",
+			"region": "BR",
+			"round": 3,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/29/2024",
+			"location": "",
+			"region": "BR",
+			"round": 3,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/30/2024",
+			"location": "",
+			"region": "TL",
+			"round": 4,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/30/2024",
+			"location": "",
+			"region": "BL",
+			"round": 4,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/31/2024",
+			"location": "",
+			"region": "TR",
+			"round": 4,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "03/31/2024",
+			"location": "",
+			"region": "BR",
+			"round": 4,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "04/06/2024",
+			"location": "",
+			"region": "",
+			"round": 5,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "04/06/2024",
+			"location": "",
+			"region": "",
+			"round": 5,
+			"isComplete": false,
+			"link": ""
+		},
+		{
+			"home": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"away": {
+				"name": "",
+				"code": "",
+				"seed": 0,
+				"score": 0,
+				"winner": false
+			},
+			"date": "04/08/2024",
+			"location": "",
+			"region": "",
+			"round": 6,
+			"isComplete": false,
+			"link": ""
+		}
+	]
+}
