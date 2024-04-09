@@ -120,3 +120,9 @@ export const getTournamentStart = year => {
   date.setDate(1 + add);
   return date;
 };
+
+export const getTournamentEnd = year => {
+  const date = getSelectionSunday(year);
+  date.setDate(date.getDate() + 22);
+  return date;
+}

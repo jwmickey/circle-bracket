@@ -5,7 +5,7 @@ import gameInfo from "./js/components/gameInfo";
 import downloadLink from "./js/components/downloadLink";
 import { aboutLink, aboutOverlay } from "./js/components/about";
 import Bracket from "./js/bracket";
-import { getSelectionSunday } from "./js/utils";
+import { getSelectionSunday, getTournamentEnd } from "./js/utils";
 import "./styles/style.sass";
 
 const hash = new URL(document.location).hash;
@@ -70,7 +70,7 @@ function drawBracket(bracketYear) {
       showBracket = false;
       bracket.setBracket(undefined);
       bracket.render();
-    } else {
+    } else if (getTournamentEnd() > today) {
       bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
 
       if (days === 0 && (today.getHours() < 18)) {
