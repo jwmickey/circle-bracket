@@ -7,3 +7,4 @@ vendor
 .netlify
 cypress.env.json
 .env
+.idea

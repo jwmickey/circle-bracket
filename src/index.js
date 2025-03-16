@@ -56,7 +56,7 @@ function drawBracket(bracketYear) {
 
   if (bracketYear === maxYear) {
     const today = new Date();
-    const selection = getSelectionSunday(maxYear);
+    const selection = getSelectionSunday(bracketYear);
     const days = Math.ceil((selection.getTime() - today.getTime()) / 86400000);
     if (days > 0) {
       let msg = `
@@ -70,7 +70,7 @@ function drawBracket(bracketYear) {
       showBracket = false;
       bracket.setBracket(undefined);
       bracket.render();
-    } else if (getTournamentEnd() > today) {
+    } else if (getTournamentEnd(bracketYear) > today) {
       bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
 
       if (days === 0 && (today.getHours() < 18)) {
