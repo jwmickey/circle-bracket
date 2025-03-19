@@ -256,6 +256,17 @@
       "background": "#003015"
     }
   },
+  "bellarmine": {
+    "name": "Bellarmine",
+    "abbr": "BELL",
+    "mascot": "Knights",
+    "primaryColor": "#752936",
+    "secondaryColor": "#b3b3b3",
+    "logo": {
+      "url": "img/logos/bellarmine.svg",
+      "background": ""
+    }
+  },
   "belmont": {
     "name": "Belmont",
     "abbr": "BELMT",
@@ -980,6 +991,17 @@
       "background": "#A32638"
     }
   },
+  "fdu": {
+    "name": "FDU",
+    "abbr": "FDU",
+    "mascot": "Knights",
+    "primaryColor": "#28334A",
+    "secondaryColor": "#70273D",
+    "logo": {
+      "url": "img/logos/fdu.svg",
+      "background": "#70273D"
+    }
+  },
   "fgcu": {
     "name": "Florida Gulf Coast",
     "abbr": "FGU",
@@ -1468,6 +1490,17 @@
       "background": "#FFFFFF"
     }
   },
+  "iu-indy": {
+    "name": "IU Indy",
+    "abbr": "IUIN",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/iu-indy.svg",
+      "background": ""
+    }
+  },
   "iupui": {
     "name": "IUPUI",
     "abbr": "IUPUI",
@@ -1640,6 +1673,17 @@
       "background": "#E31937"
     }
   },
+  "le-moyne": {
+    "name": "Le Moyne",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/le-moyne.svg",
+      "background": ""
+    }
+  },
   "lehigh": {
     "name": "Lehigh",
     "abbr": "LEHIGH",
@@ -1660,6 +1704,17 @@
     "logo": {
       "url": "img/logos/liberty.svg",
       "background": "#0A254E"
+    }
+  },
+  "lindenwood-mo": {
+    "name": "Lindenwood",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/lindenwood-mo.svg",
+      "background": ""
     }
   },
   "lipscomb": {
@@ -1731,11 +1786,22 @@
       "background": "#AD0000"
     }
   },
-  "loyola-il": {
-    "name": "Loyola (IL)",
+  "loyola-chicago": {
+    "name": "Loyola Chicago",
+    "abbr": "LOYOLA",
     "alternates": [
       "Loyola-Chicago"
     ],
+    "mascot": "Ramblers",
+    "primaryColor": "#582931",
+    "secondaryColor": "#FDB913",
+    "logo": {
+      "url": "img/logos/loyola-chicago.svg",
+      "background": "#FDB913"
+    }
+  },
+  "loyola-il": {
+    "name": "Loyola (IL)",
     "abbr": "LOYOLA",
     "mascot": "Ramblers",
     "primaryColor": "#582931",
@@ -1872,6 +1938,17 @@
       "background": "#971B2F"
     }
   },
+  "mcneese": {
+    "name": "McNeese",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/mcneese.svg",
+      "background": ""
+    }
+  },
   "mcneese-st": {
     "name": "McNeese State",
     "abbr": "MCNST",
@@ -1920,6 +1997,28 @@
     "logo": {
       "url": "img/logos/mercer.svg",
       "background": "#000000"
+    }
+  },
+  "mercyhurst": {
+    "name": "Mercyhurst",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/mercyhurst.svg",
+      "background": ""
+    }
+  },
+  "merrimack": {
+    "name": "Merrimack",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/merrimack.svg",
+      "background": ""
     }
   },
   "miami-fl": {
@@ -2735,6 +2834,17 @@
       "background": "#CEB888"
     }
   },
+  "queens-nc": {
+    "name": "Queens (NC)",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/queens-nc.svg",
+      "background": ""
+    }
+  },
   "quinnipiac": {
     "name": "Quinnipiac",
     "abbr": "QUINN",
@@ -2766,8 +2876,7 @@
     "logo": {
       "url": "img/logos/rhode-island.svg",
       "background": "#68ABE8"
-    },
-    "conference": ""
+    }
   },
   "rice": {
     "name": "Rice",
@@ -3133,6 +3242,17 @@
       "background": "#5E0009"
     }
   },
+  "southern-ind": {
+    "name": "Southern Ind.",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/southern-ind.svg",
+      "background": ""
+    }
+  },
   "southern-miss": {
     "name": "Southern Miss",
     "abbr": "SMISS",
@@ -3249,6 +3369,17 @@
       "background": "#FFFFFF"
     }
   },
+  "st-thomas-mn": {
+    "name": "St. Thomas (MN)",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/st-thomas-mn.svg",
+      "background": ""
+    }
+  },
   "stanford": {
     "name": "Stanford",
     "abbr": "STAN",
@@ -3282,6 +3413,17 @@
       "background": "#006747"
     }
   },
+  "stonehill": {
+    "name": "Stonehill",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/stonehill.svg",
+      "background": ""
+    }
+  },
   "stony-brook": {
     "name": "Stony Brook",
     "abbr": "STBK",
@@ -3301,6 +3443,17 @@
     "secondaryColor": "#3E3D3C",
     "logo": {
       "url": "img/logos/syracuse.svg",
+      "background": ""
+    }
+  },
+  "tarleton-st": {
+    "name": "Tarleton St.",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/tarleton-st.svg",
       "background": ""
     }
   },
@@ -3357,6 +3510,17 @@
     "logo": {
       "url": "img/logos/tennessee-tech.svg",
       "background": "#4F2984"
+    }
+  },
+  "tex-am-commerce": {
+    "name": "East Texas A&M",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/tex-am-commerce.svg",
+      "background": ""
     }
   },
   "texas": {
@@ -3567,6 +3731,17 @@
       "background": "#2D6CC0"
     }
   },
+  "uc-san-diego": {
+    "name": "UC San Diego",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/uc-san-diego.svg",
+      "background": ""
+    }
+  },
   "uc-santa-barbara": {
     "name": "UC Santa Barbara",
     "abbr": "UCSB",
@@ -3609,6 +3784,17 @@
     "logo": {
       "url": "img/logos/uconn.svg",
       "background": "#000E2F"
+    }
+  },
+  "uiw": {
+    "name": "UIW",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/uiw.svg",
+      "background": ""
     }
   },
   "umass-lowell": {
@@ -3741,6 +3927,17 @@
     "logo": {
       "url": "img/logos/utah-st.svg",
       "background": "#9D968D"
+    }
+  },
+  "utah-tech": {
+    "name": "Utah Tech",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/utah-tech.svg",
+      "background": ""
     }
   },
   "utah-valley": {
@@ -3948,6 +4145,17 @@
     "logo": {
       "url": "img/logos/weber-st.svg",
       "background": "#4B2682"
+    }
+  },
+  "west-ga": {
+    "name": "West Ga.",
+    "abbr": "",
+    "mascot": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "logo": {
+      "url": "img/logos/west-ga.svg",
+      "background": ""
     }
   },
   "west-virginia": {
