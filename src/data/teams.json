@@ -253,7 +253,7 @@
     "secondaryColor": "#FECB00",
     "logo": {
       "url": "img/logos/baylor.svg",
-      "background": "#003015"
+      "background": "#FECB00"
     }
   },
   "bellarmine": {
@@ -465,7 +465,7 @@
     "secondaryColor": "#000000",
     "logo": {
       "url": "img/logos/cal-st-northridge.svg",
-      "background": "#CE1126"
+      "background": "#FFFFFF"
     }
   },
   "california": {
@@ -571,7 +571,7 @@
     "secondaryColor": "#FFFFFF",
     "logo": {
       "url": "img/logos/charlotte.svg",
-      "background": "#006940"
+      "background": "#FFFFFF"
     }
   },
   "chattanooga": {
@@ -651,7 +651,7 @@
     "secondaryColor": "#A27752",
     "logo": {
       "url": "img/logos/coastal-caro.svg",
-      "background": "#006F71"
+      "background": "#FFFFFF"
     }
   },
   "col-of-charleston": {
@@ -731,7 +731,7 @@
     "secondaryColor": "#FFFFFF",
     "logo": {
       "url": "img/logos/cornell.svg",
-      "background": "#B31B1B"
+      "background": "#FFFFFF"
     }
   },
   "creighton": {
@@ -852,7 +852,7 @@
     "secondaryColor": "#FFC600",
     "logo": {
       "url": "img/logos/drexel.svg",
-      "background": "#07294D"
+      "background": "#FFFFFF"
     }
   },
   "duke": {
@@ -955,7 +955,7 @@
     "secondaryColor": "#B59A57",
     "logo": {
       "url": "img/logos/elon.svg",
-      "background": "#73000A"
+      "background": "#FFFFFF"
     }
   },
   "evansville": {
@@ -1153,7 +1153,7 @@
     "secondaryColor": "#8D817B",
     "logo": {
       "url": "img/logos/georgetown.svg",
-      "background": "#041E42"
+      "background": "#8D817B"
     }
   },
   "georgia": {
@@ -1421,7 +1421,7 @@
     "secondaryColor": "#000000",
     "logo": {
       "url": "img/logos/incarnate-word.svg",
-      "background": "#CB333B"
+      "background": "#FFFFFF"
     }
   },
   "indiana": {
@@ -2459,7 +2459,7 @@
     "secondaryColor": "#D9D9D9",
     "logo": {
       "url": "img/logos/north-florida.svg",
-      "background": "#D9D9D9"
+      "background": "#FFFFFF"
     }
   },
   "north-texas": {
@@ -2484,7 +2484,7 @@
     "secondaryColor": "#000000",
     "logo": {
       "url": "img/logos/northeastern.svg",
-      "background": "#000000"
+      "background": "#FFFFFF"
     }
   },
   "northern-ariz": {
@@ -2495,7 +2495,7 @@
     "secondaryColor": "#FFD200",
     "logo": {
       "url": "img/logos/northern-ariz.svg",
-      "background": "#FBB040"
+      "background": "#FFFFFF"
     }
   },
   "northern-colo": {
@@ -2663,7 +2663,7 @@
     "secondaryColor": "#14213D",
     "logo": {
       "url": "img/logos/ole-miss.svg",
-      "background": "#CE1126"
+      "background": "#FFFFFF"
     }
   },
   "oral-roberts": {
@@ -3123,7 +3123,7 @@
     "secondaryColor": "#354CA1",
     "logo": {
       "url": "img/logos/smu.svg",
-      "background": "#354CA1"
+      "background": "#FFFFFF"
     }
   },
   "south-ala": {
@@ -3337,7 +3337,7 @@
     "secondaryColor": "#041C2C",
     "logo": {
       "url": "img/logos/st-johns-ny.svg",
-      "background": "#BA0C2F"
+      "background": "#FFFFFF"
     }
   },
   "st-marys-ca": {
@@ -3706,7 +3706,7 @@
     "secondaryColor": "#B3A369",
     "logo": {
       "url": "img/logos/uc-davis.svg",
-      "background": "#002855"
+      "background": "#FFFFFF"
     }
   },
   "uc-irvine": {
@@ -3915,7 +3915,7 @@
     "secondaryColor": "#FFFFFF",
     "logo": {
       "url": "img/logos/utah.svg",
-      "background": "#CC0000"
+      "background": "#000000"
     }
   },
   "utah-st": {
@@ -4009,7 +4009,7 @@
     "secondaryColor": "#A8996E",
     "logo": {
       "url": "img/logos/vanderbilt.svg",
-      "background": "#000000"
+      "background": "#FFFFFF"
     }
   },
   "vcu": {
@@ -4119,7 +4119,7 @@
     "secondaryColor": "#53565A",
     "logo": {
       "url": "img/logos/washington-st.svg",
-      "background": "#53565A"
+      "background": "#FFFFFF"
     }
   },
   "wayne-state": {
@@ -4166,7 +4166,7 @@
     "secondaryColor": "#EAAA00",
     "logo": {
       "url": "img/logos/west-virginia.svg",
-      "background": "#002855"
+      "background": "#EAAA00"
     }
   },
   "western-caro": {
@@ -4254,7 +4254,7 @@
     "secondaryColor": "#9B0000",
     "logo": {
       "url": "img/logos/wisconsin.svg",
-      "background": "#C5050C"
+      "background": "#FFFFFF"
     }
   },
   "wofford": {
@@ -4265,7 +4265,7 @@
     "secondaryColor": "#000000",
     "logo": {
       "url": "img/logos/wofford.svg",
-      "background": "#886E4C"
+      "background": "#FFFFFF"
     }
   },
   "wright-st": {
