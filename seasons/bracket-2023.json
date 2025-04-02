@@ -1,6 +1,6 @@
 {
 	"format": "ncaa",
-	"updated": "2025-04-02T04:01:45.111Z",
+	"updated": "2023-09-04T00:29:58.838Z",
 	"year": 2023,
 	"regions": [
 		{
@@ -53,7 +53,7 @@
 			},
 			"away": {
 				"name": "FDU",
-				"code": "fdu",
+				"code": "fairleigh-dickinson",
 				"seed": 16,
 				"score": 84,
 				"winner": true
@@ -63,7 +63,7 @@
 			"region": "",
 			"round": 0,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/15/fdu-texas-southern"
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/15/fairleigh-dickinson-texas-southern"
 		},
 		{
 			"home": {
@@ -162,7 +162,7 @@
 				"winner": true
 			},
 			"away": {
-				"name": "Charleston",
+				"name": "Col of Charleston",
 				"code": "col-of-charleston",
 				"seed": 12,
 				"score": 57,
@@ -295,7 +295,7 @@
 			},
 			"away": {
 				"name": "FDU",
-				"code": "fdu",
+				"code": "fairleigh-dickinson",
 				"seed": 16,
 				"score": 63,
 				"winner": true
@@ -305,7 +305,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/fdu-purdue"
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/fairleigh-dickinson-purdue"
 		},
 		{
 			"home": {
@@ -911,7 +911,7 @@
 			},
 			"away": {
 				"name": "FDU",
-				"code": "fdu",
+				"code": "fairleigh-dickinson",
 				"seed": 16,
 				"score": 70,
 				"winner": false
@@ -921,7 +921,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/fdu-fla-atlantic"
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/fairleigh-dickinson-fla-atlantic"
 		},
 		{
 			"home": {

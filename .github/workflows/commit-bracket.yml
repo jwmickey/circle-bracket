@@ -1,8 +1,8 @@
 name: Commit Bracket
-on: push
-#  schedule:
-#    # Tourney is for sure over by April 30th
-#    - cron:  '0 0 30 4 0'
+on:
+  branches: master
+  schedule:
+    - cron:  '0 0 30 4 0'
 
 jobs:
   commit-bracket:
@@ -14,17 +14,17 @@ jobs:
       - name: update-season
         run: |
           npm install
-          npm run fetch-bracket 2023
-          npm run validate-bracket 2023
+          npm run fetch-bracket
+          npm run validate-bracket
       - name: create-pr
         uses: peter-evans/create-pull-request@v7
         with:
           title: Automatic bracket persist for current season
-          branch: save-season
+          branch: auto-save-season
           labels: auto-pr
           delete-branch: true
-          add-paths: seasons/*.json
+          add-paths: seasons/bracket-*.json
       - name: auto-merge
-        run: gh pr merge --merge --auto save-season
+        run: gh pr merge --merge --auto auto-save-season
         env:
           GH_TOKEN: ${{ github.token }}
