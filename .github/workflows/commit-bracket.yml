@@ -13,7 +13,7 @@ jobs:
           repository: jwmickey/circle-bracket
       - name: update-season
         run: |
-          npm ci
+          npm install
           npm run fetch-bracket 2024
           npm run validate-bracket 2024
       - name: create-pr
