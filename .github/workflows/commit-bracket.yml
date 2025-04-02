@@ -4,12 +4,12 @@ on: push
 #    # Tourney is for sure over by April 30th
 #    - cron:  '0 0 30 4 0'
 jobs:
-  updateFork:
+  commit-bracket:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: fork-owner/repo
+          repository: https://github.com/jwmickey/circle-bracket.git
       - name: update-season
         run: npm run fetch-bracket
       - name: validate-bracket
