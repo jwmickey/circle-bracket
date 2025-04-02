@@ -14,8 +14,8 @@ jobs:
       - name: update-season
         run: |
           npm install
-          npm run fetch-bracket 2024
-          npm run validate-bracket 2024
+          npm run fetch-bracket 2023
+          npm run validate-bracket 2023
       - name: create-pr
         uses: peter-evans/create-pull-request@v7
         with:
