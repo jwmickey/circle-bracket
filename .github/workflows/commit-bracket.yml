@@ -13,8 +13,8 @@ jobs:
       - name: update-season
         run: |
           npm install
-          npm run fetch-bracket
-          npm run validate-bracket
+          npm run fetch-bracket 2024
+          npm run validate-bracket 2024
       - name: create-pr
         uses: peter-evans/create-pull-request@v7
         with:
@@ -22,9 +22,6 @@ jobs:
           branch: auto-bracket-persist
           labels: auto-pr
           delete-branch: true
-      - name: fail-invalid-bracket
-        if: steps.validate-bracket.outputs.exit-code > 0
-        run: exit 1
       - name: auto-merge
         run: gh pr merge --merge --auto "1"
         env:
