@@ -1,0 +1,32 @@
+name: Commit Bracket
+on: push
+#  schedule:
+#    # Tourney is for sure over by April 30th
+#    - cron:  '0 0 30 4 0'
+jobs:
+  updateFork:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: fork-owner/repo
+      - name: update-season
+        run: npm run fetch-bracket
+      - name: validate-bracket
+        run: npm run validate-bracket
+        with:
+          args: --exit-code
+      - name: create-pr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          title: Automatic bracket persist for current season
+          branch: auto-bracket-persist
+          labels: auto-pr
+          delete-branch: true
+      - name: fail-invalid-bracket
+        if: steps.validate-bracket.outputs.exit-code > 0
+        run: exit 1
+      - name: auto-merge
+        run: gh pr merge --merge --auto "1"
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}

@@ -5,7 +5,7 @@
 const fs = require('fs/promises');
 const path = require('path');
 
-const year = process.argv[2];
+const year = process.argv[2] || new Date().getFullYear();
 
 async function loadBracket(year) {
     const bracketPath = path.resolve( 'seasons', `bracket-${year}.json`);
