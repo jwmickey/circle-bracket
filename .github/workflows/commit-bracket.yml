@@ -25,6 +25,6 @@ jobs:
           delete-branch: true
           add-paths: seasons/*.json
       - name: auto-merge
-        run: gh pr merge --merge --auto
+        run: gh pr merge --merge --auto save-season
         env:
           GH_TOKEN: ${{ github.token }}
