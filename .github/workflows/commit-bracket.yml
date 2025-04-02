@@ -3,6 +3,7 @@ on: push
 #  schedule:
 #    # Tourney is for sure over by April 30th
 #    - cron:  '0 0 30 4 0'
+
 jobs:
   commit-bracket:
     runs-on: ubuntu-latest
@@ -12,7 +13,7 @@ jobs:
           repository: jwmickey/circle-bracket
       - name: update-season
         run: |
-          npm install
+          npm ci
           npm run fetch-bracket 2024
           npm run validate-bracket 2024
       - name: create-pr
@@ -25,4 +26,4 @@ jobs:
       - name: auto-merge
         run: gh pr merge --merge --auto "1"
         env:
-          GH_TOKEN: ${{ secrets.PAT }}
+          GH_TOKEN: ${{ github.token }}
