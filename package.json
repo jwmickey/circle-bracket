@@ -16,7 +16,8 @@
     "preview-teams": "node bin/preview-teams.js",
     "run-func": "node --env-file=.env bin/run-function.js",
     "update-logo": "node -r esm bin/update-logo.js",
-    "preinstall": "npx npm-force-resolutions"
+    "preinstall": "npx npm-force-resolutions",
+    "validate-bracket": "node bin/validate-bracket.js"
   },
   "resolutions": {
     "glob-parent": "6.0.2"
