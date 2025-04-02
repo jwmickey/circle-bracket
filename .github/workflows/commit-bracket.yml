@@ -20,7 +20,7 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           title: Automatic bracket persist for current season
-          branch: auto-bracket-persist
+          branch: save-season
           labels: auto-pr
           delete-branch: true
           add-paths: seasons/*.json
