@@ -23,6 +23,7 @@ jobs:
           branch: auto-bracket-persist
           labels: auto-pr
           delete-branch: true
+          add-paths: seasons/*.json
       - name: auto-merge
         run: gh pr merge --merge --auto "1"
         env:
