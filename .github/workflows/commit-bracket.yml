@@ -11,9 +11,10 @@ jobs:
         with:
           repository: jwmickey/circle-bracket
       - name: update-season
-        run: npm run fetch-bracket
-      - name: validate-bracket
-        run: npm run validate-bracket
+        run: |
+          npm install
+          npm run fetch-bracket
+          npm run validate-bracket
       - name: create-pr
         uses: peter-evans/create-pull-request@v7
         with:
