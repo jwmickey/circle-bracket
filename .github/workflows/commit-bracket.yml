@@ -1,8 +1,7 @@
 name: Commit Bracket
 on:
-  branches: master
   schedule:
-    - cron:  '0 0 30 4 0'
+    - cron: '0 0 30 4 0'
 
 jobs:
   commit-bracket:
