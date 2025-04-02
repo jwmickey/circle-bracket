@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: https://github.com/jwmickey/circle-bracket.git
+          repository: jwmickey/circle-bracket
       - name: update-season
         run: npm run fetch-bracket
       - name: validate-bracket
