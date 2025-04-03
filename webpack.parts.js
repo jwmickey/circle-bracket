@@ -39,7 +39,7 @@ exports.loadLogos = (options = {}) => {
       rules: [
         {
           test: /logos\/.*\.(svg|png)$/,
-          type: 'asset/inline'
+          type: 'asset/resource'
         }
       ]
     }
