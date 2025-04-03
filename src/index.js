@@ -1,4 +1,5 @@
-import axios from "axios";
+import Axios from 'axios';
+import { setupCache } from 'axios-cache-interceptor';
 import canvas from "./js/components/canvas";
 import yearPicker from "./js/components/yearPicker";
 import gameInfo from "./js/components/gameInfo";
@@ -7,6 +8,11 @@ import { aboutLink, aboutOverlay } from "./js/components/about";
 import Bracket from "./js/bracket";
 import { getSelectionSunday, getTournamentEnd } from "./js/utils";
 import "./styles/style.sass";
+
+const axiosInstance = Axios.create();
+const axios = setupCache(axiosInstance, {
+  location: 'client'
+});
 
 const hash = new URL(document.location).hash;
 const minYear = 1956;
@@ -49,6 +55,7 @@ function showGameDetails(game, displaySeeds = true) {
 
 // draw a bracket for a given year.  toggles loading on/off for start/finish
 function drawBracket(bracketYear) {
+  let useAxiosCache = true;
   wrap.classList.remove("error");
   wrap.classList.remove("message");
   let showBracket = true;
@@ -71,6 +78,7 @@ function drawBracket(bracketYear) {
       bracket.setBracket(undefined);
       bracket.render();
     } else if (getTournamentEnd(bracketYear) > today) {
+      useAxiosCache = false;
       bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
 
       if (days === 0 && (today.getHours() < 18)) {
@@ -88,7 +96,7 @@ function drawBracket(bracketYear) {
   if (showBracket) {
     wrap.classList.add("loading");
     axios
-      .get(bracketUrl)
+      .get(bracketUrl, { cache: !!useAxiosCache })
       .then(res => {
         bracket.setBracket(res.data);
         return bracket.render();
