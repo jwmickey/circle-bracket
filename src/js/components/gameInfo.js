@@ -26,8 +26,11 @@ export default (game, displaySeeds = false, id = "info") => {
       e.preventDefault();
       return false;
     });
-    if (teamInfo && teamInfo.logo) {
-      img.src = createImageUrlFromLogo(teamInfo.logo.url)[0];
+    if (teamInfo) {
+      img.alt = `Logo for ${teamInfo.name} ${teamInfo.mascot}`
+      if (teamInfo.logo) {
+        img.src = createImageUrlFromLogo(teamInfo.logo.url)[0];
+      }
     }
 
     // title (team name and mascot)

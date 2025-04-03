@@ -6,6 +6,7 @@ export default (minYear, maxYear, value, onChange) => {
 
   let element = document.createElement("select");
   element.id = "year-picker";
+  element.ariaLabel = "Choose Tournament Year";
   years.forEach(year => {
     let option = document.createElement("option");
     option.value = year;
