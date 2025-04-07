@@ -6,7 +6,7 @@ import gameInfo from "./js/components/gameInfo";
 import downloadLink from "./js/components/downloadLink";
 import { aboutLink, aboutOverlay } from "./js/components/about";
 import Bracket from "./js/bracket";
-import { getSelectionSunday, getTournamentEnd } from "./js/utils";
+import { getSelectionSunday } from "./js/utils";
 import "./styles/style.sass";
 
 const axiosInstance = Axios.create();
@@ -63,6 +63,8 @@ function drawBracket(bracketYear) {
 
   if (bracketYear === maxYear) {
     const today = new Date();
+    today.setUTCHours(0, 0, 0);
+    const endLiveBracket = new Date(today.getFullYear(), 3, 11);
     const selection = getSelectionSunday(bracketYear);
     const days = Math.ceil((selection.getTime() - today.getTime()) / 86400000);
     if (days > 0) {
@@ -77,7 +79,7 @@ function drawBracket(bracketYear) {
       showBracket = false;
       bracket.setBracket(undefined);
       bracket.render();
-    } else if (getTournamentEnd(bracketYear) > today) {
+    } else if (today <= endLiveBracket) {
       useAxiosCache = false;
       bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
 
