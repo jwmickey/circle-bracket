@@ -45,6 +45,10 @@ export default class Bracket {
     this.numEntries = 0;
     this.bracketData = undefined;
     this.teamPaths = [];
+    
+    // Performance optimizations
+    this.imageCache = new Map();
+    this.imageLoadPromises = new Map();
 
     this.cvs.addEventListener("click", event => {
       const scale = this.settings.scale;
@@ -108,7 +112,6 @@ export default class Bracket {
   setBracket = data => {
     this.bracketData = data;
   };
-
   reset = () => {
     if (this.bracketData) {
       this.numRounds =
@@ -125,21 +128,28 @@ export default class Bracket {
     this.ctx.fillStyle = "#fff";
     this.ctx.fillRect(0, 0, this.cvs.width, this.cvs.height);
     this.ctx.translate(0, 0);
+    
+    // Optimize canvas settings for better performance
+    this.ctx.globalCompositeOperation = 'source-over';
+    this.ctx.imageSmoothingEnabled = true;
+    this.ctx.imageSmoothingQuality = 'medium';
 
     this.fontSize = Math.floor(this.cvs.width * 0.0125);
     this.titleHeight = Math.floor(this.fontSize * 2.25);
     this.margin = Math.floor(this.cvs.width * 0.05);
   };
-
-  render = () => {
+  render = async () => {
     if (!this.bracketData) {
       return;
     }
 
     this.reset();
+    
+    // Preload all images first
+    await this.preloadImages();
+    
     this.drawTitle();
     this.drawRegionNames();
-
 
     if (this.bracketData.hasOwnProperty("status")) {
       if (["postponed", "canceled"].includes(this.bracketData.status)) {
@@ -155,7 +165,78 @@ export default class Bracket {
       this.drawSeeds();
     }
 
-    // draw gray bg on radius
+    // Draw background in one operation
+    this.drawBackground();
+    
+    // Draw all slots synchronously using cached images
+    this.drawAllSlots();
+    
+    this.drawGrid();
+    
+    // Handle champion
+    const dataset = this.bracketData.games.filter(game => game.round > 0);
+    const champGame = dataset.find(
+      game => game.round === this.numRounds - 1 && game.isComplete
+    );
+    if (champGame) {
+      const winner = champGame.home.winner ? champGame.home : 
+                     champGame.away.winner ? champGame.away : null;
+      if (winner) {
+        await this.fillChamp(winner);
+      }
+    }
+  };
+
+  // Image preloading and caching methods
+  preloadImages = async () => {
+    if (!this.bracketData) return;
+    
+    const teamCodes = new Set();
+    this.bracketData.games.forEach(game => {
+      if (game.home.code) teamCodes.add(game.home.code);
+      if (game.away.code) teamCodes.add(game.away.code);
+    });
+
+    const loadPromises = Array.from(teamCodes).map(code => {
+      const teamInfo = findTeamByCode(code);
+      if (teamInfo && teamInfo.logo && !this.imageCache.has(code)) {
+        return this.loadAndCacheImage(code, teamInfo.logo.url);
+      }
+      return Promise.resolve();
+    });
+
+    await Promise.all(loadPromises);
+  };
+
+  loadAndCacheImage = (teamCode, logoUrl) => {
+    if (this.imageLoadPromises.has(teamCode)) {
+      return this.imageLoadPromises.get(teamCode);
+    }
+
+    const promise = new Promise((resolve, reject) => {
+      const img = new Image();
+      const [url, revoke] = createImageUrlFromLogo(logoUrl);
+      
+      img.onload = () => {
+        revoke();
+        this.imageCache.set(teamCode, img);
+        resolve(img);
+      };
+      
+      img.onerror = (e) => {
+        revoke();
+        console.error(`Failed to load image for ${teamCode}:`, e);
+        resolve(null); // Don't reject, just return null
+      };
+      
+      img.src = url;
+    });
+
+    this.imageLoadPromises.set(teamCode, promise);
+    return promise;
+  };
+
+  drawBackground = () => {
     const [x, y] = this.getCenter();
     const radius = this.getRadiiForRound(0)[0];
     this.ctx.save();
@@ -165,24 +246,30 @@ export default class Bracket {
     this.ctx.fillStyle = "#F7F7F7";
     this.ctx.fill();
     this.ctx.restore();
+  };
 
+  drawAllSlots = () => {
     const dataset = this.bracketData.games.filter(game => game.round > 0);
-
-    let slotPromises = [];
-    for (let i = 0; i < dataset.length; i++) {
-      const game = dataset[i];
-
+    
+    // Group operations by round for better batching
+    const slotsByRound = new Map();
+    
+    dataset.forEach(game => {
+      if (!slotsByRound.has(game.round)) {
+        slotsByRound.set(game.round, []);
+      }
+      
       if (game.home.code) {
         let homeRegionCode = game.region;
         if (game.round >= this.numRounds - 2) {
           homeRegionCode = findTeamRegion(dataset, game.home.code);
         }
-        const homeTeamSlot = this.translateToSlot(
-          homeRegionCode,
-          game.round,
-          game.home
-        );
-        slotPromises.push(this.fillSlot(game.round, homeTeamSlot, game.home));
+        const homeTeamSlot = this.translateToSlot(homeRegionCode, game.round, game.home);
+        slotsByRound.get(game.round).push({
+          round: game.round,
+          slot: homeTeamSlot,
+          team: game.home
+        });
       }
 
       if (game.away.code) {
@@ -190,42 +277,110 @@ export default class Bracket {
         if (game.round >= this.numRounds - 2) {
           awayRegionCode = findTeamRegion(dataset, game.away.code);
         }
-        const awayTeamSlot = this.translateToSlot(
-          awayRegionCode,
-          game.round,
-          game.away
-        );
-        slotPromises.push(this.fillSlot(game.round, awayTeamSlot, game.away));
+        const awayTeamSlot = this.translateToSlot(awayRegionCode, game.round, game.away);
+        slotsByRound.get(game.round).push({
+          round: game.round,
+          slot: awayTeamSlot,
+          team: game.away
+        });
       }
-    }
+    });
 
-    return Promise.all(slotPromises)
-      .then(() => {
-        return this.drawGrid();
-      })
-      .then(() => {
-        // check to see if we have a champ game
-        const champGame = dataset.find(
-          game => game.round === this.numRounds - 1 && game.isComplete
-        );
-        if (champGame) {
-          let winner;
-          if (champGame.home.winner) {
-            winner = champGame.home;
-          } else if (champGame.away.winner) {
-            winner = champGame.away;
-          } else {
-            winner = false;
-          }
-
-          return this.fillChamp(winner);
-        } else {
-          return Promise.resolve;
-        }
+    // Draw slots round by round for better canvas batching
+    slotsByRound.forEach((slots, round) => {
+      slots.forEach(({ slot, team }) => {
+        this.fillSlotSync(round, slot, team);
       });
-
+    });
   };
 
+  fillSlotSync = (round, slot, team) => {
+    if (round === this.numRounds - 1) {
+      return this.fillChampGameSlotSync(slot, team);
+    }
+
+    const img = this.imageCache.get(team.code);
+    if (!img) {
+      console.warn('Image not cached for team', team.code);
+      return;
+    }
+
+    const teamInfo = findTeamByCode(team.code);
+    const [centerX, centerY] = this.getCenter();
+    const [radius, innerRadius] = this.getRadiiForRound(round);
+    const slots = this.numEntries / Math.pow(2, round - 1);
+    const degrees = 360 / slots;
+
+    const { x, y, maxWidth, maxHeight } = calcImageBox(
+      radius, innerRadius, centerX, centerY, slots, slot
+    );
+
+    let [width, height] = scaleDims(img.width, img.height, maxWidth, maxHeight);
+    const xOffset = (maxWidth - width) / 2;
+    const yOffset = (maxHeight - height) / 2;
+    const angle1 = degrees * slot;
+    const angle2 = angle1 + degrees;
+
+    let imgX = x + xOffset;
+    let imgY = y + yOffset;
+
+    // Create and draw path
+    this.ctx.save();
+    const path = new Path2D();
+    path.arc(centerX, centerY, radius, TO_RADIANS * angle1, TO_RADIANS * angle2);
+    path.arc(centerX, centerY, innerRadius, TO_RADIANS * angle2, TO_RADIANS * angle1, true);
+    path.closePath();
+    
+    this.ctx.fillStyle = teamInfo.logo.background || teamInfo.primaryColor || "#FFFFFF";
+    this.ctx.fill(path);
+    this.ctx.clip(path);
+    this.teamPaths.push({ path, round, teamCode: team.code });
+
+    // Draw image
+    this.ctx.drawImage(img, imgX, imgY, width, height);
+    this.ctx.restore();
+  };
+
+  fillChampGameSlotSync = (slot, team) => {
+    const img = this.imageCache.get(team.code);
+    if (!img) {
+      console.warn('Image not cached for champion game team', team.code);
+      return;
+    }
+
+    const teamInfo = findTeamByCode(team.code);
+    const [centerX, centerY] = this.getCenter();
+    const radius = this.getRadiiForRound(this.numRounds - 1)[0];
+
+    this.ctx.save();
+    const path = new Path2D();
+    const startAngle = 90 * TO_RADIANS;
+    const endAngle = 270 * TO_RADIANS;
+    const antiClockwise = slot === 0;
+    path.arc(centerX, centerY, radius, startAngle, endAngle, antiClockwise);
+    path.closePath();
+    this.teamPaths.push({
+      path,
+      round: this.numRounds - 1,
+      teamCode: team.code
+    });
+    this.ctx.fillStyle = teamInfo.logo.background || teamInfo.primaryColor || "#FFFFFF";
+    this.ctx.stroke(path);
+    this.ctx.fill(path);
+    this.ctx.clip(path);
+
+    let size = Math.floor(radius * 1.5);
+    let x = centerX + size / 4;
+    let y = centerY - size / 2;
+    if (slot === 1) {
+      x -= size;
+    } else {
+      x -= size / 2;
+    }
+
+    this.ctx.drawImage(img, x, y, size, size);
+    this.ctx.restore();
+  };
   drawGrid = () => {
     const [centerX, centerY] = this.getCenter();
 
@@ -236,34 +391,41 @@ export default class Bracket {
     this.ctx.translate(centerX, centerY);
     this.ctx.rotate(TO_RADIANS * 90);
 
+    // Create clipping path
     const clipPath = new Path2D();
     clipPath.arc(0, 0, this.getRadiiForRound(1)[0], 0, 2 * Math.PI);
     this.ctx.clip(clipPath);
 
+    // Draw concentric circles
+    this.ctx.shadowColor = "rgba(0, 0, 0, 0.25)";
+    this.ctx.shadowBlur = 5;
+    
     for (let i = 1; i < this.numRounds; i++) {
-      const path = new Path2D();
+      const [radius, innerRadius] = this.getRadiiForRound(i);
+      
+      // Draw each circle separately to avoid connecting lines
+      this.ctx.beginPath();
+      this.ctx.arc(0, 0, radius, 0, 2 * Math.PI);
+      this.ctx.stroke();
+    }
+
+    // Draw radial lines
+    for (let i = 1; i < this.numRounds - 1; i++) {
       const slots = this.numEntries / Math.pow(2, i - 1);
       const [radius, innerRadius] = this.getRadiiForRound(i);
 
-      // outer arc
-      path.arc(0, 0, radius, 0, 2 * Math.PI);
-
-      // inner lines, skip on last ring
-      if (i < this.numRounds - 1) {
-        for (let j = 0; j < slots; j++) {
-          let t1 = ((Math.PI * 2) / slots) * j;
-          let x1 = Math.floor(radius * Math.cos(t1));
-          let y1 = Math.floor(radius * Math.sin(t1));
-          let x2 = Math.floor(innerRadius * Math.cos(t1));
-          let y2 = Math.floor(innerRadius * Math.sin(t1));
-          path.moveTo(x1, y1);
-          path.lineTo(x2, y2);
-        }
+      for (let j = 0; j < slots; j++) {
+        let t1 = ((Math.PI * 2) / slots) * j;
+        let x1 = Math.floor(radius * Math.cos(t1));
+        let y1 = Math.floor(radius * Math.sin(t1));
+        let x2 = Math.floor(innerRadius * Math.cos(t1));
+        let y2 = Math.floor(innerRadius * Math.sin(t1));
+        
+        this.ctx.beginPath();
+        this.ctx.moveTo(x1, y1);
+        this.ctx.lineTo(x2, y2);
+        this.ctx.stroke();
       }
-
-      this.ctx.shadowColor = "rgba(0, 0, 0, 0.25)";
-      this.ctx.shadowBlur = 5;
-      this.ctx.stroke(path);
     }
 
     // stroke a final outer line to remove shadow
@@ -282,6 +444,7 @@ export default class Bracket {
     // draw a line up and down the center for the champ game divider
     const radius = this.getRadiiForRound(this.numRounds - 1)[0];
     this.ctx.setTransform(1, 0, 0, 1, 0, 0);
+    this.ctx.beginPath();
     this.ctx.moveTo(centerX, centerY + radius);
     this.ctx.lineTo(centerX, centerY - radius);
     this.ctx.stroke();
