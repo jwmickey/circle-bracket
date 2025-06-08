@@ -396,34 +396,37 @@ export default class Bracket {
     clipPath.arc(0, 0, this.getRadiiForRound(1)[0], 0, 2 * Math.PI);
     this.ctx.clip(clipPath);
 
-    // Create single path for all grid elements
-    const gridPath = new Path2D();
-
+    // Draw concentric circles
+    this.ctx.shadowColor = "rgba(0, 0, 0, 0.25)";
+    this.ctx.shadowBlur = 5;
+    
     for (let i = 1; i < this.numRounds; i++) {
+      const [radius, innerRadius] = this.getRadiiForRound(i);
+      
+      // Draw each circle separately to avoid connecting lines
+      this.ctx.beginPath();
+      this.ctx.arc(0, 0, radius, 0, 2 * Math.PI);
+      this.ctx.stroke();
+    }
+
+    // Draw radial lines
+    for (let i = 1; i < this.numRounds - 1; i++) {
       const slots = this.numEntries / Math.pow(2, i - 1);
       const [radius, innerRadius] = this.getRadiiForRound(i);
 
-      // Add outer arc to path
-      gridPath.arc(0, 0, radius, 0, 2 * Math.PI);
-
-      // Add inner lines to same path, skip on last ring
-      if (i < this.numRounds - 1) {
-        for (let j = 0; j < slots; j++) {
-          let t1 = ((Math.PI * 2) / slots) * j;
-          let x1 = Math.floor(radius * Math.cos(t1));
-          let y1 = Math.floor(radius * Math.sin(t1));
-          let x2 = Math.floor(innerRadius * Math.cos(t1));
-          let y2 = Math.floor(innerRadius * Math.sin(t1));
-          gridPath.moveTo(x1, y1);
-          gridPath.lineTo(x2, y2);
-        }
+      for (let j = 0; j < slots; j++) {
+        let t1 = ((Math.PI * 2) / slots) * j;
+        let x1 = Math.floor(radius * Math.cos(t1));
+        let y1 = Math.floor(radius * Math.sin(t1));
+        let x2 = Math.floor(innerRadius * Math.cos(t1));
+        let y2 = Math.floor(innerRadius * Math.sin(t1));
+        
+        this.ctx.beginPath();
+        this.ctx.moveTo(x1, y1);
+        this.ctx.lineTo(x2, y2);
+        this.ctx.stroke();
       }
     }
-
-    // Draw all grid elements in one operation
-    this.ctx.shadowColor = "rgba(0, 0, 0, 0.25)";
-    this.ctx.shadowBlur = 5;
-    this.ctx.stroke(gridPath);
 
     // stroke a final outer line to remove shadow
     const strokePath = new Path2D();
@@ -441,6 +444,7 @@ export default class Bracket {
     // draw a line up and down the center for the champ game divider
     const radius = this.getRadiiForRound(this.numRounds - 1)[0];
     this.ctx.setTransform(1, 0, 0, 1, 0, 0);
+    this.ctx.beginPath();
     this.ctx.moveTo(centerX, centerY + radius);
     this.ctx.lineTo(centerX, centerY - radius);
     this.ctx.stroke();
