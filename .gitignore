@@ -8,3 +8,4 @@ vendor
 cypress.env.json
 .env
 .idea
+/coverage
