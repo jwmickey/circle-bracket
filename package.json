@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.859.0",
-    "axios": "^1.8.4",
+    "axios": "^1.12.2",
     "axios-cache-interceptor": "^1.7.0",
     "downloadjs": "^1.4.7",
     "esm": "^3.2.25"
