@@ -1,6 +1,6 @@
 {
 	"format": "ncaa",
-	"updated": "2023-09-04T00:29:58.838Z",
+	"updated": "2025-12-03T02:37:57.446Z",
 	"year": 2023,
 	"regions": [
 		{
@@ -129,7 +129,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/am-corpus-chris-alabama"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-14-alabama.html"
 		},
 		{
 			"home": {
@@ -151,7 +151,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/west-virginia-maryland"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-12-maryland.html"
 		},
 		{
 			"home": {
@@ -173,7 +173,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/col-of-charleston-san-diego-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-15-san-diego-state.html"
 		},
 		{
 			"home": {
@@ -195,7 +195,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/furman-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-12-virginia.html"
 		},
 		{
 			"home": {
@@ -217,7 +217,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/north-carolina-st-creighton"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-16-creighton.html"
 		},
 		{
 			"home": {
@@ -239,7 +239,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/uc-santa-barbara-baylor"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-13-baylor.html"
 		},
 		{
 			"home": {
@@ -261,7 +261,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/utah-st-missouri"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-13-missouri.html"
 		},
 		{
 			"home": {
@@ -283,7 +283,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/princeton-arizona"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-16-arizona.html"
 		},
 		{
 			"home": {
@@ -305,7 +305,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/fairleigh-dickinson-purdue"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-18-purdue.html"
 		},
 		{
 			"home": {
@@ -327,7 +327,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/fla-atlantic-memphis"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-21-memphis.html"
 		},
 		{
 			"home": {
@@ -349,7 +349,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/oral-roberts-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-19-duke.html"
 		},
 		{
 			"home": {
@@ -371,7 +371,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/la-lafayette-tennessee"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-21-tennessee.html"
 		},
 		{
 			"home": {
@@ -393,7 +393,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/providence-kentucky"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-19-kentucky.html"
 		},
 		{
 			"home": {
@@ -415,7 +415,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/montana-st-kansas-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-21-kansas-state.html"
 		},
 		{
 			"home": {
@@ -437,7 +437,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/southern-california-michigan-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-12-michigan-state.html"
 		},
 		{
 			"home": {
@@ -459,7 +459,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/vermont-marquette"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-14-marquette.html"
 		},
 		{
 			"home": {
@@ -481,7 +481,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/northern-ky-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-21-houston.html"
 		},
 		{
 			"home": {
@@ -503,7 +503,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/auburn-iowa"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-18-iowa.html"
 		},
 		{
 			"home": {
@@ -525,7 +525,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/drake-miami-fl"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-19-miami-fl.html"
 		},
 		{
 			"home": {
@@ -547,7 +547,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/kent-st-indiana"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-21-indiana.html"
 		},
 		{
 			"home": {
@@ -569,7 +569,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/pittsburgh-iowa-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-15-iowa-state.html"
 		},
 		{
 			"home": {
@@ -591,7 +591,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/kennesaw-st-xavier"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-12-xavier.html"
 		},
 		{
 			"home": {
@@ -613,7 +613,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/penn-st-texas-am"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-21-texas-am.html"
 		},
 		{
 			"home": {
@@ -635,7 +635,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/colgate-texas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-19-texas.html"
 		},
 		{
 			"home": {
@@ -657,7 +657,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/howard-kansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-14-kansas.html"
 		},
 		{
 			"home": {
@@ -679,7 +679,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/illinois-arkansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-16-arkansas.html"
 		},
 		{
 			"home": {
@@ -701,7 +701,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/vcu-st-marys-ca"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-14-saint-marys-ca.html"
 		},
 		{
 			"home": {
@@ -723,7 +723,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/iona-uconn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-16-connecticut.html"
 		},
 		{
 			"home": {
@@ -745,7 +745,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/arizona-st-tcu"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-22-texas-christian.html"
 		},
 		{
 			"home": {
@@ -767,7 +767,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/17/grand-canyon-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-17-19-gonzaga.html"
 		},
 		{
 			"home": {
@@ -789,7 +789,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/boise-st-northwestern"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-19-northwestern.html"
 		},
 		{
 			"home": {
@@ -811,7 +811,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/16/unc-asheville-ucla"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-16-22-ucla.html"
 		},
 		{
 			"home": {
@@ -833,7 +833,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/maryland-alabama"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-18-21-alabama.html"
 		},
 		{
 			"home": {
@@ -855,7 +855,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/furman-san-diego-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-18-12-san-diego-state.html"
 		},
 		{
 			"home": {
@@ -877,7 +877,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/creighton-baylor"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-19-19-baylor.html"
 		},
 		{
 			"home": {
@@ -899,7 +899,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/princeton-missouri"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-18-18-missouri.html"
 		},
 		{
 			"home": {
@@ -921,7 +921,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/fairleigh-dickinson-fla-atlantic"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-19-19-florida-atlantic.html"
 		},
 		{
 			"home": {
@@ -943,7 +943,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/duke-tennessee"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-18-14-tennessee.html"
 		},
 		{
 			"home": {
@@ -965,7 +965,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/kentucky-kansas-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-19-14-kansas-state.html"
 		},
 		{
 			"home": {
@@ -987,7 +987,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/michigan-st-marquette"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-19-17-marquette.html"
 		},
 		{
 			"home": {
@@ -1009,7 +1009,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/auburn-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-18-19-houston.html"
 		},
 		{
 			"home": {
@@ -1031,7 +1031,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/miami-fl-indiana"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-19-20-indiana.html"
 		},
 		{
 			"home": {
@@ -1053,7 +1053,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/pittsburgh-xavier"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-19-12-xavier.html"
 		},
 		{
 			"home": {
@@ -1075,7 +1075,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/penn-st-texas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-18-19-texas.html"
 		},
 		{
 			"home": {
@@ -1097,7 +1097,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/arkansas-kansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-18-17-kansas.html"
 		},
 		{
 			"home": {
@@ -1119,7 +1119,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/st-marys-ca-uconn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-19-18-connecticut.html"
 		},
 		{
 			"home": {
@@ -1141,7 +1141,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/19/tcu-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-19-21-gonzaga.html"
 		},
 		{
 			"home": {
@@ -1163,7 +1163,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/18/northwestern-ucla"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-18-20-ucla.html"
 		},
 		{
 			"home": {
@@ -1185,7 +1185,7 @@
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/24/san-diego-st-alabama"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-24-00-alabama.html"
 		},
 		{
 			"home": {
@@ -1207,7 +1207,7 @@
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/24/princeton-creighton"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-24-21-creighton.html"
 		},
 		{
 			"home": {
@@ -1229,7 +1229,7 @@
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/23/fla-atlantic-tennessee"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-23-21-tennessee.html"
 		},
 		{
 			"home": {
@@ -1251,7 +1251,7 @@
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/23/michigan-st-kansas-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-23-18-kansas-state.html"
 		},
 		{
 			"home": {
@@ -1273,7 +1273,7 @@
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/24/miami-fl-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-24-19-houston.html"
 		},
 		{
 			"home": {
@@ -1295,7 +1295,7 @@
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/24/xavier-texas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-24-21-texas.html"
 		},
 		{
 			"home": {
@@ -1317,7 +1317,7 @@
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/23/arkansas-uconn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-23-19-connecticut.html"
 		},
 		{
 			"home": {
@@ -1339,7 +1339,7 @@
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/23/gonzaga-ucla"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-23-21-ucla.html"
 		},
 		{
 			"home": {
@@ -1361,7 +1361,7 @@
 			"region": "TL",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/26/creighton-san-diego-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-26-14-san-diego-state.html"
 		},
 		{
 			"home": {
@@ -1383,7 +1383,7 @@
 			"region": "BL",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/25/fla-atlantic-kansas-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-25-18-kansas-state.html"
 		},
 		{
 			"home": {
@@ -1405,7 +1405,7 @@
 			"region": "TR",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/26/miami-fl-texas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-26-17-texas.html"
 		},
 		{
 			"home": {
@@ -1427,7 +1427,7 @@
 			"region": "BR",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/03/25/uconn-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-03-25-20-gonzaga.html"
 		},
 		{
 			"home": {
@@ -1449,7 +1449,7 @@
 			"region": "",
 			"round": 5,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/04/01/fla-atlantic-san-diego-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-04-01-19-san-diego-state.html"
 		},
 		{
 			"home": {
@@ -1471,7 +1471,7 @@
 			"region": "",
 			"round": 5,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/04/01/miami-fl-uconn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-04-01-21-connecticut.html"
 		},
 		{
 			"home": {
@@ -1493,7 +1493,7 @@
 			"region": "",
 			"round": 6,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2023/04/03/san-diego-st-uconn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2023-04-03-21-connecticut.html"
 		}
 	]
 }

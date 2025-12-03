@@ -1,6 +1,6 @@
 {
 	"format": "ncaa",
-	"updated": "2021-04-06T05:32:39.677Z",
+	"updated": "2025-12-03T02:42:08.172Z",
 	"year": 2021,
 	"regions": [
 		{
@@ -129,7 +129,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/norfolk-st-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-21-gonzaga.html"
 		},
 		{
 			"home": {
@@ -151,7 +151,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/missouri-oklahoma"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-19-oklahoma.html"
 		},
 		{
 			"home": {
@@ -173,7 +173,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/uc-santa-barbara-creighton"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-15-creighton.html"
 		},
 		{
 			"home": {
@@ -195,7 +195,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/ohio-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-19-virginia.html"
 		},
 		{
 			"home": {
@@ -217,7 +217,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/drake-southern-california"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-16-southern-california.html"
 		},
 		{
 			"home": {
@@ -239,7 +239,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/eastern-wash-kansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-13-kansas.html"
 		},
 		{
 			"home": {
@@ -283,7 +283,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/grand-canyon-iowa"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-18-iowa.html"
 		},
 		{
 			"home": {
@@ -305,7 +305,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/texas-southern-michigan"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-15-michigan.html"
 		},
 		{
 			"home": {
@@ -327,7 +327,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/st-bonaventure-lsu"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-13-louisiana-state.html"
 		},
 		{
 			"home": {
@@ -349,7 +349,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/georgetown-colorado"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-12-colorado.html"
 		},
 		{
 			"home": {
@@ -371,7 +371,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/unc-greensboro-florida-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-12-florida-state.html"
 		},
 		{
 			"home": {
@@ -393,7 +393,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/ucla-byu"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-21-brigham-young.html"
 		},
 		{
 			"home": {
@@ -415,7 +415,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/abilene-christian-texas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-22-texas.html"
 		},
 		{
 			"home": {
@@ -437,7 +437,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/maryland-uconn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-19-connecticut.html"
 		},
 		{
 			"home": {
@@ -459,7 +459,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/20/iona-alabama"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-20-16-alabama.html"
 		},
 		{
 			"home": {
@@ -481,7 +481,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/hartford-baylor"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-15-baylor.html"
 		},
 		{
 			"home": {
@@ -503,7 +503,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/wisconsin-north-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-19-north-carolina.html"
 		},
 		{
 			"home": {
@@ -525,7 +525,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/winthrop-villanova"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-22-villanova.html"
 		},
 		{
 			"home": {
@@ -547,7 +547,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/north-texas-purdue"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-19-purdue.html"
 		},
 		{
 			"home": {
@@ -569,7 +569,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/utah-st-texas-tech"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-13-texas-tech.html"
 		},
 		{
 			"home": {
@@ -591,7 +591,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/colgate-arkansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-12-arkansas.html"
 		},
 		{
 			"home": {
@@ -613,7 +613,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/virginia-tech-florida"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-12-florida.html"
 		},
 		{
 			"home": {
@@ -635,7 +635,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/oral-roberts-ohio-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-15-ohio-state.html"
 		},
 		{
 			"home": {
@@ -657,7 +657,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/drexel-illinois"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-13-illinois.html"
 		},
 		{
 			"home": {
@@ -679,7 +679,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/georgia-tech-loyola-chicago"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-16-loyola-il.html"
 		},
 		{
 			"home": {
@@ -701,7 +701,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/oregon-st-tennessee"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-16-tennessee.html"
 		},
 		{
 			"home": {
@@ -723,7 +723,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/liberty-oklahoma-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-18-oklahoma-state.html"
 		},
 		{
 			"home": {
@@ -745,7 +745,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/syracuse-san-diego-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-21-san-diego-state.html"
 		},
 		{
 			"home": {
@@ -767,7 +767,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/morehead-st-west-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-22-west-virginia.html"
 		},
 		{
 			"home": {
@@ -789,7 +789,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/rutgers-clemson"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-21-clemson.html"
 		},
 		{
 			"home": {
@@ -811,7 +811,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/19/cleveland-st-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-19-19-houston.html"
 		},
 		{
 			"home": {
@@ -833,7 +833,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/22/oklahoma-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-22-14-gonzaga.html"
 		},
 		{
 			"home": {
@@ -855,7 +855,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/22/ohio-creighton"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-22-18-creighton.html"
 		},
 		{
 			"home": {
@@ -877,7 +877,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/22/southern-california-kansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-22-21-kansas.html"
 		},
 		{
 			"home": {
@@ -899,7 +899,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/22/oregon-iowa"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-22-12-iowa.html"
 		},
 		{
 			"home": {
@@ -921,7 +921,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/22/lsu-michigan"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-22-19-michigan.html"
 		},
 		{
 			"home": {
@@ -943,7 +943,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/22/colorado-florida-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-22-19-florida-state.html"
 		},
 		{
 			"home": {
@@ -965,7 +965,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/22/abilene-christian-ucla"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-22-17-ucla.html"
 		},
 		{
 			"home": {
@@ -987,7 +987,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/22/maryland-alabama"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-22-20-alabama.html"
 		},
 		{
 			"home": {
@@ -1009,7 +1009,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/21/wisconsin-baylor"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-21-14-baylor.html"
 		},
 		{
 			"home": {
@@ -1031,7 +1031,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/21/north-texas-villanova"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-21-20-villanova.html"
 		},
 		{
 			"home": {
@@ -1053,7 +1053,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/21/texas-tech-arkansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-21-18-arkansas.html"
 		},
 		{
 			"home": {
@@ -1075,7 +1075,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/21/oral-roberts-florida"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-21-19-florida.html"
 		},
 		{
 			"home": {
@@ -1097,7 +1097,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/21/loyola-chicago-illinois"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-21-12-illinois.html"
 		},
 		{
 			"home": {
@@ -1119,7 +1119,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/21/oregon-st-oklahoma-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-21-21-oklahoma-state.html"
 		},
 		{
 			"home": {
@@ -1141,7 +1141,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/21/syracuse-west-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-21-17-west-virginia.html"
 		},
 		{
 			"home": {
@@ -1163,7 +1163,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/21/rutgers-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-21-19-houston.html"
 		},
 		{
 			"home": {
@@ -1185,7 +1185,7 @@
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/28/creighton-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-28-14-gonzaga.html"
 		},
 		{
 			"home": {
@@ -1207,7 +1207,7 @@
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/28/oregon-southern-california"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-28-21-southern-california.html"
 		},
 		{
 			"home": {
@@ -1229,7 +1229,7 @@
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/28/florida-st-michigan"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-28-17-michigan.html"
 		},
 		{
 			"home": {
@@ -1251,7 +1251,7 @@
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/28/ucla-alabama"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-28-19-alabama.html"
 		},
 		{
 			"home": {
@@ -1273,7 +1273,7 @@
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/27/villanova-baylor"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-27-17-baylor.html"
 		},
 		{
 			"home": {
@@ -1295,7 +1295,7 @@
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/27/oral-roberts-arkansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-27-19-arkansas.html"
 		},
 		{
 			"home": {
@@ -1317,7 +1317,7 @@
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/27/oregon-st-loyola-chicago"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-27-14-loyola-il.html"
 		},
 		{
 			"home": {
@@ -1339,7 +1339,7 @@
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/27/syracuse-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-27-21-houston.html"
 		},
 		{
 			"home": {
@@ -1361,7 +1361,7 @@
 			"region": "TL",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/30/southern-california-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-30-19-gonzaga.html"
 		},
 		{
 			"home": {
@@ -1383,7 +1383,7 @@
 			"region": "BL",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/30/ucla-michigan"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-30-21-michigan.html"
 		},
 		{
 			"home": {
@@ -1405,7 +1405,7 @@
 			"region": "TR",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/29/arkansas-baylor"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-29-21-baylor.html"
 		},
 		{
 			"home": {
@@ -1427,7 +1427,7 @@
 			"region": "BR",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/03/29/oregon-st-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-03-29-19-houston.html"
 		},
 		{
 			"home": {
@@ -1449,7 +1449,7 @@
 			"region": "",
 			"round": 5,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/04/03/ucla-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-04-03-20-gonzaga.html"
 		},
 		{
 			"home": {
@@ -1471,7 +1471,7 @@
 			"region": "",
 			"round": 5,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/04/03/houston-baylor"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-04-03-17-baylor.html"
 		},
 		{
 			"home": {
@@ -1493,7 +1493,7 @@
 			"region": "",
 			"round": 6,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2021/04/05/baylor-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2021-04-05-21-gonzaga.html"
 		}
 	]
 }
