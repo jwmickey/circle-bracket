@@ -1,6 +1,6 @@
 {
 	"format": "ncaa",
-	"updated": "2024-04-09T23:44:01.655Z",
+	"updated": "2025-12-03T02:35:32.372Z",
 	"year": 2024,
 	"regions": [
 		{
@@ -129,7 +129,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/stetson-uconn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-14-connecticut.html"
 		},
 		{
 			"home": {
@@ -151,7 +151,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/northwestern-fla-atlantic"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-12-florida-atlantic.html"
 		},
 		{
 			"home": {
@@ -173,7 +173,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/uab-san-diego-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-13-san-diego-state.html"
 		},
 		{
 			"home": {
@@ -195,7 +195,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/yale-auburn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-16-auburn.html"
 		},
 		{
 			"home": {
@@ -217,7 +217,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/duquesne-byu"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-12-brigham-young.html"
 		},
 		{
 			"home": {
@@ -239,7 +239,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/morehead-st-illinois"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-15-illinois.html"
 		},
 		{
 			"home": {
@@ -261,7 +261,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/drake-washington-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-22-washington-state.html"
 		},
 		{
 			"home": {
@@ -283,7 +283,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/south-dakota-st-iowa-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-19-iowa-state.html"
 		},
 		{
 			"home": {
@@ -305,7 +305,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/wagner-north-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-14-north-carolina.html"
 		},
 		{
 			"home": {
@@ -327,7 +327,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/michigan-st-mississippi-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-12-mississippi-state.html"
 		},
 		{
 			"home": {
@@ -349,7 +349,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/grand-canyon-st-marys-ca"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-22-saint-marys-ca.html"
 		},
 		{
 			"home": {
@@ -371,7 +371,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/col-of-charleston-alabama"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-19-alabama.html"
 		},
 		{
 			"home": {
@@ -393,7 +393,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/new-mexico-clemson"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-15-clemson.html"
 		},
 		{
 			"home": {
@@ -415,7 +415,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/colgate-baylor"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-12-baylor.html"
 		},
 		{
 			"home": {
@@ -437,7 +437,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/nevada-dayton"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-16-dayton.html"
 		},
 		{
 			"home": {
@@ -459,7 +459,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/long-beach-st-arizona"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-14-arizona.html"
 		},
 		{
 			"home": {
@@ -481,7 +481,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/longwood-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-21-houston.html"
 		},
 		{
 			"home": {
@@ -503,7 +503,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/texas-am-nebraska"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-18-nebraska.html"
 		},
 		{
 			"home": {
@@ -525,7 +525,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/james-madison-wisconsin"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-21-wisconsin.html"
 		},
 		{
 			"home": {
@@ -547,7 +547,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/vermont-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-19-duke.html"
 		},
 		{
 			"home": {
@@ -569,7 +569,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/north-carolina-st-texas-tech"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-21-texas-tech.html"
 		},
 		{
 			"home": {
@@ -591,7 +591,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/oakland-kentucky"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-19-kentucky.html"
 		},
 		{
 			"home": {
@@ -613,7 +613,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/colorado-florida"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-16-florida.html"
 		},
 		{
 			"home": {
@@ -635,7 +635,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/western-ky-marquette"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-14-marquette.html"
 		},
 		{
 			"home": {
@@ -657,7 +657,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/grambling-purdue"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-19-purdue.html"
 		},
 		{
 			"home": {
@@ -679,7 +679,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/22/tcu-utah-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-22-21-utah-state.html"
 		},
 		{
 			"home": {
@@ -701,7 +701,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/mcneese-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-19-gonzaga.html"
 		},
 		{
 			"home": {
@@ -723,7 +723,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/samford-kansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-21-kansas.html"
 		},
 		{
 			"home": {
@@ -745,7 +745,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/oregon-south-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-16-south-carolina.html"
 		},
 		{
 			"home": {
@@ -767,7 +767,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/akron-creighton"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-13-creighton.html"
 		},
 		{
 			"home": {
@@ -789,7 +789,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/colorado-st-texas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-18-texas.html"
 		},
 		{
 			"home": {
@@ -811,7 +811,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/21/st-peters-tennessee"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-21-21-tennessee.html"
 		},
 		{
 			"home": {
@@ -833,7 +833,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/24/northwestern-uconn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-24-19-connecticut.html"
 		},
 		{
 			"home": {
@@ -855,7 +855,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/24/yale-san-diego-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-24-21-san-diego-state.html"
 		},
 		{
 			"home": {
@@ -877,7 +877,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/23/duquesne-illinois"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-23-20-illinois.html"
 		},
 		{
 			"home": {
@@ -899,7 +899,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/23/washington-st-iowa-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-23-18-iowa-state.html"
 		},
 		{
 			"home": {
@@ -921,7 +921,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/23/michigan-st-north-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-23-17-north-carolina.html"
 		},
 		{
 			"home": {
@@ -943,7 +943,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/24/grand-canyon-alabama"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-24-19-alabama.html"
 		},
 		{
 			"home": {
@@ -965,7 +965,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/24/clemson-baylor"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-24-18-baylor.html"
 		},
 		{
 			"home": {
@@ -987,7 +987,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/23/dayton-arizona"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-23-12-arizona.html"
 		},
 		{
 			"home": {
@@ -1009,7 +1009,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/24/texas-am-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-24-20-houston.html"
 		},
 		{
 			"home": {
@@ -1031,7 +1031,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/24/james-madison-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-24-17-duke.html"
 		},
 		{
 			"home": {
@@ -1053,7 +1053,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/23/oakland-north-carolina-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-23-19-north-carolina-state.html"
 		},
 		{
 			"home": {
@@ -1075,7 +1075,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/24/colorado-marquette"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-24-12-marquette.html"
 		},
 		{
 			"home": {
@@ -1097,7 +1097,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/24/utah-st-purdue"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-24-14-purdue.html"
 		},
 		{
 			"home": {
@@ -1119,7 +1119,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/23/gonzaga-kansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-23-15-kansas.html"
 		},
 		{
 			"home": {
@@ -1141,7 +1141,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/23/oregon-creighton"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-23-21-creighton.html"
 		},
 		{
 			"home": {
@@ -1163,7 +1163,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/23/texas-tennessee"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-23-20-tennessee.html"
 		},
 		{
 			"home": {
@@ -1185,7 +1185,7 @@
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/28/san-diego-st-uconn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-28-19-connecticut.html"
 		},
 		{
 			"home": {
@@ -1207,7 +1207,7 @@
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/28/illinois-iowa-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-28-00-iowa-state.html"
 		},
 		{
 			"home": {
@@ -1229,7 +1229,7 @@
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/28/alabama-north-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-28-21-north-carolina.html"
 		},
 		{
 			"home": {
@@ -1251,7 +1251,7 @@
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/28/clemson-arizona"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-28-19-arizona.html"
 		},
 		{
 			"home": {
@@ -1273,7 +1273,7 @@
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/29/duke-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-29-21-houston.html"
 		},
 		{
 			"home": {
@@ -1295,7 +1295,7 @@
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/29/north-carolina-st-marquette"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-29-19-marquette.html"
 		},
 		{
 			"home": {
@@ -1317,7 +1317,7 @@
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/29/gonzaga-purdue"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-29-19-purdue.html"
 		},
 		{
 			"home": {
@@ -1339,7 +1339,7 @@
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/29/creighton-tennessee"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-29-00-tennessee.html"
 		},
 		{
 			"home": {
@@ -1361,7 +1361,7 @@
 			"region": "TL",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/30/illinois-uconn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-30-00-connecticut.html"
 		},
 		{
 			"home": {
@@ -1383,7 +1383,7 @@
 			"region": "BL",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/30/clemson-alabama"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-30-03-alabama.html"
 		},
 		{
 			"home": {
@@ -1405,7 +1405,7 @@
 			"region": "TR",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/31/north-carolina-st-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-31-17-duke.html"
 		},
 		{
 			"home": {
@@ -1427,7 +1427,7 @@
 			"region": "BR",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/03/31/tennessee-purdue"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-03-31-14-purdue.html"
 		},
 		{
 			"home": {
@@ -1449,7 +1449,7 @@
 			"region": "",
 			"round": 5,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/04/06/alabama-uconn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-04-06-01-connecticut.html"
 		},
 		{
 			"home": {
@@ -1471,7 +1471,7 @@
 			"region": "",
 			"round": 5,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/04/06/north-carolina-st-purdue"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-04-06-18-purdue.html"
 		},
 		{
 			"home": {
@@ -1493,7 +1493,7 @@
 			"region": "",
 			"round": 6,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2024/04/08/purdue-uconn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2024-04-08-21-purdue.html"
 		}
 	]
 }

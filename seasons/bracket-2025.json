@@ -1,6 +1,6 @@
 {
 	"format": "ncaa",
-	"updated": "2025-04-10T03:56:00.342Z",
+	"updated": "2025-12-03T02:52:01.438Z",
 	"year": 2025,
 	"regions": [
 		{
@@ -129,7 +129,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/alabama-st-auburn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-14-auburn.html"
 		},
 		{
 			"home": {
@@ -151,7 +151,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/creighton-louisville"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-12-louisville.html"
 		},
 		{
 			"home": {
@@ -173,7 +173,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/uc-san-diego-michigan"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-22-michigan.html"
 		},
 		{
 			"home": {
@@ -195,7 +195,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/yale-texas-am"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-19-texas-am.html"
 		},
 		{
 			"home": {
@@ -217,7 +217,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/north-carolina-ole-miss"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-16-mississippi.html"
 		},
 		{
 			"home": {
@@ -239,7 +239,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/lipscomb-iowa-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-13-iowa-state.html"
 		},
 		{
 			"home": {
@@ -261,7 +261,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/new-mexico-marquette"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-19-marquette.html"
 		},
 		{
 			"home": {
@@ -283,7 +283,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/bryant-michigan-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-22-michigan-state.html"
 		},
 		{
 			"home": {
@@ -305,7 +305,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/norfolk-st-florida"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-18-florida.html"
 		},
 		{
 			"home": {
@@ -327,7 +327,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/oklahoma-uconn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-21-connecticut.html"
 		},
 		{
 			"home": {
@@ -349,7 +349,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/colorado-st-memphis"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-14-memphis.html"
 		},
 		{
 			"home": {
@@ -371,7 +371,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/grand-canyon-maryland"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-16-maryland.html"
 		},
 		{
 			"home": {
@@ -393,7 +393,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/drake-missouri"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-19-missouri.html"
 		},
 		{
 			"home": {
@@ -415,7 +415,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/unc-wilmington-texas-tech"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-22-texas-tech.html"
 		},
 		{
 			"home": {
@@ -437,7 +437,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/arkansas-kansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-19-kansas.html"
 		},
 		{
 			"home": {
@@ -459,7 +459,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/neb-omaha-st-johns-ny"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-21-st-johns-ny.html"
 		},
 		{
 			"home": {
@@ -481,7 +481,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/mt-st-marys-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-14-duke.html"
 		},
 		{
 			"home": {
@@ -503,7 +503,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/baylor-mississippi-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-12-mississippi-state.html"
 		},
 		{
 			"home": {
@@ -525,7 +525,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/liberty-oregon"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-22-oregon.html"
 		},
 		{
 			"home": {
@@ -547,7 +547,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/akron-arizona"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-19-arizona.html"
 		},
 		{
 			"home": {
@@ -569,7 +569,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/vcu-byu"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-16-brigham-young.html"
 		},
 		{
 			"home": {
@@ -591,7 +591,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/montana-wisconsin"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-13-wisconsin.html"
 		},
 		{
 			"home": {
@@ -613,7 +613,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/vanderbilt-st-marys-ca"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-15-saint-marys-ca.html"
 		},
 		{
 			"home": {
@@ -635,7 +635,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/robert-morris-alabama"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-12-alabama.html"
 		},
 		{
 			"home": {
@@ -657,7 +657,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/siu-edwardsville-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-14-houston.html"
 		},
 		{
 			"home": {
@@ -679,7 +679,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/georgia-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-16-gonzaga.html"
 		},
 		{
 			"home": {
@@ -701,7 +701,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/mcneese-clemson"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-15-clemson.html"
 		},
 		{
 			"home": {
@@ -723,7 +723,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/high-point-purdue"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-12-purdue.html"
 		},
 		{
 			"home": {
@@ -745,7 +745,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/xavier-illinois"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-21-illinois.html"
 		},
 		{
 			"home": {
@@ -767,7 +767,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/21/troy-kentucky"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-21-19-kentucky.html"
 		},
 		{
 			"home": {
@@ -789,7 +789,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/utah-st-ucla"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-21-ucla.html"
 		},
 		{
 			"home": {
@@ -811,7 +811,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/20/wofford-tennessee"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-20-18-tennessee.html"
 		},
 		{
 			"home": {
@@ -833,7 +833,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/22/creighton-auburn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-22-19-auburn.html"
 		},
 		{
 			"home": {
@@ -855,7 +855,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/22/michigan-texas-am"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-22-17-texas-am.html"
 		},
 		{
 			"home": {
@@ -877,7 +877,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/23/ole-miss-iowa-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-23-19-iowa-state.html"
 		},
 		{
 			"home": {
@@ -899,7 +899,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/23/new-mexico-michigan-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-23-20-michigan-state.html"
 		},
 		{
 			"home": {
@@ -921,7 +921,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/23/uconn-florida"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-23-12-florida.html"
 		},
 		{
 			"home": {
@@ -943,7 +943,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/23/colorado-st-maryland"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-23-19-maryland.html"
 		},
 		{
 			"home": {
@@ -965,7 +965,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/22/drake-texas-tech"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-22-18-texas-tech.html"
 		},
 		{
 			"home": {
@@ -987,7 +987,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/22/arkansas-st-johns-ny"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-22-14-st-johns-ny.html"
 		},
 		{
 			"home": {
@@ -1009,7 +1009,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/23/baylor-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-23-14-duke.html"
 		},
 		{
 			"home": {
@@ -1031,7 +1031,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/23/oregon-arizona"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-23-21-arizona.html"
 		},
 		{
 			"home": {
@@ -1053,7 +1053,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/22/byu-wisconsin"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-22-19-wisconsin.html"
 		},
 		{
 			"home": {
@@ -1075,7 +1075,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/23/st-marys-ca-alabama"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-23-18-alabama.html"
 		},
 		{
 			"home": {
@@ -1097,7 +1097,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/22/gonzaga-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-22-20-houston.html"
 		},
 		{
 			"home": {
@@ -1119,7 +1119,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/22/mcneese-purdue"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-22-12-purdue.html"
 		},
 		{
 			"home": {
@@ -1141,7 +1141,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/23/illinois-kentucky"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-23-17-kentucky.html"
 		},
 		{
 			"home": {
@@ -1163,7 +1163,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/22/ucla-tennessee"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-22-21-tennessee.html"
 		},
 		{
 			"home": {
@@ -1185,7 +1185,7 @@
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/28/michigan-auburn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-28-00-auburn.html"
 		},
 		{
 			"home": {
@@ -1207,7 +1207,7 @@
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/28/ole-miss-michigan-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-28-19-michigan-state.html"
 		},
 		{
 			"home": {
@@ -1229,7 +1229,7 @@
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/27/maryland-florida"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-27-19-florida.html"
 		},
 		{
 			"home": {
@@ -1251,7 +1251,7 @@
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/27/arkansas-texas-tech"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-27-03-texas-tech.html"
 		},
 		{
 			"home": {
@@ -1273,7 +1273,7 @@
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/27/arizona-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-27-21-duke.html"
 		},
 		{
 			"home": {
@@ -1295,7 +1295,7 @@
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/27/byu-alabama"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-27-19-alabama.html"
 		},
 		{
 			"home": {
@@ -1317,7 +1317,7 @@
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/28/purdue-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-28-00-houston.html"
 		},
 		{
 			"home": {
@@ -1339,7 +1339,7 @@
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/28/kentucky-tennessee"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-28-19-tennessee.html"
 		},
 		{
 			"home": {
@@ -1361,7 +1361,7 @@
 			"region": "TL",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/30/michigan-st-auburn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-30-17-auburn.html"
 		},
 		{
 			"home": {
@@ -1383,7 +1383,7 @@
 			"region": "BL",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/29/texas-tech-florida"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-29-18-florida.html"
 		},
 		{
 			"home": {
@@ -1405,7 +1405,7 @@
 			"region": "TR",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/29/alabama-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-29-20-duke.html"
 		},
 		{
 			"home": {
@@ -1427,7 +1427,7 @@
 			"region": "BR",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/03/30/tennessee-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-03-30-14-houston.html"
 		},
 		{
 			"home": {
@@ -1449,7 +1449,7 @@
 			"region": "",
 			"round": 5,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/04/05/florida-auburn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-04-05-18-auburn.html"
 		},
 		{
 			"home": {
@@ -1471,7 +1471,7 @@
 			"region": "",
 			"round": 5,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/04/05/houston-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-04-05-20-duke.html"
 		},
 		{
 			"home": {
@@ -1493,7 +1493,7 @@
 			"region": "",
 			"round": 6,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2025/04/07/florida-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2025-04-07-20-houston.html"
 		}
 	]
 }

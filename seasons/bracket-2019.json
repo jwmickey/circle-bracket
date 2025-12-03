@@ -1,6 +1,6 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-11T19:07:07.015Z",
+	"updated": "2025-12-03T02:46:48.980Z",
 	"year": 2019,
 	"regions": [
 		{
@@ -129,7 +129,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/minnesota-louisville"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-12-louisville.html"
 		},
 		{
 			"home": {
@@ -151,7 +151,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/yale-lsu"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-12-louisiana-state.html"
 		},
 		{
 			"home": {
@@ -173,7 +173,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/new-mexico-st-auburn"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-13-auburn.html"
 		},
 		{
 			"home": {
@@ -195,7 +195,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/vermont-florida-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-14-florida-state.html"
 		},
 		{
 			"home": {
@@ -217,7 +217,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/bradley-michigan-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-14-michigan-state.html"
 		},
 		{
 			"home": {
@@ -239,7 +239,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/belmont-maryland"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-15-maryland.html"
 		},
 		{
 			"home": {
@@ -261,7 +261,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/northeastern-kansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-16-kansas.html"
 		},
 		{
 			"home": {
@@ -283,7 +283,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/murray-st-marquette"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-16-marquette.html"
 		},
 		{
 			"home": {
@@ -305,7 +305,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/florida-nevada"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-18-nevada.html"
 		},
 		{
 			"home": {
@@ -327,7 +327,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/abilene-christian-kentucky"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-19-kentucky.html"
 		},
 		{
 			"home": {
@@ -349,7 +349,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/fairleigh-dickinson-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-19-gonzaga.html"
 		},
 		{
 			"home": {
@@ -371,7 +371,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/st-marys-ca-villanova"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-19-villanova.html"
 		},
 		{
 			"home": {
@@ -393,7 +393,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/seton-hall-wofford"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-21-wofford.html"
 		},
 		{
 			"home": {
@@ -415,7 +415,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/montana-michigan"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-21-michigan.html"
 		},
 		{
 			"home": {
@@ -437,7 +437,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/baylor-syracuse"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-21-syracuse.html"
 		},
 		{
 			"home": {
@@ -459,7 +459,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/21/old-dominion-purdue"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-21-21-purdue.html"
 		},
 		{
 			"home": {
@@ -481,7 +481,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/iowa-cincinnati"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-12-cincinnati.html"
 		},
 		{
 			"home": {
@@ -503,7 +503,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/oklahoma-ole-miss"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-12-mississippi.html"
 		},
 		{
 			"home": {
@@ -525,7 +525,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/northern-ky-texas-tech"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-13-texas-tech.html"
 		},
 		{
 			"home": {
@@ -547,7 +547,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/uc-irvine-kansas-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-14-kansas-state.html"
 		},
 		{
 			"home": {
@@ -569,7 +569,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/colgate-tennessee"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-14-tennessee.html"
 		},
 		{
 			"home": {
@@ -591,7 +591,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/gardner-webb-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-15-virginia.html"
 		},
 		{
 			"home": {
@@ -613,7 +613,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/arizona-st-buffalo"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-16-buffalo.html"
 		},
 		{
 			"home": {
@@ -635,7 +635,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/oregon-wisconsin"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-16-wisconsin.html"
 		},
 		{
 			"home": {
@@ -657,7 +657,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/washington-utah-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-18-utah-state.html"
 		},
 		{
 			"home": {
@@ -679,7 +679,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/north-dakota-st-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-19-duke.html"
 		},
 		{
 			"home": {
@@ -701,7 +701,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/georgia-st-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-19-houston.html"
 		},
 		{
 			"home": {
@@ -723,7 +723,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/liberty-mississippi-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-19-mississippi-state.html"
 		},
 		{
 			"home": {
@@ -745,7 +745,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/iona-north-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-21-north-carolina.html"
 		},
 		{
 			"home": {
@@ -767,7 +767,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/ucf-vcu"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-21-virginia-commonwealth.html"
 		},
 		{
 			"home": {
@@ -789,7 +789,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/ohio-st-iowa-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-21-iowa-state.html"
 		},
 		{
 			"home": {
@@ -811,7 +811,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/22/saint-louis-virginia-tech"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-22-21-virginia-tech.html"
 		},
 		{
 			"home": {
@@ -833,7 +833,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/23/maryland-lsu"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-23-12-louisiana-state.html"
 		},
 		{
 			"home": {
@@ -855,7 +855,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/23/wofford-kentucky"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-23-14-kentucky.html"
 		},
 		{
 			"home": {
@@ -877,7 +877,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/23/florida-michigan"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-23-17-michigan.html"
 		},
 		{
 			"home": {
@@ -899,7 +899,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/23/murray-st-florida-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-23-18-florida-state.html"
 		},
 		{
 			"home": {
@@ -921,7 +921,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/23/baylor-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-23-19-gonzaga.html"
 		},
 		{
 			"home": {
@@ -943,7 +943,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/23/minnesota-michigan-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-23-19-michigan-state.html"
 		},
 		{
 			"home": {
@@ -965,7 +965,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/23/villanova-purdue"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-23-20-purdue.html"
 		},
 		{
 			"home": {
@@ -987,7 +987,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/23/auburn-kansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-23-21-kansas.html"
 		},
 		{
 			"home": {
@@ -1009,7 +1009,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/24/iowa-tennessee"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-24-12-tennessee.html"
 		},
 		{
 			"home": {
@@ -1031,7 +1031,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/24/washington-north-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-24-14-north-carolina.html"
 		},
 		{
 			"home": {
@@ -1053,7 +1053,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/24/ucf-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-24-17-duke.html"
 		},
 		{
 			"home": {
@@ -1075,7 +1075,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/24/buffalo-texas-tech"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-24-18-texas-tech.html"
 		},
 		{
 			"home": {
@@ -1097,7 +1097,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/24/liberty-virginia-tech"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-24-19-virginia-tech.html"
 		},
 		{
 			"home": {
@@ -1119,7 +1119,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/24/oklahoma-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-24-19-virginia.html"
 		},
 		{
 			"home": {
@@ -1141,7 +1141,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/24/ohio-st-houston"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-24-20-houston.html"
 		},
 		{
 			"home": {
@@ -1163,7 +1163,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/24/uc-irvine-oregon"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-24-21-oregon.html"
 		},
 		{
 			"home": {
@@ -1185,7 +1185,7 @@
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/28/florida-st-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-28-19-gonzaga.html"
 		},
 		{
 			"home": {
@@ -1207,7 +1207,7 @@
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/28/purdue-tennessee"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-28-19-tennessee.html"
 		},
 		{
 			"home": {
@@ -1229,7 +1229,7 @@
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/28/texas-tech-michigan"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-28-21-michigan.html"
 		},
 		{
 			"home": {
@@ -1251,7 +1251,7 @@
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/28/oregon-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-28-21-virginia.html"
 		},
 		{
 			"home": {
@@ -1273,7 +1273,7 @@
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/29/lsu-michigan-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-29-19-michigan-state.html"
 		},
 		{
 			"home": {
@@ -1295,7 +1295,7 @@
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/29/auburn-north-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-29-19-north-carolina.html"
 		},
 		{
 			"home": {
@@ -1317,7 +1317,7 @@
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/29/virginia-tech-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-29-21-duke.html"
 		},
 		{
 			"home": {
@@ -1339,7 +1339,7 @@
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/29/houston-kentucky"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-29-21-kentucky.html"
 		},
 		{
 			"home": {
@@ -1361,7 +1361,7 @@
 			"region": "BL",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/30/texas-tech-gonzaga"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-30-18-gonzaga.html"
 		},
 		{
 			"home": {
@@ -1383,7 +1383,7 @@
 			"region": "TR",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/30/purdue-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-30-20-virginia.html"
 		},
 		{
 			"home": {
@@ -1405,7 +1405,7 @@
 			"region": "BR",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/31/auburn-kentucky"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-31-14-kentucky.html"
 		},
 		{
 			"home": {
@@ -1427,7 +1427,7 @@
 			"region": "TL",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/03/31/michigan-st-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-03-31-17-duke.html"
 		},
 		{
 			"home": {
@@ -1449,7 +1449,7 @@
 			"region": "",
 			"round": 5,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/04/06/auburn-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-04-06-18-virginia.html"
 		},
 		{
 			"home": {
@@ -1471,7 +1471,7 @@
 			"region": "",
 			"round": 5,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/04/06/texas-tech-michigan-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-04-06-20-michigan-state.html"
 		},
 		{
 			"home": {
@@ -1493,7 +1493,7 @@
 			"region": "",
 			"round": 6,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2019/04/08/texas-tech-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2019-04-08-21-virginia.html"
 		}
 	]
 }

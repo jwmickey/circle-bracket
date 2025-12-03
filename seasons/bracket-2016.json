@@ -1,6 +1,6 @@
 {
 	"format": "ncaa",
-	"updated": "2019-04-11T19:05:52.669Z",
+	"updated": "2025-12-03T02:50:18.312Z",
 	"year": 2016,
 	"regions": [
 		{
@@ -129,7 +129,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/unc-wilmington-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-duke.html"
 		},
 		{
 			"home": {
@@ -151,7 +151,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/butler-texas-tech"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-texas-tech.html"
 		},
 		{
 			"home": {
@@ -173,7 +173,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/uconn-colorado"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-colorado.html"
 		},
 		{
 			"home": {
@@ -195,7 +195,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/iona-iowa-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-iowa-state.html"
 		},
 		{
 			"home": {
@@ -217,7 +217,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/yale-baylor"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-baylor.html"
 		},
 		{
 			"home": {
@@ -239,7 +239,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/hampton-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-virginia.html"
 		},
 		{
 			"home": {
@@ -261,7 +261,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/austin-peay-kansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-kansas.html"
 		},
 		{
 			"home": {
@@ -283,7 +283,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/ualr-purdue"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-purdue.html"
 		},
 		{
 			"home": {
@@ -305,7 +305,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/buffalo-miami-fl"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-miami-fl.html"
 		},
 		{
 			"home": {
@@ -327,7 +327,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/fgcu-north-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-north-carolina.html"
 		},
 		{
 			"home": {
@@ -349,7 +349,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/chattanooga-indiana"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-indiana.html"
 		},
 		{
 			"home": {
@@ -371,7 +371,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/fresno-st-utah"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-utah.html"
 		},
 		{
 			"home": {
@@ -393,7 +393,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/wichita-st-arizona"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-arizona.html"
 		},
 		{
 			"home": {
@@ -415,7 +415,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/stony-brook-kentucky"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-kentucky.html"
 		},
 		{
 			"home": {
@@ -437,7 +437,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/providence-southern-california"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-southern-california.html"
 		},
 		{
 			"home": {
@@ -459,7 +459,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/17/gonzaga-seton-hall"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-17-seton-hall.html"
 		},
 		{
 			"home": {
@@ -481,7 +481,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/syracuse-dayton"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-dayton.html"
 		},
 		{
 			"home": {
@@ -503,7 +503,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/unc-asheville-villanova"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-villanova.html"
 		},
 		{
 			"home": {
@@ -525,7 +525,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/vcu-oregon-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-oregon-state.html"
 		},
 		{
 			"home": {
@@ -547,7 +547,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/hawaii-california"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-california.html"
 		},
 		{
 			"home": {
@@ -569,7 +569,7 @@
 			"region": "BR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/middle-tenn-michigan-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-michigan-state.html"
 		},
 		{
 			"home": {
@@ -591,7 +591,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/temple-iowa"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-iowa.html"
 		},
 		{
 			"home": {
@@ -613,7 +613,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/bakersfield-oklahoma"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-oklahoma.html"
 		},
 		{
 			"home": {
@@ -635,7 +635,7 @@
 			"region": "TL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/south-dakota-st-maryland"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-maryland.html"
 		},
 		{
 			"home": {
@@ -657,7 +657,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/pittsburgh-wisconsin"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-wisconsin.html"
 		},
 		{
 			"home": {
@@ -679,7 +679,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/stephen-f-austin-west-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-west-virginia.html"
 		},
 		{
 			"home": {
@@ -701,7 +701,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/green-bay-texas-am"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-texas-am.html"
 		},
 		{
 			"home": {
@@ -723,7 +723,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/holy-cross-oregon"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-oregon.html"
 		},
 		{
 			"home": {
@@ -745,7 +745,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/weber-st-xavier"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-xavier.html"
 		},
 		{
 			"home": {
@@ -767,7 +767,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/uni-texas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-texas.html"
 		},
 		{
 			"home": {
@@ -789,7 +789,7 @@
 			"region": "TR",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/michigan-notre-dame"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-notre-dame.html"
 		},
 		{
 			"home": {
@@ -811,7 +811,7 @@
 			"region": "BL",
 			"round": 1,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/18/cincinnati-saint-josephs"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-18-saint-josephs.html"
 		},
 		{
 			"home": {
@@ -833,7 +833,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/19/wichita-st-miami-fl"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-19-miami-fl.html"
 		},
 		{
 			"home": {
@@ -855,7 +855,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/19/yale-duke"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-19-duke.html"
 		},
 		{
 			"home": {
@@ -877,7 +877,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/19/indiana-kentucky"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-19-kentucky.html"
 		},
 		{
 			"home": {
@@ -899,7 +899,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/19/ualr-iowa-st"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-19-iowa-state.html"
 		},
 		{
 			"home": {
@@ -921,7 +921,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/19/butler-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-19-virginia.html"
 		},
 		{
 			"home": {
@@ -943,7 +943,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/19/gonzaga-utah"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-19-utah.html"
 		},
 		{
 			"home": {
@@ -965,7 +965,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/19/providence-north-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-19-north-carolina.html"
 		},
 		{
 			"home": {
@@ -987,7 +987,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/19/uconn-kansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-19-kansas.html"
 		},
 		{
 			"home": {
@@ -1009,7 +1009,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/20/iowa-villanova"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-20-villanova.html"
 		},
 		{
 			"home": {
@@ -1031,7 +1031,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/20/stephen-f-austin-notre-dame"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-20-notre-dame.html"
 		},
 		{
 			"home": {
@@ -1053,7 +1053,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/20/vcu-oklahoma"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-20-oklahoma.html"
 		},
 		{
 			"home": {
@@ -1075,7 +1075,7 @@
 			"region": "BR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/20/middle-tenn-syracuse"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-20-syracuse.html"
 		},
 		{
 			"home": {
@@ -1097,7 +1097,7 @@
 			"region": "TL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/20/hawaii-maryland"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-20-maryland.html"
 		},
 		{
 			"home": {
@@ -1119,7 +1119,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/20/uni-texas-am"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-20-texas-am.html"
 		},
 		{
 			"home": {
@@ -1141,7 +1141,7 @@
 			"region": "TR",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/20/wisconsin-xavier"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-20-xavier.html"
 		},
 		{
 			"home": {
@@ -1163,7 +1163,7 @@
 			"region": "BL",
 			"round": 2,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/20/saint-josephs-oregon"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-20-oregon.html"
 		},
 		{
 			"home": {
@@ -1185,7 +1185,7 @@
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/24/miami-fl-villanova"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-24-villanova.html"
 		},
 		{
 			"home": {
@@ -1207,7 +1207,7 @@
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/24/texas-am-oklahoma"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-24-oklahoma.html"
 		},
 		{
 			"home": {
@@ -1229,7 +1229,7 @@
 			"region": "TL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/24/maryland-kansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-24-kansas.html"
 		},
 		{
 			"home": {
@@ -1251,7 +1251,7 @@
 			"region": "BL",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/24/duke-oregon"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-24-oregon.html"
 		},
 		{
 			"home": {
@@ -1273,7 +1273,7 @@
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/25/iowa-st-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-25-virginia.html"
 		},
 		{
 			"home": {
@@ -1295,7 +1295,7 @@
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/25/wisconsin-notre-dame"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-25-notre-dame.html"
 		},
 		{
 			"home": {
@@ -1317,7 +1317,7 @@
 			"region": "BR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/25/gonzaga-syracuse"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-25-syracuse.html"
 		},
 		{
 			"home": {
@@ -1339,7 +1339,7 @@
 			"region": "TR",
 			"round": 3,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/25/indiana-north-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-25-north-carolina.html"
 		},
 		{
 			"home": {
@@ -1361,7 +1361,7 @@
 			"region": "BL",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/26/oklahoma-oregon"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-26-oregon.html"
 		},
 		{
 			"home": {
@@ -1383,7 +1383,7 @@
 			"region": "TL",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/26/villanova-kansas"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-26-kansas.html"
 		},
 		{
 			"home": {
@@ -1405,7 +1405,7 @@
 			"region": "BR",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/27/syracuse-virginia"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-27-virginia.html"
 		},
 		{
 			"home": {
@@ -1427,7 +1427,7 @@
 			"region": "TR",
 			"round": 4,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/03/27/notre-dame-north-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-03-27-north-carolina.html"
 		},
 		{
 			"home": {
@@ -1449,7 +1449,7 @@
 			"region": "",
 			"round": 5,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/04/02/villanova-oklahoma"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-04-02-oklahoma.html"
 		},
 		{
 			"home": {
@@ -1471,7 +1471,7 @@
 			"region": "",
 			"round": 5,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/04/02/syracuse-north-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-04-02-north-carolina.html"
 		},
 		{
 			"home": {
@@ -1493,7 +1493,7 @@
 			"region": "",
 			"round": 6,
 			"isComplete": true,
-			"link": "https://www.ncaa.com/game/basketball-men/d1/2016/04/04/villanova-north-carolina"
+			"link": "https://www.sports-reference.com/cbb/boxscores/2016-04-04-north-carolina.html"
 		}
 	]
 }
