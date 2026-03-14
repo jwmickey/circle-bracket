@@ -30,11 +30,15 @@ fetcher(year, useCache)
       const outFile = path.join(dataDir, `bracket-${year}.json`);
       fs.writeFile(outFile, JSON.stringify(bracket, null, "\t"), err => {
         if (err) {
-          console.error(err);
+          console.error('Failed to write bracket file:', err);
+          process.exit(1);
+        } else {
+          console.log(`✓ Successfully wrote bracket to ${outFile}`);
         }
       });
     }
   })
   .catch(err => {
-    console.error(err);
+    console.error('Failed to fetch bracket:', err.message || err);
+    process.exit(1);
   });
