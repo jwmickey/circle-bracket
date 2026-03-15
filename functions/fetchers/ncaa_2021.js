@@ -62,12 +62,13 @@ function fetchBracket(year, useCache = true) {
           }
       }).sort((a, b) => {
         if (a.round > b.round) {
-            return a;
+            return 1;
         } else if (b.round > a.round) {
-            return b;
+            return -1;
         } else if (a.round === b.round) {
-            return a.date < b.date ? a : b;
+            return a.date < b.date ? -1 : 1;
         }
+        return 0;
       });
 
       let regionList = [];
@@ -75,13 +76,23 @@ function fetchBracket(year, useCache = true) {
           regionList.push({ name, position });
       }
 
-      return {
+      const bracket = {
         format: "ncaa",
         updated: new Date(),
         year,
         regions: regionList,
         games
       };
+      
+      // Validate output
+      if (!bracket.games || bracket.games.length === 0) {
+        throw new Error('No games found in bracket data');
+      }
+      if (!bracket.regions || bracket.regions.length === 0) {
+        console.warn('Warning: No regions found in bracket data');
+      }
+      
+      return bracket;
     })
     .then(data => {
       return data;
@@ -107,7 +118,15 @@ function getDataFile(year, useCache) {
       axios
         .get(url)
         .then(res => {
+          if (!res.data?.data?.mmlContests) {
+            reject(new Error('Invalid API response: missing mmlContests data'));
+            return;
+          }
           const data = res.data.data.mmlContests;
+          if (!Array.isArray(data)) {
+            reject(new Error('Invalid API response: mmlContests is not an array'));
+            return;
+          }
           if (useCache) {
               fs.writeFile(cacheFile, JSON.stringify(data, null, "\t"), err => {
                   if (err) {
@@ -118,7 +137,7 @@ function getDataFile(year, useCache) {
           resolve(data);
         })
         .catch(err => {
-          reject(err);
+          reject(new Error(`Failed to fetch bracket data: ${err.message}`));
         });
     }
   });
