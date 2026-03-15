@@ -62,36 +62,69 @@ function drawBracket(bracketYear) {
   let bracketUrl = `/seasons/bracket-${bracketYear}.json`;
 
   if (bracketYear === maxYear) {
-    const today = new Date();
-    today.setUTCHours(0, 0, 0);
-    const endLiveBracket = new Date(today.getFullYear(), 3, 11);
+    const now = new Date();
+    const endLiveBracket = new Date(now.getFullYear(), 3, 11);
     const selection = getSelectionSunday(bracketYear);
-    const days = Math.ceil((selection.getTime() - today.getTime()) / 86400000);
-    if (days > 0) {
-      let msg = `
-        <div style="text-align: center">
-          <h3>The ${maxYear} bracket arrives in<br/>${days} days!</h3>
-          <h5>Use the year selector to see more brackets - all the way back to ${minYear}</h5>
-        </div>
-      `;
-      wrap.classList.add("message");
-      wrap.getElementsByClassName("msg")[0].innerHTML = msg;
-      showBracket = false;
-      bracket.setBracket(undefined);
-      bracket.render();
-    } else if (today <= endLiveBracket) {
-      useAxiosCache = false;
-      bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
-
-      if (days === 0 && (today.getHours() < 18)) {
+    // Selection announcement is at 6pm Eastern Time (EDT in March = UTC-4, so 22:00 UTC)
+    // Selection Sunday is always in March, which is EDT (Daylight Saving Time)
+    const utcHour = 22; // 6 PM EDT = 10 PM UTC
+    selection.setUTCHours(utcHour, 0, 0, 0);
+    
+    const msUntilSelection = selection.getTime() - now.getTime();
+    const days = Math.floor(msUntilSelection / 86400000);
+    
+    if (msUntilSelection > 0) {
+      if (days >= 1) {
+        // More than 1 day away - show days countdown
         let msg = `
-        <div style="text-align: center">
-          <h3>The ${maxYear} bracket will be announced soon!</h3>
-        </div>
-      `;
+          <div style="text-align: center">
+            <h3>The ${maxYear} bracket arrives in<br/>${days} days!</h3>
+            <h5>Use the year selector to see more brackets - all the way back to ${minYear}</h5>
+          </div>
+        `;
         wrap.classList.add("message");
         wrap.getElementsByClassName("msg")[0].innerHTML = msg;
+        showBracket = false;
+        bracket.setBracket(undefined);
+        bracket.render();
+      } else {
+        // Less than 1 day away - show countdown timer
+        const updateCountdown = () => {
+          const now = new Date();
+          const remaining = selection.getTime() - now.getTime();
+          
+          if (remaining <= 0) {
+            // Time's up! Reload to show bracket
+            location.reload();
+            return;
+          }
+          
+          const hours = Math.floor(remaining / 3600000);
+          const minutes = Math.floor((remaining % 3600000) / 60000);
+          const seconds = Math.floor((remaining % 60000) / 1000);
+          
+          const timeStr = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+          
+          let msg = `
+            <div style="text-align: center">
+              <h3>The ${maxYear} bracket arrives in:</h3>
+              <h2 style="font-size: 3em; margin: 0.5em 0; font-family: monospace;">${timeStr}</h2>
+              <h5>Use the year selector to see more brackets - all the way back to ${minYear}</h5>
+            </div>
+          `;
+          wrap.getElementsByClassName("msg")[0].innerHTML = msg;
+        };
+        
+        wrap.classList.add("message");
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+        showBracket = false;
+        bracket.setBracket(undefined);
+        bracket.render();
       }
+    } else if (now <= endLiveBracket) {
+      useAxiosCache = false;
+      bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
     }
   }
 
