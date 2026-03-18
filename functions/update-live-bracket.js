@@ -107,12 +107,54 @@ function shouldCheckNow() {
     return false;
   }
 
+  // allow during first four games (Tuesday and Wednesday after Selection Sunday, 8pm-2am Eastern)
+  if (isFirstFourGameTime()) {
+    return true;
+  }
+
   // only look for updates thursday-sunday (4, 5, 6, 0)
   if (dayOfWeek > 1 && dayOfWeek < 4) {
     return false;
   }
 
   return true;
+}
+
+function getFirstFourDates(year) {
+  const selectionSunday = getSelectionSunday(year);
+  const ssYear = selectionSunday.getFullYear();
+  const ssMonth = selectionSunday.getMonth();
+  const ssDate = selectionSunday.getDate();
+  const tuesday = new Date(Date.UTC(ssYear, ssMonth, ssDate + 2));
+  const wednesday = new Date(Date.UTC(ssYear, ssMonth, ssDate + 3));
+  return [tuesday, wednesday];
+}
+
+function isFirstFourGameTime() {
+  // First four games are on Tuesday and Wednesday after Selection Sunday.
+  // Games are expected 8pm-2am Eastern; March is EDT (UTC-4) since DST
+  // starts the second Sunday of March, which is always on or before Selection Sunday.
+  const now = new Date();
+  const edtOffsetMs = 4 * 60 * 60 * 1000;
+  const easternNow = new Date(now.getTime() - edtOffsetMs);
+  const easternHour = easternNow.getUTCHours();
+
+  if (easternHour >= 20 || easternHour < 2) {
+    // Games from 0:00-1:59 ET belong to the previous evening's game date
+    const gameDate = new Date(easternNow);
+    if (easternHour < 2) {
+      gameDate.setUTCDate(gameDate.getUTCDate() - 1);
+    }
+    const year = gameDate.getUTCFullYear();
+    const firstFourDates = getFirstFourDates(year);
+    return firstFourDates.some(d => {
+      return d.getUTCFullYear() === gameDate.getUTCFullYear() &&
+        d.getUTCMonth() === gameDate.getUTCMonth() &&
+        d.getUTCDate() === gameDate.getUTCDate();
+    });
+  }
+
+  return false;
 }
 
 function getSelectionSunday(year) {
@@ -133,3 +175,7 @@ function getTournamentEnd(year) {
   date.setDate(date.getDate() + 22);
   return date;
 }
+
+module.exports.getFirstFourDates = getFirstFourDates;
+module.exports.isFirstFourGameTime = isFirstFourGameTime;
+module.exports.shouldCheckNow = shouldCheckNow;
