@@ -130,8 +130,11 @@ function drawBracket(bracketYear) {
 
   if (showBracket) {
     wrap.classList.add("loading");
+    // NOTE: { override: true } forces a fresh network request, bypassing any previously cached entry.
+    // For ETag-based revalidation to work, the S3 bucket CORS policy must expose the ETag response
+    // header and allow both GET and HEAD methods for the origin(s) accessing this resource.
     axios
-      .get(bracketUrl, { cache: !!useAxiosCache })
+      .get(bracketUrl, { cache: useAxiosCache ? undefined : { override: true } })
       .then(res => {
         bracket.setBracket(res.data);
         return bracket.render();
