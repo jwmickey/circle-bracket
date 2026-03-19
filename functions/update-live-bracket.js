@@ -63,7 +63,9 @@ exports.handler = async (event, context) => {
       Bucket: BUCKET,
       Key: OBJECT_KEY,
       Body: bracketJson,
-      ContentMD5: md5
+      ContentMD5: md5,
+      ContentType: 'application/json',
+      CacheControl: 'no-cache, max-age=0, must-revalidate'
     };
 
     const upload = await s3.putObject(objectParams).promise();

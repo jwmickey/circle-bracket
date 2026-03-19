@@ -131,7 +131,7 @@ function drawBracket(bracketYear) {
   if (showBracket) {
     wrap.classList.add("loading");
     axios
-      .get(bracketUrl, { cache: !!useAxiosCache })
+      .get(bracketUrl, { cache: useAxiosCache ? undefined : { override: true } })
       .then(res => {
         bracket.setBracket(res.data);
         return bracket.render();
