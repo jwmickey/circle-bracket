@@ -3,7 +3,7 @@ const ACCESS_KEY_ID = process.env.MY_AWS_ACCESS_KEY_ID;
 const SECRET_ACCESS_KEY = process.env.MY_AWS_SECRET_ACCESS_KEY;
 const BUCKET = 'circlebracket';
 const OBJECT_KEY = 'live-bracket.json';
-const REFRESH_LIMIT = 1800;  // how long to wait between checks in seconds
+const REFRESH_LIMIT = 600;  // how long to wait between checks in seconds
 
 const crypto = require("crypto");
 const aws = require("aws-sdk");
