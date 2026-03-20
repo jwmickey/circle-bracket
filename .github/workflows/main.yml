@@ -1,8 +1,8 @@
 name: Update Live Bracket
 on:
   schedule:
-    - cron: '*/30 * 14-31 3 *'
-    - cron: '*/30 * 01-13 4 *'
+    - cron: '*/15 * 14-31 3 *'
+    - cron: '*/15 * 01-13 4 *'
 jobs:
   update:
     name: Request Update Function
