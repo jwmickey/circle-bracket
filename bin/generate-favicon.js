@@ -10,13 +10,15 @@
 const fs = require('fs');
 const path = require('path');
 const { createCanvas, loadImage } = require('canvas');
-const teams = require('../src/data/teams.json');
+const {
+    findTeamByCode,
+    scaleDims,
+    calcImageBox,
+    getRadiiForRound,
+    translateToSlot,
+} = require('../src/js/bracket-geometry');
 
 const TO_RADIANS = Math.PI / 180;
-
-// Round widths as fraction of center radius (matches bracket.js)
-const roundWidths64 = [0, 0.075, 0.09, 0.125, 0.15, 0.18, 0.22];
-const roundWidths32 = [0, 0.1, 0.15, 0.175, 0.2, 0.25];
 
 const FAVICON_DIR = path.resolve(__dirname, '../favicon');
 const RENDER_SIZE = 600;
@@ -29,99 +31,6 @@ const FAVICON_OUTPUTS = [
     [192, 'android-chrome-192x192.png'],
     [512, 'android-chrome-512x512.png'],
 ];
-
-function findTeamByCode(code) {
-    if (teams.hasOwnProperty(code)) {
-        return teams[code];
-    }
-    return Object.values(teams).find(t => {
-        if (t.hasOwnProperty('alternates')) {
-            const alts = Array.isArray(t.alternates)
-                ? t.alternates.map(a => a.toLowerCase())
-                : [t.alternates];
-            return alts.includes(code);
-        }
-    });
-}
-
-/**
- * Computes [outerRadius, innerRadius] for a given round.
- * Matches the getRadiiForRound logic in bracket.js.
- */
-function getRadii(round, numRounds, center, padding) {
-    const source = numRounds === 7 ? roundWidths64 : roundWidths32;
-    let radius = Math.floor(center - padding);
-    let innerRadius = 0;
-
-    for (let i = 1; i < round; i++) {
-        radius -= Math.floor(center * source[i]);
-    }
-
-    if (round < numRounds) {
-        innerRadius = Math.floor(radius - center * source[round]);
-    }
-
-    return [radius, innerRadius];
-}
-
-/**
- * Computes the bounding box for a team logo in a ring slot.
- * Matches the calcImageBox logic in utils.js.
- */
-function calcImageBox(radius, innerRadius, centerX, centerY, slots, slot) {
-    const quadrant = slot / slots;
-    const t1 = ((Math.PI * 2) / slots) * slot;
-    const t2 = ((Math.PI * 2) / slots) * (slot + 1);
-    let x1Radius, y1Radius, x2Radius, y2Radius;
-
-    if (quadrant < 0.25) {
-        x1Radius = innerRadius; y1Radius = innerRadius;
-        x2Radius = radius; y2Radius = radius;
-    } else if (quadrant < 0.5) {
-        x1Radius = radius; y1Radius = innerRadius;
-        x2Radius = innerRadius; y2Radius = radius;
-    } else if (quadrant < 0.75) {
-        x1Radius = radius; y1Radius = radius;
-        x2Radius = innerRadius; y2Radius = innerRadius;
-    } else {
-        x1Radius = innerRadius; y1Radius = radius;
-        x2Radius = radius; y2Radius = innerRadius;
-    }
-
-    const x1 = Math.floor(Math.min(x1Radius * Math.cos(t1), x1Radius * Math.cos(t2)) + centerX);
-    const y1 = Math.floor(Math.min(y1Radius * Math.sin(t1), y1Radius * Math.sin(t2)) + centerY);
-    const x2 = Math.floor(Math.max(x2Radius * Math.cos(t1), x2Radius * Math.cos(t2)) + centerX);
-    const y2 = Math.floor(Math.max(y2Radius * Math.sin(t1), y2Radius * Math.sin(t2)) + centerY);
-
-    return { x: x1, y: y1, maxWidth: Math.abs(x2 - x1), maxHeight: Math.abs(y2 - y1) };
-}
-
-function scaleDims(w, h, mW, mH) {
-    const scale = Math.min(mW, mH) / Math.max(w, h);
-    return [Math.floor(w * scale), Math.floor(h * scale)];
-}
-
-/**
- * Determines the ring slot index for a team based on their original region.
- * Matches the translateToSlot logic in bracket.js.
- */
-function translateToSlot(regionCode, round, numRounds) {
-    let quadrant;
-    switch (regionCode) {
-        case 'TL': quadrant = 2; break;
-        case 'TR': quadrant = 3; break;
-        case 'BL': quadrant = 1; break;
-        case 'BR': quadrant = 0; break;
-        default: return 0;
-    }
-
-    if (round === numRounds - 1) {
-        return (quadrant === 2 || quadrant === 1) ? 1 : 0;
-    } else if (round === numRounds - 2) {
-        return quadrant;
-    }
-    return quadrant;
-}
 
 /**
  * Finds a team's original region from the games dataset.
@@ -154,7 +63,7 @@ async function loadTeamLogo(teamCode) {
  */
 function drawFinalFourSlot(ctx, img, teamInfo, slot, numRounds, numEntries, cx, cy, center, padding) {
     const ffRound = numRounds - 2;
-    const [radius, innerRadius] = getRadii(ffRound, numRounds, center, padding);
+    const [radius, innerRadius] = getRadiiForRound(ffRound, numRounds, center, padding);
     const slots = numEntries / Math.pow(2, ffRound - 1);
     const degrees = 360 / slots;
     const angle1 = TO_RADIANS * degrees * slot;
@@ -191,7 +100,7 @@ function drawFinalFourSlot(ctx, img, teamInfo, slot, numRounds, numEntries, cx, 
  * Matches fillChampGameSlotSync in bracket.js.
  */
 function drawChampGameSlot(ctx, img, teamInfo, slot, numRounds, cx, cy, center, padding) {
-    const [radius] = getRadii(numRounds - 1, numRounds, center, padding);
+    const [radius] = getRadiiForRound(numRounds - 1, numRounds, center, padding);
 
     ctx.save();
 
@@ -230,7 +139,7 @@ function drawChampGameSlot(ctx, img, teamInfo, slot, numRounds, cx, cy, center, 
  * Matches fillChamp in bracket.js.
  */
 function drawChampion(ctx, img, teamInfo, vacated, numRounds, cx, cy, center, padding) {
-    const [champGameRadius] = getRadii(numRounds - 1, numRounds, center, padding);
+    const [champGameRadius] = getRadiiForRound(numRounds - 1, numRounds, center, padding);
     const radius = champGameRadius / 2.25;
 
     ctx.save();
@@ -265,8 +174,8 @@ function drawChampion(ctx, img, teamInfo, vacated, numRounds, cx, cy, center, pa
  */
 function drawGridLines(ctx, numRounds, numEntries, cx, cy, center, padding) {
     const ffRound = numRounds - 2;
-    const [ffOuterRadius] = getRadii(ffRound, numRounds, center, padding);
-    const [champRadius] = getRadii(numRounds - 1, numRounds, center, padding);
+    const [ffOuterRadius] = getRadiiForRound(ffRound, numRounds, center, padding);
+    const [champRadius] = getRadiiForRound(numRounds - 1, numRounds, center, padding);
 
     ctx.save();
     ctx.lineWidth = 2;
@@ -338,7 +247,7 @@ async function generateFavicon(year) {
     const padding = Math.floor(size * 0.03);
 
     // Compute the outer radius of the final four ring for cropping
-    const [ffOuterRadius] = getRadii(ffRound, numRounds, center, padding);
+    const [ffOuterRadius] = getRadiiForRound(ffRound, numRounds, center, padding);
 
     // White background
     ctx.fillStyle = '#FFFFFF';

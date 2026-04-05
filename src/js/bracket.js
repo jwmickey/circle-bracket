@@ -5,6 +5,11 @@ import {
   findTeamRegion,
   findTeamByCode
 } from "./utils";
+import {
+  getRadiiForRound as computeRadiiForRound,
+  translateToSlot as computeSlot,
+  regionToQuadrant
+} from "./bracket-geometry";
 
 const TO_RADIANS = Math.PI / 180;
 
@@ -15,12 +20,6 @@ const seedSlotMap = [
   [0, 3, 2, 1, 1, 2, 3, 0, 0, 3, 2, 1, 1, 2, 3, 0], // 16 teams
   [0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0] // 8 teams
 ];
-
-// widths of rounds when there are 64 slots on the outer ring
-const roundWidths64 = [0, 0.075, 0.09, 0.125, 0.15, 0.18, 0.22];
-
-// widths of rounds when there are 32 slots on the outer ring
-const roundWidths32 = [0, 0.1, 0.15, 0.175, 0.2, 0.25];
 
 export const DEFAULTS = {
   gridStrokeWidth: 2,
@@ -89,20 +88,9 @@ export default class Bracket {
   };
 
   getRadiiForRound = round => {
-    let center = Math.min(...this.getCenter());
-    let radius = Math.floor(center - this.margin - this.titleHeight);
-    let innerRadius = 0;
-    let source = this.numRounds === 7 ? roundWidths64 : roundWidths32;
-
-    for (let i = 1; i < round; i++) {
-      radius -= Math.floor(center * source[i]);
-    }
-
-    if (round < this.numRounds) {
-      innerRadius = Math.floor(radius - center * source[round]);
-    }
-
-    return [radius, innerRadius];
+    const center = Math.min(...this.getCenter());
+    const padding = this.margin + this.titleHeight;
+    return computeRadiiForRound(round, this.numRounds, center, padding);
   };
 
   getCenter = () => {
@@ -763,40 +751,20 @@ export default class Bracket {
   };
 
   translateToSlot = (regionCode, round, team) => {
-    let quadrant;
-
-    switch (regionCode) {
-      case "TL":
-        quadrant = 2;
-        break;
-      case "TR":
-        quadrant = 3;
-        break;
-      case "BL":
-        quadrant = 1;
-        break;
-      case "BR":
-        quadrant = 0;
-        break;
+    if (round >= this.numRounds - 2) {
+      return computeSlot(regionCode, round, this.numRounds);
     }
 
-    if (round === this.numRounds - 1) {
-      // champ game
-      return quadrant === 2 || quadrant === 1 ? 1 : 0;
-    } else if (round === this.numRounds - 2) {
-      // final four
-      return quadrant;
-    } else {
-      // regional round
-      const slots = Math.pow(2, this.numRounds - round);
-      const offset = (slots / 4) * quadrant;
-      let roundIndex = round - 1;
+    // regional rounds
+    const quadrant = regionToQuadrant(regionCode);
+    const slots = Math.pow(2, this.numRounds - round);
+    const offset = (slots / 4) * quadrant;
+    let roundIndex = round - 1;
 
-      // shift seed slot index by one round when we have a 32 team (or fewer) bracket
-      if (this.numRounds < 7) {
-        roundIndex++;
-      }
-      return offset + seedSlotMap[roundIndex][team.seed - 1];
+    // shift seed slot index by one round when we have a 32 team (or fewer) bracket
+    if (this.numRounds < 7) {
+      roundIndex++;
     }
+    return offset + seedSlotMap[roundIndex][team.seed - 1];
   };
 }
