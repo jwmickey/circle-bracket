@@ -19,7 +19,8 @@
     "run-func": "node --env-file=.env bin/run-function.js",
     "update-logo": "node -r esm bin/update-logo.js",
     "preinstall": "npx npm-force-resolutions",
-    "validate-bracket": "node bin/validate-bracket.js"
+    "validate-bracket": "node bin/validate-bracket.js",
+    "generate-favicon": "node bin/generate-favicon.js"
   },
   "resolutions": {
     "glob-parent": "6.0.2"
