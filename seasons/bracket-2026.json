@@ -1,0 +1,1499 @@
+{
+	"format": "ncaa",
+	"updated": "2026-04-10T05:50:11.623Z",
+	"year": 2026,
+	"regions": [
+		{
+			"name": " EAST",
+			"position": "TL"
+		},
+		{
+			"name": " SOUTH",
+			"position": "BL"
+		},
+		{
+			"name": "WEST",
+			"position": "TR"
+		},
+		{
+			"name": " MIDWEST",
+			"position": "BR"
+		}
+	],
+	"games": [
+		{
+			"home": {
+				"name": "Howard",
+				"code": "howard",
+				"seed": 16,
+				"score": 86,
+				"winner": true
+			},
+			"away": {
+				"name": "UMBC",
+				"code": "umbc",
+				"seed": 16,
+				"score": 83,
+				"winner": false
+			},
+			"date": "03/17/2026",
+			"location": "",
+			"region": "",
+			"round": 0,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/17/umbc-howard"
+		},
+		{
+			"home": {
+				"name": "NC State",
+				"code": "north-carolina-st",
+				"seed": 11,
+				"score": 66,
+				"winner": false
+			},
+			"away": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 11,
+				"score": 68,
+				"winner": true
+			},
+			"date": "03/17/2026",
+			"location": "",
+			"region": "",
+			"round": 0,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/17/texas-north-carolina-st"
+		},
+		{
+			"home": {
+				"name": "Lehigh",
+				"code": "lehigh",
+				"seed": 16,
+				"score": 55,
+				"winner": false
+			},
+			"away": {
+				"name": "Prairie View A&M",
+				"code": "prairie-view",
+				"seed": 16,
+				"score": 67,
+				"winner": true
+			},
+			"date": "03/18/2026",
+			"location": "",
+			"region": "",
+			"round": 0,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/18/prairie-view-lehigh"
+		},
+		{
+			"home": {
+				"name": "SMU",
+				"code": "smu",
+				"seed": 11,
+				"score": 79,
+				"winner": false
+			},
+			"away": {
+				"name": "Miami (Ohio)",
+				"code": "miami-oh",
+				"seed": 11,
+				"score": 89,
+				"winner": true
+			},
+			"date": "03/18/2026",
+			"location": "",
+			"region": "",
+			"round": 0,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/18/miami-oh-smu"
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Siena",
+				"code": "siena",
+				"seed": 16,
+				"score": 65,
+				"winner": false
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/siena-duke"
+		},
+		{
+			"home": {
+				"name": "Ohio St.",
+				"code": "ohio-st",
+				"seed": 8,
+				"score": 64,
+				"winner": false
+			},
+			"away": {
+				"name": "TCU",
+				"code": "tcu",
+				"seed": 9,
+				"score": 66,
+				"winner": true
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/tcu-ohio-st"
+		},
+		{
+			"home": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 6,
+				"score": 83,
+				"winner": true
+			},
+			"away": {
+				"name": "South Florida",
+				"code": "south-fla",
+				"seed": 11,
+				"score": 79,
+				"winner": false
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/south-fla-louisville"
+		},
+		{
+			"home": {
+				"name": "Michigan St.",
+				"code": "michigan-st",
+				"seed": 3,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "North Dakota St.",
+				"code": "north-dakota-st",
+				"seed": 14,
+				"score": 67,
+				"winner": false
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/north-dakota-st-michigan-st"
+		},
+		{
+			"home": {
+				"name": "Vanderbilt",
+				"code": "vanderbilt",
+				"seed": 5,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "McNeese",
+				"code": "mcneese",
+				"seed": 12,
+				"score": 68,
+				"winner": false
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/mcneese-vanderbilt"
+		},
+		{
+			"home": {
+				"name": "Nebraska",
+				"code": "nebraska",
+				"seed": 4,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "Troy",
+				"code": "troy",
+				"seed": 13,
+				"score": 47,
+				"winner": false
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/troy-nebraska"
+		},
+		{
+			"home": {
+				"name": "North Carolina",
+				"code": "north-carolina",
+				"seed": 6,
+				"score": 78,
+				"winner": false
+			},
+			"away": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 11,
+				"score": 82,
+				"winner": true
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/vcu-north-carolina"
+		},
+		{
+			"home": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 3,
+				"score": 105,
+				"winner": true
+			},
+			"away": {
+				"name": "Penn",
+				"code": "penn",
+				"seed": 14,
+				"score": 70,
+				"winner": false
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/penn-illinois"
+		},
+		{
+			"home": {
+				"name": "Saint Mary's",
+				"code": "st-marys-ca",
+				"seed": 7,
+				"score": 50,
+				"winner": false
+			},
+			"away": {
+				"name": "Texas A&M",
+				"code": "texas-am",
+				"seed": 10,
+				"score": 63,
+				"winner": true
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/texas-am-st-marys-ca"
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 2,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Idaho",
+				"code": "idaho",
+				"seed": 15,
+				"score": 47,
+				"winner": false
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/idaho-houston"
+		},
+		{
+			"home": {
+				"name": "Wisconsin",
+				"code": "wisconsin",
+				"seed": 5,
+				"score": 82,
+				"winner": false
+			},
+			"away": {
+				"name": "High Point",
+				"code": "high-point",
+				"seed": 12,
+				"score": 83,
+				"winner": true
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/high-point-wisconsin"
+		},
+		{
+			"home": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 4,
+				"score": 97,
+				"winner": true
+			},
+			"away": {
+				"name": "Hawaii",
+				"code": "hawaii",
+				"seed": 13,
+				"score": 78,
+				"winner": false
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/hawaii-arkansas"
+		},
+		{
+			"home": {
+				"name": "BYU",
+				"code": "byu",
+				"seed": 6,
+				"score": 71,
+				"winner": false
+			},
+			"away": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 11,
+				"score": 79,
+				"winner": true
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/texas-byu"
+		},
+		{
+			"home": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 3,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "Kennesaw St.",
+				"code": "kennesaw-st",
+				"seed": 14,
+				"score": 64,
+				"winner": false
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/kennesaw-st-gonzaga"
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 101,
+				"winner": true
+			},
+			"away": {
+				"name": "Howard",
+				"code": "howard",
+				"seed": 16,
+				"score": 80,
+				"winner": false
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/howard-michigan"
+		},
+		{
+			"home": {
+				"name": "Georgia",
+				"code": "georgia",
+				"seed": 8,
+				"score": 77,
+				"winner": false
+			},
+			"away": {
+				"name": "Saint Louis",
+				"code": "saint-louis",
+				"seed": 9,
+				"score": 102,
+				"winner": true
+			},
+			"date": "03/19/2026",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/19/saint-louis-georgia"
+		},
+		{
+			"home": {
+				"name": "St. John's",
+				"code": "st-johns-ny",
+				"seed": 5,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Northern Iowa",
+				"code": "uni",
+				"seed": 12,
+				"score": 53,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/uni-st-johns-ny"
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 4,
+				"score": 68,
+				"winner": true
+			},
+			"away": {
+				"name": "Cal Baptist",
+				"code": "california-baptist",
+				"seed": 13,
+				"score": 60,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/california-baptist-kansas"
+		},
+		{
+			"home": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 7,
+				"score": 75,
+				"winner": true
+			},
+			"away": {
+				"name": "UCF",
+				"code": "ucf",
+				"seed": 10,
+				"score": 71,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/ucf-ucla"
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 2,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Furman",
+				"code": "furman",
+				"seed": 15,
+				"score": 71,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "TL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/furman-uconn"
+		},
+		{
+			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 1,
+				"score": 114,
+				"winner": true
+			},
+			"away": {
+				"name": "Prairie View A&M",
+				"code": "prairie-view",
+				"seed": 16,
+				"score": 55,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/prairie-view-florida"
+		},
+		{
+			"home": {
+				"name": "Clemson",
+				"code": "clemson",
+				"seed": 8,
+				"score": 61,
+				"winner": false
+			},
+			"away": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 9,
+				"score": 67,
+				"winner": true
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "BL",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/iowa-clemson"
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 1,
+				"score": 92,
+				"winner": true
+			},
+			"away": {
+				"name": "Long Island",
+				"code": "long-island",
+				"seed": 16,
+				"score": 58,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/long-island-arizona"
+		},
+		{
+			"home": {
+				"name": "Villanova",
+				"code": "villanova",
+				"seed": 8,
+				"score": 76,
+				"winner": false
+			},
+			"away": {
+				"name": "Utah St.",
+				"code": "utah-st",
+				"seed": 9,
+				"score": 86,
+				"winner": true
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/utah-st-villanova"
+		},
+		{
+			"home": {
+				"name": "Miami (FL)",
+				"code": "miami-fl",
+				"seed": 7,
+				"score": 80,
+				"winner": true
+			},
+			"away": {
+				"name": "Missouri",
+				"code": "missouri",
+				"seed": 10,
+				"score": 66,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/missouri-miami-fl"
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 2,
+				"score": 104,
+				"winner": true
+			},
+			"away": {
+				"name": "Queens (N.C.)",
+				"code": "queens-nc",
+				"seed": 15,
+				"score": 71,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "TR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/queens-nc-purdue"
+		},
+		{
+			"home": {
+				"name": "Texas Tech",
+				"code": "texas-tech",
+				"seed": 5,
+				"score": 91,
+				"winner": true
+			},
+			"away": {
+				"name": "Akron",
+				"code": "akron",
+				"seed": 12,
+				"score": 71,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/akron-texas-tech"
+		},
+		{
+			"home": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 4,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "Hofstra",
+				"code": "hofstra",
+				"seed": 13,
+				"score": 70,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/hofstra-alabama"
+		},
+		{
+			"home": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 6,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Miami (Ohio)",
+				"code": "miami-oh",
+				"seed": 11,
+				"score": 56,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/miami-oh-tennessee"
+		},
+		{
+			"home": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 3,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Wright St.",
+				"code": "wright-st",
+				"seed": 14,
+				"score": 73,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/wright-st-virginia"
+		},
+		{
+			"home": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 7,
+				"score": 89,
+				"winner": true
+			},
+			"away": {
+				"name": "Santa Clara",
+				"code": "santa-clara",
+				"seed": 10,
+				"score": 84,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/santa-clara-kentucky"
+		},
+		{
+			"home": {
+				"name": "Iowa St.",
+				"code": "iowa-st",
+				"seed": 2,
+				"score": 108,
+				"winner": true
+			},
+			"away": {
+				"name": "Tennessee St.",
+				"code": "tennessee-st",
+				"seed": 15,
+				"score": 74,
+				"winner": false
+			},
+			"date": "03/20/2026",
+			"location": "",
+			"region": "BR",
+			"round": 1,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/20/tennessee-st-iowa-st"
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 81,
+				"winner": true
+			},
+			"away": {
+				"name": "TCU",
+				"code": "tcu",
+				"seed": 9,
+				"score": 58,
+				"winner": false
+			},
+			"date": "03/21/2026",
+			"location": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/21/tcu-duke"
+		},
+		{
+			"home": {
+				"name": "Michigan St.",
+				"code": "michigan-st",
+				"seed": 3,
+				"score": 77,
+				"winner": true
+			},
+			"away": {
+				"name": "Louisville",
+				"code": "louisville",
+				"seed": 6,
+				"score": 69,
+				"winner": false
+			},
+			"date": "03/21/2026",
+			"location": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/21/louisville-michigan-st"
+		},
+		{
+			"home": {
+				"name": "Nebraska",
+				"code": "nebraska",
+				"seed": 4,
+				"score": 74,
+				"winner": true
+			},
+			"away": {
+				"name": "Vanderbilt",
+				"code": "vanderbilt",
+				"seed": 5,
+				"score": 72,
+				"winner": false
+			},
+			"date": "03/21/2026",
+			"location": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/21/vanderbilt-nebraska"
+		},
+		{
+			"home": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 3,
+				"score": 76,
+				"winner": true
+			},
+			"away": {
+				"name": "VCU",
+				"code": "vcu",
+				"seed": 11,
+				"score": 55,
+				"winner": false
+			},
+			"date": "03/21/2026",
+			"location": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/21/vcu-illinois"
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 2,
+				"score": 88,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas A&M",
+				"code": "texas-am",
+				"seed": 10,
+				"score": 57,
+				"winner": false
+			},
+			"date": "03/21/2026",
+			"location": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/21/texas-am-houston"
+		},
+		{
+			"home": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 4,
+				"score": 94,
+				"winner": true
+			},
+			"away": {
+				"name": "High Point",
+				"code": "high-point",
+				"seed": 12,
+				"score": 88,
+				"winner": false
+			},
+			"date": "03/21/2026",
+			"location": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/21/high-point-arkansas"
+		},
+		{
+			"home": {
+				"name": "Gonzaga",
+				"code": "gonzaga",
+				"seed": 3,
+				"score": 68,
+				"winner": false
+			},
+			"away": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 11,
+				"score": 74,
+				"winner": true
+			},
+			"date": "03/21/2026",
+			"location": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/21/texas-gonzaga"
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 95,
+				"winner": true
+			},
+			"away": {
+				"name": "Saint Louis",
+				"code": "saint-louis",
+				"seed": 9,
+				"score": 72,
+				"winner": false
+			},
+			"date": "03/21/2026",
+			"location": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/21/saint-louis-michigan"
+		},
+		{
+			"home": {
+				"name": "Kansas",
+				"code": "kansas",
+				"seed": 4,
+				"score": 65,
+				"winner": false
+			},
+			"away": {
+				"name": "St. John's",
+				"code": "st-johns-ny",
+				"seed": 5,
+				"score": 67,
+				"winner": true
+			},
+			"date": "03/22/2026",
+			"location": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/22/st-johns-ny-kansas"
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 2,
+				"score": 73,
+				"winner": true
+			},
+			"away": {
+				"name": "UCLA",
+				"code": "ucla",
+				"seed": 7,
+				"score": 57,
+				"winner": false
+			},
+			"date": "03/22/2026",
+			"location": "",
+			"region": "TL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/22/ucla-uconn"
+		},
+		{
+			"home": {
+				"name": "Florida",
+				"code": "florida",
+				"seed": 1,
+				"score": 72,
+				"winner": false
+			},
+			"away": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 9,
+				"score": 73,
+				"winner": true
+			},
+			"date": "03/22/2026",
+			"location": "",
+			"region": "BL",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/22/iowa-florida"
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 1,
+				"score": 78,
+				"winner": true
+			},
+			"away": {
+				"name": "Utah St.",
+				"code": "utah-st",
+				"seed": 9,
+				"score": 66,
+				"winner": false
+			},
+			"date": "03/22/2026",
+			"location": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/22/utah-st-arizona"
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 2,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Miami (FL)",
+				"code": "miami-fl",
+				"seed": 7,
+				"score": 69,
+				"winner": false
+			},
+			"date": "03/22/2026",
+			"location": "",
+			"region": "TR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/22/miami-fl-purdue"
+		},
+		{
+			"home": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 4,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas Tech",
+				"code": "texas-tech",
+				"seed": 5,
+				"score": 65,
+				"winner": false
+			},
+			"date": "03/22/2026",
+			"location": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/22/texas-tech-alabama"
+		},
+		{
+			"home": {
+				"name": "Virginia",
+				"code": "virginia",
+				"seed": 3,
+				"score": 72,
+				"winner": false
+			},
+			"away": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 6,
+				"score": 79,
+				"winner": true
+			},
+			"date": "03/22/2026",
+			"location": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/22/tennessee-virginia"
+		},
+		{
+			"home": {
+				"name": "Iowa St.",
+				"code": "iowa-st",
+				"seed": 2,
+				"score": 82,
+				"winner": true
+			},
+			"away": {
+				"name": "Kentucky",
+				"code": "kentucky",
+				"seed": 7,
+				"score": 63,
+				"winner": false
+			},
+			"date": "03/22/2026",
+			"location": "",
+			"region": "BR",
+			"round": 2,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/22/kentucky-iowa-st"
+		},
+		{
+			"home": {
+				"name": "Nebraska",
+				"code": "nebraska",
+				"seed": 4,
+				"score": 71,
+				"winner": false
+			},
+			"away": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 9,
+				"score": 77,
+				"winner": true
+			},
+			"date": "03/26/2026",
+			"location": "",
+			"region": "BL",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/26/iowa-nebraska"
+		},
+		{
+			"home": {
+				"name": "Houston",
+				"code": "houston",
+				"seed": 2,
+				"score": 55,
+				"winner": false
+			},
+			"away": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 3,
+				"score": 65,
+				"winner": true
+			},
+			"date": "03/26/2026",
+			"location": "",
+			"region": "BL",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/26/illinois-houston"
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 1,
+				"score": 109,
+				"winner": true
+			},
+			"away": {
+				"name": "Arkansas",
+				"code": "arkansas",
+				"seed": 4,
+				"score": 88,
+				"winner": false
+			},
+			"date": "03/26/2026",
+			"location": "",
+			"region": "TR",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/26/arkansas-arizona"
+		},
+		{
+			"home": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 2,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Texas",
+				"code": "texas",
+				"seed": 11,
+				"score": 77,
+				"winner": false
+			},
+			"date": "03/26/2026",
+			"location": "",
+			"region": "TR",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/26/texas-purdue"
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 80,
+				"winner": true
+			},
+			"away": {
+				"name": "St. John's",
+				"code": "st-johns-ny",
+				"seed": 5,
+				"score": 75,
+				"winner": false
+			},
+			"date": "03/27/2026",
+			"location": "",
+			"region": "TL",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/27/st-johns-ny-duke"
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 2,
+				"score": 67,
+				"winner": true
+			},
+			"away": {
+				"name": "Michigan St.",
+				"code": "michigan-st",
+				"seed": 3,
+				"score": 63,
+				"winner": false
+			},
+			"date": "03/27/2026",
+			"location": "",
+			"region": "TL",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/27/michigan-st-uconn"
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 90,
+				"winner": true
+			},
+			"away": {
+				"name": "Alabama",
+				"code": "alabama",
+				"seed": 4,
+				"score": 77,
+				"winner": false
+			},
+			"date": "03/27/2026",
+			"location": "",
+			"region": "BR",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/27/alabama-michigan"
+		},
+		{
+			"home": {
+				"name": "Iowa St.",
+				"code": "iowa-st",
+				"seed": 2,
+				"score": 62,
+				"winner": false
+			},
+			"away": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 6,
+				"score": 76,
+				"winner": true
+			},
+			"date": "03/27/2026",
+			"location": "",
+			"region": "BR",
+			"round": 3,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/27/tennessee-iowa-st"
+		},
+		{
+			"home": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 3,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Iowa",
+				"code": "iowa",
+				"seed": 9,
+				"score": 59,
+				"winner": false
+			},
+			"date": "03/28/2026",
+			"location": "",
+			"region": "BL",
+			"round": 4,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/28/iowa-illinois"
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 1,
+				"score": 79,
+				"winner": true
+			},
+			"away": {
+				"name": "Purdue",
+				"code": "purdue",
+				"seed": 2,
+				"score": 64,
+				"winner": false
+			},
+			"date": "03/28/2026",
+			"location": "",
+			"region": "TR",
+			"round": 4,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/28/purdue-arizona"
+		},
+		{
+			"home": {
+				"name": "Duke",
+				"code": "duke",
+				"seed": 1,
+				"score": 72,
+				"winner": false
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 2,
+				"score": 73,
+				"winner": true
+			},
+			"date": "03/29/2026",
+			"location": "",
+			"region": "TL",
+			"round": 4,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/29/uconn-duke"
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 95,
+				"winner": true
+			},
+			"away": {
+				"name": "Tennessee",
+				"code": "tennessee",
+				"seed": 6,
+				"score": 62,
+				"winner": false
+			},
+			"date": "03/29/2026",
+			"location": "",
+			"region": "BR",
+			"round": 4,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/03/29/tennessee-michigan"
+		},
+		{
+			"home": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 2,
+				"score": 71,
+				"winner": true
+			},
+			"away": {
+				"name": "Illinois",
+				"code": "illinois",
+				"seed": 3,
+				"score": 62,
+				"winner": false
+			},
+			"date": "04/04/2026",
+			"location": "",
+			"region": "",
+			"round": 5,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/04/04/illinois-uconn"
+		},
+		{
+			"home": {
+				"name": "Arizona",
+				"code": "arizona",
+				"seed": 1,
+				"score": 73,
+				"winner": false
+			},
+			"away": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 91,
+				"winner": true
+			},
+			"date": "04/04/2026",
+			"location": "",
+			"region": "",
+			"round": 5,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/04/04/michigan-arizona"
+		},
+		{
+			"home": {
+				"name": "Michigan",
+				"code": "michigan",
+				"seed": 1,
+				"score": 69,
+				"winner": true
+			},
+			"away": {
+				"name": "UConn",
+				"code": "uconn",
+				"seed": 2,
+				"score": 63,
+				"winner": false
+			},
+			"date": "04/06/2026",
+			"location": "",
+			"region": "",
+			"round": 6,
+			"isComplete": true,
+			"link": "https://www.ncaa.com/game/basketball-men/d1/2026/04/06/uconn-michigan"
+		}
+	]
+}
