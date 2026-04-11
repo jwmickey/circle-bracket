@@ -5,10 +5,11 @@ const path = require("path");
 const cacheDir = path.join(__dirname, "../../cache/");
 const linkPrefix = "https://www.ncaa.com";
 
-function fetchBracket(year, useCache = true) {
+function fetchBracket(year, useCache = true, gender = "men") {
+  const sport = gender === "women" ? "basketball-women" : "basketball-men";
   return Promise.all([
-    getDataFile(year, "setup", useCache),
-    getDataFile(year, "bracket", useCache)
+    getDataFile(year, "setup", useCache, sport),
+    getDataFile(year, "bracket", useCache, sport)
   ])
     .then(([setup, bracket]) => {
       // identify regions and their placement
@@ -59,6 +60,7 @@ function fetchBracket(year, useCache = true) {
         format: "ncaa",
         updated: new Date(),
         year,
+        gender,
         regions,
         games
       };
@@ -68,20 +70,22 @@ function fetchBracket(year, useCache = true) {
     });
 }
 
-function getDataFile(year, dataType, useCache) {
+function getDataFile(year, dataType, useCache, sport) {
+  sport = sport || "basketball-men";
   let url = "";
   switch (dataType) {
     case "setup":
-      url = `https://data.ncaa.com/carmen/brackets/championships/basketball-men/d1/${year}/definition.json`;
+      url = `https://data.ncaa.com/carmen/brackets/championships/${sport}/d1/${year}/definition.json`;
       break;
     case "bracket":
-      url = `https://data.ncaa.com/casablanca/carmen/brackets/championships/basketball-men/d1/${year}/data.json`;
+      url = `https://data.ncaa.com/casablanca/carmen/brackets/championships/${sport}/d1/${year}/data.json`;
       break;
     default:
       return Promise.reject("Invalid data type: " + dataType);
   }
 
-  const cacheFile = path.join(cacheDir, `${dataType}-${year}.json`);
+  const cacheKey = sport === "basketball-women" ? `${dataType}-${year}-women` : `${dataType}-${year}`;
+  const cacheFile = path.join(cacheDir, `${cacheKey}.json`);
 
   return new Promise((resolve, reject) => {
     if (!fs.existsSync(cacheDir)) {

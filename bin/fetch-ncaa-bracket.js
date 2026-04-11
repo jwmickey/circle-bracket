@@ -9,6 +9,7 @@ const dataDir = path.join(__dirname, "../seasons/");
 const year = parseInt(process.argv[2]) || new Date().getFullYear();
 const useCache = process.argv[3] !== "false";
 const printOutput = process.argv[4] === "true";
+const gender = process.argv[5] === "women" ? "women" : "men";
 
 let fetcher;
 
@@ -21,13 +22,22 @@ if (year < 2016) {
   fetcher = fetchBracket;
 }
 
-fetcher(year, useCache)
+fetcher(year, useCache, gender)
   .then(bracket => {
     if (printOutput) {
       console.log('DATA', JSON.stringify(bracket, null, 2));
       return true;
     } else {
-      const outFile = path.join(dataDir, `bracket-${year}.json`);
+      let outFile;
+      if (gender === "women") {
+        const womenDir = path.join(dataDir, "women");
+        if (!fs.existsSync(womenDir)) {
+          fs.mkdirSync(womenDir, { recursive: true });
+        }
+        outFile = path.join(womenDir, `bracket-${year}.json`);
+      } else {
+        outFile = path.join(dataDir, `bracket-${year}.json`);
+      }
       fs.writeFile(outFile, JSON.stringify(bracket, null, "\t"), err => {
         if (err) {
           console.error('Failed to write bracket file:', err);

@@ -317,6 +317,19 @@ describe('Bracket Class', () => {
       expect(mockContext.restore).toHaveBeenCalled();
     });
 
+    test('drawTitle should render women\'s tournament title when gender is women', () => {
+      bracket.setBracket({ ...mockBracketData, gender: 'women' });
+      bracket.reset();
+      bracket.drawTitle();
+      
+      expect(mockContext.fillText).toHaveBeenCalledWith(
+        '2024 NCAA Women\'s Basketball Tournament',
+        expect.any(Number),
+        expect.any(Number),
+        expect.any(Number)
+      );
+    });
+
     test('drawBackground should create circular background', () => {
       bracket.drawBackground();
       

@@ -1,8 +1,11 @@
 # [Go to the Site!](https://brackets.jodymickey.com)
 
-This project provides historical data (1956-present) for the NCAA Men's Basketball Tournament
+This project provides historical data for NCAA Basketball Tournament brackets
 in a unique circular/radial format, where each round is represented as a ring with 64 teams on
 the outer ring, 32 on the next, etc.
+
+Both the **Men's** (1956–present) and **Women's** (1982–present) tournaments are supported. Use the
+gender selector on the site, or navigate directly via URL hash (e.g. `#2024/women`).
 
 The team logos used to display this information are property of their respective institutions and
 used in this context as informational and for personal use only.

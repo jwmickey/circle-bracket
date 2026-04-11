@@ -2,6 +2,7 @@ import Axios from 'axios';
 import { setupCache } from 'axios-cache-interceptor';
 import canvas from "./js/components/canvas";
 import yearPicker from "./js/components/yearPicker";
+import genderPicker from "./js/components/genderPicker";
 import gameInfo from "./js/components/gameInfo";
 import downloadLink from "./js/components/downloadLink";
 import { aboutLink, aboutOverlay } from "./js/components/about";
@@ -15,11 +16,14 @@ const axios = setupCache(axiosInstance, {
 });
 
 const hash = new URL(document.location).hash;
-const minYear = 1956;
+const MEN_MIN_YEAR = 1956;
+const WOMEN_MIN_YEAR = 1982;
 const maxYear = new Date().getFullYear();
 const options = hash.substring(1).split("/");
 const initialYear = parseInt(options[0]) || maxYear;
+const initialGender = (options[1] === "women") ? "women" : "men";
 let year = initialYear;
+let gender = initialGender;
 
 // pre-determine canvas size and scale for high resolution displays
 const size = Math.min(window.innerWidth, window.innerHeight, 1600);
@@ -28,7 +32,7 @@ const wrap = document.body.appendChild(canvas(size * scale, size));
 
 // bracket instance
 const bracket = new Bracket(wrap.childNodes[0], { showGameDetails, scale });
-drawBracket(year);
+drawBracket(year, gender);
 
 // display game info when clicked
 let gameInfoElem;
@@ -53,13 +57,20 @@ function showGameDetails(game, displaySeeds = true) {
   }
 }
 
-// draw a bracket for a given year.  toggles loading on/off for start/finish
-function drawBracket(bracketYear) {
+function updateHash() {
+  const hashStr = gender === "women" ? `${year}/women` : `${year}`;
+  history.replaceState(null, year.toString(), `#${hashStr}`);
+}
+
+// draw a bracket for a given year and gender.  toggles loading on/off for start/finish
+function drawBracket(bracketYear, bracketGender) {
   let useAxiosCache = true;
   wrap.classList.remove("error");
   wrap.classList.remove("message");
   let showBracket = true;
-  let bracketUrl = `/seasons/bracket-${bracketYear}.json`;
+  let bracketUrl = bracketGender === "women"
+    ? `/seasons/women/bracket-${bracketYear}.json`
+    : `/seasons/bracket-${bracketYear}.json`;
 
   if (bracketYear === maxYear) {
     const now = new Date();
@@ -79,7 +90,7 @@ function drawBracket(bracketYear) {
         let msg = `
           <div style="text-align: center">
             <h3>The ${maxYear} bracket arrives in<br/>${days} days!</h3>
-            <h5>Use the year selector to see more brackets - all the way back to ${minYear}</h5>
+            <h5>Use the year selector to see more brackets - all the way back to ${bracketGender === "women" ? WOMEN_MIN_YEAR : MEN_MIN_YEAR}</h5>
           </div>
         `;
         wrap.classList.add("message");
@@ -109,7 +120,7 @@ function drawBracket(bracketYear) {
             <div style="text-align: center">
               <h3>The ${maxYear} bracket arrives in:</h3>
               <h2 style="font-size: 3em; margin: 0.5em 0; font-family: monospace;">${timeStr}</h2>
-              <h5>Use the year selector to see more brackets - all the way back to ${minYear}</h5>
+              <h5>Use the year selector to see more brackets - all the way back to ${bracketGender === "women" ? WOMEN_MIN_YEAR : MEN_MIN_YEAR}</h5>
             </div>
           `;
           wrap.getElementsByClassName("msg")[0].innerHTML = msg;
@@ -124,7 +135,9 @@ function drawBracket(bracketYear) {
       }
     } else if (now <= endLiveBracket) {
       useAxiosCache = false;
-      bracketUrl = 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
+      bracketUrl = bracketGender === "women"
+        ? 'https://circlebracket.s3.amazonaws.com/live-bracket-women.json'
+        : 'https://circlebracket.s3.amazonaws.com/live-bracket.json';
     }
   }
 
@@ -151,21 +164,53 @@ function drawBracket(bracketYear) {
   }
 }
 
-// add year chooser and event handler for redrawing bracket on change
-document.body.appendChild(
-  yearPicker(minYear, maxYear, initialYear, e => {
-    year = parseInt(e.target.value);
-    history.replaceState(null, year.toString(), `#${year}`);
-    drawBracket(year);
+// controls container for year and gender pickers
+const controls = document.createElement("div");
+controls.className = "controls";
 
-    if (window.gtag) {
-      gtag("event", "view", {
-        event_category: "Bracket",
-        event_label: year
-      });
-    }
-  })
-);
+// add gender chooser
+const genderPickerElem = genderPicker(initialGender, e => {
+  gender = e.target.value;
+  const minYear = gender === "women" ? WOMEN_MIN_YEAR : MEN_MIN_YEAR;
+  // clamp year to valid range for selected gender
+  if (year < minYear) {
+    year = minYear;
+  }
+  // rebuild year picker with updated min year and current year
+  const newYearPicker = yearPicker(minYear, maxYear, year, onYearChange);
+  yearPickerElem.replaceWith(newYearPicker);
+  yearPickerElem = newYearPicker;
+  updateHash();
+  drawBracket(year, gender);
+
+  if (window.gtag) {
+    gtag("event", "view", {
+      event_category: "Bracket",
+      event_label: `${year}-${gender}`
+    });
+  }
+});
+controls.appendChild(genderPickerElem);
+
+// add year chooser and event handler for redrawing bracket on change
+function onYearChange(e) {
+  year = parseInt(e.target.value);
+  updateHash();
+  drawBracket(year, gender);
+
+  if (window.gtag) {
+    gtag("event", "view", {
+      event_category: "Bracket",
+      event_label: year
+    });
+  }
+}
+
+const minYear = gender === "women" ? WOMEN_MIN_YEAR : MEN_MIN_YEAR;
+let yearPickerElem = yearPicker(minYear, maxYear, initialYear, onYearChange);
+controls.appendChild(yearPickerElem);
+
+document.body.appendChild(controls);
 
 // add download links for three size and the about link
 const links = document.createElement("div");

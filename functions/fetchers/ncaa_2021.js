@@ -3,11 +3,13 @@ const fs = require("fs");
 const path = require("path");
 
 const cacheDir = process.env.CACHE_DIR || path.join(__dirname, "../../cache/");
-const linkPrefix = "https://www.ncaa.com/game/basketball-men/d1";
-const setupQueryHash = process.env.SETUP_QUERY_HASH || '5214677a0d6c0df6619a440e97006fe55abcd89c46692ac349a7b781adf5f1ad';
+const linkPrefixMen = "https://www.ncaa.com/game/basketball-men/d1";
+const linkPrefixWomen = "https://www.ncaa.com/game/basketball-women/d1";
+const setupQueryHashMen = process.env.SETUP_QUERY_HASH || '5214677a0d6c0df6619a440e97006fe55abcd89c46692ac349a7b781adf5f1ad';
+const setupQueryHashWomen = process.env.SETUP_QUERY_HASH_WOMEN || setupQueryHashMen;
 
-function fetchBracket(year, useCache = true) {
-  return getDataFile(year, useCache)
+function fetchBracket(year, useCache = true, gender = "men") {
+  return getDataFile(year, useCache, gender)
     .then(contests => {
       // identify regions and their placement
       const regionCodes = ["TL", "TR", "BL", "BR"];
@@ -35,6 +37,8 @@ function fetchBracket(year, useCache = true) {
           winner: false
       };
 
+      const linkPrefix = gender === "women" ? linkPrefixWomen : linkPrefixMen;
+
       const games = contests.map(c => {
           const homeTeam = c.teams.find(t => t.isHome);
           const awayTeam = c.teams.find(t => !t.isHome);
@@ -58,7 +62,7 @@ function fetchBracket(year, useCache = true) {
               region: regionsMap.get(c.region.title) || '',
               round: roundsMap.get(c.round.title),
               isComplete: c.gameStateCode === 4,
-              link: awayTeam && homeTeam ? createGameLink(awayTeam.seoname, homeTeam.seoname, c.startDate) : ''
+              link: awayTeam && homeTeam ? createGameLink(linkPrefix, awayTeam.seoname, homeTeam.seoname, c.startDate) : ''
           }
       }).sort((a, b) => {
         if (a.round > b.round) {
@@ -80,6 +84,7 @@ function fetchBracket(year, useCache = true) {
         format: "ncaa",
         updated: new Date(),
         year,
+        gender,
         regions: regionList,
         games
       };
@@ -99,10 +104,12 @@ function fetchBracket(year, useCache = true) {
     });
 }
 
-function getDataFile(year, useCache) {
+function getDataFile(year, useCache, gender) {
   const seasonYear = year - 1;
-  const url = `https://sdataprod.ncaa.com/?operationName=official_bracket_web&variables={"seasonYear":${seasonYear}}&extensions={"persistedQuery":{"version":1,"sha256Hash":"${setupQueryHash}"}}`;
-  const cacheFile = path.join(cacheDir, `official_bracket_web-${year}.json`);
+  const queryHash = gender === "women" ? setupQueryHashWomen : setupQueryHashMen;
+  const sportParam = gender === "women" ? "basketball-women" : "basketball-men";
+  const url = `https://sdataprod.ncaa.com/?operationName=official_bracket_web&variables={"seasonYear":${seasonYear},"sportParam":"${sportParam}"}&extensions={"persistedQuery":{"version":1,"sha256Hash":"${queryHash}"}}`;
+  const cacheFile = path.join(cacheDir, `official_bracket_web-${year}-${gender}.json`);
 
   return new Promise((resolve, reject) => {
     if (!fs.existsSync(cacheDir)) {
@@ -143,7 +150,7 @@ function getDataFile(year, useCache) {
   });
 }
 
-function createGameLink(awaySeoName, homeSeoName, gameDate) {
+function createGameLink(linkPrefix, awaySeoName, homeSeoName, gameDate) {
     // e.g https://www.ncaa.com/game/basketball-men/d1/2019/03/21/minnesota-louisville
     const d = new Date(gameDate);
     const year = d.getFullYear();

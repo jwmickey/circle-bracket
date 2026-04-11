@@ -2,7 +2,8 @@
 const ACCESS_KEY_ID = process.env.MY_AWS_ACCESS_KEY_ID;
 const SECRET_ACCESS_KEY = process.env.MY_AWS_SECRET_ACCESS_KEY;
 const BUCKET = 'circlebracket';
-const OBJECT_KEY = 'live-bracket.json';
+const OBJECT_KEY_MEN = 'live-bracket.json';
+const OBJECT_KEY_WOMEN = 'live-bracket-women.json';
 const REFRESH_LIMIT = 600;  // how long to wait between checks in seconds
 
 const crypto = require("crypto");
@@ -32,57 +33,64 @@ exports.handler = async (event, context) => {
     });
   }
   const s3 = new aws.S3({apiVersion: "2006-03-01"});
+  const year = new Date().getFullYear();
 
+  const results = await Promise.allSettled([
+    updateBracketForGender(s3, year, "men", OBJECT_KEY_MEN, now),
+    updateBracketForGender(s3, year, "women", OBJECT_KEY_WOMEN, now)
+  ]);
+
+  const menResult = results[0];
+  const womenResult = results[1];
+
+  if (menResult.status === "rejected" && womenResult.status === "rejected") {
+    return { statusCode: 500, body: JSON.stringify({ men: menResult.reason.toString(), women: womenResult.reason.toString() }) };
+  }
+
+  return {
+    statusCode: 200,
+    body: JSON.stringify({
+      men: menResult.status === "fulfilled" ? menResult.value : { error: menResult.reason.toString() },
+      women: womenResult.status === "fulfilled" ? womenResult.value : { error: womenResult.reason.toString() },
+      lastModified: now,
+      message: "OK"
+    })
+  };
+};
+
+async function updateBracketForGender(s3, year, gender, objectKey, now) {
   // check the last modified date on the stored file to make sure we don't try getting this too often
   try {
-    const meta = await s3.headObject({Bucket: BUCKET, Key: OBJECT_KEY}).promise();
+    const meta = await s3.headObject({Bucket: BUCKET, Key: objectKey}).promise();
     const elapsed = Math.floor((now.getTime() - meta.LastModified.getTime()) / 1000);
     if (elapsed < REFRESH_LIMIT) {
       const mins = Math.ceil((REFRESH_LIMIT - elapsed) / 60);
-      const message = `Waiting ${mins} minutes before next refresh`;
+      const message = `[${gender}] Waiting ${mins} minutes before next refresh`;
       console.log(message);
-      return {
-        statusCode: 200,
-        body: JSON.stringify({message})
-      };
+      return { message };
     }
   } catch (err) {
-    console.warn(err.message);
+    console.warn(`[${gender}]`, err.message);
     // can't get meta info, keep going
   }
 
-  // update the bracket
-  try {
-    const year = new Date().getFullYear();
-    const bracket = await fetchBracket(year, false);
-    const bracketJson = JSON.stringify(bracket, null, "\t");
-    const hasher = crypto.createHash('md5');
-    const md5 = hasher.update(bracketJson).digest('base64');
-    console.log('md5', md5);
-    const objectParams = {
-      Bucket: BUCKET,
-      Key: OBJECT_KEY,
-      Body: bracketJson,
-      ContentMD5: md5,
-      ContentType: 'application/json',
-      CacheControl: 'no-cache, max-age=0, must-revalidate'
-    };
+  const bracket = await fetchBracket(year, false, gender);
+  const bracketJson = JSON.stringify(bracket, null, "\t");
+  const hasher = crypto.createHash('md5');
+  const md5 = hasher.update(bracketJson).digest('base64');
+  console.log(`[${gender}] md5`, md5);
+  const objectParams = {
+    Bucket: BUCKET,
+    Key: objectKey,
+    Body: bracketJson,
+    ContentMD5: md5,
+    ContentType: 'application/json',
+    CacheControl: 'no-cache, max-age=0, must-revalidate'
+  };
 
-    const upload = await s3.putObject(objectParams).promise();
-
-    return {
-      statusCode: 200,
-      body: JSON.stringify({
-        upload,
-        bracket,
-        lastModified: now,
-        message: "OK"
-      })
-    };
-  } catch (err) {
-    return { statusCode: 500, body: err.toString() };
-  }
-};
+  const upload = await s3.putObject(objectParams).promise();
+  return { upload, bracket, message: "OK" };
+}
 
 function shouldCheckNow() {
   const today = new Date();

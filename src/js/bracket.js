@@ -495,12 +495,13 @@ export default class Bracket {
   };
 
   drawTitle = () => {
+    const genderLabel = this.bracketData.gender === "women" ? "Women's" : "Men's";
     this.ctx.save();
     this.ctx.fillStyle = "#000";
     this.ctx.textAlign = "center";
     this.ctx.font = `${this.fontSize * 1.75}px Arial, sans-serif`;
     this.ctx.fillText(
-      `${this.bracketData.year} NCAA Men's Basketball Tournament`,
+      `${this.bracketData.year} NCAA ${genderLabel} Basketball Tournament`,
       this.getCenter()[0],
       this.titleHeight + 5,
       this.cvs.width - this.margin
