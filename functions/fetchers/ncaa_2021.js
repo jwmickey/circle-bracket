@@ -108,6 +108,10 @@ function getDataFile(year, useCache, gender) {
   const seasonYear = year - 1;
   const queryHash = gender === "women" ? setupQueryHashWomen : setupQueryHashMen;
   const sportParam = gender === "women" ? "basketball-women" : "basketball-men";
+  // The sportParam variable is included in the API query variables to filter contests by sport.
+  // The women's query hash (setupQueryHashWomen) should be updated once the NCAA API exposes
+  // a dedicated persisted query for the women's tournament. Until then, the same hash is used
+  // with the sportParam to attempt women's data retrieval.
   const url = `https://sdataprod.ncaa.com/?operationName=official_bracket_web&variables={"seasonYear":${seasonYear},"sportParam":"${sportParam}"}&extensions={"persistedQuery":{"version":1,"sha256Hash":"${queryHash}"}}`;
   const cacheFile = path.join(cacheDir, `official_bracket_web-${year}-${gender}.json`);
 

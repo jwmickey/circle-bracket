@@ -44,7 +44,9 @@ exports.handler = async (event, context) => {
   const womenResult = results[1];
 
   if (menResult.status === "rejected" && womenResult.status === "rejected") {
-    return { statusCode: 500, body: JSON.stringify({ men: menResult.reason.toString(), women: womenResult.reason.toString() }) };
+    const errorMsg = `Both men's and women's bracket updates failed. Men: ${menResult.reason.toString()}. Women: ${womenResult.reason.toString()}`;
+    console.error(errorMsg);
+    return { statusCode: 500, body: JSON.stringify({ error: errorMsg, men: menResult.reason.toString(), women: womenResult.reason.toString() }) };
   }
 
   return {

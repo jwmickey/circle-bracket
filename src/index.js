@@ -58,6 +58,7 @@ function showGameDetails(game, displaySeeds = true) {
 }
 
 function updateHash() {
+  // Men's bracket omits gender from the hash for backward compatibility (e.g. #2024 instead of #2024/men)
   const hashStr = gender === "women" ? `${year}/women` : `${year}`;
   history.replaceState(null, year.toString(), `#${hashStr}`);
 }
